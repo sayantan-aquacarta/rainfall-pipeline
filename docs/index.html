@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>India Rainfall Dashboard · IMD Daily</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg: #f7f9fc;
+    --card: #ffffff;
+    --text: #1a2332;
+    --muted: #6b7a90;
+    --border: #e3e8ef;
+    --accent: #2563eb;
+    --excess: #16a34a;
+    --normal: #64748b;
+    --deficit: #dc2626;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    background: var(--bg); color: var(--text); line-height: 1.5;
+  }
+  header {
+    background: var(--card); border-bottom: 1px solid var(--border);
+    padding: 1.25rem 2rem;
+  }
+  header h1 { margin: 0; font-size: 1.4rem; font-weight: 600; }
+  header p { margin: 0.25rem 0 0; color: var(--muted); font-size: 0.9rem; }
+  main { max-width: 1400px; margin: 0 auto; padding: 1.5rem; }
+  .row { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin-bottom: 1.5rem; }
+  .card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+    padding: 1.25rem;
+  }
+  .card h2 { margin: 0 0 1rem; font-size: 0.95rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }
+  .stat { font-size: 2rem; font-weight: 700; }
+  .stat-sub { color: var(--muted); font-size: 0.85rem; margin-top: 0.25rem; }
+  .controls {
+    display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center;
+    background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+    padding: 1rem; margin-bottom: 1.5rem;
+  }
+  .controls label { font-size: 0.85rem; color: var(--muted); margin-right: 0.5rem; }
+  select, input {
+    padding: 0.5rem 0.75rem; border: 1px solid var(--border); border-radius: 6px;
+    font-size: 0.9rem; background: white; min-width: 200px;
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+  th, td { text-align: left; padding: 0.6rem 0.75rem; border-bottom: 1px solid var(--border); }
+  th { background: #fafbfc; font-weight: 600; color: var(--muted); position: sticky; top: 0; }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  .cat { display: inline-block; padding: 2px 8px; border-radius: 3px; font-size: 0.75rem; font-weight: 600; color: white; }
+  .cat-LE, .cat-E { background: var(--excess); }
+  .cat-N { background: var(--normal); }
+  .cat-D, .cat-LD, .cat-NR { background: var(--deficit); }
+  .table-wrap { max-height: 600px; overflow-y: auto; border: 1px solid var(--border); border-radius: 6px; background: var(--card); }
+  .chart-wrap { position: relative; height: 320px; }
+  footer { text-align: center; color: var(--muted); font-size: 0.8rem; padding: 2rem 1rem; }
+  footer a { color: var(--accent); text-decoration: none; }
+  .loading { text-align: center; padding: 3rem; color: var(--muted); }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🌧️ India Rainfall Dashboard</h1>
+  <p>Daily district-level rainfall data scraped from the India Meteorological Department (IMD).
+     Last updated: <span id="last-updated">—</span></p>
+</header>
+
+<main>
+
+  <div class="row">
+    <div class="card"><h2>Latest data date</h2><div class="stat" id="stat-date">—</div><div class="stat-sub">IST</div></div>
+    <div class="card"><h2>Districts covered</h2><div class="stat" id="stat-districts">—</div><div class="stat-sub" id="stat-districts-sub">across India</div></div>
+    <div class="card"><h2>Days in archive</h2><div class="stat" id="stat-days">—</div><div class="stat-sub" id="stat-days-sub">—</div></div>
+    <div class="card"><h2>Total observations</h2><div class="stat" id="stat-rows">—</div><div class="stat-sub">across full archive</div></div>
+  </div>
+
+  <div class="controls">
+    <div><label>State</label><select id="state-select"><option value="">— pick a state —</option></select></div>
+    <div><label>District</label><select id="district-select"><option value="">— all districts —</option></select></div>
+    <div><label>Search</label><input id="search" type="text" placeholder="filter table…"></div>
+  </div>
+
+  <div class="row">
+    <div class="card">
+      <h2>Daily rainfall by category (latest day)</h2>
+      <div class="chart-wrap"><canvas id="cat-chart"></canvas></div>
+    </div>
+    <div class="card">
+      <h2>Cumulative seasonal rainfall — top 10 wettest districts</h2>
+      <div class="chart-wrap"><canvas id="top-chart"></canvas></div>
+    </div>
+  </div>
+
+  <div class="card" id="ts-card" style="display:none">
+    <h2 id="ts-title">Time series</h2>
+    <div class="chart-wrap"><canvas id="ts-chart"></canvas></div>
+  </div>
+
+  <div class="card" style="margin-top: 1.5rem">
+    <h2>Latest day · all districts</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr>
+          <th>State</th><th>District</th>
+          <th class="num">Today (mm)</th><th class="num">Normal</th><th class="num">Dep%</th><th>Cat</th>
+          <th class="num">Season (mm)</th><th class="num">Normal</th><th class="num">Dep%</th><th>Cat</th>
+        </tr></thead>
+        <tbody id="data-tbody"><tr><td colspan="10" class="loading">Loading…</td></tr></tbody>
+      </table>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <p>Source: <a href="https://mausam.imd.gov.in/imd_latest/contents/rainfall_statistics_3.php" target="_blank" rel="noopener">IMD District Rainfall Distribution</a> ·
+     Pipeline: <a href="https://github.com/your-org/rainfall-pipeline" target="_blank" rel="noopener">GitHub</a> ·
+     <a href="api/index.json">JSON API</a></p>
+  <p>Data reproduced for research/educational purposes. © India Meteorological Department, Ministry of Earth Sciences.</p>
+</footer>
+
+<script>
+const API_BASE = "api";
+let LATEST = null;
+let STATES = [];
+let charts = {};
+
+const slug = s => s.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"") || "unknown";
+const fmt = (v, dp=1) => v == null ? "—" : Number(v).toFixed(dp);
+const catBadge = c => c ? `<span class="cat cat-${c}">${c}</span>` : "—";
+
+async function getJSON(path) {
+  const r = await fetch(`${API_BASE}/${path}`);
+  if (!r.ok) throw new Error(`${path}: ${r.status}`);
+  return r.json();
+}
+
+async function init() {
+  try {
+    const [index, latest, states] = await Promise.all([
+      getJSON("index.json"), getJSON("latest.json"), getJSON("states.json"),
+    ]);
+    LATEST = latest;
+    STATES = states.states;
+    renderStats(index);
+    renderTable(latest.rows);
+    renderCategoryChart(latest.rows);
+    renderTopChart(latest.rows);
+    populateStateDropdown();
+    document.getElementById("last-updated").textContent = new Date(index.generated_at).toLocaleString();
+  } catch (e) {
+    document.getElementById("data-tbody").innerHTML =
+      `<tr><td colspan="10" class="loading">Failed to load data: ${e.message}</td></tr>`;
+  }
+}
+
+function renderStats(idx) {
+  document.getElementById("stat-date").textContent = idx.last_date;
+  document.getElementById("stat-districts").textContent = idx.n_districts.toLocaleString();
+  document.getElementById("stat-districts-sub").textContent = `across ${idx.n_states} states`;
+  document.getElementById("stat-days").textContent = idx.n_dates.toLocaleString();
+  document.getElementById("stat-days-sub").textContent = `${idx.first_date} → ${idx.last_date}`;
+  document.getElementById("stat-rows").textContent = idx.row_count.toLocaleString();
+}
+
+function renderTable(rows) {
+  const districts = rows.filter(r => r.level === "district");
+  const search = document.getElementById("search").value.toLowerCase();
+  const stateFilter = document.getElementById("state-select").value;
+  const distFilter = document.getElementById("district-select").value;
+  const filtered = districts.filter(r =>
+    (!stateFilter || r.state === stateFilter) &&
+    (!distFilter || r.district === distFilter) &&
+    (!search || (r.district || "").toLowerCase().includes(search) || (r.state || "").toLowerCase().includes(search))
+  );
+  const tbody = document.getElementById("data-tbody");
+  if (!filtered.length) {
+    tbody.innerHTML = `<tr><td colspan="10" class="loading">No matching rows</td></tr>`;
+    return;
+  }
+  tbody.innerHTML = filtered.map(r => `
+    <tr>
+      <td>${r.state || ""}</td><td>${r.district || ""}</td>
+      <td class="num">${fmt(r.day_actual_mm)}</td>
+      <td class="num">${fmt(r.day_normal_mm)}</td>
+      <td class="num">${r.day_departure_pct == null ? "—" : r.day_departure_pct + "%"}</td>
+      <td>${catBadge(r.day_category)}</td>
+      <td class="num">${fmt(r.period_actual_mm)}</td>
+      <td class="num">${fmt(r.period_normal_mm)}</td>
+      <td class="num">${r.period_departure_pct == null ? "—" : r.period_departure_pct + "%"}</td>
+      <td>${catBadge(r.period_category)}</td>
+    </tr>`).join("");
+}
+
+function renderCategoryChart(rows) {
+  const districts = rows.filter(r => r.level === "district" && r.day_category);
+  const counts = {};
+  districts.forEach(r => { counts[r.day_category] = (counts[r.day_category]||0) + 1; });
+  const order = ["LE","E","N","D","LD","NR"];
+  const labels = order.filter(c => counts[c]);
+  const labelNames = {"LE":"Large Excess","E":"Excess","N":"Normal","D":"Deficient","LD":"Large Deficient","NR":"No Rain"};
+  const colors = {"LE":"#16a34a","E":"#65a30d","N":"#64748b","D":"#f97316","LD":"#dc2626","NR":"#7f1d1d"};
+  if (charts.cat) charts.cat.destroy();
+  charts.cat = new Chart(document.getElementById("cat-chart"), {
+    type: "doughnut",
+    data: {
+      labels: labels.map(c => `${labelNames[c]} (${counts[c]})`),
+      datasets: [{ data: labels.map(c => counts[c]), backgroundColor: labels.map(c => colors[c]) }],
+    },
+    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: "right" } } },
+  });
+}
+
+function renderTopChart(rows) {
+  const districts = rows
+    .filter(r => r.level === "district" && r.period_actual_mm != null)
+    .sort((a,b) => b.period_actual_mm - a.period_actual_mm)
+    .slice(0, 10);
+  if (charts.top) charts.top.destroy();
+  charts.top = new Chart(document.getElementById("top-chart"), {
+    type: "bar",
+    data: {
+      labels: districts.map(r => `${r.district} (${r.state})`),
+      datasets: [{ label: "Cumulative rainfall (mm)", data: districts.map(r => r.period_actual_mm), backgroundColor: "#2563eb" }],
+    },
+    options: { indexAxis: "y", responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } },
+  });
+}
+
+function populateStateDropdown() {
+  const sel = document.getElementById("state-select");
+  STATES.sort((a,b) => a.name.localeCompare(b.name));
+  STATES.forEach(s => {
+    const opt = document.createElement("option");
+    opt.value = s.name; opt.textContent = `${s.name} (${s.n_districts})`;
+    sel.appendChild(opt);
+  });
+}
+
+document.getElementById("state-select").addEventListener("change", async (e) => {
+  const distSel = document.getElementById("district-select");
+  distSel.innerHTML = '<option value="">— all districts —</option>';
+  document.getElementById("ts-card").style.display = "none";
+  if (!e.target.value) { renderTable(LATEST.rows); return; }
+  try {
+    const data = await getJSON(`by-state/${slug(e.target.value)}.json`);
+    data.districts.forEach(d => {
+      const opt = document.createElement("option");
+      opt.value = d; opt.textContent = d;
+      distSel.appendChild(opt);
+    });
+    renderTable(LATEST.rows);
+  } catch (err) { console.error(err); }
+});
+
+document.getElementById("district-select").addEventListener("change", async (e) => {
+  const state = document.getElementById("state-select").value;
+  if (!e.target.value || !state) { document.getElementById("ts-card").style.display = "none"; renderTable(LATEST.rows); return; }
+  try {
+    const data = await getJSON(`by-district/${slug(state + "-" + e.target.value)}.json`);
+    renderTimeSeries(data);
+    renderTable(LATEST.rows);
+  } catch (err) { console.error(err); }
+});
+
+function renderTimeSeries(d) {
+  const card = document.getElementById("ts-card");
+  card.style.display = "block";
+  document.getElementById("ts-title").textContent = `Time series — ${d.district}, ${d.state}`;
+  const sorted = d.rows.slice().sort((a,b) => a.date.localeCompare(b.date));
+  if (charts.ts) charts.ts.destroy();
+  charts.ts = new Chart(document.getElementById("ts-chart"), {
+    type: "line",
+    data: {
+      labels: sorted.map(r => r.date),
+      datasets: [
+        { label: "Daily actual (mm)", data: sorted.map(r => r.day_actual_mm), borderColor: "#2563eb", backgroundColor: "rgba(37,99,235,0.1)", tension: 0.2 },
+        { label: "Daily normal (mm)", data: sorted.map(r => r.day_normal_mm), borderColor: "#94a3b8", borderDash: [4,4], tension: 0.2 },
+      ],
+    },
+    options: { responsive: true, maintainAspectRatio: false, interaction: { mode: "index", intersect: false } },
+  });
+}
+
+document.getElementById("search").addEventListener("input", () => renderTable(LATEST.rows));
+
+init();
+</script>
+
+</body>
+</html>

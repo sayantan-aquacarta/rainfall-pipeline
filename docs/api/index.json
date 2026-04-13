@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-04-13T11:02:11.632733+00:00",
+  "first_date": "2026-04-13",
+  "last_date": "2026-04-13",
+  "n_dates": 1,
+  "n_states": 44,
+  "n_districts": 705,
+  "row_count": 771,
+  "endpoints": {
+    "latest": "/api/latest.json",
+    "by_date": "/api/by-date/{YYYY-MM-DD}.json",
+    "by_state": "/api/by-state/{slug}.json",
+    "by_district": "/api/by-district/{slug}.json",
+    "states_list": "/api/states.json"
+  }
+}

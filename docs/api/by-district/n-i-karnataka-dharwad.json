@@ -1,0 +1,25 @@
+{
+  "state": "N. I. KARNATAKA",
+  "district": "DHARWAD",
+  "row_count": 1,
+  "rows": [
+    {
+      "date": "2026-04-13",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-13",
+      "level": "district",
+      "subdivision": "N. I. KARNATAKA",
+      "state": "N. I. KARNATAKA",
+      "district": "DHARWAD",
+      "day_actual_mm": 5.3,
+      "day_normal_mm": 1.2,
+      "day_departure_pct": 339.0,
+      "day_category": "LE",
+      "period_actual_mm": 116.1,
+      "period_normal_mm": 24.6,
+      "period_departure_pct": 372.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-13T11:02:09"
+    }
+  ]
+}

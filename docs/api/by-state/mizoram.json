@@ -1,0 +1,65 @@
+{
+  "state": "MIZORAM",
+  "row_count": 3,
+  "districts": [
+    "AIZWAL",
+    "SAIHA",
+    "SERCHHIP"
+  ],
+  "rows": [
+    {
+      "date": "2026-04-13",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-13",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "MIZORAM",
+      "district": "AIZWAL",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 5.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 203.6,
+      "period_normal_mm": 146.2,
+      "period_departure_pct": 39.0,
+      "period_category": "E",
+      "scraped_at": "2026-04-13T11:02:09"
+    },
+    {
+      "date": "2026-04-13",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-13",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "MIZORAM",
+      "district": "SAIHA",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 3.4,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 80.2,
+      "period_normal_mm": 85.3,
+      "period_departure_pct": -6.0,
+      "period_category": "N",
+      "scraped_at": "2026-04-13T11:02:09"
+    },
+    {
+      "date": "2026-04-13",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-13",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "MIZORAM",
+      "district": "SERCHHIP",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 4.1,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 92.0,
+      "period_normal_mm": 120.3,
+      "period_departure_pct": -24.0,
+      "period_category": "D",
+      "scraped_at": "2026-04-13T11:02:09"
+    }
+  ]
+}

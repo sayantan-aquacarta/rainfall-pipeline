@@ -1,0 +1,25 @@
+{
+  "state": "ARUNACHAL PRADESH",
+  "district": "EAST SIANG",
+  "row_count": 1,
+  "rows": [
+    {
+      "date": "2026-04-13",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-13",
+      "level": "district",
+      "subdivision": "ARUNACHAL PRADESH",
+      "state": "ARUNACHAL PRADESH",
+      "district": "EAST SIANG",
+      "day_actual_mm": 0.2,
+      "day_normal_mm": 7.8,
+      "day_departure_pct": -97.0,
+      "day_category": "LD",
+      "period_actual_mm": 488.7,
+      "period_normal_mm": 254.5,
+      "period_departure_pct": 92.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-13T11:02:09"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "state": "JAMMU & KASHMIR(UT)",
+  "district": "SHOPIAN",
+  "row_count": 1,
+  "rows": [
+    {
+      "date": "2026-04-13",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-13",
+      "level": "district",
+      "subdivision": "J & K AND LADAKH",
+      "state": "JAMMU & KASHMIR(UT)",
+      "district": "SHOPIAN",
+      "day_actual_mm": 0.3,
+      "day_normal_mm": 0.4,
+      "day_departure_pct": -38.0,
+      "day_category": "D",
+      "period_actual_mm": 51.8,
+      "period_normal_mm": 153.8,
+      "period_departure_pct": -66.0,
+      "period_category": "LD",
+      "scraped_at": "2026-04-13T11:02:09"
+    }
+  ]
+}

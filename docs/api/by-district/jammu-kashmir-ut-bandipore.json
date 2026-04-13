@@ -1,0 +1,25 @@
+{
+  "state": "JAMMU & KASHMIR(UT)",
+  "district": "BANDIPORE",
+  "row_count": 1,
+  "rows": [
+    {
+      "date": "2026-04-13",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-13",
+      "level": "district",
+      "subdivision": "J & K AND LADAKH",
+      "state": "JAMMU & KASHMIR(UT)",
+      "district": "BANDIPORE",
+      "day_actual_mm": 0.5,
+      "day_normal_mm": 1.2,
+      "day_departure_pct": -58.0,
+      "day_category": "D",
+      "period_actual_mm": 123.3,
+      "period_normal_mm": 159.6,
+      "period_departure_pct": -23.0,
+      "period_category": "D",
+      "scraped_at": "2026-04-13T11:02:09"
+    }
+  ]
+}

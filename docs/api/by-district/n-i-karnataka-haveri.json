@@ -1,0 +1,25 @@
+{
+  "state": "N. I. KARNATAKA",
+  "district": "HAVERI",
+  "row_count": 1,
+  "rows": [
+    {
+      "date": "2026-04-13",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-13",
+      "level": "district",
+      "subdivision": "N. I. KARNATAKA",
+      "state": "N. I. KARNATAKA",
+      "district": "HAVERI",
+      "day_actual_mm": 0.2,
+      "day_normal_mm": 1.4,
+      "day_departure_pct": -86.0,
+      "day_category": "LD",
+      "period_actual_mm": 55.6,
+      "period_normal_mm": 21.7,
+      "period_departure_pct": 156.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-13T11:02:09"
+    }
+  ]
+}

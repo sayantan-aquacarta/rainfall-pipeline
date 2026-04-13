@@ -1,0 +1,25 @@
+{
+  "state": "EAST RAJASTHAN",
+  "district": "PRATAPGARH",
+  "row_count": 1,
+  "rows": [
+    {
+      "date": "2026-04-13",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-13",
+      "level": "district",
+      "subdivision": "EAST RAJASTHAN",
+      "state": "EAST RAJASTHAN",
+      "district": "PRATAPGARH",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.1,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 9.0,
+      "period_normal_mm": 2.0,
+      "period_departure_pct": 350.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-13T11:02:09"
+    }
+  ]
+}

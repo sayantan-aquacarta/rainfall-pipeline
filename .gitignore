@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Local env overrides
+.env
+
+# Local-only artifacts (DB will be regenerated; raw PDFs are committed for audit)
+# NOTE: data/ IS tracked — that's the whole point. Only ignore truly local files.
+*.log

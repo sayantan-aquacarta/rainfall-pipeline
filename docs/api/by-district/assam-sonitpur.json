@@ -1,0 +1,25 @@
+{
+  "state": "ASSAM",
+  "district": "SONITPUR",
+  "row_count": 1,
+  "rows": [
+    {
+      "date": "2026-04-13",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-13",
+      "level": "district",
+      "subdivision": "ASSAM & MEGHALAYA",
+      "state": "ASSAM",
+      "district": "SONITPUR",
+      "day_actual_mm": 2.1,
+      "day_normal_mm": 2.8,
+      "day_departure_pct": -25.0,
+      "day_category": "D",
+      "period_actual_mm": 192.1,
+      "period_normal_mm": 91.2,
+      "period_departure_pct": 111.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-13T11:02:09"
+    }
+  ]
+}
