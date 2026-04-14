@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-13T11:45:21.145503+00:00",
+  "generated_at": "2026-04-14T10:44:30.588158+00:00",
   "states": [
     {
       "name": "A & N ISLAND",
@@ -89,7 +89,7 @@
     {
       "name": "JHARKHAND",
       "slug": "jharkhand",
-      "n_districts": 23
+      "n_districts": 24
     },
     {
       "name": "KERALA",
@@ -129,7 +129,7 @@
     {
       "name": "MIZORAM",
       "slug": "mizoram",
-      "n_districts": 3
+      "n_districts": 4
     },
     {
       "name": "N. I. KARNATAKA",

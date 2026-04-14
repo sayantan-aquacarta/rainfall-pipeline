@@ -1,7 +1,7 @@
 {
   "state": "WEST UTTAR PRADESH",
   "district": "SHAHJAHANPUR",
-  "row_count": 1,
+  "row_count": 2,
   "rows": [
     {
       "date": "2026-04-13",
@@ -20,6 +20,24 @@
       "period_departure_pct": 18.0,
       "period_category": "N",
       "scraped_at": "2026-04-13T11:45:17"
+    },
+    {
+      "date": "2026-04-14",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-14",
+      "level": "district",
+      "subdivision": "WEST UTTAR PRADESH",
+      "state": "WEST UTTAR PRADESH",
+      "district": "SHAHJAHANPUR",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.2,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 15.1,
+      "period_normal_mm": 13.0,
+      "period_departure_pct": 16.0,
+      "period_category": "N",
+      "scraped_at": "2026-04-14T10:44:26"
     }
   ]
 }
