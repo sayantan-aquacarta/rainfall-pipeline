@@ -22,7 +22,7 @@ from .api_builder import build_all
 from .config import CONFIG
 from .logging_setup import configure_logging, get_logger
 from .parser import parse_pdf, to_dataframe
-from .scraper import ScrapeError, fetch_pdf, save_pdf
+from .scraper import ScrapeError, fetch_pdf, prune_old_pdfs, save_pdf
 from .storage import init_db, log_run, query_db, upsert_rainfall, write_csv, write_parquet_snapshot
 from .validator import ValidationError, validate
 
@@ -69,6 +69,14 @@ def scrape(rebuild_api: bool, snapshot: bool) -> None:
             write_parquet_snapshot()
         if rebuild_api:
             build_all()
+
+        # Prune old PDFs — defensive: a failure here must never fail the scrape
+        try:
+            prune_stats = prune_old_pdfs()
+            if prune_stats["deleted"]:
+                log.info("pdf_retention_pruned", **prune_stats)
+        except Exception as prune_exc:
+            log.warning("pdf_retention_prune_error", error=str(prune_exc))
 
         duration = time.monotonic() - started
         log_run(scraped_at, data_date, pdf_sha, n_rows, "success", None, duration)

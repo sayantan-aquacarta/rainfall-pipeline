@@ -43,6 +43,12 @@ class Config:
     # Always upsert on PK conflict, but log when values change (data revisions).
     enable_revision_log: bool = True
 
+    # --- PDF retention ---
+    # Keep only the most recent N days of raw PDFs in data/raw_pdf/.
+    # Older files are pruned automatically after each successful scrape.
+    # Override via RAINFALL_PDF_RETENTION_DAYS env var (set to 0 to keep forever).
+    pdf_retention_days: int = 30
+
     @classmethod
     def from_env(cls) -> "Config":
         """Allow overrides via env vars; useful for testing."""
@@ -56,6 +62,8 @@ class Config:
             kwargs["raw_pdf_dir"] = base / "raw_pdf"
             kwargs["sqlite_path"] = base / "rainfall.db"
             kwargs["parquet_path"] = base / "rainfall.parquet"
+        if v := os.getenv("RAINFALL_PDF_RETENTION_DAYS"):
+            kwargs["pdf_retention_days"] = int(v)
         return cls(**kwargs)
 
     def ensure_dirs(self) -> None:

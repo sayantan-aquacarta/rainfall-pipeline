@@ -77,12 +77,14 @@ pytest
 ```
 
 The scrape command runs end-to-end in ~10 seconds and produces:
-- `data/raw_pdf/imd_YYYY-MM-DD_<sha>.pdf` — raw PDF (audit trail)
+- `data/raw_pdf/imd_YYYY-MM-DD_<sha>.pdf` — raw PDF (audit trail, last 30 days)
 - `data/raw/rainfall_YYYY-MM-DD.csv` — per-day versioned CSV
 - `data/rainfall.db` — SQLite (full history, indexed)
 - `data/rainfall.parquet` — compressed snapshot for analytics
 - `docs/api/**` — static JSON files for the API
 - `docs/index.html` — dashboard (already in repo)
+
+> **PDF retention:** only the most recent 30 days of raw PDFs are kept in `data/raw_pdf/` (~24 MB cap). Older PDFs are auto-deleted after each successful scrape. The parsed data in SQLite, CSVs, and Parquet is never affected. Override the window with the `RAINFALL_PDF_RETENTION_DAYS` environment variable (set to `0` to keep all PDFs indefinitely).
 
 ---
 

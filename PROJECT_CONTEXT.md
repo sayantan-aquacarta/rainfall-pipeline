@@ -226,7 +226,8 @@ Aux tables: `scrape_runs` (every run logged) and `revisions` (every value change
 - [x] GitHub Actions daily cron
 - [x] Auto-open issue on failure
 - [x] GitHub Pages deploy job
-- [x] 19 passing tests
+- [x] **30-day PDF retention** — `prune_old_pdfs()` in `scraper.py` auto-deletes PDFs older than 30 days after each successful scrape, capping `data/raw_pdf/` at ~24 MB (~800 KB × 30). Configurable via `RAINFALL_PDF_RETENTION_DAYS` env var (set to `0` to keep forever).
+- [x] 25 passing tests
 
 ---
 
@@ -237,6 +238,7 @@ Aux tables: `scrape_runs` (every run logged) and `revisions` (every value change
 - **Subdivision count**: ~36 met-subdivisions is expected. Sometimes the parser extracts 42 — this is because single-district subdivisions like "BIHAR" or "DELHI" act as both subdivision AND state.
 - **State count**: dashboard shows ~44 "states" which includes composite subdivisions treated as state contexts. Real Indian states count is ~28 — this is a presentation quirk, not a data error.
 - **Cold boot**: if `data/rainfall.db` doesn't exist, `rainfall info` will fail. Run `rainfall scrape` once first to initialize.
+- **PDF retention**: only the most recent 30 days of raw PDFs are kept in `data/raw_pdf/`. Older files are deleted automatically after each successful scrape. The parsed data (SQLite, CSVs, Parquet) is never affected — only the forensic PDF archive is trimmed. Override the window with `RAINFALL_PDF_RETENTION_DAYS=N` (set to `0` for unlimited). A pruning failure logs a warning but never aborts the scrape.
 
 ---
 
@@ -276,5 +278,5 @@ Aux tables: `scrape_runs` (every run logged) and `revisions` (every value change
 
 ---
 
-**Last updated:** 2026-04-14 by Claude (Opus 4.6) in a Claude.ai chat session.
+**Last updated:** 2026-04-14 by Claude (Sonnet 4.6) in a Cowork session — added 30-day PDF retention feature.
 **If this file is stale:** check `README.md` for anything newer, and `git log` for recent commits.
