@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-14T10:44:30.588158+00:00",
+  "generated_at": "2026-04-15T10:41:02.193109+00:00",
   "states": [
     {
       "name": "A & N ISLAND",
@@ -9,7 +9,7 @@
     {
       "name": "ARUNACHAL PRADESH",
       "slug": "arunachal-pradesh",
-      "n_districts": 11
+      "n_districts": 12
     },
     {
       "name": "ASSAM",
@@ -129,7 +129,7 @@
     {
       "name": "MIZORAM",
       "slug": "mizoram",
-      "n_districts": 4
+      "n_districts": 5
     },
     {
       "name": "N. I. KARNATAKA",

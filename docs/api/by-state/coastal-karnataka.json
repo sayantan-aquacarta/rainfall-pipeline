@@ -1,6 +1,6 @@
 {
   "state": "COASTAL KARNATAKA",
-  "row_count": 6,
+  "row_count": 9,
   "districts": [
     "DAKSHINA KANNADA",
     "UDUPI",
@@ -114,6 +114,60 @@
       "period_departure_pct": 152.0,
       "period_category": "LE",
       "scraped_at": "2026-04-14T10:44:26"
+    },
+    {
+      "date": "2026-04-15",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-15",
+      "level": "district",
+      "subdivision": "COASTAL KARNATAKA",
+      "state": "COASTAL KARNATAKA",
+      "district": "DAKSHINA KANNADA",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 2.4,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 25.7,
+      "period_normal_mm": 39.2,
+      "period_departure_pct": -34.0,
+      "period_category": "D",
+      "scraped_at": "2026-04-15T10:40:58"
+    },
+    {
+      "date": "2026-04-15",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-15",
+      "level": "district",
+      "subdivision": "COASTAL KARNATAKA",
+      "state": "COASTAL KARNATAKA",
+      "district": "UDUPI",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.9,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 28.5,
+      "period_normal_mm": 20.7,
+      "period_departure_pct": 37.0,
+      "period_category": "E",
+      "scraped_at": "2026-04-15T10:40:58"
+    },
+    {
+      "date": "2026-04-15",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-15",
+      "level": "district",
+      "subdivision": "COASTAL KARNATAKA",
+      "state": "COASTAL KARNATAKA",
+      "district": "UTTARA KANNADA",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.9,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 31.8,
+      "period_normal_mm": 13.5,
+      "period_departure_pct": 135.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-15T10:40:58"
     }
   ]
 }
