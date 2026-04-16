@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-15T10:41:02.193109+00:00",
+  "generated_at": "2026-04-16T10:44:55.019074+00:00",
   "states": [
     {
       "name": "A & N ISLAND",
@@ -69,7 +69,7 @@
     {
       "name": "GUJARAT REGION",
       "slug": "gujarat-region",
-      "n_districts": 21
+      "n_districts": 22
     },
     {
       "name": "HARYANA",
@@ -169,7 +169,7 @@
     {
       "name": "SAURASHTRA & KUTCH",
       "slug": "saurashtra-kutch",
-      "n_districts": 13
+      "n_districts": 14
     },
     {
       "name": "SIKKIM",

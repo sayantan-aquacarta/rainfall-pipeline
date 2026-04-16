@@ -1,7 +1,7 @@
 {
   "state": "TRIPURA",
   "district": "WEST TRIPURA",
-  "row_count": 3,
+  "row_count": 4,
   "rows": [
     {
       "date": "2026-04-13",
@@ -56,6 +56,24 @@
       "period_departure_pct": 24.0,
       "period_category": "E",
       "scraped_at": "2026-04-15T10:40:58"
+    },
+    {
+      "date": "2026-04-16",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-16",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "TRIPURA",
+      "district": "WEST TRIPURA",
+      "day_actual_mm": 14.9,
+      "day_normal_mm": 4.9,
+      "day_departure_pct": 204.0,
+      "day_category": "LE",
+      "period_actual_mm": 170.2,
+      "period_normal_mm": 129.7,
+      "period_departure_pct": 31.0,
+      "period_category": "E",
+      "scraped_at": "2026-04-16T10:44:51"
     }
   ]
 }
