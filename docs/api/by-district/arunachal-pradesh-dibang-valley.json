@@ -1,7 +1,7 @@
 {
   "state": "ARUNACHAL PRADESH",
   "district": "DIBANG VALLEY",
-  "row_count": 3,
+  "row_count": 4,
   "rows": [
     {
       "date": "2026-04-13",
@@ -56,6 +56,24 @@
       "period_departure_pct": -88.0,
       "period_category": "LD",
       "scraped_at": "2026-04-15T10:40:58"
+    },
+    {
+      "date": "2026-04-17",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-17",
+      "level": "district",
+      "subdivision": "ARUNACHAL PRADESH",
+      "state": "ARUNACHAL PRADESH",
+      "district": "DIBANG VALLEY",
+      "day_actual_mm": 4.0,
+      "day_normal_mm": 8.1,
+      "day_departure_pct": -51.0,
+      "day_category": "D",
+      "period_actual_mm": 77.5,
+      "period_normal_mm": 575.3,
+      "period_departure_pct": -87.0,
+      "period_category": "LD",
+      "scraped_at": "2026-04-17T10:36:55"
     }
   ]
 }

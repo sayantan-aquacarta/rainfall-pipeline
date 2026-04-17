@@ -1,7 +1,7 @@
 {
   "state": "ODISHA",
   "district": "PURI",
-  "row_count": 4,
+  "row_count": 5,
   "rows": [
     {
       "date": "2026-04-13",
@@ -74,6 +74,24 @@
       "period_departure_pct": 92.0,
       "period_category": "LE",
       "scraped_at": "2026-04-16T10:44:51"
+    },
+    {
+      "date": "2026-04-17",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-17",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "PURI",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.4,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 44.8,
+      "period_normal_mm": 23.7,
+      "period_departure_pct": 89.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-17T10:36:55"
     }
   ]
 }

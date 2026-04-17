@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T10:44:55.019074+00:00",
+  "generated_at": "2026-04-17T10:36:59.214748+00:00",
   "states": [
     {
       "name": "A & N ISLAND",
@@ -9,12 +9,12 @@
     {
       "name": "ARUNACHAL PRADESH",
       "slug": "arunachal-pradesh",
-      "n_districts": 12
+      "n_districts": 14
     },
     {
       "name": "ASSAM",
       "slug": "assam",
-      "n_districts": 30
+      "n_districts": 32
     },
     {
       "name": "BIHAR",
@@ -139,7 +139,7 @@
     {
       "name": "NAGALAND",
       "slug": "nagaland",
-      "n_districts": 5
+      "n_districts": 6
     },
     {
       "name": "ODISHA",

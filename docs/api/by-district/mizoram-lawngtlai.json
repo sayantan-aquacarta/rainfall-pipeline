@@ -1,7 +1,7 @@
 {
   "state": "MIZORAM",
   "district": "LAWNGTLAI",
-  "row_count": 3,
+  "row_count": 4,
   "rows": [
     {
       "date": "2026-04-14",
@@ -56,6 +56,24 @@
       "period_departure_pct": -55.0,
       "period_category": "D",
       "scraped_at": "2026-04-16T10:44:51"
+    },
+    {
+      "date": "2026-04-17",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-17",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "MIZORAM",
+      "district": "LAWNGTLAI",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 6.2,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 37.0,
+      "period_normal_mm": 87.9,
+      "period_departure_pct": -58.0,
+      "period_category": "D",
+      "scraped_at": "2026-04-17T10:36:55"
     }
   ]
 }
