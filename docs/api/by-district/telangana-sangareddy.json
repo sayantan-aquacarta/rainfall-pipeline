@@ -1,7 +1,7 @@
 {
   "state": "TELANGANA",
   "district": "SANGAREDDY",
-  "row_count": 8,
+  "row_count": 7,
   "rows": [
     {
       "date": "2026-04-13",
@@ -128,24 +128,6 @@
       "period_departure_pct": -25.0,
       "period_category": "D",
       "scraped_at": "2026-04-20T07:43:13"
-    },
-    {
-      "date": "2026-04-20",
-      "period_start": "2026-03-01",
-      "period_end": "2026-04-20",
-      "level": "district",
-      "subdivision": "TELANGANA",
-      "state": "TELANGANA",
-      "district": "SANGAREDDY",
-      "day_actual_mm": 10.5,
-      "day_normal_mm": 0.7,
-      "day_departure_pct": 1394.0,
-      "day_category": "LE",
-      "period_actual_mm": 31.0,
-      "period_normal_mm": 28.2,
-      "period_departure_pct": 10.0,
-      "period_category": "N",
-      "scraped_at": "2026-04-20T11:07:58"
     }
   ]
 }

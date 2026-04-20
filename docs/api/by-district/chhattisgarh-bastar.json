@@ -1,7 +1,7 @@
 {
   "state": "CHHATTISGARH",
   "district": "BASTAR",
-  "row_count": 8,
+  "row_count": 7,
   "rows": [
     {
       "date": "2026-04-13",
@@ -128,24 +128,6 @@
       "period_departure_pct": 10.0,
       "period_category": "N",
       "scraped_at": "2026-04-20T07:43:13"
-    },
-    {
-      "date": "2026-04-20",
-      "period_start": "2026-03-01",
-      "period_end": "2026-04-20",
-      "level": "district",
-      "subdivision": "CHHATTISGARH",
-      "state": "CHHATTISGARH",
-      "district": "BASTAR",
-      "day_actual_mm": 5.0,
-      "day_normal_mm": 1.1,
-      "day_departure_pct": 357.0,
-      "day_category": "LE",
-      "period_actual_mm": 43.4,
-      "period_normal_mm": 35.9,
-      "period_departure_pct": 21.0,
-      "period_category": "E",
-      "scraped_at": "2026-04-20T11:07:58"
     }
   ]
 }

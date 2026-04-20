@@ -1,7 +1,7 @@
 {
   "state": "KARNATAKA",
   "district": "VIJAYAPURA",
-  "row_count": 8,
+  "row_count": 7,
   "rows": [
     {
       "date": "2026-04-13",
@@ -128,24 +128,6 @@
       "period_departure_pct": -39.0,
       "period_category": "D",
       "scraped_at": "2026-04-20T07:43:13"
-    },
-    {
-      "date": "2026-04-20",
-      "period_start": "2026-03-01",
-      "period_end": "2026-04-20",
-      "level": "district",
-      "subdivision": "N. I. KARNATAKA",
-      "state": "KARNATAKA",
-      "district": "VIJAYAPURA",
-      "day_actual_mm": 0.9,
-      "day_normal_mm": 0.0,
-      "day_departure_pct": 9043.0,
-      "day_category": "LE",
-      "period_actual_mm": 11.1,
-      "period_normal_mm": 16.8,
-      "period_departure_pct": -34.0,
-      "period_category": "D",
-      "scraped_at": "2026-04-20T11:07:58"
     }
   ]
 }
