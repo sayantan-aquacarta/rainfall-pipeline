@@ -34,6 +34,61 @@ from .logging_setup import get_logger
 log = get_logger(__name__)
 
 
+# ---------------------------------------------------------------------------
+# IMD Met-Subdivision → canonical Indian State/UT name
+#
+# IMD organises districts by meteorological subdivision, not administrative
+# state. Many states span multiple subdivisions (e.g. West Bengal appears as
+# both "WEST BENGAL" and "GANGETIC WEST BENGAL"). This mapping normalises
+# subdivision-derived state names to real Indian state/UT names so that the
+# dashboard state dropdown works correctly.
+#
+# When IMD adds new subdivisions or renames them, add entries here.
+# ---------------------------------------------------------------------------
+_STATE_NORMALISE: dict[str, str] = {
+    # West Bengal
+    "GANGETIC WEST BENGAL":         "WEST BENGAL",
+    # Uttar Pradesh
+    "EAST UTTAR PRADESH":           "UTTAR PRADESH",
+    "WEST UTTAR PRADESH":           "UTTAR PRADESH",
+    # Rajasthan
+    "EAST RAJASTHAN":               "RAJASTHAN",
+    "WEST RAJASTHAN":               "RAJASTHAN",
+    # Madhya Pradesh
+    "EAST MADHYA PRADESH":          "MADHYA PRADESH",
+    "WEST MADHYA PRADESH":          "MADHYA PRADESH",
+    # Karnataka
+    "COASTAL KARNATAKA":            "KARNATAKA",
+    "N. I. KARNATAKA":              "KARNATAKA",
+    "S. I. KARNATAKA":              "KARNATAKA",
+    # Andhra Pradesh
+    "COASTAL A. P. & YANAM":        "ANDHRA PRADESH",
+    "RAYALASEEMA":                  "ANDHRA PRADESH",
+    # Tamil Nadu + Puducherry UTs
+    "TAMIL. PUDU.& KARAIKAL":       "TAMIL NADU",
+    # Maharashtra
+    "KONKAN & GOA":                 "MAHARASHTRA",
+    "MADHYA MAHARASHTRA":           "MAHARASHTRA",
+    "MARATHWADA":                   "MAHARASHTRA",
+    "VIDARBHA":                     "MAHARASHTRA",
+    # Jammu & Kashmir / Ladakh
+    "J & K AND LADAKH":             "JAMMU & KASHMIR(UT)",
+    # HAR. CHD & DELHI composite
+    "HAR. CHD & DELHI":             "HARYANA",
+    # NMMT composite (Nagaland + Manipur + Mizoram + Tripura)
+    "NMMT":                         "NAGALAND",  # aggregate row; districts get correct states
+    # SHWB & SIKKIM composite (Sub-Himalayan West Bengal + Sikkim)
+    "SHWB & SIKKIM":                "SIKKIM",    # aggregate row; districts get correct states
+}
+
+
+def _normalise_state(state: str | None) -> str | None:
+    """Apply the normalisation map. Unknown names pass through unchanged."""
+    if state is None:
+        return None
+    return _STATE_NORMALISE.get(state, state)
+
+
 _DAY_RE = re.compile(
     r"DAY\s*:\s*(\d{2}\.\d{2}\.\d{4})\s*TO\s*(\d{2}\.\d{2}\.\d{4})", re.IGNORECASE
 )
@@ -213,7 +268,7 @@ def parse_pdf(pdf_bytes: bytes) -> ParsedDocument:
         if pl.is_bold:
             if serial is None:
                 # state header within composite subdivision
-                current_state = name
+                current_state = _normalise_state(name)
                 rows.append(_row(
                     level="state",
                     subdivision=current_subdivision,
@@ -235,7 +290,8 @@ def parse_pdf(pdf_bytes: bytes) -> ParsedDocument:
                     period=(per_actual_s, per_normal_s, per_pct_s, per_cat_s),
                 ))
         else:
-            district_state = current_state if current_state is not None else current_subdivision
+            raw_state = current_state if current_state is not None else current_subdivision
+            district_state = _normalise_state(raw_state)
             rows.append(_row(
                 level="district",
                 subdivision=current_subdivision,

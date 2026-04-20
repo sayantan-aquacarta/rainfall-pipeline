@@ -40,9 +40,26 @@ def test_minimum_subdivisions(parsed):
 def test_states_present(parsed):
     districts = [r for r in parsed.rows if r["level"] == "district"]
     states = {r["state"] for r in districts if r["state"]}
-    # Must include major states
-    expected = {"ASSAM", "MEGHALAYA", "ARUNACHAL PRADESH"}
-    assert expected.issubset(states), f"Missing states: {expected - states}"
+    # Must include major states using canonical names (not IMD subdivision names)
+    expected = {
+        "ASSAM", "MEGHALAYA", "ARUNACHAL PRADESH",
+        "WEST BENGAL",       # not "GANGETIC WEST BENGAL"
+        "UTTAR PRADESH",     # not "EAST UTTAR PRADESH" / "WEST UTTAR PRADESH"
+        "RAJASTHAN",         # not "EAST RAJASTHAN" / "WEST RAJASTHAN"
+        "MADHYA PRADESH",    # not split names
+        "MAHARASHTRA",       # not "VIDARBHA" / "MARATHWADA" etc.
+        "KARNATAKA",         # not split names
+        "ANDHRA PRADESH",    # not "COASTAL A. P. & YANAM" / "RAYALASEEMA"
+    }
+    assert expected.issubset(states), f"Missing canonical states: {expected - states}"
+    # Ensure subdivision names did NOT leak into state column
+    leaked = {
+        "GANGETIC WEST BENGAL", "EAST UTTAR PRADESH", "WEST UTTAR PRADESH",
+        "EAST RAJASTHAN", "WEST RAJASTHAN", "RAYALASEEMA",
+        "VIDARBHA", "MARATHWADA", "MADHYA MAHARASHTRA", "KONKAN & GOA",
+    }
+    leaking = leaked & states
+    assert not leaking, f"Subdivision names leaked into state column: {leaking}"
 
 
 def test_district_has_subdivision(parsed):
