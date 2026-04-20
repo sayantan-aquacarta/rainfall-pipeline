@@ -1,6 +1,6 @@
 {
   "state": "ODISHA",
-  "row_count": 150,
+  "row_count": 240,
   "districts": [
     "ANGUL",
     "BALASORE",
@@ -50,7 +50,7 @@
       "period_normal_mm": 30.8,
       "period_departure_pct": -37.0,
       "period_category": "D",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -68,7 +68,7 @@
       "period_normal_mm": 59.9,
       "period_departure_pct": 93.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -86,7 +86,7 @@
       "period_normal_mm": 16.9,
       "period_departure_pct": 61.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -104,7 +104,7 @@
       "period_normal_mm": 47.9,
       "period_departure_pct": 131.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -122,7 +122,7 @@
       "period_normal_mm": 18.2,
       "period_departure_pct": -4.0,
       "period_category": "N",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -140,7 +140,7 @@
       "period_normal_mm": 21.3,
       "period_departure_pct": -35.0,
       "period_category": "D",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -158,7 +158,7 @@
       "period_normal_mm": 32.7,
       "period_departure_pct": -16.0,
       "period_category": "N",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -176,7 +176,7 @@
       "period_normal_mm": 25.3,
       "period_departure_pct": 8.0,
       "period_category": "N",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -194,7 +194,7 @@
       "period_normal_mm": 34.3,
       "period_departure_pct": 26.0,
       "period_category": "E",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -212,7 +212,7 @@
       "period_normal_mm": 59.5,
       "period_departure_pct": 1.0,
       "period_category": "N",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -230,7 +230,7 @@
       "period_normal_mm": 40.0,
       "period_departure_pct": 7.0,
       "period_category": "N",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -248,7 +248,7 @@
       "period_normal_mm": 27.3,
       "period_departure_pct": 66.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -266,7 +266,7 @@
       "period_normal_mm": 42.8,
       "period_departure_pct": -5.0,
       "period_category": "N",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -284,7 +284,7 @@
       "period_normal_mm": 17.7,
       "period_departure_pct": 263.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -302,7 +302,7 @@
       "period_normal_mm": 22.0,
       "period_departure_pct": 24.0,
       "period_category": "E",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -320,7 +320,7 @@
       "period_normal_mm": 40.3,
       "period_departure_pct": -9.0,
       "period_category": "N",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -338,7 +338,7 @@
       "period_normal_mm": 37.8,
       "period_departure_pct": 12.0,
       "period_category": "N",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -356,7 +356,7 @@
       "period_normal_mm": 38.5,
       "period_departure_pct": 122.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -374,7 +374,7 @@
       "period_normal_mm": 31.5,
       "period_departure_pct": 94.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -392,7 +392,7 @@
       "period_normal_mm": 33.0,
       "period_departure_pct": 149.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -410,7 +410,7 @@
       "period_normal_mm": 18.0,
       "period_departure_pct": 177.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -428,7 +428,7 @@
       "period_normal_mm": 54.7,
       "period_departure_pct": 145.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -446,7 +446,7 @@
       "period_normal_mm": 18.6,
       "period_departure_pct": 76.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -464,7 +464,7 @@
       "period_normal_mm": 26.3,
       "period_departure_pct": 113.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -482,7 +482,7 @@
       "period_normal_mm": 41.0,
       "period_departure_pct": 44.0,
       "period_category": "E",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -500,7 +500,7 @@
       "period_normal_mm": 21.9,
       "period_departure_pct": 104.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -518,7 +518,7 @@
       "period_normal_mm": 45.4,
       "period_departure_pct": 2.0,
       "period_category": "N",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -536,7 +536,7 @@
       "period_normal_mm": 18.7,
       "period_departure_pct": 82.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -554,7 +554,7 @@
       "period_normal_mm": 17.0,
       "period_departure_pct": 10.0,
       "period_category": "N",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -572,7 +572,7 @@
       "period_normal_mm": 20.1,
       "period_departure_pct": 360.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-14",
@@ -590,7 +590,7 @@
       "period_normal_mm": 31.6,
       "period_departure_pct": -38.0,
       "period_category": "D",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -608,7 +608,7 @@
       "period_normal_mm": 61.1,
       "period_departure_pct": 89.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -626,7 +626,7 @@
       "period_normal_mm": 17.7,
       "period_departure_pct": 53.0,
       "period_category": "E",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -644,7 +644,7 @@
       "period_normal_mm": 50.4,
       "period_departure_pct": 119.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -662,7 +662,7 @@
       "period_normal_mm": 19.4,
       "period_departure_pct": -10.0,
       "period_category": "N",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -680,7 +680,7 @@
       "period_normal_mm": 21.7,
       "period_departure_pct": -36.0,
       "period_category": "D",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -698,7 +698,7 @@
       "period_normal_mm": 33.3,
       "period_departure_pct": -18.0,
       "period_category": "N",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -716,7 +716,7 @@
       "period_normal_mm": 26.3,
       "period_departure_pct": 4.0,
       "period_category": "N",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -734,7 +734,7 @@
       "period_normal_mm": 35.6,
       "period_departure_pct": 22.0,
       "period_category": "E",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -752,7 +752,7 @@
       "period_normal_mm": 62.1,
       "period_departure_pct": -4.0,
       "period_category": "N",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -770,7 +770,7 @@
       "period_normal_mm": 40.7,
       "period_departure_pct": 10.0,
       "period_category": "N",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -788,7 +788,7 @@
       "period_normal_mm": 28.1,
       "period_departure_pct": 61.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -806,7 +806,7 @@
       "period_normal_mm": 44.1,
       "period_departure_pct": -8.0,
       "period_category": "N",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -824,7 +824,7 @@
       "period_normal_mm": 18.9,
       "period_departure_pct": 240.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -842,7 +842,7 @@
       "period_normal_mm": 22.4,
       "period_departure_pct": 22.0,
       "period_category": "E",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -860,7 +860,7 @@
       "period_normal_mm": 41.6,
       "period_departure_pct": -10.0,
       "period_category": "N",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -878,7 +878,7 @@
       "period_normal_mm": 38.0,
       "period_departure_pct": 11.0,
       "period_category": "N",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -896,7 +896,7 @@
       "period_normal_mm": 40.4,
       "period_departure_pct": 112.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -914,7 +914,7 @@
       "period_normal_mm": 32.3,
       "period_departure_pct": 89.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -932,7 +932,7 @@
       "period_normal_mm": 34.5,
       "period_departure_pct": 138.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -950,7 +950,7 @@
       "period_normal_mm": 18.9,
       "period_departure_pct": 164.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -968,7 +968,7 @@
       "period_normal_mm": 56.1,
       "period_departure_pct": 139.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -986,7 +986,7 @@
       "period_normal_mm": 19.2,
       "period_departure_pct": 71.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -1004,7 +1004,7 @@
       "period_normal_mm": 28.2,
       "period_departure_pct": 98.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -1022,7 +1022,7 @@
       "period_normal_mm": 41.4,
       "period_departure_pct": 43.0,
       "period_category": "E",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -1040,7 +1040,7 @@
       "period_normal_mm": 22.6,
       "period_departure_pct": 98.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -1058,7 +1058,7 @@
       "period_normal_mm": 48.1,
       "period_departure_pct": -4.0,
       "period_category": "N",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -1076,7 +1076,7 @@
       "period_normal_mm": 19.4,
       "period_departure_pct": 76.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -1094,7 +1094,7 @@
       "period_normal_mm": 17.5,
       "period_departure_pct": 7.0,
       "period_category": "N",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -1112,7 +1112,7 @@
       "period_normal_mm": 21.0,
       "period_departure_pct": 340.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-15",
@@ -1130,7 +1130,7 @@
       "period_normal_mm": 32.1,
       "period_departure_pct": -39.0,
       "period_category": "D",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -1148,7 +1148,7 @@
       "period_normal_mm": 62.0,
       "period_departure_pct": 87.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -1166,7 +1166,7 @@
       "period_normal_mm": 18.2,
       "period_departure_pct": 49.0,
       "period_category": "E",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -1184,7 +1184,7 @@
       "period_normal_mm": 51.2,
       "period_departure_pct": 116.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -1202,7 +1202,7 @@
       "period_normal_mm": 20.2,
       "period_departure_pct": -14.0,
       "period_category": "N",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -1220,7 +1220,7 @@
       "period_normal_mm": 21.9,
       "period_departure_pct": -36.0,
       "period_category": "D",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -1238,7 +1238,7 @@
       "period_normal_mm": 33.6,
       "period_departure_pct": -18.0,
       "period_category": "N",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -1256,7 +1256,7 @@
       "period_normal_mm": 27.2,
       "period_departure_pct": 1.0,
       "period_category": "N",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -1274,7 +1274,7 @@
       "period_normal_mm": 36.0,
       "period_departure_pct": 20.0,
       "period_category": "E",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -1292,7 +1292,7 @@
       "period_normal_mm": 64.5,
       "period_departure_pct": -6.0,
       "period_category": "N",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -1310,7 +1310,7 @@
       "period_normal_mm": 41.3,
       "period_departure_pct": 8.0,
       "period_category": "N",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -1328,7 +1328,7 @@
       "period_normal_mm": 28.5,
       "period_departure_pct": 59.0,
       "period_category": "E",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -1346,7 +1346,7 @@
       "period_normal_mm": 44.5,
       "period_departure_pct": -9.0,
       "period_category": "N",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -1364,7 +1364,7 @@
       "period_normal_mm": 20.0,
       "period_departure_pct": 221.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -1382,7 +1382,7 @@
       "period_normal_mm": 22.9,
       "period_departure_pct": 22.0,
       "period_category": "E",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -1400,7 +1400,7 @@
       "period_normal_mm": 42.8,
       "period_departure_pct": -13.0,
       "period_category": "N",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -1418,7 +1418,7 @@
       "period_normal_mm": 38.1,
       "period_departure_pct": 11.0,
       "period_category": "N",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -1436,7 +1436,7 @@
       "period_normal_mm": 42.1,
       "period_departure_pct": 103.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -1454,7 +1454,7 @@
       "period_normal_mm": 32.8,
       "period_departure_pct": 86.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -1472,7 +1472,7 @@
       "period_normal_mm": 35.6,
       "period_departure_pct": 131.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -1490,7 +1490,7 @@
       "period_normal_mm": 19.6,
       "period_departure_pct": 154.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -1508,7 +1508,7 @@
       "period_normal_mm": 57.5,
       "period_departure_pct": 133.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -1526,7 +1526,7 @@
       "period_normal_mm": 20.0,
       "period_departure_pct": 64.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -1544,7 +1544,7 @@
       "period_normal_mm": 29.8,
       "period_departure_pct": 90.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -1562,7 +1562,7 @@
       "period_normal_mm": 42.3,
       "period_departure_pct": 40.0,
       "period_category": "E",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -1580,7 +1580,7 @@
       "period_normal_mm": 22.8,
       "period_departure_pct": 96.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -1598,7 +1598,7 @@
       "period_normal_mm": 49.8,
       "period_departure_pct": 3.0,
       "period_category": "N",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -1616,7 +1616,7 @@
       "period_normal_mm": 20.0,
       "period_departure_pct": 71.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -1634,7 +1634,7 @@
       "period_normal_mm": 17.7,
       "period_departure_pct": 6.0,
       "period_category": "N",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -1652,7 +1652,7 @@
       "period_normal_mm": 21.8,
       "period_departure_pct": 324.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-16",
@@ -1670,7 +1670,7 @@
       "period_normal_mm": 33.5,
       "period_departure_pct": -35.0,
       "period_category": "D",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -1688,7 +1688,7 @@
       "period_normal_mm": 63.9,
       "period_departure_pct": 81.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -1706,7 +1706,7 @@
       "period_normal_mm": 18.8,
       "period_departure_pct": 44.0,
       "period_category": "E",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -1724,7 +1724,7 @@
       "period_normal_mm": 52.8,
       "period_departure_pct": 109.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -1742,7 +1742,7 @@
       "period_normal_mm": 20.8,
       "period_departure_pct": -16.0,
       "period_category": "N",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -1760,7 +1760,7 @@
       "period_normal_mm": 23.0,
       "period_departure_pct": -39.0,
       "period_category": "D",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -1778,7 +1778,7 @@
       "period_normal_mm": 34.2,
       "period_departure_pct": -20.0,
       "period_category": "D",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -1796,7 +1796,7 @@
       "period_normal_mm": 27.4,
       "period_departure_pct": 0.0,
       "period_category": "N",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -1814,7 +1814,7 @@
       "period_normal_mm": 36.6,
       "period_departure_pct": 22.0,
       "period_category": "E",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -1832,7 +1832,7 @@
       "period_normal_mm": 67.7,
       "period_departure_pct": -11.0,
       "period_category": "N",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -1850,7 +1850,7 @@
       "period_normal_mm": 42.3,
       "period_departure_pct": 5.0,
       "period_category": "N",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -1868,7 +1868,7 @@
       "period_normal_mm": 29.0,
       "period_departure_pct": 56.0,
       "period_category": "E",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -1886,7 +1886,7 @@
       "period_normal_mm": 45.2,
       "period_departure_pct": -10.0,
       "period_category": "N",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -1904,7 +1904,7 @@
       "period_normal_mm": 21.0,
       "period_departure_pct": 206.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -1922,7 +1922,7 @@
       "period_normal_mm": 23.5,
       "period_departure_pct": 19.0,
       "period_category": "N",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -1940,7 +1940,7 @@
       "period_normal_mm": 44.1,
       "period_departure_pct": -15.0,
       "period_category": "N",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -1958,7 +1958,7 @@
       "period_normal_mm": 38.8,
       "period_departure_pct": 9.0,
       "period_category": "N",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -1976,7 +1976,7 @@
       "period_normal_mm": 44.2,
       "period_departure_pct": 93.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -1994,7 +1994,7 @@
       "period_normal_mm": 33.7,
       "period_departure_pct": 83.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -2012,7 +2012,7 @@
       "period_normal_mm": 37.0,
       "period_departure_pct": 122.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -2030,7 +2030,7 @@
       "period_normal_mm": 19.9,
       "period_departure_pct": 151.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -2048,7 +2048,7 @@
       "period_normal_mm": 60.0,
       "period_departure_pct": 123.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -2066,7 +2066,7 @@
       "period_normal_mm": 21.2,
       "period_departure_pct": 55.0,
       "period_category": "E",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -2084,7 +2084,7 @@
       "period_normal_mm": 30.4,
       "period_departure_pct": 86.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -2102,7 +2102,7 @@
       "period_normal_mm": 42.7,
       "period_departure_pct": 48.0,
       "period_category": "E",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -2120,7 +2120,7 @@
       "period_normal_mm": 23.3,
       "period_departure_pct": 92.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -2138,7 +2138,7 @@
       "period_normal_mm": 51.8,
       "period_departure_pct": -1.0,
       "period_category": "N",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -2156,7 +2156,7 @@
       "period_normal_mm": 20.5,
       "period_departure_pct": 66.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -2174,7 +2174,7 @@
       "period_normal_mm": 18.3,
       "period_departure_pct": 2.0,
       "period_category": "N",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -2192,7 +2192,7 @@
       "period_normal_mm": 22.7,
       "period_departure_pct": 307.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-17",
@@ -2210,7 +2210,7 @@
       "period_normal_mm": 34.1,
       "period_departure_pct": -37.0,
       "period_category": "D",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -2228,7 +2228,7 @@
       "period_normal_mm": 66.6,
       "period_departure_pct": 75.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -2246,7 +2246,7 @@
       "period_normal_mm": 19.2,
       "period_departure_pct": 41.0,
       "period_category": "E",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -2264,7 +2264,7 @@
       "period_normal_mm": 54.6,
       "period_departure_pct": 103.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -2282,7 +2282,7 @@
       "period_normal_mm": 21.5,
       "period_departure_pct": -19.0,
       "period_category": "N",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -2300,7 +2300,7 @@
       "period_normal_mm": 23.1,
       "period_departure_pct": -40.0,
       "period_category": "D",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -2318,7 +2318,7 @@
       "period_normal_mm": 34.6,
       "period_departure_pct": -21.0,
       "period_category": "D",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -2336,7 +2336,7 @@
       "period_normal_mm": 27.5,
       "period_departure_pct": 0.0,
       "period_category": "N",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -2354,7 +2354,7 @@
       "period_normal_mm": 37.5,
       "period_departure_pct": 19.0,
       "period_category": "N",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -2372,7 +2372,7 @@
       "period_normal_mm": 70.3,
       "period_departure_pct": -14.0,
       "period_category": "N",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -2390,7 +2390,7 @@
       "period_normal_mm": 43.4,
       "period_departure_pct": 3.0,
       "period_category": "N",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -2408,7 +2408,7 @@
       "period_normal_mm": 29.5,
       "period_departure_pct": 54.0,
       "period_category": "E",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -2426,7 +2426,7 @@
       "period_normal_mm": 45.8,
       "period_departure_pct": -11.0,
       "period_category": "N",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -2444,7 +2444,7 @@
       "period_normal_mm": 21.6,
       "period_departure_pct": 197.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -2462,7 +2462,7 @@
       "period_normal_mm": 24.9,
       "period_departure_pct": 12.0,
       "period_category": "N",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -2480,7 +2480,7 @@
       "period_normal_mm": 46.1,
       "period_departure_pct": -19.0,
       "period_category": "N",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -2498,7 +2498,7 @@
       "period_normal_mm": 39.3,
       "period_departure_pct": 8.0,
       "period_category": "N",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -2516,7 +2516,7 @@
       "period_normal_mm": 45.9,
       "period_departure_pct": 86.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -2534,7 +2534,7 @@
       "period_normal_mm": 34.7,
       "period_departure_pct": 77.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -2552,7 +2552,7 @@
       "period_normal_mm": 39.7,
       "period_departure_pct": 107.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -2570,7 +2570,7 @@
       "period_normal_mm": 23.1,
       "period_departure_pct": 116.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -2588,7 +2588,7 @@
       "period_normal_mm": 62.1,
       "period_departure_pct": 127.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -2606,7 +2606,7 @@
       "period_normal_mm": 21.9,
       "period_departure_pct": 50.0,
       "period_category": "E",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -2624,7 +2624,7 @@
       "period_normal_mm": 33.9,
       "period_departure_pct": 67.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -2642,7 +2642,7 @@
       "period_normal_mm": 43.3,
       "period_departure_pct": 46.0,
       "period_category": "E",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -2660,7 +2660,7 @@
       "period_normal_mm": 23.7,
       "period_departure_pct": 89.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -2678,7 +2678,7 @@
       "period_normal_mm": 52.8,
       "period_departure_pct": -1.0,
       "period_category": "N",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -2696,7 +2696,7 @@
       "period_normal_mm": 20.8,
       "period_departure_pct": 64.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -2714,7 +2714,7 @@
       "period_normal_mm": 18.4,
       "period_departure_pct": 2.0,
       "period_category": "N",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -2732,7 +2732,1627 @@
       "period_normal_mm": 22.9,
       "period_departure_pct": 304.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "ANGUL",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 1.3,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 21.7,
+      "period_normal_mm": 35.4,
+      "period_departure_pct": -39.0,
+      "period_category": "D",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "BALASORE",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 3.4,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 116.5,
+      "period_normal_mm": 70.0,
+      "period_departure_pct": 66.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "BARGARH",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.6,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 27.2,
+      "period_normal_mm": 19.8,
+      "period_departure_pct": 37.0,
+      "period_category": "E",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "BHADRAK",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 1.5,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 110.6,
+      "period_normal_mm": 56.1,
+      "period_departure_pct": 97.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "BOLANGIR",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.5,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 17.4,
+      "period_normal_mm": 22.0,
+      "period_departure_pct": -21.0,
+      "period_category": "D",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "BOUDHGARH",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.2,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 13.9,
+      "period_normal_mm": 23.3,
+      "period_departure_pct": -40.0,
+      "period_category": "D",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "CUTTACK",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.5,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 27.5,
+      "period_normal_mm": 35.1,
+      "period_departure_pct": -22.0,
+      "period_category": "D",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "DEOGARH",
+      "day_actual_mm": 1.2,
+      "day_normal_mm": 0.9,
+      "day_departure_pct": 33.0,
+      "day_category": "E",
+      "period_actual_mm": 28.6,
+      "period_normal_mm": 28.4,
+      "period_departure_pct": 1.0,
+      "period_category": "N",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "DHENKANAL",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.5,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 44.6,
+      "period_normal_mm": 38.0,
+      "period_departure_pct": 17.0,
+      "period_category": "N",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "GAJAPATI",
+      "day_actual_mm": 1.9,
+      "day_normal_mm": 2.2,
+      "day_departure_pct": -14.0,
+      "day_category": "N",
+      "period_actual_mm": 62.3,
+      "period_normal_mm": 72.5,
+      "period_departure_pct": -14.0,
+      "period_category": "N",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "GANJAM",
+      "day_actual_mm": 1.6,
+      "day_normal_mm": 1.0,
+      "day_departure_pct": 62.0,
+      "day_category": "LE",
+      "period_actual_mm": 46.2,
+      "period_normal_mm": 44.4,
+      "period_departure_pct": 4.0,
+      "period_category": "N",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "JAGATSINGHPUR",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.9,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 45.4,
+      "period_normal_mm": 30.4,
+      "period_departure_pct": 49.0,
+      "period_category": "E",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "JAJPUR",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.7,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 40.6,
+      "period_normal_mm": 46.5,
+      "period_departure_pct": -13.0,
+      "period_category": "N",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "JHARSUGUDA",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 1.1,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 64.2,
+      "period_normal_mm": 22.7,
+      "period_departure_pct": 183.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "KALAHANDI",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.8,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 28.0,
+      "period_normal_mm": 25.7,
+      "period_departure_pct": 9.0,
+      "period_category": "N",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "KANDHAMAL",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 2.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 37.4,
+      "period_normal_mm": 48.1,
+      "period_departure_pct": -22.0,
+      "period_category": "D",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "KENDRAPARA",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.2,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 42.3,
+      "period_normal_mm": 39.5,
+      "period_departure_pct": 7.0,
+      "period_category": "N",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "KEONJHARGARH",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 1.3,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 85.5,
+      "period_normal_mm": 47.2,
+      "period_departure_pct": 81.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "KHURDA",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.7,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 61.5,
+      "period_normal_mm": 35.4,
+      "period_departure_pct": 74.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "KORAPUT",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.7,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 82.2,
+      "period_normal_mm": 40.4,
+      "period_departure_pct": 103.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "MALKANGIRI",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.6,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 49.9,
+      "period_normal_mm": 23.7,
+      "period_departure_pct": 110.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "MAYURBHANJ",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 1.6,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 141.0,
+      "period_normal_mm": 63.7,
+      "period_departure_pct": 121.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "NAWAPARA",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.3,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 32.8,
+      "period_normal_mm": 22.2,
+      "period_departure_pct": 48.0,
+      "period_category": "E",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "NAWARANGPUR",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.8,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 56.6,
+      "period_normal_mm": 34.7,
+      "period_departure_pct": 63.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "NAYAGARH",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 1.2,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 63.4,
+      "period_normal_mm": 44.5,
+      "period_departure_pct": 42.0,
+      "period_category": "E",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "PURI",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.5,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 44.8,
+      "period_normal_mm": 24.2,
+      "period_departure_pct": 85.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "RAYAGADA",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 2.3,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 52.0,
+      "period_normal_mm": 55.1,
+      "period_departure_pct": -6.0,
+      "period_category": "N",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "SAMBALPUR",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.8,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 34.1,
+      "period_normal_mm": 21.6,
+      "period_departure_pct": 58.0,
+      "period_category": "E",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "SONEPUR",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.2,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 18.7,
+      "period_normal_mm": 18.6,
+      "period_departure_pct": 0.0,
+      "period_category": "N",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "SUNDARGARH",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.6,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 92.5,
+      "period_normal_mm": 23.5,
+      "period_departure_pct": 293.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "ANGUL",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 1.1,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 21.7,
+      "period_normal_mm": 36.5,
+      "period_departure_pct": -41.0,
+      "period_category": "D",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "BALASORE",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 2.4,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 116.5,
+      "period_normal_mm": 72.4,
+      "period_departure_pct": 61.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "BARGARH",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.4,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 27.2,
+      "period_normal_mm": 20.2,
+      "period_departure_pct": 34.0,
+      "period_category": "E",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "BHADRAK",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 2.7,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 110.6,
+      "period_normal_mm": 58.8,
+      "period_departure_pct": 88.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "BOLANGIR",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.9,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 17.4,
+      "period_normal_mm": 22.9,
+      "period_departure_pct": -24.0,
+      "period_category": "D",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "BOUDHGARH",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.3,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 13.9,
+      "period_normal_mm": 23.6,
+      "period_departure_pct": -41.0,
+      "period_category": "D",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "CUTTACK",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 1.6,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 27.5,
+      "period_normal_mm": 36.7,
+      "period_departure_pct": -25.0,
+      "period_category": "D",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "DEOGARH",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.9,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 28.6,
+      "period_normal_mm": 29.3,
+      "period_departure_pct": -2.0,
+      "period_category": "N",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "DHENKANAL",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 2.1,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 44.6,
+      "period_normal_mm": 40.1,
+      "period_departure_pct": 11.0,
+      "period_category": "N",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "GAJAPATI",
+      "day_actual_mm": 3.9,
+      "day_normal_mm": 1.4,
+      "day_departure_pct": 179.0,
+      "day_category": "LE",
+      "period_actual_mm": 66.2,
+      "period_normal_mm": 73.9,
+      "period_departure_pct": -10.0,
+      "period_category": "N",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "GANJAM",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.7,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 46.2,
+      "period_normal_mm": 45.1,
+      "period_departure_pct": 2.0,
+      "period_category": "N",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "JAGATSINGHPUR",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 1.8,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 45.4,
+      "period_normal_mm": 32.2,
+      "period_departure_pct": 41.0,
+      "period_category": "E",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "JAJPUR",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 1.9,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 40.6,
+      "period_normal_mm": 48.4,
+      "period_departure_pct": -16.0,
+      "period_category": "N",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "JHARSUGUDA",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.8,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 64.2,
+      "period_normal_mm": 23.5,
+      "period_departure_pct": 173.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "KALAHANDI",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.9,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 28.0,
+      "period_normal_mm": 26.6,
+      "period_departure_pct": 5.0,
+      "period_category": "N",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "KANDHAMAL",
+      "day_actual_mm": 0.6,
+      "day_normal_mm": 1.9,
+      "day_departure_pct": -67.0,
+      "day_category": "LD",
+      "period_actual_mm": 38.0,
+      "period_normal_mm": 50.0,
+      "period_departure_pct": -24.0,
+      "period_category": "D",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "KENDRAPARA",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 1.4,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 42.3,
+      "period_normal_mm": 40.9,
+      "period_departure_pct": 3.0,
+      "period_category": "N",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "KEONJHARGARH",
+      "day_actual_mm": 1.2,
+      "day_normal_mm": 1.1,
+      "day_departure_pct": 8.0,
+      "day_category": "N",
+      "period_actual_mm": 86.7,
+      "period_normal_mm": 48.3,
+      "period_departure_pct": 80.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "KHURDA",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.6,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 61.5,
+      "period_normal_mm": 36.0,
+      "period_departure_pct": 71.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "KORAPUT",
+      "day_actual_mm": 0.8,
+      "day_normal_mm": 1.1,
+      "day_departure_pct": -29.0,
+      "day_category": "D",
+      "period_actual_mm": 83.0,
+      "period_normal_mm": 41.5,
+      "period_departure_pct": 100.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "MALKANGIRI",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 1.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 49.9,
+      "period_normal_mm": 24.7,
+      "period_departure_pct": 102.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "MAYURBHANJ",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 2.5,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 141.0,
+      "period_normal_mm": 66.2,
+      "period_departure_pct": 113.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "NAWAPARA",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.8,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 32.8,
+      "period_normal_mm": 23.0,
+      "period_departure_pct": 43.0,
+      "period_category": "E",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "NAWARANGPUR",
+      "day_actual_mm": 1.1,
+      "day_normal_mm": 2.1,
+      "day_departure_pct": -46.0,
+      "day_category": "D",
+      "period_actual_mm": 57.7,
+      "period_normal_mm": 36.8,
+      "period_departure_pct": 57.0,
+      "period_category": "E",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "NAYAGARH",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 1.2,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 63.4,
+      "period_normal_mm": 45.7,
+      "period_departure_pct": 39.0,
+      "period_category": "E",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "PURI",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.4,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 44.8,
+      "period_normal_mm": 24.6,
+      "period_departure_pct": 82.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "RAYAGADA",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 1.6,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 52.0,
+      "period_normal_mm": 56.7,
+      "period_departure_pct": -8.0,
+      "period_category": "N",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "SAMBALPUR",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 1.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 34.1,
+      "period_normal_mm": 22.6,
+      "period_departure_pct": 51.0,
+      "period_category": "E",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "SONEPUR",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.8,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 18.7,
+      "period_normal_mm": 19.4,
+      "period_departure_pct": -4.0,
+      "period_category": "N",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "SUNDARGARH",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.4,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 92.5,
+      "period_normal_mm": 23.9,
+      "period_departure_pct": 287.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "ANGUL",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 1.4,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 21.7,
+      "period_normal_mm": 37.9,
+      "period_departure_pct": -43.0,
+      "period_category": "D",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "BALASORE",
+      "day_actual_mm": 5.0,
+      "day_normal_mm": 2.6,
+      "day_departure_pct": 94.0,
+      "day_category": "LE",
+      "period_actual_mm": 121.6,
+      "period_normal_mm": 75.0,
+      "period_departure_pct": 62.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "BARGARH",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.6,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 27.2,
+      "period_normal_mm": 20.8,
+      "period_departure_pct": 31.0,
+      "period_category": "E",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "BHADRAK",
+      "day_actual_mm": 1.9,
+      "day_normal_mm": 1.2,
+      "day_departure_pct": 56.0,
+      "day_category": "E",
+      "period_actual_mm": 112.5,
+      "period_normal_mm": 60.0,
+      "period_departure_pct": 87.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "BOLANGIR",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 1.3,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 17.4,
+      "period_normal_mm": 24.2,
+      "period_departure_pct": -28.0,
+      "period_category": "D",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "BOUDHGARH",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.8,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 13.9,
+      "period_normal_mm": 24.4,
+      "period_departure_pct": -43.0,
+      "period_category": "D",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "CUTTACK",
+      "day_actual_mm": 0.6,
+      "day_normal_mm": 1.4,
+      "day_departure_pct": -61.0,
+      "day_category": "LD",
+      "period_actual_mm": 28.0,
+      "period_normal_mm": 38.1,
+      "period_departure_pct": -26.0,
+      "period_category": "D",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "DEOGARH",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.2,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 28.6,
+      "period_normal_mm": 29.5,
+      "period_departure_pct": -3.0,
+      "period_category": "N",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "DHENKANAL",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 1.2,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 44.6,
+      "period_normal_mm": 41.3,
+      "period_departure_pct": 8.0,
+      "period_category": "N",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "GAJAPATI",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 3.2,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 64.7,
+      "period_normal_mm": 77.1,
+      "period_departure_pct": -16.0,
+      "period_category": "N",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "GANJAM",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 2.3,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 46.2,
+      "period_normal_mm": 47.4,
+      "period_departure_pct": -2.0,
+      "period_category": "N",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "JAGATSINGHPUR",
+      "day_actual_mm": 0.2,
+      "day_normal_mm": 0.6,
+      "day_departure_pct": -74.0,
+      "day_category": "LD",
+      "period_actual_mm": 45.5,
+      "period_normal_mm": 32.8,
+      "period_departure_pct": 39.0,
+      "period_category": "E",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "JAJPUR",
+      "day_actual_mm": 0.6,
+      "day_normal_mm": 1.0,
+      "day_departure_pct": -44.0,
+      "day_category": "D",
+      "period_actual_mm": 41.2,
+      "period_normal_mm": 49.4,
+      "period_departure_pct": -17.0,
+      "period_category": "N",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "JHARSUGUDA",
+      "day_actual_mm": 0.5,
+      "day_normal_mm": 0.7,
+      "day_departure_pct": -31.0,
+      "day_category": "D",
+      "period_actual_mm": 64.7,
+      "period_normal_mm": 24.2,
+      "period_departure_pct": 167.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "KALAHANDI",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 1.4,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 28.0,
+      "period_normal_mm": 28.0,
+      "period_departure_pct": 0.0,
+      "period_category": "N",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "KANDHAMAL",
+      "day_actual_mm": 5.9,
+      "day_normal_mm": 2.1,
+      "day_departure_pct": 181.0,
+      "day_category": "LE",
+      "period_actual_mm": 43.9,
+      "period_normal_mm": 52.1,
+      "period_departure_pct": -16.0,
+      "period_category": "N",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "KENDRAPARA",
+      "day_actual_mm": 0.3,
+      "day_normal_mm": 0.4,
+      "day_departure_pct": -25.0,
+      "day_category": "D",
+      "period_actual_mm": 42.6,
+      "period_normal_mm": 41.3,
+      "period_departure_pct": 3.0,
+      "period_category": "N",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "KEONJHARGARH",
+      "day_actual_mm": 8.5,
+      "day_normal_mm": 1.8,
+      "day_departure_pct": 374.0,
+      "day_category": "LE",
+      "period_actual_mm": 95.0,
+      "period_normal_mm": 50.1,
+      "period_departure_pct": 90.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "KHURDA",
+      "day_actual_mm": 1.8,
+      "day_normal_mm": 1.0,
+      "day_departure_pct": 77.0,
+      "day_category": "LE",
+      "period_actual_mm": 63.3,
+      "period_normal_mm": 37.0,
+      "period_departure_pct": 71.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "KORAPUT",
+      "day_actual_mm": 6.4,
+      "day_normal_mm": 1.6,
+      "day_departure_pct": 301.0,
+      "day_category": "LE",
+      "period_actual_mm": 89.4,
+      "period_normal_mm": 43.1,
+      "period_departure_pct": 107.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "MALKANGIRI",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 2.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 49.9,
+      "period_normal_mm": 26.7,
+      "period_departure_pct": 87.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "MAYURBHANJ",
+      "day_actual_mm": 4.9,
+      "day_normal_mm": 2.0,
+      "day_departure_pct": 147.0,
+      "day_category": "LE",
+      "period_actual_mm": 145.9,
+      "period_normal_mm": 68.2,
+      "period_departure_pct": 114.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "NAWAPARA",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.7,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 32.8,
+      "period_normal_mm": 23.7,
+      "period_departure_pct": 38.0,
+      "period_category": "E",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "NAWARANGPUR",
+      "day_actual_mm": 3.9,
+      "day_normal_mm": 4.4,
+      "day_departure_pct": -12.0,
+      "day_category": "N",
+      "period_actual_mm": 61.6,
+      "period_normal_mm": 41.2,
+      "period_departure_pct": 49.0,
+      "period_category": "E",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "NAYAGARH",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 5.3,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 63.4,
+      "period_normal_mm": 51.0,
+      "period_departure_pct": 24.0,
+      "period_category": "E",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "PURI",
+      "day_actual_mm": 2.1,
+      "day_normal_mm": 0.7,
+      "day_departure_pct": 195.0,
+      "day_category": "LE",
+      "period_actual_mm": 46.8,
+      "period_normal_mm": 25.3,
+      "period_departure_pct": 85.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "RAYAGADA",
+      "day_actual_mm": 0.5,
+      "day_normal_mm": 2.6,
+      "day_departure_pct": -83.0,
+      "day_category": "LD",
+      "period_actual_mm": 52.6,
+      "period_normal_mm": 59.3,
+      "period_departure_pct": -11.0,
+      "period_category": "N",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "SAMBALPUR",
+      "day_actual_mm": 1.9,
+      "day_normal_mm": 0.6,
+      "day_departure_pct": 214.0,
+      "day_category": "LE",
+      "period_actual_mm": 36.0,
+      "period_normal_mm": 23.2,
+      "period_departure_pct": 55.0,
+      "period_category": "E",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "SONEPUR",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 1.4,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 18.7,
+      "period_normal_mm": 20.8,
+      "period_departure_pct": -10.0,
+      "period_category": "N",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "SUNDARGARH",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 1.4,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 92.5,
+      "period_normal_mm": 25.3,
+      "period_departure_pct": 265.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T11:07:58"
     }
   ]
 }

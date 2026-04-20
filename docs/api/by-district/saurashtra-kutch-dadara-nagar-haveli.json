@@ -1,0 +1,25 @@
+{
+  "state": "SAURASHTRA & KUTCH",
+  "district": "DADARA & NAGAR HAVELI",
+  "row_count": 1,
+  "rows": [
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "DADARA & NAGAR HAVELI",
+      "day_actual_mm": 0.5,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": 4900.0,
+      "day_category": "LE",
+      "period_actual_mm": 18.5,
+      "period_normal_mm": 0.1,
+      "period_departure_pct": 18400.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T11:07:58"
+    }
+  ]
+}

@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-04-17T10:36:59.214748+00:00",
+  "generated_at": "2026-04-20T11:08:03.346878+00:00",
   "states": [
     {
       "name": "A & N ISLAND",
       "slug": "a-n-island",
       "n_districts": 3
+    },
+    {
+      "name": "ANDHRA PRADESH",
+      "slug": "andhra-pradesh",
+      "n_districts": 26
     },
     {
       "name": "ARUNACHAL PRADESH",
@@ -69,7 +74,7 @@
     {
       "name": "GUJARAT REGION",
       "slug": "gujarat-region",
-      "n_districts": 22
+      "n_districts": 23
     },
     {
       "name": "HARYANA",
@@ -92,6 +97,11 @@
       "n_districts": 24
     },
     {
+      "name": "KARNATAKA",
+      "slug": "karnataka",
+      "n_districts": 31
+    },
+    {
       "name": "KERALA",
       "slug": "kerala",
       "n_districts": 15
@@ -107,9 +117,14 @@
       "n_districts": 10
     },
     {
+      "name": "MADHYA PRADESH",
+      "slug": "madhya-pradesh",
+      "n_districts": 52
+    },
+    {
       "name": "MAHARASHTRA",
       "slug": "maharashtra",
-      "n_districts": 7
+      "n_districts": 36
     },
     {
       "name": "MANIPUR",
@@ -157,6 +172,11 @@
       "n_districts": 22
     },
     {
+      "name": "RAJASTHAN",
+      "slug": "rajasthan",
+      "n_districts": 33
+    },
+    {
       "name": "RAYALASEEMA",
       "slug": "rayalaseema",
       "n_districts": 8
@@ -169,7 +189,7 @@
     {
       "name": "SAURASHTRA & KUTCH",
       "slug": "saurashtra-kutch",
-      "n_districts": 14
+      "n_districts": 15
     },
     {
       "name": "SIKKIM",
@@ -192,6 +212,11 @@
       "n_districts": 8
     },
     {
+      "name": "UTTAR PRADESH",
+      "slug": "uttar-pradesh",
+      "n_districts": 75
+    },
+    {
       "name": "UTTARAKHAND",
       "slug": "uttarakhand",
       "n_districts": 13
@@ -204,7 +229,7 @@
     {
       "name": "WEST BENGAL",
       "slug": "west-bengal",
-      "n_districts": 8
+      "n_districts": 23
     },
     {
       "name": "WEST MADHYA PRADESH",

@@ -1,10 +1,11 @@
 {
   "state": "SAURASHTRA & KUTCH",
-  "row_count": 66,
+  "row_count": 109,
   "districts": [
     "AMRELI",
     "BHAVNAGAR",
     "BOTAD",
+    "DADARA & NAGAR HAVELI",
     "DAMAN",
     "DEVBHOOMI DWARKA",
     "DIU",
@@ -34,7 +35,7 @@
       "period_normal_mm": 0.4,
       "period_departure_pct": 909.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -52,7 +53,7 @@
       "period_normal_mm": 0.3,
       "period_departure_pct": 4442.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -70,7 +71,7 @@
       "period_normal_mm": 0.1,
       "period_departure_pct": 5900.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -88,7 +89,7 @@
       "period_normal_mm": 0.3,
       "period_departure_pct": 7207.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -106,7 +107,7 @@
       "period_normal_mm": 0.6,
       "period_departure_pct": 67.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -124,7 +125,7 @@
       "period_normal_mm": 0.1,
       "period_departure_pct": 17133.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -142,7 +143,7 @@
       "period_normal_mm": 0.1,
       "period_departure_pct": 5567.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -160,7 +161,7 @@
       "period_normal_mm": 0.4,
       "period_departure_pct": 1733.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -178,7 +179,7 @@
       "period_normal_mm": 0.4,
       "period_departure_pct": 1914.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -196,7 +197,7 @@
       "period_normal_mm": 0.0,
       "period_departure_pct": 11900.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -214,7 +215,7 @@
       "period_normal_mm": 0.2,
       "period_departure_pct": 933.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -232,7 +233,7 @@
       "period_normal_mm": 0.2,
       "period_departure_pct": 6109.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -250,7 +251,7 @@
       "period_normal_mm": 0.2,
       "period_departure_pct": 3644.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-14",
@@ -268,7 +269,7 @@
       "period_normal_mm": 0.5,
       "period_departure_pct": 707.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -286,7 +287,7 @@
       "period_normal_mm": 0.5,
       "period_departure_pct": 2625.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -304,7 +305,7 @@
       "period_normal_mm": 0.2,
       "period_departure_pct": 2900.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -322,7 +323,7 @@
       "period_normal_mm": 0.3,
       "period_departure_pct": 7207.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -340,7 +341,7 @@
       "period_normal_mm": 0.6,
       "period_departure_pct": 67.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -358,7 +359,7 @@
       "period_normal_mm": 0.1,
       "period_departure_pct": 17133.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -376,7 +377,7 @@
       "period_normal_mm": 0.1,
       "period_departure_pct": 5567.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -394,7 +395,7 @@
       "period_normal_mm": 0.5,
       "period_departure_pct": 1367.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -412,7 +413,7 @@
       "period_normal_mm": 0.4,
       "period_departure_pct": 1914.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -430,7 +431,7 @@
       "period_normal_mm": 0.0,
       "period_departure_pct": 11900.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -448,7 +449,7 @@
       "period_normal_mm": 0.2,
       "period_departure_pct": 933.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -466,7 +467,7 @@
       "period_normal_mm": 0.2,
       "period_departure_pct": 6109.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -484,7 +485,7 @@
       "period_normal_mm": 0.2,
       "period_departure_pct": 3644.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-15",
@@ -502,7 +503,7 @@
       "period_normal_mm": 0.5,
       "period_departure_pct": 707.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -520,7 +521,7 @@
       "period_normal_mm": 0.5,
       "period_departure_pct": 2625.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -538,7 +539,7 @@
       "period_normal_mm": 0.2,
       "period_departure_pct": 2900.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -556,7 +557,7 @@
       "period_normal_mm": 0.3,
       "period_departure_pct": 7207.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -574,7 +575,7 @@
       "period_normal_mm": 0.6,
       "period_departure_pct": 67.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -592,7 +593,7 @@
       "period_normal_mm": 0.2,
       "period_departure_pct": 8517.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -610,7 +611,7 @@
       "period_normal_mm": 0.1,
       "period_departure_pct": 5567.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -628,7 +629,7 @@
       "period_normal_mm": 0.5,
       "period_departure_pct": 1367.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -646,7 +647,7 @@
       "period_normal_mm": 0.4,
       "period_departure_pct": 1914.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -664,7 +665,7 @@
       "period_normal_mm": 0.0,
       "period_departure_pct": 11900.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -682,7 +683,7 @@
       "period_normal_mm": 0.3,
       "period_departure_pct": 589.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -700,7 +701,7 @@
       "period_normal_mm": 0.3,
       "period_departure_pct": 4039.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -718,7 +719,7 @@
       "period_normal_mm": 0.2,
       "period_departure_pct": 3644.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-16",
@@ -736,7 +737,7 @@
       "period_normal_mm": 0.5,
       "period_departure_pct": 707.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -754,7 +755,7 @@
       "period_normal_mm": 0.5,
       "period_departure_pct": 2625.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -772,7 +773,7 @@
       "period_normal_mm": 0.2,
       "period_departure_pct": 2900.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -790,7 +791,7 @@
       "period_normal_mm": 0.1,
       "period_departure_pct": -100.0,
       "period_category": "NR",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -808,7 +809,7 @@
       "period_normal_mm": 0.3,
       "period_departure_pct": 7207.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -826,7 +827,7 @@
       "period_normal_mm": 0.6,
       "period_departure_pct": 67.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -844,7 +845,7 @@
       "period_normal_mm": 0.2,
       "period_departure_pct": 8517.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -862,7 +863,7 @@
       "period_normal_mm": 0.1,
       "period_departure_pct": 5567.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -880,7 +881,7 @@
       "period_normal_mm": 0.5,
       "period_departure_pct": 1367.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -898,7 +899,7 @@
       "period_normal_mm": 0.4,
       "period_departure_pct": 1914.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -916,7 +917,7 @@
       "period_normal_mm": 0.0,
       "period_departure_pct": 11900.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -934,7 +935,7 @@
       "period_normal_mm": 0.3,
       "period_departure_pct": 589.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -952,7 +953,7 @@
       "period_normal_mm": 0.3,
       "period_departure_pct": 4039.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -970,7 +971,7 @@
       "period_normal_mm": 0.2,
       "period_departure_pct": 3644.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-17",
@@ -988,7 +989,7 @@
       "period_normal_mm": 0.5,
       "period_departure_pct": 707.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -1006,7 +1007,7 @@
       "period_normal_mm": 0.5,
       "period_departure_pct": 2625.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -1024,7 +1025,7 @@
       "period_normal_mm": 0.2,
       "period_departure_pct": 2900.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -1042,7 +1043,7 @@
       "period_normal_mm": 0.3,
       "period_departure_pct": 7207.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -1060,7 +1061,7 @@
       "period_normal_mm": 0.6,
       "period_departure_pct": 67.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -1078,7 +1079,7 @@
       "period_normal_mm": 0.2,
       "period_departure_pct": 8517.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -1096,7 +1097,7 @@
       "period_normal_mm": 0.1,
       "period_departure_pct": 5567.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -1114,7 +1115,7 @@
       "period_normal_mm": 0.5,
       "period_departure_pct": 1367.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -1132,7 +1133,7 @@
       "period_normal_mm": 0.4,
       "period_departure_pct": 1914.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -1150,7 +1151,7 @@
       "period_normal_mm": 0.1,
       "period_departure_pct": 1100.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -1168,7 +1169,7 @@
       "period_normal_mm": 0.3,
       "period_departure_pct": 589.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -1186,7 +1187,7 @@
       "period_normal_mm": 0.3,
       "period_departure_pct": 4039.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -1204,7 +1205,781 @@
       "period_normal_mm": 0.2,
       "period_departure_pct": 3644.0,
       "period_category": "LE",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "AMRELI",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 4.0,
+      "period_normal_mm": 0.5,
+      "period_departure_pct": 707.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "BHAVNAGAR",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 13.6,
+      "period_normal_mm": 0.5,
+      "period_departure_pct": 2625.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "BOTAD",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 6.0,
+      "period_normal_mm": 0.2,
+      "period_departure_pct": 2900.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "DAMAN",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 0.0,
+      "period_normal_mm": 0.1,
+      "period_departure_pct": -100.0,
+      "period_category": "NR",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "DEVBHOOMI DWARKA",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 21.9,
+      "period_normal_mm": 0.3,
+      "period_departure_pct": 7207.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "DIU",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 1.0,
+      "period_normal_mm": 0.6,
+      "period_departure_pct": 67.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "GIR SOMNATH",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 17.2,
+      "period_normal_mm": 0.2,
+      "period_departure_pct": 8517.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "JAMNAGAR",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 5.7,
+      "period_normal_mm": 0.1,
+      "period_departure_pct": 5567.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "JUNAGADH",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 7.3,
+      "period_normal_mm": 0.5,
+      "period_departure_pct": 1367.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "KUTCH",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 8.1,
+      "period_normal_mm": 0.4,
+      "period_departure_pct": 1914.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "MORBI",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 1.2,
+      "period_normal_mm": 0.1,
+      "period_departure_pct": 1100.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "PORBANDAR",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 2.1,
+      "period_normal_mm": 0.3,
+      "period_departure_pct": 589.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "RAJKOT",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 12.4,
+      "period_normal_mm": 0.3,
+      "period_departure_pct": 4039.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "SURENDRANAGAR",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 7.5,
+      "period_normal_mm": 0.2,
+      "period_departure_pct": 3644.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "AMRELI",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.1,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 4.0,
+      "period_normal_mm": 0.6,
+      "period_departure_pct": 572.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "BHAVNAGAR",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 13.6,
+      "period_normal_mm": 0.5,
+      "period_departure_pct": 2625.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "BOTAD",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 6.0,
+      "period_normal_mm": 0.2,
+      "period_departure_pct": 2900.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "DAMAN",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 0.0,
+      "period_normal_mm": 0.1,
+      "period_departure_pct": -100.0,
+      "period_category": "NR",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "DEVBHOOMI DWARKA",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 21.9,
+      "period_normal_mm": 0.3,
+      "period_departure_pct": 7207.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "DIU",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 1.0,
+      "period_normal_mm": 0.6,
+      "period_departure_pct": 67.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "GIR SOMNATH",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 17.2,
+      "period_normal_mm": 0.2,
+      "period_departure_pct": 8517.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "JAMNAGAR",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 5.7,
+      "period_normal_mm": 0.1,
+      "period_departure_pct": 5567.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "JUNAGADH",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 7.3,
+      "period_normal_mm": 0.5,
+      "period_departure_pct": 1367.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "KUTCH",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 8.1,
+      "period_normal_mm": 0.4,
+      "period_departure_pct": 1914.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "MORBI",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 1.2,
+      "period_normal_mm": 0.1,
+      "period_departure_pct": 1100.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "PORBANDAR",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 2.1,
+      "period_normal_mm": 0.3,
+      "period_departure_pct": 589.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "RAJKOT",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 12.4,
+      "period_normal_mm": 0.3,
+      "period_departure_pct": 4039.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "SURENDRANAGAR",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 7.5,
+      "period_normal_mm": 0.2,
+      "period_departure_pct": 3644.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "AMRELI",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.1,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 4.0,
+      "period_normal_mm": 0.7,
+      "period_departure_pct": 476.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "BHAVNAGAR",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.1,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 13.6,
+      "period_normal_mm": 0.6,
+      "period_departure_pct": 2171.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "BOTAD",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 6.0,
+      "period_normal_mm": 0.2,
+      "period_departure_pct": 2900.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "DADARA & NAGAR HAVELI",
+      "day_actual_mm": 0.5,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": 4900.0,
+      "day_category": "LE",
+      "period_actual_mm": 18.5,
+      "period_normal_mm": 0.1,
+      "period_departure_pct": 18400.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "DAMAN",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 0.0,
+      "period_normal_mm": 0.1,
+      "period_departure_pct": -100.0,
+      "period_category": "NR",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "DEVBHOOMI DWARKA",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 21.9,
+      "period_normal_mm": 0.3,
+      "period_departure_pct": 7207.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "DIU",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 1.0,
+      "period_normal_mm": 0.6,
+      "period_departure_pct": 67.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "GIR SOMNATH",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 17.2,
+      "period_normal_mm": 0.2,
+      "period_departure_pct": 8517.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "JAMNAGAR",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 5.7,
+      "period_normal_mm": 0.1,
+      "period_departure_pct": 5567.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "JUNAGADH",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 7.3,
+      "period_normal_mm": 0.5,
+      "period_departure_pct": 1367.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "KUTCH",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 8.1,
+      "period_normal_mm": 0.4,
+      "period_departure_pct": 1914.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "MORBI",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 1.2,
+      "period_normal_mm": 0.1,
+      "period_departure_pct": 1100.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "PORBANDAR",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 2.1,
+      "period_normal_mm": 0.3,
+      "period_departure_pct": 589.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "RAJKOT",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.1,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 12.4,
+      "period_normal_mm": 0.4,
+      "period_departure_pct": 3005.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "SURENDRANAGAR",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 7.5,
+      "period_normal_mm": 0.2,
+      "period_departure_pct": 3644.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T11:07:58"
     }
   ]
 }

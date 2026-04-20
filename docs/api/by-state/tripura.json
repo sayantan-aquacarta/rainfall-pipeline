@@ -1,6 +1,6 @@
 {
   "state": "TRIPURA",
-  "row_count": 40,
+  "row_count": 64,
   "districts": [
     "DHALAI",
     "GOMATI",
@@ -28,7 +28,7 @@
       "period_normal_mm": 140.6,
       "period_departure_pct": -25.0,
       "period_category": "D",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -46,7 +46,7 @@
       "period_normal_mm": 128.1,
       "period_departure_pct": -25.0,
       "period_category": "D",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -64,7 +64,7 @@
       "period_normal_mm": 138.9,
       "period_departure_pct": -12.0,
       "period_category": "N",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -82,7 +82,7 @@
       "period_normal_mm": 180.0,
       "period_departure_pct": 31.0,
       "period_category": "E",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -100,7 +100,7 @@
       "period_normal_mm": 128.9,
       "period_departure_pct": -60.0,
       "period_category": "LD",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -118,7 +118,7 @@
       "period_normal_mm": 137.1,
       "period_departure_pct": -17.0,
       "period_category": "N",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -136,7 +136,7 @@
       "period_normal_mm": 206.9,
       "period_departure_pct": 22.0,
       "period_category": "E",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-13",
@@ -154,7 +154,7 @@
       "period_normal_mm": 119.6,
       "period_departure_pct": 20.0,
       "period_category": "E",
-      "scraped_at": "2026-04-13T11:45:17"
+      "scraped_at": "2026-04-20T07:43:03"
     },
     {
       "date": "2026-04-14",
@@ -172,7 +172,7 @@
       "period_normal_mm": 142.3,
       "period_departure_pct": -26.0,
       "period_category": "D",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -190,7 +190,7 @@
       "period_normal_mm": 133.1,
       "period_departure_pct": -28.0,
       "period_category": "D",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -208,7 +208,7 @@
       "period_normal_mm": 141.3,
       "period_departure_pct": -13.0,
       "period_category": "N",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -226,7 +226,7 @@
       "period_normal_mm": 186.6,
       "period_departure_pct": 27.0,
       "period_category": "E",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -244,7 +244,7 @@
       "period_normal_mm": 131.6,
       "period_departure_pct": -61.0,
       "period_category": "LD",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -262,7 +262,7 @@
       "period_normal_mm": 139.3,
       "period_departure_pct": -18.0,
       "period_category": "N",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -280,7 +280,7 @@
       "period_normal_mm": 214.3,
       "period_departure_pct": 19.0,
       "period_category": "N",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-14",
@@ -298,7 +298,7 @@
       "period_normal_mm": 122.6,
       "period_departure_pct": 27.0,
       "period_category": "E",
-      "scraped_at": "2026-04-14T10:44:26"
+      "scraped_at": "2026-04-20T07:43:04"
     },
     {
       "date": "2026-04-15",
@@ -316,7 +316,7 @@
       "period_normal_mm": 144.9,
       "period_departure_pct": -27.0,
       "period_category": "D",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -334,7 +334,7 @@
       "period_normal_mm": 135.9,
       "period_departure_pct": -29.0,
       "period_category": "D",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -352,7 +352,7 @@
       "period_normal_mm": 143.5,
       "period_departure_pct": -15.0,
       "period_category": "N",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -370,7 +370,7 @@
       "period_normal_mm": 189.4,
       "period_departure_pct": 45.0,
       "period_category": "E",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -388,7 +388,7 @@
       "period_normal_mm": 135.0,
       "period_departure_pct": -62.0,
       "period_category": "LD",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -406,7 +406,7 @@
       "period_normal_mm": 141.6,
       "period_departure_pct": -19.0,
       "period_category": "N",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -424,7 +424,7 @@
       "period_normal_mm": 219.0,
       "period_departure_pct": 26.0,
       "period_category": "E",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-15",
@@ -442,7 +442,7 @@
       "period_normal_mm": 124.8,
       "period_departure_pct": 24.0,
       "period_category": "E",
-      "scraped_at": "2026-04-15T10:40:58"
+      "scraped_at": "2026-04-20T07:43:06"
     },
     {
       "date": "2026-04-16",
@@ -460,7 +460,7 @@
       "period_normal_mm": 152.1,
       "period_departure_pct": -26.0,
       "period_category": "D",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -478,7 +478,7 @@
       "period_normal_mm": 141.7,
       "period_departure_pct": -28.0,
       "period_category": "D",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -496,7 +496,7 @@
       "period_normal_mm": 148.8,
       "period_departure_pct": -9.0,
       "period_category": "N",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -514,7 +514,7 @@
       "period_normal_mm": 195.7,
       "period_departure_pct": 42.0,
       "period_category": "E",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -532,7 +532,7 @@
       "period_normal_mm": 138.0,
       "period_departure_pct": -63.0,
       "period_category": "LD",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -550,7 +550,7 @@
       "period_normal_mm": 144.1,
       "period_departure_pct": -21.0,
       "period_category": "D",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -568,7 +568,7 @@
       "period_normal_mm": 226.9,
       "period_departure_pct": 25.0,
       "period_category": "E",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-16",
@@ -586,7 +586,7 @@
       "period_normal_mm": 129.7,
       "period_departure_pct": 31.0,
       "period_category": "E",
-      "scraped_at": "2026-04-16T10:44:51"
+      "scraped_at": "2026-04-20T07:43:08"
     },
     {
       "date": "2026-04-17",
@@ -604,7 +604,7 @@
       "period_normal_mm": 158.2,
       "period_departure_pct": -29.0,
       "period_category": "D",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -622,7 +622,7 @@
       "period_normal_mm": 145.7,
       "period_departure_pct": -30.0,
       "period_category": "D",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -640,7 +640,7 @@
       "period_normal_mm": 154.2,
       "period_departure_pct": -12.0,
       "period_category": "N",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -658,7 +658,7 @@
       "period_normal_mm": 205.7,
       "period_departure_pct": 39.0,
       "period_category": "E",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -676,7 +676,7 @@
       "period_normal_mm": 141.0,
       "period_departure_pct": -63.0,
       "period_category": "LD",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -694,7 +694,7 @@
       "period_normal_mm": 149.4,
       "period_departure_pct": -24.0,
       "period_category": "D",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -712,7 +712,7 @@
       "period_normal_mm": 233.3,
       "period_departure_pct": 21.0,
       "period_category": "E",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
     },
     {
       "date": "2026-04-17",
@@ -730,7 +730,439 @@
       "period_normal_mm": 131.9,
       "period_departure_pct": 29.0,
       "period_category": "E",
-      "scraped_at": "2026-04-17T10:36:55"
+      "scraped_at": "2026-04-20T07:43:09"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "TRIPURA",
+      "district": "DHALAI",
+      "day_actual_mm": 4.1,
+      "day_normal_mm": 8.7,
+      "day_departure_pct": -53.0,
+      "day_category": "D",
+      "period_actual_mm": 116.2,
+      "period_normal_mm": 166.9,
+      "period_departure_pct": -30.0,
+      "period_category": "D",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "TRIPURA",
+      "district": "GOMATI",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 7.4,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 101.8,
+      "period_normal_mm": 153.1,
+      "period_departure_pct": -34.0,
+      "period_category": "D",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "TRIPURA",
+      "district": "KHOWAI",
+      "day_actual_mm": 1.2,
+      "day_normal_mm": 5.4,
+      "day_departure_pct": -78.0,
+      "day_category": "LD",
+      "period_actual_mm": 136.8,
+      "period_normal_mm": 159.6,
+      "period_departure_pct": -14.0,
+      "period_category": "N",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "TRIPURA",
+      "district": "NORTH TRIPURA",
+      "day_actual_mm": 2.4,
+      "day_normal_mm": 6.7,
+      "day_departure_pct": -64.0,
+      "day_category": "LD",
+      "period_actual_mm": 287.8,
+      "period_normal_mm": 212.4,
+      "period_departure_pct": 36.0,
+      "period_category": "E",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "TRIPURA",
+      "district": "SIPAHIJALA",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 2.6,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 51.7,
+      "period_normal_mm": 143.6,
+      "period_departure_pct": -64.0,
+      "period_category": "LD",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "TRIPURA",
+      "district": "SOUTH TRIPURA",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 6.4,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 114.2,
+      "period_normal_mm": 155.8,
+      "period_departure_pct": -27.0,
+      "period_category": "D",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "TRIPURA",
+      "district": "UNAKOTI",
+      "day_actual_mm": 56.3,
+      "day_normal_mm": 9.7,
+      "day_departure_pct": 480.0,
+      "day_category": "LE",
+      "period_actual_mm": 338.9,
+      "period_normal_mm": 243.0,
+      "period_departure_pct": 39.0,
+      "period_category": "E",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-18",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "TRIPURA",
+      "district": "WEST TRIPURA",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 7.1,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 170.2,
+      "period_normal_mm": 139.0,
+      "period_departure_pct": 22.0,
+      "period_category": "E",
+      "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "TRIPURA",
+      "district": "DHALAI",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 8.3,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 116.2,
+      "period_normal_mm": 175.2,
+      "period_departure_pct": -34.0,
+      "period_category": "D",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "TRIPURA",
+      "district": "GOMATI",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 5.2,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 101.8,
+      "period_normal_mm": 158.3,
+      "period_departure_pct": -36.0,
+      "period_category": "D",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "TRIPURA",
+      "district": "KHOWAI",
+      "day_actual_mm": 1.0,
+      "day_normal_mm": 8.0,
+      "day_departure_pct": -88.0,
+      "day_category": "LD",
+      "period_actual_mm": 137.8,
+      "period_normal_mm": 167.6,
+      "period_departure_pct": -18.0,
+      "period_category": "N",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "TRIPURA",
+      "district": "NORTH TRIPURA",
+      "day_actual_mm": 27.7,
+      "day_normal_mm": 8.4,
+      "day_departure_pct": 229.0,
+      "day_category": "LE",
+      "period_actual_mm": 315.5,
+      "period_normal_mm": 220.8,
+      "period_departure_pct": 43.0,
+      "period_category": "E",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "TRIPURA",
+      "district": "SIPAHIJALA",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 3.4,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 51.7,
+      "period_normal_mm": 147.0,
+      "period_departure_pct": -65.0,
+      "period_category": "LD",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "TRIPURA",
+      "district": "SOUTH TRIPURA",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 6.7,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 114.2,
+      "period_normal_mm": 162.5,
+      "period_departure_pct": -30.0,
+      "period_category": "D",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "TRIPURA",
+      "district": "UNAKOTI",
+      "day_actual_mm": 97.8,
+      "day_normal_mm": 14.1,
+      "day_departure_pct": 594.0,
+      "day_category": "LE",
+      "period_actual_mm": 436.7,
+      "period_normal_mm": 257.1,
+      "period_departure_pct": 70.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-19",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "TRIPURA",
+      "district": "WEST TRIPURA",
+      "day_actual_mm": 1.8,
+      "day_normal_mm": 3.6,
+      "day_departure_pct": -51.0,
+      "day_category": "D",
+      "period_actual_mm": 172.0,
+      "period_normal_mm": 142.6,
+      "period_departure_pct": 21.0,
+      "period_category": "E",
+      "scraped_at": "2026-04-20T07:43:13"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "TRIPURA",
+      "district": "DHALAI",
+      "day_actual_mm": 0.3,
+      "day_normal_mm": 6.9,
+      "day_departure_pct": -96.0,
+      "day_category": "LD",
+      "period_actual_mm": 116.5,
+      "period_normal_mm": 182.1,
+      "period_departure_pct": -36.0,
+      "period_category": "D",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "TRIPURA",
+      "district": "GOMATI",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 5.8,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 101.8,
+      "period_normal_mm": 164.1,
+      "period_departure_pct": -38.0,
+      "period_category": "D",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "TRIPURA",
+      "district": "KHOWAI",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 9.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 137.8,
+      "period_normal_mm": 176.6,
+      "period_departure_pct": -22.0,
+      "period_category": "D",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "TRIPURA",
+      "district": "NORTH TRIPURA",
+      "day_actual_mm": 1.2,
+      "day_normal_mm": 7.1,
+      "day_departure_pct": -84.0,
+      "day_category": "LD",
+      "period_actual_mm": 316.7,
+      "period_normal_mm": 227.9,
+      "period_departure_pct": 39.0,
+      "period_category": "E",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "TRIPURA",
+      "district": "SIPAHIJALA",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 9.2,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 51.7,
+      "period_normal_mm": 156.2,
+      "period_departure_pct": -67.0,
+      "period_category": "LD",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "TRIPURA",
+      "district": "SOUTH TRIPURA",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 9.4,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 114.2,
+      "period_normal_mm": 171.9,
+      "period_departure_pct": -34.0,
+      "period_category": "D",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "TRIPURA",
+      "district": "UNAKOTI",
+      "day_actual_mm": 0.2,
+      "day_normal_mm": 11.1,
+      "day_departure_pct": -99.0,
+      "day_category": "LD",
+      "period_actual_mm": 436.9,
+      "period_normal_mm": 268.2,
+      "period_departure_pct": 63.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "TRIPURA",
+      "district": "WEST TRIPURA",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 7.1,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 172.0,
+      "period_normal_mm": 149.7,
+      "period_departure_pct": 15.0,
+      "period_category": "N",
+      "scraped_at": "2026-04-20T11:07:58"
     }
   ]
 }
