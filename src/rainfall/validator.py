@@ -21,13 +21,13 @@ SCHEMA = DataFrameSchema(
         "district": Column(str, nullable=True),
         "day_actual_mm": Column(float, Check.in_range(0, 2000), nullable=True),
         "day_normal_mm": Column(float, Check.in_range(0, 2000), nullable=True),
-        "day_departure_pct": Column(float, Check.in_range(-100, 100000), nullable=True),
+        "day_departure_pct": Column(float, Check.in_range(-100, 100000000), nullable=True),
         "day_category": Column(
             str, Check.isin(["LE", "E", "N", "D", "LD", "NR"]), nullable=True
         ),
         "period_actual_mm": Column(float, Check.in_range(0, 20000), nullable=True),
         "period_normal_mm": Column(float, Check.in_range(0, 20000), nullable=True),
-        "period_departure_pct": Column(float, Check.in_range(-100, 100000), nullable=True),
+        "period_departure_pct": Column(float, Check.in_range(-100, 100000000), nullable=True),
         "period_category": Column(
             str, Check.isin(["LE", "E", "N", "D", "LD", "NR"]), nullable=True
         ),
