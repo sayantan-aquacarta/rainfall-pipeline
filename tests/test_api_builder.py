@@ -1,6 +1,6 @@
 """Tests for the static API builder."""
 import json
-from pathlib import Path
+
 
 import pandas as pd
 import pytest
