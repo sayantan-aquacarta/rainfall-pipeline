@@ -1,7 +1,7 @@
 {
   "state": "ASSAM",
   "district": "SIBSAGAR",
-  "row_count": 4,
+  "row_count": 6,
   "rows": [
     {
       "date": "2026-04-13",
@@ -74,6 +74,42 @@
       "period_departure_pct": 50.0,
       "period_category": "E",
       "scraped_at": "2026-04-20T07:43:11"
+    },
+    {
+      "date": "2026-04-20",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-20",
+      "level": "district",
+      "subdivision": "ASSAM & MEGHALAYA",
+      "state": "ASSAM",
+      "district": "SIBSAGAR",
+      "day_actual_mm": 14.8,
+      "day_normal_mm": 6.2,
+      "day_departure_pct": 139.0,
+      "day_category": "LE",
+      "period_actual_mm": 268.2,
+      "period_normal_mm": 182.4,
+      "period_departure_pct": 47.0,
+      "period_category": "E",
+      "scraped_at": "2026-04-20T11:07:58"
+    },
+    {
+      "date": "2026-04-21",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-21",
+      "level": "district",
+      "subdivision": "ASSAM & MEGHALAYA",
+      "state": "ASSAM",
+      "district": "SIBSAGAR",
+      "day_actual_mm": 9.9,
+      "day_normal_mm": 7.0,
+      "day_departure_pct": 41.0,
+      "day_category": "E",
+      "period_actual_mm": 278.1,
+      "period_normal_mm": 189.4,
+      "period_departure_pct": 47.0,
+      "period_category": "E",
+      "scraped_at": "2026-04-21T07:54:28"
     }
   ]
 }
