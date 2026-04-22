@@ -1,7 +1,7 @@
 {
   "state": "KARNATAKA",
   "district": "TUMAKURU",
-  "row_count": 9,
+  "row_count": 10,
   "rows": [
     {
       "date": "2026-04-13",
@@ -164,6 +164,24 @@
       "period_departure_pct": 35.0,
       "period_category": "E",
       "scraped_at": "2026-04-21T07:54:28"
+    },
+    {
+      "date": "2026-04-22",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-22",
+      "level": "district",
+      "subdivision": "S. I. KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "TUMAKURU",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 1.9,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 41.3,
+      "period_normal_mm": 32.5,
+      "period_departure_pct": 27.0,
+      "period_category": "E",
+      "scraped_at": "2026-04-22T07:51:05"
     }
   ]
 }

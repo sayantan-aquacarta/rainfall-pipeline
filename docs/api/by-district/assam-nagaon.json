@@ -1,7 +1,7 @@
 {
   "state": "ASSAM",
   "district": "NAGAON",
-  "row_count": 8,
+  "row_count": 9,
   "rows": [
     {
       "date": "2026-04-13",
@@ -146,6 +146,24 @@
       "period_departure_pct": 21.0,
       "period_category": "E",
       "scraped_at": "2026-04-21T07:54:28"
+    },
+    {
+      "date": "2026-04-22",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-22",
+      "level": "district",
+      "subdivision": "ASSAM & MEGHALAYA",
+      "state": "ASSAM",
+      "district": "NAGAON",
+      "day_actual_mm": 0.8,
+      "day_normal_mm": 5.8,
+      "day_departure_pct": -86.0,
+      "day_category": "LD",
+      "period_actual_mm": 160.3,
+      "period_normal_mm": 137.9,
+      "period_departure_pct": 16.0,
+      "period_category": "N",
+      "scraped_at": "2026-04-22T07:51:05"
     }
   ]
 }

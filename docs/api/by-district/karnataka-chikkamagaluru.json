@@ -1,7 +1,7 @@
 {
   "state": "KARNATAKA",
   "district": "CHIKKAMAGALURU",
-  "row_count": 9,
+  "row_count": 10,
   "rows": [
     {
       "date": "2026-04-13",
@@ -164,6 +164,24 @@
       "period_departure_pct": 17.0,
       "period_category": "N",
       "scraped_at": "2026-04-21T07:54:28"
+    },
+    {
+      "date": "2026-04-22",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-22",
+      "level": "district",
+      "subdivision": "S. I. KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "CHIKKAMAGALURU",
+      "day_actual_mm": 6.9,
+      "day_normal_mm": 2.7,
+      "day_departure_pct": 156.0,
+      "day_category": "LE",
+      "period_actual_mm": 68.8,
+      "period_normal_mm": 55.8,
+      "period_departure_pct": 23.0,
+      "period_category": "E",
+      "scraped_at": "2026-04-22T07:51:05"
     }
   ]
 }
