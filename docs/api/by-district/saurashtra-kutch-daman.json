@@ -1,7 +1,7 @@
 {
   "state": "SAURASHTRA & KUTCH",
   "district": "DAMAN",
-  "row_count": 6,
+  "row_count": 7,
   "rows": [
     {
       "date": "2026-04-16",
@@ -110,6 +110,24 @@
       "period_departure_pct": -100.0,
       "period_category": "NR",
       "scraped_at": "2026-04-23T07:57:16"
+    },
+    {
+      "date": "2026-04-24",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-24",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "SAURASHTRA & KUTCH",
+      "district": "DAMAN",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 0.0,
+      "period_normal_mm": 0.1,
+      "period_departure_pct": -100.0,
+      "period_category": "NR",
+      "scraped_at": "2026-04-24T08:06:49"
     }
   ]
 }
