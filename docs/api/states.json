@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-26T07:42:16.872148+00:00",
+  "generated_at": "2026-04-27T08:28:49.507140+00:00",
   "states": [
     {
       "name": "A & N ISLAND",
@@ -19,7 +19,7 @@
     {
       "name": "ASSAM",
       "slug": "assam",
-      "n_districts": 33
+      "n_districts": 34
     },
     {
       "name": "BIHAR",

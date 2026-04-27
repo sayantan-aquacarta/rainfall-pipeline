@@ -1,7 +1,7 @@
 {
   "state": "ARUNACHAL PRADESH",
   "district": "CHANGLANG",
-  "row_count": 5,
+  "row_count": 6,
   "rows": [
     {
       "date": "2026-04-13",
@@ -92,6 +92,24 @@
       "period_departure_pct": 75.0,
       "period_category": "LE",
       "scraped_at": "2026-04-25T07:20:07"
+    },
+    {
+      "date": "2026-04-27",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-27",
+      "level": "district",
+      "subdivision": "ARUNACHAL PRADESH",
+      "state": "ARUNACHAL PRADESH",
+      "district": "CHANGLANG",
+      "day_actual_mm": 16.8,
+      "day_normal_mm": 6.7,
+      "day_departure_pct": 151.0,
+      "day_category": "LE",
+      "period_actual_mm": 637.1,
+      "period_normal_mm": 375.0,
+      "period_departure_pct": 70.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-27T08:28:44"
     }
   ]
 }

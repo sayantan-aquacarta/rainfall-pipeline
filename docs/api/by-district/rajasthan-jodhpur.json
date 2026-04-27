@@ -1,7 +1,7 @@
 {
   "state": "RAJASTHAN",
   "district": "JODHPUR",
-  "row_count": 12,
+  "row_count": 13,
   "rows": [
     {
       "date": "2026-04-13",
@@ -218,6 +218,24 @@
       "period_departure_pct": 27.0,
       "period_category": "E",
       "scraped_at": "2026-04-26T07:42:11"
+    },
+    {
+      "date": "2026-04-27",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-27",
+      "level": "district",
+      "subdivision": "WEST RAJASTHAN",
+      "state": "RAJASTHAN",
+      "district": "JODHPUR",
+      "day_actual_mm": 0.4,
+      "day_normal_mm": 0.2,
+      "day_departure_pct": 122.0,
+      "day_category": "LE",
+      "period_actual_mm": 11.0,
+      "period_normal_mm": 8.3,
+      "period_departure_pct": 33.0,
+      "period_category": "E",
+      "scraped_at": "2026-04-27T08:28:44"
     }
   ]
 }

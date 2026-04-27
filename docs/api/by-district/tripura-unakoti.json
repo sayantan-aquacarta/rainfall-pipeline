@@ -1,7 +1,7 @@
 {
   "state": "TRIPURA",
   "district": "UNAKOTI",
-  "row_count": 12,
+  "row_count": 13,
   "rows": [
     {
       "date": "2026-04-13",
@@ -218,6 +218,24 @@
       "period_departure_pct": 45.0,
       "period_category": "E",
       "scraped_at": "2026-04-26T07:42:11"
+    },
+    {
+      "date": "2026-04-27",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-27",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "TRIPURA",
+      "district": "UNAKOTI",
+      "day_actual_mm": 44.5,
+      "day_normal_mm": 7.8,
+      "day_departure_pct": 470.0,
+      "day_category": "LE",
+      "period_actual_mm": 512.2,
+      "period_normal_mm": 329.9,
+      "period_departure_pct": 55.0,
+      "period_category": "E",
+      "scraped_at": "2026-04-27T08:28:44"
     }
   ]
 }
