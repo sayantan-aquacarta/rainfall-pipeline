@@ -1,7 +1,7 @@
 {
   "state": "A & N ISLAND",
   "district": "NICOBAR",
-  "row_count": 13,
+  "row_count": 14,
   "rows": [
     {
       "date": "2026-04-13",
@@ -236,6 +236,24 @@
       "period_departure_pct": -79.0,
       "period_category": "LD",
       "scraped_at": "2026-04-27T08:28:44"
+    },
+    {
+      "date": "2026-04-28",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-28",
+      "level": "district",
+      "subdivision": "A & N ISLAND",
+      "state": "A & N ISLAND",
+      "district": "NICOBAR",
+      "day_actual_mm": 0.3,
+      "day_normal_mm": 7.0,
+      "day_departure_pct": -95.0,
+      "day_category": "LD",
+      "period_actual_mm": 37.9,
+      "period_normal_mm": 182.7,
+      "period_departure_pct": -79.0,
+      "period_category": "LD",
+      "scraped_at": "2026-04-28T08:28:01"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "ASSAM",
   "district": "LAKHIMPUR",
-  "row_count": 13,
+  "row_count": 14,
   "rows": [
     {
       "date": "2026-04-13",
@@ -236,6 +236,24 @@
       "period_departure_pct": 61.0,
       "period_category": "LE",
       "scraped_at": "2026-04-27T08:28:44"
+    },
+    {
+      "date": "2026-04-28",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-28",
+      "level": "district",
+      "subdivision": "ASSAM & MEGHALAYA",
+      "state": "ASSAM",
+      "district": "LAKHIMPUR",
+      "day_actual_mm": 6.1,
+      "day_normal_mm": 8.8,
+      "day_departure_pct": -30.0,
+      "day_category": "D",
+      "period_actual_mm": 365.3,
+      "period_normal_mm": 232.5,
+      "period_departure_pct": 57.0,
+      "period_category": "E",
+      "scraped_at": "2026-04-28T08:28:01"
     }
   ]
 }
