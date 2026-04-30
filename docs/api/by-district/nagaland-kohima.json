@@ -1,7 +1,7 @@
 {
   "state": "NAGALAND",
   "district": "KOHIMA",
-  "row_count": 14,
+  "row_count": 15,
   "rows": [
     {
       "date": "2026-04-13",
@@ -254,6 +254,24 @@
       "period_departure_pct": 44.0,
       "period_category": "E",
       "scraped_at": "2026-04-29T08:22:12"
+    },
+    {
+      "date": "2026-04-30",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-30",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "NAGALAND",
+      "district": "KOHIMA",
+      "day_actual_mm": 0.2,
+      "day_normal_mm": 3.8,
+      "day_departure_pct": -96.0,
+      "day_category": "LD",
+      "period_actual_mm": 249.0,
+      "period_normal_mm": 178.8,
+      "period_departure_pct": 39.0,
+      "period_category": "E",
+      "scraped_at": "2026-04-30T08:24:32"
     }
   ]
 }

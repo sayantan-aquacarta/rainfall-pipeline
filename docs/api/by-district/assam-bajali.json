@@ -1,7 +1,7 @@
 {
   "state": "ASSAM",
   "district": "BAJALI",
-  "row_count": 5,
+  "row_count": 6,
   "rows": [
     {
       "date": "2026-04-13",
@@ -92,6 +92,24 @@
       "period_departure_pct": -9.0,
       "period_category": "N",
       "scraped_at": "2026-04-29T08:22:12"
+    },
+    {
+      "date": "2026-04-30",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-30",
+      "level": "district",
+      "subdivision": "ASSAM & MEGHALAYA",
+      "state": "ASSAM",
+      "district": "BAJALI",
+      "day_actual_mm": 12.0,
+      "day_normal_mm": 9.2,
+      "day_departure_pct": 30.0,
+      "day_category": "E",
+      "period_actual_mm": 295.0,
+      "period_normal_mm": 273.0,
+      "period_departure_pct": 8.0,
+      "period_category": "N",
+      "scraped_at": "2026-04-30T08:24:32"
     }
   ]
 }

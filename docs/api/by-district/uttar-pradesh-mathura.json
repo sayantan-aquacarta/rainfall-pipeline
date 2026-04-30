@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "MATHURA",
-  "row_count": 14,
+  "row_count": 15,
   "rows": [
     {
       "date": "2026-04-13",
@@ -254,6 +254,24 @@
       "period_departure_pct": 142.0,
       "period_category": "LE",
       "scraped_at": "2026-04-29T08:22:12"
+    },
+    {
+      "date": "2026-04-30",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-30",
+      "level": "district",
+      "subdivision": "WEST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "MATHURA",
+      "day_actual_mm": 0.5,
+      "day_normal_mm": 0.1,
+      "day_departure_pct": 400.0,
+      "day_category": "LE",
+      "period_actual_mm": 32.5,
+      "period_normal_mm": 13.4,
+      "period_departure_pct": 143.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-30T08:24:32"
     }
   ]
 }

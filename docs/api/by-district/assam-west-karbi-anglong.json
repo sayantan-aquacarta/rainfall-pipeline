@@ -1,7 +1,7 @@
 {
   "state": "ASSAM",
   "district": "WEST KARBI ANGLONG",
-  "row_count": 13,
+  "row_count": 14,
   "rows": [
     {
       "date": "2026-04-13",
@@ -236,6 +236,24 @@
       "period_departure_pct": 57.0,
       "period_category": "E",
       "scraped_at": "2026-04-29T08:22:12"
+    },
+    {
+      "date": "2026-04-30",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-30",
+      "level": "district",
+      "subdivision": "ASSAM & MEGHALAYA",
+      "state": "ASSAM",
+      "district": "WEST KARBI ANGLONG",
+      "day_actual_mm": 2.8,
+      "day_normal_mm": 3.5,
+      "day_departure_pct": -20.0,
+      "day_category": "D",
+      "period_actual_mm": 189.4,
+      "period_normal_mm": 113.0,
+      "period_departure_pct": 68.0,
+      "period_category": "LE",
+      "scraped_at": "2026-04-30T08:24:32"
     }
   ]
 }

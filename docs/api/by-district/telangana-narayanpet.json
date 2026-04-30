@@ -1,7 +1,7 @@
 {
   "state": "TELANGANA",
   "district": "NARAYANPET",
-  "row_count": 13,
+  "row_count": 14,
   "rows": [
     {
       "date": "2026-04-13",
@@ -236,6 +236,24 @@
       "period_departure_pct": -53.0,
       "period_category": "D",
       "scraped_at": "2026-04-29T08:22:12"
+    },
+    {
+      "date": "2026-04-30",
+      "period_start": "2026-03-01",
+      "period_end": "2026-04-30",
+      "level": "district",
+      "subdivision": "TELANGANA",
+      "state": "TELANGANA",
+      "district": "NARAYANPET",
+      "day_actual_mm": 0.7,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": 6900.0,
+      "day_category": "LE",
+      "period_actual_mm": 15.8,
+      "period_normal_mm": 33.1,
+      "period_departure_pct": -52.0,
+      "period_category": "D",
+      "scraped_at": "2026-04-30T08:24:32"
     }
   ]
 }
