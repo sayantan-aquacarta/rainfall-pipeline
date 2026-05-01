@@ -1,7 +1,7 @@
 {
   "state": "KARNATAKA",
   "district": "CHAMARAJANAGAR",
-  "row_count": 15,
+  "row_count": 16,
   "rows": [
     {
       "date": "2026-04-13",
@@ -272,6 +272,24 @@
       "period_departure_pct": -56.0,
       "period_category": "D",
       "scraped_at": "2026-04-30T08:24:32"
+    },
+    {
+      "date": "2026-05-01",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-01",
+      "level": "district",
+      "subdivision": "S. I. KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "CHAMARAJANAGAR",
+      "day_actual_mm": 4.6,
+      "day_normal_mm": 4.6,
+      "day_departure_pct": 0.0,
+      "day_category": "N",
+      "period_actual_mm": 41.9,
+      "period_normal_mm": 90.3,
+      "period_departure_pct": -54.0,
+      "period_category": "D",
+      "scraped_at": "2026-05-01T08:13:28"
     }
   ]
 }

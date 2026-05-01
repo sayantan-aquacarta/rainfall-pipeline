@@ -1,7 +1,7 @@
 {
   "state": "RAJASTHAN",
   "district": "BHARATPUR",
-  "row_count": 15,
+  "row_count": 16,
   "rows": [
     {
       "date": "2026-04-13",
@@ -272,6 +272,24 @@
       "period_departure_pct": 240.0,
       "period_category": "LE",
       "scraped_at": "2026-04-30T08:24:32"
+    },
+    {
+      "date": "2026-05-01",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-01",
+      "level": "district",
+      "subdivision": "EAST RAJASTHAN",
+      "state": "RAJASTHAN",
+      "district": "BHARATPUR",
+      "day_actual_mm": 1.1,
+      "day_normal_mm": 0.4,
+      "day_departure_pct": 175.0,
+      "day_category": "LE",
+      "period_actual_mm": 42.6,
+      "period_normal_mm": 12.6,
+      "period_departure_pct": 238.0,
+      "period_category": "LE",
+      "scraped_at": "2026-05-01T08:13:28"
     }
   ]
 }

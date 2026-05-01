@@ -1,7 +1,7 @@
 {
   "state": "CHHATTISGARH",
   "district": "GAURELA-PENDRA-MARWAHI",
-  "row_count": 15,
+  "row_count": 16,
   "rows": [
     {
       "date": "2026-04-13",
@@ -272,6 +272,24 @@
       "period_departure_pct": -59.0,
       "period_category": "D",
       "scraped_at": "2026-04-30T08:24:32"
+    },
+    {
+      "date": "2026-05-01",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-01",
+      "level": "district",
+      "subdivision": "CHHATTISGARH",
+      "state": "CHHATTISGARH",
+      "district": "GAURELA-PENDRA-MARWAHI",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 1.1,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 22.9,
+      "period_normal_mm": 56.6,
+      "period_departure_pct": -60.0,
+      "period_category": "LD",
+      "scraped_at": "2026-05-01T08:13:28"
     }
   ]
 }
