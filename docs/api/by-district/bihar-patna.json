@@ -1,7 +1,7 @@
 {
   "state": "BIHAR",
   "district": "PATNA",
-  "row_count": 16,
+  "row_count": 17,
   "rows": [
     {
       "date": "2026-04-13",
@@ -290,6 +290,24 @@
       "period_departure_pct": 62.0,
       "period_category": "LE",
       "scraped_at": "2026-05-01T08:13:28"
+    },
+    {
+      "date": "2026-05-02",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-02",
+      "level": "district",
+      "subdivision": "BIHAR",
+      "state": "BIHAR",
+      "district": "PATNA",
+      "day_actual_mm": 0.2,
+      "day_normal_mm": 0.6,
+      "day_departure_pct": -66.0,
+      "day_category": "LD",
+      "period_actual_mm": 36.7,
+      "period_normal_mm": 23.1,
+      "period_departure_pct": 59.0,
+      "period_category": "E",
+      "scraped_at": "2026-05-02T07:46:55"
     }
   ]
 }

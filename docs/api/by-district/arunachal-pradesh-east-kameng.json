@@ -1,7 +1,7 @@
 {
   "state": "ARUNACHAL PRADESH",
   "district": "EAST KAMENG",
-  "row_count": 12,
+  "row_count": 13,
   "rows": [
     {
       "date": "2026-04-15",
@@ -218,6 +218,24 @@
       "period_departure_pct": 14.0,
       "period_category": "N",
       "scraped_at": "2026-05-01T08:13:28"
+    },
+    {
+      "date": "2026-05-02",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-02",
+      "level": "district",
+      "subdivision": "ARUNACHAL PRADESH",
+      "state": "ARUNACHAL PRADESH",
+      "district": "EAST KAMENG",
+      "day_actual_mm": 19.6,
+      "day_normal_mm": 3.5,
+      "day_departure_pct": 460.0,
+      "day_category": "LE",
+      "period_actual_mm": 322.2,
+      "period_normal_mm": 268.0,
+      "period_departure_pct": 20.0,
+      "period_category": "E",
+      "scraped_at": "2026-05-02T07:46:55"
     }
   ]
 }
