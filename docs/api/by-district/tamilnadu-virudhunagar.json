@@ -1,7 +1,7 @@
 {
   "state": "TAMILNADU",
   "district": "VIRUDHUNAGAR",
-  "row_count": 17,
+  "row_count": 18,
   "rows": [
     {
       "date": "2026-04-13",
@@ -308,6 +308,24 @@
       "period_departure_pct": -65.0,
       "period_category": "LD",
       "scraped_at": "2026-05-02T07:46:55"
+    },
+    {
+      "date": "2026-05-03",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-03",
+      "level": "district",
+      "subdivision": "TAMIL. PUDU.& KARAIKAL",
+      "state": "TAMILNADU",
+      "district": "VIRUDHUNAGAR",
+      "day_actual_mm": 6.2,
+      "day_normal_mm": 3.5,
+      "day_departure_pct": 78.0,
+      "day_category": "LE",
+      "period_actual_mm": 36.6,
+      "period_normal_mm": 89.9,
+      "period_departure_pct": -59.0,
+      "period_category": "D",
+      "scraped_at": "2026-05-03T08:03:15"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "GUJARAT REGION",
   "district": "MEHSANA",
-  "row_count": 17,
+  "row_count": 18,
   "rows": [
     {
       "date": "2026-04-13",
@@ -308,6 +308,24 @@
       "period_departure_pct": 685.0,
       "period_category": "LE",
       "scraped_at": "2026-05-02T07:46:55"
+    },
+    {
+      "date": "2026-05-03",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-03",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT REGION",
+      "district": "MEHSANA",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 10.2,
+      "period_normal_mm": 1.3,
+      "period_departure_pct": 685.0,
+      "period_category": "LE",
+      "scraped_at": "2026-05-03T08:03:15"
     }
   ]
 }

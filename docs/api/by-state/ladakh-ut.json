@@ -1,6 +1,6 @@
 {
   "state": "LADAKH (UT)",
-  "row_count": 29,
+  "row_count": 31,
   "districts": [
     "KARGIL",
     "LADAKH (LEH)"
@@ -527,6 +527,42 @@
       "period_departure_pct": 9.0,
       "period_category": "N",
       "scraped_at": "2026-05-02T07:46:55"
+    },
+    {
+      "date": "2026-05-03",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-03",
+      "level": "district",
+      "subdivision": "J & K AND LADAKH",
+      "state": "LADAKH (UT)",
+      "district": "KARGIL",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 20.2,
+      "period_normal_mm": 5.1,
+      "period_departure_pct": 296.0,
+      "period_category": "LE",
+      "scraped_at": "2026-05-03T08:03:15"
+    },
+    {
+      "date": "2026-05-03",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-03",
+      "level": "district",
+      "subdivision": "J & K AND LADAKH",
+      "state": "LADAKH (UT)",
+      "district": "LADAKH (LEH)",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 7.2,
+      "period_normal_mm": 6.6,
+      "period_departure_pct": 9.0,
+      "period_category": "N",
+      "scraped_at": "2026-05-03T08:03:15"
     }
   ]
 }

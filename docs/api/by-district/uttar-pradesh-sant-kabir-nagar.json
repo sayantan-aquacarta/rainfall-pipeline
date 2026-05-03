@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "SANT KABIR NAGAR",
-  "row_count": 17,
+  "row_count": 18,
   "rows": [
     {
       "date": "2026-04-13",
@@ -308,6 +308,24 @@
       "period_departure_pct": -37.0,
       "period_category": "D",
       "scraped_at": "2026-05-02T07:46:55"
+    },
+    {
+      "date": "2026-05-03",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-03",
+      "level": "district",
+      "subdivision": "EAST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "SANT KABIR NAGAR",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.1,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 8.2,
+      "period_normal_mm": 13.0,
+      "period_departure_pct": -37.0,
+      "period_category": "D",
+      "scraped_at": "2026-05-03T08:03:15"
     }
   ]
 }
