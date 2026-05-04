@@ -1,7 +1,7 @@
 {
   "state": "ANDHRA PRADESH",
   "district": "YANAM",
-  "row_count": 18,
+  "row_count": 19,
   "rows": [
     {
       "date": "2026-04-13",
@@ -326,6 +326,24 @@
       "period_departure_pct": -31.0,
       "period_category": "D",
       "scraped_at": "2026-05-03T08:03:15"
+    },
+    {
+      "date": "2026-05-04",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-04",
+      "level": "district",
+      "subdivision": "COASTAL A. P. & YANAM",
+      "state": "ANDHRA PRADESH",
+      "district": "YANAM",
+      "day_actual_mm": 13.2,
+      "day_normal_mm": 0.2,
+      "day_departure_pct": 6500.0,
+      "day_category": "LE",
+      "period_actual_mm": 32.2,
+      "period_normal_mm": 27.9,
+      "period_departure_pct": 15.0,
+      "period_category": "N",
+      "scraped_at": "2026-05-04T08:19:09"
     }
   ]
 }

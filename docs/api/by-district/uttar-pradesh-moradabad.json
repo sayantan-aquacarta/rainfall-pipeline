@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "MORADABAD",
-  "row_count": 18,
+  "row_count": 19,
   "rows": [
     {
       "date": "2026-04-13",
@@ -326,6 +326,24 @@
       "period_departure_pct": 19.0,
       "period_category": "N",
       "scraped_at": "2026-05-03T08:03:15"
+    },
+    {
+      "date": "2026-05-04",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-04",
+      "level": "district",
+      "subdivision": "WEST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "MORADABAD",
+      "day_actual_mm": 25.8,
+      "day_normal_mm": 0.5,
+      "day_departure_pct": 5052.0,
+      "day_category": "LE",
+      "period_actual_mm": 55.3,
+      "period_normal_mm": 25.4,
+      "period_departure_pct": 118.0,
+      "period_category": "LE",
+      "scraped_at": "2026-05-04T08:19:09"
     }
   ]
 }

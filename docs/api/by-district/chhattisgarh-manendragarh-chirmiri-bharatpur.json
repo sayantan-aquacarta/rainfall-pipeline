@@ -1,7 +1,7 @@
 {
   "state": "CHHATTISGARH",
   "district": "MANENDRAGARH-CHIRMIRI-BHARATPUR",
-  "row_count": 18,
+  "row_count": 19,
   "rows": [
     {
       "date": "2026-04-13",
@@ -326,6 +326,24 @@
       "period_departure_pct": -59.0,
       "period_category": "D",
       "scraped_at": "2026-05-03T08:03:15"
+    },
+    {
+      "date": "2026-05-04",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-04",
+      "level": "district",
+      "subdivision": "CHHATTISGARH",
+      "state": "CHHATTISGARH",
+      "district": "MANENDRAGARH-CHIRMIRI-BHARATPUR",
+      "day_actual_mm": 1.8,
+      "day_normal_mm": 0.1,
+      "day_departure_pct": 1650.0,
+      "day_category": "LE",
+      "period_actual_mm": 7.8,
+      "period_normal_mm": 14.8,
+      "period_departure_pct": -48.0,
+      "period_category": "D",
+      "scraped_at": "2026-05-04T08:19:09"
     }
   ]
 }

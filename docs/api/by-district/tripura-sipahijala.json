@@ -1,7 +1,7 @@
 {
   "state": "TRIPURA",
   "district": "SIPAHIJALA",
-  "row_count": 18,
+  "row_count": 19,
   "rows": [
     {
       "date": "2026-04-13",
@@ -326,6 +326,24 @@
       "period_departure_pct": -18.0,
       "period_category": "N",
       "scraped_at": "2026-05-03T08:03:15"
+    },
+    {
+      "date": "2026-05-04",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-04",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "TRIPURA",
+      "district": "SIPAHIJALA",
+      "day_actual_mm": 8.9,
+      "day_normal_mm": 11.4,
+      "day_departure_pct": -22.0,
+      "day_category": "D",
+      "period_actual_mm": 217.3,
+      "period_normal_mm": 264.8,
+      "period_departure_pct": -18.0,
+      "period_category": "N",
+      "scraped_at": "2026-05-04T08:19:09"
     }
   ]
 }
