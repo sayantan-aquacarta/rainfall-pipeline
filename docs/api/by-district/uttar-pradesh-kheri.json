@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "KHERI",
-  "row_count": 19,
+  "row_count": 20,
   "rows": [
     {
       "date": "2026-04-13",
@@ -344,6 +344,24 @@
       "period_departure_pct": 249.0,
       "period_category": "LE",
       "scraped_at": "2026-05-04T08:32:02"
+    },
+    {
+      "date": "2026-05-05",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-05",
+      "level": "district",
+      "subdivision": "EAST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "KHERI",
+      "day_actual_mm": 16.7,
+      "day_normal_mm": 0.8,
+      "day_departure_pct": 1992.0,
+      "day_category": "LE",
+      "period_actual_mm": 109.9,
+      "period_normal_mm": 27.5,
+      "period_departure_pct": 300.0,
+      "period_category": "LE",
+      "scraped_at": "2026-05-05T08:12:27"
     }
   ]
 }

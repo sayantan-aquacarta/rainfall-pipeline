@@ -1,7 +1,7 @@
 {
   "state": "TRIPURA",
   "district": "NORTH TRIPURA",
-  "row_count": 19,
+  "row_count": 20,
   "rows": [
     {
       "date": "2026-04-13",
@@ -344,6 +344,24 @@
       "period_departure_pct": 52.0,
       "period_category": "E",
       "scraped_at": "2026-05-04T08:32:02"
+    },
+    {
+      "date": "2026-05-05",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-05",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "TRIPURA",
+      "district": "NORTH TRIPURA",
+      "day_actual_mm": 6.2,
+      "day_normal_mm": 15.7,
+      "day_departure_pct": -61.0,
+      "day_category": "LD",
+      "period_actual_mm": 582.1,
+      "period_normal_mm": 393.5,
+      "period_departure_pct": 48.0,
+      "period_category": "E",
+      "scraped_at": "2026-05-05T08:12:27"
     }
   ]
 }

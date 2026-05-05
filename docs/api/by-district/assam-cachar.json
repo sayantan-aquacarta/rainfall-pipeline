@@ -1,7 +1,7 @@
 {
   "state": "ASSAM",
   "district": "CACHAR",
-  "row_count": 19,
+  "row_count": 20,
   "rows": [
     {
       "date": "2026-04-13",
@@ -344,6 +344,24 @@
       "period_departure_pct": 36.0,
       "period_category": "E",
       "scraped_at": "2026-05-04T08:32:02"
+    },
+    {
+      "date": "2026-05-05",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-05",
+      "level": "district",
+      "subdivision": "ASSAM & MEGHALAYA",
+      "state": "ASSAM",
+      "district": "CACHAR",
+      "day_actual_mm": 2.9,
+      "day_normal_mm": 14.8,
+      "day_departure_pct": -81.0,
+      "day_category": "LD",
+      "period_actual_mm": 702.9,
+      "period_normal_mm": 528.3,
+      "period_departure_pct": 33.0,
+      "period_category": "E",
+      "scraped_at": "2026-05-05T08:12:27"
     }
   ]
 }
