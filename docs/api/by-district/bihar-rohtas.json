@@ -1,7 +1,7 @@
 {
   "state": "BIHAR",
   "district": "ROHTAS",
-  "row_count": 20,
+  "row_count": 21,
   "rows": [
     {
       "date": "2026-04-13",
@@ -362,6 +362,24 @@
       "period_departure_pct": 92.0,
       "period_category": "LE",
       "scraped_at": "2026-05-05T08:12:27"
+    },
+    {
+      "date": "2026-05-06",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-06",
+      "level": "district",
+      "subdivision": "BIHAR",
+      "state": "BIHAR",
+      "district": "ROHTAS",
+      "day_actual_mm": 10.4,
+      "day_normal_mm": 0.5,
+      "day_departure_pct": 1976.0,
+      "day_category": "LE",
+      "period_actual_mm": 37.4,
+      "period_normal_mm": 14.6,
+      "period_departure_pct": 156.0,
+      "period_category": "LE",
+      "scraped_at": "2026-05-07T08:35:34"
     }
   ]
 }

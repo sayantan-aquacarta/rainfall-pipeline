@@ -1,7 +1,7 @@
 {
   "state": "WEST BENGAL",
   "district": "JALPAIGURI",
-  "row_count": 20,
+  "row_count": 21,
   "rows": [
     {
       "date": "2026-04-13",
@@ -362,6 +362,24 @@
       "period_departure_pct": 137.0,
       "period_category": "LE",
       "scraped_at": "2026-05-05T08:12:27"
+    },
+    {
+      "date": "2026-05-06",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-06",
+      "level": "district",
+      "subdivision": "SHWB & SIKKIM",
+      "state": "WEST BENGAL",
+      "district": "JALPAIGURI",
+      "day_actual_mm": 6.2,
+      "day_normal_mm": 8.7,
+      "day_departure_pct": -29.0,
+      "day_category": "D",
+      "period_actual_mm": 584.0,
+      "period_normal_mm": 252.6,
+      "period_departure_pct": 131.0,
+      "period_category": "LE",
+      "scraped_at": "2026-05-07T08:35:34"
     }
   ]
 }

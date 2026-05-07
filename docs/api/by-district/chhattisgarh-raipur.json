@@ -1,7 +1,7 @@
 {
   "state": "CHHATTISGARH",
   "district": "RAIPUR",
-  "row_count": 20,
+  "row_count": 21,
   "rows": [
     {
       "date": "2026-04-13",
@@ -362,6 +362,24 @@
       "period_departure_pct": -86.0,
       "period_category": "LD",
       "scraped_at": "2026-05-05T08:12:27"
+    },
+    {
+      "date": "2026-05-06",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-06",
+      "level": "district",
+      "subdivision": "CHHATTISGARH",
+      "state": "CHHATTISGARH",
+      "district": "RAIPUR",
+      "day_actual_mm": 7.2,
+      "day_normal_mm": 0.2,
+      "day_departure_pct": 3509.0,
+      "day_category": "LE",
+      "period_actual_mm": 10.5,
+      "period_normal_mm": 23.2,
+      "period_departure_pct": -55.0,
+      "period_category": "D",
+      "scraped_at": "2026-05-07T08:35:34"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "ODISHA",
   "district": "GAJAPATI",
-  "row_count": 20,
+  "row_count": 21,
   "rows": [
     {
       "date": "2026-04-13",
@@ -362,6 +362,24 @@
       "period_departure_pct": 17.0,
       "period_category": "N",
       "scraped_at": "2026-05-05T08:12:27"
+    },
+    {
+      "date": "2026-05-06",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-06",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "GAJAPATI",
+      "day_actual_mm": 22.8,
+      "day_normal_mm": 2.5,
+      "day_departure_pct": 812.0,
+      "day_category": "LE",
+      "period_actual_mm": 164.0,
+      "period_normal_mm": 123.3,
+      "period_departure_pct": 33.0,
+      "period_category": "E",
+      "scraped_at": "2026-05-07T08:35:34"
     }
   ]
 }
