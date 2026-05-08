@@ -1,7 +1,7 @@
 {
   "state": "WEST BENGAL",
   "district": "HOWRAH",
-  "row_count": 21,
+  "row_count": 22,
   "rows": [
     {
       "date": "2026-04-13",
@@ -380,6 +380,24 @@
       "period_departure_pct": 229.0,
       "period_category": "LE",
       "scraped_at": "2026-05-07T08:35:34"
+    },
+    {
+      "date": "2026-05-08",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-08",
+      "level": "district",
+      "subdivision": "GANGETIC WEST BENGAL",
+      "state": "WEST BENGAL",
+      "district": "HOWRAH",
+      "day_actual_mm": 20.1,
+      "day_normal_mm": 3.6,
+      "day_departure_pct": 458.0,
+      "day_category": "LE",
+      "period_actual_mm": 329.0,
+      "period_normal_mm": 99.6,
+      "period_departure_pct": 230.0,
+      "period_category": "LE",
+      "scraped_at": "2026-05-08T07:44:51"
     }
   ]
 }
