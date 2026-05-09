@@ -1,7 +1,7 @@
 {
   "state": "KERALA",
   "district": "KASARGOD",
-  "row_count": 22,
+  "row_count": 23,
   "rows": [
     {
       "date": "2026-04-13",
@@ -398,6 +398,24 @@
       "period_departure_pct": -45.0,
       "period_category": "D",
       "scraped_at": "2026-05-08T07:44:51"
+    },
+    {
+      "date": "2026-05-09",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-09",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KASARGOD",
+      "day_actual_mm": 22.2,
+      "day_normal_mm": 8.8,
+      "day_departure_pct": 152.0,
+      "day_category": "LE",
+      "period_actual_mm": 66.9,
+      "period_normal_mm": 90.0,
+      "period_departure_pct": -26.0,
+      "period_category": "D",
+      "scraped_at": "2026-05-09T07:58:46"
     }
   ]
 }

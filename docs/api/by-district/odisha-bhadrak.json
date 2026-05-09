@@ -1,7 +1,7 @@
 {
   "state": "ODISHA",
   "district": "BHADRAK",
-  "row_count": 22,
+  "row_count": 23,
   "rows": [
     {
       "date": "2026-04-13",
@@ -398,6 +398,24 @@
       "period_departure_pct": 52.0,
       "period_category": "E",
       "scraped_at": "2026-05-08T07:44:51"
+    },
+    {
+      "date": "2026-05-09",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-09",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "BHADRAK",
+      "day_actual_mm": 12.4,
+      "day_normal_mm": 2.6,
+      "day_departure_pct": 377.0,
+      "day_category": "LE",
+      "period_actual_mm": 178.1,
+      "period_normal_mm": 111.9,
+      "period_departure_pct": 59.0,
+      "period_category": "E",
+      "scraped_at": "2026-05-09T07:58:46"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "BIHAR",
   "district": "MADHUBANI",
-  "row_count": 22,
+  "row_count": 23,
   "rows": [
     {
       "date": "2026-04-13",
@@ -398,6 +398,24 @@
       "period_departure_pct": 271.0,
       "period_category": "LE",
       "scraped_at": "2026-05-08T07:44:51"
+    },
+    {
+      "date": "2026-05-09",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-09",
+      "level": "district",
+      "subdivision": "BIHAR",
+      "state": "BIHAR",
+      "district": "MADHUBANI",
+      "day_actual_mm": 16.4,
+      "day_normal_mm": 1.8,
+      "day_departure_pct": 811.0,
+      "day_category": "LE",
+      "period_actual_mm": 169.9,
+      "period_normal_mm": 43.2,
+      "period_departure_pct": 293.0,
+      "period_category": "LE",
+      "scraped_at": "2026-05-09T07:58:46"
     }
   ]
 }
