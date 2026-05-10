@@ -1,7 +1,7 @@
 {
   "state": "ODISHA",
   "district": "BARGARH",
-  "row_count": 23,
+  "row_count": 24,
   "rows": [
     {
       "date": "2026-04-13",
@@ -416,6 +416,24 @@
       "period_departure_pct": 5.0,
       "period_category": "N",
       "scraped_at": "2026-05-09T07:58:46"
+    },
+    {
+      "date": "2026-05-10",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-10",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "BARGARH",
+      "day_actual_mm": 10.4,
+      "day_normal_mm": 0.5,
+      "day_departure_pct": 1973.0,
+      "day_category": "LE",
+      "period_actual_mm": 45.2,
+      "period_normal_mm": 33.8,
+      "period_departure_pct": 34.0,
+      "period_category": "E",
+      "scraped_at": "2026-05-10T08:09:34"
     }
   ]
 }

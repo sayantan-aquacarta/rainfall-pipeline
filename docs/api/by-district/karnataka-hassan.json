@@ -1,7 +1,7 @@
 {
   "state": "KARNATAKA",
   "district": "HASSAN",
-  "row_count": 23,
+  "row_count": 24,
   "rows": [
     {
       "date": "2026-04-13",
@@ -416,6 +416,24 @@
       "period_departure_pct": -11.0,
       "period_category": "N",
       "scraped_at": "2026-05-09T07:58:46"
+    },
+    {
+      "date": "2026-05-10",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-10",
+      "level": "district",
+      "subdivision": "S. I. KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "HASSAN",
+      "day_actual_mm": 8.5,
+      "day_normal_mm": 3.0,
+      "day_departure_pct": 183.0,
+      "day_category": "LE",
+      "period_actual_mm": 94.4,
+      "period_normal_mm": 99.2,
+      "period_departure_pct": -5.0,
+      "period_category": "N",
+      "scraped_at": "2026-05-10T08:09:34"
     }
   ]
 }

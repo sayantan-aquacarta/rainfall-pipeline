@@ -1,7 +1,7 @@
 {
   "state": "MANIPUR",
   "district": "CHURACHANDPUR",
-  "row_count": 23,
+  "row_count": 24,
   "rows": [
     {
       "date": "2026-04-13",
@@ -416,6 +416,24 @@
       "period_departure_pct": -89.0,
       "period_category": "LD",
       "scraped_at": "2026-05-09T07:58:46"
+    },
+    {
+      "date": "2026-05-10",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-10",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "MANIPUR",
+      "district": "CHURACHANDPUR",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 7.6,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 31.5,
+      "period_normal_mm": 287.0,
+      "period_departure_pct": -89.0,
+      "period_category": "LD",
+      "scraped_at": "2026-05-10T08:09:34"
     }
   ]
 }

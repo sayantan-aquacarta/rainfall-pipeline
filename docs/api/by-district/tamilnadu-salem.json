@@ -1,7 +1,7 @@
 {
   "state": "TAMILNADU",
   "district": "SALEM",
-  "row_count": 23,
+  "row_count": 24,
   "rows": [
     {
       "date": "2026-04-13",
@@ -416,6 +416,24 @@
       "period_departure_pct": 34.0,
       "period_category": "E",
       "scraped_at": "2026-05-09T07:58:46"
+    },
+    {
+      "date": "2026-05-10",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-10",
+      "level": "district",
+      "subdivision": "TAMIL. PUDU.& KARAIKAL",
+      "state": "TAMILNADU",
+      "district": "SALEM",
+      "day_actual_mm": 11.0,
+      "day_normal_mm": 3.5,
+      "day_departure_pct": 214.0,
+      "day_category": "LE",
+      "period_actual_mm": 132.5,
+      "period_normal_mm": 93.9,
+      "period_departure_pct": 41.0,
+      "period_category": "E",
+      "scraped_at": "2026-05-10T08:09:34"
     }
   ]
 }

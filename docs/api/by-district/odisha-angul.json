@@ -1,7 +1,7 @@
 {
   "state": "ODISHA",
   "district": "ANGUL",
-  "row_count": 23,
+  "row_count": 24,
   "rows": [
     {
       "date": "2026-04-13",
@@ -416,6 +416,24 @@
       "period_departure_pct": -5.0,
       "period_category": "N",
       "scraped_at": "2026-05-09T07:58:46"
+    },
+    {
+      "date": "2026-05-10",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-10",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "ANGUL",
+      "day_actual_mm": 1.2,
+      "day_normal_mm": 1.9,
+      "day_departure_pct": -39.0,
+      "day_category": "D",
+      "period_actual_mm": 62.2,
+      "period_normal_mm": 66.4,
+      "period_departure_pct": -6.0,
+      "period_category": "N",
+      "scraped_at": "2026-05-10T08:09:34"
     }
   ]
 }

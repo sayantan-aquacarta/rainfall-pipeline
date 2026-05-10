@@ -1,7 +1,7 @@
 {
   "state": "KARNATAKA",
   "district": "BAGALKOTE",
-  "row_count": 23,
+  "row_count": 24,
   "rows": [
     {
       "date": "2026-04-13",
@@ -416,6 +416,24 @@
       "period_departure_pct": -5.0,
       "period_category": "N",
       "scraped_at": "2026-05-09T07:58:46"
+    },
+    {
+      "date": "2026-05-10",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-10",
+      "level": "district",
+      "subdivision": "N. I. KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "BAGALKOTE",
+      "day_actual_mm": 0.6,
+      "day_normal_mm": 0.5,
+      "day_departure_pct": 25.0,
+      "day_category": "E",
+      "period_actual_mm": 34.2,
+      "period_normal_mm": 35.9,
+      "period_departure_pct": -5.0,
+      "period_category": "N",
+      "scraped_at": "2026-05-10T08:09:34"
     }
   ]
 }

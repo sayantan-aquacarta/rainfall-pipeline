@@ -1,7 +1,7 @@
 {
   "state": "TELANGANA",
   "district": "HANUMAKONDA",
-  "row_count": 23,
+  "row_count": 24,
   "rows": [
     {
       "date": "2026-04-13",
@@ -416,6 +416,24 @@
       "period_departure_pct": -94.0,
       "period_category": "LD",
       "scraped_at": "2026-05-09T07:58:46"
+    },
+    {
+      "date": "2026-05-10",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-10",
+      "level": "district",
+      "subdivision": "TELANGANA",
+      "state": "TELANGANA",
+      "district": "HANUMAKONDA",
+      "day_actual_mm": 0.3,
+      "day_normal_mm": 1.1,
+      "day_departure_pct": -72.0,
+      "day_category": "LD",
+      "period_actual_mm": 2.9,
+      "period_normal_mm": 47.3,
+      "period_departure_pct": -94.0,
+      "period_category": "LD",
+      "scraped_at": "2026-05-10T08:09:34"
     }
   ]
 }
