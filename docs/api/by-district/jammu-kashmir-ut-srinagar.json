@@ -1,7 +1,7 @@
 {
   "state": "JAMMU & KASHMIR(UT)",
   "district": "SRINAGAR",
-  "row_count": 24,
+  "row_count": 25,
   "rows": [
     {
       "date": "2026-04-13",
@@ -434,6 +434,24 @@
       "period_departure_pct": -25.0,
       "period_category": "D",
       "scraped_at": "2026-05-10T08:09:34"
+    },
+    {
+      "date": "2026-05-11",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-11",
+      "level": "district",
+      "subdivision": "J & K AND LADAKH",
+      "state": "JAMMU & KASHMIR(UT)",
+      "district": "SRINAGAR",
+      "day_actual_mm": 3.7,
+      "day_normal_mm": 2.2,
+      "day_departure_pct": 69.0,
+      "day_category": "LE",
+      "period_actual_mm": 174.6,
+      "period_normal_mm": 230.3,
+      "period_departure_pct": -24.0,
+      "period_category": "D",
+      "scraped_at": "2026-05-11T09:41:54"
     }
   ]
 }

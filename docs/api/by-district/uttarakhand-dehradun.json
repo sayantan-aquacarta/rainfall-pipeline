@@ -1,7 +1,7 @@
 {
   "state": "UTTARAKHAND",
   "district": "DEHRADUN",
-  "row_count": 24,
+  "row_count": 25,
   "rows": [
     {
       "date": "2026-04-13",
@@ -434,6 +434,24 @@
       "period_departure_pct": 36.0,
       "period_category": "E",
       "scraped_at": "2026-05-10T08:09:34"
+    },
+    {
+      "date": "2026-05-11",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-11",
+      "level": "district",
+      "subdivision": "UTTARAKHAND",
+      "state": "UTTARAKHAND",
+      "district": "DEHRADUN",
+      "day_actual_mm": 0.5,
+      "day_normal_mm": 1.9,
+      "day_departure_pct": -73.0,
+      "day_category": "LD",
+      "period_actual_mm": 157.2,
+      "period_normal_mm": 117.3,
+      "period_departure_pct": 34.0,
+      "period_category": "E",
+      "scraped_at": "2026-05-11T09:41:54"
     }
   ]
 }

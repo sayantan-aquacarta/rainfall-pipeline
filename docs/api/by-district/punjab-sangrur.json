@@ -1,7 +1,7 @@
 {
   "state": "PUNJAB",
   "district": "SANGRUR",
-  "row_count": 24,
+  "row_count": 25,
   "rows": [
     {
       "date": "2026-04-13",
@@ -434,6 +434,24 @@
       "period_departure_pct": 88.0,
       "period_category": "LE",
       "scraped_at": "2026-05-10T08:09:34"
+    },
+    {
+      "date": "2026-05-11",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-11",
+      "level": "district",
+      "subdivision": "PUNJAB",
+      "state": "PUNJAB",
+      "district": "SANGRUR",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.6,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 61.4,
+      "period_normal_mm": 33.2,
+      "period_departure_pct": 85.0,
+      "period_category": "LE",
+      "scraped_at": "2026-05-11T09:41:54"
     }
   ]
 }

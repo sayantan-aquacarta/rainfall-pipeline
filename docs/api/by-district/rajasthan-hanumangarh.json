@@ -1,7 +1,7 @@
 {
   "state": "RAJASTHAN",
   "district": "HANUMANGARH",
-  "row_count": 24,
+  "row_count": 25,
   "rows": [
     {
       "date": "2026-04-13",
@@ -434,6 +434,24 @@
       "period_departure_pct": 108.0,
       "period_category": "LE",
       "scraped_at": "2026-05-10T08:09:34"
+    },
+    {
+      "date": "2026-05-11",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-11",
+      "level": "district",
+      "subdivision": "WEST RAJASTHAN",
+      "state": "RAJASTHAN",
+      "district": "HANUMANGARH",
+      "day_actual_mm": 1.3,
+      "day_normal_mm": 0.3,
+      "day_departure_pct": 329.0,
+      "day_category": "LE",
+      "period_actual_mm": 40.0,
+      "period_normal_mm": 18.9,
+      "period_departure_pct": 112.0,
+      "period_category": "LE",
+      "scraped_at": "2026-05-11T09:41:54"
     }
   ]
 }

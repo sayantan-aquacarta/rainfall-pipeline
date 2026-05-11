@@ -1,7 +1,7 @@
 {
   "state": "HIMACHAL PRADESH",
   "district": "KANGRA",
-  "row_count": 24,
+  "row_count": 25,
   "rows": [
     {
       "date": "2026-04-13",
@@ -434,6 +434,24 @@
       "period_departure_pct": 17.0,
       "period_category": "N",
       "scraped_at": "2026-05-10T08:09:34"
+    },
+    {
+      "date": "2026-05-11",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-11",
+      "level": "district",
+      "subdivision": "HIMACHAL PRADESH",
+      "state": "HIMACHAL PRADESH",
+      "district": "KANGRA",
+      "day_actual_mm": 23.1,
+      "day_normal_mm": 2.5,
+      "day_departure_pct": 823.0,
+      "day_category": "LE",
+      "period_actual_mm": 199.8,
+      "period_normal_mm": 153.6,
+      "period_departure_pct": 30.0,
+      "period_category": "E",
+      "scraped_at": "2026-05-11T09:41:54"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "state": "MANIPUR",
-  "row_count": 189,
+  "row_count": 190,
   "districts": [
     "BISHNUPUR",
     "CHANDEL",
@@ -3413,6 +3413,24 @@
       "period_departure_pct": 33.0,
       "period_category": "E",
       "scraped_at": "2026-05-10T08:09:34"
+    },
+    {
+      "date": "2026-05-11",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-11",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "MANIPUR",
+      "district": "IMPHAL EAST",
+      "day_actual_mm": 5.1,
+      "day_normal_mm": 6.1,
+      "day_departure_pct": -16.0,
+      "day_category": "N",
+      "period_actual_mm": 298.8,
+      "period_normal_mm": 240.5,
+      "period_departure_pct": 24.0,
+      "period_category": "E",
+      "scraped_at": "2026-05-11T09:41:54"
     }
   ]
 }
