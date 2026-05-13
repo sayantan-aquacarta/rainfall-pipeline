@@ -1,7 +1,7 @@
 {
   "state": "JHARKHAND",
   "district": "HAZARIBAG",
-  "row_count": 25,
+  "row_count": 26,
   "rows": [
     {
       "date": "2026-04-13",
@@ -452,6 +452,24 @@
       "period_departure_pct": 162.0,
       "period_category": "LE",
       "scraped_at": "2026-05-12T08:42:37"
+    },
+    {
+      "date": "2026-05-13",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-13",
+      "level": "district",
+      "subdivision": "JHARKHAND",
+      "state": "JHARKHAND",
+      "district": "HAZARIBAG",
+      "day_actual_mm": 5.5,
+      "day_normal_mm": 1.4,
+      "day_departure_pct": 294.0,
+      "day_category": "LE",
+      "period_actual_mm": 119.3,
+      "period_normal_mm": 45.4,
+      "period_departure_pct": 163.0,
+      "period_category": "LE",
+      "scraped_at": "2026-05-13T08:46:18"
     }
   ]
 }

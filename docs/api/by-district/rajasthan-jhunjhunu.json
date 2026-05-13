@@ -1,7 +1,7 @@
 {
   "state": "RAJASTHAN",
   "district": "JHUNJHUNU",
-  "row_count": 25,
+  "row_count": 26,
   "rows": [
     {
       "date": "2026-04-13",
@@ -452,6 +452,24 @@
       "period_departure_pct": 200.0,
       "period_category": "LE",
       "scraped_at": "2026-05-12T08:42:37"
+    },
+    {
+      "date": "2026-05-13",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-13",
+      "level": "district",
+      "subdivision": "EAST RAJASTHAN",
+      "state": "RAJASTHAN",
+      "district": "JHUNJHUNU",
+      "day_actual_mm": 1.6,
+      "day_normal_mm": 2.1,
+      "day_departure_pct": -23.0,
+      "day_category": "D",
+      "period_actual_mm": 68.9,
+      "period_normal_mm": 25.5,
+      "period_departure_pct": 170.0,
+      "period_category": "LE",
+      "scraped_at": "2026-05-13T08:46:18"
     }
   ]
 }

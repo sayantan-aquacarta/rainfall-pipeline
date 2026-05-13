@@ -1,7 +1,7 @@
 {
   "state": "ASSAM",
   "district": "BISWANATH",
-  "row_count": 4,
+  "row_count": 5,
   "rows": [
     {
       "date": "2026-04-27",
@@ -74,6 +74,24 @@
       "period_departure_pct": 12.0,
       "period_category": "N",
       "scraped_at": "2026-05-07T08:35:34"
+    },
+    {
+      "date": "2026-05-13",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-13",
+      "level": "district",
+      "subdivision": "ASSAM & MEGHALAYA",
+      "state": "ASSAM",
+      "district": "BISWANATH",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 2.7,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 327.2,
+      "period_normal_mm": 336.4,
+      "period_departure_pct": -3.0,
+      "period_category": "N",
+      "scraped_at": "2026-05-13T08:46:18"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "ODISHA",
   "district": "DEOGARH",
-  "row_count": 25,
+  "row_count": 26,
   "rows": [
     {
       "date": "2026-04-13",
@@ -452,6 +452,24 @@
       "period_departure_pct": 98.0,
       "period_category": "LE",
       "scraped_at": "2026-05-12T08:42:37"
+    },
+    {
+      "date": "2026-05-13",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-13",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "DEOGARH",
+      "day_actual_mm": 17.4,
+      "day_normal_mm": 1.5,
+      "day_departure_pct": 1060.0,
+      "day_category": "LE",
+      "period_actual_mm": 129.5,
+      "period_normal_mm": 59.4,
+      "period_departure_pct": 118.0,
+      "period_category": "LE",
+      "scraped_at": "2026-05-13T08:46:18"
     }
   ]
 }

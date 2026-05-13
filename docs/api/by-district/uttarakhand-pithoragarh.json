@@ -1,7 +1,7 @@
 {
   "state": "UTTARAKHAND",
   "district": "PITHORAGARH",
-  "row_count": 25,
+  "row_count": 26,
   "rows": [
     {
       "date": "2026-04-13",
@@ -452,6 +452,24 @@
       "period_departure_pct": 10.0,
       "period_category": "N",
       "scraped_at": "2026-05-12T08:42:37"
+    },
+    {
+      "date": "2026-05-13",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-13",
+      "level": "district",
+      "subdivision": "UTTARAKHAND",
+      "state": "UTTARAKHAND",
+      "district": "PITHORAGARH",
+      "day_actual_mm": 2.4,
+      "day_normal_mm": 3.9,
+      "day_departure_pct": -39.0,
+      "day_category": "D",
+      "period_actual_mm": 191.6,
+      "period_normal_mm": 168.0,
+      "period_departure_pct": 14.0,
+      "period_category": "N",
+      "scraped_at": "2026-05-13T08:46:18"
     }
   ]
 }

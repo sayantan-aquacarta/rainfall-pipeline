@@ -1,7 +1,7 @@
 {
   "state": "BIHAR",
   "district": "ARARIA",
-  "row_count": 25,
+  "row_count": 26,
   "rows": [
     {
       "date": "2026-04-13",
@@ -452,6 +452,24 @@
       "period_departure_pct": 190.0,
       "period_category": "LE",
       "scraped_at": "2026-05-12T08:42:37"
+    },
+    {
+      "date": "2026-05-13",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-13",
+      "level": "district",
+      "subdivision": "BIHAR",
+      "state": "BIHAR",
+      "district": "ARARIA",
+      "day_actual_mm": 10.4,
+      "day_normal_mm": 3.7,
+      "day_departure_pct": 180.0,
+      "day_category": "LE",
+      "period_actual_mm": 251.3,
+      "period_normal_mm": 89.8,
+      "period_departure_pct": 180.0,
+      "period_category": "LE",
+      "scraped_at": "2026-05-13T08:46:18"
     }
   ]
 }

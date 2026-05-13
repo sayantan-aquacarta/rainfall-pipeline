@@ -1,7 +1,7 @@
 {
   "state": "TAMILNADU",
   "district": "TIRUVARUR",
-  "row_count": 25,
+  "row_count": 26,
   "rows": [
     {
       "date": "2026-04-13",
@@ -452,6 +452,24 @@
       "period_departure_pct": 7.0,
       "period_category": "N",
       "scraped_at": "2026-05-12T08:42:37"
+    },
+    {
+      "date": "2026-05-13",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-13",
+      "level": "district",
+      "subdivision": "TAMIL. PUDU.& KARAIKAL",
+      "state": "TAMILNADU",
+      "district": "TIRUVARUR",
+      "day_actual_mm": 0.4,
+      "day_normal_mm": 1.9,
+      "day_departure_pct": -80.0,
+      "day_category": "LD",
+      "period_actual_mm": 78.3,
+      "period_normal_mm": 75.8,
+      "period_departure_pct": 3.0,
+      "period_category": "N",
+      "scraped_at": "2026-05-13T08:46:18"
     }
   ]
 }
