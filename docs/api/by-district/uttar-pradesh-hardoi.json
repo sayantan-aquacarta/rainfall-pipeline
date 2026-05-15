@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "HARDOI",
-  "row_count": 26,
+  "row_count": 27,
   "rows": [
     {
       "date": "2026-04-13",
@@ -470,6 +470,24 @@
       "period_departure_pct": 232.0,
       "period_category": "LE",
       "scraped_at": "2026-05-14T08:39:21"
+    },
+    {
+      "date": "2026-05-15",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-15",
+      "level": "district",
+      "subdivision": "EAST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "HARDOI",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 2.3,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 66.2,
+      "period_normal_mm": 21.8,
+      "period_departure_pct": 204.0,
+      "period_category": "LE",
+      "scraped_at": "2026-05-15T08:50:57"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "ASSAM",
   "district": "KOKRAJHAR",
-  "row_count": 20,
+  "row_count": 21,
   "rows": [
     {
       "date": "2026-04-17",
@@ -362,6 +362,24 @@
       "period_departure_pct": 71.0,
       "period_category": "LE",
       "scraped_at": "2026-05-14T08:39:21"
+    },
+    {
+      "date": "2026-05-15",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-15",
+      "level": "district",
+      "subdivision": "ASSAM & MEGHALAYA",
+      "state": "ASSAM",
+      "district": "KOKRAJHAR",
+      "day_actual_mm": 21.7,
+      "day_normal_mm": 10.6,
+      "day_departure_pct": 105.0,
+      "day_category": "LE",
+      "period_actual_mm": 721.5,
+      "period_normal_mm": 407.5,
+      "period_departure_pct": 77.0,
+      "period_category": "LE",
+      "scraped_at": "2026-05-15T08:50:57"
     }
   ]
 }

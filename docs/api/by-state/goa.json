@@ -1,6 +1,6 @@
 {
   "state": "GOA",
-  "row_count": 52,
+  "row_count": 54,
   "districts": [
     "NORTH GOA",
     "SOUTH GOA"
@@ -941,6 +941,42 @@
       "period_departure_pct": -37.0,
       "period_category": "D",
       "scraped_at": "2026-05-14T08:39:21"
+    },
+    {
+      "date": "2026-05-15",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-15",
+      "level": "district",
+      "subdivision": "KONKAN & GOA",
+      "state": "GOA",
+      "district": "NORTH GOA",
+      "day_actual_mm": 1.3,
+      "day_normal_mm": 2.1,
+      "day_departure_pct": -40.0,
+      "day_category": "D",
+      "period_actual_mm": 1.9,
+      "period_normal_mm": 18.5,
+      "period_departure_pct": -90.0,
+      "period_category": "LD",
+      "scraped_at": "2026-05-15T08:50:57"
+    },
+    {
+      "date": "2026-05-15",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-15",
+      "level": "district",
+      "subdivision": "KONKAN & GOA",
+      "state": "GOA",
+      "district": "SOUTH GOA",
+      "day_actual_mm": 3.0,
+      "day_normal_mm": 1.7,
+      "day_departure_pct": 75.0,
+      "day_category": "LE",
+      "period_actual_mm": 15.2,
+      "period_normal_mm": 21.5,
+      "period_departure_pct": -29.0,
+      "period_category": "D",
+      "scraped_at": "2026-05-15T08:50:57"
     }
   ]
 }

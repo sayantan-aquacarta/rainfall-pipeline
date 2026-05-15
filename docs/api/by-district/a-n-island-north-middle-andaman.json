@@ -1,7 +1,7 @@
 {
   "state": "A & N ISLAND",
   "district": "NORTH & MIDDLE ANDAMAN",
-  "row_count": 26,
+  "row_count": 27,
   "rows": [
     {
       "date": "2026-04-13",
@@ -470,6 +470,24 @@
       "period_departure_pct": 2.0,
       "period_category": "N",
       "scraped_at": "2026-05-14T08:39:21"
+    },
+    {
+      "date": "2026-05-15",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-15",
+      "level": "district",
+      "subdivision": "A & N ISLAND",
+      "state": "A & N ISLAND",
+      "district": "NORTH & MIDDLE ANDAMAN",
+      "day_actual_mm": 17.0,
+      "day_normal_mm": 9.1,
+      "day_departure_pct": 87.0,
+      "day_category": "LE",
+      "period_actual_mm": 200.2,
+      "period_normal_mm": 176.8,
+      "period_departure_pct": 13.0,
+      "period_category": "N",
+      "scraped_at": "2026-05-15T08:50:57"
     }
   ]
 }
