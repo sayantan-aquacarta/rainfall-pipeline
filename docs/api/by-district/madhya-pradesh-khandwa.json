@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "KHANDWA",
-  "row_count": 27,
+  "row_count": 28,
   "rows": [
     {
       "date": "2026-04-13",
@@ -488,6 +488,24 @@
       "period_departure_pct": -35.0,
       "period_category": "D",
       "scraped_at": "2026-05-15T08:50:57"
+    },
+    {
+      "date": "2026-05-16",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-16",
+      "level": "district",
+      "subdivision": "WEST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "KHANDWA",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 6.4,
+      "period_normal_mm": 9.9,
+      "period_departure_pct": -35.0,
+      "period_category": "D",
+      "scraped_at": "2026-05-16T08:06:36"
     }
   ]
 }
