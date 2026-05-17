@@ -1,7 +1,7 @@
 {
   "state": "ASSAM",
   "district": "MAJULI",
-  "row_count": 3,
+  "row_count": 4,
   "rows": [
     {
       "date": "2026-04-22",
@@ -56,6 +56,24 @@
       "period_departure_pct": 23.0,
       "period_category": "E",
       "scraped_at": "2026-05-08T07:44:51"
+    },
+    {
+      "date": "2026-05-17",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-17",
+      "level": "district",
+      "subdivision": "ASSAM & MEGHALAYA",
+      "state": "ASSAM",
+      "district": "MAJULI",
+      "day_actual_mm": 38.0,
+      "day_normal_mm": 7.6,
+      "day_departure_pct": 400.0,
+      "day_category": "LE",
+      "period_actual_mm": 404.0,
+      "period_normal_mm": 375.7,
+      "period_departure_pct": 8.0,
+      "period_category": "N",
+      "scraped_at": "2026-05-17T08:23:12"
     }
   ]
 }

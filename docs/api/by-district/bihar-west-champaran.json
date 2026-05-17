@@ -1,7 +1,7 @@
 {
   "state": "BIHAR",
   "district": "WEST CHAMPARAN",
-  "row_count": 28,
+  "row_count": 29,
   "rows": [
     {
       "date": "2026-04-13",
@@ -506,6 +506,24 @@
       "period_departure_pct": 45.0,
       "period_category": "E",
       "scraped_at": "2026-05-16T08:06:36"
+    },
+    {
+      "date": "2026-05-17",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-17",
+      "level": "district",
+      "subdivision": "BIHAR",
+      "state": "BIHAR",
+      "district": "WEST CHAMPARAN",
+      "day_actual_mm": 0.1,
+      "day_normal_mm": 1.6,
+      "day_departure_pct": -92.0,
+      "day_category": "LD",
+      "period_actual_mm": 101.5,
+      "period_normal_mm": 71.7,
+      "period_departure_pct": 42.0,
+      "period_category": "E",
+      "scraped_at": "2026-05-17T08:23:12"
     }
   ]
 }

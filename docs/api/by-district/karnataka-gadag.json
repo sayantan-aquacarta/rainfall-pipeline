@@ -1,7 +1,7 @@
 {
   "state": "KARNATAKA",
   "district": "GADAG",
-  "row_count": 28,
+  "row_count": 29,
   "rows": [
     {
       "date": "2026-04-13",
@@ -506,6 +506,24 @@
       "period_departure_pct": 3.0,
       "period_category": "N",
       "scraped_at": "2026-05-16T08:06:36"
+    },
+    {
+      "date": "2026-05-17",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-17",
+      "level": "district",
+      "subdivision": "N. I. KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "GADAG",
+      "day_actual_mm": 4.2,
+      "day_normal_mm": 2.3,
+      "day_departure_pct": 83.0,
+      "day_category": "LE",
+      "period_actual_mm": 72.1,
+      "period_normal_mm": 68.1,
+      "period_departure_pct": 6.0,
+      "period_category": "N",
+      "scraped_at": "2026-05-17T08:23:12"
     }
   ]
 }
