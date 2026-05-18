@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-17T08:23:18.294699+00:00",
+  "generated_at": "2026-05-18T10:07:10.639380+00:00",
   "first_date": "2026-04-13",
-  "last_date": "2026-05-17",
-  "n_dates": 29,
+  "last_date": "2026-05-18",
+  "n_dates": 30,
   "n_states": 49,
   "n_districts": 719,
-  "row_count": 24821,
+  "row_count": 25596,
   "endpoints": {
     "latest": "/api/latest.json",
     "by_date": "/api/by-date/{YYYY-MM-DD}.json",

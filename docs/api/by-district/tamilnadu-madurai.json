@@ -1,7 +1,7 @@
 {
   "state": "TAMILNADU",
   "district": "MADURAI",
-  "row_count": 29,
+  "row_count": 30,
   "rows": [
     {
       "date": "2026-04-13",
@@ -524,6 +524,24 @@
       "period_departure_pct": 27.0,
       "period_category": "E",
       "scraped_at": "2026-05-17T08:23:12"
+    },
+    {
+      "date": "2026-05-18",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-18",
+      "level": "district",
+      "subdivision": "TAMIL. PUDU.& KARAIKAL",
+      "state": "TAMILNADU",
+      "district": "MADURAI",
+      "day_actual_mm": 4.4,
+      "day_normal_mm": 1.2,
+      "day_departure_pct": 267.0,
+      "day_category": "LE",
+      "period_actual_mm": 146.5,
+      "period_normal_mm": 113.5,
+      "period_departure_pct": 29.0,
+      "period_category": "E",
+      "scraped_at": "2026-05-18T10:07:04"
     }
   ]
 }
