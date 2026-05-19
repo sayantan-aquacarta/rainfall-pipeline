@@ -1,7 +1,7 @@
 {
   "state": "ASSAM",
   "district": "TAMULPUR",
-  "row_count": 28,
+  "row_count": 29,
   "rows": [
     {
       "date": "2026-04-13",
@@ -506,6 +506,24 @@
       "period_departure_pct": 19.0,
       "period_category": "N",
       "scraped_at": "2026-05-18T10:07:04"
+    },
+    {
+      "date": "2026-05-19",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-19",
+      "level": "district",
+      "subdivision": "ASSAM & MEGHALAYA",
+      "state": "ASSAM",
+      "district": "TAMULPUR",
+      "day_actual_mm": 7.6,
+      "day_normal_mm": 11.3,
+      "day_departure_pct": -33.0,
+      "day_category": "D",
+      "period_actual_mm": 589.0,
+      "period_normal_mm": 500.4,
+      "period_departure_pct": 18.0,
+      "period_category": "N",
+      "scraped_at": "2026-05-19T09:47:20"
     }
   ]
 }
