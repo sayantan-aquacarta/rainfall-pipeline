@@ -1,7 +1,7 @@
 {
   "state": "JAMMU & KASHMIR(UT)",
   "district": "RAMBAN",
-  "row_count": 32,
+  "row_count": 33,
   "rows": [
     {
       "date": "2026-04-13",
@@ -578,6 +578,24 @@
       "period_departure_pct": -30.0,
       "period_category": "D",
       "scraped_at": "2026-05-22T09:27:56"
+    },
+    {
+      "date": "2026-05-23",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-23",
+      "level": "district",
+      "subdivision": "J & K AND LADAKH",
+      "state": "JAMMU & KASHMIR(UT)",
+      "district": "RAMBAN",
+      "day_actual_mm": 1.7,
+      "day_normal_mm": 3.4,
+      "day_departure_pct": -50.0,
+      "day_category": "D",
+      "period_actual_mm": 310.4,
+      "period_normal_mm": 442.4,
+      "period_departure_pct": -30.0,
+      "period_category": "D",
+      "scraped_at": "2026-05-23T08:21:55"
     }
   ]
 }

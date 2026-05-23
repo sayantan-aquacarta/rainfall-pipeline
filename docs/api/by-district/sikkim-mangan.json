@@ -1,7 +1,7 @@
 {
   "state": "SIKKIM",
   "district": "MANGAN",
-  "row_count": 32,
+  "row_count": 33,
   "rows": [
     {
       "date": "2026-04-13",
@@ -578,6 +578,24 @@
       "period_departure_pct": 88.0,
       "period_category": "LE",
       "scraped_at": "2026-05-22T09:27:56"
+    },
+    {
+      "date": "2026-05-23",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-23",
+      "level": "district",
+      "subdivision": "SHWB & SIKKIM",
+      "state": "SIKKIM",
+      "district": "MANGAN",
+      "day_actual_mm": 37.9,
+      "day_normal_mm": 11.5,
+      "day_departure_pct": 230.0,
+      "day_category": "LE",
+      "period_actual_mm": 1032.6,
+      "period_normal_mm": 547.5,
+      "period_departure_pct": 89.0,
+      "period_category": "LE",
+      "scraped_at": "2026-05-23T08:21:55"
     }
   ]
 }

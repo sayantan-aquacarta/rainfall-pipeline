@@ -1,7 +1,7 @@
 {
   "state": "HIMACHAL PRADESH",
   "district": "LAHAUL & SPITI",
-  "row_count": 32,
+  "row_count": 33,
   "rows": [
     {
       "date": "2026-04-13",
@@ -578,6 +578,24 @@
       "period_departure_pct": -40.0,
       "period_category": "D",
       "scraped_at": "2026-05-22T09:27:56"
+    },
+    {
+      "date": "2026-05-23",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-23",
+      "level": "district",
+      "subdivision": "HIMACHAL PRADESH",
+      "state": "HIMACHAL PRADESH",
+      "district": "LAHAUL & SPITI",
+      "day_actual_mm": 5.9,
+      "day_normal_mm": 1.9,
+      "day_departure_pct": 208.0,
+      "day_category": "LE",
+      "period_actual_mm": 167.3,
+      "period_normal_mm": 267.0,
+      "period_departure_pct": -37.0,
+      "period_category": "D",
+      "scraped_at": "2026-05-23T08:21:55"
     }
   ]
 }

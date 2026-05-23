@@ -1,7 +1,7 @@
 {
   "state": "UTTARAKHAND",
   "district": "CHAMPAWAT",
-  "row_count": 32,
+  "row_count": 33,
   "rows": [
     {
       "date": "2026-04-13",
@@ -578,6 +578,24 @@
       "period_departure_pct": 132.0,
       "period_category": "LE",
       "scraped_at": "2026-05-22T09:27:56"
+    },
+    {
+      "date": "2026-05-23",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-23",
+      "level": "district",
+      "subdivision": "UTTARAKHAND",
+      "state": "UTTARAKHAND",
+      "district": "CHAMPAWAT",
+      "day_actual_mm": 0.8,
+      "day_normal_mm": 3.3,
+      "day_departure_pct": -77.0,
+      "day_category": "LD",
+      "period_actual_mm": 197.1,
+      "period_normal_mm": 90.3,
+      "period_departure_pct": 118.0,
+      "period_category": "LE",
+      "scraped_at": "2026-05-23T08:21:55"
     }
   ]
 }

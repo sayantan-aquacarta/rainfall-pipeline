@@ -1,7 +1,7 @@
 {
   "state": "MEGHALAYA",
   "district": "WEST GARO HILLS",
-  "row_count": 27,
+  "row_count": 28,
   "rows": [
     {
       "date": "2026-04-13",
@@ -488,6 +488,24 @@
       "period_departure_pct": 14.0,
       "period_category": "N",
       "scraped_at": "2026-05-22T09:27:56"
+    },
+    {
+      "date": "2026-05-23",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-23",
+      "level": "district",
+      "subdivision": "ASSAM & MEGHALAYA",
+      "state": "MEGHALAYA",
+      "district": "WEST GARO HILLS",
+      "day_actual_mm": 14.2,
+      "day_normal_mm": 12.2,
+      "day_departure_pct": 16.0,
+      "day_category": "N",
+      "period_actual_mm": 613.0,
+      "period_normal_mm": 530.8,
+      "period_departure_pct": 15.0,
+      "period_category": "N",
+      "scraped_at": "2026-05-23T08:21:55"
     }
   ]
 }

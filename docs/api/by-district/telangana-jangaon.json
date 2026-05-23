@@ -1,7 +1,7 @@
 {
   "state": "TELANGANA",
   "district": "JANGAON",
-  "row_count": 31,
+  "row_count": 32,
   "rows": [
     {
       "date": "2026-04-13",
@@ -560,6 +560,24 @@
       "period_departure_pct": -80.0,
       "period_category": "LD",
       "scraped_at": "2026-05-22T09:27:56"
+    },
+    {
+      "date": "2026-05-23",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-23",
+      "level": "district",
+      "subdivision": "TELANGANA",
+      "state": "TELANGANA",
+      "district": "JANGAON",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.1,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 11.9,
+      "period_normal_mm": 59.9,
+      "period_departure_pct": -80.0,
+      "period_category": "LD",
+      "scraped_at": "2026-05-23T08:21:55"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "ANDHRA PRADESH",
   "district": "WEST GODAVARI",
-  "row_count": 32,
+  "row_count": 33,
   "rows": [
     {
       "date": "2026-04-13",
@@ -578,6 +578,24 @@
       "period_departure_pct": -93.0,
       "period_category": "LD",
       "scraped_at": "2026-05-22T09:27:56"
+    },
+    {
+      "date": "2026-05-23",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-23",
+      "level": "district",
+      "subdivision": "COASTAL A. P. & YANAM",
+      "state": "ANDHRA PRADESH",
+      "district": "WEST GODAVARI",
+      "day_actual_mm": 0.2,
+      "day_normal_mm": 0.5,
+      "day_departure_pct": -60.0,
+      "day_category": "LD",
+      "period_actual_mm": 5.5,
+      "period_normal_mm": 75.5,
+      "period_departure_pct": -93.0,
+      "period_category": "LD",
+      "scraped_at": "2026-05-23T08:21:55"
     }
   ]
 }

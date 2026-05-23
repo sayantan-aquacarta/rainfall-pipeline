@@ -1,7 +1,7 @@
 {
   "state": "KERALA",
   "district": "KOZHIKODE",
-  "row_count": 32,
+  "row_count": 33,
   "rows": [
     {
       "date": "2026-04-13",
@@ -578,6 +578,24 @@
       "period_departure_pct": 37.0,
       "period_category": "E",
       "scraped_at": "2026-05-22T09:27:56"
+    },
+    {
+      "date": "2026-05-23",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-23",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 7.1,
+      "day_normal_mm": 4.9,
+      "day_departure_pct": 44.0,
+      "day_category": "E",
+      "period_actual_mm": 338.4,
+      "period_normal_mm": 240.5,
+      "period_departure_pct": 41.0,
+      "period_category": "E",
+      "scraped_at": "2026-05-23T08:21:55"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "JAMMU & KASHMIR(UT)",
   "district": "KISTWAR",
-  "row_count": 32,
+  "row_count": 33,
   "rows": [
     {
       "date": "2026-04-13",
@@ -578,6 +578,24 @@
       "period_departure_pct": -39.0,
       "period_category": "D",
       "scraped_at": "2026-05-22T09:27:56"
+    },
+    {
+      "date": "2026-05-23",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-23",
+      "level": "district",
+      "subdivision": "J & K AND LADAKH",
+      "state": "JAMMU & KASHMIR(UT)",
+      "district": "KISTWAR",
+      "day_actual_mm": 3.3,
+      "day_normal_mm": 1.7,
+      "day_departure_pct": 91.0,
+      "day_category": "LE",
+      "period_actual_mm": 236.0,
+      "period_normal_mm": 371.0,
+      "period_departure_pct": -36.0,
+      "period_category": "D",
+      "scraped_at": "2026-05-23T08:21:55"
     }
   ]
 }
