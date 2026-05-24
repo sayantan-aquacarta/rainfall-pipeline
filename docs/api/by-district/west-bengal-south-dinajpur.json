@@ -1,7 +1,7 @@
 {
   "state": "WEST BENGAL",
   "district": "SOUTH DINAJPUR",
-  "row_count": 33,
+  "row_count": 34,
   "rows": [
     {
       "date": "2026-04-13",
@@ -596,6 +596,24 @@
       "period_departure_pct": 308.0,
       "period_category": "LE",
       "scraped_at": "2026-05-23T08:21:55"
+    },
+    {
+      "date": "2026-05-24",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-24",
+      "level": "district",
+      "subdivision": "SHWB & SIKKIM",
+      "state": "WEST BENGAL",
+      "district": "SOUTH DINAJPUR",
+      "day_actual_mm": 26.5,
+      "day_normal_mm": 3.1,
+      "day_departure_pct": 755.0,
+      "day_category": "LE",
+      "period_actual_mm": 773.0,
+      "period_normal_mm": 185.9,
+      "period_departure_pct": 316.0,
+      "period_category": "LE",
+      "scraped_at": "2026-05-24T08:30:48"
     }
   ]
 }
