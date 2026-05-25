@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "BARWANI",
-  "row_count": 34,
+  "row_count": 35,
   "rows": [
     {
       "date": "2026-04-13",
@@ -614,6 +614,24 @@
       "period_departure_pct": 31.0,
       "period_category": "E",
       "scraped_at": "2026-05-24T08:30:48"
+    },
+    {
+      "date": "2026-05-25",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-25",
+      "level": "district",
+      "subdivision": "WEST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "BARWANI",
+      "day_actual_mm": 1.2,
+      "day_normal_mm": 0.2,
+      "day_departure_pct": 500.0,
+      "day_category": "LE",
+      "period_actual_mm": 5.8,
+      "period_normal_mm": 3.7,
+      "period_departure_pct": 56.0,
+      "period_category": "E",
+      "scraped_at": "2026-05-25T10:09:05"
     }
   ]
 }

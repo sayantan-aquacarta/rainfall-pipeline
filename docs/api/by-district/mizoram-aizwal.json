@@ -1,7 +1,7 @@
 {
   "state": "MIZORAM",
   "district": "AIZWAL",
-  "row_count": 34,
+  "row_count": 35,
   "rows": [
     {
       "date": "2026-04-13",
@@ -614,6 +614,24 @@
       "period_departure_pct": -9.0,
       "period_category": "N",
       "scraped_at": "2026-05-24T08:30:48"
+    },
+    {
+      "date": "2026-05-25",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-25",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "MIZORAM",
+      "district": "AIZWAL",
+      "day_actual_mm": 34.4,
+      "day_normal_mm": 13.4,
+      "day_departure_pct": 157.0,
+      "day_category": "LE",
+      "period_actual_mm": 521.5,
+      "period_normal_mm": 550.1,
+      "period_departure_pct": -5.0,
+      "period_category": "N",
+      "scraped_at": "2026-05-25T10:09:05"
     }
   ]
 }

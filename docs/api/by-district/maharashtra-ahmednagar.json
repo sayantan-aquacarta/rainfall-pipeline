@@ -1,7 +1,7 @@
 {
   "state": "MAHARASHTRA",
   "district": "AHMEDNAGAR",
-  "row_count": 34,
+  "row_count": 35,
   "rows": [
     {
       "date": "2026-04-13",
@@ -614,6 +614,24 @@
       "period_departure_pct": -79.0,
       "period_category": "LD",
       "scraped_at": "2026-05-24T08:30:48"
+    },
+    {
+      "date": "2026-05-25",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-25",
+      "level": "district",
+      "subdivision": "MADHYA MAHARASHTRA",
+      "state": "MAHARASHTRA",
+      "district": "AHMEDNAGAR",
+      "day_actual_mm": 1.7,
+      "day_normal_mm": 0.4,
+      "day_departure_pct": 320.0,
+      "day_category": "LE",
+      "period_actual_mm": 4.7,
+      "period_normal_mm": 14.8,
+      "period_departure_pct": -68.0,
+      "period_category": "LD",
+      "scraped_at": "2026-05-25T10:09:05"
     }
   ]
 }
