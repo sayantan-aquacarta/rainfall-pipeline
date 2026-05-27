@@ -1,7 +1,7 @@
 {
   "state": "PUNJAB",
   "district": "BHATINDA",
-  "row_count": 35,
+  "row_count": 36,
   "rows": [
     {
       "date": "2026-04-13",
@@ -632,6 +632,24 @@
       "period_departure_pct": 29.0,
       "period_category": "E",
       "scraped_at": "2026-05-26T09:58:59"
+    },
+    {
+      "date": "2026-05-27",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-27",
+      "level": "district",
+      "subdivision": "PUNJAB",
+      "state": "PUNJAB",
+      "district": "BHATINDA",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.3,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 37.4,
+      "period_normal_mm": 29.7,
+      "period_departure_pct": 26.0,
+      "period_category": "E",
+      "scraped_at": "2026-05-27T09:53:21"
     }
   ]
 }

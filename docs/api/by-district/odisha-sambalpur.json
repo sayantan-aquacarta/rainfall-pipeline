@@ -1,7 +1,7 @@
 {
   "state": "ODISHA",
   "district": "SAMBALPUR",
-  "row_count": 35,
+  "row_count": 36,
   "rows": [
     {
       "date": "2026-04-13",
@@ -632,6 +632,24 @@
       "period_departure_pct": 49.0,
       "period_category": "E",
       "scraped_at": "2026-05-26T09:58:59"
+    },
+    {
+      "date": "2026-05-27",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-27",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "SAMBALPUR",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 2.2,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 85.4,
+      "period_normal_mm": 60.5,
+      "period_departure_pct": 41.0,
+      "period_category": "E",
+      "scraped_at": "2026-05-27T09:53:21"
     }
   ]
 }

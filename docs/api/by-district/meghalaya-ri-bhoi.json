@@ -1,7 +1,7 @@
 {
   "state": "MEGHALAYA",
   "district": "RI-BHOI",
-  "row_count": 34,
+  "row_count": 35,
   "rows": [
     {
       "date": "2026-04-13",
@@ -614,6 +614,24 @@
       "period_departure_pct": -14.0,
       "period_category": "N",
       "scraped_at": "2026-05-24T08:30:48"
+    },
+    {
+      "date": "2026-05-27",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-27",
+      "level": "district",
+      "subdivision": "ASSAM & MEGHALAYA",
+      "state": "MEGHALAYA",
+      "district": "RI-BHOI",
+      "day_actual_mm": 0.3,
+      "day_normal_mm": 6.5,
+      "day_departure_pct": -96.0,
+      "day_category": "LD",
+      "period_actual_mm": 417.8,
+      "period_normal_mm": 507.0,
+      "period_departure_pct": -18.0,
+      "period_category": "N",
+      "scraped_at": "2026-05-27T09:53:21"
     }
   ]
 }
