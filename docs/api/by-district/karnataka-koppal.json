@@ -1,7 +1,7 @@
 {
   "state": "KARNATAKA",
   "district": "KOPPAL",
-  "row_count": 36,
+  "row_count": 37,
   "rows": [
     {
       "date": "2026-04-13",
@@ -650,6 +650,24 @@
       "period_departure_pct": 75.0,
       "period_category": "LE",
       "scraped_at": "2026-05-27T09:53:21"
+    },
+    {
+      "date": "2026-05-28",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-28",
+      "level": "district",
+      "subdivision": "N. I. KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "KOPPAL",
+      "day_actual_mm": 5.2,
+      "day_normal_mm": 2.4,
+      "day_departure_pct": 118.0,
+      "day_category": "LE",
+      "period_actual_mm": 128.2,
+      "period_normal_mm": 72.6,
+      "period_departure_pct": 77.0,
+      "period_category": "LE",
+      "scraped_at": "2026-05-28T10:04:33"
     }
   ]
 }

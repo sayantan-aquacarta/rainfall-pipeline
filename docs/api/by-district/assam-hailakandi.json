@@ -1,7 +1,7 @@
 {
   "state": "ASSAM",
   "district": "HAILAKANDI",
-  "row_count": 36,
+  "row_count": 37,
   "rows": [
     {
       "date": "2026-04-13",
@@ -650,6 +650,24 @@
       "period_departure_pct": -18.0,
       "period_category": "N",
       "scraped_at": "2026-05-27T09:53:21"
+    },
+    {
+      "date": "2026-05-28",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-28",
+      "level": "district",
+      "subdivision": "ASSAM & MEGHALAYA",
+      "state": "ASSAM",
+      "district": "HAILAKANDI",
+      "day_actual_mm": 5.6,
+      "day_normal_mm": 17.6,
+      "day_departure_pct": -68.0,
+      "day_category": "LD",
+      "period_actual_mm": 588.0,
+      "period_normal_mm": 732.3,
+      "period_departure_pct": -20.0,
+      "period_category": "D",
+      "scraped_at": "2026-05-28T10:04:33"
     }
   ]
 }

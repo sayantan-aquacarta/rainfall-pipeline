@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "JABALPUR",
-  "row_count": 36,
+  "row_count": 37,
   "rows": [
     {
       "date": "2026-04-13",
@@ -650,6 +650,24 @@
       "period_departure_pct": -17.0,
       "period_category": "N",
       "scraped_at": "2026-05-27T09:53:21"
+    },
+    {
+      "date": "2026-05-28",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-28",
+      "level": "district",
+      "subdivision": "EAST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "JABALPUR",
+      "day_actual_mm": 0.3,
+      "day_normal_mm": 0.2,
+      "day_departure_pct": 30.0,
+      "day_category": "E",
+      "period_actual_mm": 19.7,
+      "period_normal_mm": 23.6,
+      "period_departure_pct": -16.0,
+      "period_category": "N",
+      "scraped_at": "2026-05-28T10:04:33"
     }
   ]
 }
