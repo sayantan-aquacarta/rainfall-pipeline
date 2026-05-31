@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "SATNA",
-  "row_count": 38,
+  "row_count": 39,
   "rows": [
     {
       "date": "2026-04-13",
@@ -686,6 +686,24 @@
       "period_departure_pct": 84.0,
       "period_category": "LE",
       "scraped_at": "2026-05-30T08:29:44"
+    },
+    {
+      "date": "2026-05-30",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-30",
+      "level": "district",
+      "subdivision": "EAST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "SATNA",
+      "day_actual_mm": 2.1,
+      "day_normal_mm": 0.2,
+      "day_departure_pct": 927.0,
+      "day_category": "LE",
+      "period_actual_mm": 31.4,
+      "period_normal_mm": 16.1,
+      "period_departure_pct": 95.0,
+      "period_category": "LE",
+      "scraped_at": "2026-05-31T08:47:17"
     }
   ]
 }

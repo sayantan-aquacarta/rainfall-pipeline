@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "KAUSHAMBI",
-  "row_count": 38,
+  "row_count": 39,
   "rows": [
     {
       "date": "2026-04-13",
@@ -686,6 +686,24 @@
       "period_departure_pct": 148.0,
       "period_category": "LE",
       "scraped_at": "2026-05-30T08:29:44"
+    },
+    {
+      "date": "2026-05-30",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-30",
+      "level": "district",
+      "subdivision": "EAST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "KAUSHAMBI",
+      "day_actual_mm": 0.2,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": 1567.0,
+      "day_category": "LE",
+      "period_actual_mm": 29.2,
+      "period_normal_mm": 11.7,
+      "period_departure_pct": 149.0,
+      "period_category": "LE",
+      "scraped_at": "2026-05-31T08:47:17"
     }
   ]
 }

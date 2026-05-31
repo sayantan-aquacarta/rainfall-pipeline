@@ -1,7 +1,7 @@
 {
   "state": "ANDHRA PRADESH",
   "district": "NANDYAL",
-  "row_count": 38,
+  "row_count": 39,
   "rows": [
     {
       "date": "2026-04-13",
@@ -686,6 +686,24 @@
       "period_departure_pct": -52.0,
       "period_category": "D",
       "scraped_at": "2026-05-30T08:29:44"
+    },
+    {
+      "date": "2026-05-30",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-30",
+      "level": "district",
+      "subdivision": "RAYALASEEMA",
+      "state": "ANDHRA PRADESH",
+      "district": "NANDYAL",
+      "day_actual_mm": 0.2,
+      "day_normal_mm": 1.8,
+      "day_departure_pct": -88.0,
+      "day_category": "LD",
+      "period_actual_mm": 36.1,
+      "period_normal_mm": 76.9,
+      "period_departure_pct": -53.0,
+      "period_category": "D",
+      "scraped_at": "2026-05-31T08:47:17"
     }
   ]
 }

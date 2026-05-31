@@ -1,7 +1,7 @@
 {
   "state": "ODISHA",
   "district": "RAYAGADA",
-  "row_count": 38,
+  "row_count": 39,
   "rows": [
     {
       "date": "2026-04-13",
@@ -686,6 +686,24 @@
       "period_departure_pct": -20.0,
       "period_category": "D",
       "scraped_at": "2026-05-30T08:29:44"
+    },
+    {
+      "date": "2026-05-30",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-30",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "RAYAGADA",
+      "day_actual_mm": 11.2,
+      "day_normal_mm": 2.0,
+      "day_departure_pct": 458.0,
+      "day_category": "LE",
+      "period_actual_mm": 138.6,
+      "period_normal_mm": 161.0,
+      "period_departure_pct": -14.0,
+      "period_category": "N",
+      "scraped_at": "2026-05-31T08:47:17"
     }
   ]
 }

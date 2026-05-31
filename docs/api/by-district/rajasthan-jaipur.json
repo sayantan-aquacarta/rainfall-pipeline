@@ -1,7 +1,7 @@
 {
   "state": "RAJASTHAN",
   "district": "JAIPUR",
-  "row_count": 38,
+  "row_count": 39,
   "rows": [
     {
       "date": "2026-04-13",
@@ -686,6 +686,24 @@
       "period_departure_pct": 116.0,
       "period_category": "LE",
       "scraped_at": "2026-05-30T08:29:44"
+    },
+    {
+      "date": "2026-05-30",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-30",
+      "level": "district",
+      "subdivision": "EAST RAJASTHAN",
+      "state": "RAJASTHAN",
+      "district": "JAIPUR",
+      "day_actual_mm": 5.6,
+      "day_normal_mm": 0.4,
+      "day_departure_pct": 1297.0,
+      "day_category": "LE",
+      "period_actual_mm": 67.9,
+      "period_normal_mm": 29.0,
+      "period_departure_pct": 134.0,
+      "period_category": "LE",
+      "scraped_at": "2026-05-31T08:47:17"
     }
   ]
 }

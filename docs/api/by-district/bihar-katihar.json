@@ -1,7 +1,7 @@
 {
   "state": "BIHAR",
   "district": "KATIHAR",
-  "row_count": 38,
+  "row_count": 39,
   "rows": [
     {
       "date": "2026-04-13",
@@ -686,6 +686,24 @@
       "period_departure_pct": 154.0,
       "period_category": "LE",
       "scraped_at": "2026-05-30T08:29:44"
+    },
+    {
+      "date": "2026-05-30",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-30",
+      "level": "district",
+      "subdivision": "BIHAR",
+      "state": "BIHAR",
+      "district": "KATIHAR",
+      "day_actual_mm": 9.2,
+      "day_normal_mm": 7.8,
+      "day_departure_pct": 18.0,
+      "day_category": "N",
+      "period_actual_mm": 354.4,
+      "period_normal_mm": 143.7,
+      "period_departure_pct": 147.0,
+      "period_category": "LE",
+      "scraped_at": "2026-05-31T08:47:17"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "HIMACHAL PRADESH",
   "district": "KINNAUR",
-  "row_count": 38,
+  "row_count": 39,
   "rows": [
     {
       "date": "2026-04-13",
@@ -686,6 +686,24 @@
       "period_departure_pct": -38.0,
       "period_category": "D",
       "scraped_at": "2026-05-30T08:29:44"
+    },
+    {
+      "date": "2026-05-30",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-30",
+      "level": "district",
+      "subdivision": "HIMACHAL PRADESH",
+      "state": "HIMACHAL PRADESH",
+      "district": "KINNAUR",
+      "day_actual_mm": 1.9,
+      "day_normal_mm": 1.2,
+      "day_departure_pct": 58.0,
+      "day_category": "E",
+      "period_actual_mm": 156.0,
+      "period_normal_mm": 248.1,
+      "period_departure_pct": -37.0,
+      "period_category": "D",
+      "scraped_at": "2026-05-31T08:47:17"
     }
   ]
 }

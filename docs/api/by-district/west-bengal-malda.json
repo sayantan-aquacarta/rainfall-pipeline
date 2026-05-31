@@ -1,7 +1,7 @@
 {
   "state": "WEST BENGAL",
   "district": "MALDA",
-  "row_count": 38,
+  "row_count": 39,
   "rows": [
     {
       "date": "2026-04-13",
@@ -686,6 +686,24 @@
       "period_departure_pct": 47.0,
       "period_category": "E",
       "scraped_at": "2026-05-30T08:29:44"
+    },
+    {
+      "date": "2026-05-30",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-30",
+      "level": "district",
+      "subdivision": "SHWB & SIKKIM",
+      "state": "WEST BENGAL",
+      "district": "MALDA",
+      "day_actual_mm": 4.1,
+      "day_normal_mm": 3.7,
+      "day_departure_pct": 11.0,
+      "day_category": "N",
+      "period_actual_mm": 299.7,
+      "period_normal_mm": 204.4,
+      "period_departure_pct": 47.0,
+      "period_category": "E",
+      "scraped_at": "2026-05-31T08:47:17"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "ODISHA",
   "district": "JAJPUR",
-  "row_count": 38,
+  "row_count": 39,
   "rows": [
     {
       "date": "2026-04-13",
@@ -686,6 +686,24 @@
       "period_departure_pct": -35.0,
       "period_category": "D",
       "scraped_at": "2026-05-30T08:29:44"
+    },
+    {
+      "date": "2026-05-30",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-30",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "JAJPUR",
+      "day_actual_mm": 21.3,
+      "day_normal_mm": 3.5,
+      "day_departure_pct": 510.0,
+      "day_category": "LE",
+      "period_actual_mm": 147.9,
+      "period_normal_mm": 197.6,
+      "period_departure_pct": -25.0,
+      "period_category": "D",
+      "scraped_at": "2026-05-31T08:47:17"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "JHARKHAND",
   "district": "RANCHI",
-  "row_count": 38,
+  "row_count": 39,
   "rows": [
     {
       "date": "2026-04-13",
@@ -686,6 +686,24 @@
       "period_departure_pct": 104.0,
       "period_category": "LE",
       "scraped_at": "2026-05-30T08:29:44"
+    },
+    {
+      "date": "2026-05-30",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-30",
+      "level": "district",
+      "subdivision": "JHARKHAND",
+      "state": "JHARKHAND",
+      "district": "RANCHI",
+      "day_actual_mm": 10.5,
+      "day_normal_mm": 2.1,
+      "day_departure_pct": 402.0,
+      "day_category": "LE",
+      "period_actual_mm": 167.9,
+      "period_normal_mm": 79.1,
+      "period_departure_pct": 112.0,
+      "period_category": "LE",
+      "scraped_at": "2026-05-31T08:47:17"
     }
   ]
 }
