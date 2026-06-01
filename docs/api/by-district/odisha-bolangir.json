@@ -1,7 +1,7 @@
 {
   "state": "ODISHA",
   "district": "BOLANGIR",
-  "row_count": 39,
+  "row_count": 40,
   "rows": [
     {
       "date": "2026-04-13",
@@ -704,6 +704,24 @@
       "period_departure_pct": 10.0,
       "period_category": "N",
       "scraped_at": "2026-05-31T08:47:17"
+    },
+    {
+      "date": "2026-05-31",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-31",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "BOLANGIR",
+      "day_actual_mm": 9.7,
+      "day_normal_mm": 0.9,
+      "day_departure_pct": 979.0,
+      "day_category": "LE",
+      "period_actual_mm": 81.2,
+      "period_normal_mm": 66.0,
+      "period_departure_pct": 23.0,
+      "period_category": "E",
+      "scraped_at": "2026-06-01T11:37:40"
     }
   ]
 }

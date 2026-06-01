@@ -1,7 +1,7 @@
 {
   "state": "TAMILNADU",
   "district": "DINDIGUL",
-  "row_count": 39,
+  "row_count": 40,
   "rows": [
     {
       "date": "2026-04-13",
@@ -704,6 +704,24 @@
       "period_departure_pct": 10.0,
       "period_category": "N",
       "scraped_at": "2026-05-31T08:47:17"
+    },
+    {
+      "date": "2026-05-31",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-31",
+      "level": "district",
+      "subdivision": "TAMIL. PUDU.& KARAIKAL",
+      "state": "TAMILNADU",
+      "district": "DINDIGUL",
+      "day_actual_mm": 0.2,
+      "day_normal_mm": 2.2,
+      "day_departure_pct": -90.0,
+      "day_category": "LD",
+      "period_actual_mm": 186.7,
+      "period_normal_mm": 171.7,
+      "period_departure_pct": 9.0,
+      "period_category": "N",
+      "scraped_at": "2026-06-01T11:37:40"
     }
   ]
 }

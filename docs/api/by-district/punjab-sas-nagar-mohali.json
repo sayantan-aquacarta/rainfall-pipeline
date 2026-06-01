@@ -1,7 +1,7 @@
 {
   "state": "PUNJAB",
   "district": "SAS NAGAR (MOHALI)",
-  "row_count": 39,
+  "row_count": 40,
   "rows": [
     {
       "date": "2026-04-13",
@@ -704,6 +704,24 @@
       "period_departure_pct": 27.0,
       "period_category": "E",
       "scraped_at": "2026-05-31T08:47:17"
+    },
+    {
+      "date": "2026-05-31",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-31",
+      "level": "district",
+      "subdivision": "PUNJAB",
+      "state": "PUNJAB",
+      "district": "SAS NAGAR (MOHALI)",
+      "day_actual_mm": 8.4,
+      "day_normal_mm": 0.6,
+      "day_departure_pct": 1300.0,
+      "day_category": "LE",
+      "period_actual_mm": 72.2,
+      "period_normal_mm": 50.7,
+      "period_departure_pct": 42.0,
+      "period_category": "E",
+      "scraped_at": "2026-06-01T11:37:40"
     }
   ]
 }

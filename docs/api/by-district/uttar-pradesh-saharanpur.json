@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "SAHARANPUR",
-  "row_count": 38,
+  "row_count": 39,
   "rows": [
     {
       "date": "2026-04-13",
@@ -686,6 +686,24 @@
       "period_departure_pct": -23.0,
       "period_category": "D",
       "scraped_at": "2026-05-31T08:47:17"
+    },
+    {
+      "date": "2026-05-31",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-31",
+      "level": "district",
+      "subdivision": "WEST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "SAHARANPUR",
+      "day_actual_mm": 4.6,
+      "day_normal_mm": 0.4,
+      "day_departure_pct": 1050.0,
+      "day_category": "LE",
+      "period_actual_mm": 54.8,
+      "period_normal_mm": 65.6,
+      "period_departure_pct": -16.0,
+      "period_category": "N",
+      "scraped_at": "2026-06-01T11:37:40"
     }
   ]
 }

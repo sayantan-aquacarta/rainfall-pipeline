@@ -1,7 +1,7 @@
 {
   "state": "GUJARAT REGION",
   "district": "DAMAN",
-  "row_count": 35,
+  "row_count": 36,
   "rows": [
     {
       "date": "2026-04-16",
@@ -632,6 +632,24 @@
       "period_departure_pct": -100.0,
       "period_category": "NR",
       "scraped_at": "2026-05-31T08:47:17"
+    },
+    {
+      "date": "2026-05-31",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-31",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT REGION",
+      "district": "DAMAN",
+      "day_actual_mm": 1.4,
+      "day_normal_mm": 5.4,
+      "day_departure_pct": -74.0,
+      "day_category": "LD",
+      "period_actual_mm": 1.4,
+      "period_normal_mm": 11.0,
+      "period_departure_pct": -87.0,
+      "period_category": "LD",
+      "scraped_at": "2026-06-01T11:37:40"
     }
   ]
 }

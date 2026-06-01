@@ -1,7 +1,7 @@
 {
   "state": "ASSAM",
   "district": "DIMA HASAO",
-  "row_count": 39,
+  "row_count": 40,
   "rows": [
     {
       "date": "2026-04-13",
@@ -704,6 +704,24 @@
       "period_departure_pct": -39.0,
       "period_category": "D",
       "scraped_at": "2026-05-31T08:47:17"
+    },
+    {
+      "date": "2026-05-31",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-31",
+      "level": "district",
+      "subdivision": "ASSAM & MEGHALAYA",
+      "state": "ASSAM",
+      "district": "DIMA HASAO",
+      "day_actual_mm": 1.1,
+      "day_normal_mm": 15.7,
+      "day_departure_pct": -93.0,
+      "day_category": "LD",
+      "period_actual_mm": 327.5,
+      "period_normal_mm": 554.7,
+      "period_departure_pct": -41.0,
+      "period_category": "D",
+      "scraped_at": "2026-06-01T11:37:40"
     }
   ]
 }

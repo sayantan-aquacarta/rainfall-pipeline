@@ -1,7 +1,7 @@
 {
   "state": "TELANGANA",
   "district": "MULUGU",
-  "row_count": 38,
+  "row_count": 39,
   "rows": [
     {
       "date": "2026-04-13",
@@ -686,6 +686,24 @@
       "period_departure_pct": -54.0,
       "period_category": "D",
       "scraped_at": "2026-05-31T08:47:17"
+    },
+    {
+      "date": "2026-05-31",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-31",
+      "level": "district",
+      "subdivision": "TELANGANA",
+      "state": "TELANGANA",
+      "district": "MULUGU",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.7,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 29.8,
+      "period_normal_mm": 65.9,
+      "period_departure_pct": -55.0,
+      "period_category": "D",
+      "scraped_at": "2026-06-01T11:37:40"
     }
   ]
 }

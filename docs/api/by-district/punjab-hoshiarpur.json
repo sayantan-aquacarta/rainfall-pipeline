@@ -1,7 +1,7 @@
 {
   "state": "PUNJAB",
   "district": "HOSHIARPUR",
-  "row_count": 39,
+  "row_count": 40,
   "rows": [
     {
       "date": "2026-04-13",
@@ -704,6 +704,24 @@
       "period_departure_pct": -70.0,
       "period_category": "LD",
       "scraped_at": "2026-05-31T08:47:17"
+    },
+    {
+      "date": "2026-05-31",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-31",
+      "level": "district",
+      "subdivision": "PUNJAB",
+      "state": "PUNJAB",
+      "district": "HOSHIARPUR",
+      "day_actual_mm": 6.8,
+      "day_normal_mm": 1.1,
+      "day_departure_pct": 514.0,
+      "day_category": "LE",
+      "period_actual_mm": 29.0,
+      "period_normal_mm": 74.8,
+      "period_departure_pct": -61.0,
+      "period_category": "LD",
+      "scraped_at": "2026-06-01T11:37:40"
     }
   ]
 }

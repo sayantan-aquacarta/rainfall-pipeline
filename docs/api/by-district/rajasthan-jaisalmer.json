@@ -1,7 +1,7 @@
 {
   "state": "RAJASTHAN",
   "district": "JAISALMER",
-  "row_count": 39,
+  "row_count": 40,
   "rows": [
     {
       "date": "2026-04-13",
@@ -704,6 +704,24 @@
       "period_departure_pct": 2.0,
       "period_category": "N",
       "scraped_at": "2026-05-31T08:47:17"
+    },
+    {
+      "date": "2026-05-31",
+      "period_start": "2026-03-01",
+      "period_end": "2026-05-31",
+      "level": "district",
+      "subdivision": "WEST RAJASTHAN",
+      "state": "RAJASTHAN",
+      "district": "JAISALMER",
+      "day_actual_mm": 0.3,
+      "day_normal_mm": 0.4,
+      "day_departure_pct": -37.0,
+      "day_category": "D",
+      "period_actual_mm": 16.9,
+      "period_normal_mm": 16.7,
+      "period_departure_pct": 1.0,
+      "period_category": "N",
+      "scraped_at": "2026-06-01T11:37:40"
     }
   ]
 }
