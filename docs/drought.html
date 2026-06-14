@@ -1,0 +1,250 @@
+<!-- v4-premium-drought -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Drought Monitor · India Climate Monitor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#07101c;--layer1:#0d1b2a;--layer2:#132337;--layer3:#1a2d45;--t1:#dce8f4;--t2:#92aec8;--t3:#4d6e8c;--b1:rgba(180,210,255,.07);--b2:rgba(180,210,255,.13);--blue:#5b9cf6;--blue2:#3b82f6;--teal:#2dd4bf;--radius:10px;--radius-sm:6px;}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Inter',system-ui,sans-serif;font-size:14px;line-height:1.5;background:var(--bg);color:var(--t1);-webkit-font-smoothing:antialiased;}
+header{position:relative;background:linear-gradient(170deg,#060e1c 0%,#091728 55%,#0b2036 100%);border-bottom:1px solid var(--b1);padding:2rem 2.5rem 1.75rem;overflow:hidden;}
+#rain-canvas{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;opacity:.15;}
+.header-inner{position:relative;z-index:1;max-width:1440px;margin:0 auto;display:flex;justify-content:space-between;align-items:flex-start;gap:1.5rem;flex-wrap:wrap;}
+.header-left{flex:1;min-width:0;}
+.header-eyebrow{display:flex;align-items:center;gap:.75rem;margin-bottom:.6rem;}
+.season-tag{font-size:.65rem;font-weight:600;letter-spacing:1.2px;text-transform:uppercase;color:var(--teal);border:1px solid rgba(45,212,191,.25);background:rgba(45,212,191,.06);padding:.2rem .6rem;border-radius:4px;}
+.divider-dot{width:3px;height:3px;background:var(--t3);border-radius:50%;}
+.header-source{font-size:.7rem;color:var(--t3);}
+header h1{font-size:1.65rem;font-weight:700;color:#fff;letter-spacing:-.4px;line-height:1.2;}
+header h1 span{color:#84cc16;}
+.header-desc{font-size:.78rem;color:var(--t3);margin-top:.35rem;}
+.header-meta{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin-top:.9rem;}
+.meta-sep{color:var(--t3);opacity:.4;}
+.meta-link{font-size:.72rem;color:var(--t3);text-decoration:none;transition:color .15s;}
+.meta-link:hover{color:var(--blue);}
+.status-pill{display:inline-flex;align-items:center;gap:.5rem;border:1px solid rgba(251,191,36,.2);background:rgba(251,191,36,.05);border-radius:100px;padding:.4rem .9rem;font-size:.72rem;font-weight:500;color:rgba(251,191,36,.8);white-space:nowrap;}
+.status-dot{width:6px;height:6px;background:#fbbf24;border-radius:50%;flex-shrink:0;animation:blink 2.4s ease-in-out infinite;}
+
+.module-nav{background:var(--layer1);border-bottom:1px solid var(--b1);overflow-x:auto;scrollbar-width:none;}
+.module-nav::-webkit-scrollbar{display:none;}
+.mnav-inner{max-width:1440px;margin:0 auto;padding:0 2rem;display:flex;}
+.mnav-item{display:inline-flex;align-items:center;gap:.5rem;padding:.75rem 1.25rem;font-size:.8rem;font-weight:500;color:var(--t3);text-decoration:none;border-bottom:2px solid transparent;transition:color .15s,border-color .15s;white-space:nowrap;}
+.mnav-item:hover{color:var(--t2);}
+.mnav-item.active{color:var(--blue);border-bottom-color:var(--blue);}
+.mnav-live{font-size:.6rem;font-weight:600;letter-spacing:.6px;padding:1px 5px;border-radius:3px;background:rgba(74,222,128,.1);border:1px solid rgba(74,222,128,.25);color:#4ade80;}
+.mnav-soon{font-size:.6rem;font-weight:600;letter-spacing:.6px;padding:1px 5px;border-radius:3px;background:rgba(251,191,36,.08);border:1px solid rgba(251,191,36,.2);color:#fbbf24;}
+
+main{max-width:1440px;margin:0 auto;padding:1.75rem 2rem 4rem;}
+.panel{background:var(--layer1);border:1px solid var(--b1);border-radius:var(--radius);}
+.panel-head{display:flex;align-items:center;justify-content:space-between;padding:1rem 1.5rem;border-bottom:1px solid var(--b1);flex-wrap:wrap;gap:.5rem;}
+.panel-title{font-size:.65rem;font-weight:600;letter-spacing:.9px;text-transform:uppercase;color:var(--t3);}
+.panel-body{padding:1.25rem 1.5rem;}
+.mb{margin-bottom:1.25rem;}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;margin-bottom:1.25rem;}
+
+.module-hero{display:flex;align-items:flex-start;gap:1.5rem;background:var(--layer1);border:1px solid var(--b1);border-radius:var(--radius);padding:2rem;margin-bottom:1.25rem;flex-wrap:wrap;}
+.hero-icon{font-size:2.5rem;flex-shrink:0;line-height:1;}
+.hero-content{flex:1;min-width:200px;}
+.hero-content h2{font-size:1.3rem;font-weight:700;color:var(--t1);margin-bottom:.4rem;letter-spacing:-.2px;}
+.hero-content p{font-size:.83rem;color:var(--t2);line-height:1.65;max-width:620px;}
+.hero-meta{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.9rem;}
+.hero-tag{font-size:.68rem;font-weight:500;padding:.25rem .65rem;border-radius:4px;background:var(--layer2);border:1px solid var(--b2);color:var(--t3);}
+.hero-status{display:flex;flex-direction:column;align-items:flex-end;gap:.5rem;flex-shrink:0;}
+.status-dev{font-size:.65rem;font-weight:700;letter-spacing:.8px;text-transform:uppercase;padding:.3rem .8rem;border-radius:4px;background:rgba(251,191,36,.08);border:1px solid rgba(251,191,36,.2);color:#fbbf24;}
+
+/* SPI scale */
+.spi-scale{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:.875rem;}
+.spi-chip{font-size:.68rem;font-weight:600;padding:.25rem .65rem;border-radius:4px;}
+.spi-chip.d4{background:rgba(127,29,29,.4);border:1px solid rgba(239,68,68,.3);color:#fca5a5;}
+.spi-chip.d3{background:rgba(153,27,27,.25);border:1px solid rgba(239,68,68,.2);color:#f87171;}
+.spi-chip.d2{background:rgba(194,65,12,.2);border:1px solid rgba(249,115,22,.25);color:#fb923c;}
+.spi-chip.d1{background:rgba(217,119,6,.15);border:1px solid rgba(245,158,11,.2);color:#fbbf24;}
+.spi-chip.d0{background:rgba(120,113,108,.15);border:1px solid rgba(120,113,108,.2);color:#a8a29e;}
+.spi-chip.w0{background:rgba(22,163,74,.1);border:1px solid rgba(22,163,74,.2);color:#4ade80;}
+.spi-chip.w1{background:rgba(21,128,61,.15);border:1px solid rgba(74,222,128,.2);color:#86efac;}
+.spi-chip.w2{background:rgba(20,83,45,.2);border:1px solid rgba(74,222,128,.25);color:#a7f3d0;}
+
+.viz-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:1rem;}
+.viz-card{background:var(--layer2);border:1px solid var(--b1);border-radius:var(--radius-sm);padding:1rem;}
+.viz-name{font-size:.72rem;font-weight:600;color:var(--t2);margin-bottom:.75rem;}
+.skeleton{border-radius:4px;margin-bottom:.6rem;background:linear-gradient(90deg,var(--layer2) 25%,var(--layer3) 50%,var(--layer2) 75%);background-size:400% 100%;animation:shimmer 2.2s ease-in-out infinite;}
+.h60{height:60px;}.h80{height:80px;}.h100{height:100px;}.h130{height:130px;}
+@keyframes shimmer{0%{background-position:-200% center}100%{background-position:200% center}}
+.viz-meta{font-size:.68rem;color:var(--t3);}
+
+.roadmap{display:flex;flex-direction:column;gap:.65rem;}
+.step{display:flex;align-items:center;gap:.8rem;font-size:.8rem;}
+.step-dot{width:20px;height:20px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:.65rem;font-weight:700;}
+.step.done .step-dot{background:rgba(74,222,128,.12);border:1.5px solid rgba(74,222,128,.4);color:#4ade80;}
+.step.wip  .step-dot{background:rgba(251,191,36,.1);border:1.5px solid rgba(251,191,36,.35);color:#fbbf24;animation:blink 1.8s infinite;}
+.step.todo .step-dot{background:transparent;border:1.5px solid var(--b2);}
+.step.done .step-label{color:var(--t2);}
+.step.wip  .step-label{color:var(--t1);font-weight:500;}
+.step.todo .step-label{color:var(--t3);}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.4}}
+
+.ds-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(165px,1fr));gap:.75rem;}
+.ds-item{background:var(--layer2);border:1px solid var(--b1);border-radius:var(--radius-sm);padding:.875rem;}
+.ds-key{font-size:.6rem;font-weight:600;letter-spacing:.7px;text-transform:uppercase;color:var(--t3);margin-bottom:.35rem;}
+.ds-val{font-size:.8rem;color:var(--t2);font-weight:500;}
+
+@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.rise{animation:rise .35s ease both;}
+footer{border-top:1px solid var(--b1);padding:1.75rem 2rem 2.25rem;text-align:center;font-size:.72rem;color:var(--t3);line-height:1.9;}
+footer a{color:var(--t3);text-decoration:none;transition:color .15s;}
+footer a:hover{color:var(--blue);}
+.brand{font-weight:600;color:var(--t2);}
+@media(max-width:768px){header{padding:1.5rem 1.25rem;}main{padding:1.25rem 1rem 3rem;}header h1{font-size:1.35rem;}.status-pill{display:none;}.mnav-inner{padding:0 1rem;}}
+@media(max-width:600px){.two-col{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+
+<header>
+  <canvas id="rain-canvas"></canvas>
+  <div class="header-inner">
+    <div class="header-left">
+      <div class="header-eyebrow">
+        <span class="season-tag">India Climate Intelligence</span>
+        <span class="divider-dot"></span>
+        <span class="header-source">IMD · National Drought Monitoring</span>
+      </div>
+      <h1>Drought <span>Monitor</span></h1>
+      <p class="header-desc">Standardized Precipitation Index (SPI) · Long Period Average baselines · Subdivision-level drought intensity</p>
+      <div class="header-meta">
+        <a class="meta-link" href="https://mausam.imd.gov.in" target="_blank" rel="noopener">IMD Source</a>
+        <span class="meta-sep">·</span>
+        <a class="meta-link" href="https://github.com/sayantan-aquacarta/rainfall-pipeline" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+    <div class="status-pill"><div class="status-dot"></div>Pipeline in Development</div>
+  </div>
+</header>
+
+<nav class="module-nav">
+  <div class="mnav-inner">
+    <a href="index.html"       class="mnav-item">Rainfall <span class="mnav-live">Live</span></a>
+    <a href="temperature.html" class="mnav-item">Temperature <span class="mnav-soon">Soon</span></a>
+    <a href="heatwave.html"    class="mnav-item">Heat Alerts <span class="mnav-soon">Soon</span></a>
+    <a href="drought.html"     class="mnav-item active">Drought <span class="mnav-soon">Soon</span></a>
+    <a href="reservoirs.html"  class="mnav-item">Reservoirs <span class="mnav-soon">Soon</span></a>
+  </div>
+</nav>
+
+<main>
+
+  <div class="module-hero rise">
+    <div class="hero-icon">🌾</div>
+    <div class="hero-content">
+      <h2>Drought Monitor — SPI &amp; LPA</h2>
+      <p>The Standardized Precipitation Index (SPI) measures rainfall deficit or surplus relative to historical variability — it is the internationally recommended drought index (WMO, 2012). Combined with IMD's Long Period Average (LPA) baselines, this module will provide the scientific drought intelligence needed for precision agri-advisory, water resource planning, and climate risk assessment.</p>
+      <div class="hero-meta">
+        <span class="hero-tag">Monthly cadence</span>
+        <span class="hero-tag">36 meteorological subdivisions</span>
+        <span class="hero-tag">SPI-1 / SPI-3 / SPI-6 / SPI-12</span>
+        <span class="hero-tag">LPA baseline comparison</span>
+        <span class="hero-tag">Drought intensity categories</span>
+      </div>
+    </div>
+    <div class="hero-status">
+      <div class="status-dev">In Development</div>
+    </div>
+  </div>
+
+  <div class="panel mb rise" style="animation-delay:.04s">
+    <div class="panel-head"><span class="panel-title">SPI Drought Intensity Scale (McKee et al., 1993)</span></div>
+    <div class="panel-body">
+      <div class="spi-scale">
+        <div class="spi-chip d4">D4 Exceptional Drought (SPI &lt; −2.0)</div>
+        <div class="spi-chip d3">D3 Extreme Drought (−2.0 to −1.6)</div>
+        <div class="spi-chip d2">D2 Severe Drought (−1.6 to −1.3)</div>
+        <div class="spi-chip d1">D1 Moderate Drought (−1.3 to −0.8)</div>
+        <div class="spi-chip d0">D0 Abnormally Dry (−0.8 to −0.5)</div>
+        <div class="spi-chip w0">W0 Abnormally Wet (+0.5 to +0.8)</div>
+        <div class="spi-chip w1">W1 Moderately Wet (+0.8 to +1.3)</div>
+        <div class="spi-chip w2">W2 Severely Wet (&gt; +1.3)</div>
+      </div>
+      <p style="font-size:.78rem;color:var(--t3);line-height:1.6;margin-top:.25rem;">SPI is calculated over rolling windows of 1, 3, 6, and 12 months. SPI-1 detects short-term agricultural drought; SPI-12 captures long-term hydrological drought affecting groundwater and reservoirs.</p>
+    </div>
+  </div>
+
+  <div class="panel mb rise" style="animation-delay:.08s">
+    <div class="panel-head"><span class="panel-title">Planned Dashboards</span></div>
+    <div class="panel-body">
+      <div class="viz-grid">
+        <div class="viz-card">
+          <div class="viz-name">Current SPI — All Subdivisions</div>
+          <div class="skeleton h130"></div>
+          <div class="viz-meta">SPI-1/3/6/12 bar chart — latest month, color coded by intensity</div>
+        </div>
+        <div class="viz-card">
+          <div class="viz-name">Subdivision SPI Time Series</div>
+          <div class="skeleton h130"></div>
+          <div class="viz-meta">Select subdivision — multi-scale SPI line chart</div>
+        </div>
+        <div class="viz-card">
+          <div class="viz-name">Season vs LPA Comparison</div>
+          <div class="skeleton h130"></div>
+          <div class="viz-meta">Current cumulative rainfall vs LPA — % of normal by subdivision</div>
+        </div>
+        <div class="viz-card">
+          <div class="viz-name">Drought Extent Tracker</div>
+          <div class="skeleton h130"></div>
+          <div class="viz-meta">How many subdivisions in D1+ drought this month vs historical</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="two-col rise" style="animation-delay:.12s">
+    <div class="panel">
+      <div class="panel-head"><span class="panel-title">Development Roadmap</span></div>
+      <div class="panel-body">
+        <div class="roadmap">
+          <div class="step done"><div class="step-dot">✓</div><span class="step-label">SPI methodology confirmed (WMO standard, gamma distribution fit)</span></div>
+          <div class="step done"><div class="step-dot">✓</div><span class="step-label">LPA dataset sourced — IMD historical subdivision normals</span></div>
+          <div class="step todo"><div class="step-dot"></div><span class="step-label">Monthly SPI computation pipeline (scipy.stats)</span></div>
+          <div class="step todo"><div class="step-dot"></div><span class="step-label">Integration with daily rainfall archive (aggregation)</span></div>
+          <div class="step todo"><div class="step-dot"></div><span class="step-label">Static API for SPI time series</span></div>
+          <div class="step todo"><div class="step-dot"></div><span class="step-label">Dashboard go-live</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="panel-head"><span class="panel-title">Data Sources</span></div>
+      <div class="panel-body">
+        <div class="ds-grid">
+          <div class="ds-item"><div class="ds-key">SPI Input</div><div class="ds-val">Daily rainfall archive (this pipeline)</div></div>
+          <div class="ds-item"><div class="ds-key">LPA Normals</div><div class="ds-val">IMD 1961–2010 climatological normals</div></div>
+          <div class="ds-item"><div class="ds-key">Coverage</div><div class="ds-val">36 meteorological subdivisions</div></div>
+          <div class="ds-item"><div class="ds-key">Cadence</div><div class="ds-val">Monthly (computed end-of-month)</div></div>
+          <div class="ds-item"><div class="ds-key">Reference</div><div class="ds-val">WMO-No. 1090 (2012)</div></div>
+          <div class="ds-item"><div class="ds-key">Publisher</div><div class="ds-val">IMD / computed from IMD data</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <p>Data source: <a href="https://mausam.imd.gov.in" target="_blank" rel="noopener">India Meteorological Department</a> · SPI methodology: <a href="https://library.wmo.int/records/item/39629-standardized-precipitation-index-user-guide" target="_blank" rel="noopener">WMO-No. 1090</a></p>
+  <p>Built by <a href="https://www.ecocarta.ai/" target="_blank" rel="noopener" class="brand">EcoCarta</a></p>
+</footer>
+
+<script>
+(function(){
+  const cv=document.getElementById('rain-canvas'),ctx=cv.getContext('2d');let drops=[];
+  function mk(){return{x:Math.random()*(cv.width+40),y:-20-Math.random()*cv.height,len:10+Math.random()*16,speed:.4+Math.random()*.9,alpha:.03+Math.random()*.13,width:.5+Math.random()*.8};}
+  function init(){cv.width=cv.offsetWidth;cv.height=cv.offsetHeight;drops=[];for(let i=0;i<Math.floor(cv.width/13);i++){const d=mk();d.y=Math.random()*cv.height;drops.push(d);}}
+  function frame(){ctx.clearRect(0,0,cv.width,cv.height);for(const d of drops){ctx.beginPath();ctx.moveTo(d.x,d.y);ctx.lineTo(d.x-.8,d.y+d.len);ctx.strokeStyle=`rgba(180,210,255,${d.alpha})`;ctx.lineWidth=d.width;ctx.stroke();d.y+=d.speed;if(d.y-d.len>cv.height)Object.assign(d,mk());}requestAnimationFrame(frame);}
+  new ResizeObserver(init).observe(cv.parentElement);init();frame();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,244 @@
+<!-- v4-premium-reservoirs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reservoir Storage · India Climate Monitor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#07101c;--layer1:#0d1b2a;--layer2:#132337;--layer3:#1a2d45;--t1:#dce8f4;--t2:#92aec8;--t3:#4d6e8c;--b1:rgba(180,210,255,.07);--b2:rgba(180,210,255,.13);--blue:#5b9cf6;--blue2:#3b82f6;--teal:#2dd4bf;--radius:10px;--radius-sm:6px;}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Inter',system-ui,sans-serif;font-size:14px;line-height:1.5;background:var(--bg);color:var(--t1);-webkit-font-smoothing:antialiased;}
+header{position:relative;background:linear-gradient(170deg,#060e1c 0%,#091728 55%,#0b2036 100%);border-bottom:1px solid var(--b1);padding:2rem 2.5rem 1.75rem;overflow:hidden;}
+#rain-canvas{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;opacity:.15;}
+.header-inner{position:relative;z-index:1;max-width:1440px;margin:0 auto;display:flex;justify-content:space-between;align-items:flex-start;gap:1.5rem;flex-wrap:wrap;}
+.header-left{flex:1;min-width:0;}
+.header-eyebrow{display:flex;align-items:center;gap:.75rem;margin-bottom:.6rem;}
+.season-tag{font-size:.65rem;font-weight:600;letter-spacing:1.2px;text-transform:uppercase;color:var(--teal);border:1px solid rgba(45,212,191,.25);background:rgba(45,212,191,.06);padding:.2rem .6rem;border-radius:4px;}
+.divider-dot{width:3px;height:3px;background:var(--t3);border-radius:50%;}
+.header-source{font-size:.7rem;color:var(--t3);}
+header h1{font-size:1.65rem;font-weight:700;color:#fff;letter-spacing:-.4px;line-height:1.2;}
+header h1 span{color:var(--teal);}
+.header-desc{font-size:.78rem;color:var(--t3);margin-top:.35rem;}
+.header-meta{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin-top:.9rem;}
+.meta-sep{color:var(--t3);opacity:.4;}
+.meta-link{font-size:.72rem;color:var(--t3);text-decoration:none;transition:color .15s;}
+.meta-link:hover{color:var(--blue);}
+.status-pill{display:inline-flex;align-items:center;gap:.5rem;border:1px solid rgba(251,191,36,.2);background:rgba(251,191,36,.05);border-radius:100px;padding:.4rem .9rem;font-size:.72rem;font-weight:500;color:rgba(251,191,36,.8);white-space:nowrap;}
+.status-dot{width:6px;height:6px;background:#fbbf24;border-radius:50%;flex-shrink:0;animation:blink 2.4s ease-in-out infinite;}
+
+.module-nav{background:var(--layer1);border-bottom:1px solid var(--b1);overflow-x:auto;scrollbar-width:none;}
+.module-nav::-webkit-scrollbar{display:none;}
+.mnav-inner{max-width:1440px;margin:0 auto;padding:0 2rem;display:flex;}
+.mnav-item{display:inline-flex;align-items:center;gap:.5rem;padding:.75rem 1.25rem;font-size:.8rem;font-weight:500;color:var(--t3);text-decoration:none;border-bottom:2px solid transparent;transition:color .15s,border-color .15s;white-space:nowrap;}
+.mnav-item:hover{color:var(--t2);}
+.mnav-item.active{color:var(--blue);border-bottom-color:var(--blue);}
+.mnav-live{font-size:.6rem;font-weight:600;letter-spacing:.6px;padding:1px 5px;border-radius:3px;background:rgba(74,222,128,.1);border:1px solid rgba(74,222,128,.25);color:#4ade80;}
+.mnav-soon{font-size:.6rem;font-weight:600;letter-spacing:.6px;padding:1px 5px;border-radius:3px;background:rgba(251,191,36,.08);border:1px solid rgba(251,191,36,.2);color:#fbbf24;}
+
+main{max-width:1440px;margin:0 auto;padding:1.75rem 2rem 4rem;}
+.panel{background:var(--layer1);border:1px solid var(--b1);border-radius:var(--radius);}
+.panel-head{display:flex;align-items:center;justify-content:space-between;padding:1rem 1.5rem;border-bottom:1px solid var(--b1);flex-wrap:wrap;gap:.5rem;}
+.panel-title{font-size:.65rem;font-weight:600;letter-spacing:.9px;text-transform:uppercase;color:var(--t3);}
+.panel-body{padding:1.25rem 1.5rem;}
+.mb{margin-bottom:1.25rem;}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;margin-bottom:1.25rem;}
+
+.module-hero{display:flex;align-items:flex-start;gap:1.5rem;background:var(--layer1);border:1px solid var(--b1);border-radius:var(--radius);padding:2rem;margin-bottom:1.25rem;flex-wrap:wrap;}
+.hero-icon{font-size:2.5rem;flex-shrink:0;line-height:1;}
+.hero-content{flex:1;min-width:200px;}
+.hero-content h2{font-size:1.3rem;font-weight:700;color:var(--t1);margin-bottom:.4rem;letter-spacing:-.2px;}
+.hero-content p{font-size:.83rem;color:var(--t2);line-height:1.65;max-width:620px;}
+.hero-meta{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.9rem;}
+.hero-tag{font-size:.68rem;font-weight:500;padding:.25rem .65rem;border-radius:4px;background:var(--layer2);border:1px solid var(--b2);color:var(--t3);}
+.hero-status{display:flex;flex-direction:column;align-items:flex-end;gap:.5rem;flex-shrink:0;}
+.status-dev{font-size:.65rem;font-weight:700;letter-spacing:.8px;text-transform:uppercase;padding:.3rem .8rem;border-radius:4px;background:rgba(251,191,36,.08);border:1px solid rgba(251,191,36,.2);color:#fbbf24;}
+
+/* basin list */
+.basin-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:.5rem;}
+.basin-item{display:flex;flex-direction:column;gap:.2rem;background:var(--layer2);border:1px solid var(--b1);border-radius:var(--radius-sm);padding:.75rem;}
+.basin-name{font-size:.72rem;font-weight:600;color:var(--t2);}
+.basin-meta{font-size:.65rem;color:var(--t3);}
+.basin-bar-outer{height:4px;background:var(--layer3);border-radius:2px;margin-top:.4rem;}
+.basin-bar-inner{height:4px;background:var(--teal);border-radius:2px;opacity:.4;}
+
+.viz-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:1rem;}
+.viz-card{background:var(--layer2);border:1px solid var(--b1);border-radius:var(--radius-sm);padding:1rem;}
+.viz-name{font-size:.72rem;font-weight:600;color:var(--t2);margin-bottom:.75rem;}
+.skeleton{border-radius:4px;margin-bottom:.6rem;background:linear-gradient(90deg,var(--layer2) 25%,var(--layer3) 50%,var(--layer2) 75%);background-size:400% 100%;animation:shimmer 2.2s ease-in-out infinite;}
+.h60{height:60px;}.h80{height:80px;}.h100{height:100px;}.h130{height:130px;}
+@keyframes shimmer{0%{background-position:-200% center}100%{background-position:200% center}}
+.viz-meta{font-size:.68rem;color:var(--t3);}
+
+.roadmap{display:flex;flex-direction:column;gap:.65rem;}
+.step{display:flex;align-items:center;gap:.8rem;font-size:.8rem;}
+.step-dot{width:20px;height:20px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:.65rem;font-weight:700;}
+.step.done .step-dot{background:rgba(74,222,128,.12);border:1.5px solid rgba(74,222,128,.4);color:#4ade80;}
+.step.wip  .step-dot{background:rgba(251,191,36,.1);border:1.5px solid rgba(251,191,36,.35);color:#fbbf24;animation:blink 1.8s infinite;}
+.step.todo .step-dot{background:transparent;border:1.5px solid var(--b2);}
+.step.done .step-label{color:var(--t2);}
+.step.wip  .step-label{color:var(--t1);font-weight:500;}
+.step.todo .step-label{color:var(--t3);}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.4}}
+
+.ds-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(165px,1fr));gap:.75rem;}
+.ds-item{background:var(--layer2);border:1px solid var(--b1);border-radius:var(--radius-sm);padding:.875rem;}
+.ds-key{font-size:.6rem;font-weight:600;letter-spacing:.7px;text-transform:uppercase;color:var(--t3);margin-bottom:.35rem;}
+.ds-val{font-size:.8rem;color:var(--t2);font-weight:500;}
+
+@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.rise{animation:rise .35s ease both;}
+footer{border-top:1px solid var(--b1);padding:1.75rem 2rem 2.25rem;text-align:center;font-size:.72rem;color:var(--t3);line-height:1.9;}
+footer a{color:var(--t3);text-decoration:none;transition:color .15s;}
+footer a:hover{color:var(--blue);}
+.brand{font-weight:600;color:var(--t2);}
+@media(max-width:768px){header{padding:1.5rem 1.25rem;}main{padding:1.25rem 1rem 3rem;}header h1{font-size:1.35rem;}.status-pill{display:none;}.mnav-inner{padding:0 1rem;}}
+@media(max-width:600px){.two-col{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+
+<header>
+  <canvas id="rain-canvas"></canvas>
+  <div class="header-inner">
+    <div class="header-left">
+      <div class="header-eyebrow">
+        <span class="season-tag">India Climate Intelligence</span>
+        <span class="divider-dot"></span>
+        <span class="header-source">Central Water Commission · Ministry of Jal Shakti</span>
+      </div>
+      <h1>Reservoir <span>Storage</span></h1>
+      <p class="header-desc">Live storage at major reservoirs · Basin-level aggregates · Storage vs last year &amp; Full Reservoir Level</p>
+      <div class="header-meta">
+        <a class="meta-link" href="https://cwc.gov.in" target="_blank" rel="noopener">CWC Source</a>
+        <span class="meta-sep">·</span>
+        <a class="meta-link" href="https://github.com/sayantan-aquacarta/rainfall-pipeline" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+    <div class="status-pill"><div class="status-dot"></div>Pipeline in Development</div>
+  </div>
+</header>
+
+<nav class="module-nav">
+  <div class="mnav-inner">
+    <a href="index.html"       class="mnav-item">Rainfall <span class="mnav-live">Live</span></a>
+    <a href="temperature.html" class="mnav-item">Temperature <span class="mnav-soon">Soon</span></a>
+    <a href="heatwave.html"    class="mnav-item">Heat Alerts <span class="mnav-soon">Soon</span></a>
+    <a href="drought.html"     class="mnav-item">Drought <span class="mnav-soon">Soon</span></a>
+    <a href="reservoirs.html"  class="mnav-item active">Reservoirs <span class="mnav-soon">Soon</span></a>
+  </div>
+</nav>
+
+<main>
+
+  <div class="module-hero rise">
+    <div class="hero-icon">💧</div>
+    <div class="hero-content">
+      <h2>Reservoir Storage Monitor</h2>
+      <p>The Central Water Commission (CWC) publishes weekly live storage data for India's 150+ major reservoirs, covering ~257 BCM of total capacity. This module will track live storage as a percentage of Full Reservoir Level (FRL), compare against last year and the last 10-year average, and correlate upstream rainfall from this pipeline with downstream storage response — providing the water-food-energy nexus view missing from rainfall data alone.</p>
+      <div class="hero-meta">
+        <span class="hero-tag">Weekly cadence (CWC)</span>
+        <span class="hero-tag">150+ major reservoirs</span>
+        <span class="hero-tag">6 regional basins</span>
+        <span class="hero-tag">Live storage % of FRL</span>
+        <span class="hero-tag">Rainfall correlation</span>
+      </div>
+    </div>
+    <div class="hero-status">
+      <div class="status-dev">In Development</div>
+    </div>
+  </div>
+
+  <div class="panel mb rise" style="animation-delay:.04s">
+    <div class="panel-head"><span class="panel-title">CWC River Basin Regions</span></div>
+    <div class="panel-body">
+      <div class="basin-list">
+        <div class="basin-item"><div class="basin-name">Northern</div><div class="basin-meta">Bhakra, Pong, Thein &amp; others</div><div class="basin-bar-outer"><div class="basin-bar-inner" style="width:72%"></div></div></div>
+        <div class="basin-item"><div class="basin-name">Eastern</div><div class="basin-meta">Panchet, Maithon, DVC</div><div class="basin-bar-outer"><div class="basin-bar-inner" style="width:58%"></div></div></div>
+        <div class="basin-item"><div class="basin-name">Western</div><div class="basin-meta">Ukai, Kadana, Sardar Sarovar</div><div class="basin-bar-outer"><div class="basin-bar-inner" style="width:81%"></div></div></div>
+        <div class="basin-item"><div class="basin-name">Central</div><div class="basin-meta">Bansagar, Gandhi Sagar, Indira Sagar</div><div class="basin-bar-outer"><div class="basin-bar-inner" style="width:44%"></div></div></div>
+        <div class="basin-item"><div class="basin-name">Southern</div><div class="basin-meta">Nagarjuna, Srisailam, Hirakud</div><div class="basin-bar-outer"><div class="basin-bar-inner" style="width:67%"></div></div></div>
+        <div class="basin-item"><div class="basin-name">North-East</div><div class="basin-meta">Kopili, Umiam, Ranganadi</div><div class="basin-bar-outer"><div class="basin-bar-inner" style="width:88%"></div></div></div>
+      </div>
+      <p style="font-size:.68rem;color:var(--t3);margin-top:.75rem;">Example storage bars shown for illustration only. Live data will populate on pipeline launch.</p>
+    </div>
+  </div>
+
+  <div class="panel mb rise" style="animation-delay:.08s">
+    <div class="panel-head"><span class="panel-title">Planned Dashboards</span></div>
+    <div class="panel-body">
+      <div class="viz-grid">
+        <div class="viz-card">
+          <div class="viz-name">Live Storage — Basin View</div>
+          <div class="skeleton h130"></div>
+          <div class="viz-meta">% of FRL by basin — current vs last year vs 10-yr avg</div>
+        </div>
+        <div class="viz-card">
+          <div class="viz-name">Individual Reservoir Detail</div>
+          <div class="skeleton h130"></div>
+          <div class="viz-meta">Select reservoir — weekly storage time series</div>
+        </div>
+        <div class="viz-card">
+          <div class="viz-name">Rainfall–Storage Correlation</div>
+          <div class="skeleton h130"></div>
+          <div class="viz-meta">Upstream rainfall vs downstream storage fill rate</div>
+        </div>
+        <div class="viz-card">
+          <div class="viz-name">Storage Deficit / Surplus</div>
+          <div class="skeleton h130"></div>
+          <div class="viz-meta">BCM above/below normal — color coded severity</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="two-col rise" style="animation-delay:.12s">
+    <div class="panel">
+      <div class="panel-head"><span class="panel-title">Development Roadmap</span></div>
+      <div class="panel-body">
+        <div class="roadmap">
+          <div class="step done"><div class="step-dot">✓</div><span class="step-label">Data source confirmed — CWC Weekly Reservoir Bulletin (PDF + HTML)</span></div>
+          <div class="step done"><div class="step-dot">✓</div><span class="step-label">Schema designed — reservoir master list, weekly storage table</span></div>
+          <div class="step todo"><div class="step-dot"></div><span class="step-label">CWC scraper development (HTML table + PDF fallback)</span></div>
+          <div class="step todo"><div class="step-dot"></div><span class="step-label">Reservoir master table with catchment area and upstream districts</span></div>
+          <div class="step todo"><div class="step-dot"></div><span class="step-label">Rainfall-storage correlation engine</span></div>
+          <div class="step todo"><div class="step-dot"></div><span class="step-label">Dashboard go-live</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="panel-head"><span class="panel-title">Data Source</span></div>
+      <div class="panel-body">
+        <div class="ds-grid">
+          <div class="ds-item"><div class="ds-key">Source</div><div class="ds-val">CWC Weekly Reservoir Bulletin</div></div>
+          <div class="ds-item"><div class="ds-key">Publisher</div><div class="ds-val">Central Water Commission, Ministry of Jal Shakti</div></div>
+          <div class="ds-item"><div class="ds-key">Reservoirs</div><div class="ds-val">150+ major reservoirs</div></div>
+          <div class="ds-item"><div class="ds-key">Cadence</div><div class="ds-val">Weekly (Thursday bulletin)</div></div>
+          <div class="ds-item"><div class="ds-key">Fields</div><div class="ds-val">Live storage (BCM), % FRL, Storage last year, 10-yr avg</div></div>
+          <div class="ds-item"><div class="ds-key">Total capacity</div><div class="ds-val">~257 BCM across 6 regions</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <p>Data source: <a href="https://cwc.gov.in" target="_blank" rel="noopener">Central Water Commission</a>, Ministry of Jal Shakti · <a href="https://github.com/sayantan-aquacarta/rainfall-pipeline" target="_blank" rel="noopener">Open-source pipeline</a></p>
+  <p>Built by <a href="https://www.ecocarta.ai/" target="_blank" rel="noopener" class="brand">EcoCarta</a></p>
+</footer>
+
+<script>
+(function(){
+  const cv=document.getElementById('rain-canvas'),ctx=cv.getContext('2d');let drops=[];
+  function mk(){return{x:Math.random()*(cv.width+40),y:-20-Math.random()*cv.height,len:10+Math.random()*16,speed:.4+Math.random()*.9,alpha:.03+Math.random()*.13,width:.5+Math.random()*.8};}
+  function init(){cv.width=cv.offsetWidth;cv.height=cv.offsetHeight;drops=[];for(let i=0;i<Math.floor(cv.width/13);i++){const d=mk();d.y=Math.random()*cv.height;drops.push(d);}}
+  function frame(){ctx.clearRect(0,0,cv.width,cv.height);for(const d of drops){ctx.beginPath();ctx.moveTo(d.x,d.y);ctx.lineTo(d.x-.8,d.y+d.len);ctx.strokeStyle=`rgba(180,210,255,${d.alpha})`;ctx.lineWidth=d.width;ctx.stroke();d.y+=d.speed;if(d.y-d.len>cv.height)Object.assign(d,mk());}requestAnimationFrame(frame);}
+  new ResizeObserver(init).observe(cv.parentElement);init();frame();
+})();
+</script>
+</body>
+</html>

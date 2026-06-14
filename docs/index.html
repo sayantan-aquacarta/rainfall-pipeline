@@ -640,6 +640,62 @@ td.dep-warn { color: #fbbf24; }
 .rise { animation: rise 0.35s ease both; }
 
 /* ─────────────────────────────────────────
+   MODULE NAV
+───────────────────────────────────────── */
+.module-nav {
+  background: var(--layer1);
+  border-bottom: 1px solid var(--b1);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.module-nav::-webkit-scrollbar { display: none; }
+
+.mnav-inner {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+}
+
+.mnav-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--t3);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: color 0.15s, border-color 0.15s;
+  white-space: nowrap;
+}
+.mnav-item:hover { color: var(--t2); }
+.mnav-item.active { color: var(--blue); border-bottom-color: var(--blue); }
+
+.mnav-live {
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  padding: 1px 5px;
+  border-radius: 3px;
+  background: rgba(74,222,128,0.1);
+  border: 1px solid rgba(74,222,128,0.25);
+  color: #4ade80;
+}
+
+.mnav-soon {
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  padding: 1px 5px;
+  border-radius: 3px;
+  background: rgba(251,191,36,0.08);
+  border: 1px solid rgba(251,191,36,0.2);
+  color: #fbbf24;
+}
+
+/* ─────────────────────────────────────────
    FOOTER
 ───────────────────────────────────────── */
 footer {
@@ -690,8 +746,6 @@ footer .brand { font-weight: 600; color: var(--t2); }
       <div class="header-meta">
         <span class="meta-item">Updated <strong id="last-updated">—</strong></span>
         <span class="meta-sep">·</span>
-        <a class="meta-link" href="api/index.json">JSON API</a>
-        <span class="meta-sep">·</span>
         <a class="meta-link" href="https://mausam.imd.gov.in/imd_latest/contents/rainfall_statistics_3.php" target="_blank" rel="noopener">IMD Source</a>
         <span class="meta-sep">·</span>
         <a class="meta-link" href="https://github.com/sayantan-aquacarta/rainfall-pipeline" target="_blank" rel="noopener">GitHub</a>
@@ -700,6 +754,17 @@ footer .brand { font-weight: 600; color: var(--t2); }
     <div class="live-pill"><div class="live-dot"></div>Updating daily</div>
   </div>
 </header>
+
+<!-- ── MODULE NAV ──────────────────────── -->
+<nav class="module-nav">
+  <div class="mnav-inner">
+    <a href="index.html"       class="mnav-item active">Rainfall <span class="mnav-live">Live</span></a>
+    <a href="temperature.html" class="mnav-item">Temperature <span class="mnav-soon">Soon</span></a>
+    <a href="heatwave.html"    class="mnav-item">Heat Alerts <span class="mnav-soon">Soon</span></a>
+    <a href="drought.html"     class="mnav-item">Drought <span class="mnav-soon">Soon</span></a>
+    <a href="reservoirs.html"  class="mnav-item">Reservoirs <span class="mnav-soon">Soon</span></a>
+  </div>
+</nav>
 
 <!-- ── MAIN ────────────────────────────── -->
 <main>
