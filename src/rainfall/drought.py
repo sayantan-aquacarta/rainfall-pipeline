@@ -117,7 +117,7 @@ def compute_drought_status(db_path: Path | None = None) -> pd.DataFrame:
     Latest drought status per subdivision (one row per subdivision).
     Uses the most recent date's subdivision-level period totals.
     """
-    db_path = db_path or CONFIG.db_path
+    db_path = db_path or CONFIG.sqlite_path
     df = _query(db_path, """
         SELECT
             date,
@@ -159,7 +159,7 @@ def compute_drought_history(db_path: Path | None = None) -> pd.DataFrame:
     """
     SPI for every (date, subdivision) in the archive — used for time-series charts.
     """
-    db_path = db_path or CONFIG.db_path
+    db_path = db_path or CONFIG.sqlite_path
     df = _query(db_path, """
         SELECT date, subdivision, period_actual_mm, period_normal_mm
         FROM rainfall
@@ -202,7 +202,7 @@ def build_drought_api(
     docs_path: Path | None = None,
 ) -> dict:
     """Write docs/api/drought-latest.json and docs/api/drought-history.json."""
-    docs_path = docs_path or CONFIG.docs_path
+    docs_path = docs_path or CONFIG.docs_dir
     api_dir = docs_path / "api"
     api_dir.mkdir(parents=True, exist_ok=True)
     now = datetime.now(timezone.utc).isoformat()
