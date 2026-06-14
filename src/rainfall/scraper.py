@@ -12,6 +12,7 @@ import hashlib
 import re
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
+from urllib.parse import urljoin
 
 import httpx
 from tenacity import (
@@ -61,21 +62,121 @@ def _download(url: str, timeout: float) -> bytes:
         return resp.content
 
 
+def _try_once(url: str, timeout: float) -> bytes:
+    """Single download attempt with no retries — used for probing fallback URLs."""
+    headers = {
+        "User-Agent": CONFIG.user_agent,
+        "Accept": "application/pdf,*/*;q=0.8",
+    }
+    with httpx.Client(timeout=timeout, follow_redirects=True, headers=headers) as client:
+        resp = client.get(url)
+        resp.raise_for_status()
+        if not resp.content.startswith(b"%PDF"):
+            raise ScrapeError(
+                f"Response from {url} is not a PDF (got {resp.content[:8]!r})"
+            )
+        return resp.content
+
+
+def _url_candidates(known_url: str) -> list[str]:
+    """
+    Return alternative PDF URL patterns to try when the primary URL fails.
+    IMD has historically served the district rainfall PDF from slightly different paths.
+    """
+    base = "https://mausam.imd.gov.in/Rainfall/"
+    names = [
+        "DISTRICT_RAINFALL_DISTRIBUTION_COUNTRY_INDIA_cd.pdf",
+        "DISTRICT_RAINFALL_DISTRIBUTION_INDIA_cd.pdf",
+        "district_rainfall_distribution_country_india_cd.pdf",
+        "DISTRICT_RAINFALL_DISTRIBUTION_INDIA.pdf",
+        "DISTRICT_RAINFALL.pdf",
+    ]
+    return [base + n for n in names if (base + n) != known_url]
+
+
+def discover_pdf_url(page_url: str, timeout: float) -> str | None:
+    """
+    Scrape the IMD statistics page to discover the current district rainfall PDF URL.
+    Returns the first plausible PDF href found, or None on failure.
+    """
+    try:
+        headers = {"User-Agent": CONFIG.user_agent}
+        with httpx.Client(timeout=timeout, follow_redirects=True, headers=headers) as client:
+            resp = client.get(page_url, headers=headers)
+            resp.raise_for_status()
+            html = resp.text
+    except Exception as exc:
+        log.warning("url_discovery_page_failed", url=page_url, error=str(exc))
+        return None
+
+    pdf_links = re.findall(r'href=["\']([^"\']*\.pdf[^"\']*)["\']', html, re.IGNORECASE)
+
+    # Prefer links with "district" in the name — most likely the right file
+    for link in pdf_links:
+        if "district" in link.lower():
+            url = link if link.startswith("http") else urljoin(page_url, link)
+            log.info("url_discovery_candidate", url=url, match="district")
+            return url
+
+    # Fall back to any PDF link on the page
+    for link in pdf_links:
+        url = link if link.startswith("http") else urljoin(page_url, link)
+        log.info("url_discovery_candidate", url=url, match="any_pdf")
+        return url
+
+    log.warning("url_discovery_no_pdf_links", page_url=page_url)
+    return None
+
+
 def fetch_pdf(url: str | None = None, timeout: float | None = None) -> bytes:
     """
-    Fetch the IMD PDF. Raises ScrapeError on permanent failure.
+    Fetch the IMD district rainfall PDF.
 
-    The PDF URL is stable across days — IMD overwrites the same file each day.
+    Cascade of three strategies:
+    1. Primary URL (with full tenacity retry logic on 5xx/429/transport errors)
+    2. URL discovered by scraping the IMD statistics page
+    3. Known historical URL variants
+
+    Raises ScrapeError when all strategies are exhausted.
+    Override the primary URL with the RAINFALL_PDF_URL env var.
     """
-    url = url or CONFIG.imd_pdf_url
+    primary_url = url or CONFIG.imd_pdf_url
     timeout = timeout or CONFIG.request_timeout_s
+
+    # Strategy 1 — primary URL with retries
     try:
-        data = _download(url, timeout)
-    except Exception as e:
-        log.error("download_failed_permanently", url=url, error=str(e))
-        raise ScrapeError(f"Failed to download {url}: {e}") from e
-    log.info("download_success", url=url, bytes=len(data))
-    return data
+        data = _download(primary_url, timeout)
+        log.info("download_success", url=primary_url, bytes=len(data))
+        return data
+    except Exception as exc:
+        log.warning("primary_url_failed", url=primary_url, error=str(exc),
+                    msg="attempting URL discovery fallback")
+
+    # Strategy 2 — scrape the IMD page to find the current PDF link
+    discovered = discover_pdf_url(CONFIG.imd_page_url, timeout)
+    if discovered and discovered != primary_url:
+        try:
+            data = _try_once(discovered, timeout)
+            log.info("download_success_via_discovery", url=discovered, bytes=len(data))
+            return data
+        except Exception as exc:
+            log.warning("discovered_url_failed", url=discovered, error=str(exc))
+
+    # Strategy 3 — try known URL pattern variants
+    for candidate in _url_candidates(primary_url):
+        try:
+            data = _try_once(candidate, timeout)
+            log.info("download_success_via_variant", url=candidate, bytes=len(data))
+            return data
+        except Exception as exc:
+            log.warning("variant_url_failed", url=candidate, error=str(exc))
+
+    raise ScrapeError(
+        f"Failed to download IMD district rainfall PDF from all sources. "
+        f"Primary URL: {primary_url}. "
+        "IMD may have changed their URL structure. "
+        "Set RAINFALL_PDF_URL env var to override the primary URL."
+    )
 
 
 def save_pdf(data: bytes, out_dir: Path | None = None) -> tuple[Path, str]:

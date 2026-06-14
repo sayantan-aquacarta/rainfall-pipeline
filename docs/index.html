@@ -4,426 +4,668 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>India Rainfall Dashboard · IMD Daily</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 <style>
   :root {
-    --bg: #f7f9fc;
+    --bg: #f0f4f8;
     --card: #ffffff;
-    --text: #1a2332;
-    --muted: #6b7a90;
-    --border: #e3e8ef;
-    --accent: #2563eb;
-    --excess: #16a34a;
-    --normal: #64748b;
-    --deficit: #dc2626;
+    --text: #0f172a;
+    --muted: #64748b;
+    --border: #e2e8f0;
+    --accent: #0ea5e9;
+    --cat-le: #059669;
+    --cat-e:  #10b981;
+    --cat-n:  #0ea5e9;
+    --cat-d:  #f97316;
+    --cat-ld: #ef4444;
+    --cat-nr: #94a3b8;
   }
 
-  * { box-sizing: border-box; }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
 
   body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
     background: var(--bg);
     color: var(--text);
     line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
+  /* ── Header ── */
   header {
-    background: var(--card);
-    border-bottom: 1px solid var(--border);
-    padding: 1.25rem 2rem;
+    background: linear-gradient(135deg, #0c1445 0%, #0f3460 40%, #0d7377 100%);
+    padding: 1.75rem 2rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  header::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(circle at 80% 50%, rgba(13,115,119,0.35) 0%, transparent 60%),
+                      radial-gradient(circle at 20% 80%, rgba(14,165,233,0.15) 0%, transparent 40%);
+    pointer-events: none;
+  }
+
+  .header-inner {
+    position: relative;
+    z-index: 1;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
   }
 
   header h1 {
-    margin: 0;
-    font-size: 1.4rem;
-    font-weight: 600;
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: -0.5px;
+    line-height: 1.2;
   }
 
-  header p {
-    margin: 0.25rem 0 0;
-    color: var(--muted);
-    font-size: 0.9rem;
+  .header-sub {
+    color: rgba(255,255,255,0.65);
+    font-size: 0.875rem;
+    margin-top: 0.3rem;
   }
 
+  .header-meta {
+    color: rgba(255,255,255,0.45);
+    font-size: 0.78rem;
+    margin-top: 0.75rem;
+  }
+
+  .header-meta a {
+    color: rgba(255,255,255,0.6);
+    text-decoration: none;
+  }
+
+  .header-meta a:hover { color: #fff; }
+
+  .live-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 100px;
+    padding: 0.45rem 1rem;
+    color: rgba(255,255,255,0.85);
+    font-size: 0.8rem;
+    font-weight: 500;
+    white-space: nowrap;
+    backdrop-filter: blur(4px);
+  }
+
+  .live-dot {
+    width: 7px;
+    height: 7px;
+    background: #4ade80;
+    border-radius: 50%;
+    flex-shrink: 0;
+    animation: blink 2.2s ease-in-out infinite;
+  }
+
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.35; }
+  }
+
+  /* ── Layout ── */
   main {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 1.5rem;
+    padding: 1.75rem 1.5rem 3rem;
   }
 
   .row {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.25rem;
   }
 
+  /* ── Cards ── */
   .card {
     background: var(--card);
     border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 1.25rem;
+    border-radius: 14px;
+    padding: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05), 0 1px 2px rgba(0,0,0,0.04);
   }
 
   .card h2 {
-    margin: 0 0 1rem;
-    font-size: 0.95rem;
-    font-weight: 600;
+    font-size: 0.72rem;
+    font-weight: 700;
     color: var(--muted);
     text-transform: uppercase;
-    letter-spacing: 0.5px;
-  }
-
-  .stat {
-    font-size: 2rem;
-    font-weight: 700;
-  }
-
-  .stat-sub {
-    color: var(--muted);
-    font-size: 0.85rem;
-    margin-top: 0.25rem;
-  }
-
-  .controls {
-    display: flex;
-    gap: 0.75rem;
-    flex-wrap: wrap;
-    align-items: center;
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 1rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .controls > div {
-    display: flex;
-    flex-direction: column;
-    gap: 0.25rem;
-  }
-
-  .controls label {
-    font-size: 0.85rem;
-    color: var(--muted);
-    margin-right: 0.5rem;
-  }
-
-  select,
-  input {
-    padding: 0.5rem 0.75rem;
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    font-size: 0.9rem;
-    background: white;
-    min-width: 170px;
-  }
-
-  .download-actions {
-    display: flex;
-    flex-direction: column;
-    gap: 0.4rem;
-  }
-
-  .download-buttons {
-    display: flex;
-    gap: 0.5rem;
-    flex-wrap: wrap;
-  }
-
-  .btn {
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    padding: 0.55rem 0.9rem;
-    font-size: 0.9rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: 0.2s ease;
-  }
-
-  .btn:disabled {
-    opacity: 0.55;
-    cursor: not-allowed;
-  }
-
-  .btn-primary {
-    background: var(--accent);
-    color: #ffffff;
-    border-color: var(--accent);
-  }
-
-  .btn-primary:hover:not(:disabled) {
-    background: #1d4ed8;
-    border-color: #1d4ed8;
-  }
-
-  .btn-secondary {
-    background: #ffffff;
-    color: var(--text);
-  }
-
-  .btn-secondary:hover:not(:disabled) {
-    background: #f8fafc;
-  }
-
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 0.88rem;
-  }
-
-  th,
-  td {
-    text-align: left;
-    padding: 0.6rem 0.75rem;
-    border-bottom: 1px solid var(--border);
-  }
-
-  th {
-    background: #fafbfc;
-    font-weight: 600;
-    color: var(--muted);
-    position: sticky;
-    top: 0;
-  }
-
-  td.num {
-    text-align: right;
-    font-variant-numeric: tabular-nums;
-  }
-
-  .cat {
-    display: inline-block;
-    padding: 2px 8px;
-    border-radius: 3px;
-    font-size: 0.75rem;
-    font-weight: 600;
-    color: white;
-  }
-
-  .cat-LE,
-  .cat-E { background: var(--excess); }
-
-  .cat-N { background: var(--normal); }
-
-  .cat-D,
-  .cat-LD,
-  .cat-NR { background: var(--deficit); }
-
-  .table-wrap {
-    max-height: 600px;
-    overflow-y: auto;
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    background: var(--card);
+    letter-spacing: 0.7px;
+    margin-bottom: 1rem;
   }
 
   .chart-wrap {
     position: relative;
-    height: 320px;
+    height: 300px;
   }
 
-  footer {
-    text-align: center;
+  /* ── Stat Cards ── */
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .stat-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1.25rem 1.5rem 1.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    border-top: 3px solid transparent;
+    transition: box-shadow 0.2s, transform 0.2s;
+  }
+
+  .stat-card:hover {
+    box-shadow: 0 6px 20px rgba(0,0,0,0.09);
+    transform: translateY(-2px);
+  }
+
+  .stat-card:nth-child(1) { border-top-color: #0ea5e9; }
+  .stat-card:nth-child(2) { border-top-color: #059669; }
+  .stat-card:nth-child(3) { border-top-color: #8b5cf6; }
+  .stat-card:nth-child(4) { border-top-color: #f59e0b; }
+
+  .stat-value {
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: -1px;
+    color: var(--text);
+    margin-bottom: 0.3rem;
+  }
+
+  .stat-label {
+    font-size: 0.72rem;
+    font-weight: 700;
     color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+  }
+
+  .stat-sub {
     font-size: 0.8rem;
-    padding: 2rem 1rem;
-  }
-
-  footer a {
-    color: var(--accent);
-    text-decoration: none;
-  }
-
-  .watermark {
-    margin-top: 0.75rem;
-    font-size: 0.78rem;
     color: var(--muted);
-    opacity: 0.9;
+    margin-top: 0.2rem;
   }
 
-  .watermark a {
-    color: var(--accent);
-    text-decoration: none;
-    font-weight: 600;
-  }
-
-  .watermark a:hover {
-    text-decoration: underline;
-  }
-
-  .loading {
-    text-align: center;
-    padding: 3rem;
-    color: var(--muted);
-  }
-
+  /* ── Coverage Timeline ── */
   .coverage-card {
     background: var(--card);
     border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 1rem 1.25rem;
-    margin-bottom: 1.5rem;
+    border-radius: 14px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1.25rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
   }
 
   .coverage-header {
     display: flex;
-    align-items: baseline;
-    gap: 0.75rem;
-    margin-bottom: 0.6rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.875rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
   }
 
-  .coverage-header h2 {
-    font-size: 0.9rem;
+  .section-label {
+    font-size: 0.72rem;
+    font-weight: 700;
     color: var(--muted);
-    font-weight: 600;
-    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
   }
 
   .coverage-stale {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     font-weight: 600;
     color: #dc2626;
+    background: rgba(220,38,38,0.08);
+    border: 1px solid rgba(220,38,38,0.15);
+    padding: 0.2rem 0.65rem;
+    border-radius: 100px;
+  }
+
+  .coverage-outer {
+    overflow-x: auto;
+    padding-bottom: 2px;
   }
 
   .coverage-strip {
     display: flex;
     gap: 3px;
     flex-wrap: nowrap;
-    overflow-x: auto;
+    min-width: max-content;
   }
 
   .cov-day {
-    width: 18px;
-    height: 18px;
-    border-radius: 3px;
+    width: 15px;
+    height: 30px;
+    border-radius: 4px;
     flex-shrink: 0;
-    cursor: default;
     position: relative;
+    transition: transform 0.1s, opacity 0.1s;
+    cursor: default;
   }
 
-  .cov-day.has-data { background: var(--excess); }
+  .cov-day:hover { transform: scaleY(1.12); }
+  .cov-day.has-data { background: #0ea5e9; }
   .cov-day.no-data  { background: #e2e8f0; }
 
   .cov-day[title]:hover::after {
     content: attr(title);
     position: absolute;
-    bottom: 120%;
+    bottom: calc(100% + 6px);
     left: 50%;
     transform: translateX(-50%);
     white-space: nowrap;
     background: #1e293b;
     color: #fff;
-    font-size: 0.72rem;
-    padding: 2px 6px;
-    border-radius: 4px;
+    font-size: 0.7rem;
+    padding: 3px 7px;
+    border-radius: 5px;
     pointer-events: none;
     z-index: 10;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  .month-labels {
+    display: flex;
+    gap: 3px;
+    min-width: max-content;
+    margin-top: 5px;
+  }
+
+  .month-label-slot {
+    width: 15px;
+    flex-shrink: 0;
+    font-size: 0.6rem;
+    color: var(--muted);
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    white-space: nowrap;
+    overflow: visible;
+    text-align: center;
+  }
+
+  /* ── Controls ── */
+  .controls {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1.25rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  }
+
+  .controls-row {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  .form-label {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+  }
+
+  select, input[type="text"] {
+    padding: 0.55rem 0.875rem;
+    border: 1.5px solid var(--border);
+    border-radius: 8px;
+    font-size: 0.875rem;
+    font-family: inherit;
+    background: #fff;
+    color: var(--text);
+    min-width: 180px;
+    outline: none;
+    transition: border-color 0.15s, box-shadow 0.15s;
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%2364748b' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    padding-right: 2rem;
+  }
+
+  input[type="text"] {
+    background-image: none;
+    padding-right: 0.875rem;
+  }
+
+  select:focus, input[type="text"]:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(14,165,233,0.12);
+  }
+
+  /* ── Buttons ── */
+  .btn {
+    border: 1.5px solid var(--border);
+    border-radius: 8px;
+    padding: 0.55rem 1rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.15s;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    white-space: nowrap;
+  }
+
+  .btn:disabled { opacity: 0.4; cursor: not-allowed; pointer-events: none; }
+
+  .btn-primary {
+    background: linear-gradient(135deg, #0284c7, #0ea5e9);
+    color: #fff;
+    border-color: transparent;
+    box-shadow: 0 1px 4px rgba(14,165,233,0.25);
+  }
+
+  .btn-primary:hover:not(:disabled) {
+    background: linear-gradient(135deg, #0369a1, #0284c7);
+    box-shadow: 0 3px 10px rgba(14,165,233,0.35);
+    transform: translateY(-1px);
+  }
+
+  .btn-secondary {
+    background: #fff;
+    color: var(--text);
+  }
+
+  .btn-secondary:hover:not(:disabled) {
+    background: #f8fafc;
+    border-color: #cbd5e1;
+  }
+
+  .download-buttons { display: flex; gap: 0.5rem; }
+
+  /* ── Category Legend ── */
+  .cat-legend {
+    display: flex;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.875rem;
+    padding-bottom: 0.875rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .cat-legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.375rem;
+    font-size: 0.78rem;
+    color: var(--muted);
+    font-weight: 500;
+  }
+
+  /* ── Category Badges ── */
+  .cat {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 100px;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    color: #fff;
+  }
+
+  .cat-LE { background: var(--cat-le); }
+  .cat-E  { background: var(--cat-e); }
+  .cat-N  { background: var(--cat-n); }
+  .cat-D  { background: var(--cat-d); }
+  .cat-LD { background: var(--cat-ld); }
+  .cat-NR { background: var(--cat-nr); }
+
+  /* ── Table ── */
+  .table-wrap {
+    max-height: 580px;
+    overflow-y: auto;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    margin-top: 0.875rem;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.84rem;
+  }
+
+  thead th {
+    background: #f8fafc;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 0.65rem 0.875rem;
+    border-bottom: 2px solid var(--border);
+    position: sticky;
+    top: 0;
+    white-space: nowrap;
+    z-index: 5;
+  }
+
+  tbody tr { transition: background 0.1s; }
+  tbody tr:nth-child(even) { background: #fafbfc; }
+  tbody tr:hover { background: #f0f9ff; }
+
+  td {
+    padding: 0.575rem 0.875rem;
+    border-bottom: 1px solid #f1f5f9;
+    color: var(--text);
+  }
+
+  td:first-child { color: var(--muted); font-size: 0.8rem; }
+
+  td.num {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    font-weight: 500;
+  }
+
+  /* ── Loading state ── */
+  .loading {
+    text-align: center;
+    padding: 3rem 1rem;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+
+  /* ── Fade-up entrance ── */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(10px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  .fade-in { animation: fadeUp 0.35s ease both; }
+
+  /* ── Footer ── */
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.78rem;
+    padding: 2rem 1.5rem 2.5rem;
+    border-top: 1px solid var(--border);
+    line-height: 1.8;
+  }
+
+  footer a { color: var(--accent); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+
+  .watermark { margin-top: 0.5rem; font-weight: 500; }
+  .watermark a { font-weight: 700; }
+
+  /* ── Responsive ── */
+  @media (max-width: 768px) {
+    header { padding: 1.5rem 1.25rem; }
+    header h1 { font-size: 1.3rem; }
+    main { padding: 1.25rem 1rem 2rem; }
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .stat-value { font-size: 1.65rem; }
+    .chart-wrap { height: 240px; }
+  }
+
+  @media (max-width: 480px) {
+    .stats-grid { grid-template-columns: 1fr; }
+    .controls-row { flex-direction: column; }
+    select, input[type="text"] { min-width: 100%; width: 100%; }
+    .download-buttons { flex-wrap: wrap; }
+    .live-pill { display: none; }
   }
 </style>
 </head>
 <body>
 
 <header>
-  <h1>🌧️ India Rainfall Dashboard</h1>
-  <p>
-    Daily district-level rainfall data scraped from the India Meteorological Department (IMD).
-    Last updated: <span id="last-updated">—</span>
-  </p>
+  <div class="header-inner">
+    <div>
+      <h1>India Rainfall Dashboard</h1>
+      <p class="header-sub">Daily district-level data from the India Meteorological Department</p>
+      <p class="header-meta">
+        Last updated: <span id="last-updated">—</span>
+        &nbsp;&middot;&nbsp;
+        <a href="api/index.json">JSON API</a>
+        &nbsp;&middot;&nbsp;
+        <a href="https://mausam.imd.gov.in/imd_latest/contents/rainfall_statistics_3.php" target="_blank" rel="noopener">IMD Source</a>
+      </p>
+    </div>
+    <div class="live-pill">
+      <div class="live-dot"></div>
+      Updating daily
+    </div>
+  </div>
 </header>
 
 <main>
 
-  <div class="row">
-    <div class="card">
-      <h2>Latest data date</h2>
-      <div class="stat" id="stat-date">—</div>
+  <div class="stats-grid">
+    <div class="stat-card fade-in" style="animation-delay:.05s">
+      <div class="stat-value" id="stat-date">—</div>
+      <div class="stat-label">Latest Data Date</div>
       <div class="stat-sub">IST</div>
     </div>
-    <div class="card">
-      <h2>Districts covered</h2>
-      <div class="stat" id="stat-districts">—</div>
+    <div class="stat-card fade-in" style="animation-delay:.1s">
+      <div class="stat-value" id="stat-districts">—</div>
+      <div class="stat-label">Districts Covered</div>
       <div class="stat-sub" id="stat-districts-sub">across India</div>
     </div>
-    <div class="card">
-      <h2>Days in archive</h2>
-      <div class="stat" id="stat-days">—</div>
+    <div class="stat-card fade-in" style="animation-delay:.15s">
+      <div class="stat-value" id="stat-days">—</div>
+      <div class="stat-label">Days in Archive</div>
       <div class="stat-sub" id="stat-days-sub">—</div>
     </div>
-    <div class="card">
-      <h2>Total observations</h2>
-      <div class="stat" id="stat-rows">—</div>
+    <div class="stat-card fade-in" style="animation-delay:.2s">
+      <div class="stat-value" id="stat-rows">—</div>
+      <div class="stat-label">Total Observations</div>
       <div class="stat-sub">across full archive</div>
     </div>
   </div>
 
-  <div class="coverage-card">
+  <div class="coverage-card fade-in" style="animation-delay:.25s">
     <div class="coverage-header">
-      <h2>Data coverage — last 60 days</h2>
+      <span class="section-label">Data coverage — last 60 days</span>
       <span id="coverage-stale" class="coverage-stale" style="display:none"></span>
     </div>
-    <div class="coverage-strip" id="coverage-strip"></div>
+    <div class="coverage-outer">
+      <div class="coverage-strip" id="coverage-strip"></div>
+      <div class="month-labels" id="month-labels"></div>
+    </div>
   </div>
 
-  <div class="controls">
-    <div>
-      <label>State</label>
-      <select id="state-select">
-        <option value="">— pick a state —</option>
-      </select>
-    </div>
-
-    <div>
-      <label>District</label>
-      <select id="district-select">
-        <option value="">— all districts —</option>
-      </select>
-    </div>
-
-    <div>
-      <label>Search</label>
-      <input id="search" type="text" placeholder="filter table…">
-    </div>
-
-    <div class="download-actions">
-      <label>Download</label>
-      <div class="download-buttons">
-        <button id="download-json" class="btn btn-secondary" disabled>
-          Download JSON
-        </button>
-        <button id="download-csv" class="btn btn-primary" disabled>
-          Download CSV
-        </button>
+  <div class="controls fade-in" style="animation-delay:.3s">
+    <div class="controls-row">
+      <div class="form-group">
+        <label class="form-label" for="state-select">State</label>
+        <select id="state-select">
+          <option value="">— pick a state —</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="district-select">District</label>
+        <select id="district-select">
+          <option value="">— all districts —</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="search">Search</label>
+        <input id="search" type="text" placeholder="filter by name…">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Download district time series</label>
+        <div class="download-buttons">
+          <button id="download-json" class="btn btn-secondary" disabled>&#8595; JSON</button>
+          <button id="download-csv"  class="btn btn-primary"    disabled>&#8595; CSV</button>
+        </div>
       </div>
     </div>
   </div>
 
   <div class="row">
-    <div class="card">
-      <h2>Daily rainfall by category (latest day)</h2>
+    <div class="card fade-in" style="animation-delay:.35s">
+      <h2>Daily Rainfall by Category — Latest Day</h2>
       <div class="chart-wrap"><canvas id="cat-chart"></canvas></div>
     </div>
-    <div class="card">
-      <h2>Cumulative seasonal rainfall — top 10 wettest districts</h2>
+    <div class="card fade-in" style="animation-delay:.4s">
+      <h2>Cumulative Seasonal Rainfall — Top 10 Districts</h2>
       <div class="chart-wrap"><canvas id="top-chart"></canvas></div>
     </div>
   </div>
 
-  <div class="card" id="ts-card" style="display:none">
-    <h2 id="ts-title">Time series</h2>
-    <div class="chart-wrap"><canvas id="ts-chart"></canvas></div>
+  <div class="card fade-in" id="ts-card" style="display:none; margin-bottom:1.25rem;">
+    <h2 id="ts-title">Time Series</h2>
+    <div class="chart-wrap" style="height:260px;"><canvas id="ts-chart"></canvas></div>
   </div>
 
-  <div class="card" style="margin-top: 1.5rem">
-    <h2>Latest day · all districts</h2>
+  <div class="card fade-in" style="animation-delay:.45s">
+    <h2>Latest Day · All Districts</h2>
+    <div class="cat-legend">
+      <div class="cat-legend-item"><span class="cat cat-LE">LE</span> Large Excess (&gt;+60%)</div>
+      <div class="cat-legend-item"><span class="cat cat-E">E</span> Excess (+20 to +60%)</div>
+      <div class="cat-legend-item"><span class="cat cat-N">N</span> Normal (±19%)</div>
+      <div class="cat-legend-item"><span class="cat cat-D">D</span> Deficient (&minus;20 to &minus;59%)</div>
+      <div class="cat-legend-item"><span class="cat cat-LD">LD</span> Large Deficient (&lt;&minus;60%)</div>
+      <div class="cat-legend-item"><span class="cat cat-NR">NR</span> No Rain</div>
+    </div>
     <div class="table-wrap">
       <table>
         <thead>
           <tr>
             <th>State</th><th>District</th>
-            <th class="num">Today (mm)</th><th class="num">Normal</th><th class="num">Dep%</th><th>Cat</th>
-            <th class="num">Season (mm)</th><th class="num">Normal</th><th class="num">Dep%</th><th>Cat</th>
+            <th class="num">Today&nbsp;mm</th><th class="num">Normal</th><th class="num">Dep%</th><th>Cat</th>
+            <th class="num">Season&nbsp;mm</th><th class="num">Normal</th><th class="num">Dep%</th><th>Cat</th>
           </tr>
         </thead>
         <tbody id="data-tbody">
@@ -438,20 +680,15 @@
 <footer>
   <p>
     Source:
-    <a href="https://mausam.imd.gov.in/imd_latest/contents/rainfall_statistics_3.php" target="_blank" rel="noopener">
-      IMD District Rainfall Distribution
-    </a> ·
+    <a href="https://mausam.imd.gov.in/imd_latest/contents/rainfall_statistics_3.php" target="_blank" rel="noopener">IMD District Rainfall Distribution</a>
+    &nbsp;&middot;&nbsp;
     Pipeline:
-    <a href="https://github.com/your-org/rainfall-pipeline" target="_blank" rel="noopener">
-      GitHub
-    </a> ·
+    <a href="https://github.com/sayantan-aquacarta/rainfall-pipeline" target="_blank" rel="noopener">GitHub</a>
+    &nbsp;&middot;&nbsp;
     <a href="api/index.json">JSON API</a>
   </p>
-  <p>Data reproduced for research/educational purposes. © India Meteorological Department, Ministry of Earth Sciences.</p>
-  <p class="watermark">
-    Created by
-    <a href="https://www.ecocarta.ai/" target="_blank" rel="noopener noreferrer">EcoCarta</a>
-  </p>
+  <p>Data reproduced for research and educational purposes. &copy; India Meteorological Department, Ministry of Earth Sciences.</p>
+  <p class="watermark">Created by <a href="https://www.ecocarta.ai/" target="_blank" rel="noopener noreferrer">EcoCarta</a></p>
 </footer>
 
 <script>
@@ -461,13 +698,39 @@ let STATES = [];
 let charts = {};
 let CURRENT_DISTRICT_DATA = null;
 
+const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+
+const CAT_COLORS = {
+  LE: "#059669", E: "#10b981", N: "#0ea5e9",
+  D: "#f97316", LD: "#ef4444", NR: "#94a3b8"
+};
+
+const CAT_NAMES = {
+  LE: "Large Excess", E: "Excess", N: "Normal",
+  D: "Deficient", LD: "Large Deficient", NR: "No Rain"
+};
+
+const TOOLTIP_STYLE = {
+  backgroundColor: "#0f172a",
+  titleColor: "#f8fafc",
+  bodyColor: "rgba(248,250,252,0.75)",
+  padding: 10,
+  cornerRadius: 8,
+  borderColor: "rgba(255,255,255,0.08)",
+  borderWidth: 1,
+};
+
 const slug = s => (s || "")
   .toLowerCase()
   .replace(/[^a-z0-9]+/g, "-")
   .replace(/^-|-$/g, "") || "unknown";
 
 const fmt = (v, dp = 1) => v == null ? "—" : Number(v).toFixed(dp);
-const catBadge = c => c ? `<span class="cat cat-${c}">${c}</span>` : "—";
+
+const catBadge = c => {
+  if (!c) return "—";
+  return `<span class="cat cat-${c}" title="${CAT_NAMES[c] || c}">${c}</span>`;
+};
 
 async function getJSON(path) {
   const r = await fetch(`${API_BASE}/${path}`);
@@ -495,16 +758,12 @@ function downloadBlob(content, filename, type) {
 function toCSV(rows) {
   if (!rows || !rows.length) return "";
   const headers = Object.keys(rows[0]);
-  const escapeCSV = (value) => {
-    if (value === null || value === undefined) return "";
-    const s = String(value);
+  const esc = v => {
+    if (v == null) return "";
+    const s = String(v);
     return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
   };
-  const lines = [
-    headers.join(","),
-    ...rows.map(row => headers.map(h => escapeCSV(row[h])).join(","))
-  ];
-  return lines.join("\n");
+  return [headers.join(","), ...rows.map(r => headers.map(h => esc(r[h])).join(","))].join("\n");
 }
 
 function makeDistrictFilename(ext = "json") {
@@ -549,8 +808,10 @@ function renderStats(idx) {
 function renderCoverageStrip(idx) {
   const knownDates = new Set(Array.isArray(idx.dates) ? idx.dates : []);
   const strip = document.getElementById("coverage-strip");
+  const lblRow = document.getElementById("month-labels");
   const staleEl = document.getElementById("coverage-stale");
   strip.innerHTML = "";
+  lblRow.innerHTML = "";
 
   const DAYS = 60;
   const today = new Date();
@@ -560,18 +821,25 @@ function renderCoverageStrip(idx) {
     const d = new Date(today);
     d.setDate(today.getDate() - i);
     const iso = d.toISOString().slice(0, 10);
+
     const span = document.createElement("span");
     span.className = "cov-day " + (knownDates.has(iso) ? "has-data" : "no-data");
     span.title = iso;
     strip.appendChild(span);
+
+    const lbl = document.createElement("span");
+    lbl.className = "month-label-slot";
+    if (d.getDate() === 1 || i === DAYS - 1) {
+      lbl.textContent = MONTHS[d.getMonth()];
+    }
+    lblRow.appendChild(lbl);
   }
 
-  // Stale warning: last_date more than 2 days ago
   const lastDate = new Date(idx.last_date);
   lastDate.setHours(0, 0, 0, 0);
   const daysStale = Math.floor((today - lastDate) / 86400000);
   if (daysStale > 2) {
-    staleEl.textContent = `⚠️ Data is ${daysStale} days old`;
+    staleEl.textContent = `Data is ${daysStale} days old`;
     staleEl.style.display = "";
   }
 }
@@ -598,7 +866,8 @@ function renderTable(rows) {
 
   tbody.innerHTML = filtered.map(r => `
     <tr>
-      <td>${r.state || ""}</td><td>${r.district || ""}</td>
+      <td>${r.state || ""}</td>
+      <td>${r.district || ""}</td>
       <td class="num">${fmt(r.day_actual_mm)}</td>
       <td class="num">${fmt(r.day_normal_mm)}</td>
       <td class="num">${r.day_departure_pct == null ? "—" : r.day_departure_pct + "%"}</td>
@@ -617,37 +886,36 @@ function renderCategoryChart(rows) {
 
   const order = ["LE", "E", "N", "D", "LD", "NR"];
   const labels = order.filter(c => counts[c]);
-  const labelNames = {
-    "LE": "Large Excess",
-    "E": "Excess",
-    "N": "Normal",
-    "D": "Deficient",
-    "LD": "Large Deficient",
-    "NR": "No Rain"
-  };
-  const colors = {
-    "LE": "#16a34a",
-    "E": "#65a30d",
-    "N": "#64748b",
-    "D": "#f97316",
-    "LD": "#dc2626",
-    "NR": "#7f1d1d"
-  };
 
   if (charts.cat) charts.cat.destroy();
   charts.cat = new Chart(document.getElementById("cat-chart"), {
     type: "doughnut",
     data: {
-      labels: labels.map(c => `${labelNames[c]} (${counts[c]})`),
+      labels: labels.map(c => `${CAT_NAMES[c]} (${counts[c]})`),
       datasets: [{
         data: labels.map(c => counts[c]),
-        backgroundColor: labels.map(c => colors[c]),
+        backgroundColor: labels.map(c => CAT_COLORS[c]),
+        borderWidth: 0,
+        hoverOffset: 10,
       }],
     },
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      plugins: { legend: { position: "right" } },
+      cutout: "62%",
+      plugins: {
+        legend: {
+          position: "right",
+          labels: {
+            usePointStyle: true,
+            pointStyle: "circle",
+            font: { size: 11, family: "'Inter', system-ui" },
+            padding: 10,
+            color: "#334155",
+          }
+        },
+        tooltip: { ...TOOLTIP_STYLE },
+      },
     },
   });
 }
@@ -662,18 +930,42 @@ function renderTopChart(rows) {
   charts.top = new Chart(document.getElementById("top-chart"), {
     type: "bar",
     data: {
-      labels: districts.map(r => `${r.district} (${r.state})`),
+      labels: districts.map(r => r.district),
       datasets: [{
         label: "Cumulative rainfall (mm)",
         data: districts.map(r => r.period_actual_mm),
-        backgroundColor: "#2563eb",
+        backgroundColor: districts.map((_, i) => `rgba(14,165,233,${1 - i * 0.07})`),
+        borderRadius: 4,
+        borderSkipped: false,
       }],
     },
     options: {
       indexAxis: "y",
       responsive: true,
       maintainAspectRatio: false,
-      plugins: { legend: { display: false } },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          ...TOOLTIP_STYLE,
+          callbacks: {
+            title: items => {
+              const d = districts[items[0].dataIndex];
+              return `${d.district} (${d.state})`;
+            },
+            label: item => ` ${item.formattedValue} mm`,
+          }
+        }
+      },
+      scales: {
+        x: {
+          grid: { color: "rgba(0,0,0,0.04)" },
+          ticks: { color: "#94a3b8", font: { size: 11 } },
+        },
+        y: {
+          grid: { display: false },
+          ticks: { color: "#334155", font: { size: 11, weight: "600" } },
+        }
+      }
     },
   });
 }
@@ -743,29 +1035,54 @@ document.getElementById("district-select").addEventListener("change", async (e) 
 function renderTimeSeries(d) {
   const card = document.getElementById("ts-card");
   card.style.display = "block";
-  document.getElementById("ts-title").textContent = `Time series — ${d.district}, ${d.state}`;
+  document.getElementById("ts-title").textContent =
+    `${d.district}, ${d.state} — Daily Rainfall Time Series`;
 
   const sorted = d.rows.slice().sort((a, b) => a.date.localeCompare(b.date));
 
   if (charts.ts) charts.ts.destroy();
+
+  // Gradient fill via local plugin (fires after chart area is known)
+  const gradientPlugin = {
+    id: "areaGradient",
+    beforeDatasetsDraw(chart) {
+      const { ctx, chartArea } = chart;
+      if (!chartArea) return;
+      const g = ctx.createLinearGradient(0, chartArea.top, 0, chartArea.bottom);
+      g.addColorStop(0, "rgba(14,165,233,0.28)");
+      g.addColorStop(1, "rgba(14,165,233,0.0)");
+      chart.data.datasets[0].backgroundColor = g;
+    }
+  };
+
   charts.ts = new Chart(document.getElementById("ts-chart"), {
     type: "line",
+    plugins: [gradientPlugin],
     data: {
       labels: sorted.map(r => r.date),
       datasets: [
         {
           label: "Daily actual (mm)",
           data: sorted.map(r => r.day_actual_mm),
-          borderColor: "#2563eb",
-          backgroundColor: "rgba(37,99,235,0.1)",
-          tension: 0.2,
+          borderColor: "#0ea5e9",
+          backgroundColor: "rgba(14,165,233,0.12)",
+          fill: true,
+          tension: 0.35,
+          pointRadius: 2,
+          pointHoverRadius: 5,
+          pointBackgroundColor: "#0ea5e9",
+          borderWidth: 2,
         },
         {
           label: "Daily normal (mm)",
           data: sorted.map(r => r.day_normal_mm),
           borderColor: "#94a3b8",
-          borderDash: [4, 4],
-          tension: 0.2,
+          borderDash: [5, 4],
+          backgroundColor: "transparent",
+          fill: false,
+          tension: 0.35,
+          pointRadius: 0,
+          borderWidth: 1.5,
         },
       ],
     },
@@ -773,24 +1090,48 @@ function renderTimeSeries(d) {
       responsive: true,
       maintainAspectRatio: false,
       interaction: { mode: "index", intersect: false },
+      plugins: {
+        legend: {
+          labels: {
+            usePointStyle: true,
+            font: { size: 12, family: "'Inter', system-ui" },
+            color: "#334155",
+          }
+        },
+        tooltip: { ...TOOLTIP_STYLE },
+      },
+      scales: {
+        x: {
+          grid: { color: "rgba(0,0,0,0.04)" },
+          ticks: { maxTicksLimit: 10, color: "#94a3b8", font: { size: 11 } },
+        },
+        y: {
+          grid: { color: "rgba(0,0,0,0.04)" },
+          ticks: { color: "#94a3b8", font: { size: 11 } },
+          title: {
+            display: true,
+            text: "Rainfall (mm)",
+            color: "#94a3b8",
+            font: { size: 11, weight: "600" },
+          }
+        }
+      }
     },
   });
 }
 
-document.getElementById("search").addEventListener("input", () => {
-  renderTable(LATEST.rows);
-});
+document.getElementById("search").addEventListener("input", () => renderTable(LATEST.rows));
 
 document.getElementById("download-json").addEventListener("click", () => {
   if (!CURRENT_DISTRICT_DATA) return;
-  const json = JSON.stringify(CURRENT_DISTRICT_DATA, null, 2);
-  downloadBlob(json, makeDistrictFilename("json"), "application/json");
+  downloadBlob(JSON.stringify(CURRENT_DISTRICT_DATA, null, 2),
+    makeDistrictFilename("json"), "application/json");
 });
 
 document.getElementById("download-csv").addEventListener("click", () => {
   if (!CURRENT_DISTRICT_DATA || !CURRENT_DISTRICT_DATA.rows) return;
-  const csv = toCSV(CURRENT_DISTRICT_DATA.rows);
-  downloadBlob(csv, makeDistrictFilename("csv"), "text/csv;charset=utf-8");
+  downloadBlob(toCSV(CURRENT_DISTRICT_DATA.rows),
+    makeDistrictFilename("csv"), "text/csv;charset=utf-8");
 });
 
 init();
