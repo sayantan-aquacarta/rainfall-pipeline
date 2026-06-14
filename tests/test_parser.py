@@ -115,13 +115,22 @@ def test_to_dataframe(parsed):
 # ---- New monsoon header format (June+) ----
 
 def test_find_dates_new_monsoon_format():
-    """New format: combined DAY/PERIOD on one line, hyphen dates, mixed YYYY-MM-DD period end."""
+    """New format: combined DAY/PERIOD on one line, hyphen dates, YYYY-MM-DD period end."""
     text = "DAY: 01-06-2026 PERIOD: 01-06-2026 to 2026-09-30"
     day_start, day_end, period_start, period_end = _find_dates(text)
     assert day_start == date(2026, 6, 1)
     assert day_end == date(2026, 6, 1)
     assert period_start == date(2026, 6, 1)
     assert period_end == date(2026, 9, 30)
+
+
+def test_find_dates_new_monsoon_format_dd_mm_yyyy_end():
+    """From June 3+, period end date is also DD-MM-YYYY (not YYYY-MM-DD)."""
+    text = "DAY: 03-06-2026 PERIOD: 01-06-2026 to 03-06-2026"
+    day_start, day_end, period_start, period_end = _find_dates(text)
+    assert day_end == date(2026, 6, 3)
+    assert period_start == date(2026, 6, 1)
+    assert period_end == date(2026, 6, 3)
 
 
 def test_find_dates_old_format_still_works():

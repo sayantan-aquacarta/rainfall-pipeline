@@ -103,7 +103,7 @@ _DAY_MONSOON_RE = re.compile(
     r"DAY\s*:\s*(\d{2}-\d{2}-\d{4})", re.IGNORECASE
 )
 _PERIOD_MONSOON_RE = re.compile(
-    r"PERIOD\s*:\s*(\d{2}-\d{2}-\d{4})\s+to\s+(\d{4}-\d{2}-\d{2})", re.IGNORECASE
+    r"PERIOD\s*:\s*(\d{2}-\d{2}-\d{4})\s+to\s+(\d{2}-\d{2}-\d{4}|\d{4}-\d{2}-\d{2})", re.IGNORECASE
 )
 
 _VALID_CATS = {"LE", "E", "N", "D", "LD", "NR"}

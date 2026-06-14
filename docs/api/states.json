@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T11:37:47.574248+00:00",
+  "generated_at": "2026-06-14T06:24:43.385125+00:00",
   "states": [
     {
       "name": "A & N ISLAND",
@@ -7,29 +7,39 @@
       "n_districts": 3
     },
     {
+      "name": "ANDAMAN & NICOBAR ISLANDS",
+      "slug": "andaman-nicobar-islands",
+      "n_districts": 3
+    },
+    {
       "name": "ANDHRA PRADESH",
       "slug": "andhra-pradesh",
-      "n_districts": 26
+      "n_districts": 27
     },
     {
       "name": "ARUNACHAL PRADESH",
       "slug": "arunachal-pradesh",
-      "n_districts": 14
+      "n_districts": 15
     },
     {
       "name": "ASSAM",
       "slug": "assam",
-      "n_districts": 34
+      "n_districts": 36
     },
     {
       "name": "BIHAR",
       "slug": "bihar",
-      "n_districts": 38
+      "n_districts": 39
+    },
+    {
+      "name": "CHANDIGARH (UT)",
+      "slug": "chandigarh-ut",
+      "n_districts": 1
     },
     {
       "name": "CHHATTISGARH",
       "slug": "chhattisgarh",
-      "n_districts": 33
+      "n_districts": 40
     },
     {
       "name": "COASTAL A. P. & YANAM",
@@ -42,8 +52,18 @@
       "n_districts": 3
     },
     {
+      "name": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
+      "slug": "dadra-nagar-haveli-and-daman-diu-ut",
+      "n_districts": 3
+    },
+    {
       "name": "DELHI",
       "slug": "delhi",
+      "n_districts": 9
+    },
+    {
+      "name": "DELHI (UT)",
+      "slug": "delhi-ut",
       "n_districts": 9
     },
     {
@@ -72,6 +92,11 @@
       "n_districts": 2
     },
     {
+      "name": "GUJARAT",
+      "slug": "gujarat",
+      "n_districts": 33
+    },
+    {
       "name": "GUJARAT REGION",
       "slug": "gujarat-region",
       "n_districts": 23
@@ -87,6 +112,11 @@
       "n_districts": 12
     },
     {
+      "name": "JAMMU & KASHMIR (UT)",
+      "slug": "jammu-kashmir-ut",
+      "n_districts": 20
+    },
+    {
       "name": "JAMMU & KASHMIR(UT)",
       "slug": "jammu-kashmir-ut",
       "n_districts": 20
@@ -94,7 +124,7 @@
     {
       "name": "JHARKHAND",
       "slug": "jharkhand",
-      "n_districts": 24
+      "n_districts": 26
     },
     {
       "name": "KARNATAKA",
@@ -104,12 +134,17 @@
     {
       "name": "KERALA",
       "slug": "kerala",
-      "n_districts": 15
+      "n_districts": 16
     },
     {
       "name": "LADAKH (UT)",
       "slug": "ladakh-ut",
       "n_districts": 2
+    },
+    {
+      "name": "LAKSHADWEEP",
+      "slug": "lakshadweep",
+      "n_districts": 1
     },
     {
       "name": "MADHYA MAHARASHTRA",
@@ -119,17 +154,17 @@
     {
       "name": "MADHYA PRADESH",
       "slug": "madhya-pradesh",
-      "n_districts": 52
+      "n_districts": 55
     },
     {
       "name": "MAHARASHTRA",
       "slug": "maharashtra",
-      "n_districts": 36
+      "n_districts": 37
     },
     {
       "name": "MANIPUR",
       "slug": "manipur",
-      "n_districts": 8
+      "n_districts": 9
     },
     {
       "name": "MARATHWADA",
@@ -139,12 +174,12 @@
     {
       "name": "MEGHALAYA",
       "slug": "meghalaya",
-      "n_districts": 11
+      "n_districts": 12
     },
     {
       "name": "MIZORAM",
       "slug": "mizoram",
-      "n_districts": 5
+      "n_districts": 9
     },
     {
       "name": "N. I. KARNATAKA",
@@ -154,12 +189,17 @@
     {
       "name": "NAGALAND",
       "slug": "nagaland",
-      "n_districts": 7
+      "n_districts": 11
+    },
+    {
+      "name": "NORTHERN INTERIOR KARNATAKA",
+      "slug": "northern-interior-karnataka",
+      "n_districts": 11
     },
     {
       "name": "ODISHA",
       "slug": "odisha",
-      "n_districts": 30
+      "n_districts": 32
     },
     {
       "name": "PUDUCHERRY (UT)",
@@ -182,6 +222,11 @@
       "n_districts": 8
     },
     {
+      "name": "RAYALSEEMA",
+      "slug": "rayalseema",
+      "n_districts": 8
+    },
+    {
       "name": "S. I. KARNATAKA",
       "slug": "s-i-karnataka",
       "n_districts": 17
@@ -194,12 +239,17 @@
     {
       "name": "SIKKIM",
       "slug": "sikkim",
-      "n_districts": 6
+      "n_districts": 8
+    },
+    {
+      "name": "SOUTHERN INTERIOR KARNATAKA",
+      "slug": "southern-interior-karnataka",
+      "n_districts": 17
     },
     {
       "name": "TAMILNADU",
       "slug": "tamilnadu",
-      "n_districts": 38
+      "n_districts": 41
     },
     {
       "name": "TELANGANA",
@@ -214,7 +264,7 @@
     {
       "name": "UTTAR PRADESH",
       "slug": "uttar-pradesh",
-      "n_districts": 75
+      "n_districts": 76
     },
     {
       "name": "UTTARAKHAND",

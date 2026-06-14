@@ -258,6 +258,69 @@
     padding: 3rem;
     color: var(--muted);
   }
+
+  .coverage-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .coverage-header {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .coverage-header h2 {
+    font-size: 0.9rem;
+    color: var(--muted);
+    font-weight: 600;
+    margin: 0;
+  }
+
+  .coverage-stale {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #dc2626;
+  }
+
+  .coverage-strip {
+    display: flex;
+    gap: 3px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+
+  .cov-day {
+    width: 18px;
+    height: 18px;
+    border-radius: 3px;
+    flex-shrink: 0;
+    cursor: default;
+    position: relative;
+  }
+
+  .cov-day.has-data { background: var(--excess); }
+  .cov-day.no-data  { background: #e2e8f0; }
+
+  .cov-day[title]:hover::after {
+    content: attr(title);
+    position: absolute;
+    bottom: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    background: #1e293b;
+    color: #fff;
+    font-size: 0.72rem;
+    padding: 2px 6px;
+    border-radius: 4px;
+    pointer-events: none;
+    z-index: 10;
+  }
 </style>
 </head>
 <body>
@@ -293,6 +356,14 @@
       <div class="stat" id="stat-rows">—</div>
       <div class="stat-sub">across full archive</div>
     </div>
+  </div>
+
+  <div class="coverage-card">
+    <div class="coverage-header">
+      <h2>Data coverage — last 60 days</h2>
+      <span id="coverage-stale" class="coverage-stale" style="display:none"></span>
+    </div>
+    <div class="coverage-strip" id="coverage-strip"></div>
   </div>
 
   <div class="controls">
@@ -472,6 +543,37 @@ function renderStats(idx) {
   document.getElementById("stat-days").textContent = idx.n_dates.toLocaleString();
   document.getElementById("stat-days-sub").textContent = `${idx.first_date} → ${idx.last_date}`;
   document.getElementById("stat-rows").textContent = idx.row_count.toLocaleString();
+  renderCoverageStrip(idx);
+}
+
+function renderCoverageStrip(idx) {
+  const knownDates = new Set(Array.isArray(idx.dates) ? idx.dates : []);
+  const strip = document.getElementById("coverage-strip");
+  const staleEl = document.getElementById("coverage-stale");
+  strip.innerHTML = "";
+
+  const DAYS = 60;
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+
+  for (let i = DAYS - 1; i >= 0; i--) {
+    const d = new Date(today);
+    d.setDate(today.getDate() - i);
+    const iso = d.toISOString().slice(0, 10);
+    const span = document.createElement("span");
+    span.className = "cov-day " + (knownDates.has(iso) ? "has-data" : "no-data");
+    span.title = iso;
+    strip.appendChild(span);
+  }
+
+  // Stale warning: last_date more than 2 days ago
+  const lastDate = new Date(idx.last_date);
+  lastDate.setHours(0, 0, 0, 0);
+  const daysStale = Math.floor((today - lastDate) / 86400000);
+  if (daysStale > 2) {
+    staleEl.textContent = `⚠️ Data is ${daysStale} days old`;
+    staleEl.style.display = "";
+  }
 }
 
 function renderTable(rows) {

@@ -1,6 +1,6 @@
 {
   "state": "KARNATAKA",
-  "row_count": 1224,
+  "row_count": 1254,
   "districts": [
     "BAGALKOTE",
     "BALLARI",
@@ -21543,7 +21543,7 @@
       "period_normal_mm": 238.5,
       "period_departure_pct": -25.0,
       "period_category": "D",
-      "scraped_at": "2026-06-01T11:37:40"
+      "scraped_at": "2026-06-14T06:24:01"
     },
     {
       "date": "2026-05-31",
@@ -21561,7 +21561,7 @@
       "period_normal_mm": 177.7,
       "period_departure_pct": -11.0,
       "period_category": "N",
-      "scraped_at": "2026-06-01T11:37:40"
+      "scraped_at": "2026-06-14T06:24:01"
     },
     {
       "date": "2026-05-31",
@@ -21579,7 +21579,7 @@
       "period_normal_mm": 108.1,
       "period_departure_pct": 62.0,
       "period_category": "LE",
-      "scraped_at": "2026-06-01T11:37:40"
+      "scraped_at": "2026-06-14T06:24:01"
     },
     {
       "date": "2026-05-31",
@@ -21597,7 +21597,7 @@
       "period_normal_mm": 77.8,
       "period_departure_pct": 27.0,
       "period_category": "E",
-      "scraped_at": "2026-06-01T11:37:40"
+      "scraped_at": "2026-06-14T06:24:01"
     },
     {
       "date": "2026-05-31",
@@ -21615,7 +21615,7 @@
       "period_normal_mm": 88.1,
       "period_departure_pct": 46.0,
       "period_category": "E",
-      "scraped_at": "2026-06-01T11:37:40"
+      "scraped_at": "2026-06-14T06:24:01"
     },
     {
       "date": "2026-05-31",
@@ -21633,7 +21633,7 @@
       "period_normal_mm": 63.5,
       "period_departure_pct": 179.0,
       "period_category": "LE",
-      "scraped_at": "2026-06-01T11:37:40"
+      "scraped_at": "2026-06-14T06:24:01"
     },
     {
       "date": "2026-05-31",
@@ -21651,7 +21651,7 @@
       "period_normal_mm": 128.7,
       "period_departure_pct": 101.0,
       "period_category": "LE",
-      "scraped_at": "2026-06-01T11:37:40"
+      "scraped_at": "2026-06-14T06:24:01"
     },
     {
       "date": "2026-05-31",
@@ -21669,7 +21669,7 @@
       "period_normal_mm": 103.9,
       "period_departure_pct": 42.0,
       "period_category": "E",
-      "scraped_at": "2026-06-01T11:37:40"
+      "scraped_at": "2026-06-14T06:24:01"
     },
     {
       "date": "2026-05-31",
@@ -21687,7 +21687,7 @@
       "period_normal_mm": 123.3,
       "period_departure_pct": 58.0,
       "period_category": "E",
-      "scraped_at": "2026-06-01T11:37:40"
+      "scraped_at": "2026-06-14T06:24:01"
     },
     {
       "date": "2026-05-31",
@@ -21705,7 +21705,7 @@
       "period_normal_mm": 63.5,
       "period_departure_pct": 63.0,
       "period_category": "LE",
-      "scraped_at": "2026-06-01T11:37:40"
+      "scraped_at": "2026-06-14T06:24:01"
     },
     {
       "date": "2026-05-31",
@@ -21723,7 +21723,7 @@
       "period_normal_mm": 79.7,
       "period_departure_pct": 62.0,
       "period_category": "LE",
-      "scraped_at": "2026-06-01T11:37:40"
+      "scraped_at": "2026-06-14T06:24:01"
     },
     {
       "date": "2026-05-31",
@@ -21741,7 +21741,7 @@
       "period_normal_mm": 62.7,
       "period_departure_pct": 99.0,
       "period_category": "LE",
-      "scraped_at": "2026-06-01T11:37:40"
+      "scraped_at": "2026-06-14T06:24:01"
     },
     {
       "date": "2026-05-31",
@@ -21759,7 +21759,7 @@
       "period_normal_mm": 62.7,
       "period_departure_pct": 30.0,
       "period_category": "E",
-      "scraped_at": "2026-06-01T11:37:40"
+      "scraped_at": "2026-06-14T06:24:01"
     },
     {
       "date": "2026-05-31",
@@ -21777,7 +21777,7 @@
       "period_normal_mm": 59.7,
       "period_departure_pct": 134.0,
       "period_category": "LE",
-      "scraped_at": "2026-06-01T11:37:40"
+      "scraped_at": "2026-06-14T06:24:01"
     },
     {
       "date": "2026-05-31",
@@ -21795,7 +21795,7 @@
       "period_normal_mm": 77.3,
       "period_departure_pct": -26.0,
       "period_category": "D",
-      "scraped_at": "2026-06-01T11:37:40"
+      "scraped_at": "2026-06-14T06:24:01"
     },
     {
       "date": "2026-05-31",
@@ -21813,7 +21813,7 @@
       "period_normal_mm": 140.7,
       "period_departure_pct": 34.0,
       "period_category": "E",
-      "scraped_at": "2026-06-01T11:37:40"
+      "scraped_at": "2026-06-14T06:24:01"
     },
     {
       "date": "2026-05-31",
@@ -21831,7 +21831,7 @@
       "period_normal_mm": 156.1,
       "period_departure_pct": -19.0,
       "period_category": "N",
-      "scraped_at": "2026-06-01T11:37:40"
+      "scraped_at": "2026-06-14T06:24:01"
     },
     {
       "date": "2026-05-31",
@@ -21849,7 +21849,7 @@
       "period_normal_mm": 199.5,
       "period_departure_pct": -15.0,
       "period_category": "N",
-      "scraped_at": "2026-06-01T11:37:40"
+      "scraped_at": "2026-06-14T06:24:01"
     },
     {
       "date": "2026-05-31",
@@ -21867,7 +21867,7 @@
       "period_normal_mm": 105.1,
       "period_departure_pct": 53.0,
       "period_category": "E",
-      "scraped_at": "2026-06-01T11:37:40"
+      "scraped_at": "2026-06-14T06:24:01"
     },
     {
       "date": "2026-05-31",
@@ -21885,7 +21885,7 @@
       "period_normal_mm": 169.6,
       "period_departure_pct": -9.0,
       "period_category": "N",
-      "scraped_at": "2026-06-01T11:37:40"
+      "scraped_at": "2026-06-14T06:24:01"
     },
     {
       "date": "2026-05-31",
@@ -21903,7 +21903,7 @@
       "period_normal_mm": 104.7,
       "period_departure_pct": 33.0,
       "period_category": "E",
-      "scraped_at": "2026-06-01T11:37:40"
+      "scraped_at": "2026-06-14T06:24:01"
     },
     {
       "date": "2026-05-31",
@@ -21921,7 +21921,7 @@
       "period_normal_mm": 105.6,
       "period_departure_pct": 55.0,
       "period_category": "E",
-      "scraped_at": "2026-06-01T11:37:40"
+      "scraped_at": "2026-06-14T06:24:01"
     },
     {
       "date": "2026-05-31",
@@ -21939,7 +21939,7 @@
       "period_normal_mm": 168.9,
       "period_departure_pct": -26.0,
       "period_category": "D",
-      "scraped_at": "2026-06-01T11:37:40"
+      "scraped_at": "2026-06-14T06:24:01"
     },
     {
       "date": "2026-05-31",
@@ -21957,7 +21957,7 @@
       "period_normal_mm": 257.9,
       "period_departure_pct": -27.0,
       "period_category": "D",
-      "scraped_at": "2026-06-01T11:37:40"
+      "scraped_at": "2026-06-14T06:24:01"
     },
     {
       "date": "2026-05-31",
@@ -21975,7 +21975,7 @@
       "period_normal_mm": 120.5,
       "period_departure_pct": -49.0,
       "period_category": "D",
-      "scraped_at": "2026-06-01T11:37:40"
+      "scraped_at": "2026-06-14T06:24:01"
     },
     {
       "date": "2026-05-31",
@@ -21993,7 +21993,7 @@
       "period_normal_mm": 166.8,
       "period_departure_pct": 5.0,
       "period_category": "N",
-      "scraped_at": "2026-06-01T11:37:40"
+      "scraped_at": "2026-06-14T06:24:01"
     },
     {
       "date": "2026-05-31",
@@ -22011,7 +22011,7 @@
       "period_normal_mm": 191.2,
       "period_departure_pct": -18.0,
       "period_category": "N",
-      "scraped_at": "2026-06-01T11:37:40"
+      "scraped_at": "2026-06-14T06:24:01"
     },
     {
       "date": "2026-05-31",
@@ -22029,7 +22029,7 @@
       "period_normal_mm": 112.0,
       "period_departure_pct": 90.0,
       "period_category": "LE",
-      "scraped_at": "2026-06-01T11:37:40"
+      "scraped_at": "2026-06-14T06:24:01"
     },
     {
       "date": "2026-05-31",
@@ -22047,7 +22047,7 @@
       "period_normal_mm": 127.2,
       "period_departure_pct": 30.0,
       "period_category": "E",
-      "scraped_at": "2026-06-01T11:37:40"
+      "scraped_at": "2026-06-14T06:24:01"
     },
     {
       "date": "2026-05-31",
@@ -22065,7 +22065,547 @@
       "period_normal_mm": 84.6,
       "period_departure_pct": 101.0,
       "period_category": "LE",
-      "scraped_at": "2026-06-01T11:37:40"
+      "scraped_at": "2026-06-14T06:24:01"
+    },
+    {
+      "date": "2026-06-01",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-30",
+      "level": "district",
+      "subdivision": "COASTAL KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "DAKSHINA KANNADA",
+      "day_actual_mm": 8.4,
+      "day_normal_mm": 11.2,
+      "day_departure_pct": -25.0,
+      "day_category": "D",
+      "period_actual_mm": 8.4,
+      "period_normal_mm": 3332.4,
+      "period_departure_pct": -99.0,
+      "period_category": "LD",
+      "scraped_at": "2026-06-14T06:24:04"
+    },
+    {
+      "date": "2026-06-01",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-30",
+      "level": "district",
+      "subdivision": "COASTAL KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "UDUPI",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 12.6,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 0.0,
+      "period_normal_mm": 3762.3,
+      "period_departure_pct": -100.0,
+      "period_category": "NR",
+      "scraped_at": "2026-06-14T06:24:04"
+    },
+    {
+      "date": "2026-06-01",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-30",
+      "level": "district",
+      "subdivision": "COASTAL KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "UTTARA KANNADA",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 8.7,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 0.0,
+      "period_normal_mm": 2747.9,
+      "period_departure_pct": -100.0,
+      "period_category": "NR",
+      "scraped_at": "2026-06-14T06:24:04"
+    },
+    {
+      "date": "2026-06-03",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-03",
+      "level": "district",
+      "subdivision": "COASTAL KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "DAKSHINA KANNADA",
+      "day_actual_mm": 25.0,
+      "day_normal_mm": 17.7,
+      "day_departure_pct": 41.0,
+      "day_category": "E",
+      "period_actual_mm": 39.8,
+      "period_normal_mm": 41.6,
+      "period_departure_pct": -4.0,
+      "period_category": "N",
+      "scraped_at": "2026-06-14T06:24:10"
+    },
+    {
+      "date": "2026-06-03",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-03",
+      "level": "district",
+      "subdivision": "COASTAL KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "UDUPI",
+      "day_actual_mm": 41.5,
+      "day_normal_mm": 20.1,
+      "day_departure_pct": 106.0,
+      "day_category": "LE",
+      "period_actual_mm": 41.6,
+      "period_normal_mm": 45.7,
+      "period_departure_pct": -9.0,
+      "period_category": "N",
+      "scraped_at": "2026-06-14T06:24:10"
+    },
+    {
+      "date": "2026-06-03",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-03",
+      "level": "district",
+      "subdivision": "COASTAL KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "UTTARA KANNADA",
+      "day_actual_mm": 7.5,
+      "day_normal_mm": 11.7,
+      "day_departure_pct": -36.0,
+      "day_category": "D",
+      "period_actual_mm": 11.3,
+      "period_normal_mm": 27.8,
+      "period_departure_pct": -60.0,
+      "period_category": "LD",
+      "scraped_at": "2026-06-14T06:24:10"
+    },
+    {
+      "date": "2026-06-04",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-04",
+      "level": "district",
+      "subdivision": "COASTAL KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "DAKSHINA KANNADA",
+      "day_actual_mm": 3.1,
+      "day_normal_mm": 13.6,
+      "day_departure_pct": -77.0,
+      "day_category": "LD",
+      "period_actual_mm": 42.9,
+      "period_normal_mm": 55.2,
+      "period_departure_pct": -22.0,
+      "period_category": "D",
+      "scraped_at": "2026-06-14T06:24:13"
+    },
+    {
+      "date": "2026-06-04",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-04",
+      "level": "district",
+      "subdivision": "COASTAL KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "UDUPI",
+      "day_actual_mm": 3.4,
+      "day_normal_mm": 18.9,
+      "day_departure_pct": -82.0,
+      "day_category": "LD",
+      "period_actual_mm": 45.0,
+      "period_normal_mm": 64.6,
+      "period_departure_pct": -30.0,
+      "period_category": "D",
+      "scraped_at": "2026-06-14T06:24:13"
+    },
+    {
+      "date": "2026-06-04",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-04",
+      "level": "district",
+      "subdivision": "COASTAL KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "UTTARA KANNADA",
+      "day_actual_mm": 5.5,
+      "day_normal_mm": 11.1,
+      "day_departure_pct": -51.0,
+      "day_category": "D",
+      "period_actual_mm": 16.7,
+      "period_normal_mm": 38.9,
+      "period_departure_pct": -57.0,
+      "period_category": "D",
+      "scraped_at": "2026-06-14T06:24:13"
+    },
+    {
+      "date": "2026-06-05",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-05",
+      "level": "district",
+      "subdivision": "COASTAL KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "DAKSHINA KANNADA",
+      "day_actual_mm": 20.9,
+      "day_normal_mm": 20.0,
+      "day_departure_pct": 4.0,
+      "day_category": "N",
+      "period_actual_mm": 63.7,
+      "period_normal_mm": 75.2,
+      "period_departure_pct": -15.0,
+      "period_category": "N",
+      "scraped_at": "2026-06-14T06:24:16"
+    },
+    {
+      "date": "2026-06-05",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-05",
+      "level": "district",
+      "subdivision": "COASTAL KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "UDUPI",
+      "day_actual_mm": 15.7,
+      "day_normal_mm": 20.8,
+      "day_departure_pct": -25.0,
+      "day_category": "D",
+      "period_actual_mm": 60.7,
+      "period_normal_mm": 85.4,
+      "period_departure_pct": -29.0,
+      "period_category": "D",
+      "scraped_at": "2026-06-14T06:24:16"
+    },
+    {
+      "date": "2026-06-05",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-05",
+      "level": "district",
+      "subdivision": "COASTAL KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "UTTARA KANNADA",
+      "day_actual_mm": 32.5,
+      "day_normal_mm": 13.0,
+      "day_departure_pct": 150.0,
+      "day_category": "LE",
+      "period_actual_mm": 49.3,
+      "period_normal_mm": 51.9,
+      "period_departure_pct": -5.0,
+      "period_category": "N",
+      "scraped_at": "2026-06-14T06:24:16"
+    },
+    {
+      "date": "2026-06-06",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-06",
+      "level": "district",
+      "subdivision": "COASTAL KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "DAKSHINA KANNADA",
+      "day_actual_mm": 34.1,
+      "day_normal_mm": 26.6,
+      "day_departure_pct": 28.0,
+      "day_category": "E",
+      "period_actual_mm": 97.8,
+      "period_normal_mm": 101.8,
+      "period_departure_pct": -4.0,
+      "period_category": "N",
+      "scraped_at": "2026-06-14T06:24:20"
+    },
+    {
+      "date": "2026-06-06",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-06",
+      "level": "district",
+      "subdivision": "COASTAL KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "UDUPI",
+      "day_actual_mm": 26.6,
+      "day_normal_mm": 27.6,
+      "day_departure_pct": -4.0,
+      "day_category": "N",
+      "period_actual_mm": 87.3,
+      "period_normal_mm": 113.0,
+      "period_departure_pct": -23.0,
+      "period_category": "D",
+      "scraped_at": "2026-06-14T06:24:20"
+    },
+    {
+      "date": "2026-06-06",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-06",
+      "level": "district",
+      "subdivision": "COASTAL KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "UTTARA KANNADA",
+      "day_actual_mm": 11.3,
+      "day_normal_mm": 17.6,
+      "day_departure_pct": -36.0,
+      "day_category": "D",
+      "period_actual_mm": 60.5,
+      "period_normal_mm": 69.5,
+      "period_departure_pct": -13.0,
+      "period_category": "N",
+      "scraped_at": "2026-06-14T06:24:20"
+    },
+    {
+      "date": "2026-06-08",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-08",
+      "level": "district",
+      "subdivision": "COASTAL KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "DAKSHINA KANNADA",
+      "day_actual_mm": 7.9,
+      "day_normal_mm": 25.5,
+      "day_departure_pct": -69.0,
+      "day_category": "LD",
+      "period_actual_mm": 135.5,
+      "period_normal_mm": 149.7,
+      "period_departure_pct": -10.0,
+      "period_category": "N",
+      "scraped_at": "2026-06-14T06:24:26"
+    },
+    {
+      "date": "2026-06-08",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-08",
+      "level": "district",
+      "subdivision": "COASTAL KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "UDUPI",
+      "day_actual_mm": 21.9,
+      "day_normal_mm": 31.9,
+      "day_departure_pct": -31.0,
+      "day_category": "D",
+      "period_actual_mm": 120.9,
+      "period_normal_mm": 176.1,
+      "period_departure_pct": -31.0,
+      "period_category": "D",
+      "scraped_at": "2026-06-14T06:24:26"
+    },
+    {
+      "date": "2026-06-08",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-08",
+      "level": "district",
+      "subdivision": "COASTAL KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "UTTARA KANNADA",
+      "day_actual_mm": 29.2,
+      "day_normal_mm": 19.2,
+      "day_departure_pct": 52.0,
+      "day_category": "E",
+      "period_actual_mm": 116.1,
+      "period_normal_mm": 108.7,
+      "period_departure_pct": 7.0,
+      "period_category": "N",
+      "scraped_at": "2026-06-14T06:24:26"
+    },
+    {
+      "date": "2026-06-09",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-09",
+      "level": "district",
+      "subdivision": "COASTAL KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "DAKSHINA KANNADA",
+      "day_actual_mm": 24.2,
+      "day_normal_mm": 27.2,
+      "day_departure_pct": -11.0,
+      "day_category": "N",
+      "period_actual_mm": 159.6,
+      "period_normal_mm": 176.9,
+      "period_departure_pct": -10.0,
+      "period_category": "N",
+      "scraped_at": "2026-06-14T06:24:29"
+    },
+    {
+      "date": "2026-06-09",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-09",
+      "level": "district",
+      "subdivision": "COASTAL KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "UDUPI",
+      "day_actual_mm": 38.5,
+      "day_normal_mm": 33.4,
+      "day_departure_pct": 15.0,
+      "day_category": "N",
+      "period_actual_mm": 159.4,
+      "period_normal_mm": 209.5,
+      "period_departure_pct": -24.0,
+      "period_category": "D",
+      "scraped_at": "2026-06-14T06:24:29"
+    },
+    {
+      "date": "2026-06-09",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-09",
+      "level": "district",
+      "subdivision": "COASTAL KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "UTTARA KANNADA",
+      "day_actual_mm": 25.9,
+      "day_normal_mm": 18.1,
+      "day_departure_pct": 43.0,
+      "day_category": "E",
+      "period_actual_mm": 142.0,
+      "period_normal_mm": 126.8,
+      "period_departure_pct": 12.0,
+      "period_category": "N",
+      "scraped_at": "2026-06-14T06:24:29"
+    },
+    {
+      "date": "2026-06-10",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-10",
+      "level": "district",
+      "subdivision": "COASTAL KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "DAKSHINA KANNADA",
+      "day_actual_mm": 16.5,
+      "day_normal_mm": 25.1,
+      "day_departure_pct": -34.0,
+      "day_category": "D",
+      "period_actual_mm": 176.1,
+      "period_normal_mm": 202.0,
+      "period_departure_pct": -13.0,
+      "period_category": "N",
+      "scraped_at": "2026-06-14T06:24:32"
+    },
+    {
+      "date": "2026-06-10",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-10",
+      "level": "district",
+      "subdivision": "COASTAL KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "UDUPI",
+      "day_actual_mm": 13.8,
+      "day_normal_mm": 34.3,
+      "day_departure_pct": -60.0,
+      "day_category": "LD",
+      "period_actual_mm": 173.2,
+      "period_normal_mm": 243.8,
+      "period_departure_pct": -29.0,
+      "period_category": "D",
+      "scraped_at": "2026-06-14T06:24:32"
+    },
+    {
+      "date": "2026-06-10",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-10",
+      "level": "district",
+      "subdivision": "COASTAL KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "UTTARA KANNADA",
+      "day_actual_mm": 17.5,
+      "day_normal_mm": 21.8,
+      "day_departure_pct": -20.0,
+      "day_category": "D",
+      "period_actual_mm": 159.5,
+      "period_normal_mm": 148.6,
+      "period_departure_pct": 7.0,
+      "period_category": "N",
+      "scraped_at": "2026-06-14T06:24:32"
+    },
+    {
+      "date": "2026-06-12",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-12",
+      "level": "district",
+      "subdivision": "COASTAL KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "DAKSHINA KANNADA",
+      "day_actual_mm": 8.4,
+      "day_normal_mm": 33.0,
+      "day_departure_pct": -75.0,
+      "day_category": "LD",
+      "period_actual_mm": 208.4,
+      "period_normal_mm": 266.5,
+      "period_departure_pct": -22.0,
+      "period_category": "D",
+      "scraped_at": "2026-06-14T06:24:35"
+    },
+    {
+      "date": "2026-06-12",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-12",
+      "level": "district",
+      "subdivision": "COASTAL KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "UDUPI",
+      "day_actual_mm": 18.1,
+      "day_normal_mm": 42.5,
+      "day_departure_pct": -57.0,
+      "day_category": "D",
+      "period_actual_mm": 212.9,
+      "period_normal_mm": 324.5,
+      "period_departure_pct": -34.0,
+      "period_category": "D",
+      "scraped_at": "2026-06-14T06:24:35"
+    },
+    {
+      "date": "2026-06-12",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-12",
+      "level": "district",
+      "subdivision": "COASTAL KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "UTTARA KANNADA",
+      "day_actual_mm": 13.1,
+      "day_normal_mm": 28.2,
+      "day_departure_pct": -54.0,
+      "day_category": "D",
+      "period_actual_mm": 188.0,
+      "period_normal_mm": 200.5,
+      "period_departure_pct": -6.0,
+      "period_category": "N",
+      "scraped_at": "2026-06-14T06:24:35"
+    },
+    {
+      "date": "2026-06-13",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-13",
+      "level": "district",
+      "subdivision": "COASTAL KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "DAKSHINA KANNADA",
+      "day_actual_mm": 26.0,
+      "day_normal_mm": 33.7,
+      "day_departure_pct": -23.0,
+      "day_category": "D",
+      "period_actual_mm": 234.5,
+      "period_normal_mm": 300.2,
+      "period_departure_pct": -22.0,
+      "period_category": "D",
+      "scraped_at": "2026-06-14T06:24:38"
+    },
+    {
+      "date": "2026-06-13",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-13",
+      "level": "district",
+      "subdivision": "COASTAL KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "UDUPI",
+      "day_actual_mm": 13.8,
+      "day_normal_mm": 46.1,
+      "day_departure_pct": -70.0,
+      "day_category": "LD",
+      "period_actual_mm": 226.7,
+      "period_normal_mm": 370.6,
+      "period_departure_pct": -39.0,
+      "period_category": "D",
+      "scraped_at": "2026-06-14T06:24:38"
+    },
+    {
+      "date": "2026-06-13",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-13",
+      "level": "district",
+      "subdivision": "COASTAL KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "UTTARA KANNADA",
+      "day_actual_mm": 4.7,
+      "day_normal_mm": 25.6,
+      "day_departure_pct": -82.0,
+      "day_category": "LD",
+      "period_actual_mm": 192.7,
+      "period_normal_mm": 226.1,
+      "period_departure_pct": -15.0,
+      "period_category": "N",
+      "scraped_at": "2026-06-14T06:24:38"
     }
   ]
 }
