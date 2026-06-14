@@ -1,11 +1,6 @@
 {
-  "generated_at": "2026-06-14T06:24:43.385125+00:00",
+  "generated_at": "2026-06-14T06:40:28.153996+00:00",
   "states": [
-    {
-      "name": "A & N ISLAND",
-      "slug": "a-n-island",
-      "n_districts": 3
-    },
     {
       "name": "ANDAMAN & NICOBAR ISLANDS",
       "slug": "andaman-nicobar-islands",
@@ -42,16 +37,6 @@
       "n_districts": 40
     },
     {
-      "name": "COASTAL A. P. & YANAM",
-      "slug": "coastal-a-p-yanam",
-      "n_districts": 18
-    },
-    {
-      "name": "COASTAL KARNATAKA",
-      "slug": "coastal-karnataka",
-      "n_districts": 3
-    },
-    {
       "name": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
       "slug": "dadra-nagar-haveli-and-daman-diu-ut",
       "n_districts": 3
@@ -62,31 +47,6 @@
       "n_districts": 9
     },
     {
-      "name": "DELHI (UT)",
-      "slug": "delhi-ut",
-      "n_districts": 9
-    },
-    {
-      "name": "EAST MADHYA PRADESH",
-      "slug": "east-madhya-pradesh",
-      "n_districts": 21
-    },
-    {
-      "name": "EAST RAJASTHAN",
-      "slug": "east-rajasthan",
-      "n_districts": 23
-    },
-    {
-      "name": "EAST UTTAR PRADESH",
-      "slug": "east-uttar-pradesh",
-      "n_districts": 42
-    },
-    {
-      "name": "GANGETIC WEST BENGAL",
-      "slug": "gangetic-west-bengal",
-      "n_districts": 15
-    },
-    {
       "name": "GOA",
       "slug": "goa",
       "n_districts": 2
@@ -94,12 +54,7 @@
     {
       "name": "GUJARAT",
       "slug": "gujarat",
-      "n_districts": 33
-    },
-    {
-      "name": "GUJARAT REGION",
-      "slug": "gujarat-region",
-      "n_districts": 23
+      "n_districts": 36
     },
     {
       "name": "HARYANA",
@@ -112,14 +67,9 @@
       "n_districts": 12
     },
     {
-      "name": "JAMMU & KASHMIR (UT)",
-      "slug": "jammu-kashmir-ut",
-      "n_districts": 20
-    },
-    {
       "name": "JAMMU & KASHMIR(UT)",
       "slug": "jammu-kashmir-ut",
-      "n_districts": 20
+      "n_districts": 21
     },
     {
       "name": "JHARKHAND",
@@ -129,7 +79,7 @@
     {
       "name": "KARNATAKA",
       "slug": "karnataka",
-      "n_districts": 31
+      "n_districts": 32
     },
     {
       "name": "KERALA",
@@ -147,11 +97,6 @@
       "n_districts": 1
     },
     {
-      "name": "MADHYA MAHARASHTRA",
-      "slug": "madhya-maharashtra",
-      "n_districts": 10
-    },
-    {
       "name": "MADHYA PRADESH",
       "slug": "madhya-pradesh",
       "n_districts": 55
@@ -167,11 +112,6 @@
       "n_districts": 9
     },
     {
-      "name": "MARATHWADA",
-      "slug": "marathwada",
-      "n_districts": 8
-    },
-    {
       "name": "MEGHALAYA",
       "slug": "meghalaya",
       "n_districts": 12
@@ -182,18 +122,8 @@
       "n_districts": 9
     },
     {
-      "name": "N. I. KARNATAKA",
-      "slug": "n-i-karnataka",
-      "n_districts": 11
-    },
-    {
       "name": "NAGALAND",
       "slug": "nagaland",
-      "n_districts": 11
-    },
-    {
-      "name": "NORTHERN INTERIOR KARNATAKA",
-      "slug": "northern-interior-karnataka",
       "n_districts": 11
     },
     {
@@ -217,34 +147,9 @@
       "n_districts": 33
     },
     {
-      "name": "RAYALASEEMA",
-      "slug": "rayalaseema",
-      "n_districts": 8
-    },
-    {
-      "name": "RAYALSEEMA",
-      "slug": "rayalseema",
-      "n_districts": 8
-    },
-    {
-      "name": "S. I. KARNATAKA",
-      "slug": "s-i-karnataka",
-      "n_districts": 17
-    },
-    {
-      "name": "SAURASHTRA & KUTCH",
-      "slug": "saurashtra-kutch",
-      "n_districts": 15
-    },
-    {
       "name": "SIKKIM",
       "slug": "sikkim",
       "n_districts": 8
-    },
-    {
-      "name": "SOUTHERN INTERIOR KARNATAKA",
-      "slug": "southern-interior-karnataka",
-      "n_districts": 17
     },
     {
       "name": "TAMILNADU",
@@ -272,29 +177,9 @@
       "n_districts": 13
     },
     {
-      "name": "VIDARBHA",
-      "slug": "vidarbha",
-      "n_districts": 11
-    },
-    {
       "name": "WEST BENGAL",
       "slug": "west-bengal",
       "n_districts": 23
-    },
-    {
-      "name": "WEST MADHYA PRADESH",
-      "slug": "west-madhya-pradesh",
-      "n_districts": 31
-    },
-    {
-      "name": "WEST RAJASTHAN",
-      "slug": "west-rajasthan",
-      "n_districts": 10
-    },
-    {
-      "name": "WEST UTTAR PRADESH",
-      "slug": "west-uttar-pradesh",
-      "n_districts": 33
     }
   ]
 }

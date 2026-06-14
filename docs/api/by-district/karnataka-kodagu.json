@@ -1,7 +1,7 @@
 {
   "state": "KARNATAKA",
   "district": "KODAGU",
-  "row_count": 40,
+  "row_count": 50,
   "rows": [
     {
       "date": "2026-04-13",
@@ -19,7 +19,7 @@
       "period_normal_mm": 56.9,
       "period_departure_pct": 14.0,
       "period_category": "N",
-      "scraped_at": "2026-04-20T07:43:03"
+      "scraped_at": "2026-04-13T11:45:17"
     },
     {
       "date": "2026-04-14",
@@ -37,7 +37,7 @@
       "period_normal_mm": 59.5,
       "period_departure_pct": 9.0,
       "period_category": "N",
-      "scraped_at": "2026-04-20T07:43:04"
+      "scraped_at": "2026-04-14T10:44:26"
     },
     {
       "date": "2026-04-15",
@@ -55,7 +55,7 @@
       "period_normal_mm": 62.5,
       "period_departure_pct": 3.0,
       "period_category": "N",
-      "scraped_at": "2026-04-20T07:43:06"
+      "scraped_at": "2026-04-15T10:40:58"
     },
     {
       "date": "2026-04-16",
@@ -73,7 +73,7 @@
       "period_normal_mm": 65.2,
       "period_departure_pct": -1.0,
       "period_category": "N",
-      "scraped_at": "2026-04-20T07:43:08"
+      "scraped_at": "2026-04-16T10:44:51"
     },
     {
       "date": "2026-04-17",
@@ -91,7 +91,7 @@
       "period_normal_mm": 68.0,
       "period_departure_pct": -4.0,
       "period_category": "N",
-      "scraped_at": "2026-04-20T07:43:09"
+      "scraped_at": "2026-04-17T10:36:55"
     },
     {
       "date": "2026-04-18",
@@ -721,7 +721,187 @@
       "period_normal_mm": 257.9,
       "period_departure_pct": -27.0,
       "period_category": "D",
-      "scraped_at": "2026-06-14T06:24:01"
+      "scraped_at": "2026-06-14T06:29:25"
+    },
+    {
+      "date": "2026-06-01",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-30",
+      "level": "district",
+      "subdivision": "SOUTHERN INTERIOR KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "KODAGU",
+      "day_actual_mm": 2.4,
+      "day_normal_mm": 7.1,
+      "day_departure_pct": -66.0,
+      "day_category": "LD",
+      "period_actual_mm": 2.4,
+      "period_normal_mm": 2248.3,
+      "period_departure_pct": -99.0,
+      "period_category": "LD",
+      "scraped_at": "2026-06-14T06:29:28"
+    },
+    {
+      "date": "2026-06-03",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-03",
+      "level": "district",
+      "subdivision": "SOUTHERN INTERIOR KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "KODAGU",
+      "day_actual_mm": 17.6,
+      "day_normal_mm": 10.7,
+      "day_departure_pct": 64.0,
+      "day_category": "LE",
+      "period_actual_mm": 31.9,
+      "period_normal_mm": 26.5,
+      "period_departure_pct": 20.0,
+      "period_category": "E",
+      "scraped_at": "2026-06-14T06:29:35"
+    },
+    {
+      "date": "2026-06-04",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-04",
+      "level": "district",
+      "subdivision": "SOUTHERN INTERIOR KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "KODAGU",
+      "day_actual_mm": 4.8,
+      "day_normal_mm": 8.9,
+      "day_departure_pct": -46.0,
+      "day_category": "D",
+      "period_actual_mm": 36.8,
+      "period_normal_mm": 35.4,
+      "period_departure_pct": 4.0,
+      "period_category": "N",
+      "scraped_at": "2026-06-14T06:29:38"
+    },
+    {
+      "date": "2026-06-05",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-05",
+      "level": "district",
+      "subdivision": "SOUTHERN INTERIOR KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "KODAGU",
+      "day_actual_mm": 23.0,
+      "day_normal_mm": 10.6,
+      "day_departure_pct": 117.0,
+      "day_category": "LE",
+      "period_actual_mm": 59.8,
+      "period_normal_mm": 46.0,
+      "period_departure_pct": 30.0,
+      "period_category": "E",
+      "scraped_at": "2026-06-14T06:29:41"
+    },
+    {
+      "date": "2026-06-06",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-06",
+      "level": "district",
+      "subdivision": "SOUTHERN INTERIOR KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "KODAGU",
+      "day_actual_mm": 9.9,
+      "day_normal_mm": 13.8,
+      "day_departure_pct": -29.0,
+      "day_category": "D",
+      "period_actual_mm": 69.6,
+      "period_normal_mm": 59.8,
+      "period_departure_pct": 16.0,
+      "period_category": "N",
+      "scraped_at": "2026-06-14T06:29:44"
+    },
+    {
+      "date": "2026-06-08",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-08",
+      "level": "district",
+      "subdivision": "SOUTHERN INTERIOR KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "KODAGU",
+      "day_actual_mm": 5.9,
+      "day_normal_mm": 14.1,
+      "day_departure_pct": -58.0,
+      "day_category": "D",
+      "period_actual_mm": 94.0,
+      "period_normal_mm": 85.7,
+      "period_departure_pct": 10.0,
+      "period_category": "N",
+      "scraped_at": "2026-06-14T06:29:50"
+    },
+    {
+      "date": "2026-06-09",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-09",
+      "level": "district",
+      "subdivision": "SOUTHERN INTERIOR KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "KODAGU",
+      "day_actual_mm": 26.3,
+      "day_normal_mm": 12.9,
+      "day_departure_pct": 104.0,
+      "day_category": "LE",
+      "period_actual_mm": 120.3,
+      "period_normal_mm": 98.6,
+      "period_departure_pct": 22.0,
+      "period_category": "E",
+      "scraped_at": "2026-06-14T06:29:53"
+    },
+    {
+      "date": "2026-06-10",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-10",
+      "level": "district",
+      "subdivision": "SOUTHERN INTERIOR KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "KODAGU",
+      "day_actual_mm": 6.2,
+      "day_normal_mm": 13.9,
+      "day_departure_pct": -55.0,
+      "day_category": "D",
+      "period_actual_mm": 126.6,
+      "period_normal_mm": 112.5,
+      "period_departure_pct": 13.0,
+      "period_category": "N",
+      "scraped_at": "2026-06-14T06:29:56"
+    },
+    {
+      "date": "2026-06-12",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-12",
+      "level": "district",
+      "subdivision": "SOUTHERN INTERIOR KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "KODAGU",
+      "day_actual_mm": 9.8,
+      "day_normal_mm": 17.7,
+      "day_departure_pct": -45.0,
+      "day_category": "D",
+      "period_actual_mm": 148.7,
+      "period_normal_mm": 146.3,
+      "period_departure_pct": 2.0,
+      "period_category": "N",
+      "scraped_at": "2026-06-14T06:29:59"
+    },
+    {
+      "date": "2026-06-13",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-13",
+      "level": "district",
+      "subdivision": "SOUTHERN INTERIOR KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "KODAGU",
+      "day_actual_mm": 16.4,
+      "day_normal_mm": 19.8,
+      "day_departure_pct": -17.0,
+      "day_category": "N",
+      "period_actual_mm": 165.1,
+      "period_normal_mm": 166.1,
+      "period_departure_pct": -1.0,
+      "period_category": "N",
+      "scraped_at": "2026-06-14T06:30:02"
     }
   ]
 }

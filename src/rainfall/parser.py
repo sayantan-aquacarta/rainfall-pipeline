@@ -50,38 +50,67 @@ log = get_logger(__name__)
 # ---------------------------------------------------------------------------
 _STATE_NORMALISE: dict[str, str] = {
     # West Bengal
-    "GANGETIC WEST BENGAL":         "WEST BENGAL",
+    "GANGETIC WEST BENGAL":                  "WEST BENGAL",
     # Uttar Pradesh
-    "EAST UTTAR PRADESH":           "UTTAR PRADESH",
-    "WEST UTTAR PRADESH":           "UTTAR PRADESH",
+    "EAST UTTAR PRADESH":                    "UTTAR PRADESH",
+    "WEST UTTAR PRADESH":                    "UTTAR PRADESH",
     # Rajasthan
-    "EAST RAJASTHAN":               "RAJASTHAN",
-    "WEST RAJASTHAN":               "RAJASTHAN",
+    "EAST RAJASTHAN":                        "RAJASTHAN",
+    "WEST RAJASTHAN":                        "RAJASTHAN",
     # Madhya Pradesh
-    "EAST MADHYA PRADESH":          "MADHYA PRADESH",
-    "WEST MADHYA PRADESH":          "MADHYA PRADESH",
-    # Karnataka
-    "COASTAL KARNATAKA":            "KARNATAKA",
-    "N. I. KARNATAKA":              "KARNATAKA",
-    "S. I. KARNATAKA":              "KARNATAKA",
-    # Andhra Pradesh
-    "COASTAL A. P. & YANAM":        "ANDHRA PRADESH",
-    "RAYALASEEMA":                  "ANDHRA PRADESH",
+    "EAST MADHYA PRADESH":                   "MADHYA PRADESH",
+    "WEST MADHYA PRADESH":                   "MADHYA PRADESH",
+    # Karnataka — pre-monsoon abbreviated names
+    "COASTAL KARNATAKA":                     "KARNATAKA",
+    "N. I. KARNATAKA":                       "KARNATAKA",
+    "S. I. KARNATAKA":                       "KARNATAKA",
+    # Karnataka — monsoon format full spellings (June 2026+)
+    "NORTHERN INTERIOR KARNATAKA":           "KARNATAKA",
+    "SOUTHERN INTERIOR KARNATAKA":           "KARNATAKA",
+    # Andhra Pradesh — pre-monsoon abbreviated names
+    "COASTAL A. P. & YANAM":                 "ANDHRA PRADESH",
+    "RAYALASEEMA":                           "ANDHRA PRADESH",
+    # Andhra Pradesh — monsoon format full spellings (June 2026+)
+    "COASTAL ANDHRA PRADESH & YANAM":        "ANDHRA PRADESH",
+    "RAYALSEEMA":                            "ANDHRA PRADESH",
     # Tamil Nadu + Puducherry UTs
-    "TAMIL. PUDU.& KARAIKAL":       "TAMIL NADU",
+    "TAMIL. PUDU.& KARAIKAL":               "TAMIL NADU",
     # Maharashtra
-    "KONKAN & GOA":                 "MAHARASHTRA",
-    "MADHYA MAHARASHTRA":           "MAHARASHTRA",
-    "MARATHWADA":                   "MAHARASHTRA",
-    "VIDARBHA":                     "MAHARASHTRA",
-    # Jammu & Kashmir / Ladakh
-    "J & K AND LADAKH":             "JAMMU & KASHMIR(UT)",
-    # HAR. CHD & DELHI composite
-    "HAR. CHD & DELHI":             "HARYANA",
+    "KONKAN & GOA":                          "MAHARASHTRA",
+    "MADHYA MAHARASHTRA":                    "MAHARASHTRA",
+    "MARATHWADA":                            "MAHARASHTRA",
+    "VIDARBHA":                              "MAHARASHTRA",
+    # Jammu & Kashmir / Ladakh — pre-monsoon names
+    "J & K AND LADAKH":                      "JAMMU & KASHMIR(UT)",
+    # Jammu & Kashmir / Ladakh — monsoon format (different spellings)
+    "JAMMU & KASHMIR AND LADAKH":            "JAMMU & KASHMIR(UT)",
+    "JAMMU & KASHMIR (UT)":                  "JAMMU & KASHMIR(UT)",
+    # HAR. CHD & DELHI composite — pre-monsoon
+    "HAR. CHD & DELHI":                      "HARYANA",
     # NMMT composite (Nagaland + Manipur + Mizoram + Tripura)
-    "NMMT":                         "NAGALAND",  # aggregate row; districts get correct states
+    "NMMT":                                  "NAGALAND",  # aggregate row; districts get correct states
     # SHWB & SIKKIM composite (Sub-Himalayan West Bengal + Sikkim)
-    "SHWB & SIKKIM":                "SIKKIM",    # aggregate row; districts get correct states
+    "SHWB & SIKKIM":                         "SIKKIM",    # aggregate row; districts get correct states
+    # West Bengal — pre-monsoon split name
+    "GANGETIC WEST BENGAL":                  "WEST BENGAL",
+    # Uttar Pradesh — pre-monsoon split names
+    "EAST UTTAR PRADESH":                    "UTTAR PRADESH",
+    "WEST UTTAR PRADESH":                    "UTTAR PRADESH",
+    # Rajasthan — pre-monsoon split names
+    "EAST RAJASTHAN":                        "RAJASTHAN",
+    "WEST RAJASTHAN":                        "RAJASTHAN",
+    # Madhya Pradesh — pre-monsoon split names
+    "EAST MADHYA PRADESH":                   "MADHYA PRADESH",
+    "WEST MADHYA PRADESH":                   "MADHYA PRADESH",
+    # Maharashtra — pre-monsoon subdivision names
+    "MADHYA MAHARASHTRA":                    "MAHARASHTRA",
+    "MARATHWADA":                            "MAHARASHTRA",
+    "VIDARBHA":                              "MAHARASHTRA",
+    # Gujarat — pre-monsoon subdivision names
+    "GUJARAT REGION":                        "GUJARAT",
+    "SAURASHTRA & KUTCH":                    "GUJARAT",
+    # Andaman & Nicobar — abbreviated name used in old format
+    "A & N ISLAND":                          "ANDAMAN & NICOBAR ISLANDS",
 }
 
 
