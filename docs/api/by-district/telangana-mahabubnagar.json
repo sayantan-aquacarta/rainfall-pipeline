@@ -1,7 +1,7 @@
 {
   "state": "TELANGANA",
   "district": "MAHABUBNAGAR",
-  "row_count": 50,
+  "row_count": 51,
   "rows": [
     {
       "date": "2026-04-13",
@@ -902,6 +902,24 @@
       "period_departure_pct": -24.0,
       "period_category": "D",
       "scraped_at": "2026-06-14T06:30:02"
+    },
+    {
+      "date": "2026-06-14",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-14",
+      "level": "district",
+      "subdivision": "TELANGANA",
+      "state": "TELANGANA",
+      "district": "MAHABUBNAGAR",
+      "day_actual_mm": 14.1,
+      "day_normal_mm": 2.3,
+      "day_departure_pct": 511.0,
+      "day_category": "LE",
+      "period_actual_mm": 42.5,
+      "period_normal_mm": 39.5,
+      "period_departure_pct": 8.0,
+      "period_category": "N",
+      "scraped_at": "2026-06-14T09:36:57"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "KARNATAKA",
   "district": "RAICHUR",
-  "row_count": 50,
+  "row_count": 51,
   "rows": [
     {
       "date": "2026-04-13",
@@ -902,6 +902,24 @@
       "period_departure_pct": 29.0,
       "period_category": "E",
       "scraped_at": "2026-06-14T06:30:02"
+    },
+    {
+      "date": "2026-06-14",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-14",
+      "level": "district",
+      "subdivision": "NORTHERN INTERIOR KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "RAICHUR",
+      "day_actual_mm": 18.2,
+      "day_normal_mm": 2.2,
+      "day_departure_pct": 727.0,
+      "day_category": "LE",
+      "period_actual_mm": 63.6,
+      "period_normal_mm": 37.5,
+      "period_departure_pct": 70.0,
+      "period_category": "LE",
+      "scraped_at": "2026-06-14T09:36:57"
     }
   ]
 }

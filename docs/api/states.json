@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T06:40:28.153996+00:00",
+  "generated_at": "2026-06-14T09:37:05.244983+00:00",
   "states": [
     {
       "name": "ANDAMAN & NICOBAR ISLANDS",
@@ -44,6 +44,11 @@
     {
       "name": "DELHI",
       "slug": "delhi",
+      "n_districts": 9
+    },
+    {
+      "name": "DELHI (UT)",
+      "slug": "delhi-ut",
       "n_districts": 9
     },
     {

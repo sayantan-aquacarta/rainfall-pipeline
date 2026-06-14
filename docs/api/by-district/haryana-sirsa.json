@@ -1,7 +1,7 @@
 {
   "state": "HARYANA",
   "district": "SIRSA",
-  "row_count": 50,
+  "row_count": 51,
   "rows": [
     {
       "date": "2026-04-13",
@@ -902,6 +902,24 @@
       "period_departure_pct": 50.0,
       "period_category": "E",
       "scraped_at": "2026-06-14T06:30:02"
+    },
+    {
+      "date": "2026-06-14",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-14",
+      "level": "district",
+      "subdivision": "HARYANA",
+      "state": "HARYANA",
+      "district": "SIRSA",
+      "day_actual_mm": 0.1,
+      "day_normal_mm": 0.9,
+      "day_departure_pct": -94.0,
+      "day_category": "LD",
+      "period_actual_mm": 13.1,
+      "period_normal_mm": 9.6,
+      "period_departure_pct": 37.0,
+      "period_category": "E",
+      "scraped_at": "2026-06-14T09:36:57"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "SEONI",
-  "row_count": 50,
+  "row_count": 51,
   "rows": [
     {
       "date": "2026-04-13",
@@ -902,6 +902,24 @@
       "period_departure_pct": -48.0,
       "period_category": "D",
       "scraped_at": "2026-06-14T06:30:02"
+    },
+    {
+      "date": "2026-06-14",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-14",
+      "level": "district",
+      "subdivision": "EAST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "SEONI",
+      "day_actual_mm": 0.8,
+      "day_normal_mm": 3.7,
+      "day_departure_pct": -78.0,
+      "day_category": "LD",
+      "period_actual_mm": 15.8,
+      "period_normal_mm": 32.7,
+      "period_departure_pct": -52.0,
+      "period_category": "D",
+      "scraped_at": "2026-06-14T09:36:57"
     }
   ]
 }
