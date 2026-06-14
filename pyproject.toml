@@ -17,6 +17,8 @@ dependencies = [
     "structlog>=24.1",      # Structured logging
     "python-dateutil>=2.9", # Robust date parsing
     "click>=8.1",           # CLI
+    "scipy>=1.13",          # SPI gamma distribution fitting
+    "numpy>=1.26",          # numerical arrays (transitive via pandas, pinned explicitly)
 ]
 
 [project.optional-dependencies]

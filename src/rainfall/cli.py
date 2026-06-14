@@ -19,6 +19,7 @@ from pathlib import Path
 import click
 
 from .api_builder import build_all
+from .drought import compute_and_build as _drought_build
 from .config import CONFIG
 from .logging_setup import configure_logging, get_logger
 from .parser import parse_pdf, to_dataframe
@@ -42,7 +43,9 @@ def cli(log_level: str) -> None:
               help="Rebuild static JSON API after successful scrape")
 @click.option("--snapshot/--no-snapshot", default=True,
               help="Write Parquet snapshot after successful scrape")
-def scrape(rebuild_api: bool, snapshot: bool) -> None:
+@click.option("--spi/--no-spi", default=True,
+              help="Compute SPI drought index after API rebuild")
+def scrape(rebuild_api: bool, snapshot: bool, spi: bool) -> None:
     """Fetch the daily IMD PDF, parse, validate, and store it."""
     started = time.monotonic()
     scraped_at = datetime.now(timezone.utc).isoformat()
@@ -69,6 +72,12 @@ def scrape(rebuild_api: bool, snapshot: bool) -> None:
             write_parquet_snapshot()
         if rebuild_api:
             build_all()
+        if spi:
+            try:
+                spi_stats = _drought_build()
+                log.info("spi_computed", **spi_stats)
+            except Exception as spi_exc:
+                log.warning("spi_compute_failed", error=str(spi_exc))
 
         # Prune old PDFs — defensive: a failure here must never fail the scrape
         try:
@@ -101,6 +110,17 @@ def rebuild_api_cmd() -> None:
     """Regenerate the static JSON API from the current SQLite contents."""
     stats = build_all()
     click.echo(f"API rebuilt: {stats}")
+
+
+@cli.command("compute-spi")
+def compute_spi_cmd() -> None:
+    """Compute SPI drought indices and write docs/api/drought-*.json."""
+    result = _drought_build()
+    click.echo(
+        f"Drought API updated: subdivisions={result['subdivisions']}"
+        f"  history_rows={result['history_rows']}"
+        f"  date={result['reference_date']}"
+    )
 
 
 @cli.command()
