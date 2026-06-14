@@ -122,10 +122,10 @@ def compute_drought_status(db_path: Path | None = None) -> pd.DataFrame:
         SELECT
             date,
             subdivision,
-            period_actual_mm,
-            period_normal_mm,
-            period_departure_pct,
-            period_category
+            AVG(period_actual_mm)    AS period_actual_mm,
+            AVG(period_normal_mm)    AS period_normal_mm,
+            AVG(period_departure_pct) AS period_departure_pct,
+            MAX(period_category)     AS period_category
         FROM rainfall
         WHERE level = 'subdivision'
           AND date = (
@@ -133,6 +133,7 @@ def compute_drought_status(db_path: Path | None = None) -> pd.DataFrame:
           )
           AND subdivision IS NOT NULL
           AND subdivision != ''
+        GROUP BY date, subdivision
         ORDER BY subdivision
     """)
 
@@ -161,10 +162,15 @@ def compute_drought_history(db_path: Path | None = None) -> pd.DataFrame:
     """
     db_path = db_path or CONFIG.sqlite_path
     df = _query(db_path, """
-        SELECT date, subdivision, period_actual_mm, period_normal_mm
+        SELECT
+            date,
+            subdivision,
+            AVG(period_actual_mm)  AS period_actual_mm,
+            AVG(period_normal_mm)  AS period_normal_mm
         FROM rainfall
         WHERE level = 'subdivision'
           AND subdivision IS NOT NULL AND subdivision != ''
+        GROUP BY date, subdivision
         ORDER BY subdivision, date
     """)
 

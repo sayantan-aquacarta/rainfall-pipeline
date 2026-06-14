@@ -1,4 +1,4 @@
-<!-- v4-premium-drought-live -->
+<!-- v4-premium-drought-map -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,17 +8,29 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 <style>
-:root{--bg:#07101c;--layer1:#0d1b2a;--layer2:#132337;--layer3:#1a2d45;--t1:#dce8f4;--t2:#92aec8;--t3:#4d6e8c;--b1:rgba(180,210,255,.07);--b2:rgba(180,210,255,.13);--blue:#5b9cf6;--blue2:#3b82f6;--teal:#2dd4bf;--radius:10px;--radius-sm:6px;}
+:root{
+  --bg:#07101c;--layer1:#0d1b2a;--layer2:#132337;--layer3:#1a2d45;
+  --t1:#dce8f4;--t2:#92aec8;--t3:#4d6e8c;
+  --b1:rgba(180,210,255,.07);--b2:rgba(180,210,255,.13);
+  --blue:#5b9cf6;--blue2:#3b82f6;--teal:#2dd4bf;
+  --radius:10px;--radius-sm:6px;
+}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
-body{font-family:'Inter',system-ui,sans-serif;font-size:14px;line-height:1.5;background:var(--bg);color:var(--t1);-webkit-font-smoothing:antialiased;}
-header{position:relative;background:linear-gradient(170deg,#060e1c 0%,#091728 55%,#0b2036 100%);border-bottom:1px solid var(--b1);padding:2rem 2.5rem 1.75rem;overflow:hidden;}
+body{font-family:'Inter',system-ui,sans-serif;font-size:14px;line-height:1.5;
+     background:var(--bg);color:var(--t1);-webkit-font-smoothing:antialiased;}
+
+header{position:relative;background:linear-gradient(170deg,#060e1c 0%,#091728 55%,#0b2036 100%);
+       border-bottom:1px solid var(--b1);padding:2rem 2.5rem 1.75rem;overflow:hidden;}
 #rain-canvas{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;opacity:.15;}
-.header-inner{position:relative;z-index:1;max-width:1440px;margin:0 auto;display:flex;justify-content:space-between;align-items:flex-start;gap:1.5rem;flex-wrap:wrap;}
+.header-inner{position:relative;z-index:1;max-width:1440px;margin:0 auto;
+              display:flex;justify-content:space-between;align-items:flex-start;gap:1.5rem;flex-wrap:wrap;}
 .header-left{flex:1;min-width:0;}
 .header-eyebrow{display:flex;align-items:center;gap:.75rem;margin-bottom:.6rem;}
-.season-tag{font-size:.65rem;font-weight:600;letter-spacing:1.2px;text-transform:uppercase;color:var(--teal);border:1px solid rgba(45,212,191,.25);background:rgba(45,212,191,.06);padding:.2rem .6rem;border-radius:4px;}
+.season-tag{font-size:.65rem;font-weight:600;letter-spacing:1.2px;text-transform:uppercase;color:var(--teal);
+             border:1px solid rgba(45,212,191,.25);background:rgba(45,212,191,.06);padding:.2rem .6rem;border-radius:4px;}
 .divider-dot{width:3px;height:3px;background:var(--t3);border-radius:50%;}
 .header-source{font-size:.7rem;color:var(--t3);}
 header h1{font-size:1.65rem;font-weight:700;color:#fff;letter-spacing:-.4px;line-height:1.2;}
@@ -28,82 +40,151 @@ header h1 span{color:#84cc16;}
 .meta-sep{color:var(--t3);opacity:.4;}
 .meta-link{font-size:.72rem;color:var(--t3);text-decoration:none;transition:color .15s;}
 .meta-link:hover{color:var(--blue);}
-.live-pill{display:inline-flex;align-items:center;gap:.5rem;border:1px solid rgba(74,222,128,.2);background:rgba(74,222,128,.05);border-radius:100px;padding:.4rem .9rem;font-size:.72rem;font-weight:500;color:rgba(74,222,128,.8);white-space:nowrap;}
+.live-pill{display:inline-flex;align-items:center;gap:.5rem;border:1px solid rgba(74,222,128,.2);
+           background:rgba(74,222,128,.05);border-radius:100px;padding:.4rem .9rem;
+           font-size:.72rem;font-weight:500;color:rgba(74,222,128,.8);white-space:nowrap;}
 .live-dot{width:6px;height:6px;background:#4ade80;border-radius:50%;flex-shrink:0;animation:blink 2.4s ease-in-out infinite;}
 @keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
 
 .module-nav{background:var(--layer1);border-bottom:1px solid var(--b1);overflow-x:auto;scrollbar-width:none;}
 .module-nav::-webkit-scrollbar{display:none;}
 .mnav-inner{max-width:1440px;margin:0 auto;padding:0 2rem;display:flex;}
-.mnav-item{display:inline-flex;align-items:center;gap:.5rem;padding:.75rem 1.25rem;font-size:.8rem;font-weight:500;color:var(--t3);text-decoration:none;border-bottom:2px solid transparent;transition:color .15s,border-color .15s;white-space:nowrap;}
+.mnav-item{display:inline-flex;align-items:center;gap:.5rem;padding:.75rem 1.25rem;
+           font-size:.8rem;font-weight:500;color:var(--t3);text-decoration:none;
+           border-bottom:2px solid transparent;transition:color .15s,border-color .15s;white-space:nowrap;}
 .mnav-item:hover{color:var(--t2);}
 .mnav-item.active{color:var(--blue);border-bottom-color:var(--blue);}
-.mnav-live{font-size:.6rem;font-weight:600;letter-spacing:.6px;padding:1px 5px;border-radius:3px;background:rgba(74,222,128,.1);border:1px solid rgba(74,222,128,.25);color:#4ade80;}
-.mnav-soon{font-size:.6rem;font-weight:600;letter-spacing:.6px;padding:1px 5px;border-radius:3px;background:rgba(251,191,36,.08);border:1px solid rgba(251,191,36,.2);color:#fbbf24;}
+.mnav-live{font-size:.6rem;font-weight:600;letter-spacing:.6px;padding:1px 5px;border-radius:3px;
+           background:rgba(74,222,128,.1);border:1px solid rgba(74,222,128,.25);color:#4ade80;}
+.mnav-soon{font-size:.6rem;font-weight:600;letter-spacing:.6px;padding:1px 5px;border-radius:3px;
+           background:rgba(251,191,36,.08);border:1px solid rgba(251,191,36,.2);color:#fbbf24;}
 
 main{max-width:1440px;margin:0 auto;padding:1.75rem 2rem 4rem;}
 .panel{background:var(--layer1);border:1px solid var(--b1);border-radius:var(--radius);}
-.panel-head{display:flex;align-items:center;justify-content:space-between;padding:1rem 1.5rem;border-bottom:1px solid var(--b1);flex-wrap:wrap;gap:.5rem;}
+.panel-head{display:flex;align-items:center;justify-content:space-between;padding:1rem 1.5rem;
+            border-bottom:1px solid var(--b1);flex-wrap:wrap;gap:.5rem;}
 .panel-title{font-size:.65rem;font-weight:600;letter-spacing:.9px;text-transform:uppercase;color:var(--t3);}
 .panel-body{padding:1.25rem 1.5rem;}
 .mb{margin-bottom:1.25rem;}
 .two-col{display:grid;grid-template-columns:5fr 7fr;gap:1.25rem;margin-bottom:1.25rem;}
 
-/* stat row */
-.stat-row{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--b1);border-radius:var(--radius);background:var(--layer1);margin-bottom:1.25rem;overflow:hidden;}
+.stat-row{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--b1);
+          border-radius:var(--radius);background:var(--layer1);margin-bottom:1.25rem;overflow:hidden;}
 .stat-cell{padding:1.25rem 1.5rem;}
 .stat-cell+.stat-cell{border-left:1px solid var(--b1);}
-.stat-num{font-size:1.6rem;font-weight:700;letter-spacing:-.5px;color:var(--t1);line-height:1;margin-bottom:.4rem;font-variant-numeric:tabular-nums;}
+.stat-num{font-size:1.6rem;font-weight:700;letter-spacing:-.5px;color:var(--t1);line-height:1;
+          margin-bottom:.4rem;font-variant-numeric:tabular-nums;}
 .stat-num.warn{color:#fbbf24;}.stat-num.ok{color:#4ade80;}.stat-num.blue{color:var(--blue);}
 .stat-label{font-size:.62rem;font-weight:600;letter-spacing:.8px;text-transform:uppercase;color:var(--t3);}
 .stat-sub{font-size:.7rem;color:var(--t3);margin-top:.2rem;}
 
-/* chart areas */
+/* ── MAP ── */
+.map-grid{display:grid;grid-template-columns:1fr 375px;}
+.map-left{border-right:1px solid var(--b1);display:flex;flex-direction:column;}
+.map-svg-wrap{flex:1;padding:.75rem .5rem .25rem;display:flex;align-items:flex-start;justify-content:center;min-height:420px;}
+#india-map{width:100%;max-height:500px;}
+.state-path{transition:fill-opacity .1s;}
+.spi-legend{display:flex;gap:2px;padding:.6rem 1rem;border-top:1px solid var(--b1);}
+.legend-item{flex:1;display:flex;flex-direction:column;align-items:center;gap:.25rem;}
+.legend-swatch{width:100%;height:7px;border-radius:2px;}
+.legend-lbl{font-size:.5rem;font-weight:700;color:var(--t3);letter-spacing:.5px;}
+.map-right{display:flex;flex-direction:column;overflow:hidden;}
+.map-right .panel-head{background:var(--layer2);flex-shrink:0;}
+.map-detail-body{flex:1;padding:1.1rem 1.25rem .875rem;overflow-y:auto;min-height:0;
+                 scrollbar-width:thin;scrollbar-color:var(--layer3) transparent;}
+.map-detail-body::-webkit-scrollbar{width:4px;}
+.map-detail-body::-webkit-scrollbar-thumb{background:var(--layer3);border-radius:3px;}
+
+.md-placeholder{padding:2.5rem 1rem;text-align:center;color:var(--t3);font-size:.8rem;line-height:1.7;}
+.md-state{font-size:.95rem;font-weight:700;color:var(--t1);margin-bottom:.6rem;}
+.md-spi-row{display:flex;align-items:center;gap:.875rem;margin-bottom:.75rem;}
+.md-spi-num{font-size:2.4rem;font-weight:800;letter-spacing:-1.5px;line-height:1;font-variant-numeric:tabular-nums;}
+.md-cat-name{font-size:.68rem;color:var(--t3);margin-top:.3rem;}
+.md-pct-row{display:flex;justify-content:space-between;align-items:center;
+            background:var(--layer2);border:1px solid var(--b1);border-radius:var(--radius-sm);
+            padding:.5rem .875rem;margin-bottom:.75rem;}
+.md-pct-label{font-size:.6rem;font-weight:600;letter-spacing:.7px;text-transform:uppercase;color:var(--t3);}
+.md-pct-val{font-size:.9rem;font-weight:700;font-variant-numeric:tabular-nums;}
+.md-sec-label{font-size:.58rem;font-weight:600;letter-spacing:.8px;text-transform:uppercase;color:var(--t3);margin-bottom:.45rem;}
+.md-chip-list{display:flex;flex-wrap:wrap;gap:.3rem;margin-bottom:.75rem;}
+.subdiv-chip{display:inline-flex;align-items:center;gap:.35rem;padding:.25rem .6rem;
+             background:var(--layer2);border:1px solid var(--b2);border-radius:100px;
+             font-size:.66rem;font-weight:500;color:var(--t2);cursor:pointer;
+             transition:background .1s,border-color .1s;font-family:'Inter',system-ui;}
+.subdiv-chip:hover{background:var(--layer3);}
+.subdiv-chip.active{border-color:var(--blue);color:var(--blue);background:rgba(91,156,246,.08);}
+.chip-dot{width:6px;height:6px;border-radius:50%;flex-shrink:0;display:inline-block;}
+.md-ts-wrap{position:relative;height:155px;}
+
+/* Tooltip */
+.map-tooltip{position:fixed;z-index:300;pointer-events:none;display:none;
+             background:rgba(7,16,28,.97);border:1px solid var(--b2);border-radius:var(--radius);
+             padding:.875rem 1.125rem;min-width:210px;max-width:300px;
+             box-shadow:0 12px 36px rgba(0,0,0,.55);backdrop-filter:blur(6px);}
+.tt-state{font-size:.82rem;font-weight:700;color:var(--t1);margin-bottom:.3rem;}
+.tt-spi{font-size:1.5rem;font-weight:800;letter-spacing:-.5px;margin-bottom:.2rem;font-variant-numeric:tabular-nums;}
+.tt-rows{margin-top:.55rem;display:flex;flex-direction:column;gap:.28rem;}
+.tt-row{display:flex;align-items:center;gap:.45rem;font-size:.7rem;color:var(--t2);}
+.tt-row-spi{margin-left:auto;font-variant-numeric:tabular-nums;font-weight:600;color:var(--t1);}
+
 .chart-wrap{position:relative;}
-.chart-wrap.h300{height:300px;}.chart-wrap.h380{height:380px;}.chart-wrap.h220{height:220px;}
+.chart-wrap.h300{height:300px;}.chart-wrap.h220{height:220px;}
 
-/* SPI categories bar */
-.spi-scale-bar{display:flex;height:8px;border-radius:4px;overflow:hidden;margin-bottom:1rem;}
-.spi-scale-bar span{flex:1;}
-
-/* subdivision select */
-select{padding:.45rem .85rem;background:var(--layer2);border:1px solid var(--b2);border-radius:var(--radius-sm);font-family:'Inter',system-ui;font-size:.82rem;color:var(--t1);outline:none;min-width:220px;appearance:none;-webkit-appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath fill='%234d6e8c' d='M5 6L0 0h10z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right .75rem center;padding-right:2rem;}
+select{padding:.45rem .85rem;background:var(--layer2);border:1px solid var(--b2);
+       border-radius:var(--radius-sm);font-family:'Inter',system-ui;font-size:.82rem;
+       color:var(--t1);outline:none;min-width:220px;appearance:none;-webkit-appearance:none;
+       background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath fill='%234d6e8c' d='M5 6L0 0h10z'/%3E%3C/svg%3E");
+       background-repeat:no-repeat;background-position:right .75rem center;padding-right:2rem;}
 select:focus{border-color:var(--blue2);box-shadow:0 0 0 2px rgba(91,156,246,.15);}
 select option{background:var(--layer2);}
 
-/* table */
 .table-outer{max-height:480px;overflow-y:auto;scrollbar-width:thin;scrollbar-color:var(--layer3) transparent;}
 .table-outer::-webkit-scrollbar{width:5px;}
 .table-outer::-webkit-scrollbar-thumb{background:var(--layer3);border-radius:3px;}
 table{width:100%;border-collapse:collapse;font-size:.8rem;}
-thead th{position:sticky;top:0;z-index:5;background:var(--layer2);padding:.55rem .875rem;text-align:left;font-size:.62rem;font-weight:600;letter-spacing:.7px;text-transform:uppercase;color:var(--t3);border-bottom:1px solid var(--b2);white-space:nowrap;}
+thead th{position:sticky;top:0;z-index:5;background:var(--layer2);padding:.55rem .875rem;
+         text-align:left;font-size:.62rem;font-weight:600;letter-spacing:.7px;text-transform:uppercase;
+         color:var(--t3);border-bottom:1px solid var(--b2);white-space:nowrap;}
 tbody tr{border-bottom:1px solid rgba(255,255,255,.03);transition:background .1s;}
 tbody tr:hover{background:rgba(91,156,246,.04);}
 td{padding:.5rem .875rem;color:var(--t2);vertical-align:middle;}
-td:nth-child(1){color:var(--t1);font-weight:500;}
+td:first-child{color:var(--t1);font-weight:500;}
 td.num{text-align:right;font-variant-numeric:tabular-nums;}
-td.pos{color:#4ade80;}.td.neg{color:#fca5a5;}
 
-/* methodology note */
-.method-note{font-size:.72rem;color:var(--t3);line-height:1.6;padding:.875rem 1.25rem;background:var(--layer2);border:1px solid var(--b1);border-radius:var(--radius-sm);}
+.cat-badge{display:inline-block;padding:2px 8px;border-radius:100px;font-size:.65rem;font-weight:700;color:#fff;}
+.method-note{font-size:.72rem;color:var(--t3);line-height:1.6;padding:.875rem 1.25rem;
+             background:var(--layer2);border:1px solid var(--b1);border-radius:var(--radius-sm);}
 .method-note a{color:var(--t3);text-decoration:underline;}
-
-/* loading */
-.loading{text-align:center;padding:3rem 1rem;color:var(--t3);font-size:.85rem;}
 
 @keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
 .rise{animation:rise .35s ease both;}
 
-footer{border-top:1px solid var(--b1);padding:1.75rem 2rem 2.25rem;text-align:center;font-size:.72rem;color:var(--t3);line-height:1.9;}
+footer{border-top:1px solid var(--b1);padding:1.75rem 2rem 2.25rem;
+       text-align:center;font-size:.72rem;color:var(--t3);line-height:1.9;}
 footer a{color:var(--t3);text-decoration:none;transition:color .15s;}
 footer a:hover{color:var(--blue);}
 .brand{font-weight:600;color:var(--t2);}
 
-.cat-badge{display:inline-block;padding:2px 8px;border-radius:100px;font-size:.65rem;font-weight:700;color:#fff;}
-
-@media(max-width:900px){.two-col{grid-template-columns:1fr;}.stat-row{grid-template-columns:repeat(2,1fr);}.stat-cell:nth-child(3){border-left:none;border-top:1px solid var(--b1);}.stat-cell:nth-child(4){border-top:1px solid var(--b1);}}
-@media(max-width:768px){header{padding:1.5rem 1.25rem;}main{padding:1.25rem 1rem 3rem;}header h1{font-size:1.35rem;}.live-pill{display:none;}.mnav-inner{padding:0 1rem;}}
-@media(max-width:480px){.stat-row{grid-template-columns:1fr;}.stat-cell+.stat-cell{border-left:none;border-top:1px solid var(--b1);}}
+@media(max-width:1024px){
+  .map-grid{grid-template-columns:1fr;}
+  .map-left{border-right:none;border-bottom:1px solid var(--b1);}
+  .map-svg-wrap{min-height:340px;}
+  .map-right{min-height:400px;}
+}
+@media(max-width:900px){
+  .two-col{grid-template-columns:1fr;}
+  .stat-row{grid-template-columns:repeat(2,1fr);}
+  .stat-cell:nth-child(3){border-left:none;border-top:1px solid var(--b1);}
+  .stat-cell:nth-child(4){border-top:1px solid var(--b1);}
+}
+@media(max-width:768px){
+  header{padding:1.5rem 1.25rem;}main{padding:1.25rem 1rem 3rem;}
+  header h1{font-size:1.35rem;}.live-pill{display:none;}.mnav-inner{padding:0 1rem;}
+}
+@media(max-width:480px){
+  .stat-row{grid-template-columns:1fr;}
+  .stat-cell+.stat-cell{border-left:none;border-top:1px solid var(--b1);}
+}
 </style>
 </head>
 <body>
@@ -145,8 +226,38 @@ footer a:hover{color:var(--blue);}
 
 <main>
 
-  <!-- STAT ROW -->
-  <div class="stat-row rise" style="animation-delay:.04s">
+  <!-- ── INTERACTIVE INDIA MAP ── -->
+  <div class="panel mb rise" style="animation-delay:.03s">
+    <div class="panel-head">
+      <span class="panel-title">India SPI Drought Map · Choropleth</span>
+      <span style="font-size:.68rem;color:var(--t3);">hover to inspect · click to view time series</span>
+    </div>
+    <div class="map-grid">
+      <div class="map-left">
+        <div class="map-svg-wrap">
+          <svg id="india-map" viewBox="0 0 600 600" preserveAspectRatio="xMidYMid meet"></svg>
+        </div>
+        <div class="spi-legend" id="spi-legend"></div>
+      </div>
+      <div class="map-right">
+        <div class="panel-head" style="background:var(--layer2);">
+          <span class="panel-title" id="map-detail-title">Select a Region</span>
+        </div>
+        <div class="map-detail-body" id="map-detail-body">
+          <div class="md-placeholder">
+            <svg style="display:block;margin:0 auto 1rem;opacity:.22" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+              <circle cx="12" cy="9" r="2.5"/>
+            </svg>
+            Click any state or UT on the map to explore its IMD subdivision SPI, percentage of LPA, and full season time series.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── STAT ROW ── -->
+  <div class="stat-row rise" style="animation-delay:.06s">
     <div class="stat-cell">
       <div class="stat-num blue" id="stat-date">—</div>
       <div class="stat-label">Reference Date</div>
@@ -154,7 +265,7 @@ footer a:hover{color:var(--blue);}
     </div>
     <div class="stat-cell">
       <div class="stat-num" id="stat-subdiv">—</div>
-      <div class="stat-label">Subdivisions Monitored</div>
+      <div class="stat-label">Subdivisions</div>
       <div class="stat-sub">IMD met. subdivisions</div>
     </div>
     <div class="stat-cell">
@@ -169,12 +280,10 @@ footer a:hover{color:var(--blue);}
     </div>
   </div>
 
-  <!-- SPI BAR + DONUT -->
-  <div class="two-col mb rise" style="animation-delay:.08s">
+  <!-- ── DONUT + SPI BAR ── -->
+  <div class="two-col mb rise" style="animation-delay:.09s">
     <div class="panel">
-      <div class="panel-head">
-        <span class="panel-title">Drought Category Distribution</span>
-      </div>
+      <div class="panel-head"><span class="panel-title">Category Distribution</span></div>
       <div class="panel-body">
         <div class="chart-wrap h220"><canvas id="donut-chart"></canvas></div>
       </div>
@@ -192,7 +301,7 @@ footer a:hover{color:var(--blue);}
     </div>
   </div>
 
-  <!-- TIME SERIES -->
+  <!-- ── SUBDIVISION TIME SERIES ── -->
   <div class="panel mb rise" style="animation-delay:.12s">
     <div class="panel-head">
       <span class="panel-title">SPI Time Series</span>
@@ -206,11 +315,9 @@ footer a:hover{color:var(--blue);}
     </div>
   </div>
 
-  <!-- DATA TABLE -->
-  <div class="panel mb rise" style="animation-delay:.16s">
-    <div class="panel-head">
-      <span class="panel-title">All Subdivisions · Season SPI</span>
-    </div>
+  <!-- ── DATA TABLE ── -->
+  <div class="panel mb rise" style="animation-delay:.15s">
+    <div class="panel-head"><span class="panel-title">All Subdivisions · Season SPI</span></div>
     <div class="table-outer">
       <table>
         <thead>
@@ -225,31 +332,37 @@ footer a:hover{color:var(--blue);}
           </tr>
         </thead>
         <tbody id="data-tbody">
-          <tr><td colspan="7" class="loading">Loading…</td></tr>
+          <tr><td colspan="7" style="text-align:center;padding:2rem;color:var(--t3)">Loading…</td></tr>
         </tbody>
       </table>
     </div>
   </div>
 
-  <!-- METHODOLOGY NOTE -->
-  <div class="method-note rise" style="animation-delay:.2s">
+  <!-- ── METHODOLOGY ── -->
+  <div class="method-note rise" style="animation-delay:.18s">
     <strong style="color:var(--t2);">Methodology:</strong>
     SPI computed using a parameterised gamma distribution (shape α = 1/CV² ≈ 9.77; scale β = LPA/α;
     CV = 0.32 from <a href="https://tropmet.res.in" target="_blank">Parthasarathy et al., 1987</a>).
     The LPA baseline comes from the IMD "normal" column in the daily rainfall PDF.
     As the archive grows to ≥ 10 same-season-day observations, the gamma is re-fitted from observed data.
-    Reference: <a href="https://library.wmo.int/records/item/39629-standardized-precipitation-index-user-guide" target="_blank">WMO-No. 1090 (McKee et al., 1993)</a>.
+    Reference: <a href="https://library.wmo.int/records/item/39629" target="_blank">WMO-No. 1090 (McKee et al., 1993)</a>.
+    Map shows state/UT boundaries; each region is colored by the average SPI across its IMD meteorological subdivision(s).
   </div>
 
 </main>
 
 <footer>
-  <p>Data source: <a href="https://mausam.imd.gov.in" target="_blank" rel="noopener">India Meteorological Department</a> · SPI: <a href="https://library.wmo.int/records/item/39629" target="_blank" rel="noopener">WMO-No. 1090</a> · <a href="https://github.com/sayantan-aquacarta/rainfall-pipeline" target="_blank" rel="noopener">Open-source pipeline</a></p>
+  <p>Data: <a href="https://mausam.imd.gov.in" target="_blank" rel="noopener">India Meteorological Department</a>
+     · SPI: <a href="https://library.wmo.int/records/item/39629" target="_blank" rel="noopener">WMO-No. 1090</a>
+     · <a href="https://github.com/sayantan-aquacarta/rainfall-pipeline" target="_blank" rel="noopener">Open-source pipeline</a></p>
   <p>Built by <a href="https://www.ecocarta.ai/" target="_blank" rel="noopener" class="brand">EcoCarta</a></p>
 </footer>
 
+<!-- floating tooltip -->
+<div id="map-tooltip" class="map-tooltip"></div>
+
 <script>
-/* ── rain ── */
+/* ── Rain animation ── */
 (function(){
   const cv=document.getElementById('rain-canvas'),ctx=cv.getContext('2d');let drops=[];
   function mk(){return{x:Math.random()*(cv.width+40),y:-20-Math.random()*cv.height,len:10+Math.random()*16,speed:.4+Math.random()*.9,alpha:.03+Math.random()*.13,width:.5+Math.random()*.8};}
@@ -258,256 +371,408 @@ footer a:hover{color:var(--blue);}
   new ResizeObserver(init).observe(cv.parentElement);init();frame();
 })();
 
-/* ── chart defaults ── */
-Chart.defaults.color       = '#4d6e8c';
-Chart.defaults.borderColor = 'rgba(180,210,255,0.06)';
-Chart.defaults.font.family = "'Inter', system-ui";
+/* ── Chart.js defaults ── */
+Chart.defaults.color='#4d6e8c';
+Chart.defaults.borderColor='rgba(180,210,255,0.06)';
+Chart.defaults.font.family="'Inter',system-ui";
+const TT={backgroundColor:"#0d1b2a",titleColor:"#dce8f4",bodyColor:"#92aec8",
+          borderColor:"rgba(180,210,255,.1)",borderWidth:1,padding:12,cornerRadius:6};
 
-const API_BASE = "api";
-const TT = {backgroundColor:"#0d1b2a",titleColor:"#dce8f4",bodyColor:"#92aec8",borderColor:"rgba(180,210,255,0.1)",borderWidth:1,padding:12,cornerRadius:6};
-const CAT_NAMES = {D4:"Exceptional Drought",D3:"Extreme Drought",D2:"Severe Drought",D1:"Moderate Drought",D0:"Abnormally Dry",NN:"Near Normal",W0:"Abnormally Wet",W1:"Moderately Wet",W2:"Severely Wet"};
-let CAT_COLORS = {D4:"#7f1d1d",D3:"#ef4444",D2:"#f97316",D1:"#fbbf24",D0:"#a8a29e",NN:"#60a5fa",W0:"#86efac",W1:"#4ade80",W2:"#16a34a"};
+/* ── SPI constants ── */
+const CAT_NAMES={D4:"Exceptional Drought",D3:"Extreme Drought",D2:"Severe Drought",
+  D1:"Moderate Drought",D0:"Abnormally Dry",NN:"Near Normal",
+  W0:"Abnormally Wet",W1:"Moderately Wet",W2:"Severely Wet"};
+let CAT_COLORS={D4:"#7f1d1d",D3:"#ef4444",D2:"#f97316",D1:"#fbbf24",
+  D0:"#a8a29e",NN:"#60a5fa",W0:"#86efac",W1:"#4ade80",W2:"#16a34a"};
 
-let LATEST = null, HISTORY = [], CHARTS = {};
-
-async function getJSON(path) {
-  const r = await fetch(`${API_BASE}/${path}`);
-  if (!r.ok) throw new Error(`${path}: HTTP ${r.status}`);
-  return r.json();
+function classifySpiCat(spi){
+  if(spi==null||isNaN(spi))return"NN";
+  if(spi<-2.0)return"D4";if(spi<-1.6)return"D3";if(spi<-1.3)return"D2";
+  if(spi<-0.8)return"D1";if(spi<-0.5)return"D0";if(spi< 0.5)return"NN";
+  if(spi< 0.8)return"W0";if(spi< 1.3)return"W1";return"W2";
 }
 
-function fmtDate(s) {
-  if (!s) return "—";
-  const d = new Date(s + "T00:00:00");
-  return d.toLocaleDateString("en-IN", {day:"numeric", month:"short", year:"numeric"});
-}
+/* ── State → IMD subdivision mapping ── */
+const STATE_TO_SUBDIVS={
+  "Andaman & Nicobar":["A & N ISLAND"],
+  "Andhra Pradesh":["COASTAL A. P. & YANAM","RAYALASEEMA"],
+  "Arunachal Pradesh":["ARUNACHAL PRADESH"],
+  "Assam":["ASSAM & MEGHALAYA"],
+  "Bihar":["BIHAR"],
+  "Chandigarh":["HAR. CHD & DELHI"],
+  "Chhattisgarh":["CHHATTISGARH"],
+  "Dadra and Nagar Haveli and Daman and Diu":["GUJARAT REGION"],
+  "Delhi":["HAR. CHD & DELHI"],
+  "Goa":["KONKAN & GOA"],
+  "Gujarat":["GUJARAT REGION","SAURASHTRA & KUTCH"],
+  "Haryana":["HAR. CHD & DELHI"],
+  "Himachal Pradesh":["HIMACHAL PRADESH"],
+  "Jammu & Kashmir":["J & K AND LADAKH"],
+  "Jharkhand":["JHARKHAND"],
+  "Karnataka":["N. I. KARNATAKA","S. I. KARNATAKA","COASTAL KARNATAKA"],
+  "Kerala":["KERALA & MAHE"],
+  "Ladakh":["J & K AND LADAKH"],
+  "Lakshadweep":["LAKSHADWEEP"],
+  "Madhya Pradesh":["EAST MADHYA PRADESH","WEST MADHYA PRADESH"],
+  "Maharashtra":["MADHYA MAHARASHTRA","MARATHWADA","VIDARBHA","KONKAN & GOA"],
+  "Manipur":["NMMT"],
+  "Meghalaya":["ASSAM & MEGHALAYA"],
+  "Mizoram":["NMMT"],
+  "Nagaland":["NMMT"],
+  "Odisha":["ODISHA"],
+  "Puducherry":["TAMIL. PUDU.& KARAIKAL"],
+  "Punjab":["PUNJAB"],
+  "Rajasthan":["EAST RAJASTHAN","WEST RAJASTHAN"],
+  "Sikkim":["SHWB & SIKKIM"],
+  "Tamil Nadu":["TAMIL. PUDU.& KARAIKAL"],
+  "Telangana":["TELANGANA"],
+  "Tripura":["NMMT"],
+  "Uttar Pradesh":["EAST UTTAR PRADESH","WEST UTTAR PRADESH"],
+  "Uttarakhand":["UTTARAKHAND"],
+  "West Bengal":["GANGETIC WEST BENGAL","SHWB & SIKKIM"],
+};
 
-function safe(v, dp=1) {
-  if (v == null) return "—";
-  return typeof v === "number" ? v.toFixed(dp) : v;
-}
+/* ── Globals ── */
+let LATEST=null,HISTORY=[],SUBDIV_MAP={},CHARTS={};
+let MAP_TS_CHART=null,SELECTED_STATE=null;
 
-async function init() {
-  try {
-    const [latest, history] = await Promise.all([
+async function getJSON(p){const r=await fetch(`api/${p}`);if(!r.ok)throw new Error(`${p}: ${r.status}`);return r.json();}
+function fmtDate(s){if(!s)return"—";return new Date(s+"T00:00:00").toLocaleDateString("en-IN",{day:"numeric",month:"short",year:"numeric"});}
+function safe(v,dp=1){return v==null?"—":typeof v==="number"?v.toFixed(dp):v;}
+
+/* ── Bootstrap ── */
+async function init(){
+  try{
+    const[latest,history,geo]=await Promise.all([
       getJSON("drought-latest.json"),
       getJSON("drought-history.json"),
+      fetch("data/india-states.geojson").then(r=>r.json()),
     ]);
-    if (latest.cat_colors) CAT_COLORS = {...CAT_COLORS, ...latest.cat_colors};
-    LATEST  = latest;
-    HISTORY = history.rows || [];
+    if(latest.cat_colors)CAT_COLORS={...CAT_COLORS,...latest.cat_colors};
+    LATEST=latest;HISTORY=history.rows||[];
+    (latest.subdivisions||[]).forEach(r=>{SUBDIV_MAP[r.subdivision]=r;});
+
     renderStats(latest);
     renderDonut(latest.subdivisions);
     renderSpiBar(latest.subdivisions);
     renderTable(latest.subdivisions);
     populateSelect(latest.subdivisions);
-    document.getElementById("last-updated").textContent =
-      new Date(latest.generated_at).toLocaleString("en-IN", {day:"numeric",month:"short",year:"numeric",hour:"2-digit",minute:"2-digit"});
-    updateSeasonTag(latest.reference_date);
-  } catch (err) {
-    document.getElementById("data-tbody").innerHTML =
-      `<tr><td colspan="7" class="loading">Error: ${err.message}</td></tr>`;
+    renderLegend();
+    drawMap(geo);
+
+    document.getElementById("last-updated").textContent=
+      new Date(latest.generated_at).toLocaleString("en-IN",{day:"numeric",month:"short",year:"numeric",hour:"2-digit",minute:"2-digit"});
+    const m=new Date((latest.reference_date||"")+"T00:00:00").getMonth()+1;
+    const y=(latest.reference_date||"").slice(0,4);
+    const tag=document.getElementById("season-tag");
+    if(m>=6&&m<=9)tag.textContent=`${y} Southwest Monsoon`;
+    else if(m>=10||m<=2)tag.textContent=`${y}–${+y+1} Northeast Monsoon`;
+    else tag.textContent=`${y} Pre-Monsoon`;
+  }catch(err){
+    console.error(err);
+    document.getElementById("data-tbody").innerHTML=
+      `<tr><td colspan="7" style="text-align:center;padding:2rem;color:var(--t3)">Error: ${err.message}</td></tr>`;
+    document.getElementById("map-detail-body").innerHTML=
+      `<div class="md-placeholder">Could not load drought data: ${err.message}</div>`;
   }
 }
 
-function updateSeasonTag(date) {
-  if (!date) return;
-  const m = new Date(date+"T00:00:00").getMonth()+1;
-  const y = date.slice(0,4);
-  const tag = document.getElementById("season-tag");
-  if (m>=6 && m<=9) tag.textContent = `${y} Southwest Monsoon`;
-  else if (m>=10 || m<=2) tag.textContent = `${y}–${parseInt(y)+1} Northeast Monsoon`;
-  else tag.textContent = `${y} Pre-Monsoon`;
+/* ── Stats ── */
+function renderStats(latest){
+  const subs=latest.subdivisions||[];
+  document.getElementById("stat-date").textContent=fmtDate(latest.reference_date);
+  document.getElementById("stat-subdiv").textContent=subs.length;
+  const drought=subs.filter(r=>["D1","D2","D3","D4"].includes(r.spi_category)).length;
+  const wet=subs.filter(r=>r.spi_category?.startsWith("W")).length;
+  document.getElementById("stat-drought").textContent=drought;
+  document.getElementById("stat-wet").textContent=wet;
+  document.getElementById("stat-drought-sub").textContent=`${subs.length?(drought/subs.length*100).toFixed(0):0}% of subdivisions`;
+  document.getElementById("stat-wet-sub").textContent=`${subs.length?(wet/subs.length*100).toFixed(0):0}% of subdivisions`;
 }
 
-function renderStats(latest) {
-  const subs = latest.subdivisions || [];
-  document.getElementById("stat-date").textContent    = fmtDate(latest.reference_date);
-  document.getElementById("stat-subdiv").textContent  = subs.length;
-  const drought = subs.filter(r => r.spi_category && r.spi_category.startsWith("D") && r.spi_category !== "D0").length;
-  const wet     = subs.filter(r => r.spi_category && r.spi_category.startsWith("W")).length;
-  document.getElementById("stat-drought").textContent = drought;
-  document.getElementById("stat-wet").textContent     = wet;
-  document.getElementById("stat-drought-sub").textContent = `${subs.length ? ((drought/subs.length*100).toFixed(0)) : 0}% of subdivisions`;
-  document.getElementById("stat-wet-sub").textContent     = `${subs.length ? ((wet/subs.length*100).toFixed(0)) : 0}% of subdivisions`;
-}
-
-function renderDonut(subs) {
-  const counts = {};
-  subs.forEach(r => { counts[r.spi_category] = (counts[r.spi_category]||0)+1; });
-  const order  = ["D4","D3","D2","D1","D0","NN","W0","W1","W2"].filter(c => counts[c]);
-  const total  = subs.length;
-
-  if (CHARTS.donut) CHARTS.donut.destroy();
-  CHARTS.donut = new Chart(document.getElementById("donut-chart"), {
-    type: "doughnut",
-    data: {
-      labels: order.map(c => `${CAT_NAMES[c]}  (${counts[c]})`),
-      datasets: [{
-        data: order.map(c => counts[c]),
-        backgroundColor: order.map(c => CAT_COLORS[c]),
-        borderWidth: 0, hoverOffset: 8,
-      }],
-    },
-    options: {
-      responsive: true, maintainAspectRatio: false, cutout: "68%",
-      plugins: {
-        legend: { position:"right", labels:{usePointStyle:true,pointStyle:"circle",font:{size:11},padding:10,color:"#92aec8"} },
-        tooltip: { ...TT, callbacks:{ label: i=>`  ${i.label.trim()} (${(i.raw/total*100).toFixed(1)}%)` } },
-      },
-    },
-    plugins: [{
-      id:"center",
-      afterDraw(chart) {
-        const {ctx,chartArea:ca}=chart;
-        if (!ca) return;
-        const cx=(ca.left+ca.right)/2, cy=(ca.top+ca.bottom)/2;
-        ctx.save();
-        ctx.textAlign="center"; ctx.textBaseline="middle";
-        ctx.fillStyle="#dce8f4"; ctx.font="700 1.4rem 'Inter',system-ui";
-        ctx.fillText(total, cx, cy-7);
-        ctx.fillStyle="#4d6e8c"; ctx.font="500 .6rem 'Inter',system-ui";
-        ctx.fillText("SUBDIVISIONS", cx, cy+11);
-        ctx.restore();
-      }
-    }],
+/* ── Donut ── */
+function renderDonut(subs){
+  const counts={};subs.forEach(r=>{counts[r.spi_category]=(counts[r.spi_category]||0)+1;});
+  const order=["D4","D3","D2","D1","D0","NN","W0","W1","W2"].filter(c=>counts[c]);
+  if(CHARTS.donut)CHARTS.donut.destroy();
+  CHARTS.donut=new Chart(document.getElementById("donut-chart"),{
+    type:"doughnut",
+    data:{labels:order.map(c=>`${CAT_NAMES[c]} (${counts[c]})`),
+          datasets:[{data:order.map(c=>counts[c]),backgroundColor:order.map(c=>CAT_COLORS[c]),borderWidth:0,hoverOffset:8}]},
+    options:{responsive:true,maintainAspectRatio:false,cutout:"68%",
+      plugins:{
+        legend:{position:"right",labels:{usePointStyle:true,pointStyle:"circle",font:{size:11},padding:10,color:"#92aec8"}},
+        tooltip:{...TT,callbacks:{label:i=>`  ${i.label.trim()} (${(i.raw/subs.length*100).toFixed(1)}%)`}},
+      }},
+    plugins:[{id:"ctr",afterDraw(c){
+      const{ctx,chartArea:a}=c;if(!a)return;
+      const cx=(a.left+a.right)/2,cy=(a.top+a.bottom)/2;
+      ctx.save();ctx.textAlign="center";ctx.textBaseline="middle";
+      ctx.fillStyle="#dce8f4";ctx.font="700 1.4rem 'Inter',system-ui";ctx.fillText(subs.length,cx,cy-7);
+      ctx.fillStyle="#4d6e8c";ctx.font="500 .6rem 'Inter',system-ui";ctx.fillText("SUBDIVISIONS",cx,cy+11);
+      ctx.restore();
+    }}],
   });
 }
 
-function renderSpiBar(subs) {
-  const sorted = [...subs].sort((a,b) => (a.spi??0)-(b.spi??0));
-  if (CHARTS.spiBar) CHARTS.spiBar.destroy();
-  CHARTS.spiBar = new Chart(document.getElementById("spi-bar-chart"), {
-    type: "bar",
-    data: {
-      labels: sorted.map(r => r.subdivision),
-      datasets: [{
-        label: "SPI",
-        data: sorted.map(r => r.spi ?? 0),
-        backgroundColor: sorted.map(r => CAT_COLORS[r.spi_category] || "#60a5fa"),
-        borderRadius: {topRight:3, bottomRight:3},
-        borderSkipped: false,
-      }],
-    },
-    options: {
-      indexAxis: "y",
-      responsive: true, maintainAspectRatio: false,
-      plugins: {
-        legend: {display:false},
-        tooltip: { ...TT, callbacks:{
-          title: i => sorted[i[0].dataIndex].subdivision,
-          label: i => {
-            const r = sorted[i[0].dataIndex];
-            return [`  SPI: ${safe(r.spi,2)}  (${r.spi_category_name})`, `  % of LPA: ${safe(r.pct_normal,1)}%`];
-          }
-        }},
-      },
-      scales: {
-        x: {
-          grid:{color:"rgba(180,210,255,.04)"},
-          ticks:{color:"#4d6e8c",font:{size:10}},
-          min: -3, max: 3,
-        },
-        y: {
-          grid:{display:false},
-          ticks:{color:"#92aec8",font:{size:10}},
-        }
-      }
-    },
+/* ── SPI Bar ── */
+function renderSpiBar(subs){
+  const sorted=[...subs].sort((a,b)=>(a.spi??0)-(b.spi??0));
+  if(CHARTS.spiBar)CHARTS.spiBar.destroy();
+  CHARTS.spiBar=new Chart(document.getElementById("spi-bar-chart"),{
+    type:"bar",
+    data:{labels:sorted.map(r=>r.subdivision),
+          datasets:[{label:"SPI",data:sorted.map(r=>r.spi??0),
+            backgroundColor:sorted.map(r=>CAT_COLORS[r.spi_category]||"#60a5fa"),
+            borderRadius:{topRight:3,bottomRight:3},borderSkipped:false}]},
+    options:{indexAxis:"y",responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{display:false},
+        tooltip:{...TT,callbacks:{
+          title:i=>sorted[i[0].dataIndex].subdivision,
+          label:i=>{const r=sorted[i[0].dataIndex];return[`  SPI: ${safe(r.spi,2)}  (${r.spi_category_name})`,`  % of LPA: ${safe(r.pct_normal,1)}%`];}
+        }}},
+      scales:{
+        x:{grid:{color:"rgba(180,210,255,.04)"},ticks:{color:"#4d6e8c",font:{size:10}},min:-3,max:3},
+        y:{grid:{display:false},ticks:{color:"#92aec8",font:{size:10}}},
+      }},
   });
 }
 
-function renderTable(subs) {
-  document.getElementById("data-tbody").innerHTML = subs.map(r => {
-    const dep = r.pct_normal != null ? r.pct_normal - 100 : null;
-    const depStr = dep != null ? (dep>0?"+":"")+dep.toFixed(1)+"%" : "—";
-    const depCls = dep == null ? "" : dep > 0 ? "style='color:#4ade80'" : dep < -20 ? "style='color:#fca5a5'" : dep < 0 ? "style='color:#fbbf24'" : "";
-    const spiStr = r.spi != null ? r.spi.toFixed(2) : "—";
-    const spiCls = r.spi == null ? "" : r.spi < 0 ? "style='color:#fca5a5'" : r.spi > 0 ? "style='color:#4ade80'" : "";
-    const badgeColor = CAT_COLORS[r.spi_category] || "#60a5fa";
-    return `<tr>
-      <td>${r.subdivision}</td>
-      <td class="num">${safe(r.period_actual_mm)}</td>
+/* ── Table ── */
+function renderTable(subs){
+  document.getElementById("data-tbody").innerHTML=subs.map(r=>{
+    const dep=r.pct_normal!=null?r.pct_normal-100:null;
+    const dc=dep==null?"":`style="color:${dep>0?"#4ade80":dep<-20?"#fca5a5":"#fbbf24"}"`;
+    const sc=r.spi==null?"":`style="color:${r.spi<0?"#fca5a5":r.spi>0?"#4ade80":"var(--t2)"}"`;
+    const bg=CAT_COLORS[r.spi_category]||"#60a5fa";
+    return`<tr><td>${r.subdivision}</td><td class="num">${safe(r.period_actual_mm)}</td>
       <td class="num">${safe(r.period_normal_mm)}</td>
-      <td class="num" ${depCls}>${depStr}</td>
-      <td class="num" ${spiCls}>${spiStr}</td>
-      <td><span class="cat-badge" style="background:${badgeColor};color:${r.spi_category?.startsWith('W') && r.spi_category!=='W2'?'#052e16':'#fff'}">${r.spi_category}</span></td>
-      <td style="font-size:.72rem;color:var(--t3);">${r.imd_category||"—"}</td>
+      <td class="num" ${dc}>${dep!=null?(dep>0?"+":"")+dep.toFixed(1)+"%":"—"}</td>
+      <td class="num" ${sc}>${r.spi!=null?r.spi.toFixed(2):"—"}</td>
+      <td><span class="cat-badge" style="background:${bg}">${r.spi_category}</span></td>
+      <td style="font-size:.72rem;color:var(--t3)">${r.imd_category||"—"}</td>
     </tr>`;
   }).join("");
 }
 
-function populateSelect(subs) {
-  const sel = document.getElementById("subdiv-select");
-  subs.forEach(r => {
-    const o = document.createElement("option");
-    o.value = r.subdivision; o.textContent = r.subdivision;
-    sel.appendChild(o);
+/* ── Subdiv select ── */
+function populateSelect(subs){
+  const sel=document.getElementById("subdiv-select");
+  subs.forEach(r=>{const o=document.createElement("option");o.value=r.subdivision;o.textContent=r.subdivision;sel.appendChild(o);});
+}
+document.getElementById("subdiv-select").addEventListener("change",e=>{
+  const name=e.target.value;if(!name){if(CHARTS.ts){CHARTS.ts.destroy();CHARTS.ts=null;}return;}
+  const rows=HISTORY.filter(r=>r.subdivision===name).sort((a,b)=>a.date.localeCompare(b.date));
+  renderTSFull(rows,document.getElementById("ts-chart"),"ts");
+});
+
+function renderTSFull(rows,canvas,key){
+  if(CHARTS[key]){CHARTS[key].destroy();CHARTS[key]=null;}
+  if(!canvas||!rows.length)return;
+  const grad={id:"g",beforeDatasetsDraw(c){
+    const{ctx,chartArea:a}=c;if(!a)return;
+    const g=ctx.createLinearGradient(0,a.top,0,a.bottom);
+    g.addColorStop(0,"rgba(132,204,22,.18)");g.addColorStop(1,"rgba(132,204,22,0)");
+    c.data.datasets[0].backgroundColor=g;
+  }};
+  CHARTS[key]=new Chart(canvas,{type:"line",plugins:[grad],
+    data:{labels:rows.map(r=>r.date),datasets:[
+      {label:"SPI",data:rows.map(r=>r.spi),borderColor:"#84cc16",backgroundColor:"transparent",fill:true,tension:.3,pointRadius:2,pointHoverRadius:5,borderWidth:1.75},
+      {data:rows.map(()=>0),borderColor:"rgba(180,210,255,.15)",borderDash:[4,4],backgroundColor:"transparent",pointRadius:0,borderWidth:1},
+    ]},
+    options:{responsive:true,maintainAspectRatio:false,interaction:{mode:"index",intersect:false},
+      plugins:{
+        legend:{labels:{usePointStyle:true,font:{size:11},color:"#92aec8",padding:12,filter:i=>i.datasetIndex===0}},
+        tooltip:{...TT,callbacks:{
+          title:i=>rows[i[0].dataIndex]?.date,
+          label:i=>{if(i.datasetIndex===1)return null;const r=rows[i[0].dataIndex];
+            return[`  SPI: ${r.spi!=null?r.spi.toFixed(2):"—"}`,`  % of LPA: ${r.pct_normal!=null?r.pct_normal.toFixed(1):"—"}%`,`  ${CAT_NAMES[r.spi_category]||r.spi_category}`];}
+        }}},
+      scales:{
+        x:{grid:{color:"rgba(180,210,255,.04)"},ticks:{maxTicksLimit:10,color:"#4d6e8c",font:{size:10}}},
+        y:{grid:{color:"rgba(180,210,255,.04)"},ticks:{color:"#4d6e8c",font:{size:10}},min:-3,max:3,
+           title:{display:true,text:"SPI",color:"#4d6e8c",font:{size:10,weight:"600"}}},
+      }},
   });
 }
 
-document.getElementById("subdiv-select").addEventListener("change", e => {
-  const name = e.target.value;
-  if (!name) { if (CHARTS.ts) { CHARTS.ts.destroy(); CHARTS.ts=null; } return; }
-  const rows = HISTORY.filter(r => r.subdivision === name).sort((a,b) => a.date.localeCompare(b.date));
-  renderTS(name, rows);
+/* ── SPI Legend strip ── */
+function renderLegend(){
+  document.getElementById("spi-legend").innerHTML=
+    ["D4","D3","D2","D1","D0","NN","W0","W1","W2"].map(c=>`
+      <div class="legend-item">
+        <div class="legend-swatch" style="background:${CAT_COLORS[c]}"></div>
+        <div class="legend-lbl">${c}</div>
+      </div>`).join("");
+}
+
+/* ── D3 Choropleth ── */
+function getStateInfo(stateName){
+  const names=STATE_TO_SUBDIVS[stateName]||[];
+  const rows=names.map(n=>SUBDIV_MAP[n]).filter(Boolean);
+  if(!rows.length)return null;
+  const validSpi=rows.filter(r=>r.spi!=null);
+  const avgSpi=validSpi.length?validSpi.reduce((s,r)=>s+r.spi,0)/validSpi.length:null;
+  return{rows,avgSpi,cat:classifySpiCat(avgSpi)};
+}
+
+let SVG_SELECTION=null;
+
+function drawMap(geoData){
+  const W=600,H=600;
+  const svg=d3.select("#india-map").attr("viewBox",`0 0 ${W} ${H}`);
+  svg.selectAll("*").remove();
+  SVG_SELECTION=svg;
+
+  const projection=d3.geoMercator().fitExtent([[14,14],[W-14,H-14]],geoData);
+  const path=d3.geoPath().projection(projection);
+
+  svg.selectAll("path.state-path")
+    .data(geoData.features)
+    .enter()
+    .append("path")
+    .attr("class","state-path")
+    .attr("d",path)
+    .attr("fill",d=>{
+      const info=getStateInfo(d.properties.ST_NM);
+      return info?CAT_COLORS[info.cat]:"#1a2d45";
+    })
+    .attr("fill-opacity",0.82)
+    .attr("stroke","#07101c")
+    .attr("stroke-width",0.7)
+    .style("cursor","pointer")
+    .on("mousemove",(ev,d)=>{
+      showMapTT(ev,d.properties.ST_NM,getStateInfo(d.properties.ST_NM));
+      svg.selectAll(".state-path").attr("fill-opacity",0.4);
+      d3.select(ev.currentTarget).attr("fill-opacity",1).attr("stroke-width",2);
+    })
+    .on("mouseleave",(ev,d)=>{
+      hideMapTT();
+      svg.selectAll(".state-path").attr("fill-opacity",0.82).attr("stroke","#07101c").attr("stroke-width",0.7);
+      if(SELECTED_STATE)
+        svg.selectAll(".state-path").filter(f=>f.properties.ST_NM===SELECTED_STATE)
+          .attr("stroke","#5b9cf6").attr("stroke-width",2).attr("fill-opacity",1);
+    })
+    .on("click",(ev,d)=>{
+      SELECTED_STATE=d.properties.ST_NM;
+      svg.selectAll(".state-path").attr("stroke","#07101c").attr("stroke-width",0.7).attr("fill-opacity",0.82);
+      d3.select(ev.currentTarget).attr("stroke","#5b9cf6").attr("stroke-width",2.5).attr("fill-opacity",1);
+      updateMapDetail(d.properties.ST_NM,getStateInfo(d.properties.ST_NM));
+    });
+}
+
+/* ── Map Tooltip ── */
+function showMapTT(ev,state,info){
+  const tt=document.getElementById("map-tooltip");
+  const cc=info?CAT_COLORS[info.cat]:"#60a5fa";
+  tt.innerHTML=info?`
+    <div class="tt-state">${state}</div>
+    <div class="tt-spi" style="color:${cc}">${info.avgSpi!=null?info.avgSpi.toFixed(2):"—"}</div>
+    <span class="cat-badge" style="background:${cc};margin:.2rem 0;display:inline-block">${info.cat} · ${CAT_NAMES[info.cat]}</span>
+    <div class="tt-rows">
+      ${info.rows.map(r=>`
+        <div class="tt-row">
+          <span class="chip-dot" style="background:${CAT_COLORS[r.spi_category]||"#60a5fa"}"></span>
+          <span style="flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${r.subdivision}</span>
+          <span class="tt-row-spi">${r.spi!=null?r.spi.toFixed(2):"—"}</span>
+        </div>`).join("")}
+    </div>`
+    :`<div class="tt-state">${state}</div><div style="font-size:.72rem;color:var(--t3);margin-top:.3rem">No SPI data</div>`;
+  tt.style.display="block";
+  posTT(ev,tt);
+}
+function hideMapTT(){document.getElementById("map-tooltip").style.display="none";}
+function posTT(ev,tt){
+  const m=16,tw=tt.offsetWidth||240,th=tt.offsetHeight||120;
+  let x=ev.clientX+m,y=ev.clientY+m;
+  if(x+tw>window.innerWidth-8)x=ev.clientX-tw-m;
+  if(y+th>window.innerHeight-8)y=ev.clientY-th-m;
+  tt.style.left=x+"px";tt.style.top=y+"px";
+}
+document.addEventListener("mousemove",ev=>{
+  const tt=document.getElementById("map-tooltip");
+  if(tt.style.display==="block")posTT(ev,tt);
 });
 
-function renderTS(name, rows) {
-  if (CHARTS.ts) CHARTS.ts.destroy();
-  const gradPlugin = {
-    id:"grad",
-    beforeDatasetsDraw(chart){
-      const {ctx,chartArea:ca}=chart; if(!ca) return;
-      const g=ctx.createLinearGradient(0,ca.top,0,ca.bottom);
-      g.addColorStop(0,"rgba(132,204,22,.18)"); g.addColorStop(1,"rgba(132,204,22,0)");
-      chart.data.datasets[0].backgroundColor=g;
-    }
-  };
-  CHARTS.ts = new Chart(document.getElementById("ts-chart"), {
-    type:"line",
-    plugins:[gradPlugin],
-    data:{
-      labels: rows.map(r => r.date),
-      datasets:[
-        {
-          label:"SPI (season to date)",
-          data: rows.map(r => r.spi),
-          borderColor:"#84cc16", backgroundColor:"transparent",
-          fill:true, tension:.3, pointRadius:2, pointHoverRadius:5, borderWidth:1.75,
-        },
-        {
-          label:"Zero line",
-          data: rows.map(() => 0),
-          borderColor:"rgba(180,210,255,.15)", borderDash:[4,4],
-          backgroundColor:"transparent", pointRadius:0, borderWidth:1,
-        }
-      ],
-    },
-    options:{
-      responsive:true, maintainAspectRatio:false,
-      interaction:{mode:"index",intersect:false},
+/* ── Map Detail Panel ── */
+function updateMapDetail(state,info){
+  document.getElementById("map-detail-title").textContent=state;
+  const body=document.getElementById("map-detail-body");
+  if(!info){body.innerHTML=`<div class="md-placeholder">No SPI data available for ${state}.</div>`;return;}
+  const{rows,avgSpi,cat}=info;
+  const cc=CAT_COLORS[cat]||"#60a5fa";
+  const pctVals=rows.filter(r=>r.pct_normal!=null).map(r=>r.pct_normal);
+  const pctAvg=pctVals.length?pctVals.reduce((a,b)=>a+b,0)/pctVals.length:null;
+  const pc=pctAvg==null?"var(--t2)":pctAvg>=100?"#4ade80":pctAvg>=80?"#fbbf24":"#fca5a5";
+
+  body.innerHTML=`
+    <div class="md-state">${state}</div>
+    <div class="md-spi-row">
+      <div class="md-spi-num" style="color:${cc}">${avgSpi!=null?avgSpi.toFixed(2):"—"}</div>
+      <div>
+        <span class="cat-badge" style="background:${cc}">${cat}</span>
+        <div class="md-cat-name">${CAT_NAMES[cat]||cat}</div>
+      </div>
+    </div>
+    <div class="md-pct-row">
+      <div class="md-pct-label">Avg % of LPA</div>
+      <div class="md-pct-val" style="color:${pc}">${pctAvg!=null?pctAvg.toFixed(1)+"%":"—"}</div>
+    </div>
+    <div class="md-sec-label" style="margin-bottom:.45rem">IMD Meteorological Subdivisions</div>
+    <div class="md-chip-list" id="md-chips">
+      ${rows.map((r,i)=>`
+        <button class="subdiv-chip ${i===0?"active":""}"
+          onclick="pickChip('${r.subdivision}',this)"
+          data-s="${r.subdivision}">
+          <span class="chip-dot" style="background:${CAT_COLORS[r.spi_category]||"#60a5fa"}"></span>
+          ${r.subdivision}
+        </button>`).join("")}
+    </div>
+    <div class="md-sec-label" style="margin:0 0 .35rem">SPI Season History</div>
+    <div class="md-ts-wrap"><canvas id="map-ts-canvas"></canvas></div>`;
+
+  if(rows.length)renderMapTS(rows[0].subdivision);
+}
+
+function pickChip(name,btn){
+  document.querySelectorAll("#md-chips .subdiv-chip").forEach(c=>c.classList.remove("active"));
+  btn.classList.add("active");
+  renderMapTS(name);
+}
+
+function renderMapTS(name){
+  if(MAP_TS_CHART){MAP_TS_CHART.destroy();MAP_TS_CHART=null;}
+  const canvas=document.getElementById("map-ts-canvas");
+  if(!canvas)return;
+  const rows=HISTORY.filter(r=>r.subdivision===name).sort((a,b)=>a.date.localeCompare(b.date));
+  if(!rows.length){canvas.parentElement.innerHTML=`<div style="padding:1.25rem;text-align:center;font-size:.75rem;color:var(--t3)">No history yet for ${name}</div>`;return;}
+
+  const gradP={id:"gm",beforeDatasetsDraw(c){
+    const{ctx,chartArea:a}=c;if(!a)return;
+    const g=ctx.createLinearGradient(0,a.top,0,a.bottom);
+    g.addColorStop(0,"rgba(132,204,22,.22)");g.addColorStop(1,"rgba(132,204,22,0)");
+    c.data.datasets[0].backgroundColor=g;
+  }};
+
+  MAP_TS_CHART=new Chart(canvas,{type:"line",plugins:[gradP],
+    data:{labels:rows.map(r=>r.date),datasets:[
+      {label:"SPI",data:rows.map(r=>r.spi),borderColor:"#84cc16",backgroundColor:"transparent",
+       fill:true,tension:.35,pointRadius:rows.length>25?0:2,pointHoverRadius:5,borderWidth:1.75},
+      {data:rows.map(()=>0),borderColor:"rgba(180,210,255,.18)",borderDash:[4,4],
+       backgroundColor:"transparent",pointRadius:0,borderWidth:1},
+    ]},
+    options:{responsive:true,maintainAspectRatio:false,interaction:{mode:"index",intersect:false},
       plugins:{
-        legend:{labels:{usePointStyle:true,font:{size:11},color:"#92aec8",padding:12}},
-        tooltip:{...TT, callbacks:{
-          title:i=>rows[i[0].dataIndex].date,
-          label:i=>{
-            if(i.datasetIndex===1) return null;
-            const r=rows[i[0].dataIndex];
-            return [`  SPI: ${r.spi!=null?r.spi.toFixed(2):"—"}`, `  % of LPA: ${r.pct_normal!=null?r.pct_normal.toFixed(1):"—"}%`, `  Category: ${CAT_NAMES[r.spi_category]||r.spi_category}`];
-          }
-        }},
-      },
+        legend:{display:false},
+        tooltip:{...TT,callbacks:{
+          title:i=>rows[i[0].dataIndex]?.date,
+          label:i=>{if(i.datasetIndex===1)return null;const r=rows[i[0].dataIndex];
+            return[`SPI: ${r.spi!=null?r.spi.toFixed(2):"—"}`,`% of LPA: ${r.pct_normal!=null?r.pct_normal.toFixed(1):"—"}%`,CAT_NAMES[r.spi_category]||r.spi_category||""];}
+        }}},
       scales:{
-        x:{grid:{color:"rgba(180,210,255,.04)"},ticks:{maxTicksLimit:10,color:"#4d6e8c",font:{size:10}}},
-        y:{
-          grid:{color:"rgba(180,210,255,.04)"},
-          ticks:{color:"#4d6e8c",font:{size:10}},
-          min:-3, max:3,
-          title:{display:true,text:"SPI",color:"#4d6e8c",font:{size:10,weight:"600"}},
-        }
-      }
-    },
+        x:{grid:{color:"rgba(180,210,255,.04)"},ticks:{maxTicksLimit:6,color:"#4d6e8c",font:{size:9}}},
+        y:{grid:{color:"rgba(180,210,255,.04)"},ticks:{color:"#4d6e8c",font:{size:9}},min:-3,max:3},
+      }},
   });
 }
 
