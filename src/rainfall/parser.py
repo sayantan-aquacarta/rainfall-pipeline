@@ -1,22 +1,25 @@
 """
 Parser: turns the IMD PDF into a clean DataFrame.
 
-Reliable classification signal: subdivision and state-aggregate rows are rendered in BOLD
-(Trebuchet MS,Bold). District rows are rendered in Helvetica (regular). We extract
-per-line font information directly via pdfplumber's char-level API.
+PRE-MONSOON format (up to May 2026):
+  Subdivision/state-aggregate rows → BOLD (Trebuchet MS,Bold).
+  District rows → Helvetica regular. Bold flag is the reliable classifier.
 
-PDF layout (interleaved, as of 2026):
+  1 A & N ISLAND          0.0  ...        <- subdivision (BOLD, has serial)
+  1 NICOBAR               0.0  ...        <- district (regular, has serial)
+  3 ASSAM & MEGHALAYA     3.8  ...        <- subdivision (BOLD, has serial)
+    ASSAM                 4.9  ...        <- state header (BOLD, no serial)
+  1 BAJALI                0.0  ...        <- district (regular, has serial)
 
-    1 A & N ISLAND          0.0  ...        <- subdivision (BOLD)
-    1 NICOBAR               0.0  ...        <- district (regular)
-    2 NORTH & MIDDLE ANDAMAN ...
-    3 SOUTH ANDAMAN          ...
-    2 ARUNACHAL PRADESH     3.2  ...        <- subdivision (BOLD)
-    1 ANJAW                 ...             <- district
-    ...
-    3 ASSAM & MEGHALAYA     3.8  ...        <- subdivision (BOLD)
-      ASSAM                 4.9  ...        <- state header (BOLD, no number)
-    1 BAJALI                0.0  ...        <- district
+MONSOON format (June 2026+, triggered by hyphen-date DAY: header):
+  ALL rows are bold — bold flag is unreliable. Serial number is the classifier:
+  no serial → aggregate (state/group); serial present → district.
+
+  ANDAMAN & NICOBAR ISLANDS 3.9 ...      <- state aggregate (BOLD, no serial)
+  1 NICOBAR               11.4 ...        <- district (BOLD, has serial)
+  2 NORTH & MIDDLE ANDAMAN ...
+  ARUNACHAL PRADESH       3.2  ...        <- state aggregate (BOLD, no serial)
+  1 ANJAW                 ...             <- district (BOLD, has serial)
 """
 from __future__ import annotations
 
@@ -95,11 +98,18 @@ _DAY_RE = re.compile(
 _PERIOD_RE = re.compile(
     r"PERIOD\s*:\s*(\d{2}\.\d{2}\.\d{4})\s*TO\s*(\d{2}\.\d{2}\.\d{4})", re.IGNORECASE
 )
+# New monsoon format (June+): "DAY: 01-06-2026 PERIOD: 01-06-2026 to 2026-09-30"
+_DAY_MONSOON_RE = re.compile(
+    r"DAY\s*:\s*(\d{2}-\d{2}-\d{4})", re.IGNORECASE
+)
+_PERIOD_MONSOON_RE = re.compile(
+    r"PERIOD\s*:\s*(\d{2}-\d{2}-\d{4})\s+to\s+(\d{4}-\d{2}-\d{2})", re.IGNORECASE
+)
 
 _VALID_CATS = {"LE", "E", "N", "D", "LD", "NR"}
 
 _NUM = r"(?:-?\d+\.?\d*|\*)"
-_PCT = r"(?:-?\d+%|\*)"
+_PCT = r"(?:-?\d+\.?\d*%?|\*)"   # % is optional — new monsoon format omits it
 _CAT = r"(?:LE|E|N|D|LD|NR|\*)"
 
 _TRAILING_RE = re.compile(
@@ -127,6 +137,16 @@ class ParsedDocument:
 
 def _parse_dot_date(s: str) -> date:
     return datetime.strptime(s, "%d.%m.%Y").date()
+
+
+def _parse_date_flexible(s: str) -> date:
+    """Parse DD-MM-YYYY or YYYY-MM-DD (new monsoon format)."""
+    for fmt in ("%d-%m-%Y", "%Y-%m-%d"):
+        try:
+            return datetime.strptime(s, fmt).date()
+        except ValueError:
+            continue
+    raise ValueError(f"Cannot parse date: {s!r}")
 
 
 def _to_float(token: str) -> float | None:
@@ -199,17 +219,29 @@ def extract_text(pdf_bytes: bytes) -> str:
 
 
 def _find_dates(text: str) -> tuple[date, date, date, date]:
+    # Old pre-monsoon format: separate lines, dot-separated, DAY is a range
     day_match = _DAY_RE.search(text)
     period_match = _PERIOD_RE.search(text)
-    if not day_match or not period_match:
-        raise ValueError(
-            "Could not locate DAY/PERIOD headers in PDF — IMD format may have changed"
+    if day_match and period_match:
+        return (
+            _parse_dot_date(day_match.group(1)),
+            _parse_dot_date(day_match.group(2)),
+            _parse_dot_date(period_match.group(1)),
+            _parse_dot_date(period_match.group(2)),
         )
-    return (
-        _parse_dot_date(day_match.group(1)),
-        _parse_dot_date(day_match.group(2)),
-        _parse_dot_date(period_match.group(1)),
-        _parse_dot_date(period_match.group(2)),
+    # New monsoon format (June+): "DAY: DD-MM-YYYY PERIOD: DD-MM-YYYY to YYYY-MM-DD"
+    day_m = _DAY_MONSOON_RE.search(text)
+    period_m = _PERIOD_MONSOON_RE.search(text)
+    if day_m and period_m:
+        day_date = _parse_date_flexible(day_m.group(1))
+        return (
+            day_date,
+            day_date,
+            _parse_date_flexible(period_m.group(1)),
+            _parse_date_flexible(period_m.group(2)),
+        )
+    raise ValueError(
+        "Could not locate DAY/PERIOD headers in PDF — IMD format may have changed"
     )
 
 
@@ -244,6 +276,10 @@ def parse_pdf(pdf_bytes: bytes) -> ParsedDocument:
     current_subdivision: str | None = None
     current_state: str | None = None
 
+    # June+ monsoon PDFs render every row in bold; use serial number, not bold,
+    # to distinguish aggregate rows (no serial) from district rows (serial present).
+    is_monsoon_format = _DAY_MONSOON_RE.search(full_text) is not None
+
     for pl in parsed_lines:
         line = pl.text
         if _is_header_line(line):
@@ -265,7 +301,31 @@ def parse_pdf(pdf_bytes: bytes) -> ParsedDocument:
             serial = None
             name = prefix.strip()
 
-        if pl.is_bold:
+        if is_monsoon_format:
+            if serial is None:
+                # Aggregate row (state or composite group): update context for districts below.
+                current_subdivision = name
+                current_state = _normalise_state(name)
+                rows.append(_row(
+                    level="state",
+                    subdivision=current_subdivision,
+                    state=current_state,
+                    district=None,
+                    day=(day_actual_s, day_normal_s, day_pct_s, day_cat_s),
+                    period=(per_actual_s, per_normal_s, per_pct_s, per_cat_s),
+                ))
+            else:
+                # District row: serial number present; all numbered rows are districts.
+                raw_state = current_state if current_state is not None else current_subdivision
+                rows.append(_row(
+                    level="district",
+                    subdivision=current_subdivision,
+                    state=_normalise_state(raw_state),
+                    district=name,
+                    day=(day_actual_s, day_normal_s, day_pct_s, day_cat_s),
+                    period=(per_actual_s, per_normal_s, per_pct_s, per_cat_s),
+                ))
+        elif pl.is_bold:
             if serial is None:
                 # state header within composite subdivision
                 current_state = _normalise_state(name)

@@ -129,6 +129,7 @@ def build_all(api_dir: Path | None = None) -> dict:
         "n_states": len(state_index),
         "n_districts": districts_df["district"].nunique(),
         "row_count": len(df),
+        "dates": dates,
         "endpoints": {
             "latest":      "/api/latest.json",
             "by_date":     "/api/by-date/{YYYY-MM-DD}.json",

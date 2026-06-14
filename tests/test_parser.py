@@ -1,9 +1,10 @@
 """Tests for the PDF parser using a saved IMD PDF fixture."""
+from datetime import date
 from pathlib import Path
 
 import pytest
 
-from rainfall.parser import parse_pdf, to_dataframe
+from rainfall.parser import _TRAILING_RE, _find_dates, parse_pdf, to_dataframe
 
 FIXTURE = Path(__file__).parent / "fixtures" / "sample_imd.pdf"
 
@@ -109,3 +110,47 @@ def test_to_dataframe(parsed):
         "period_normal_mm", "period_departure_pct", "period_category", "scraped_at",
     }
     assert expected_cols.issubset(df.columns)
+
+
+# ---- New monsoon header format (June+) ----
+
+def test_find_dates_new_monsoon_format():
+    """New format: combined DAY/PERIOD on one line, hyphen dates, mixed YYYY-MM-DD period end."""
+    text = "DAY: 01-06-2026 PERIOD: 01-06-2026 to 2026-09-30"
+    day_start, day_end, period_start, period_end = _find_dates(text)
+    assert day_start == date(2026, 6, 1)
+    assert day_end == date(2026, 6, 1)
+    assert period_start == date(2026, 6, 1)
+    assert period_end == date(2026, 9, 30)
+
+
+def test_find_dates_old_format_still_works():
+    """Old dot-separated format must continue to parse correctly after adding monsoon support."""
+    text = "DAY : 31.05.2026 TO 31.05.2026\nPERIOD : 01.03.2026 TO 31.05.2026"
+    day_start, day_end, period_start, period_end = _find_dates(text)
+    assert day_end == date(2026, 5, 31)
+    assert period_start == date(2026, 3, 1)
+    assert period_end == date(2026, 5, 31)
+
+
+def test_find_dates_raises_on_unknown_format():
+    with pytest.raises(ValueError, match="Could not locate DAY/PERIOD"):
+        _find_dates("No date info here whatsoever")
+
+
+def test_trailing_re_matches_without_percent():
+    """New monsoon format: departure values are plain integers, no % sign."""
+    line = "ANDAMAN & NICOBAR ISLANDS 3.9 12.4 -69 LD 3.9 1631.7 -99 LD"
+    m = _TRAILING_RE.search(line)
+    assert m is not None, "Regex must match departure values without %"
+    assert m.group(3) == "-69"
+    assert m.group(7) == "-99"
+
+
+def test_trailing_re_matches_with_percent():
+    """Old format: departure values have % sign — must still match after regex change."""
+    line = "1 NICOBAR 11.4 7.0 63% LE 11.4 1136.0 -99% LD"
+    m = _TRAILING_RE.search(line)
+    assert m is not None, "Regex must still match departure values with %"
+    assert m.group(3) == "63%"
+    assert m.group(7) == "-99%"

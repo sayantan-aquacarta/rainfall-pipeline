@@ -19,8 +19,8 @@ SCHEMA = DataFrameSchema(
         "subdivision": Column(str, nullable=True),
         "state": Column(str, nullable=True),
         "district": Column(str, nullable=True),
-        "day_actual_mm": Column(float, Check.in_range(0, 2000), nullable=True),
-        "day_normal_mm": Column(float, Check.in_range(0, 2000), nullable=True),
+        "day_actual_mm": Column(float, Check.in_range(0, 5000), nullable=True),
+        "day_normal_mm": Column(float, Check.in_range(0, 5000), nullable=True),
         "day_departure_pct": Column(float, Check.in_range(-100, 100000000), nullable=True),
         "day_category": Column(
             str, Check.isin(["LE", "E", "N", "D", "LD", "NR"]), nullable=True
@@ -50,13 +50,17 @@ def validate(df: pd.DataFrame) -> pd.DataFrame:
     # Sanity checks on row counts
     n_districts = (df["level"] == "district").sum()
     n_subs = (df["level"] == "subdivision").sum()
+    # Monsoon format (June+) emits level="state" for all aggregates, so subdivision count
+    # may be 0. Accept if combined aggregate rows cover the expected ~36 IMD subdivisions.
+    n_states = (df["level"] == "state").sum()
     if n_districts < 500:
         raise ValidationError(
             f"Only {n_districts} district rows — expected >= 500. Possible parsing failure."
         )
-    if n_subs < 30:
+    if n_subs + n_states < 30:
         raise ValidationError(
-            f"Only {n_subs} subdivision rows — expected ~36. Possible parsing failure."
+            f"Only {n_subs} subdivision + {n_states} state aggregate rows — expected >= 30. "
+            "Possible parsing failure."
         )
 
     try:
@@ -70,5 +74,6 @@ def validate(df: pd.DataFrame) -> pd.DataFrame:
         n_rows=len(validated),
         n_districts=int(n_districts),
         n_subdivisions=int(n_subs),
+        n_states=int(n_states),
     )
     return validated

@@ -45,8 +45,9 @@ jobs:
         id: scrape
         run: |
           python -m rainfall.cli scrape 2>&1 | tee scrape.log
-          echo "exit_code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
-          exit ${PIPESTATUS[0]}
+          SCRAPE_EXIT=${PIPESTATUS[0]}
+          echo "exit_code=${SCRAPE_EXIT}" >> "$GITHUB_OUTPUT"
+          exit ${SCRAPE_EXIT}
 
       - name: Print run summary
         if: always()

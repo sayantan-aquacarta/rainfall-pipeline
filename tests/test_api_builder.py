@@ -58,6 +58,7 @@ def test_index_contents(populated_env):
     assert idx["n_dates"] == 1
     assert idx["n_districts"] == 2
     assert idx["first_date"] == "2026-04-01"
+    assert idx["dates"] == ["2026-04-01"], "index.json must include the dates array"
 
 
 def test_by_district_contents(populated_env):
