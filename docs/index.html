@@ -1,4 +1,4 @@
-<!-- v4-premium -->
+<!-- v5-stone-pearl -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,33 +14,33 @@
    DESIGN TOKENS
 ───────────────────────────────────────── */
 :root {
-  /* Depth layers */
-  --bg:       #07101c;
-  --layer1:   #0d1b2a;
-  --layer2:   #132337;
-  --layer3:   #1a2d45;
+  /* Depth layers — Stone Pearl */
+  --bg:     #f5f4f2;
+  --layer1: #ffffff;
+  --layer2: #f0eeeb;
+  --layer3: #e5e3df;
 
   /* Text */
-  --t1: #dce8f4;
-  --t2: #92aec8;
-  --t3: #4d6e8c;
+  --t1: #1c1917;
+  --t2: #44403c;
+  --t3: #78716c;
 
   /* Borders */
-  --b1: rgba(180,210,255,0.07);
-  --b2: rgba(180,210,255,0.13);
+  --b1: rgba(0,0,0,0.06);
+  --b2: rgba(0,0,0,0.10);
 
   /* Accent */
-  --blue:   #5b9cf6;
-  --blue2:  #3b82f6;
-  --teal:   #2dd4bf;
+  --blue:  #2563eb;
+  --blue2: #1d4ed8;
+  --teal:  #0d9488;
 
   /* Category — scientific palette */
-  --le: #16a34a;   /* IPCC-aligned green  */
-  --e:  #4ade80;   /* lighter green       */
-  --n:  #60a5fa;   /* cool blue           */
-  --d:  #f59e0b;   /* amber               */
-  --ld: #ef4444;   /* red                 */
-  --nr: #475569;   /* slate               */
+  --le: #16a34a;
+  --e:  #4ade80;
+  --n:  #60a5fa;
+  --d:  #f59e0b;
+  --ld: #ef4444;
+  --nr: #475569;
 
   --radius: 10px;
   --radius-sm: 6px;
@@ -67,8 +67,9 @@ body {
 ───────────────────────────────────────── */
 header {
   position: relative;
-  background: linear-gradient(170deg, #060e1c 0%, #091728 55%, #0b2036 100%);
+  background: linear-gradient(170deg, #ffffff 0%, #f5f4f2 55%, #edecea 100%);
   border-bottom: 1px solid var(--b1);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
   padding: 2rem 2.5rem 1.75rem;
   overflow: hidden;
 }
@@ -109,8 +110,8 @@ header {
   letter-spacing: 1.2px;
   text-transform: uppercase;
   color: var(--teal);
-  border: 1px solid rgba(45,212,191,0.25);
-  background: rgba(45,212,191,0.06);
+  border: 1px solid rgba(13,148,136,0.22);
+  background: rgba(13,148,136,0.07);
   padding: 0.2rem 0.6rem;
   border-radius: 4px;
 }
@@ -130,7 +131,7 @@ header {
 header h1 {
   font-size: 1.65rem;
   font-weight: 700;
-  color: #fff;
+  color: var(--t1);
   letter-spacing: -0.4px;
   line-height: 1.2;
 }
@@ -179,19 +180,19 @@ header h1 span { color: var(--blue); }
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  border: 1px solid rgba(74,222,128,0.2);
-  background: rgba(74,222,128,0.05);
+  border: 1px solid rgba(22,163,74,0.2);
+  background: rgba(22,163,74,0.06);
   border-radius: 100px;
   padding: 0.4rem 0.9rem;
   font-size: 0.72rem;
   font-weight: 500;
-  color: rgba(74,222,128,0.8);
+  color: #16a34a;
   white-space: nowrap;
 }
 
 .live-dot {
   width: 6px; height: 6px;
-  background: #4ade80;
+  background: #16a34a;
   border-radius: 50%;
   flex-shrink: 0;
   animation: blink 2.4s ease-in-out infinite;
@@ -222,6 +223,7 @@ main {
   background: var(--layer1);
   margin-bottom: 1.25rem;
   overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
 }
 
 .stat-cell {
@@ -278,6 +280,7 @@ main {
   background: var(--layer1);
   border: 1px solid var(--b1);
   border-radius: var(--radius);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 1px 2px rgba(0,0,0,0.04);
 }
 
 .panel-head {
@@ -312,9 +315,9 @@ main {
 .stale-badge {
   font-size: 0.65rem;
   font-weight: 600;
-  color: #fca5a5;
-  background: rgba(239,68,68,0.08);
-  border: 1px solid rgba(239,68,68,0.2);
+  color: #b91c1c;
+  background: rgba(220,38,38,0.07);
+  border: 1px solid rgba(220,38,38,0.18);
   padding: 0.2rem 0.6rem;
   border-radius: 100px;
 }
@@ -439,7 +442,7 @@ select, input[type="text"] {
   transition: border-color 0.15s, box-shadow 0.15s;
   appearance: none;
   -webkit-appearance: none;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath fill='%234d6e8c' d='M5 6L0 0h10z'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath fill='%2378716c' d='M5 6L0 0h10z'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: right 0.75rem center;
   padding-right: 2rem;
@@ -452,7 +455,7 @@ input[type="text"] {
 
 select:focus, input[type="text"]:focus {
   border-color: var(--blue2);
-  box-shadow: 0 0 0 2px rgba(91,156,246,0.15);
+  box-shadow: 0 0 0 2px rgba(37,99,235,0.12);
 }
 
 select option { background: var(--layer2); }
@@ -588,11 +591,11 @@ thead th {
 }
 
 tbody tr {
-  border-bottom: 1px solid rgba(255,255,255,0.03);
+  border-bottom: 1px solid var(--b1);
   transition: background 0.1s;
 }
 
-tbody tr:hover { background: rgba(91,156,246,0.04); }
+tbody tr:hover { background: rgba(37,99,235,0.04); }
 
 td {
   padding: 0.55rem 0.875rem;
@@ -611,9 +614,9 @@ td.num {
 }
 
 /* departure color coding */
-td.dep-pos { color: #4ade80; }
-td.dep-neg { color: #fca5a5; }
-td.dep-warn { color: #fbbf24; }
+td.dep-pos { color: #16a34a; }
+td.dep-neg { color: #dc2626; }
+td.dep-warn { color: #d97706; }
 
 /* ─────────────────────────────────────────
    SPACER / GRID
@@ -949,7 +952,7 @@ footer .brand { font-weight: 600; color: var(--t2); }
       ctx.beginPath();
       ctx.moveTo(d.x, d.y);
       ctx.lineTo(d.x - 0.8, d.y + d.len);
-      ctx.strokeStyle = `rgba(180,210,255,${d.alpha})`;
+      ctx.strokeStyle = `rgba(37,99,235,${d.alpha * 0.28})`;
       ctx.lineWidth   = d.width;
       ctx.stroke();
       d.y += d.speed;
@@ -969,8 +972,8 @@ footer .brand { font-weight: 600; color: var(--t2); }
 /* ─────────────────────────────────────────
    CHART DEFAULTS (dark)
 ───────────────────────────────────────── */
-Chart.defaults.color        = '#4d6e8c';
-Chart.defaults.borderColor  = 'rgba(180,210,255,0.06)';
+Chart.defaults.color        = '#78716c';
+Chart.defaults.borderColor  = 'rgba(0,0,0,0.06)';
 Chart.defaults.font.family  = "'Inter', system-ui";
 
 /* ─────────────────────────────────────────
@@ -987,10 +990,10 @@ const CAT_NAME = {
 };
 
 const TT = {
-  backgroundColor:"#0d1b2a",
-  titleColor:"#dce8f4",
-  bodyColor:"#92aec8",
-  borderColor:"rgba(180,210,255,0.1)",
+  backgroundColor:"#ffffff",
+  titleColor:"#1c1917",
+  bodyColor:"#44403c",
+  borderColor:"rgba(0,0,0,0.10)",
   borderWidth:1,
   padding:12,
   cornerRadius:6,
@@ -1214,7 +1217,7 @@ function renderCatChart(rows) {
       plugins: {
         legend: {
           position: "right",
-          labels: { usePointStyle:true, pointStyle:"circle", font:{size:11}, padding:12, color:"#92aec8" }
+          labels: { usePointStyle:true, pointStyle:"circle", font:{size:11}, padding:12, color:"#44403c" }
         },
         tooltip: {
           ...TT,
@@ -1234,10 +1237,10 @@ function renderCatChart(rows) {
         ctx.save();
         ctx.textAlign    = "center";
         ctx.textBaseline = "middle";
-        ctx.fillStyle    = "#dce8f4";
+        ctx.fillStyle    = "#1c1917";
         ctx.font         = "700 1.5rem 'Inter', system-ui";
         ctx.fillText(total, cx, cy - 8);
-        ctx.fillStyle    = "#4d6e8c";
+        ctx.fillStyle    = "#78716c";
         ctx.font         = "500 0.65rem 'Inter', system-ui";
         ctx.letterSpacing = "1px";
         ctx.fillText("DISTRICTS", cx, cy + 12);
@@ -1264,7 +1267,7 @@ function renderTopChart(rows) {
       datasets: [{
         label: "Cumulative rainfall (mm)",
         data: top.map(r => r.period_actual_mm),
-        backgroundColor: top.map((_,i) => `rgba(91,156,246,${0.9 - i*0.07})`),
+        backgroundColor: top.map((_,i) => `rgba(37,99,235,${0.85 - i*0.07})`),
         borderRadius: { topRight:3, bottomRight:3 },
         borderSkipped: false,
       }],
@@ -1284,12 +1287,12 @@ function renderTopChart(rows) {
       },
       scales: {
         x: {
-          grid: { color:"rgba(180,210,255,0.04)" },
-          ticks: { color:"#4d6e8c", font:{size:10} },
+          grid: { color:"rgba(0,0,0,0.05)" },
+          ticks: { color:"#78716c", font:{size:10} },
         },
         y: {
           grid: { display:false },
-          ticks: { color:"#92aec8", font:{size:11, weight:"500"} },
+          ticks: { color:"#44403c", font:{size:11, weight:"500"} },
         }
       }
     },
@@ -1315,9 +1318,9 @@ function renderTS(d) {
       const { ctx, chartArea:ca } = chart;
       if (!ca) return;
       const g = ctx.createLinearGradient(0, ca.top, 0, ca.bottom);
-      g.addColorStop(0,   "rgba(91,156,246,0.22)");
-      g.addColorStop(0.7, "rgba(91,156,246,0.04)");
-      g.addColorStop(1,   "rgba(91,156,246,0)");
+      g.addColorStop(0,   "rgba(37,99,235,0.12)");
+      g.addColorStop(0.7, "rgba(37,99,235,0.03)");
+      g.addColorStop(1,   "rgba(37,99,235,0)");
       chart.data.datasets[0].backgroundColor = g;
     }
   };
@@ -1331,17 +1334,17 @@ function renderTS(d) {
         {
           label: "Actual (mm)",
           data: sorted.map(r => r.day_actual_mm),
-          borderColor: "#5b9cf6",
+          borderColor: "#2563eb",
           backgroundColor: "transparent",
           fill: true, tension: 0.35,
           pointRadius: 2, pointHoverRadius: 5,
-          pointBackgroundColor: "#5b9cf6",
+          pointBackgroundColor: "#2563eb",
           borderWidth: 1.75,
         },
         {
           label: "Normal (mm)",
           data: sorted.map(r => r.day_normal_mm),
-          borderColor: "#2a3f58",
+          borderColor: "#d1d5db",
           borderDash: [4,4],
           backgroundColor: "transparent",
           fill: false, tension: 0.35,
@@ -1353,18 +1356,18 @@ function renderTS(d) {
       responsive: true, maintainAspectRatio: false,
       interaction: { mode:"index", intersect:false },
       plugins: {
-        legend: { labels:{ usePointStyle:true, font:{size:11}, color:"#92aec8", padding:12 } },
+        legend: { labels:{ usePointStyle:true, font:{size:11}, color:"#44403c", padding:12 } },
         tooltip: { ...TT },
       },
       scales: {
         x: {
-          grid: { color:"rgba(180,210,255,0.04)" },
-          ticks: { maxTicksLimit:10, color:"#4d6e8c", font:{size:10} },
+          grid: { color:"rgba(0,0,0,0.05)" },
+          ticks: { maxTicksLimit:10, color:"#78716c", font:{size:10} },
         },
         y: {
-          grid: { color:"rgba(180,210,255,0.04)" },
-          ticks: { color:"#4d6e8c", font:{size:10} },
-          title: { display:true, text:"mm", color:"#4d6e8c", font:{size:10,weight:"600"} }
+          grid: { color:"rgba(0,0,0,0.05)" },
+          ticks: { color:"#78716c", font:{size:10} },
+          title: { display:true, text:"mm", color:"#78716c", font:{size:10,weight:"600"} }
         }
       }
     },

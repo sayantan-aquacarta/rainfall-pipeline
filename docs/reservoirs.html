@@ -9,18 +9,18 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#07101c;--layer1:#0d1b2a;--layer2:#132337;--layer3:#1a2d45;--t1:#dce8f4;--t2:#92aec8;--t3:#4d6e8c;--b1:rgba(180,210,255,.07);--b2:rgba(180,210,255,.13);--blue:#5b9cf6;--blue2:#3b82f6;--teal:#2dd4bf;--radius:10px;--radius-sm:6px;}
+:root{--bg:#f5f4f2;--layer1:#ffffff;--layer2:#f0eeeb;--layer3:#e5e3df;--t1:#1c1917;--t2:#44403c;--t3:#78716c;--b1:rgba(0,0,0,.06);--b2:rgba(0,0,0,.10);--blue:#2563eb;--blue2:#1d4ed8;--teal:#0d9488;--radius:10px;--radius-sm:6px;}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
 body{font-family:'Inter',system-ui,sans-serif;font-size:14px;line-height:1.5;background:var(--bg);color:var(--t1);-webkit-font-smoothing:antialiased;}
-header{position:relative;background:linear-gradient(170deg,#060e1c 0%,#091728 55%,#0b2036 100%);border-bottom:1px solid var(--b1);padding:2rem 2.5rem 1.75rem;overflow:hidden;}
+header{position:relative;background:linear-gradient(170deg,#ffffff 0%,#f5f4f2 55%,#edecea 100%);border-bottom:1px solid var(--b1);box-shadow:0 1px 3px rgba(0,0,0,.06);padding:2rem 2.5rem 1.75rem;overflow:hidden;}
 #rain-canvas{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;opacity:.15;}
 .header-inner{position:relative;z-index:1;max-width:1440px;margin:0 auto;display:flex;justify-content:space-between;align-items:flex-start;gap:1.5rem;flex-wrap:wrap;}
 .header-left{flex:1;min-width:0;}
 .header-eyebrow{display:flex;align-items:center;gap:.75rem;margin-bottom:.6rem;}
-.season-tag{font-size:.65rem;font-weight:600;letter-spacing:1.2px;text-transform:uppercase;color:var(--teal);border:1px solid rgba(45,212,191,.25);background:rgba(45,212,191,.06);padding:.2rem .6rem;border-radius:4px;}
+.season-tag{font-size:.65rem;font-weight:600;letter-spacing:1.2px;text-transform:uppercase;color:var(--teal);border:1px solid rgba(13,148,136,.22);background:rgba(13,148,136,.07);padding:.2rem .6rem;border-radius:4px;}
 .divider-dot{width:3px;height:3px;background:var(--t3);border-radius:50%;}
 .header-source{font-size:.7rem;color:var(--t3);}
-header h1{font-size:1.65rem;font-weight:700;color:#fff;letter-spacing:-.4px;line-height:1.2;}
+header h1{font-size:1.65rem;font-weight:700;color:var(--t1);letter-spacing:-.4px;line-height:1.2;}
 header h1 span{color:var(--teal);}
 .header-desc{font-size:.78rem;color:var(--t3);margin-top:.35rem;}
 .header-meta{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin-top:.9rem;}
@@ -40,7 +40,7 @@ header h1 span{color:var(--teal);}
 .mnav-soon{font-size:.6rem;font-weight:600;letter-spacing:.6px;padding:1px 5px;border-radius:3px;background:rgba(251,191,36,.08);border:1px solid rgba(251,191,36,.2);color:#fbbf24;}
 
 main{max-width:1440px;margin:0 auto;padding:1.75rem 2rem 4rem;}
-.panel{background:var(--layer1);border:1px solid var(--b1);border-radius:var(--radius);}
+.panel{background:var(--layer1);border:1px solid var(--b1);border-radius:var(--radius);box-shadow:0 1px 3px rgba(0,0,0,.04);}
 .panel-head{display:flex;align-items:center;justify-content:space-between;padding:1rem 1.5rem;border-bottom:1px solid var(--b1);flex-wrap:wrap;gap:.5rem;}
 .panel-title{font-size:.65rem;font-weight:600;letter-spacing:.9px;text-transform:uppercase;color:var(--t3);}
 .panel-body{padding:1.25rem 1.5rem;}
@@ -236,7 +236,7 @@ footer a:hover{color:var(--blue);}
   const cv=document.getElementById('rain-canvas'),ctx=cv.getContext('2d');let drops=[];
   function mk(){return{x:Math.random()*(cv.width+40),y:-20-Math.random()*cv.height,len:10+Math.random()*16,speed:.4+Math.random()*.9,alpha:.03+Math.random()*.13,width:.5+Math.random()*.8};}
   function init(){cv.width=cv.offsetWidth;cv.height=cv.offsetHeight;drops=[];for(let i=0;i<Math.floor(cv.width/13);i++){const d=mk();d.y=Math.random()*cv.height;drops.push(d);}}
-  function frame(){ctx.clearRect(0,0,cv.width,cv.height);for(const d of drops){ctx.beginPath();ctx.moveTo(d.x,d.y);ctx.lineTo(d.x-.8,d.y+d.len);ctx.strokeStyle=`rgba(180,210,255,${d.alpha})`;ctx.lineWidth=d.width;ctx.stroke();d.y+=d.speed;if(d.y-d.len>cv.height)Object.assign(d,mk());}requestAnimationFrame(frame);}
+  function frame(){ctx.clearRect(0,0,cv.width,cv.height);for(const d of drops){ctx.beginPath();ctx.moveTo(d.x,d.y);ctx.lineTo(d.x-.8,d.y+d.len);ctx.strokeStyle=`rgba(37,99,235,${d.alpha*0.28})`;ctx.lineWidth=d.width;ctx.stroke();d.y+=d.speed;if(d.y-d.len>cv.height)Object.assign(d,mk());}requestAnimationFrame(frame);}
   new ResizeObserver(init).observe(cv.parentElement);init();frame();
 })();
 </script>
