@@ -1,7 +1,7 @@
 {
   "state": "CHHATTISGARH",
   "district": "SURGUJA",
-  "row_count": 51,
+  "row_count": 52,
   "rows": [
     {
       "date": "2026-04-13",
@@ -920,6 +920,24 @@
       "period_departure_pct": -29.0,
       "period_category": "D",
       "scraped_at": "2026-06-14T09:36:57"
+    },
+    {
+      "date": "2026-06-15",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-15",
+      "level": "district",
+      "subdivision": "CHHATTISGARH",
+      "state": "CHHATTISGARH",
+      "district": "SURGUJA",
+      "day_actual_mm": 0.6,
+      "day_normal_mm": 8.0,
+      "day_departure_pct": -92.0,
+      "day_category": "LD",
+      "period_actual_mm": 26.0,
+      "period_normal_mm": 43.6,
+      "period_departure_pct": -40.0,
+      "period_category": "D",
+      "scraped_at": "2026-06-15T12:17:43"
     }
   ]
 }

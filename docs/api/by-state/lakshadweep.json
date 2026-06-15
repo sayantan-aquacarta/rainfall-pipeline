@@ -1,6 +1,6 @@
 {
   "state": "LAKSHADWEEP",
-  "row_count": 11,
+  "row_count": 12,
   "districts": [
     "LAKSHADWEEP"
   ],
@@ -202,6 +202,24 @@
       "period_departure_pct": 33.0,
       "period_category": "E",
       "scraped_at": "2026-06-14T09:36:57"
+    },
+    {
+      "date": "2026-06-15",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-15",
+      "level": "district",
+      "subdivision": "LAKSHADWEEP",
+      "state": "LAKSHADWEEP",
+      "district": "LAKSHADWEEP",
+      "day_actual_mm": 0.1,
+      "day_normal_mm": 9.4,
+      "day_departure_pct": -99.0,
+      "day_category": "LD",
+      "period_actual_mm": 233.9,
+      "period_normal_mm": 184.7,
+      "period_departure_pct": 27.0,
+      "period_category": "E",
+      "scraped_at": "2026-06-15T12:17:43"
     }
   ]
 }

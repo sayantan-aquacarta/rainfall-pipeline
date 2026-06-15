@@ -1,7 +1,7 @@
 {
   "state": "TELANGANA",
   "district": "PEDDAPALLE",
-  "row_count": 51,
+  "row_count": 52,
   "rows": [
     {
       "date": "2026-04-13",
@@ -920,6 +920,24 @@
       "period_departure_pct": -57.0,
       "period_category": "D",
       "scraped_at": "2026-06-14T09:36:57"
+    },
+    {
+      "date": "2026-06-15",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-15",
+      "level": "district",
+      "subdivision": "TELANGANA",
+      "state": "TELANGANA",
+      "district": "PEDDAPALLE",
+      "day_actual_mm": 0.5,
+      "day_normal_mm": 10.3,
+      "day_departure_pct": -96.0,
+      "day_category": "LD",
+      "period_actual_mm": 15.0,
+      "period_normal_mm": 63.4,
+      "period_departure_pct": -76.0,
+      "period_category": "LD",
+      "scraped_at": "2026-06-15T12:17:43"
     }
   ]
 }

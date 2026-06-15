@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "MANDSAUR",
-  "row_count": 51,
+  "row_count": 52,
   "rows": [
     {
       "date": "2026-04-13",
@@ -920,6 +920,24 @@
       "period_departure_pct": 103.0,
       "period_category": "LE",
       "scraped_at": "2026-06-14T09:36:57"
+    },
+    {
+      "date": "2026-06-15",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-15",
+      "level": "district",
+      "subdivision": "WEST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "MANDSAUR",
+      "day_actual_mm": 0.7,
+      "day_normal_mm": 3.2,
+      "day_departure_pct": -80.0,
+      "day_category": "LD",
+      "period_actual_mm": 51.8,
+      "period_normal_mm": 28.4,
+      "period_departure_pct": 82.0,
+      "period_category": "LE",
+      "scraped_at": "2026-06-15T12:17:43"
     }
   ]
 }

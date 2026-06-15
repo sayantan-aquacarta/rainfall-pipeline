@@ -1,7 +1,7 @@
 {
   "state": "WEST BENGAL",
   "district": "NORTH DINAJPUR",
-  "row_count": 50,
+  "row_count": 51,
   "rows": [
     {
       "date": "2026-04-13",
@@ -902,6 +902,24 @@
       "period_departure_pct": -77.0,
       "period_category": "LD",
       "scraped_at": "2026-06-14T09:36:57"
+    },
+    {
+      "date": "2026-06-15",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-15",
+      "level": "district",
+      "subdivision": "WEST BENGAL",
+      "state": "WEST BENGAL",
+      "district": "NORTH DINAJPUR",
+      "day_actual_mm": 7.2,
+      "day_normal_mm": 7.8,
+      "day_departure_pct": -8.0,
+      "day_category": "N",
+      "period_actual_mm": 39.9,
+      "period_normal_mm": 150.8,
+      "period_departure_pct": -74.0,
+      "period_category": "LD",
+      "scraped_at": "2026-06-15T12:17:43"
     }
   ]
 }

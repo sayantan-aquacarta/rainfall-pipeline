@@ -1,7 +1,7 @@
 {
   "state": "MAHARASHTRA",
   "district": "HINGOLI",
-  "row_count": 50,
+  "row_count": 51,
   "rows": [
     {
       "date": "2026-04-13",
@@ -902,6 +902,24 @@
       "period_departure_pct": -54.0,
       "period_category": "D",
       "scraped_at": "2026-06-14T09:36:57"
+    },
+    {
+      "date": "2026-06-15",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-15",
+      "level": "district",
+      "subdivision": "MARATHWADA",
+      "state": "MAHARASHTRA",
+      "district": "HINGOLI",
+      "day_actual_mm": 1.7,
+      "day_normal_mm": 7.8,
+      "day_departure_pct": -79.0,
+      "day_category": "LD",
+      "period_actual_mm": 26.9,
+      "period_normal_mm": 63.0,
+      "period_departure_pct": -57.0,
+      "period_category": "D",
+      "scraped_at": "2026-06-15T12:17:43"
     }
   ]
 }
