@@ -156,6 +156,29 @@ td.num{text-align:right;font-variant-numeric:tabular-nums;}
              background:var(--layer2);border:1px solid var(--b1);border-radius:var(--radius-sm);}
 .method-note a{color:var(--t3);text-decoration:underline;}
 
+/* ── SPI Guide ── */
+.spi-guide-intro{font-size:.82rem;color:var(--t2);line-height:1.75;margin-bottom:1.25rem;}
+.spi-guide-intro strong{color:var(--t1);}
+.spi-guide-table{width:100%;border-collapse:collapse;font-size:.8rem;margin-bottom:1rem;}
+.spi-guide-table thead th{background:var(--layer2);padding:.55rem .875rem;text-align:left;
+  font-size:.62rem;font-weight:600;letter-spacing:.7px;text-transform:uppercase;color:var(--t3);
+  border-bottom:1px solid var(--b2);}
+.spi-guide-table tbody tr{border-bottom:1px solid var(--b1);}
+.spi-guide-table tbody tr:hover{background:rgba(37,99,235,.03);}
+.spi-guide-table td{padding:.55rem .875rem;color:var(--t2);vertical-align:top;}
+.spi-guide-table td:first-child{width:56px;}
+.spi-guide-table td:nth-child(2){font-variant-numeric:tabular-nums;font-weight:600;white-space:nowrap;width:130px;}
+.guide-note{font-size:.72rem;color:var(--t3);background:var(--layer2);border:1px solid var(--b1);
+            border-radius:var(--radius-sm);padding:.75rem 1rem;line-height:1.7;margin-top:1rem;}
+.guide-note strong{color:var(--t2);}
+.spi-stat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:.75rem;margin-bottom:1.25rem;}
+.spi-stat-box{background:var(--layer2);border:1px solid var(--b1);border-radius:var(--radius-sm);
+              padding:.75rem 1rem;text-align:center;}
+.spi-stat-box .val{font-size:1.25rem;font-weight:700;letter-spacing:-.5px;line-height:1;margin-bottom:.3rem;}
+.spi-stat-box .lbl{font-size:.62rem;font-weight:600;letter-spacing:.7px;text-transform:uppercase;color:var(--t3);}
+.spi-stat-box .desc{font-size:.72rem;color:var(--t3);margin-top:.2rem;}
+@media(max-width:600px){.spi-stat-grid{grid-template-columns:1fr;}}
+
 @keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
 .rise{animation:rise .35s ease both;}
 
@@ -338,8 +361,111 @@ footer a:hover{color:var(--blue);}
     </div>
   </div>
 
+  <!-- ── SPI GUIDE ── -->
+  <div class="panel mb rise" style="animation-delay:.18s">
+    <div class="panel-head">
+      <span class="panel-title">How to Read SPI Values · Layman's Guide</span>
+      <span style="font-size:.68rem;color:var(--t3);">Standardised Precipitation Index · McKee et al., 1993</span>
+    </div>
+    <div class="panel-body">
+      <p class="spi-guide-intro">
+        The <strong>Standardised Precipitation Index (SPI)</strong> measures how much rainfall a region received compared to its long-term historical average, expressed as a single number on a common scale. <strong>SPI = 0</strong> means exactly average; positive numbers mean more rain than usual; negative numbers mean less. Each unit of SPI roughly equals one <em>standard deviation</em> — a statistician's way of saying "how far from normal."
+      </p>
+
+      <div class="spi-stat-grid">
+        <div class="spi-stat-box">
+          <div class="val" style="color:#60a5fa">0</div>
+          <div class="lbl">Near Normal</div>
+          <div class="desc">Rainfall is close to the long-term average for this period</div>
+        </div>
+        <div class="spi-stat-box">
+          <div class="val" style="color:#dc2626">−2.0</div>
+          <div class="lbl">Exceptional Drought</div>
+          <div class="desc">Rainfall lower than ~97.7% of all historical years — a rare crisis</div>
+        </div>
+        <div class="spi-stat-box">
+          <div class="val" style="color:#16a34a">+2.0</div>
+          <div class="lbl">Extremely Wet</div>
+          <div class="desc">Rainfall higher than ~97.7% of all historical years — a rare deluge</div>
+        </div>
+      </div>
+
+      <table class="spi-guide-table">
+        <thead>
+          <tr>
+            <th>Code</th>
+            <th>SPI Range</th>
+            <th>Category</th>
+            <th>What it means on the ground</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="cat-badge" style="background:#16a34a">W2</span></td>
+            <td>≥ 1.3</td>
+            <td style="font-weight:600;color:#16a34a">Severely Wet</td>
+            <td>Far more rainfall than historical average. Risk of flooding, waterlogging, and infrastructure stress. Values well above +2.0 (e.g. SPI ≈ +4) indicate a once-in-decades deluge — the season's rain total is statistically extraordinary.</td>
+          </tr>
+          <tr>
+            <td><span class="cat-badge" style="background:#4ade80">W1</span></td>
+            <td>0.8 to 1.3</td>
+            <td style="font-weight:600;color:#4ade80">Moderately Wet</td>
+            <td>Noticeably above-average rainfall. Reservoirs fill faster, groundwater recharges well. Generally good for agriculture.</td>
+          </tr>
+          <tr>
+            <td><span class="cat-badge" style="background:#86efac">W0</span></td>
+            <td>0.5 to 0.8</td>
+            <td style="font-weight:600;color:#15803d">Abnormally Wet</td>
+            <td>Slightly more rain than usual. Minimal risk but worth monitoring if combined with already saturated soils.</td>
+          </tr>
+          <tr>
+            <td><span class="cat-badge" style="background:#60a5fa">NN</span></td>
+            <td>−0.5 to 0.5</td>
+            <td style="font-weight:600;color:var(--blue)">Near Normal</td>
+            <td>Rainfall is within the normal range. No drought or flood concern from precipitation alone.</td>
+          </tr>
+          <tr>
+            <td><span class="cat-badge" style="background:#a8a29e">D0</span></td>
+            <td>−0.8 to −0.5</td>
+            <td style="font-weight:600;color:#78716c">Abnormally Dry</td>
+            <td>Slightly below normal. A watch condition — not yet drought, but crops and pastures may show early stress if this persists.</td>
+          </tr>
+          <tr>
+            <td><span class="cat-badge" style="background:#fbbf24">D1</span></td>
+            <td>−1.3 to −0.8</td>
+            <td style="font-weight:600;color:#d97706">Moderate Drought</td>
+            <td>Noticeable rainfall deficit. Crop stress increases, particularly for rain-fed agriculture. Water supply concerns begin. Irrigation demand rises.</td>
+          </tr>
+          <tr>
+            <td><span class="cat-badge" style="background:#f97316">D2</span></td>
+            <td>−1.6 to −1.3</td>
+            <td style="font-weight:600;color:#ea580c">Severe Drought</td>
+            <td>Significant deficit. Crop losses likely for non-irrigated fields. Reservoir and groundwater levels drop. Water rationing may be introduced in vulnerable areas.</td>
+          </tr>
+          <tr>
+            <td><span class="cat-badge" style="background:#ef4444">D3</span></td>
+            <td>−2.0 to −1.6</td>
+            <td style="font-weight:600;color:#dc2626">Extreme Drought</td>
+            <td>Major deficit — rarer than 1-in-20 years statistically. Widespread crop failure, severe strain on drinking water, livestock losses likely. Emergency response typically warranted.</td>
+          </tr>
+          <tr>
+            <td><span class="cat-badge" style="background:#7f1d1d">D4</span></td>
+            <td>&lt; −2.0</td>
+            <td style="font-weight:600;color:#7f1d1d">Exceptional Drought</td>
+            <td>Historically extreme deficit. Less than 2.3% of years see this level. Severe food and water crisis, mass crop failure, and long-term groundwater depletion. Comparable to historic droughts like 1972 or 2002 at a subdivision level.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="guide-note">
+        <strong>Reading the time-series chart:</strong> When you select a subdivision above, the SPI line chart shows how conditions evolved through the season. A line <em>rising steeply above +1.3</em> signals a wet spell building; a line <em>falling below −0.8</em> signals the onset of drought stress. The zero line (dashed) is your reference — distance from it tells you severity, direction tells you whether it is wet or dry.<br><br>
+        <strong>Why values beyond ±3 appear:</strong> SPI is computed from a statistical distribution fitted to historical data. Exceptionally rare events — like a subdivision receiving 180% of its normal rain in a season — can produce SPI values of +3 or higher. These are not errors; they indicate a genuinely extraordinary year that lies far outside the historical envelope.
+      </div>
+    </div>
+  </div>
+
   <!-- ── METHODOLOGY ── -->
-  <div class="method-note rise" style="animation-delay:.18s">
+  <div class="method-note rise" style="animation-delay:.21s">
     <strong style="color:var(--t2);">Methodology:</strong>
     SPI computed using a parameterised gamma distribution (shape α = 1/CV² ≈ 9.77; scale β = LPA/α;
     CV = 0.32 from <a href="https://tropmet.res.in" target="_blank">Parthasarathy et al., 1987</a>).
@@ -390,6 +516,13 @@ function classifySpiCat(spi){
   if(spi<-2.0)return"D4";if(spi<-1.6)return"D3";if(spi<-1.3)return"D2";
   if(spi<-0.8)return"D1";if(spi<-0.5)return"D0";if(spi< 0.5)return"NN";
   if(spi< 0.8)return"W0";if(spi< 1.3)return"W1";return"W2";
+}
+
+function spiAxisRange(values, pad=0.4){
+  const valid=values.filter(v=>v!=null&&!isNaN(v));
+  if(!valid.length)return{min:-3,max:3};
+  const lo=Math.min(...valid),hi=Math.max(...valid);
+  return{min:Math.min(-3,Math.floor(lo-pad)),max:Math.max(3,Math.ceil(hi+pad))};
 }
 
 /* ── State → IMD subdivision mapping ── */
@@ -532,7 +665,7 @@ function renderSpiBar(subs){
           label:i=>{const r=sorted[i[0].dataIndex];return[`  SPI: ${safe(r.spi,2)}  (${r.spi_category_name})`,`  % of LPA: ${safe(r.pct_normal,1)}%`];}
         }}},
       scales:{
-        x:{grid:{color:"rgba(0,0,0,.05)"},ticks:{color:"#78716c",font:{size:10}},min:-3,max:3},
+        x:{grid:{color:"rgba(0,0,0,.05)"},ticks:{color:"#78716c",font:{size:10}},...spiAxisRange(sorted.map(r=>r.spi??0))},
         y:{grid:{display:false},ticks:{color:"#44403c",font:{size:10}}},
       }},
   });
@@ -590,7 +723,7 @@ function renderTSFull(rows,canvas,key){
         }}},
       scales:{
         x:{grid:{color:"rgba(0,0,0,.05)"},ticks:{maxTicksLimit:10,color:"#78716c",font:{size:10}}},
-        y:{grid:{color:"rgba(0,0,0,.05)"},ticks:{color:"#78716c",font:{size:10}},min:-3,max:3,
+        y:{grid:{color:"rgba(0,0,0,.05)"},ticks:{color:"#78716c",font:{size:10}},...spiAxisRange(rows.map(r=>r.spi)),
            title:{display:true,text:"SPI",color:"#78716c",font:{size:10,weight:"600"}}},
       }},
   });
@@ -771,7 +904,7 @@ function renderMapTS(name){
         }}},
       scales:{
         x:{grid:{color:"rgba(0,0,0,.05)"},ticks:{maxTicksLimit:6,color:"#78716c",font:{size:9}}},
-        y:{grid:{color:"rgba(0,0,0,.05)"},ticks:{color:"#78716c",font:{size:9}},min:-3,max:3},
+        y:{grid:{color:"rgba(0,0,0,.05)"},ticks:{color:"#78716c",font:{size:9}},...spiAxisRange(rows.map(r=>r.spi))},
       }},
   });
 }
