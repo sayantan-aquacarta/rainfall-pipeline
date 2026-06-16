@@ -1,7 +1,7 @@
 {
   "state": "WEST BENGAL",
   "district": "SOUTH DINAJPUR",
-  "row_count": 52,
+  "row_count": 53,
   "rows": [
     {
       "date": "2026-04-13",
@@ -938,6 +938,24 @@
       "period_departure_pct": -16.0,
       "period_category": "N",
       "scraped_at": "2026-06-15T12:17:43"
+    },
+    {
+      "date": "2026-06-16",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-16",
+      "level": "district",
+      "subdivision": "WEST BENGAL",
+      "state": "WEST BENGAL",
+      "district": "SOUTH DINAJPUR",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 8.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 82.3,
+      "period_normal_mm": 106.4,
+      "period_departure_pct": -23.0,
+      "period_category": "D",
+      "scraped_at": "2026-06-16T11:12:48"
     }
   ]
 }

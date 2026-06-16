@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "ASHOKNAGAR",
-  "row_count": 52,
+  "row_count": 53,
   "rows": [
     {
       "date": "2026-04-13",
@@ -938,6 +938,24 @@
       "period_departure_pct": 74.0,
       "period_category": "LE",
       "scraped_at": "2026-06-15T12:17:43"
+    },
+    {
+      "date": "2026-06-16",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-16",
+      "level": "district",
+      "subdivision": "WEST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "ASHOKNAGAR",
+      "day_actual_mm": 6.3,
+      "day_normal_mm": 4.0,
+      "day_departure_pct": 56.0,
+      "day_category": "E",
+      "period_actual_mm": 38.0,
+      "period_normal_mm": 22.2,
+      "period_departure_pct": 71.0,
+      "period_category": "LE",
+      "scraped_at": "2026-06-16T11:12:48"
     }
   ]
 }

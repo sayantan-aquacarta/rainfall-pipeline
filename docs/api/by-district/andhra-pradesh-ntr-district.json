@@ -1,7 +1,7 @@
 {
   "state": "ANDHRA PRADESH",
   "district": "NTR DISTRICT",
-  "row_count": 52,
+  "row_count": 53,
   "rows": [
     {
       "date": "2026-04-13",
@@ -938,6 +938,24 @@
       "period_departure_pct": 66.0,
       "period_category": "LE",
       "scraped_at": "2026-06-15T12:17:43"
+    },
+    {
+      "date": "2026-06-16",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-16",
+      "level": "district",
+      "subdivision": "ANDHRA PRADESH",
+      "state": "ANDHRA PRADESH",
+      "district": "NTR DISTRICT",
+      "day_actual_mm": 1.7,
+      "day_normal_mm": 7.4,
+      "day_departure_pct": -77.0,
+      "day_category": "LD",
+      "period_actual_mm": 94.8,
+      "period_normal_mm": 63.5,
+      "period_departure_pct": 49.0,
+      "period_category": "E",
+      "scraped_at": "2026-06-16T11:12:48"
     }
   ]
 }

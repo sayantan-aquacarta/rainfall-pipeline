@@ -1,7 +1,7 @@
 {
   "state": "HARYANA",
   "district": "MAHENDRAGARH",
-  "row_count": 52,
+  "row_count": 53,
   "rows": [
     {
       "date": "2026-04-13",
@@ -938,6 +938,24 @@
       "period_departure_pct": 77.0,
       "period_category": "LE",
       "scraped_at": "2026-06-15T12:17:43"
+    },
+    {
+      "date": "2026-06-16",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-16",
+      "level": "district",
+      "subdivision": "HARYANA",
+      "state": "HARYANA",
+      "district": "MAHENDRAGARH",
+      "day_actual_mm": 12.3,
+      "day_normal_mm": 1.2,
+      "day_departure_pct": 924.0,
+      "day_category": "LE",
+      "period_actual_mm": 43.3,
+      "period_normal_mm": 18.7,
+      "period_departure_pct": 132.0,
+      "period_category": "LE",
+      "scraped_at": "2026-06-16T11:12:48"
     }
   ]
 }

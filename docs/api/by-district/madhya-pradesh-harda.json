@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "HARDA",
-  "row_count": 52,
+  "row_count": 53,
   "rows": [
     {
       "date": "2026-04-13",
@@ -938,6 +938,24 @@
       "period_departure_pct": 12.0,
       "period_category": "N",
       "scraped_at": "2026-06-15T12:17:43"
+    },
+    {
+      "date": "2026-06-16",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-16",
+      "level": "district",
+      "subdivision": "WEST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "HARDA",
+      "day_actual_mm": 2.1,
+      "day_normal_mm": 5.4,
+      "day_departure_pct": -61.0,
+      "day_category": "LD",
+      "period_actual_mm": 39.5,
+      "period_normal_mm": 38.9,
+      "period_departure_pct": 1.0,
+      "period_category": "N",
+      "scraped_at": "2026-06-16T11:12:48"
     }
   ]
 }
