@@ -1,7 +1,7 @@
 {
   "state": "TRIPURA",
   "district": "GOMATI",
-  "row_count": 53,
+  "row_count": 54,
   "rows": [
     {
       "date": "2026-04-13",
@@ -956,6 +956,24 @@
       "period_departure_pct": -27.0,
       "period_category": "D",
       "scraped_at": "2026-06-16T11:12:48"
+    },
+    {
+      "date": "2026-06-17",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-17",
+      "level": "district",
+      "subdivision": "TRIPURA",
+      "state": "TRIPURA",
+      "district": "GOMATI",
+      "day_actual_mm": 1.4,
+      "day_normal_mm": 15.8,
+      "day_departure_pct": -91.0,
+      "day_category": "LD",
+      "period_actual_mm": 153.6,
+      "period_normal_mm": 225.6,
+      "period_departure_pct": -32.0,
+      "period_category": "D",
+      "scraped_at": "2026-06-17T10:58:53"
     }
   ]
 }
