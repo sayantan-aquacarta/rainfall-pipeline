@@ -1,7 +1,7 @@
 {
   "state": "KARNATAKA",
   "district": "BENGALURU RURAL",
-  "row_count": 52,
+  "row_count": 53,
   "rows": [
     {
       "date": "2026-04-13",
@@ -938,6 +938,24 @@
       "period_departure_pct": 126.0,
       "period_category": "LE",
       "scraped_at": "2026-06-17T10:58:53"
+    },
+    {
+      "date": "2026-06-18",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-18",
+      "level": "district",
+      "subdivision": "SOUTHERN INTERIOR KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "BENGALURU RURAL",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.8,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 114.2,
+      "period_normal_mm": 51.4,
+      "period_departure_pct": 122.0,
+      "period_category": "LE",
+      "scraped_at": "2026-06-18T10:22:47"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "ASSAM",
   "district": "CHIRANG",
-  "row_count": 44,
+  "row_count": 45,
   "rows": [
     {
       "date": "2026-04-17",
@@ -794,6 +794,24 @@
       "period_departure_pct": -33.0,
       "period_category": "D",
       "scraped_at": "2026-06-17T10:58:53"
+    },
+    {
+      "date": "2026-06-18",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-18",
+      "level": "district",
+      "subdivision": "ASSAM",
+      "state": "ASSAM",
+      "district": "CHIRANG",
+      "day_actual_mm": 8.0,
+      "day_normal_mm": 22.7,
+      "day_departure_pct": -65.0,
+      "day_category": "LD",
+      "period_actual_mm": 263.6,
+      "period_normal_mm": 404.0,
+      "period_departure_pct": -35.0,
+      "period_category": "D",
+      "scraped_at": "2026-06-18T10:22:47"
     }
   ]
 }

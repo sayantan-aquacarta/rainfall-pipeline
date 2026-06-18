@@ -1,7 +1,7 @@
 {
   "state": "JAMMU & KASHMIR(UT)",
   "district": "KULGAM",
-  "row_count": 54,
+  "row_count": 55,
   "rows": [
     {
       "date": "2026-04-13",
@@ -974,6 +974,24 @@
       "period_departure_pct": -29.0,
       "period_category": "D",
       "scraped_at": "2026-06-17T10:58:53"
+    },
+    {
+      "date": "2026-06-18",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-18",
+      "level": "district",
+      "subdivision": "JAMMU & KASHMIR (UT)",
+      "state": "JAMMU & KASHMIR(UT)",
+      "district": "KULGAM",
+      "day_actual_mm": 0.1,
+      "day_normal_mm": 2.0,
+      "day_departure_pct": -95.0,
+      "day_category": "LD",
+      "period_actual_mm": 27.2,
+      "period_normal_mm": 40.1,
+      "period_departure_pct": -32.0,
+      "period_category": "D",
+      "scraped_at": "2026-06-18T10:22:47"
     }
   ]
 }
