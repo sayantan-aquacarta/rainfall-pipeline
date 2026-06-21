@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "NEEMUCH",
-  "row_count": 55,
+  "row_count": 56,
   "rows": [
     {
       "date": "2026-04-13",
@@ -992,6 +992,24 @@
       "period_departure_pct": 87.0,
       "period_category": "LE",
       "scraped_at": "2026-06-20T09:16:57"
+    },
+    {
+      "date": "2026-06-21",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-21",
+      "level": "district",
+      "subdivision": "WEST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "NEEMUCH",
+      "day_actual_mm": 1.8,
+      "day_normal_mm": 2.8,
+      "day_departure_pct": -35.0,
+      "day_category": "D",
+      "period_actual_mm": 88.4,
+      "period_normal_mm": 43.2,
+      "period_departure_pct": 105.0,
+      "period_category": "LE",
+      "scraped_at": "2026-06-21T09:52:08"
     }
   ]
 }

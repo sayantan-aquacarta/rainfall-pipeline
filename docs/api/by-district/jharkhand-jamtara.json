@@ -1,7 +1,7 @@
 {
   "state": "JHARKHAND",
   "district": "JAMTARA",
-  "row_count": 55,
+  "row_count": 56,
   "rows": [
     {
       "date": "2026-04-13",
@@ -992,6 +992,24 @@
       "period_departure_pct": -71.0,
       "period_category": "LD",
       "scraped_at": "2026-06-20T09:16:57"
+    },
+    {
+      "date": "2026-06-21",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-21",
+      "level": "district",
+      "subdivision": "JHARKHAND",
+      "state": "JHARKHAND",
+      "district": "JAMTARA",
+      "day_actual_mm": 4.1,
+      "day_normal_mm": 9.1,
+      "day_departure_pct": -55.0,
+      "day_category": "D",
+      "period_actual_mm": 33.2,
+      "period_normal_mm": 117.1,
+      "period_departure_pct": -72.0,
+      "period_category": "LD",
+      "scraped_at": "2026-06-21T09:52:08"
     }
   ]
 }

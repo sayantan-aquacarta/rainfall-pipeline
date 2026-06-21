@@ -1,7 +1,7 @@
 {
   "state": "ANDHRA PRADESH",
   "district": "BAPATLA",
-  "row_count": 55,
+  "row_count": 56,
   "rows": [
     {
       "date": "2026-04-13",
@@ -992,6 +992,24 @@
       "period_departure_pct": 34.0,
       "period_category": "E",
       "scraped_at": "2026-06-20T09:16:57"
+    },
+    {
+      "date": "2026-06-21",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-21",
+      "level": "district",
+      "subdivision": "ANDHRA PRADESH",
+      "state": "ANDHRA PRADESH",
+      "district": "BAPATLA",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 1.8,
+      "day_departure_pct": -99.0,
+      "day_category": "LD",
+      "period_actual_mm": 76.4,
+      "period_normal_mm": 57.0,
+      "period_departure_pct": 34.0,
+      "period_category": "E",
+      "scraped_at": "2026-06-21T09:52:08"
     }
   ]
 }
