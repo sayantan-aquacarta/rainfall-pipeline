@@ -1,7 +1,7 @@
 {
   "state": "WEST BENGAL",
   "district": "PURULIA",
-  "row_count": 56,
+  "row_count": 57,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1010,6 +1010,24 @@
       "period_departure_pct": -32.0,
       "period_category": "D",
       "scraped_at": "2026-06-21T09:52:08"
+    },
+    {
+      "date": "2026-06-22",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-22",
+      "level": "district",
+      "subdivision": "GANGETIC WEST BENGAL",
+      "state": "WEST BENGAL",
+      "district": "PURULIA",
+      "day_actual_mm": 3.3,
+      "day_normal_mm": 11.2,
+      "day_departure_pct": -70.0,
+      "day_category": "LD",
+      "period_actual_mm": 94.3,
+      "period_normal_mm": 144.6,
+      "period_departure_pct": -35.0,
+      "period_category": "D",
+      "scraped_at": "2026-06-22T11:57:38"
     }
   ]
 }

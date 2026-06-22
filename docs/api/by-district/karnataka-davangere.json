@@ -1,7 +1,7 @@
 {
   "state": "KARNATAKA",
   "district": "DAVANGERE",
-  "row_count": 56,
+  "row_count": 57,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1010,6 +1010,24 @@
       "period_departure_pct": -49.0,
       "period_category": "D",
       "scraped_at": "2026-06-21T09:52:08"
+    },
+    {
+      "date": "2026-06-22",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-22",
+      "level": "district",
+      "subdivision": "SOUTHERN INTERIOR KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "DAVANGERE",
+      "day_actual_mm": 0.4,
+      "day_normal_mm": 1.8,
+      "day_departure_pct": -76.0,
+      "day_category": "LD",
+      "period_actual_mm": 29.8,
+      "period_normal_mm": 59.1,
+      "period_departure_pct": -50.0,
+      "period_category": "D",
+      "scraped_at": "2026-06-22T11:57:38"
     }
   ]
 }

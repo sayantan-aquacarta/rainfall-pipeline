@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "UMARIA",
-  "row_count": 56,
+  "row_count": 57,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1010,6 +1010,24 @@
       "period_departure_pct": -66.0,
       "period_category": "LD",
       "scraped_at": "2026-06-21T09:52:08"
+    },
+    {
+      "date": "2026-06-22",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-22",
+      "level": "district",
+      "subdivision": "EAST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "UMARIA",
+      "day_actual_mm": 1.1,
+      "day_normal_mm": 8.7,
+      "day_departure_pct": -87.0,
+      "day_category": "LD",
+      "period_actual_mm": 23.3,
+      "period_normal_mm": 74.3,
+      "period_departure_pct": -69.0,
+      "period_category": "LD",
+      "scraped_at": "2026-06-22T11:57:38"
     }
   ]
 }
