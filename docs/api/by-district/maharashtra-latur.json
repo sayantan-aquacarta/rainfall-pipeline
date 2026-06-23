@@ -1,7 +1,7 @@
 {
   "state": "MAHARASHTRA",
   "district": "LATUR",
-  "row_count": 57,
+  "row_count": 58,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1028,6 +1028,24 @@
       "period_departure_pct": -55.0,
       "period_category": "D",
       "scraped_at": "2026-06-22T11:57:38"
+    },
+    {
+      "date": "2026-06-23",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-23",
+      "level": "district",
+      "subdivision": "MARATHWADA",
+      "state": "MAHARASHTRA",
+      "district": "LATUR",
+      "day_actual_mm": 7.3,
+      "day_normal_mm": 6.3,
+      "day_departure_pct": 15.0,
+      "day_category": "N",
+      "period_actual_mm": 51.5,
+      "period_normal_mm": 104.7,
+      "period_departure_pct": -51.0,
+      "period_category": "D",
+      "scraped_at": "2026-06-23T09:41:48"
     }
   ]
 }

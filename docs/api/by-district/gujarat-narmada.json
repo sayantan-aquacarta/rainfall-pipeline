@@ -1,7 +1,7 @@
 {
   "state": "GUJARAT",
   "district": "NARMADA",
-  "row_count": 57,
+  "row_count": 58,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1028,6 +1028,24 @@
       "period_departure_pct": -89.0,
       "period_category": "LD",
       "scraped_at": "2026-06-22T11:57:38"
+    },
+    {
+      "date": "2026-06-23",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-23",
+      "level": "district",
+      "subdivision": "GUJARAT",
+      "state": "GUJARAT",
+      "district": "NARMADA",
+      "day_actual_mm": 8.6,
+      "day_normal_mm": 3.6,
+      "day_departure_pct": 138.0,
+      "day_category": "LE",
+      "period_actual_mm": 19.3,
+      "period_normal_mm": 97.7,
+      "period_departure_pct": -80.0,
+      "period_category": "LD",
+      "scraped_at": "2026-06-23T09:41:48"
     }
   ]
 }

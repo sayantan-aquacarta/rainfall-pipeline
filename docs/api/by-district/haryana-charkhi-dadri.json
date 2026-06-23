@@ -1,7 +1,7 @@
 {
   "state": "HARYANA",
   "district": "CHARKHI DADRI",
-  "row_count": 57,
+  "row_count": 58,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1028,6 +1028,24 @@
       "period_departure_pct": 10.0,
       "period_category": "N",
       "scraped_at": "2026-06-22T11:57:38"
+    },
+    {
+      "date": "2026-06-23",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-23",
+      "level": "district",
+      "subdivision": "HARYANA",
+      "state": "HARYANA",
+      "district": "CHARKHI DADRI",
+      "day_actual_mm": 0.5,
+      "day_normal_mm": 0.2,
+      "day_departure_pct": 151.0,
+      "day_category": "LE",
+      "period_actual_mm": 36.1,
+      "period_normal_mm": 32.4,
+      "period_departure_pct": 11.0,
+      "period_category": "N",
+      "scraped_at": "2026-06-23T09:41:48"
     }
   ]
 }

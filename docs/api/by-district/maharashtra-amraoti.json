@@ -1,7 +1,7 @@
 {
   "state": "MAHARASHTRA",
   "district": "AMRAOTI",
-  "row_count": 57,
+  "row_count": 58,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1028,6 +1028,24 @@
       "period_departure_pct": -75.0,
       "period_category": "LD",
       "scraped_at": "2026-06-22T11:57:38"
+    },
+    {
+      "date": "2026-06-23",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-23",
+      "level": "district",
+      "subdivision": "VIDARBHA",
+      "state": "MAHARASHTRA",
+      "district": "AMRAOTI",
+      "day_actual_mm": 9.7,
+      "day_normal_mm": 5.4,
+      "day_departure_pct": 80.0,
+      "day_category": "LE",
+      "period_actual_mm": 33.6,
+      "period_normal_mm": 100.5,
+      "period_departure_pct": -67.0,
+      "period_category": "LD",
+      "scraped_at": "2026-06-23T09:41:48"
     }
   ]
 }
