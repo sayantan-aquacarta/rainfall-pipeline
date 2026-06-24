@@ -1,7 +1,7 @@
 {
   "state": "SIKKIM",
   "district": "Soreng",
-  "row_count": 18,
+  "row_count": 19,
   "rows": [
     {
       "date": "2026-06-01",
@@ -326,6 +326,24 @@
       "period_departure_pct": 58.0,
       "period_category": "E",
       "scraped_at": "2026-06-23T09:41:48"
+    },
+    {
+      "date": "2026-06-24",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-24",
+      "level": "district",
+      "subdivision": "SIKKIM",
+      "state": "SIKKIM",
+      "district": "Soreng",
+      "day_actual_mm": 68.5,
+      "day_normal_mm": 15.3,
+      "day_departure_pct": 348.0,
+      "day_category": "LE",
+      "period_actual_mm": 510.5,
+      "period_normal_mm": 294.8,
+      "period_departure_pct": 73.0,
+      "period_category": "LE",
+      "scraped_at": "2026-06-24T09:32:28"
     }
   ]
 }

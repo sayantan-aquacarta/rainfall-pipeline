@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "LUCKNOW",
-  "row_count": 58,
+  "row_count": 59,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1046,6 +1046,24 @@
       "period_departure_pct": -83.0,
       "period_category": "LD",
       "scraped_at": "2026-06-23T09:41:48"
+    },
+    {
+      "date": "2026-06-24",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-24",
+      "level": "district",
+      "subdivision": "EAST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "LUCKNOW",
+      "day_actual_mm": 1.5,
+      "day_normal_mm": 3.7,
+      "day_departure_pct": -61.0,
+      "day_category": "LD",
+      "period_actual_mm": 9.7,
+      "period_normal_mm": 51.0,
+      "period_departure_pct": -81.0,
+      "period_category": "LD",
+      "scraped_at": "2026-06-24T09:32:28"
     }
   ]
 }
