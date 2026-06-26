@@ -1,7 +1,7 @@
 {
   "state": "PUNJAB",
   "district": "LUDHIANA",
-  "row_count": 59,
+  "row_count": 60,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1064,6 +1064,24 @@
       "period_departure_pct": 9.0,
       "period_category": "N",
       "scraped_at": "2026-06-25T09:24:16"
+    },
+    {
+      "date": "2026-06-26",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-26",
+      "level": "district",
+      "subdivision": "PUNJAB",
+      "state": "PUNJAB",
+      "district": "LUDHIANA",
+      "day_actual_mm": 0.1,
+      "day_normal_mm": 3.1,
+      "day_departure_pct": -96.0,
+      "day_category": "LD",
+      "period_actual_mm": 42.4,
+      "period_normal_mm": 44.0,
+      "period_departure_pct": -4.0,
+      "period_category": "N",
+      "scraped_at": "2026-06-26T09:29:52"
     }
   ]
 }

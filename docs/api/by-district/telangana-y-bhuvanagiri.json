@@ -1,7 +1,7 @@
 {
   "state": "TELANGANA",
   "district": "Y. BHUVANAGIRI",
-  "row_count": 59,
+  "row_count": 60,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1064,6 +1064,24 @@
       "period_departure_pct": -43.0,
       "period_category": "D",
       "scraped_at": "2026-06-25T09:24:16"
+    },
+    {
+      "date": "2026-06-26",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-26",
+      "level": "district",
+      "subdivision": "TELANGANA",
+      "state": "TELANGANA",
+      "district": "Y. BHUVANAGIRI",
+      "day_actual_mm": 0.1,
+      "day_normal_mm": 4.5,
+      "day_departure_pct": -98.0,
+      "day_category": "LD",
+      "period_actual_mm": 52.0,
+      "period_normal_mm": 95.2,
+      "period_departure_pct": -45.0,
+      "period_category": "D",
+      "scraped_at": "2026-06-26T09:29:52"
     }
   ]
 }

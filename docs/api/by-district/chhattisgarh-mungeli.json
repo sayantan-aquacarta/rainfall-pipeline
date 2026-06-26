@@ -1,7 +1,7 @@
 {
   "state": "CHHATTISGARH",
   "district": "MUNGELI",
-  "row_count": 59,
+  "row_count": 60,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1064,6 +1064,24 @@
       "period_departure_pct": -68.0,
       "period_category": "LD",
       "scraped_at": "2026-06-25T09:24:16"
+    },
+    {
+      "date": "2026-06-26",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-26",
+      "level": "district",
+      "subdivision": "CHHATTISGARH",
+      "state": "CHHATTISGARH",
+      "district": "MUNGELI",
+      "day_actual_mm": 5.5,
+      "day_normal_mm": 6.1,
+      "day_departure_pct": -11.0,
+      "day_category": "N",
+      "period_actual_mm": 37.8,
+      "period_normal_mm": 114.2,
+      "period_departure_pct": -67.0,
+      "period_category": "LD",
+      "scraped_at": "2026-06-26T09:29:52"
     }
   ]
 }

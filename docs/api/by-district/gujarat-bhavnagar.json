@@ -1,7 +1,7 @@
 {
   "state": "GUJARAT",
   "district": "BHAVNAGAR",
-  "row_count": 59,
+  "row_count": 60,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1064,6 +1064,24 @@
       "period_departure_pct": -84.0,
       "period_category": "LD",
       "scraped_at": "2026-06-25T09:24:16"
+    },
+    {
+      "date": "2026-06-26",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-26",
+      "level": "district",
+      "subdivision": "GUJARAT",
+      "state": "GUJARAT",
+      "district": "BHAVNAGAR",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 8.4,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 12.8,
+      "period_normal_mm": 93.6,
+      "period_departure_pct": -86.0,
+      "period_category": "LD",
+      "scraped_at": "2026-06-26T09:29:52"
     }
   ]
 }

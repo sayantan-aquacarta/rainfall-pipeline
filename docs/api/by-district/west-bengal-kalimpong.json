@@ -1,7 +1,7 @@
 {
   "state": "WEST BENGAL",
   "district": "KALIMPONG",
-  "row_count": 59,
+  "row_count": 60,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1064,6 +1064,24 @@
       "period_departure_pct": -20.0,
       "period_category": "D",
       "scraped_at": "2026-06-25T09:24:16"
+    },
+    {
+      "date": "2026-06-26",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-26",
+      "level": "district",
+      "subdivision": "WEST BENGAL",
+      "state": "WEST BENGAL",
+      "district": "KALIMPONG",
+      "day_actual_mm": 20.4,
+      "day_normal_mm": 23.2,
+      "day_departure_pct": -12.0,
+      "day_category": "N",
+      "period_actual_mm": 344.6,
+      "period_normal_mm": 434.1,
+      "period_departure_pct": -21.0,
+      "period_category": "D",
+      "scraped_at": "2026-06-26T09:29:52"
     }
   ]
 }
