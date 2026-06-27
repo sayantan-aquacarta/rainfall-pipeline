@@ -1,7 +1,7 @@
 {
   "state": "RAJASTHAN",
   "district": "TONK",
-  "row_count": 60,
+  "row_count": 61,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1082,6 +1082,24 @@
       "period_departure_pct": 104.0,
       "period_category": "LE",
       "scraped_at": "2026-06-26T09:29:52"
+    },
+    {
+      "date": "2026-06-27",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-27",
+      "level": "district",
+      "subdivision": "EAST RAJASTHAN",
+      "state": "RAJASTHAN",
+      "district": "TONK",
+      "day_actual_mm": 2.3,
+      "day_normal_mm": 3.6,
+      "day_departure_pct": -35.0,
+      "day_category": "D",
+      "period_actual_mm": 84.9,
+      "period_normal_mm": 44.0,
+      "period_departure_pct": 93.0,
+      "period_category": "LE",
+      "scraped_at": "2026-06-27T08:37:21"
     }
   ]
 }

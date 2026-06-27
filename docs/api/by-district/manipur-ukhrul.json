@@ -1,7 +1,7 @@
 {
   "state": "MANIPUR",
   "district": "UKHRUL",
-  "row_count": 59,
+  "row_count": 60,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1064,6 +1064,24 @@
       "period_departure_pct": -65.0,
       "period_category": "LD",
       "scraped_at": "2026-06-26T09:29:52"
+    },
+    {
+      "date": "2026-06-27",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-27",
+      "level": "district",
+      "subdivision": "MANIPUR",
+      "state": "MANIPUR",
+      "district": "UKHRUL",
+      "day_actual_mm": 1.6,
+      "day_normal_mm": 12.6,
+      "day_departure_pct": -88.0,
+      "day_category": "LD",
+      "period_actual_mm": 93.6,
+      "period_normal_mm": 278.9,
+      "period_departure_pct": -66.0,
+      "period_category": "LD",
+      "scraped_at": "2026-06-27T08:37:21"
     }
   ]
 }

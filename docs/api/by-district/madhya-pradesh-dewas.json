@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "DEWAS",
-  "row_count": 60,
+  "row_count": 61,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1082,6 +1082,24 @@
       "period_departure_pct": 32.0,
       "period_category": "E",
       "scraped_at": "2026-06-26T09:29:52"
+    },
+    {
+      "date": "2026-06-27",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-27",
+      "level": "district",
+      "subdivision": "WEST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "DEWAS",
+      "day_actual_mm": 25.0,
+      "day_normal_mm": 8.2,
+      "day_departure_pct": 205.0,
+      "day_category": "LE",
+      "period_actual_mm": 162.7,
+      "period_normal_mm": 112.3,
+      "period_departure_pct": 45.0,
+      "period_category": "E",
+      "scraped_at": "2026-06-27T08:37:21"
     }
   ]
 }
