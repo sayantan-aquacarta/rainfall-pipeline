@@ -1,7 +1,7 @@
 {
   "state": "CHHATTISGARH",
   "district": "DURG",
-  "row_count": 61,
+  "row_count": 62,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1100,6 +1100,24 @@
       "period_departure_pct": -65.0,
       "period_category": "LD",
       "scraped_at": "2026-06-27T08:37:21"
+    },
+    {
+      "date": "2026-06-28",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-28",
+      "level": "district",
+      "subdivision": "CHHATTISGARH",
+      "state": "CHHATTISGARH",
+      "district": "DURG",
+      "day_actual_mm": 7.3,
+      "day_normal_mm": 14.3,
+      "day_departure_pct": -49.0,
+      "day_category": "D",
+      "period_actual_mm": 65.8,
+      "period_normal_mm": 183.3,
+      "period_departure_pct": -64.0,
+      "period_category": "LD",
+      "scraped_at": "2026-06-28T08:53:54"
     }
   ]
 }

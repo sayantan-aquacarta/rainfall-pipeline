@@ -1,7 +1,7 @@
 {
   "state": "TELANGANA",
   "district": "SIDDIPET",
-  "row_count": 61,
+  "row_count": 62,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1100,6 +1100,24 @@
       "period_departure_pct": -73.0,
       "period_category": "LD",
       "scraped_at": "2026-06-27T08:37:21"
+    },
+    {
+      "date": "2026-06-28",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-28",
+      "level": "district",
+      "subdivision": "TELANGANA",
+      "state": "TELANGANA",
+      "district": "SIDDIPET",
+      "day_actual_mm": 7.2,
+      "day_normal_mm": 5.7,
+      "day_departure_pct": 27.0,
+      "day_category": "E",
+      "period_actual_mm": 33.5,
+      "period_normal_mm": 101.2,
+      "period_departure_pct": -67.0,
+      "period_category": "LD",
+      "scraped_at": "2026-06-28T08:53:54"
     }
   ]
 }
