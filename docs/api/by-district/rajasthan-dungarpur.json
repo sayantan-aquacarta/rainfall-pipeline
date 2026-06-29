@@ -1,7 +1,7 @@
 {
   "state": "RAJASTHAN",
   "district": "DUNGARPUR",
-  "row_count": 62,
+  "row_count": 63,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1118,6 +1118,24 @@
       "period_departure_pct": -58.0,
       "period_category": "D",
       "scraped_at": "2026-06-28T08:53:54"
+    },
+    {
+      "date": "2026-06-29",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-29",
+      "level": "district",
+      "subdivision": "EAST RAJASTHAN",
+      "state": "RAJASTHAN",
+      "district": "DUNGARPUR",
+      "day_actual_mm": 0.6,
+      "day_normal_mm": 7.7,
+      "day_departure_pct": -92.0,
+      "day_category": "LD",
+      "period_actual_mm": 32.4,
+      "period_normal_mm": 82.8,
+      "period_departure_pct": -61.0,
+      "period_category": "LD",
+      "scraped_at": "2026-06-29T11:02:06"
     }
   ]
 }

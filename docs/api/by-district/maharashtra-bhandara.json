@@ -1,7 +1,7 @@
 {
   "state": "MAHARASHTRA",
   "district": "BHANDARA",
-  "row_count": 61,
+  "row_count": 62,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1100,6 +1100,24 @@
       "period_departure_pct": -63.0,
       "period_category": "LD",
       "scraped_at": "2026-06-28T08:53:54"
+    },
+    {
+      "date": "2026-06-29",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-29",
+      "level": "district",
+      "subdivision": "VIDARBHA",
+      "state": "MAHARASHTRA",
+      "district": "BHANDARA",
+      "day_actual_mm": 7.6,
+      "day_normal_mm": 9.9,
+      "day_departure_pct": -24.0,
+      "day_category": "D",
+      "period_actual_mm": 71.1,
+      "period_normal_mm": 180.3,
+      "period_departure_pct": -61.0,
+      "period_category": "LD",
+      "scraped_at": "2026-06-29T11:02:06"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "VIDISHA",
-  "row_count": 62,
+  "row_count": 63,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1118,6 +1118,24 @@
       "period_departure_pct": -18.0,
       "period_category": "N",
       "scraped_at": "2026-06-28T08:53:54"
+    },
+    {
+      "date": "2026-06-29",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-29",
+      "level": "district",
+      "subdivision": "WEST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "VIDISHA",
+      "day_actual_mm": 5.8,
+      "day_normal_mm": 8.3,
+      "day_departure_pct": -30.0,
+      "day_category": "D",
+      "period_actual_mm": 111.6,
+      "period_normal_mm": 136.6,
+      "period_departure_pct": -18.0,
+      "period_category": "N",
+      "scraped_at": "2026-06-29T11:02:06"
     }
   ]
 }

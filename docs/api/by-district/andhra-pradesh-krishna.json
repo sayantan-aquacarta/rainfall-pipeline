@@ -1,7 +1,7 @@
 {
   "state": "ANDHRA PRADESH",
   "district": "KRISHNA",
-  "row_count": 62,
+  "row_count": 63,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1118,6 +1118,24 @@
       "period_departure_pct": 15.0,
       "period_category": "N",
       "scraped_at": "2026-06-28T08:53:54"
+    },
+    {
+      "date": "2026-06-29",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-29",
+      "level": "district",
+      "subdivision": "ANDHRA PRADESH",
+      "state": "ANDHRA PRADESH",
+      "district": "KRISHNA",
+      "day_actual_mm": 11.1,
+      "day_normal_mm": 3.5,
+      "day_departure_pct": 216.0,
+      "day_category": "LE",
+      "period_actual_mm": 143.3,
+      "period_normal_mm": 118.8,
+      "period_departure_pct": 21.0,
+      "period_category": "E",
+      "scraped_at": "2026-06-29T11:02:06"
     }
   ]
 }
