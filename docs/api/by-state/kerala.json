@@ -16326,7 +16326,7 @@
       "period_normal_mm": 530.8,
       "period_departure_pct": -30.0,
       "period_category": "D",
-      "scraped_at": "2026-06-29T11:02:06"
+      "scraped_at": "2026-06-30T09:38:10"
     },
     {
       "date": "2026-06-29",
@@ -16344,7 +16344,7 @@
       "period_normal_mm": 671.9,
       "period_departure_pct": -21.0,
       "period_category": "D",
-      "scraped_at": "2026-06-29T11:02:06"
+      "scraped_at": "2026-06-30T09:38:10"
     },
     {
       "date": "2026-06-29",
@@ -16362,7 +16362,7 @@
       "period_normal_mm": 706.1,
       "period_departure_pct": -52.0,
       "period_category": "D",
-      "scraped_at": "2026-06-29T11:02:06"
+      "scraped_at": "2026-06-30T09:38:10"
     },
     {
       "date": "2026-06-29",
@@ -16380,7 +16380,7 @@
       "period_normal_mm": 841.1,
       "period_departure_pct": -42.0,
       "period_category": "D",
-      "scraped_at": "2026-06-29T11:02:06"
+      "scraped_at": "2026-06-30T09:38:10"
     },
     {
       "date": "2026-06-29",
@@ -16398,7 +16398,7 @@
       "period_normal_mm": 941.0,
       "period_departure_pct": -41.0,
       "period_category": "D",
-      "scraped_at": "2026-06-29T11:02:06"
+      "scraped_at": "2026-06-30T09:38:10"
     },
     {
       "date": "2026-06-29",
@@ -16416,7 +16416,7 @@
       "period_normal_mm": 411.4,
       "period_departure_pct": -32.0,
       "period_category": "D",
-      "scraped_at": "2026-06-29T11:02:06"
+      "scraped_at": "2026-06-30T09:38:10"
     },
     {
       "date": "2026-06-29",
@@ -16434,7 +16434,7 @@
       "period_normal_mm": 617.9,
       "period_departure_pct": -14.0,
       "period_category": "N",
-      "scraped_at": "2026-06-29T11:02:06"
+      "scraped_at": "2026-06-30T09:38:10"
     },
     {
       "date": "2026-06-29",
@@ -16452,7 +16452,7 @@
       "period_normal_mm": 847.1,
       "period_departure_pct": -25.0,
       "period_category": "D",
-      "scraped_at": "2026-06-29T11:02:06"
+      "scraped_at": "2026-06-30T09:38:10"
     },
     {
       "date": "2026-06-29",
@@ -16470,7 +16470,7 @@
       "period_normal_mm": 599.3,
       "period_departure_pct": -24.0,
       "period_category": "D",
-      "scraped_at": "2026-06-29T11:02:06"
+      "scraped_at": "2026-06-30T09:38:10"
     },
     {
       "date": "2026-06-29",
@@ -16488,7 +16488,7 @@
       "period_normal_mm": 440.6,
       "period_departure_pct": -41.0,
       "period_category": "D",
-      "scraped_at": "2026-06-29T11:02:06"
+      "scraped_at": "2026-06-30T09:38:10"
     },
     {
       "date": "2026-06-29",
@@ -16506,7 +16506,7 @@
       "period_normal_mm": 491.2,
       "period_departure_pct": -12.0,
       "period_category": "N",
-      "scraped_at": "2026-06-29T11:02:06"
+      "scraped_at": "2026-06-30T09:38:10"
     },
     {
       "date": "2026-06-29",
@@ -16524,7 +16524,7 @@
       "period_normal_mm": 304.2,
       "period_departure_pct": 6.0,
       "period_category": "N",
-      "scraped_at": "2026-06-29T11:02:06"
+      "scraped_at": "2026-06-30T09:38:10"
     },
     {
       "date": "2026-06-29",
@@ -16542,7 +16542,7 @@
       "period_normal_mm": 678.3,
       "period_departure_pct": -34.0,
       "period_category": "D",
-      "scraped_at": "2026-06-29T11:02:06"
+      "scraped_at": "2026-06-30T09:38:10"
     },
     {
       "date": "2026-06-29",
@@ -16560,7 +16560,7 @@
       "period_normal_mm": 671.1,
       "period_departure_pct": -65.0,
       "period_category": "LD",
-      "scraped_at": "2026-06-29T11:02:06"
+      "scraped_at": "2026-06-30T09:38:10"
     }
   ]
 }
