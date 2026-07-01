@@ -1,7 +1,7 @@
 {
   "state": "JAMMU & KASHMIR(UT)",
   "district": "DODA",
-  "row_count": 62,
+  "row_count": 63,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1118,6 +1118,24 @@
       "period_departure_pct": -10.0,
       "period_category": "N",
       "scraped_at": "2026-06-30T09:38:10"
+    },
+    {
+      "date": "2026-07-01",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-01",
+      "level": "district",
+      "subdivision": "JAMMU & KASHMIR (UT)",
+      "state": "JAMMU & KASHMIR(UT)",
+      "district": "DODA",
+      "day_actual_mm": 5.4,
+      "day_normal_mm": 4.0,
+      "day_departure_pct": 35.0,
+      "day_category": "E",
+      "period_actual_mm": 71.6,
+      "period_normal_mm": 82.6,
+      "period_departure_pct": -13.0,
+      "period_category": "N",
+      "scraped_at": "2026-07-01T09:49:39"
     }
   ]
 }

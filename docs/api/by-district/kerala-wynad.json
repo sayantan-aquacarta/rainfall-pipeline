@@ -1,7 +1,7 @@
 {
   "state": "KERALA",
   "district": "WYNAD",
-  "row_count": 63,
+  "row_count": 64,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1136,6 +1136,24 @@
       "period_departure_pct": -65.0,
       "period_category": "LD",
       "scraped_at": "2026-06-30T09:38:10"
+    },
+    {
+      "date": "2026-07-01",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-01",
+      "level": "district",
+      "subdivision": "KERALA",
+      "state": "KERALA",
+      "district": "WYNAD",
+      "day_actual_mm": 10.4,
+      "day_normal_mm": 29.2,
+      "day_departure_pct": -64.0,
+      "day_category": "LD",
+      "period_actual_mm": 249.7,
+      "period_normal_mm": 732.8,
+      "period_departure_pct": -66.0,
+      "period_category": "LD",
+      "scraped_at": "2026-07-01T09:49:39"
     }
   ]
 }

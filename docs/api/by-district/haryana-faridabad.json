@@ -1,7 +1,7 @@
 {
   "state": "HARYANA",
   "district": "FARIDABAD",
-  "row_count": 63,
+  "row_count": 64,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1136,6 +1136,24 @@
       "period_departure_pct": 147.0,
       "period_category": "LE",
       "scraped_at": "2026-06-30T09:38:10"
+    },
+    {
+      "date": "2026-07-01",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-01",
+      "level": "district",
+      "subdivision": "HARYANA",
+      "state": "HARYANA",
+      "district": "FARIDABAD",
+      "day_actual_mm": 4.2,
+      "day_normal_mm": 3.6,
+      "day_departure_pct": 17.0,
+      "day_category": "N",
+      "period_actual_mm": 111.0,
+      "period_normal_mm": 49.7,
+      "period_departure_pct": 123.0,
+      "period_category": "LE",
+      "scraped_at": "2026-07-01T09:49:39"
     }
   ]
 }

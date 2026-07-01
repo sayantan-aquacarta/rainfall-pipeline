@@ -1,7 +1,7 @@
 {
   "state": "GUJARAT",
   "district": "NAVSARI",
-  "row_count": 63,
+  "row_count": 64,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1136,6 +1136,24 @@
       "period_departure_pct": -86.0,
       "period_category": "LD",
       "scraped_at": "2026-06-30T09:38:10"
+    },
+    {
+      "date": "2026-07-01",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-01",
+      "level": "district",
+      "subdivision": "GUJARAT",
+      "state": "GUJARAT",
+      "district": "NAVSARI",
+      "day_actual_mm": 59.6,
+      "day_normal_mm": 26.2,
+      "day_departure_pct": 128.0,
+      "day_category": "LE",
+      "period_actual_mm": 104.0,
+      "period_normal_mm": 348.3,
+      "period_departure_pct": -70.0,
+      "period_category": "LD",
+      "scraped_at": "2026-07-01T09:49:39"
     }
   ]
 }

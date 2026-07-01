@@ -1,7 +1,7 @@
 {
   "state": "RAJASTHAN",
   "district": "SAWAI MADHOPUR",
-  "row_count": 63,
+  "row_count": 64,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1136,6 +1136,24 @@
       "period_departure_pct": -32.0,
       "period_category": "D",
       "scraped_at": "2026-06-30T09:38:10"
+    },
+    {
+      "date": "2026-07-01",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-01",
+      "level": "district",
+      "subdivision": "EAST RAJASTHAN",
+      "state": "RAJASTHAN",
+      "district": "SAWAI MADHOPUR",
+      "day_actual_mm": 5.1,
+      "day_normal_mm": 5.6,
+      "day_departure_pct": -8.0,
+      "day_category": "N",
+      "period_actual_mm": 50.1,
+      "period_normal_mm": 77.1,
+      "period_departure_pct": -35.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-01T09:49:39"
     }
   ]
 }

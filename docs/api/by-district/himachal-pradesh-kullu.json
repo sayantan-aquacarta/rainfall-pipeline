@@ -1,7 +1,7 @@
 {
   "state": "HIMACHAL PRADESH",
   "district": "KULLU",
-  "row_count": 62,
+  "row_count": 63,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1118,6 +1118,24 @@
       "period_departure_pct": -57.0,
       "period_category": "D",
       "scraped_at": "2026-06-30T09:38:10"
+    },
+    {
+      "date": "2026-07-01",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-01",
+      "level": "district",
+      "subdivision": "HIMACHAL PRADESH",
+      "state": "HIMACHAL PRADESH",
+      "district": "KULLU",
+      "day_actual_mm": 18.6,
+      "day_normal_mm": 3.1,
+      "day_departure_pct": 501.0,
+      "day_category": "LE",
+      "period_actual_mm": 54.7,
+      "period_normal_mm": 90.0,
+      "period_departure_pct": -39.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-01T09:49:39"
     }
   ]
 }

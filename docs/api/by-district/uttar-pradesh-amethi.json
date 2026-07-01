@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "AMETHI",
-  "row_count": 63,
+  "row_count": 64,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1136,6 +1136,24 @@
       "period_departure_pct": -35.0,
       "period_category": "D",
       "scraped_at": "2026-06-30T09:38:10"
+    },
+    {
+      "date": "2026-07-01",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-01",
+      "level": "district",
+      "subdivision": "EAST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "AMETHI",
+      "day_actual_mm": 1.1,
+      "day_normal_mm": 3.4,
+      "day_departure_pct": -67.0,
+      "day_category": "LD",
+      "period_actual_mm": 57.6,
+      "period_normal_mm": 84.1,
+      "period_departure_pct": -31.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-01T09:49:39"
     }
   ]
 }

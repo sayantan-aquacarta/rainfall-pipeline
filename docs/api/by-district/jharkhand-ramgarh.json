@@ -1,7 +1,7 @@
 {
   "state": "JHARKHAND",
   "district": "RAMGARH",
-  "row_count": 62,
+  "row_count": 63,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1118,6 +1118,24 @@
       "period_departure_pct": -67.0,
       "period_category": "LD",
       "scraped_at": "2026-06-30T09:38:10"
+    },
+    {
+      "date": "2026-07-01",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-01",
+      "level": "district",
+      "subdivision": "JHARKHAND",
+      "state": "JHARKHAND",
+      "district": "RAMGARH",
+      "day_actual_mm": 22.2,
+      "day_normal_mm": 6.3,
+      "day_departure_pct": 253.0,
+      "day_category": "LE",
+      "period_actual_mm": 92.5,
+      "period_normal_mm": 202.8,
+      "period_departure_pct": -54.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-01T09:49:39"
     }
   ]
 }

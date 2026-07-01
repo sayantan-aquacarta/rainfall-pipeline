@@ -1,7 +1,7 @@
 {
   "state": "ODISHA",
   "district": "BALANGIR",
-  "row_count": 23,
+  "row_count": 24,
   "rows": [
     {
       "date": "2026-06-01",
@@ -416,6 +416,24 @@
       "period_departure_pct": -66.0,
       "period_category": "LD",
       "scraped_at": "2026-06-30T09:38:10"
+    },
+    {
+      "date": "2026-07-01",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-01",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "BALANGIR",
+      "day_actual_mm": 23.8,
+      "day_normal_mm": 6.4,
+      "day_departure_pct": 272.0,
+      "day_category": "LE",
+      "period_actual_mm": 82.8,
+      "period_normal_mm": 183.4,
+      "period_departure_pct": -55.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-01T09:49:39"
     }
   ]
 }
