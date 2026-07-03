@@ -1,7 +1,7 @@
 {
   "state": "ANDHRA PRADESH",
   "district": "EAST GODAVARI",
-  "row_count": 17,
+  "row_count": 18,
   "rows": [
     {
       "date": "2026-06-09",
@@ -308,6 +308,24 @@
       "period_departure_pct": -21.0,
       "period_category": "D",
       "scraped_at": "2026-07-02T08:58:09"
+    },
+    {
+      "date": "2026-07-02",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-02",
+      "level": "district",
+      "subdivision": "ANDHRA PRADESH",
+      "state": "ANDHRA PRADESH",
+      "district": "EAST GODAVARI",
+      "day_actual_mm": 1.5,
+      "day_normal_mm": 6.8,
+      "day_departure_pct": -78.0,
+      "day_category": "LD",
+      "period_actual_mm": 106.0,
+      "period_normal_mm": 139.1,
+      "period_departure_pct": -24.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-03T09:19:54"
     }
   ]
 }

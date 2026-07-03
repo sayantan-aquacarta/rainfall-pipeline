@@ -1,7 +1,7 @@
 {
   "state": "ARUNACHAL PRADESH",
   "district": "LOWER SUBANSIRI",
-  "row_count": 63,
+  "row_count": 64,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1136,6 +1136,24 @@
       "period_departure_pct": -36.0,
       "period_category": "D",
       "scraped_at": "2026-07-02T08:58:09"
+    },
+    {
+      "date": "2026-07-02",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-02",
+      "level": "district",
+      "subdivision": "ARUNACHAL PRADESH",
+      "state": "ARUNACHAL PRADESH",
+      "district": "LOWER SUBANSIRI",
+      "day_actual_mm": 1.0,
+      "day_normal_mm": 11.0,
+      "day_departure_pct": -91.0,
+      "day_category": "LD",
+      "period_actual_mm": 116.8,
+      "period_normal_mm": 192.6,
+      "period_departure_pct": -39.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-03T09:19:54"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "JHARKHAND",
   "district": "LOHARDAGA",
-  "row_count": 63,
+  "row_count": 64,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1136,6 +1136,24 @@
       "period_departure_pct": -73.0,
       "period_category": "LD",
       "scraped_at": "2026-07-02T08:58:09"
+    },
+    {
+      "date": "2026-07-02",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-02",
+      "level": "district",
+      "subdivision": "JHARKHAND",
+      "state": "JHARKHAND",
+      "district": "LOHARDAGA",
+      "day_actual_mm": 5.3,
+      "day_normal_mm": 8.6,
+      "day_departure_pct": -39.0,
+      "day_category": "D",
+      "period_actual_mm": 60.5,
+      "period_normal_mm": 213.4,
+      "period_departure_pct": -72.0,
+      "period_category": "LD",
+      "scraped_at": "2026-07-03T09:19:54"
     }
   ]
 }

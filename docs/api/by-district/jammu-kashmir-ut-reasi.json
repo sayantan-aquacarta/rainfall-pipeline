@@ -1,7 +1,7 @@
 {
   "state": "JAMMU & KASHMIR(UT)",
   "district": "REASI",
-  "row_count": 64,
+  "row_count": 65,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1154,6 +1154,24 @@
       "period_departure_pct": -43.0,
       "period_category": "D",
       "scraped_at": "2026-07-02T08:58:09"
+    },
+    {
+      "date": "2026-07-02",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-02",
+      "level": "district",
+      "subdivision": "JAMMU & KASHMIR (UT)",
+      "state": "JAMMU & KASHMIR(UT)",
+      "district": "REASI",
+      "day_actual_mm": 39.0,
+      "day_normal_mm": 4.3,
+      "day_departure_pct": 807.0,
+      "day_category": "LE",
+      "period_actual_mm": 123.2,
+      "period_normal_mm": 151.0,
+      "period_departure_pct": -18.0,
+      "period_category": "N",
+      "scraped_at": "2026-07-03T09:19:54"
     }
   ]
 }

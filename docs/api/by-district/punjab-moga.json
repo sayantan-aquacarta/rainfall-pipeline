@@ -1,7 +1,7 @@
 {
   "state": "PUNJAB",
   "district": "MOGA",
-  "row_count": 59,
+  "row_count": 60,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1064,6 +1064,24 @@
       "period_departure_pct": -79.0,
       "period_category": "LD",
       "scraped_at": "2026-07-02T08:58:09"
+    },
+    {
+      "date": "2026-07-02",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-02",
+      "level": "district",
+      "subdivision": "PUNJAB",
+      "state": "PUNJAB",
+      "district": "MOGA",
+      "day_actual_mm": 43.8,
+      "day_normal_mm": 1.4,
+      "day_departure_pct": 3025.0,
+      "day_category": "LE",
+      "period_actual_mm": 54.0,
+      "period_normal_mm": 49.0,
+      "period_departure_pct": 10.0,
+      "period_category": "N",
+      "scraped_at": "2026-07-03T09:19:54"
     }
   ]
 }
