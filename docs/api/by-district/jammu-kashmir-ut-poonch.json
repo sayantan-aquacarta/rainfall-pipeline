@@ -1,7 +1,7 @@
 {
   "state": "JAMMU & KASHMIR(UT)",
   "district": "POONCH",
-  "row_count": 65,
+  "row_count": 66,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1172,6 +1172,24 @@
       "period_departure_pct": 34.0,
       "period_category": "E",
       "scraped_at": "2026-07-03T09:19:54"
+    },
+    {
+      "date": "2026-07-03",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-03",
+      "level": "district",
+      "subdivision": "JAMMU & KASHMIR (UT)",
+      "state": "JAMMU & KASHMIR(UT)",
+      "district": "POONCH",
+      "day_actual_mm": 13.5,
+      "day_normal_mm": 5.3,
+      "day_departure_pct": 155.0,
+      "day_category": "LE",
+      "period_actual_mm": 179.5,
+      "period_normal_mm": 128.9,
+      "period_departure_pct": 39.0,
+      "period_category": "E",
+      "scraped_at": "2026-07-04T08:38:29"
     }
   ]
 }

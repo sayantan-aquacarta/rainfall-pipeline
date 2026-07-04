@@ -1,7 +1,7 @@
 {
   "state": "RAJASTHAN",
   "district": "CHITTORGARH",
-  "row_count": 65,
+  "row_count": 66,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1172,6 +1172,24 @@
       "period_departure_pct": 18.0,
       "period_category": "N",
       "scraped_at": "2026-07-03T09:19:54"
+    },
+    {
+      "date": "2026-07-03",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-03",
+      "level": "district",
+      "subdivision": "EAST RAJASTHAN",
+      "state": "RAJASTHAN",
+      "district": "CHITTORGARH",
+      "day_actual_mm": 21.2,
+      "day_normal_mm": 9.6,
+      "day_departure_pct": 121.0,
+      "day_category": "LE",
+      "period_actual_mm": 125.6,
+      "period_normal_mm": 98.3,
+      "period_departure_pct": 28.0,
+      "period_category": "E",
+      "scraped_at": "2026-07-04T08:38:29"
     }
   ]
 }

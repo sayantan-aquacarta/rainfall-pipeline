@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "RAJGARH",
-  "row_count": 65,
+  "row_count": 66,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1172,6 +1172,24 @@
       "period_departure_pct": 6.0,
       "period_category": "N",
       "scraped_at": "2026-07-03T09:19:54"
+    },
+    {
+      "date": "2026-07-03",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-03",
+      "level": "district",
+      "subdivision": "WEST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "RAJGARH",
+      "day_actual_mm": 42.5,
+      "day_normal_mm": 8.9,
+      "day_departure_pct": 378.0,
+      "day_category": "LE",
+      "period_actual_mm": 171.8,
+      "period_normal_mm": 130.3,
+      "period_departure_pct": 32.0,
+      "period_category": "E",
+      "scraped_at": "2026-07-04T08:38:29"
     }
   ]
 }

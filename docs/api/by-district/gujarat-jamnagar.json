@@ -1,7 +1,7 @@
 {
   "state": "GUJARAT",
   "district": "JAMNAGAR",
-  "row_count": 65,
+  "row_count": 66,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1172,6 +1172,24 @@
       "period_departure_pct": -91.0,
       "period_category": "LD",
       "scraped_at": "2026-07-03T09:19:54"
+    },
+    {
+      "date": "2026-07-03",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-03",
+      "level": "district",
+      "subdivision": "GUJARAT",
+      "state": "GUJARAT",
+      "district": "JAMNAGAR",
+      "day_actual_mm": 34.7,
+      "day_normal_mm": 10.2,
+      "day_departure_pct": 240.0,
+      "day_category": "LE",
+      "period_actual_mm": 45.0,
+      "period_normal_mm": 128.6,
+      "period_departure_pct": -65.0,
+      "period_category": "LD",
+      "scraped_at": "2026-07-04T08:38:29"
     }
   ]
 }

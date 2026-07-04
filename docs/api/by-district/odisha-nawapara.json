@@ -1,7 +1,7 @@
 {
   "state": "ODISHA",
   "district": "NAWAPARA",
-  "row_count": 65,
+  "row_count": 66,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1172,6 +1172,24 @@
       "period_departure_pct": -39.0,
       "period_category": "D",
       "scraped_at": "2026-07-03T09:19:54"
+    },
+    {
+      "date": "2026-07-03",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-03",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "NAWAPARA",
+      "day_actual_mm": 5.4,
+      "day_normal_mm": 10.4,
+      "day_departure_pct": -48.0,
+      "day_category": "D",
+      "period_actual_mm": 126.6,
+      "period_normal_mm": 207.6,
+      "period_departure_pct": -39.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-04T08:38:29"
     }
   ]
 }
