@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "RAE BAREILLY",
-  "row_count": 66,
+  "row_count": 67,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1190,6 +1190,24 @@
       "period_departure_pct": -53.0,
       "period_category": "D",
       "scraped_at": "2026-07-04T08:38:29"
+    },
+    {
+      "date": "2026-07-04",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-04",
+      "level": "district",
+      "subdivision": "EAST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "RAE BAREILLY",
+      "day_actual_mm": 2.2,
+      "day_normal_mm": 3.0,
+      "day_departure_pct": -27.0,
+      "day_category": "D",
+      "period_actual_mm": 28.8,
+      "period_normal_mm": 59.2,
+      "period_departure_pct": -51.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-05T08:54:15"
     }
   ]
 }

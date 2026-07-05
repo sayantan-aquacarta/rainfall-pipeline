@@ -1,7 +1,7 @@
 {
   "state": "KARNATAKA",
   "district": "BELAGAVI",
-  "row_count": 66,
+  "row_count": 67,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1190,6 +1190,24 @@
       "period_departure_pct": -12.0,
       "period_category": "N",
       "scraped_at": "2026-07-04T08:38:29"
+    },
+    {
+      "date": "2026-07-04",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-04",
+      "level": "district",
+      "subdivision": "NORTHERN INTERIOR KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "BELAGAVI",
+      "day_actual_mm": 22.7,
+      "day_normal_mm": 4.2,
+      "day_departure_pct": 441.0,
+      "day_category": "LE",
+      "period_actual_mm": 163.8,
+      "period_normal_mm": 164.5,
+      "period_departure_pct": 0.0,
+      "period_category": "N",
+      "scraped_at": "2026-07-05T08:54:15"
     }
   ]
 }
