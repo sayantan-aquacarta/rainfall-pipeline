@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "JHABUA",
-  "row_count": 67,
+  "row_count": 68,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1208,6 +1208,24 @@
       "period_departure_pct": -49.0,
       "period_category": "D",
       "scraped_at": "2026-07-05T08:54:15"
+    },
+    {
+      "date": "2026-07-06",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-06",
+      "level": "district",
+      "subdivision": "WEST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "JHABUA",
+      "day_actual_mm": 7.6,
+      "day_normal_mm": 7.8,
+      "day_departure_pct": -2.0,
+      "day_category": "N",
+      "period_actual_mm": 88.2,
+      "period_normal_mm": 167.0,
+      "period_departure_pct": -47.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-06T10:24:34"
     }
   ]
 }

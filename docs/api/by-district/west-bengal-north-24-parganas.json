@@ -1,7 +1,7 @@
 {
   "state": "WEST BENGAL",
   "district": "NORTH 24 PARGANAS",
-  "row_count": 67,
+  "row_count": 68,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1208,6 +1208,24 @@
       "period_departure_pct": 7.0,
       "period_category": "N",
       "scraped_at": "2026-07-05T08:54:15"
+    },
+    {
+      "date": "2026-07-06",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-06",
+      "level": "district",
+      "subdivision": "GANGETIC WEST BENGAL",
+      "state": "WEST BENGAL",
+      "district": "NORTH 24 PARGANAS",
+      "day_actual_mm": 23.2,
+      "day_normal_mm": 9.0,
+      "day_departure_pct": 158.0,
+      "day_category": "LE",
+      "period_actual_mm": 350.1,
+      "period_normal_mm": 324.3,
+      "period_departure_pct": 8.0,
+      "period_category": "N",
+      "scraped_at": "2026-07-06T10:24:34"
     }
   ]
 }

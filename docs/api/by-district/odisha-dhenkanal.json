@@ -1,7 +1,7 @@
 {
   "state": "ODISHA",
   "district": "DHENKANAL",
-  "row_count": 67,
+  "row_count": 68,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1208,6 +1208,24 @@
       "period_departure_pct": 31.0,
       "period_category": "E",
       "scraped_at": "2026-07-05T08:54:15"
+    },
+    {
+      "date": "2026-07-06",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-06",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "DHENKANAL",
+      "day_actual_mm": 87.9,
+      "day_normal_mm": 8.1,
+      "day_departure_pct": 985.0,
+      "day_category": "LE",
+      "period_actual_mm": 471.2,
+      "period_normal_mm": 257.0,
+      "period_departure_pct": 83.0,
+      "period_category": "LE",
+      "scraped_at": "2026-07-06T10:24:34"
     }
   ]
 }

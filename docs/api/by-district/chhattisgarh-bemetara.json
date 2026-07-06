@@ -1,7 +1,7 @@
 {
   "state": "CHHATTISGARH",
   "district": "BEMETARA",
-  "row_count": 67,
+  "row_count": 68,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1208,6 +1208,24 @@
       "period_departure_pct": -65.0,
       "period_category": "LD",
       "scraped_at": "2026-07-05T08:54:15"
+    },
+    {
+      "date": "2026-07-06",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-06",
+      "level": "district",
+      "subdivision": "CHHATTISGARH",
+      "state": "CHHATTISGARH",
+      "district": "BEMETARA",
+      "day_actual_mm": 65.1,
+      "day_normal_mm": 6.8,
+      "day_departure_pct": 857.0,
+      "day_category": "LE",
+      "period_actual_mm": 158.3,
+      "period_normal_mm": 229.4,
+      "period_departure_pct": -31.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-06T10:24:34"
     }
   ]
 }

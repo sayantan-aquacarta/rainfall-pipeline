@@ -1,7 +1,7 @@
 {
   "state": "DELHI (UT)",
   "district": "NEW DELHI",
-  "row_count": 17,
+  "row_count": 18,
   "rows": [
     {
       "date": "2026-06-14",
@@ -308,6 +308,24 @@
       "period_departure_pct": -51.0,
       "period_category": "D",
       "scraped_at": "2026-07-05T08:54:15"
+    },
+    {
+      "date": "2026-07-06",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-06",
+      "level": "district",
+      "subdivision": "DELHI (UT)",
+      "state": "DELHI (UT)",
+      "district": "NEW DELHI",
+      "day_actual_mm": 4.3,
+      "day_normal_mm": 3.7,
+      "day_departure_pct": 17.0,
+      "day_category": "N",
+      "period_actual_mm": 54.3,
+      "period_normal_mm": 101.1,
+      "period_departure_pct": -46.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-06T10:24:34"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "KARNATAKA",
   "district": "HAVERI",
-  "row_count": 67,
+  "row_count": 68,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1208,6 +1208,24 @@
       "period_departure_pct": -66.0,
       "period_category": "LD",
       "scraped_at": "2026-07-05T08:54:15"
+    },
+    {
+      "date": "2026-07-06",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-06",
+      "level": "district",
+      "subdivision": "NORTHERN INTERIOR KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "HAVERI",
+      "day_actual_mm": 7.8,
+      "day_normal_mm": 3.2,
+      "day_departure_pct": 144.0,
+      "day_category": "LE",
+      "period_actual_mm": 79.7,
+      "period_normal_mm": 146.4,
+      "period_departure_pct": -46.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-06T10:24:34"
     }
   ]
 }

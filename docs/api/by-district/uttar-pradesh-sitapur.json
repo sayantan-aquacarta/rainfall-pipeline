@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "SITAPUR",
-  "row_count": 67,
+  "row_count": 68,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1208,6 +1208,24 @@
       "period_departure_pct": -65.0,
       "period_category": "LD",
       "scraped_at": "2026-07-05T08:54:15"
+    },
+    {
+      "date": "2026-07-06",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-06",
+      "level": "district",
+      "subdivision": "EAST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "SITAPUR",
+      "day_actual_mm": 2.1,
+      "day_normal_mm": 9.1,
+      "day_departure_pct": -77.0,
+      "day_category": "LD",
+      "period_actual_mm": 49.2,
+      "period_normal_mm": 151.5,
+      "period_departure_pct": -68.0,
+      "period_category": "LD",
+      "scraped_at": "2026-07-06T10:24:34"
     }
   ]
 }

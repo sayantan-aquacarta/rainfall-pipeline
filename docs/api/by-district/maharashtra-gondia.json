@@ -1,7 +1,7 @@
 {
   "state": "MAHARASHTRA",
   "district": "GONDIA",
-  "row_count": 67,
+  "row_count": 68,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1208,6 +1208,24 @@
       "period_departure_pct": 16.0,
       "period_category": "N",
       "scraped_at": "2026-07-05T08:54:15"
+    },
+    {
+      "date": "2026-07-06",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-06",
+      "level": "district",
+      "subdivision": "VIDARBHA",
+      "state": "MAHARASHTRA",
+      "district": "GONDIA",
+      "day_actual_mm": 58.5,
+      "day_normal_mm": 9.6,
+      "day_departure_pct": 510.0,
+      "day_category": "LE",
+      "period_actual_mm": 380.6,
+      "period_normal_mm": 259.3,
+      "period_departure_pct": 47.0,
+      "period_category": "E",
+      "scraped_at": "2026-07-06T10:24:34"
     }
   ]
 }

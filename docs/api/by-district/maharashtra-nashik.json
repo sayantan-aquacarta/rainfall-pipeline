@@ -1,7 +1,7 @@
 {
   "state": "MAHARASHTRA",
   "district": "NASHIK",
-  "row_count": 67,
+  "row_count": 68,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1208,6 +1208,24 @@
       "period_departure_pct": -23.0,
       "period_category": "D",
       "scraped_at": "2026-07-05T08:54:15"
+    },
+    {
+      "date": "2026-07-06",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-06",
+      "level": "district",
+      "subdivision": "MADHYA MAHARASHTRA",
+      "state": "MAHARASHTRA",
+      "district": "NASHIK",
+      "day_actual_mm": 26.2,
+      "day_normal_mm": 7.1,
+      "day_departure_pct": 269.0,
+      "day_category": "LE",
+      "period_actual_mm": 205.4,
+      "period_normal_mm": 218.2,
+      "period_departure_pct": -6.0,
+      "period_category": "N",
+      "scraped_at": "2026-07-06T10:24:34"
     }
   ]
 }

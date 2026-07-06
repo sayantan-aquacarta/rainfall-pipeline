@@ -1,7 +1,7 @@
 {
   "state": "DELHI (UT)",
   "district": "NORTH EAST DELHI",
-  "row_count": 15,
+  "row_count": 16,
   "rows": [
     {
       "date": "2026-06-14",
@@ -272,6 +272,24 @@
       "period_departure_pct": -72.0,
       "period_category": "LD",
       "scraped_at": "2026-07-05T08:54:15"
+    },
+    {
+      "date": "2026-07-06",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-06",
+      "level": "district",
+      "subdivision": "DELHI (UT)",
+      "state": "DELHI (UT)",
+      "district": "NORTH EAST DELHI",
+      "day_actual_mm": 12.2,
+      "day_normal_mm": 5.7,
+      "day_departure_pct": 114.0,
+      "day_category": "LE",
+      "period_actual_mm": 37.2,
+      "period_normal_mm": 100.0,
+      "period_departure_pct": -63.0,
+      "period_category": "LD",
+      "scraped_at": "2026-07-06T10:24:34"
     }
   ]
 }

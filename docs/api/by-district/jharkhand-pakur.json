@@ -1,7 +1,7 @@
 {
   "state": "JHARKHAND",
   "district": "PAKUR",
-  "row_count": 67,
+  "row_count": 68,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1208,6 +1208,24 @@
       "period_departure_pct": -68.0,
       "period_category": "LD",
       "scraped_at": "2026-07-05T08:54:15"
+    },
+    {
+      "date": "2026-07-06",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-06",
+      "level": "district",
+      "subdivision": "JHARKHAND",
+      "state": "JHARKHAND",
+      "district": "PAKUR",
+      "day_actual_mm": 8.7,
+      "day_normal_mm": 10.3,
+      "day_departure_pct": -16.0,
+      "day_category": "N",
+      "period_actual_mm": 97.0,
+      "period_normal_mm": 297.3,
+      "period_departure_pct": -67.0,
+      "period_category": "LD",
+      "scraped_at": "2026-07-06T10:24:34"
     }
   ]
 }
