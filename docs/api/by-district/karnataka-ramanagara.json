@@ -1,7 +1,7 @@
 {
   "state": "KARNATAKA",
   "district": "RAMANAGARA",
-  "row_count": 41,
+  "row_count": 42,
   "rows": [
     {
       "date": "2026-04-13",
@@ -740,6 +740,24 @@
       "period_departure_pct": -80.0,
       "period_category": "LD",
       "scraped_at": "2026-07-05T08:54:15"
+    },
+    {
+      "date": "2026-07-07",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-07",
+      "level": "district",
+      "subdivision": "SOUTHERN INTERIOR KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "RAMANAGARA",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 4.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 19.0,
+      "period_normal_mm": 86.0,
+      "period_departure_pct": -78.0,
+      "period_category": "LD",
+      "scraped_at": "2026-07-07T09:43:05"
     }
   ]
 }

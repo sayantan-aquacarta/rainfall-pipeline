@@ -1,7 +1,7 @@
 {
   "state": "MEGHALAYA",
   "district": "EAST GARO HILLS",
-  "row_count": 68,
+  "row_count": 69,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1226,6 +1226,24 @@
       "period_departure_pct": -75.0,
       "period_category": "LD",
       "scraped_at": "2026-07-06T10:24:34"
+    },
+    {
+      "date": "2026-07-07",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-07",
+      "level": "district",
+      "subdivision": "MEGHALAYA",
+      "state": "MEGHALAYA",
+      "district": "EAST GARO HILLS",
+      "day_actual_mm": 10.6,
+      "day_normal_mm": 21.4,
+      "day_departure_pct": -51.0,
+      "day_category": "D",
+      "period_actual_mm": 185.5,
+      "period_normal_mm": 687.0,
+      "period_departure_pct": -73.0,
+      "period_category": "LD",
+      "scraped_at": "2026-07-07T09:43:05"
     }
   ]
 }

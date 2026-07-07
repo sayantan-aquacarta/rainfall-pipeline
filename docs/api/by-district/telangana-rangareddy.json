@@ -1,7 +1,7 @@
 {
   "state": "TELANGANA",
   "district": "RANGAREDDY",
-  "row_count": 68,
+  "row_count": 69,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1226,6 +1226,24 @@
       "period_departure_pct": 39.0,
       "period_category": "E",
       "scraped_at": "2026-07-06T10:24:34"
+    },
+    {
+      "date": "2026-07-07",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-07",
+      "level": "district",
+      "subdivision": "TELANGANA",
+      "state": "TELANGANA",
+      "district": "RANGAREDDY",
+      "day_actual_mm": 0.5,
+      "day_normal_mm": 3.8,
+      "day_departure_pct": -87.0,
+      "day_category": "LD",
+      "period_actual_mm": 171.8,
+      "period_normal_mm": 126.8,
+      "period_departure_pct": 35.0,
+      "period_category": "E",
+      "scraped_at": "2026-07-07T09:43:05"
     }
   ]
 }

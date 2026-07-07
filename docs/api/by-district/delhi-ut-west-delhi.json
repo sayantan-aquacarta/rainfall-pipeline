@@ -1,7 +1,7 @@
 {
   "state": "DELHI (UT)",
   "district": "WEST DELHI",
-  "row_count": 18,
+  "row_count": 19,
   "rows": [
     {
       "date": "2026-06-14",
@@ -326,6 +326,24 @@
       "period_departure_pct": -26.0,
       "period_category": "D",
       "scraped_at": "2026-07-06T10:24:34"
+    },
+    {
+      "date": "2026-07-07",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-07",
+      "level": "district",
+      "subdivision": "DELHI (UT)",
+      "state": "DELHI (UT)",
+      "district": "WEST DELHI",
+      "day_actual_mm": 0.5,
+      "day_normal_mm": 7.6,
+      "day_departure_pct": -93.0,
+      "day_category": "LD",
+      "period_actual_mm": 71.0,
+      "period_normal_mm": 102.8,
+      "period_departure_pct": -31.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-07T09:43:05"
     }
   ]
 }

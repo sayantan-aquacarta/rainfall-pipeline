@@ -1,7 +1,7 @@
 {
   "state": "ARUNACHAL PRADESH",
   "district": "TIRAP",
-  "row_count": 67,
+  "row_count": 68,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1208,6 +1208,24 @@
       "period_departure_pct": 16.0,
       "period_category": "N",
       "scraped_at": "2026-07-06T10:24:34"
+    },
+    {
+      "date": "2026-07-07",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-07",
+      "level": "district",
+      "subdivision": "ARUNACHAL PRADESH",
+      "state": "ARUNACHAL PRADESH",
+      "district": "TIRAP",
+      "day_actual_mm": 13.5,
+      "day_normal_mm": 21.0,
+      "day_departure_pct": -36.0,
+      "day_category": "D",
+      "period_actual_mm": 776.2,
+      "period_normal_mm": 678.2,
+      "period_departure_pct": 14.0,
+      "period_category": "N",
+      "scraped_at": "2026-07-07T09:43:05"
     }
   ]
 }

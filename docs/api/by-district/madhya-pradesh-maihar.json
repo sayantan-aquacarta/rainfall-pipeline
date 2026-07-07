@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "MAIHAR",
-  "row_count": 27,
+  "row_count": 28,
   "rows": [
     {
       "date": "2026-06-01",
@@ -488,6 +488,24 @@
       "period_departure_pct": -65.0,
       "period_category": "LD",
       "scraped_at": "2026-07-06T10:24:34"
+    },
+    {
+      "date": "2026-07-07",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-07",
+      "level": "district",
+      "subdivision": "EAST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "MAIHAR",
+      "day_actual_mm": 53.6,
+      "day_normal_mm": 19.6,
+      "day_departure_pct": 173.0,
+      "day_category": "LE",
+      "period_actual_mm": 118.7,
+      "period_normal_mm": 206.3,
+      "period_departure_pct": -42.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-07T09:43:05"
     }
   ]
 }

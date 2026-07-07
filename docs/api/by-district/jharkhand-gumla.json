@@ -1,7 +1,7 @@
 {
   "state": "JHARKHAND",
   "district": "GUMLA",
-  "row_count": 68,
+  "row_count": 69,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1226,6 +1226,24 @@
       "period_departure_pct": -39.0,
       "period_category": "D",
       "scraped_at": "2026-07-06T10:24:34"
+    },
+    {
+      "date": "2026-07-07",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-07",
+      "level": "district",
+      "subdivision": "JHARKHAND",
+      "state": "JHARKHAND",
+      "district": "GUMLA",
+      "day_actual_mm": 27.2,
+      "day_normal_mm": 8.0,
+      "day_departure_pct": 240.0,
+      "day_category": "LE",
+      "period_actual_mm": 184.9,
+      "period_normal_mm": 265.9,
+      "period_departure_pct": -30.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-07T09:43:05"
     }
   ]
 }

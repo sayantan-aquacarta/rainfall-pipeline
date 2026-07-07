@@ -1,7 +1,7 @@
 {
   "state": "CHHATTISGARH",
   "district": "KONDAGAON",
-  "row_count": 68,
+  "row_count": 69,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1226,6 +1226,24 @@
       "period_departure_pct": -27.0,
       "period_category": "D",
       "scraped_at": "2026-07-06T10:24:34"
+    },
+    {
+      "date": "2026-07-07",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-07",
+      "level": "district",
+      "subdivision": "CHHATTISGARH",
+      "state": "CHHATTISGARH",
+      "district": "KONDAGAON",
+      "day_actual_mm": 3.3,
+      "day_normal_mm": 9.4,
+      "day_departure_pct": -65.0,
+      "day_category": "LD",
+      "period_actual_mm": 196.4,
+      "period_normal_mm": 274.6,
+      "period_departure_pct": -28.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-07T09:43:05"
     }
   ]
 }

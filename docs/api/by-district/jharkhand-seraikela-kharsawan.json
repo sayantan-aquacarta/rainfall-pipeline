@@ -1,7 +1,7 @@
 {
   "state": "JHARKHAND",
   "district": "SERAIKELA-KHARSAWAN",
-  "row_count": 66,
+  "row_count": 67,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1190,6 +1190,24 @@
       "period_departure_pct": -39.0,
       "period_category": "D",
       "scraped_at": "2026-07-06T10:24:34"
+    },
+    {
+      "date": "2026-07-07",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-07",
+      "level": "district",
+      "subdivision": "JHARKHAND",
+      "state": "JHARKHAND",
+      "district": "SERAIKELA-KHARSAWAN",
+      "day_actual_mm": 50.5,
+      "day_normal_mm": 8.4,
+      "day_departure_pct": 501.0,
+      "day_category": "LE",
+      "period_actual_mm": 210.1,
+      "period_normal_mm": 268.4,
+      "period_departure_pct": -22.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-07T09:43:05"
     }
   ]
 }

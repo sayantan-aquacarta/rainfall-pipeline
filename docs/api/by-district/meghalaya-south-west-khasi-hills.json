@@ -1,7 +1,7 @@
 {
   "state": "MEGHALAYA",
   "district": "SOUTH WEST KHASI HILLS",
-  "row_count": 61,
+  "row_count": 62,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1100,6 +1100,24 @@
       "period_departure_pct": 71.0,
       "period_category": "LE",
       "scraped_at": "2026-07-06T10:24:34"
+    },
+    {
+      "date": "2026-07-07",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-07",
+      "level": "district",
+      "subdivision": "MEGHALAYA",
+      "state": "MEGHALAYA",
+      "district": "SOUTH WEST KHASI HILLS",
+      "day_actual_mm": 52.3,
+      "day_normal_mm": 25.1,
+      "day_departure_pct": 108.0,
+      "day_category": "LE",
+      "period_actual_mm": 1076.8,
+      "period_normal_mm": 616.7,
+      "period_departure_pct": 75.0,
+      "period_category": "LE",
+      "scraped_at": "2026-07-07T09:43:05"
     }
   ]
 }

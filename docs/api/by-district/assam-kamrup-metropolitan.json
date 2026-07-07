@@ -1,7 +1,7 @@
 {
   "state": "ASSAM",
   "district": "KAMRUP METROPOLITAN",
-  "row_count": 28,
+  "row_count": 29,
   "rows": [
     {
       "date": "2026-06-01",
@@ -506,6 +506,24 @@
       "period_departure_pct": -69.0,
       "period_category": "LD",
       "scraped_at": "2026-07-06T10:24:34"
+    },
+    {
+      "date": "2026-07-07",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-07",
+      "level": "district",
+      "subdivision": "ASSAM",
+      "state": "ASSAM",
+      "district": "KAMRUP METROPOLITAN",
+      "day_actual_mm": 6.4,
+      "day_normal_mm": 10.6,
+      "day_departure_pct": -40.0,
+      "day_category": "D",
+      "period_actual_mm": 121.1,
+      "period_normal_mm": 381.6,
+      "period_departure_pct": -68.0,
+      "period_category": "LD",
+      "scraped_at": "2026-07-07T09:43:05"
     }
   ]
 }
