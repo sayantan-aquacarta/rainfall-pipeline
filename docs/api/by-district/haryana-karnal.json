@@ -1,7 +1,7 @@
 {
   "state": "HARYANA",
   "district": "KARNAL",
-  "row_count": 69,
+  "row_count": 70,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1244,6 +1244,24 @@
       "period_departure_pct": -48.0,
       "period_category": "D",
       "scraped_at": "2026-07-08T08:30:26"
+    },
+    {
+      "date": "2026-07-09",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-09",
+      "level": "district",
+      "subdivision": "HARYANA",
+      "state": "HARYANA",
+      "district": "KARNAL",
+      "day_actual_mm": 17.3,
+      "day_normal_mm": 8.5,
+      "day_departure_pct": 104.0,
+      "day_category": "LE",
+      "period_actual_mm": 95.9,
+      "period_normal_mm": 125.7,
+      "period_departure_pct": -24.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-09T09:41:04"
     }
   ]
 }

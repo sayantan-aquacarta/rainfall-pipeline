@@ -1,7 +1,7 @@
 {
   "state": "ASSAM",
   "district": "GOALPARA",
-  "row_count": 69,
+  "row_count": 70,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1244,6 +1244,24 @@
       "period_departure_pct": -66.0,
       "period_category": "LD",
       "scraped_at": "2026-07-08T08:30:26"
+    },
+    {
+      "date": "2026-07-09",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-09",
+      "level": "district",
+      "subdivision": "ASSAM",
+      "state": "ASSAM",
+      "district": "GOALPARA",
+      "day_actual_mm": 10.2,
+      "day_normal_mm": 20.7,
+      "day_departure_pct": -51.0,
+      "day_category": "D",
+      "period_actual_mm": 273.6,
+      "period_normal_mm": 798.0,
+      "period_departure_pct": -66.0,
+      "period_category": "LD",
+      "scraped_at": "2026-07-09T09:41:04"
     }
   ]
 }

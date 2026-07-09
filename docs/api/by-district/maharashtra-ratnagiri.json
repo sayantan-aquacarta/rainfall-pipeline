@@ -1,7 +1,7 @@
 {
   "state": "MAHARASHTRA",
   "district": "RATNAGIRI",
-  "row_count": 69,
+  "row_count": 70,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1244,6 +1244,24 @@
       "period_departure_pct": 8.0,
       "period_category": "N",
       "scraped_at": "2026-07-08T08:30:26"
+    },
+    {
+      "date": "2026-07-09",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-09",
+      "level": "district",
+      "subdivision": "MAHARASHTRA",
+      "state": "MAHARASHTRA",
+      "district": "RATNAGIRI",
+      "day_actual_mm": 37.3,
+      "day_normal_mm": 39.6,
+      "day_departure_pct": -6.0,
+      "day_category": "N",
+      "period_actual_mm": 1279.3,
+      "period_normal_mm": 1180.5,
+      "period_departure_pct": 8.0,
+      "period_category": "N",
+      "scraped_at": "2026-07-09T09:41:04"
     }
   ]
 }

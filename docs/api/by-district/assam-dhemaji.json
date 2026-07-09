@@ -1,7 +1,7 @@
 {
   "state": "ASSAM",
   "district": "DHEMAJI",
-  "row_count": 66,
+  "row_count": 67,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1190,6 +1190,24 @@
       "period_departure_pct": 26.0,
       "period_category": "E",
       "scraped_at": "2026-07-08T08:30:26"
+    },
+    {
+      "date": "2026-07-09",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-09",
+      "level": "district",
+      "subdivision": "ASSAM",
+      "state": "ASSAM",
+      "district": "DHEMAJI",
+      "day_actual_mm": 64.2,
+      "day_normal_mm": 23.7,
+      "day_departure_pct": 171.0,
+      "day_category": "LE",
+      "period_actual_mm": 939.2,
+      "period_normal_mm": 731.1,
+      "period_departure_pct": 28.0,
+      "period_category": "E",
+      "scraped_at": "2026-07-09T09:41:04"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "BIJNOR",
-  "row_count": 69,
+  "row_count": 70,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1244,6 +1244,24 @@
       "period_departure_pct": -49.0,
       "period_category": "D",
       "scraped_at": "2026-07-08T08:30:26"
+    },
+    {
+      "date": "2026-07-09",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-09",
+      "level": "district",
+      "subdivision": "WEST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "BIJNOR",
+      "day_actual_mm": 151.9,
+      "day_normal_mm": 11.6,
+      "day_departure_pct": 1209.0,
+      "day_category": "LE",
+      "period_actual_mm": 259.4,
+      "period_normal_mm": 185.9,
+      "period_departure_pct": 40.0,
+      "period_category": "E",
+      "scraped_at": "2026-07-09T09:41:04"
     }
   ]
 }

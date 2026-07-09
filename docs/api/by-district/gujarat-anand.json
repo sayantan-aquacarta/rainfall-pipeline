@@ -1,7 +1,7 @@
 {
   "state": "GUJARAT",
   "district": "ANAND",
-  "row_count": 69,
+  "row_count": 70,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1244,6 +1244,24 @@
       "period_departure_pct": -58.0,
       "period_category": "D",
       "scraped_at": "2026-07-08T08:30:26"
+    },
+    {
+      "date": "2026-07-09",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-09",
+      "level": "district",
+      "subdivision": "GUJARAT",
+      "state": "GUJARAT",
+      "district": "ANAND",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 7.6,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 86.7,
+      "period_normal_mm": 195.7,
+      "period_departure_pct": -56.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-09T09:41:04"
     }
   ]
 }

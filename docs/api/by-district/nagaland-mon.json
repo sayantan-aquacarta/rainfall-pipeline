@@ -1,7 +1,7 @@
 {
   "state": "NAGALAND",
   "district": "MON",
-  "row_count": 51,
+  "row_count": 52,
   "rows": [
     {
       "date": "2026-04-24",
@@ -920,6 +920,24 @@
       "period_departure_pct": -56.0,
       "period_category": "D",
       "scraped_at": "2026-07-08T08:30:26"
+    },
+    {
+      "date": "2026-07-09",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-09",
+      "level": "district",
+      "subdivision": "NAGALAND",
+      "state": "NAGALAND",
+      "district": "MON",
+      "day_actual_mm": 11.8,
+      "day_normal_mm": 12.2,
+      "day_departure_pct": -3.0,
+      "day_category": "N",
+      "period_actual_mm": 177.9,
+      "period_normal_mm": 404.7,
+      "period_departure_pct": -56.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-09T09:41:04"
     }
   ]
 }
