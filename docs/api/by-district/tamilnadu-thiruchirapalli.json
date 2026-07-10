@@ -1,7 +1,7 @@
 {
   "state": "TAMILNADU",
   "district": "THIRUCHIRAPALLI",
-  "row_count": 30,
+  "row_count": 31,
   "rows": [
     {
       "date": "2026-06-01",
@@ -542,6 +542,24 @@
       "period_departure_pct": 57.0,
       "period_category": "E",
       "scraped_at": "2026-07-09T09:41:04"
+    },
+    {
+      "date": "2026-07-10",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-10",
+      "level": "district",
+      "subdivision": "TAMILNADU",
+      "state": "TAMILNADU",
+      "district": "THIRUCHIRAPALLI",
+      "day_actual_mm": 0.3,
+      "day_normal_mm": 1.6,
+      "day_departure_pct": -81.0,
+      "day_category": "LD",
+      "period_actual_mm": 61.6,
+      "period_normal_mm": 40.4,
+      "period_departure_pct": 52.0,
+      "period_category": "E",
+      "scraped_at": "2026-07-10T09:37:06"
     }
   ]
 }

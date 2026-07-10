@@ -1,7 +1,7 @@
 {
   "state": "ASSAM",
   "district": "DIBRUGARH",
-  "row_count": 70,
+  "row_count": 71,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1262,6 +1262,24 @@
       "period_departure_pct": -14.0,
       "period_category": "N",
       "scraped_at": "2026-07-09T09:41:04"
+    },
+    {
+      "date": "2026-07-10",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-10",
+      "level": "district",
+      "subdivision": "ASSAM",
+      "state": "ASSAM",
+      "district": "DIBRUGARH",
+      "day_actual_mm": 8.4,
+      "day_normal_mm": 18.3,
+      "day_departure_pct": -54.0,
+      "day_category": "D",
+      "period_actual_mm": 450.4,
+      "period_normal_mm": 535.0,
+      "period_departure_pct": -16.0,
+      "period_category": "N",
+      "scraped_at": "2026-07-10T09:37:06"
     }
   ]
 }

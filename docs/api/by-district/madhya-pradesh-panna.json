@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "PANNA",
-  "row_count": 70,
+  "row_count": 71,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1262,6 +1262,24 @@
       "period_departure_pct": -2.0,
       "period_category": "N",
       "scraped_at": "2026-07-09T09:41:04"
+    },
+    {
+      "date": "2026-07-10",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-10",
+      "level": "district",
+      "subdivision": "EAST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "PANNA",
+      "day_actual_mm": 27.1,
+      "day_normal_mm": 7.5,
+      "day_departure_pct": 261.0,
+      "day_category": "LE",
+      "period_actual_mm": 253.4,
+      "period_normal_mm": 238.2,
+      "period_departure_pct": 6.0,
+      "period_category": "N",
+      "scraped_at": "2026-07-10T09:37:06"
     }
   ]
 }

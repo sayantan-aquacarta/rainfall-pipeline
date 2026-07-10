@@ -1,7 +1,7 @@
 {
   "state": "KERALA",
   "district": "KOTTAYAM",
-  "row_count": 70,
+  "row_count": 71,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1262,6 +1262,24 @@
       "period_departure_pct": -7.0,
       "period_category": "N",
       "scraped_at": "2026-07-09T09:41:04"
+    },
+    {
+      "date": "2026-07-10",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-10",
+      "level": "district",
+      "subdivision": "KERALA",
+      "state": "KERALA",
+      "district": "KOTTAYAM",
+      "day_actual_mm": 15.1,
+      "day_normal_mm": 24.6,
+      "day_departure_pct": -39.0,
+      "day_category": "D",
+      "period_actual_mm": 772.2,
+      "period_normal_mm": 837.4,
+      "period_departure_pct": -8.0,
+      "period_category": "N",
+      "scraped_at": "2026-07-10T09:37:06"
     }
   ]
 }

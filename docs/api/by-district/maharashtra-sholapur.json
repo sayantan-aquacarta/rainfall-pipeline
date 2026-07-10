@@ -1,7 +1,7 @@
 {
   "state": "MAHARASHTRA",
   "district": "SHOLAPUR",
-  "row_count": 70,
+  "row_count": 71,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1262,6 +1262,24 @@
       "period_departure_pct": -39.0,
       "period_category": "D",
       "scraped_at": "2026-07-09T09:41:04"
+    },
+    {
+      "date": "2026-07-10",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-10",
+      "level": "district",
+      "subdivision": "MADHYA MAHARASHTRA",
+      "state": "MAHARASHTRA",
+      "district": "SHOLAPUR",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 3.7,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 75.8,
+      "period_normal_mm": 128.7,
+      "period_departure_pct": -41.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-10T09:37:06"
     }
   ]
 }

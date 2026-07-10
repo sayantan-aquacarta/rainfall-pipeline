@@ -1,7 +1,7 @@
 {
   "state": "NAGALAND",
   "district": "MOKOKCHUNG",
-  "row_count": 69,
+  "row_count": 70,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1244,6 +1244,24 @@
       "period_departure_pct": -26.0,
       "period_category": "D",
       "scraped_at": "2026-07-09T09:41:04"
+    },
+    {
+      "date": "2026-07-10",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-10",
+      "level": "district",
+      "subdivision": "NAGALAND",
+      "state": "NAGALAND",
+      "district": "MOKOKCHUNG",
+      "day_actual_mm": 2.5,
+      "day_normal_mm": 13.5,
+      "day_departure_pct": -82.0,
+      "day_category": "LD",
+      "period_actual_mm": 349.6,
+      "period_normal_mm": 482.8,
+      "period_departure_pct": -28.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-10T09:37:06"
     }
   ]
 }
