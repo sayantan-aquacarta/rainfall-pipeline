@@ -3803,7 +3803,7 @@
       "period_normal_mm": 355.4,
       "period_departure_pct": -44.0,
       "period_category": "D",
-      "scraped_at": "2026-07-10T09:37:06"
+      "scraped_at": "2026-07-11T07:57:55"
     },
     {
       "date": "2026-07-10",
@@ -3821,7 +3821,7 @@
       "period_normal_mm": 625.5,
       "period_departure_pct": 84.0,
       "period_category": "LE",
-      "scraped_at": "2026-07-10T09:37:06"
+      "scraped_at": "2026-07-11T07:57:55"
     },
     {
       "date": "2026-07-10",
@@ -3839,7 +3839,7 @@
       "period_normal_mm": 545.3,
       "period_departure_pct": 7.0,
       "period_category": "N",
-      "scraped_at": "2026-07-10T09:37:06"
+      "scraped_at": "2026-07-11T07:57:55"
     }
   ]
 }
