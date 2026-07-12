@@ -1,7 +1,7 @@
 {
   "state": "KARNATAKA",
   "district": "MANDYA",
-  "row_count": 71,
+  "row_count": 72,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1280,6 +1280,24 @@
       "period_departure_pct": -15.0,
       "period_category": "N",
       "scraped_at": "2026-07-11T07:57:55"
+    },
+    {
+      "date": "2026-07-11",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-11",
+      "level": "district",
+      "subdivision": "SOUTHERN INTERIOR KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "MANDYA",
+      "day_actual_mm": 2.7,
+      "day_normal_mm": 2.2,
+      "day_departure_pct": 25.0,
+      "day_category": "E",
+      "period_actual_mm": 61.0,
+      "period_normal_mm": 71.0,
+      "period_departure_pct": -14.0,
+      "period_category": "N",
+      "scraped_at": "2026-07-12T08:20:04"
     }
   ]
 }

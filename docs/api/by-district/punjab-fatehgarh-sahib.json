@@ -1,7 +1,7 @@
 {
   "state": "PUNJAB",
   "district": "FATEHGARH SAHIB",
-  "row_count": 71,
+  "row_count": 72,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1280,6 +1280,24 @@
       "period_departure_pct": -45.0,
       "period_category": "D",
       "scraped_at": "2026-07-11T07:57:55"
+    },
+    {
+      "date": "2026-07-11",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-11",
+      "level": "district",
+      "subdivision": "PUNJAB",
+      "state": "PUNJAB",
+      "district": "FATEHGARH SAHIB",
+      "day_actual_mm": 2.7,
+      "day_normal_mm": 11.7,
+      "day_departure_pct": -77.0,
+      "day_category": "LD",
+      "period_actual_mm": 59.0,
+      "period_normal_mm": 113.4,
+      "period_departure_pct": -48.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-12T08:20:04"
     }
   ]
 }

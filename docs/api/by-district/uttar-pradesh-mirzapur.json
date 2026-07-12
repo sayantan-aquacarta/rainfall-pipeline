@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "MIRZAPUR",
-  "row_count": 68,
+  "row_count": 69,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1226,6 +1226,24 @@
       "period_departure_pct": 2.0,
       "period_category": "N",
       "scraped_at": "2026-07-11T07:57:55"
+    },
+    {
+      "date": "2026-07-11",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-11",
+      "level": "district",
+      "subdivision": "EAST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "MIRZAPUR",
+      "day_actual_mm": 7.6,
+      "day_normal_mm": 10.4,
+      "day_departure_pct": -27.0,
+      "day_category": "D",
+      "period_actual_mm": 208.4,
+      "period_normal_mm": 207.9,
+      "period_departure_pct": 0.0,
+      "period_category": "N",
+      "scraped_at": "2026-07-12T08:20:04"
     }
   ]
 }

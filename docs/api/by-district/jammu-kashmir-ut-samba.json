@@ -1,7 +1,7 @@
 {
   "state": "JAMMU & KASHMIR(UT)",
   "district": "SAMBA",
-  "row_count": 66,
+  "row_count": 67,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1190,6 +1190,24 @@
       "period_departure_pct": 71.0,
       "period_category": "LE",
       "scraped_at": "2026-07-11T07:57:55"
+    },
+    {
+      "date": "2026-07-11",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-11",
+      "level": "district",
+      "subdivision": "JAMMU & KASHMIR (UT)",
+      "state": "JAMMU & KASHMIR(UT)",
+      "district": "SAMBA",
+      "day_actual_mm": 20.0,
+      "day_normal_mm": 2.2,
+      "day_departure_pct": 809.0,
+      "day_category": "LE",
+      "period_actual_mm": 289.0,
+      "period_normal_mm": 159.2,
+      "period_departure_pct": 81.0,
+      "period_category": "LE",
+      "scraped_at": "2026-07-12T08:20:04"
     }
   ]
 }

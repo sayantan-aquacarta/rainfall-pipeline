@@ -1,7 +1,7 @@
 {
   "state": "PUNJAB",
   "district": "FAZILKA",
-  "row_count": 71,
+  "row_count": 72,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1280,6 +1280,24 @@
       "period_departure_pct": -55.0,
       "period_category": "D",
       "scraped_at": "2026-07-11T07:57:55"
+    },
+    {
+      "date": "2026-07-11",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-11",
+      "level": "district",
+      "subdivision": "PUNJAB",
+      "state": "PUNJAB",
+      "district": "FAZILKA",
+      "day_actual_mm": 14.3,
+      "day_normal_mm": 2.3,
+      "day_departure_pct": 523.0,
+      "day_category": "LE",
+      "period_actual_mm": 37.0,
+      "period_normal_mm": 52.6,
+      "period_departure_pct": -30.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-12T08:20:04"
     }
   ]
 }

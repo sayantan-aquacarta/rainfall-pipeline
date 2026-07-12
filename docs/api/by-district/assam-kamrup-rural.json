@@ -1,7 +1,7 @@
 {
   "state": "ASSAM",
   "district": "KAMRUP RURAL",
-  "row_count": 31,
+  "row_count": 32,
   "rows": [
     {
       "date": "2026-06-01",
@@ -560,6 +560,24 @@
       "period_departure_pct": -74.0,
       "period_category": "LD",
       "scraped_at": "2026-07-11T07:57:55"
+    },
+    {
+      "date": "2026-07-11",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-11",
+      "level": "district",
+      "subdivision": "ASSAM",
+      "state": "ASSAM",
+      "district": "KAMRUP RURAL",
+      "day_actual_mm": 6.1,
+      "day_normal_mm": 15.6,
+      "day_departure_pct": -61.0,
+      "day_category": "LD",
+      "period_actual_mm": 143.8,
+      "period_normal_mm": 543.3,
+      "period_departure_pct": -74.0,
+      "period_category": "LD",
+      "scraped_at": "2026-07-12T08:20:04"
     }
   ]
 }

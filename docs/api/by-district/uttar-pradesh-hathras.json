@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "HATHRAS",
-  "row_count": 71,
+  "row_count": 72,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1280,6 +1280,24 @@
       "period_departure_pct": 110.0,
       "period_category": "LE",
       "scraped_at": "2026-07-11T07:57:55"
+    },
+    {
+      "date": "2026-07-11",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-11",
+      "level": "district",
+      "subdivision": "WEST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "HATHRAS",
+      "day_actual_mm": 3.5,
+      "day_normal_mm": 8.8,
+      "day_departure_pct": -60.0,
+      "day_category": "LD",
+      "period_actual_mm": 226.3,
+      "period_normal_mm": 115.0,
+      "period_departure_pct": 97.0,
+      "period_category": "LE",
+      "scraped_at": "2026-07-12T08:20:04"
     }
   ]
 }
