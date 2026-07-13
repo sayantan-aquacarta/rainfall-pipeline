@@ -1,7 +1,7 @@
 {
   "state": "ODISHA",
   "district": "NAYAGARH",
-  "row_count": 72,
+  "row_count": 73,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1298,6 +1298,24 @@
       "period_departure_pct": 37.0,
       "period_category": "E",
       "scraped_at": "2026-07-12T08:20:04"
+    },
+    {
+      "date": "2026-07-12",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-12",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "NAYAGARH",
+      "day_actual_mm": 0.1,
+      "day_normal_mm": 7.8,
+      "day_departure_pct": -98.0,
+      "day_category": "LD",
+      "period_actual_mm": 398.0,
+      "period_normal_mm": 297.8,
+      "period_departure_pct": 34.0,
+      "period_category": "E",
+      "scraped_at": "2026-07-13T09:29:06"
     }
   ]
 }

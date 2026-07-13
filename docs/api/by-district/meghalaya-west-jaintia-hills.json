@@ -1,7 +1,7 @@
 {
   "state": "MEGHALAYA",
   "district": "WEST JAINTIA HILLS",
-  "row_count": 71,
+  "row_count": 72,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1280,6 +1280,24 @@
       "period_departure_pct": -73.0,
       "period_category": "LD",
       "scraped_at": "2026-07-12T08:20:04"
+    },
+    {
+      "date": "2026-07-12",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-12",
+      "level": "district",
+      "subdivision": "MEGHALAYA",
+      "state": "MEGHALAYA",
+      "district": "WEST JAINTIA HILLS",
+      "day_actual_mm": 7.3,
+      "day_normal_mm": 57.2,
+      "day_departure_pct": -87.0,
+      "day_category": "LD",
+      "period_actual_mm": 519.2,
+      "period_normal_mm": 1945.1,
+      "period_departure_pct": -73.0,
+      "period_category": "LD",
+      "scraped_at": "2026-07-13T09:29:06"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "MANIPUR",
   "district": "SENAPATI",
-  "row_count": 71,
+  "row_count": 72,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1280,6 +1280,24 @@
       "period_departure_pct": -51.0,
       "period_category": "D",
       "scraped_at": "2026-07-12T08:20:04"
+    },
+    {
+      "date": "2026-07-12",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-12",
+      "level": "district",
+      "subdivision": "MANIPUR",
+      "state": "MANIPUR",
+      "district": "SENAPATI",
+      "day_actual_mm": 1.6,
+      "day_normal_mm": 7.0,
+      "day_departure_pct": -77.0,
+      "day_category": "LD",
+      "period_actual_mm": 142.1,
+      "period_normal_mm": 291.0,
+      "period_departure_pct": -51.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-13T09:29:06"
     }
   ]
 }

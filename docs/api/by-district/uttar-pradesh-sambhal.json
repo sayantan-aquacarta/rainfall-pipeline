@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "SAMBHAL",
-  "row_count": 72,
+  "row_count": 73,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1298,6 +1298,24 @@
       "period_departure_pct": 128.0,
       "period_category": "LE",
       "scraped_at": "2026-07-12T08:20:04"
+    },
+    {
+      "date": "2026-07-12",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-12",
+      "level": "district",
+      "subdivision": "WEST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "SAMBHAL",
+      "day_actual_mm": 0.8,
+      "day_normal_mm": 11.5,
+      "day_departure_pct": -93.0,
+      "day_category": "LD",
+      "period_actual_mm": 364.5,
+      "period_normal_mm": 171.3,
+      "period_departure_pct": 113.0,
+      "period_category": "LE",
+      "scraped_at": "2026-07-13T09:29:06"
     }
   ]
 }

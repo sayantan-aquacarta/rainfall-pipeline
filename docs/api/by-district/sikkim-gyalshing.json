@@ -1,7 +1,7 @@
 {
   "state": "SIKKIM",
   "district": "GYALSHING",
-  "row_count": 72,
+  "row_count": 73,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1298,6 +1298,24 @@
       "period_departure_pct": 37.0,
       "period_category": "E",
       "scraped_at": "2026-07-12T08:20:04"
+    },
+    {
+      "date": "2026-07-12",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-12",
+      "level": "district",
+      "subdivision": "SIKKIM",
+      "state": "SIKKIM",
+      "district": "GYALSHING",
+      "day_actual_mm": 11.5,
+      "day_normal_mm": 21.8,
+      "day_departure_pct": -47.0,
+      "day_category": "D",
+      "period_actual_mm": 828.3,
+      "period_normal_mm": 616.5,
+      "period_departure_pct": 34.0,
+      "period_category": "E",
+      "scraped_at": "2026-07-13T09:29:06"
     }
   ]
 }

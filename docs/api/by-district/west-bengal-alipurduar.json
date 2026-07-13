@@ -1,7 +1,7 @@
 {
   "state": "WEST BENGAL",
   "district": "ALIPURDUAR",
-  "row_count": 72,
+  "row_count": 73,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1298,6 +1298,24 @@
       "period_departure_pct": 0.0,
       "period_category": "N",
       "scraped_at": "2026-07-12T08:20:04"
+    },
+    {
+      "date": "2026-07-12",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-12",
+      "level": "district",
+      "subdivision": "WEST BENGAL",
+      "state": "WEST BENGAL",
+      "district": "ALIPURDUAR",
+      "day_actual_mm": 26.8,
+      "day_normal_mm": 31.2,
+      "day_departure_pct": -14.0,
+      "day_category": "N",
+      "period_actual_mm": 1194.4,
+      "period_normal_mm": 1199.0,
+      "period_departure_pct": 0.0,
+      "period_category": "N",
+      "scraped_at": "2026-07-13T09:29:06"
     }
   ]
 }
