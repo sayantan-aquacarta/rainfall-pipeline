@@ -1,7 +1,7 @@
 {
   "state": "MANIPUR",
   "district": "BISHNUPUR",
-  "row_count": 72,
+  "row_count": 73,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1298,6 +1298,24 @@
       "period_departure_pct": -85.0,
       "period_category": "LD",
       "scraped_at": "2026-07-13T09:29:06"
+    },
+    {
+      "date": "2026-07-13",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-13",
+      "level": "district",
+      "subdivision": "MANIPUR",
+      "state": "MANIPUR",
+      "district": "BISHNUPUR",
+      "day_actual_mm": 7.3,
+      "day_normal_mm": 10.7,
+      "day_departure_pct": -32.0,
+      "day_category": "D",
+      "period_actual_mm": 75.1,
+      "period_normal_mm": 458.8,
+      "period_departure_pct": -84.0,
+      "period_category": "LD",
+      "scraped_at": "2026-07-14T08:06:59"
     }
   ]
 }

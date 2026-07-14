@@ -1,7 +1,7 @@
 {
   "state": "ODISHA",
   "district": "MAYURBHANJ",
-  "row_count": 73,
+  "row_count": 74,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1316,6 +1316,24 @@
       "period_departure_pct": -20.0,
       "period_category": "D",
       "scraped_at": "2026-07-13T09:29:06"
+    },
+    {
+      "date": "2026-07-13",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-13",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "MAYURBHANJ",
+      "day_actual_mm": 0.4,
+      "day_normal_mm": 10.6,
+      "day_departure_pct": -96.0,
+      "day_category": "LD",
+      "period_actual_mm": 300.3,
+      "period_normal_mm": 385.2,
+      "period_departure_pct": -22.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-14T08:06:59"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "PUNJAB",
   "district": "PATHANKOT",
-  "row_count": 73,
+  "row_count": 74,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1316,6 +1316,24 @@
       "period_departure_pct": 17.0,
       "period_category": "N",
       "scraped_at": "2026-07-13T09:29:06"
+    },
+    {
+      "date": "2026-07-13",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-13",
+      "level": "district",
+      "subdivision": "PUNJAB",
+      "state": "PUNJAB",
+      "district": "PATHANKOT",
+      "day_actual_mm": 2.1,
+      "day_normal_mm": 20.6,
+      "day_departure_pct": -90.0,
+      "day_category": "LD",
+      "period_actual_mm": 224.8,
+      "period_normal_mm": 211.2,
+      "period_departure_pct": 6.0,
+      "period_category": "N",
+      "scraped_at": "2026-07-14T08:06:59"
     }
   ]
 }

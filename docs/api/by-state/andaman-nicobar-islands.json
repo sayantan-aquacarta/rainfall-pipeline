@@ -1,6 +1,6 @@
 {
   "state": "ANDAMAN & NICOBAR ISLANDS",
-  "row_count": 219,
+  "row_count": 222,
   "districts": [
     "NICOBAR",
     "NORTH & MIDDLE ANDAMAN",
@@ -3948,6 +3948,60 @@
       "period_departure_pct": 3.0,
       "period_category": "N",
       "scraped_at": "2026-07-13T09:29:06"
+    },
+    {
+      "date": "2026-07-13",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-13",
+      "level": "district",
+      "subdivision": "ANDAMAN & NICOBAR ISLANDS",
+      "state": "ANDAMAN & NICOBAR ISLANDS",
+      "district": "NICOBAR",
+      "day_actual_mm": 1.3,
+      "day_normal_mm": 9.3,
+      "day_departure_pct": -86.0,
+      "day_category": "LD",
+      "period_actual_mm": 201.2,
+      "period_normal_mm": 376.9,
+      "period_departure_pct": -47.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-14T08:06:59"
+    },
+    {
+      "date": "2026-07-13",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-13",
+      "level": "district",
+      "subdivision": "ANDAMAN & NICOBAR ISLANDS",
+      "state": "ANDAMAN & NICOBAR ISLANDS",
+      "district": "NORTH & MIDDLE ANDAMAN",
+      "day_actual_mm": 12.3,
+      "day_normal_mm": 17.3,
+      "day_departure_pct": -29.0,
+      "day_category": "D",
+      "period_actual_mm": 1168.1,
+      "period_normal_mm": 677.0,
+      "period_departure_pct": 73.0,
+      "period_category": "LE",
+      "scraped_at": "2026-07-14T08:06:59"
+    },
+    {
+      "date": "2026-07-13",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-13",
+      "level": "district",
+      "subdivision": "ANDAMAN & NICOBAR ISLANDS",
+      "state": "ANDAMAN & NICOBAR ISLANDS",
+      "district": "SOUTH ANDAMAN",
+      "day_actual_mm": 3.5,
+      "day_normal_mm": 14.4,
+      "day_departure_pct": -75.0,
+      "day_category": "LD",
+      "period_actual_mm": 593.9,
+      "period_normal_mm": 586.7,
+      "period_departure_pct": 1.0,
+      "period_category": "N",
+      "scraped_at": "2026-07-14T08:06:59"
     }
   ]
 }
