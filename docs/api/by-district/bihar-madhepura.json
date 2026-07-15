@@ -1,7 +1,7 @@
 {
   "state": "BIHAR",
   "district": "MADHEPURA",
-  "row_count": 74,
+  "row_count": 75,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1334,6 +1334,24 @@
       "period_departure_pct": -50.0,
       "period_category": "D",
       "scraped_at": "2026-07-14T08:06:59"
+    },
+    {
+      "date": "2026-07-14",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-14",
+      "level": "district",
+      "subdivision": "BIHAR",
+      "state": "BIHAR",
+      "district": "MADHEPURA",
+      "day_actual_mm": 27.7,
+      "day_normal_mm": 9.9,
+      "day_departure_pct": 179.0,
+      "day_category": "LE",
+      "period_actual_mm": 198.1,
+      "period_normal_mm": 351.1,
+      "period_departure_pct": -44.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-15T08:12:12"
     }
   ]
 }

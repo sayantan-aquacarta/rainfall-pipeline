@@ -1,7 +1,7 @@
 {
   "state": "TRIPURA",
   "district": "KHOWAI",
-  "row_count": 74,
+  "row_count": 75,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1334,6 +1334,24 @@
       "period_departure_pct": 21.0,
       "period_category": "E",
       "scraped_at": "2026-07-14T08:06:59"
+    },
+    {
+      "date": "2026-07-14",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-14",
+      "level": "district",
+      "subdivision": "TRIPURA",
+      "state": "TRIPURA",
+      "district": "KHOWAI",
+      "day_actual_mm": 0.5,
+      "day_normal_mm": 13.5,
+      "day_departure_pct": -96.0,
+      "day_category": "LD",
+      "period_actual_mm": 676.3,
+      "period_normal_mm": 573.5,
+      "period_departure_pct": 18.0,
+      "period_category": "N",
+      "scraped_at": "2026-07-15T08:12:12"
     }
   ]
 }
