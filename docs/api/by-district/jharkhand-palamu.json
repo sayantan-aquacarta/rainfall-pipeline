@@ -1,7 +1,7 @@
 {
   "state": "JHARKHAND",
   "district": "PALAMU",
-  "row_count": 75,
+  "row_count": 76,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1352,6 +1352,24 @@
       "period_departure_pct": -48.0,
       "period_category": "D",
       "scraped_at": "2026-07-15T08:12:12"
+    },
+    {
+      "date": "2026-07-15",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-15",
+      "level": "district",
+      "subdivision": "JHARKHAND",
+      "state": "JHARKHAND",
+      "district": "PALAMU",
+      "day_actual_mm": 3.6,
+      "day_normal_mm": 10.0,
+      "day_departure_pct": -64.0,
+      "day_category": "LD",
+      "period_actual_mm": 125.3,
+      "period_normal_mm": 243.8,
+      "period_departure_pct": -49.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-16T08:15:19"
     }
   ]
 }

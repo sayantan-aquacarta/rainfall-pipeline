@@ -1,7 +1,7 @@
 {
   "state": "KERALA",
   "district": "ERNAKULAM",
-  "row_count": 75,
+  "row_count": 76,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1352,6 +1352,24 @@
       "period_departure_pct": -27.0,
       "period_category": "D",
       "scraped_at": "2026-07-15T08:12:12"
+    },
+    {
+      "date": "2026-07-15",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-15",
+      "level": "district",
+      "subdivision": "KERALA",
+      "state": "KERALA",
+      "district": "ERNAKULAM",
+      "day_actual_mm": 0.9,
+      "day_normal_mm": 18.1,
+      "day_departure_pct": -95.0,
+      "day_category": "LD",
+      "period_actual_mm": 747.4,
+      "period_normal_mm": 1034.0,
+      "period_departure_pct": -28.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-16T08:15:19"
     }
   ]
 }

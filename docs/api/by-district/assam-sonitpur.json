@@ -1,7 +1,7 @@
 {
   "state": "ASSAM",
   "district": "SONITPUR",
-  "row_count": 75,
+  "row_count": 76,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1352,6 +1352,24 @@
       "period_departure_pct": -37.0,
       "period_category": "D",
       "scraped_at": "2026-07-15T08:12:12"
+    },
+    {
+      "date": "2026-07-15",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-15",
+      "level": "district",
+      "subdivision": "ASSAM",
+      "state": "ASSAM",
+      "district": "SONITPUR",
+      "day_actual_mm": 41.7,
+      "day_normal_mm": 13.3,
+      "day_departure_pct": 214.0,
+      "day_category": "LE",
+      "period_actual_mm": 340.8,
+      "period_normal_mm": 486.3,
+      "period_departure_pct": -30.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-16T08:15:19"
     }
   ]
 }

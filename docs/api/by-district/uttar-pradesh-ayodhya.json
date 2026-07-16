@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "AYODHYA",
-  "row_count": 75,
+  "row_count": 76,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1352,6 +1352,24 @@
       "period_departure_pct": -34.0,
       "period_category": "D",
       "scraped_at": "2026-07-15T08:12:12"
+    },
+    {
+      "date": "2026-07-15",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-15",
+      "level": "district",
+      "subdivision": "EAST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "AYODHYA",
+      "day_actual_mm": 25.7,
+      "day_normal_mm": 9.8,
+      "day_departure_pct": 162.0,
+      "day_category": "LE",
+      "period_actual_mm": 189.8,
+      "period_normal_mm": 258.2,
+      "period_departure_pct": -26.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-16T08:15:19"
     }
   ]
 }

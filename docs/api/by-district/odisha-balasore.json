@@ -1,7 +1,7 @@
 {
   "state": "ODISHA",
   "district": "BALASORE",
-  "row_count": 75,
+  "row_count": 76,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1352,6 +1352,24 @@
       "period_departure_pct": -6.0,
       "period_category": "N",
       "scraped_at": "2026-07-15T08:12:12"
+    },
+    {
+      "date": "2026-07-15",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-15",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "BALASORE",
+      "day_actual_mm": 49.3,
+      "day_normal_mm": 13.2,
+      "day_departure_pct": 273.0,
+      "day_category": "LE",
+      "period_actual_mm": 398.1,
+      "period_normal_mm": 383.5,
+      "period_departure_pct": 4.0,
+      "period_category": "N",
+      "scraped_at": "2026-07-16T08:15:19"
     }
   ]
 }
