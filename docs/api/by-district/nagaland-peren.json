@@ -1,7 +1,7 @@
 {
   "state": "NAGALAND",
   "district": "PEREN",
-  "row_count": 29,
+  "row_count": 30,
   "rows": [
     {
       "date": "2026-06-09",
@@ -524,6 +524,24 @@
       "period_departure_pct": -42.0,
       "period_category": "D",
       "scraped_at": "2026-07-16T08:15:19"
+    },
+    {
+      "date": "2026-07-16",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-16",
+      "level": "district",
+      "subdivision": "NAGALAND",
+      "state": "NAGALAND",
+      "district": "PEREN",
+      "day_actual_mm": 41.5,
+      "day_normal_mm": 9.8,
+      "day_departure_pct": 323.0,
+      "day_category": "LE",
+      "period_actual_mm": 239.0,
+      "period_normal_mm": 353.1,
+      "period_departure_pct": -32.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-17T08:11:12"
     }
   ]
 }

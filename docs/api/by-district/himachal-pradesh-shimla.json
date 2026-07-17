@@ -1,7 +1,7 @@
 {
   "state": "HIMACHAL PRADESH",
   "district": "SHIMLA",
-  "row_count": 76,
+  "row_count": 77,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1370,6 +1370,24 @@
       "period_departure_pct": 41.0,
       "period_category": "E",
       "scraped_at": "2026-07-16T08:15:19"
+    },
+    {
+      "date": "2026-07-16",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-16",
+      "level": "district",
+      "subdivision": "HIMACHAL PRADESH",
+      "state": "HIMACHAL PRADESH",
+      "district": "SHIMLA",
+      "day_actual_mm": 0.8,
+      "day_normal_mm": 6.8,
+      "day_departure_pct": -89.0,
+      "day_category": "LD",
+      "period_actual_mm": 288.2,
+      "period_normal_mm": 210.0,
+      "period_departure_pct": 37.0,
+      "period_category": "E",
+      "scraped_at": "2026-07-17T08:11:12"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "ARUNACHAL PRADESH",
   "district": "UPPER SUBANSIRI",
-  "row_count": 75,
+  "row_count": 76,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1352,6 +1352,24 @@
       "period_departure_pct": -50.0,
       "period_category": "D",
       "scraped_at": "2026-07-16T08:15:19"
+    },
+    {
+      "date": "2026-07-16",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-16",
+      "level": "district",
+      "subdivision": "ARUNACHAL PRADESH",
+      "state": "ARUNACHAL PRADESH",
+      "district": "UPPER SUBANSIRI",
+      "day_actual_mm": 0.1,
+      "day_normal_mm": 15.1,
+      "day_departure_pct": -99.0,
+      "day_category": "LD",
+      "period_actual_mm": 208.1,
+      "period_normal_mm": 431.8,
+      "period_departure_pct": -52.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-17T08:11:12"
     }
   ]
 }
