@@ -1,7 +1,7 @@
 {
   "state": "KERALA",
   "district": "IDUKKI",
-  "row_count": 77,
+  "row_count": 78,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1388,6 +1388,24 @@
       "period_departure_pct": -57.0,
       "period_category": "D",
       "scraped_at": "2026-07-17T08:11:12"
+    },
+    {
+      "date": "2026-07-17",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-17",
+      "level": "district",
+      "subdivision": "KERALA",
+      "state": "KERALA",
+      "district": "IDUKKI",
+      "day_actual_mm": 0.8,
+      "day_normal_mm": 34.3,
+      "day_departure_pct": -98.0,
+      "day_category": "LD",
+      "period_actual_mm": 490.2,
+      "period_normal_mm": 1183.3,
+      "period_departure_pct": -59.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-18T07:52:21"
     }
   ]
 }

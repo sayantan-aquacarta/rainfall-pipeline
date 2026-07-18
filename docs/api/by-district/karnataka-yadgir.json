@@ -1,7 +1,7 @@
 {
   "state": "KARNATAKA",
   "district": "YADGIR",
-  "row_count": 77,
+  "row_count": 78,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1388,6 +1388,24 @@
       "period_departure_pct": -13.0,
       "period_category": "N",
       "scraped_at": "2026-07-17T08:11:12"
+    },
+    {
+      "date": "2026-07-17",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-17",
+      "level": "district",
+      "subdivision": "NORTHERN INTERIOR KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "YADGIR",
+      "day_actual_mm": 0.3,
+      "day_normal_mm": 5.9,
+      "day_departure_pct": -95.0,
+      "day_category": "LD",
+      "period_actual_mm": 128.9,
+      "period_normal_mm": 154.6,
+      "period_departure_pct": -17.0,
+      "period_category": "N",
+      "scraped_at": "2026-07-18T07:52:21"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "ODISHA",
   "district": "BOUDH",
-  "row_count": 37,
+  "row_count": 38,
   "rows": [
     {
       "date": "2026-06-01",
@@ -668,6 +668,24 @@
       "period_departure_pct": 124.0,
       "period_category": "LE",
       "scraped_at": "2026-07-17T08:11:12"
+    },
+    {
+      "date": "2026-07-17",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-17",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "BOUDH",
+      "day_actual_mm": 90.0,
+      "day_normal_mm": 13.6,
+      "day_departure_pct": 562.0,
+      "day_category": "LE",
+      "period_actual_mm": 822.6,
+      "period_normal_mm": 341.2,
+      "period_departure_pct": 141.0,
+      "period_category": "LE",
+      "scraped_at": "2026-07-18T07:52:21"
     }
   ]
 }

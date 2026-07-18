@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "DINDORI",
-  "row_count": 77,
+  "row_count": 78,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1388,6 +1388,24 @@
       "period_departure_pct": -23.0,
       "period_category": "D",
       "scraped_at": "2026-07-17T08:11:12"
+    },
+    {
+      "date": "2026-07-17",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-17",
+      "level": "district",
+      "subdivision": "EAST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "DINDORI",
+      "day_actual_mm": 19.8,
+      "day_normal_mm": 11.6,
+      "day_departure_pct": 71.0,
+      "day_category": "LE",
+      "period_actual_mm": 313.8,
+      "period_normal_mm": 394.8,
+      "period_departure_pct": -21.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-18T07:52:21"
     }
   ]
 }

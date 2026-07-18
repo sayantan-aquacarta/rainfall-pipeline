@@ -1,7 +1,7 @@
 {
   "state": "WEST BENGAL",
   "district": "JHARGRAM",
-  "row_count": 76,
+  "row_count": 77,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1370,6 +1370,24 @@
       "period_departure_pct": -23.0,
       "period_category": "D",
       "scraped_at": "2026-07-17T08:11:12"
+    },
+    {
+      "date": "2026-07-17",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-17",
+      "level": "district",
+      "subdivision": "GANGETIC WEST BENGAL",
+      "state": "WEST BENGAL",
+      "district": "JHARGRAM",
+      "day_actual_mm": 18.3,
+      "day_normal_mm": 8.4,
+      "day_departure_pct": 118.0,
+      "day_category": "LE",
+      "period_actual_mm": 337.7,
+      "period_normal_mm": 421.7,
+      "period_departure_pct": -20.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-18T07:52:21"
     }
   ]
 }
