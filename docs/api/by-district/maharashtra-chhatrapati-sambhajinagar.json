@@ -1,7 +1,7 @@
 {
   "state": "MAHARASHTRA",
   "district": "CHHATRAPATI SAMBHAJINAGAR",
-  "row_count": 38,
+  "row_count": 39,
   "rows": [
     {
       "date": "2026-06-01",
@@ -686,6 +686,24 @@
       "period_departure_pct": 1.0,
       "period_category": "N",
       "scraped_at": "2026-07-18T07:52:21"
+    },
+    {
+      "date": "2026-07-18",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-18",
+      "level": "district",
+      "subdivision": "MARATHWADA",
+      "state": "MAHARASHTRA",
+      "district": "CHHATRAPATI SAMBHAJINAGAR",
+      "day_actual_mm": 0.2,
+      "day_normal_mm": 4.4,
+      "day_departure_pct": -95.0,
+      "day_category": "LD",
+      "period_actual_mm": 199.4,
+      "period_normal_mm": 200.9,
+      "period_departure_pct": -1.0,
+      "period_category": "N",
+      "scraped_at": "2026-07-19T08:20:58"
     }
   ]
 }

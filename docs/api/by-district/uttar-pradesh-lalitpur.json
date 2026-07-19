@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "LALITPUR",
-  "row_count": 78,
+  "row_count": 79,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1406,6 +1406,24 @@
       "period_departure_pct": 8.0,
       "period_category": "N",
       "scraped_at": "2026-07-18T07:52:21"
+    },
+    {
+      "date": "2026-07-18",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-18",
+      "level": "district",
+      "subdivision": "WEST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "LALITPUR",
+      "day_actual_mm": 5.8,
+      "day_normal_mm": 11.9,
+      "day_departure_pct": -51.0,
+      "day_category": "D",
+      "period_actual_mm": 254.1,
+      "period_normal_mm": 241.5,
+      "period_departure_pct": 5.0,
+      "period_category": "N",
+      "scraped_at": "2026-07-19T08:20:58"
     }
   ]
 }

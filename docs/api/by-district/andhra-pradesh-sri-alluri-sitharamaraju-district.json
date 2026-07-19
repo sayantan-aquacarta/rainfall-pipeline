@@ -1,7 +1,7 @@
 {
   "state": "ANDHRA PRADESH",
   "district": "SRI ALLURI SITHARAMARAJU DISTRICT",
-  "row_count": 78,
+  "row_count": 79,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1406,6 +1406,24 @@
       "period_departure_pct": -51.0,
       "period_category": "D",
       "scraped_at": "2026-07-18T07:52:21"
+    },
+    {
+      "date": "2026-07-18",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-18",
+      "level": "district",
+      "subdivision": "ANDHRA PRADESH",
+      "state": "ANDHRA PRADESH",
+      "district": "SRI ALLURI SITHARAMARAJU DISTRICT",
+      "day_actual_mm": 0.7,
+      "day_normal_mm": 8.0,
+      "day_departure_pct": -91.0,
+      "day_category": "LD",
+      "period_actual_mm": 151.2,
+      "period_normal_mm": 313.0,
+      "period_departure_pct": -52.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-19T08:20:58"
     }
   ]
 }

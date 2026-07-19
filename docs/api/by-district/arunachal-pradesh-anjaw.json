@@ -1,7 +1,7 @@
 {
   "state": "ARUNACHAL PRADESH",
   "district": "ANJAW",
-  "row_count": 72,
+  "row_count": 73,
   "rows": [
     {
       "date": "2026-04-17",
@@ -1298,6 +1298,24 @@
       "period_departure_pct": -92.0,
       "period_category": "LD",
       "scraped_at": "2026-07-18T07:52:21"
+    },
+    {
+      "date": "2026-07-18",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-18",
+      "level": "district",
+      "subdivision": "ARUNACHAL PRADESH",
+      "state": "ARUNACHAL PRADESH",
+      "district": "ANJAW",
+      "day_actual_mm": 3.4,
+      "day_normal_mm": 16.7,
+      "day_departure_pct": -80.0,
+      "day_category": "LD",
+      "period_actual_mm": 58.8,
+      "period_normal_mm": 685.8,
+      "period_departure_pct": -91.0,
+      "period_category": "LD",
+      "scraped_at": "2026-07-19T08:20:58"
     }
   ]
 }

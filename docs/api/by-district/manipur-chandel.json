@@ -1,7 +1,7 @@
 {
   "state": "MANIPUR",
   "district": "CHANDEL",
-  "row_count": 76,
+  "row_count": 77,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1370,6 +1370,24 @@
       "period_departure_pct": -61.0,
       "period_category": "LD",
       "scraped_at": "2026-07-18T07:52:21"
+    },
+    {
+      "date": "2026-07-18",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-18",
+      "level": "district",
+      "subdivision": "MANIPUR",
+      "state": "MANIPUR",
+      "district": "CHANDEL",
+      "day_actual_mm": 1.7,
+      "day_normal_mm": 5.7,
+      "day_departure_pct": -71.0,
+      "day_category": "LD",
+      "period_actual_mm": 199.0,
+      "period_normal_mm": 512.0,
+      "period_departure_pct": -61.0,
+      "period_category": "LD",
+      "scraped_at": "2026-07-19T08:20:58"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "WEST BENGAL",
   "district": "DARJEELING",
-  "row_count": 78,
+  "row_count": 79,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1406,6 +1406,24 @@
       "period_departure_pct": 2.0,
       "period_category": "N",
       "scraped_at": "2026-07-18T07:52:21"
+    },
+    {
+      "date": "2026-07-18",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-18",
+      "level": "district",
+      "subdivision": "WEST BENGAL",
+      "state": "WEST BENGAL",
+      "district": "DARJEELING",
+      "day_actual_mm": 12.6,
+      "day_normal_mm": 31.4,
+      "day_departure_pct": -60.0,
+      "day_category": "LD",
+      "period_actual_mm": 1198.9,
+      "period_normal_mm": 1188.9,
+      "period_departure_pct": 1.0,
+      "period_category": "N",
+      "scraped_at": "2026-07-19T08:20:58"
     }
   ]
 }

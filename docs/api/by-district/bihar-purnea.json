@@ -1,7 +1,7 @@
 {
   "state": "BIHAR",
   "district": "PURNEA",
-  "row_count": 78,
+  "row_count": 79,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1406,6 +1406,24 @@
       "period_departure_pct": -48.0,
       "period_category": "D",
       "scraped_at": "2026-07-18T07:52:21"
+    },
+    {
+      "date": "2026-07-18",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-18",
+      "level": "district",
+      "subdivision": "BIHAR",
+      "state": "BIHAR",
+      "district": "PURNEA",
+      "day_actual_mm": 3.0,
+      "day_normal_mm": 16.3,
+      "day_departure_pct": -82.0,
+      "day_category": "LD",
+      "period_actual_mm": 296.6,
+      "period_normal_mm": 578.8,
+      "period_departure_pct": -49.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-19T08:20:58"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "GUJARAT",
   "district": "RAJKOT",
-  "row_count": 78,
+  "row_count": 79,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1406,6 +1406,24 @@
       "period_departure_pct": -40.0,
       "period_category": "D",
       "scraped_at": "2026-07-18T07:52:21"
+    },
+    {
+      "date": "2026-07-18",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-18",
+      "level": "district",
+      "subdivision": "GUJARAT",
+      "state": "GUJARAT",
+      "district": "RAJKOT",
+      "day_actual_mm": 0.3,
+      "day_normal_mm": 9.8,
+      "day_departure_pct": -97.0,
+      "day_category": "LD",
+      "period_actual_mm": 146.4,
+      "period_normal_mm": 251.9,
+      "period_departure_pct": -42.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-19T08:20:58"
     }
   ]
 }
