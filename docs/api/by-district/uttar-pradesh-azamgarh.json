@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "AZAMGARH",
-  "row_count": 79,
+  "row_count": 80,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1424,6 +1424,24 @@
       "period_departure_pct": -41.0,
       "period_category": "D",
       "scraped_at": "2026-07-19T08:20:58"
+    },
+    {
+      "date": "2026-07-19",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-19",
+      "level": "district",
+      "subdivision": "EAST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "AZAMGARH",
+      "day_actual_mm": 2.8,
+      "day_normal_mm": 7.2,
+      "day_departure_pct": -61.0,
+      "day_category": "LD",
+      "period_actual_mm": 176.9,
+      "period_normal_mm": 304.1,
+      "period_departure_pct": -42.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-20T09:15:34"
     }
   ]
 }
