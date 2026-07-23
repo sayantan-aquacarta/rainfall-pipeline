@@ -1,7 +1,7 @@
 {
   "state": "JHARKHAND",
   "district": "CHATRA",
-  "row_count": 78,
+  "row_count": 79,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1406,6 +1406,24 @@
       "period_departure_pct": -43.0,
       "period_category": "D",
       "scraped_at": "2026-07-21T08:30:33"
+    },
+    {
+      "date": "2026-07-22",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-22",
+      "level": "district",
+      "subdivision": "JHARKHAND",
+      "state": "JHARKHAND",
+      "district": "CHATRA",
+      "day_actual_mm": 0.4,
+      "day_normal_mm": 8.0,
+      "day_departure_pct": -96.0,
+      "day_category": "LD",
+      "period_actual_mm": 221.3,
+      "period_normal_mm": 371.8,
+      "period_departure_pct": -40.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-23T08:31:58"
     }
   ]
 }

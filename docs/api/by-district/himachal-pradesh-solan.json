@@ -1,7 +1,7 @@
 {
   "state": "HIMACHAL PRADESH",
   "district": "SOLAN",
-  "row_count": 81,
+  "row_count": 82,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1460,6 +1460,24 @@
       "period_departure_pct": 19.0,
       "period_category": "N",
       "scraped_at": "2026-07-21T08:30:33"
+    },
+    {
+      "date": "2026-07-22",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-22",
+      "level": "district",
+      "subdivision": "HIMACHAL PRADESH",
+      "state": "HIMACHAL PRADESH",
+      "district": "SOLAN",
+      "day_actual_mm": 18.7,
+      "day_normal_mm": 9.9,
+      "day_departure_pct": 88.0,
+      "day_category": "LE",
+      "period_actual_mm": 425.1,
+      "period_normal_mm": 354.7,
+      "period_departure_pct": 20.0,
+      "period_category": "E",
+      "scraped_at": "2026-07-23T08:31:58"
     }
   ]
 }

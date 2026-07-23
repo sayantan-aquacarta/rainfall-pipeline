@@ -1,7 +1,7 @@
 {
   "state": "HARYANA",
   "district": "ROHTAK",
-  "row_count": 81,
+  "row_count": 82,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1460,6 +1460,24 @@
       "period_departure_pct": -68.0,
       "period_category": "LD",
       "scraped_at": "2026-07-21T08:30:33"
+    },
+    {
+      "date": "2026-07-22",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-22",
+      "level": "district",
+      "subdivision": "HARYANA",
+      "state": "HARYANA",
+      "district": "ROHTAK",
+      "day_actual_mm": 3.6,
+      "day_normal_mm": 6.5,
+      "day_departure_pct": -45.0,
+      "day_category": "D",
+      "period_actual_mm": 61.6,
+      "period_normal_mm": 175.4,
+      "period_departure_pct": -65.0,
+      "period_category": "LD",
+      "scraped_at": "2026-07-23T08:31:58"
     }
   ]
 }
