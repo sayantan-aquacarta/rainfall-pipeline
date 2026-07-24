@@ -1,6 +1,6 @@
 {
   "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
-  "row_count": 126,
+  "row_count": 129,
   "districts": [
     "DADARA & NAGAR HAVELI",
     "DAMAN",
@@ -2274,6 +2274,60 @@
       "period_departure_pct": 39.0,
       "period_category": "E",
       "scraped_at": "2026-07-23T08:31:58"
+    },
+    {
+      "date": "2026-07-23",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-23",
+      "level": "district",
+      "subdivision": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
+      "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
+      "district": "DADARA & NAGAR HAVELI",
+      "day_actual_mm": 700.8,
+      "day_normal_mm": 37.3,
+      "day_departure_pct": 1779.0,
+      "day_category": "LE",
+      "period_actual_mm": 2050.0,
+      "period_normal_mm": 1082.8,
+      "period_departure_pct": 89.0,
+      "period_category": "LE",
+      "scraped_at": "2026-07-24T08:28:44"
+    },
+    {
+      "date": "2026-07-23",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-23",
+      "level": "district",
+      "subdivision": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
+      "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
+      "district": "DAMAN",
+      "day_actual_mm": 586.7,
+      "day_normal_mm": 37.3,
+      "day_departure_pct": 1473.0,
+      "day_category": "LE",
+      "period_actual_mm": 2170.8,
+      "period_normal_mm": 1082.8,
+      "period_departure_pct": 100.0,
+      "period_category": "LE",
+      "scraped_at": "2026-07-24T08:28:44"
+    },
+    {
+      "date": "2026-07-23",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-23",
+      "level": "district",
+      "subdivision": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
+      "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
+      "district": "DIU",
+      "day_actual_mm": 9.6,
+      "day_normal_mm": 8.7,
+      "day_departure_pct": 10.0,
+      "day_category": "N",
+      "period_actual_mm": 594.6,
+      "period_normal_mm": 428.4,
+      "period_departure_pct": 39.0,
+      "period_category": "E",
+      "scraped_at": "2026-07-24T08:28:44"
     }
   ]
 }

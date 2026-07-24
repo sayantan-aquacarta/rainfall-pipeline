@@ -1,7 +1,7 @@
 {
   "state": "RAJASTHAN",
   "district": "BUNDI",
-  "row_count": 82,
+  "row_count": 83,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1478,6 +1478,24 @@
       "period_departure_pct": -26.0,
       "period_category": "D",
       "scraped_at": "2026-07-23T08:31:58"
+    },
+    {
+      "date": "2026-07-23",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-23",
+      "level": "district",
+      "subdivision": "EAST RAJASTHAN",
+      "state": "RAJASTHAN",
+      "district": "BUNDI",
+      "day_actual_mm": 13.7,
+      "day_normal_mm": 10.6,
+      "day_departure_pct": 29.0,
+      "day_category": "E",
+      "period_actual_mm": 189.8,
+      "period_normal_mm": 247.3,
+      "period_departure_pct": -23.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-24T08:28:44"
     }
   ]
 }

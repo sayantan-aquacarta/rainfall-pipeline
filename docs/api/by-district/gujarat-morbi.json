@@ -1,7 +1,7 @@
 {
   "state": "GUJARAT",
   "district": "MORBI",
-  "row_count": 82,
+  "row_count": 83,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1478,6 +1478,24 @@
       "period_departure_pct": -59.0,
       "period_category": "D",
       "scraped_at": "2026-07-23T08:31:58"
+    },
+    {
+      "date": "2026-07-23",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-23",
+      "level": "district",
+      "subdivision": "GUJARAT",
+      "state": "GUJARAT",
+      "district": "MORBI",
+      "day_actual_mm": 8.6,
+      "day_normal_mm": 6.6,
+      "day_departure_pct": 30.0,
+      "day_category": "E",
+      "period_actual_mm": 102.4,
+      "period_normal_mm": 235.9,
+      "period_departure_pct": -57.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-24T08:28:44"
     }
   ]
 }
