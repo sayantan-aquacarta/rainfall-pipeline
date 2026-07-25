@@ -1,7 +1,7 @@
 {
   "state": "TELANGANA",
   "district": "NALGONDA",
-  "row_count": 83,
+  "row_count": 84,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1496,6 +1496,24 @@
       "period_departure_pct": -28.0,
       "period_category": "D",
       "scraped_at": "2026-07-24T08:28:44"
+    },
+    {
+      "date": "2026-07-24",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-24",
+      "level": "district",
+      "subdivision": "TELANGANA",
+      "state": "TELANGANA",
+      "district": "NALGONDA",
+      "day_actual_mm": 0.2,
+      "day_normal_mm": 9.4,
+      "day_departure_pct": -98.0,
+      "day_category": "LD",
+      "period_actual_mm": 128.7,
+      "period_normal_mm": 187.7,
+      "period_departure_pct": -31.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-25T08:07:46"
     }
   ]
 }

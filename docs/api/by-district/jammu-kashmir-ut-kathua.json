@@ -1,7 +1,7 @@
 {
   "state": "JAMMU & KASHMIR(UT)",
   "district": "KATHUA",
-  "row_count": 83,
+  "row_count": 84,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1496,6 +1496,24 @@
       "period_departure_pct": -18.0,
       "period_category": "N",
       "scraped_at": "2026-07-24T08:28:44"
+    },
+    {
+      "date": "2026-07-24",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-24",
+      "level": "district",
+      "subdivision": "JAMMU & KASHMIR (UT)",
+      "state": "JAMMU & KASHMIR(UT)",
+      "district": "KATHUA",
+      "day_actual_mm": 36.1,
+      "day_normal_mm": 16.8,
+      "day_departure_pct": 115.0,
+      "day_category": "LE",
+      "period_actual_mm": 416.1,
+      "period_normal_mm": 479.0,
+      "period_departure_pct": -13.0,
+      "period_category": "N",
+      "scraped_at": "2026-07-25T08:07:46"
     }
   ]
 }

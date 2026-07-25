@@ -1,7 +1,7 @@
 {
   "state": "HARYANA",
   "district": "PANCHKULA",
-  "row_count": 83,
+  "row_count": 84,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1496,6 +1496,24 @@
       "period_departure_pct": -46.0,
       "period_category": "D",
       "scraped_at": "2026-07-24T08:28:44"
+    },
+    {
+      "date": "2026-07-24",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-24",
+      "level": "district",
+      "subdivision": "HARYANA",
+      "state": "HARYANA",
+      "district": "PANCHKULA",
+      "day_actual_mm": 1.7,
+      "day_normal_mm": 12.8,
+      "day_departure_pct": -87.0,
+      "day_category": "LD",
+      "period_actual_mm": 169.0,
+      "period_normal_mm": 324.1,
+      "period_departure_pct": -48.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-25T08:07:46"
     }
   ]
 }

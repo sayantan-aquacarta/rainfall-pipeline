@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "KASGANJ",
-  "row_count": 83,
+  "row_count": 84,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1496,6 +1496,24 @@
       "period_departure_pct": -15.0,
       "period_category": "N",
       "scraped_at": "2026-07-24T08:28:44"
+    },
+    {
+      "date": "2026-07-24",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-24",
+      "level": "district",
+      "subdivision": "WEST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "KASGANJ",
+      "day_actual_mm": 0.7,
+      "day_normal_mm": 7.2,
+      "day_departure_pct": -91.0,
+      "day_category": "LD",
+      "period_actual_mm": 197.0,
+      "period_normal_mm": 239.5,
+      "period_departure_pct": -18.0,
+      "period_category": "N",
+      "scraped_at": "2026-07-25T08:07:46"
     }
   ]
 }
