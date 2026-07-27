@@ -1,7 +1,7 @@
 {
   "state": "CHHATTISGARH",
   "district": "KABIRDHAM",
-  "row_count": 85,
+  "row_count": 86,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1532,6 +1532,24 @@
       "period_departure_pct": -22.0,
       "period_category": "D",
       "scraped_at": "2026-07-26T08:27:41"
+    },
+    {
+      "date": "2026-07-27",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-27",
+      "level": "district",
+      "subdivision": "CHHATTISGARH",
+      "state": "CHHATTISGARH",
+      "district": "KABIRDHAM",
+      "day_actual_mm": 1.8,
+      "day_normal_mm": 10.7,
+      "day_departure_pct": -83.0,
+      "day_category": "LD",
+      "period_actual_mm": 285.2,
+      "period_normal_mm": 382.0,
+      "period_departure_pct": -25.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-27T09:53:42"
     }
   ]
 }

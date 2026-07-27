@@ -1,7 +1,7 @@
 {
   "state": "MAHARASHTRA",
   "district": "MUMBAI CITY",
-  "row_count": 85,
+  "row_count": 86,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1532,6 +1532,24 @@
       "period_departure_pct": 37.0,
       "period_category": "E",
       "scraped_at": "2026-07-26T08:27:41"
+    },
+    {
+      "date": "2026-07-27",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-27",
+      "level": "district",
+      "subdivision": "MAHARASHTRA",
+      "state": "MAHARASHTRA",
+      "district": "MUMBAI CITY",
+      "day_actual_mm": 9.6,
+      "day_normal_mm": 20.0,
+      "day_departure_pct": -52.0,
+      "day_category": "D",
+      "period_actual_mm": 1600.0,
+      "period_normal_mm": 1178.0,
+      "period_departure_pct": 36.0,
+      "period_category": "E",
+      "scraped_at": "2026-07-27T09:53:42"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "ANDHRA PRADESH",
   "district": "WEST GODAVARI",
-  "row_count": 85,
+  "row_count": 86,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1532,6 +1532,24 @@
       "period_departure_pct": -72.0,
       "period_category": "LD",
       "scraped_at": "2026-07-26T08:27:41"
+    },
+    {
+      "date": "2026-07-27",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-27",
+      "level": "district",
+      "subdivision": "ANDHRA PRADESH",
+      "state": "ANDHRA PRADESH",
+      "district": "WEST GODAVARI",
+      "day_actual_mm": 18.2,
+      "day_normal_mm": 5.6,
+      "day_departure_pct": 225.0,
+      "day_category": "LE",
+      "period_actual_mm": 101.4,
+      "period_normal_mm": 313.7,
+      "period_departure_pct": -68.0,
+      "period_category": "LD",
+      "scraped_at": "2026-07-27T09:53:42"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "TAMILNADU",
   "district": "THIRUVALLUR",
-  "row_count": 45,
+  "row_count": 46,
   "rows": [
     {
       "date": "2026-06-01",
@@ -812,6 +812,24 @@
       "period_departure_pct": -18.0,
       "period_category": "N",
       "scraped_at": "2026-07-26T08:27:41"
+    },
+    {
+      "date": "2026-07-27",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-27",
+      "level": "district",
+      "subdivision": "TAMILNADU",
+      "state": "TAMILNADU",
+      "district": "THIRUVALLUR",
+      "day_actual_mm": 0.6,
+      "day_normal_mm": 3.5,
+      "day_departure_pct": -83.0,
+      "day_category": "LD",
+      "period_actual_mm": 128.7,
+      "period_normal_mm": 163.8,
+      "period_departure_pct": -21.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-27T09:53:42"
     }
   ]
 }

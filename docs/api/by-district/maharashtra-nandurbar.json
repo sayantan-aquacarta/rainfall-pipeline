@@ -1,7 +1,7 @@
 {
   "state": "MAHARASHTRA",
   "district": "NANDURBAR",
-  "row_count": 85,
+  "row_count": 86,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1532,6 +1532,24 @@
       "period_departure_pct": -56.0,
       "period_category": "D",
       "scraped_at": "2026-07-26T08:27:41"
+    },
+    {
+      "date": "2026-07-27",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-27",
+      "level": "district",
+      "subdivision": "MADHYA MAHARASHTRA",
+      "state": "MAHARASHTRA",
+      "district": "NANDURBAR",
+      "day_actual_mm": 6.7,
+      "day_normal_mm": 10.0,
+      "day_departure_pct": -33.0,
+      "day_category": "D",
+      "period_actual_mm": 175.1,
+      "period_normal_mm": 398.4,
+      "period_departure_pct": -56.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-27T09:53:42"
     }
   ]
 }

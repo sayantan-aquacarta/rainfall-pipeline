@@ -1,7 +1,7 @@
 {
   "state": "RAJASTHAN",
   "district": "SIROHI",
-  "row_count": 85,
+  "row_count": 86,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1532,6 +1532,24 @@
       "period_departure_pct": -35.0,
       "period_category": "D",
       "scraped_at": "2026-07-26T08:27:41"
+    },
+    {
+      "date": "2026-07-27",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-27",
+      "level": "district",
+      "subdivision": "EAST RAJASTHAN",
+      "state": "RAJASTHAN",
+      "district": "SIROHI",
+      "day_actual_mm": 25.8,
+      "day_normal_mm": 14.3,
+      "day_departure_pct": 80.0,
+      "day_category": "LE",
+      "period_actual_mm": 277.6,
+      "period_normal_mm": 361.4,
+      "period_departure_pct": -23.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-27T09:53:42"
     }
   ]
 }
