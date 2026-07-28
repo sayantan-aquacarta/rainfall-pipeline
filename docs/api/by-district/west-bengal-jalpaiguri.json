@@ -1,7 +1,7 @@
 {
   "state": "WEST BENGAL",
   "district": "JALPAIGURI",
-  "row_count": 86,
+  "row_count": 87,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1550,6 +1550,24 @@
       "period_departure_pct": -15.0,
       "period_category": "N",
       "scraped_at": "2026-07-27T09:53:42"
+    },
+    {
+      "date": "2026-07-28",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-28",
+      "level": "district",
+      "subdivision": "WEST BENGAL",
+      "state": "WEST BENGAL",
+      "district": "JALPAIGURI",
+      "day_actual_mm": 3.1,
+      "day_normal_mm": 30.4,
+      "day_departure_pct": -90.0,
+      "day_category": "LD",
+      "period_actual_mm": 1343.5,
+      "period_normal_mm": 1607.7,
+      "period_departure_pct": -16.0,
+      "period_category": "N",
+      "scraped_at": "2026-07-28T08:35:26"
     }
   ]
 }

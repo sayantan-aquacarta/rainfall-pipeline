@@ -1,7 +1,7 @@
 {
   "state": "JHARKHAND",
   "district": "GIRIDIH",
-  "row_count": 86,
+  "row_count": 87,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1550,6 +1550,24 @@
       "period_departure_pct": -51.0,
       "period_category": "D",
       "scraped_at": "2026-07-27T09:53:42"
+    },
+    {
+      "date": "2026-07-28",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-28",
+      "level": "district",
+      "subdivision": "JHARKHAND",
+      "state": "JHARKHAND",
+      "district": "GIRIDIH",
+      "day_actual_mm": 3.8,
+      "day_normal_mm": 14.1,
+      "day_departure_pct": -73.0,
+      "day_category": "LD",
+      "period_actual_mm": 225.6,
+      "period_normal_mm": 470.1,
+      "period_departure_pct": -52.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-28T08:35:26"
     }
   ]
 }

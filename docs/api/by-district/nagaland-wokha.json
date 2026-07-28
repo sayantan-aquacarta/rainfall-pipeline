@@ -1,7 +1,7 @@
 {
   "state": "NAGALAND",
   "district": "WOKHA",
-  "row_count": 85,
+  "row_count": 86,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1532,6 +1532,24 @@
       "period_departure_pct": -17.0,
       "period_category": "N",
       "scraped_at": "2026-07-27T09:53:42"
+    },
+    {
+      "date": "2026-07-28",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-28",
+      "level": "district",
+      "subdivision": "NAGALAND",
+      "state": "NAGALAND",
+      "district": "WOKHA",
+      "day_actual_mm": 36.8,
+      "day_normal_mm": 12.6,
+      "day_departure_pct": 192.0,
+      "day_category": "LE",
+      "period_actual_mm": 548.7,
+      "period_normal_mm": 630.9,
+      "period_departure_pct": -13.0,
+      "period_category": "N",
+      "scraped_at": "2026-07-28T08:35:26"
     }
   ]
 }

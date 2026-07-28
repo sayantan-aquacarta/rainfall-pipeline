@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "AGAR-MALWA",
-  "row_count": 86,
+  "row_count": 87,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1550,6 +1550,24 @@
       "period_departure_pct": -5.0,
       "period_category": "N",
       "scraped_at": "2026-07-27T09:53:42"
+    },
+    {
+      "date": "2026-07-28",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-28",
+      "level": "district",
+      "subdivision": "WEST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "AGAR-MALWA",
+      "day_actual_mm": 0.8,
+      "day_normal_mm": 14.4,
+      "day_departure_pct": -94.0,
+      "day_category": "LD",
+      "period_actual_mm": 364.8,
+      "period_normal_mm": 395.7,
+      "period_departure_pct": -8.0,
+      "period_category": "N",
+      "scraped_at": "2026-07-28T08:35:26"
     }
   ]
 }

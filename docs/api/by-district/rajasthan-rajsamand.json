@@ -1,7 +1,7 @@
 {
   "state": "RAJASTHAN",
   "district": "RAJSAMAND",
-  "row_count": 86,
+  "row_count": 87,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1550,6 +1550,24 @@
       "period_departure_pct": 2.0,
       "period_category": "N",
       "scraped_at": "2026-07-27T09:53:42"
+    },
+    {
+      "date": "2026-07-28",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-28",
+      "level": "district",
+      "subdivision": "EAST RAJASTHAN",
+      "state": "RAJASTHAN",
+      "district": "RAJSAMAND",
+      "day_actual_mm": 8.7,
+      "day_normal_mm": 6.7,
+      "day_departure_pct": 30.0,
+      "day_category": "E",
+      "period_actual_mm": 248.3,
+      "period_normal_mm": 240.9,
+      "period_departure_pct": 3.0,
+      "period_category": "N",
+      "scraped_at": "2026-07-28T08:35:26"
     }
   ]
 }

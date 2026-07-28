@@ -1,7 +1,7 @@
 {
   "state": "ANDHRA PRADESH",
   "district": "SPSR NELLORE",
-  "row_count": 86,
+  "row_count": 87,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1550,6 +1550,24 @@
       "period_departure_pct": -27.0,
       "period_category": "D",
       "scraped_at": "2026-07-27T09:53:42"
+    },
+    {
+      "date": "2026-07-28",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-28",
+      "level": "district",
+      "subdivision": "ANDHRA PRADESH",
+      "state": "ANDHRA PRADESH",
+      "district": "SPSR NELLORE",
+      "day_actual_mm": 0.5,
+      "day_normal_mm": 3.1,
+      "day_departure_pct": -85.0,
+      "day_category": "LD",
+      "period_actual_mm": 95.7,
+      "period_normal_mm": 132.9,
+      "period_departure_pct": -28.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-28T08:35:26"
     }
   ]
 }
