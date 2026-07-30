@@ -1,7 +1,7 @@
 {
   "state": "HARYANA",
   "district": "HISAR",
-  "row_count": 87,
+  "row_count": 88,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1568,6 +1568,24 @@
       "period_departure_pct": -36.0,
       "period_category": "D",
       "scraped_at": "2026-07-29T08:41:55"
+    },
+    {
+      "date": "2026-07-29",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-29",
+      "level": "district",
+      "subdivision": "HARYANA",
+      "state": "HARYANA",
+      "district": "HISAR",
+      "day_actual_mm": 3.1,
+      "day_normal_mm": 3.0,
+      "day_departure_pct": 4.0,
+      "day_category": "N",
+      "period_actual_mm": 94.2,
+      "period_normal_mm": 144.5,
+      "period_departure_pct": -35.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-30T08:27:55"
     }
   ]
 }
