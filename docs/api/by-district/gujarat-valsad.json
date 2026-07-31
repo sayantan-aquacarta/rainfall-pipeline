@@ -1,7 +1,7 @@
 {
   "state": "GUJARAT",
   "district": "VALSAD",
-  "row_count": 88,
+  "row_count": 89,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1586,6 +1586,24 @@
       "period_departure_pct": 103.0,
       "period_category": "LE",
       "scraped_at": "2026-07-30T08:27:55"
+    },
+    {
+      "date": "2026-07-31",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-31",
+      "level": "district",
+      "subdivision": "GUJARAT",
+      "state": "GUJARAT",
+      "district": "VALSAD",
+      "day_actual_mm": 7.6,
+      "day_normal_mm": 29.5,
+      "day_departure_pct": -74.0,
+      "day_category": "LD",
+      "period_actual_mm": 2287.8,
+      "period_normal_mm": 1184.9,
+      "period_departure_pct": 93.0,
+      "period_category": "LE",
+      "scraped_at": "2026-07-31T08:51:04"
     }
   ]
 }

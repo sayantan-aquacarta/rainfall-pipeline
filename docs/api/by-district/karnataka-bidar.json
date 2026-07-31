@@ -1,7 +1,7 @@
 {
   "state": "KARNATAKA",
   "district": "BIDAR",
-  "row_count": 86,
+  "row_count": 87,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1550,6 +1550,24 @@
       "period_departure_pct": -13.0,
       "period_category": "N",
       "scraped_at": "2026-07-30T08:27:55"
+    },
+    {
+      "date": "2026-07-31",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-31",
+      "level": "district",
+      "subdivision": "NORTHERN INTERIOR KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "BIDAR",
+      "day_actual_mm": 29.4,
+      "day_normal_mm": 4.1,
+      "day_departure_pct": 618.0,
+      "day_category": "LE",
+      "period_actual_mm": 294.5,
+      "period_normal_mm": 287.3,
+      "period_departure_pct": 2.0,
+      "period_category": "N",
+      "scraped_at": "2026-07-31T08:51:04"
     }
   ]
 }

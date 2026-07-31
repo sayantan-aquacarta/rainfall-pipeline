@@ -1,7 +1,7 @@
 {
   "state": "ARUNACHAL PRADESH",
   "district": "KURUNG KUMEY",
-  "row_count": 40,
+  "row_count": 41,
   "rows": [
     {
       "date": "2026-06-10",
@@ -722,6 +722,24 @@
       "period_departure_pct": -54.0,
       "period_category": "D",
       "scraped_at": "2026-07-30T08:27:55"
+    },
+    {
+      "date": "2026-07-31",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-31",
+      "level": "district",
+      "subdivision": "ARUNACHAL PRADESH",
+      "state": "ARUNACHAL PRADESH",
+      "district": "KURUNG KUMEY",
+      "day_actual_mm": 2.5,
+      "day_normal_mm": 12.1,
+      "day_departure_pct": -79.0,
+      "day_category": "LD",
+      "period_actual_mm": 298.7,
+      "period_normal_mm": 665.2,
+      "period_departure_pct": -55.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-31T08:51:04"
     }
   ]
 }

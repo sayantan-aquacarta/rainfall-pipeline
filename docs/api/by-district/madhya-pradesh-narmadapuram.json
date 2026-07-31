@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "NARMADAPURAM",
-  "row_count": 88,
+  "row_count": 89,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1586,6 +1586,24 @@
       "period_departure_pct": -42.0,
       "period_category": "D",
       "scraped_at": "2026-07-30T08:27:55"
+    },
+    {
+      "date": "2026-07-31",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-31",
+      "level": "district",
+      "subdivision": "WEST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "NARMADAPURAM",
+      "day_actual_mm": 18.7,
+      "day_normal_mm": 14.2,
+      "day_departure_pct": 32.0,
+      "day_category": "E",
+      "period_actual_mm": 381.4,
+      "period_normal_mm": 577.3,
+      "period_departure_pct": -34.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-31T08:51:04"
     }
   ]
 }

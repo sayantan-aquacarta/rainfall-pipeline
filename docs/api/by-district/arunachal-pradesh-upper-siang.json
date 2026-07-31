@@ -1,7 +1,7 @@
 {
   "state": "ARUNACHAL PRADESH",
   "district": "UPPER SIANG",
-  "row_count": 86,
+  "row_count": 87,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1550,6 +1550,24 @@
       "period_departure_pct": -26.0,
       "period_category": "D",
       "scraped_at": "2026-07-30T08:27:55"
+    },
+    {
+      "date": "2026-07-31",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-31",
+      "level": "district",
+      "subdivision": "ARUNACHAL PRADESH",
+      "state": "ARUNACHAL PRADESH",
+      "district": "UPPER SIANG",
+      "day_actual_mm": 3.8,
+      "day_normal_mm": 11.5,
+      "day_departure_pct": -67.0,
+      "day_category": "LD",
+      "period_actual_mm": 747.1,
+      "period_normal_mm": 1005.5,
+      "period_departure_pct": -26.0,
+      "period_category": "D",
+      "scraped_at": "2026-07-31T08:51:04"
     }
   ]
 }
