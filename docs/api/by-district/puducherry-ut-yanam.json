@@ -1,7 +1,7 @@
 {
   "state": "PUDUCHERRY (UT)",
   "district": "YANAM",
-  "row_count": 89,
+  "row_count": 90,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1604,6 +1604,24 @@
       "period_departure_pct": -38.0,
       "period_category": "D",
       "scraped_at": "2026-07-31T08:51:04"
+    },
+    {
+      "date": "2026-08-01",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-01",
+      "level": "district",
+      "subdivision": "PUDUCHERRY (UT)",
+      "state": "PUDUCHERRY (UT)",
+      "district": "YANAM",
+      "day_actual_mm": 11.6,
+      "day_normal_mm": 4.0,
+      "day_departure_pct": 190.0,
+      "day_category": "LE",
+      "period_actual_mm": 217.6,
+      "period_normal_mm": 333.7,
+      "period_departure_pct": -35.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-01T08:22:13"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "PANDHURNA",
-  "row_count": 49,
+  "row_count": 50,
   "rows": [
     {
       "date": "2026-06-01",
@@ -884,6 +884,24 @@
       "period_departure_pct": 9.0,
       "period_category": "N",
       "scraped_at": "2026-07-31T08:51:04"
+    },
+    {
+      "date": "2026-08-01",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-01",
+      "level": "district",
+      "subdivision": "EAST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "PANDHURNA",
+      "day_actual_mm": 3.8,
+      "day_normal_mm": 8.0,
+      "day_departure_pct": -53.0,
+      "day_category": "D",
+      "period_actual_mm": 437.8,
+      "period_normal_mm": 407.6,
+      "period_departure_pct": 7.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-01T08:22:13"
     }
   ]
 }

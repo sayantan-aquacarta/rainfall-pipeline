@@ -1,7 +1,7 @@
 {
   "state": "ARUNACHAL PRADESH",
   "district": "WEST SIANG",
-  "row_count": 88,
+  "row_count": 89,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1586,6 +1586,24 @@
       "period_departure_pct": -68.0,
       "period_category": "LD",
       "scraped_at": "2026-07-31T08:51:04"
+    },
+    {
+      "date": "2026-08-01",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-01",
+      "level": "district",
+      "subdivision": "ARUNACHAL PRADESH",
+      "state": "ARUNACHAL PRADESH",
+      "district": "WEST SIANG",
+      "day_actual_mm": 31.3,
+      "day_normal_mm": 12.4,
+      "day_departure_pct": 152.0,
+      "day_category": "LE",
+      "period_actual_mm": 412.3,
+      "period_normal_mm": 1197.0,
+      "period_departure_pct": -66.0,
+      "period_category": "LD",
+      "scraped_at": "2026-08-01T08:22:13"
     }
   ]
 }
