@@ -1,7 +1,7 @@
 {
   "state": "MAHARASHTRA",
   "district": "JALGAON",
-  "row_count": 90,
+  "row_count": 91,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1622,6 +1622,24 @@
       "period_departure_pct": 60.0,
       "period_category": "LE",
       "scraped_at": "2026-08-02T08:25:41"
+    },
+    {
+      "date": "2026-08-03",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-03",
+      "level": "district",
+      "subdivision": "MADHYA MAHARASHTRA",
+      "state": "MAHARASHTRA",
+      "district": "JALGAON",
+      "day_actual_mm": 0.8,
+      "day_normal_mm": 5.8,
+      "day_departure_pct": -86.0,
+      "day_category": "LD",
+      "period_actual_mm": 502.0,
+      "period_normal_mm": 323.6,
+      "period_departure_pct": 55.0,
+      "period_category": "E",
+      "scraped_at": "2026-08-03T09:47:22"
     }
   ]
 }

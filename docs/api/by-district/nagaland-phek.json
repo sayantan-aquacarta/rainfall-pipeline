@@ -1,7 +1,7 @@
 {
   "state": "NAGALAND",
   "district": "PHEK",
-  "row_count": 37,
+  "row_count": 38,
   "rows": [
     {
       "date": "2026-06-09",
@@ -668,6 +668,24 @@
       "period_departure_pct": -18.0,
       "period_category": "N",
       "scraped_at": "2026-08-02T08:25:41"
+    },
+    {
+      "date": "2026-08-03",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-03",
+      "level": "district",
+      "subdivision": "NAGALAND",
+      "state": "NAGALAND",
+      "district": "PHEK",
+      "day_actual_mm": 13.3,
+      "day_normal_mm": 4.4,
+      "day_departure_pct": 202.0,
+      "day_category": "LE",
+      "period_actual_mm": 413.9,
+      "period_normal_mm": 476.9,
+      "period_departure_pct": -13.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-03T09:47:22"
     }
   ]
 }

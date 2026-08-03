@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "BHOPAL",
-  "row_count": 90,
+  "row_count": 91,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1622,6 +1622,24 @@
       "period_departure_pct": 0.0,
       "period_category": "N",
       "scraped_at": "2026-08-02T08:25:41"
+    },
+    {
+      "date": "2026-08-03",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-03",
+      "level": "district",
+      "subdivision": "WEST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "BHOPAL",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 8.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 482.1,
+      "period_normal_mm": 498.5,
+      "period_departure_pct": -3.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-03T09:47:22"
     }
   ]
 }

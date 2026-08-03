@@ -1,7 +1,7 @@
 {
   "state": "JAMMU & KASHMIR(UT)",
   "district": "ANANTNAG",
-  "row_count": 90,
+  "row_count": 91,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1622,6 +1622,24 @@
       "period_departure_pct": 35.0,
       "period_category": "E",
       "scraped_at": "2026-08-02T08:25:41"
+    },
+    {
+      "date": "2026-08-03",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-03",
+      "level": "district",
+      "subdivision": "JAMMU & KASHMIR (UT)",
+      "state": "JAMMU & KASHMIR(UT)",
+      "district": "ANANTNAG",
+      "day_actual_mm": 1.5,
+      "day_normal_mm": 2.2,
+      "day_departure_pct": -32.0,
+      "day_category": "D",
+      "period_actual_mm": 228.7,
+      "period_normal_mm": 172.6,
+      "period_departure_pct": 33.0,
+      "period_category": "E",
+      "scraped_at": "2026-08-03T09:47:22"
     }
   ]
 }

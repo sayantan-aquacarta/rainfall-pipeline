@@ -1,7 +1,7 @@
 {
   "state": "TELANGANA",
   "district": "JAGTIAL",
-  "row_count": 89,
+  "row_count": 90,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1604,6 +1604,24 @@
       "period_departure_pct": 41.0,
       "period_category": "E",
       "scraped_at": "2026-08-02T08:25:41"
+    },
+    {
+      "date": "2026-08-03",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-03",
+      "level": "district",
+      "subdivision": "TELANGANA",
+      "state": "TELANGANA",
+      "district": "JAGTIAL",
+      "day_actual_mm": 0.5,
+      "day_normal_mm": 6.8,
+      "day_departure_pct": -92.0,
+      "day_category": "LD",
+      "period_actual_mm": 580.1,
+      "period_normal_mm": 423.2,
+      "period_departure_pct": 37.0,
+      "period_category": "E",
+      "scraped_at": "2026-08-03T09:47:22"
     }
   ]
 }

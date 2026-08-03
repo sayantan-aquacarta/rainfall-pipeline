@@ -1,7 +1,7 @@
 {
   "state": "MEGHALAYA",
   "district": "EAST JAINTIA HILLS",
-  "row_count": 87,
+  "row_count": 88,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1568,6 +1568,24 @@
       "period_departure_pct": -65.0,
       "period_category": "LD",
       "scraped_at": "2026-08-02T08:25:41"
+    },
+    {
+      "date": "2026-08-03",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-03",
+      "level": "district",
+      "subdivision": "MEGHALAYA",
+      "state": "MEGHALAYA",
+      "district": "EAST JAINTIA HILLS",
+      "day_actual_mm": 15.3,
+      "day_normal_mm": 31.0,
+      "day_departure_pct": -51.0,
+      "day_category": "D",
+      "period_actual_mm": 1019.1,
+      "period_normal_mm": 2887.6,
+      "period_departure_pct": -65.0,
+      "period_category": "LD",
+      "scraped_at": "2026-08-03T09:47:22"
     }
   ]
 }

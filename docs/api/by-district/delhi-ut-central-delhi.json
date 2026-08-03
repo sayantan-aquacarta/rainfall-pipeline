@@ -1,7 +1,7 @@
 {
   "state": "DELHI (UT)",
   "district": "CENTRAL DELHI",
-  "row_count": 40,
+  "row_count": 41,
   "rows": [
     {
       "date": "2026-06-14",
@@ -722,6 +722,24 @@
       "period_departure_pct": 12.0,
       "period_category": "N",
       "scraped_at": "2026-08-02T08:25:41"
+    },
+    {
+      "date": "2026-08-03",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-03",
+      "level": "district",
+      "subdivision": "DELHI (UT)",
+      "state": "DELHI (UT)",
+      "district": "CENTRAL DELHI",
+      "day_actual_mm": 2.8,
+      "day_normal_mm": 3.8,
+      "day_departure_pct": -26.0,
+      "day_category": "D",
+      "period_actual_mm": 365.0,
+      "period_normal_mm": 326.1,
+      "period_departure_pct": 12.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-03T09:47:22"
     }
   ]
 }
