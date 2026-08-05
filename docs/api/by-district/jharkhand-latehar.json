@@ -1,7 +1,7 @@
 {
   "state": "JHARKHAND",
   "district": "LATEHAR",
-  "row_count": 91,
+  "row_count": 92,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1640,6 +1640,24 @@
       "period_departure_pct": -34.0,
       "period_category": "D",
       "scraped_at": "2026-08-04T08:37:41"
+    },
+    {
+      "date": "2026-08-04",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-04",
+      "level": "district",
+      "subdivision": "JHARKHAND",
+      "state": "JHARKHAND",
+      "district": "LATEHAR",
+      "day_actual_mm": 7.4,
+      "day_normal_mm": 10.4,
+      "day_departure_pct": -29.0,
+      "day_category": "D",
+      "period_actual_mm": 365.0,
+      "period_normal_mm": 555.6,
+      "period_departure_pct": -34.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-05T08:37:13"
     }
   ]
 }

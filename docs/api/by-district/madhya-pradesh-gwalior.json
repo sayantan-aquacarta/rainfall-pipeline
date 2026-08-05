@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "GWALIOR",
-  "row_count": 91,
+  "row_count": 92,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1640,6 +1640,24 @@
       "period_departure_pct": -8.0,
       "period_category": "N",
       "scraped_at": "2026-08-04T08:37:41"
+    },
+    {
+      "date": "2026-08-04",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-04",
+      "level": "district",
+      "subdivision": "WEST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "GWALIOR",
+      "day_actual_mm": 45.3,
+      "day_normal_mm": 6.8,
+      "day_departure_pct": 567.0,
+      "day_category": "LE",
+      "period_actual_mm": 349.4,
+      "period_normal_mm": 338.2,
+      "period_departure_pct": 3.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-05T08:37:13"
     }
   ]
 }

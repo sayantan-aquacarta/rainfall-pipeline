@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "BHADOHI",
-  "row_count": 83,
+  "row_count": 84,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1496,6 +1496,24 @@
       "period_departure_pct": -77.0,
       "period_category": "LD",
       "scraped_at": "2026-08-04T08:37:41"
+    },
+    {
+      "date": "2026-08-04",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-04",
+      "level": "district",
+      "subdivision": "EAST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "BHADOHI",
+      "day_actual_mm": 8.2,
+      "day_normal_mm": 4.3,
+      "day_departure_pct": 91.0,
+      "day_category": "LE",
+      "period_actual_mm": 101.2,
+      "period_normal_mm": 410.2,
+      "period_departure_pct": -75.0,
+      "period_category": "LD",
+      "scraped_at": "2026-08-05T08:37:13"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "HIMACHAL PRADESH",
   "district": "UNA",
-  "row_count": 91,
+  "row_count": 92,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1640,6 +1640,24 @@
       "period_departure_pct": -15.0,
       "period_category": "N",
       "scraped_at": "2026-08-04T08:37:41"
+    },
+    {
+      "date": "2026-08-04",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-04",
+      "level": "district",
+      "subdivision": "HIMACHAL PRADESH",
+      "state": "HIMACHAL PRADESH",
+      "district": "UNA",
+      "day_actual_mm": 21.7,
+      "day_normal_mm": 13.8,
+      "day_departure_pct": 57.0,
+      "day_category": "E",
+      "period_actual_mm": 416.6,
+      "period_normal_mm": 478.3,
+      "period_departure_pct": -13.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-05T08:37:13"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "ANDHRA PRADESH",
   "district": "ELURU",
-  "row_count": 91,
+  "row_count": 92,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1640,6 +1640,24 @@
       "period_departure_pct": -31.0,
       "period_category": "D",
       "scraped_at": "2026-08-04T08:37:41"
+    },
+    {
+      "date": "2026-08-04",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-04",
+      "level": "district",
+      "subdivision": "ANDHRA PRADESH",
+      "state": "ANDHRA PRADESH",
+      "district": "ELURU",
+      "day_actual_mm": 12.1,
+      "day_normal_mm": 11.3,
+      "day_departure_pct": 7.0,
+      "day_category": "N",
+      "period_actual_mm": 311.1,
+      "period_normal_mm": 446.7,
+      "period_departure_pct": -30.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-05T08:37:13"
     }
   ]
 }

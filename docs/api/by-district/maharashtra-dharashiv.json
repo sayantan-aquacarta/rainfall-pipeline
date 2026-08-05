@@ -1,7 +1,7 @@
 {
   "state": "MAHARASHTRA",
   "district": "DHARASHIV",
-  "row_count": 91,
+  "row_count": 92,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1640,6 +1640,24 @@
       "period_departure_pct": -9.0,
       "period_category": "N",
       "scraped_at": "2026-08-04T08:37:41"
+    },
+    {
+      "date": "2026-08-04",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-04",
+      "level": "district",
+      "subdivision": "MARATHWADA",
+      "state": "MAHARASHTRA",
+      "district": "DHARASHIV",
+      "day_actual_mm": 11.4,
+      "day_normal_mm": 4.2,
+      "day_departure_pct": 172.0,
+      "day_category": "LE",
+      "period_actual_mm": 252.7,
+      "period_normal_mm": 269.6,
+      "period_departure_pct": -6.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-05T08:37:13"
     }
   ]
 }

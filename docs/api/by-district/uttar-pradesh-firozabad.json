@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "FIROZABAD",
-  "row_count": 91,
+  "row_count": 92,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1640,6 +1640,24 @@
       "period_departure_pct": 8.0,
       "period_category": "N",
       "scraped_at": "2026-08-04T08:37:41"
+    },
+    {
+      "date": "2026-08-04",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-04",
+      "level": "district",
+      "subdivision": "WEST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "FIROZABAD",
+      "day_actual_mm": 27.4,
+      "day_normal_mm": 6.9,
+      "day_departure_pct": 297.0,
+      "day_category": "LE",
+      "period_actual_mm": 331.3,
+      "period_normal_mm": 287.3,
+      "period_departure_pct": 15.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-05T08:37:13"
     }
   ]
 }

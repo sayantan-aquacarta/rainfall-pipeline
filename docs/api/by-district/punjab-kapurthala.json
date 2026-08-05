@@ -1,7 +1,7 @@
 {
   "state": "PUNJAB",
   "district": "KAPURTHALA",
-  "row_count": 90,
+  "row_count": 91,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1622,6 +1622,24 @@
       "period_departure_pct": -54.0,
       "period_category": "D",
       "scraped_at": "2026-08-04T08:37:41"
+    },
+    {
+      "date": "2026-08-04",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-04",
+      "level": "district",
+      "subdivision": "PUNJAB",
+      "state": "PUNJAB",
+      "district": "KAPURTHALA",
+      "day_actual_mm": 9.6,
+      "day_normal_mm": 3.9,
+      "day_departure_pct": 145.0,
+      "day_category": "LE",
+      "period_actual_mm": 117.8,
+      "period_normal_mm": 241.0,
+      "period_departure_pct": -51.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-05T08:37:13"
     }
   ]
 }

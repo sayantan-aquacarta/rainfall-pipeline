@@ -1,7 +1,7 @@
 {
   "state": "PUNJAB",
   "district": "FARIDKOT",
-  "row_count": 91,
+  "row_count": 92,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1640,6 +1640,24 @@
       "period_departure_pct": 12.0,
       "period_category": "N",
       "scraped_at": "2026-08-04T08:37:41"
+    },
+    {
+      "date": "2026-08-04",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-04",
+      "level": "district",
+      "subdivision": "PUNJAB",
+      "state": "PUNJAB",
+      "district": "FARIDKOT",
+      "day_actual_mm": 12.4,
+      "day_normal_mm": 2.6,
+      "day_departure_pct": 377.0,
+      "day_category": "LE",
+      "period_actual_mm": 198.8,
+      "period_normal_mm": 169.0,
+      "period_departure_pct": 18.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-05T08:37:13"
     }
   ]
 }

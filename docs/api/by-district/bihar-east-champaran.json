@@ -1,7 +1,7 @@
 {
   "state": "BIHAR",
   "district": "EAST CHAMPARAN",
-  "row_count": 91,
+  "row_count": 92,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1640,6 +1640,24 @@
       "period_departure_pct": -43.0,
       "period_category": "D",
       "scraped_at": "2026-08-04T08:37:41"
+    },
+    {
+      "date": "2026-08-04",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-04",
+      "level": "district",
+      "subdivision": "BIHAR",
+      "state": "BIHAR",
+      "district": "EAST CHAMPARAN",
+      "day_actual_mm": 17.8,
+      "day_normal_mm": 6.3,
+      "day_departure_pct": 183.0,
+      "day_category": "LE",
+      "period_actual_mm": 342.7,
+      "period_normal_mm": 579.8,
+      "period_departure_pct": -41.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-05T08:37:13"
     }
   ]
 }
