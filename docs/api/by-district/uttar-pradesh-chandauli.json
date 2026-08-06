@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "CHANDAULI",
-  "row_count": 89,
+  "row_count": 90,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1604,6 +1604,24 @@
       "period_departure_pct": -35.0,
       "period_category": "D",
       "scraped_at": "2026-08-05T08:37:13"
+    },
+    {
+      "date": "2026-08-05",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-05",
+      "level": "district",
+      "subdivision": "EAST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "CHANDAULI",
+      "day_actual_mm": 2.5,
+      "day_normal_mm": 7.6,
+      "day_departure_pct": -67.0,
+      "day_category": "LD",
+      "period_actual_mm": 231.7,
+      "period_normal_mm": 360.9,
+      "period_departure_pct": -36.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-06T08:37:24"
     }
   ]
 }

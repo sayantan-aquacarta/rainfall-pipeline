@@ -1,7 +1,7 @@
 {
   "state": "CHHATTISGARH",
   "district": "GARIABAND",
-  "row_count": 92,
+  "row_count": 93,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1658,6 +1658,24 @@
       "period_departure_pct": 25.0,
       "period_category": "E",
       "scraped_at": "2026-08-05T08:37:13"
+    },
+    {
+      "date": "2026-08-05",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-05",
+      "level": "district",
+      "subdivision": "CHHATTISGARH",
+      "state": "CHHATTISGARH",
+      "district": "GARIABAND",
+      "day_actual_mm": 2.9,
+      "day_normal_mm": 8.3,
+      "day_departure_pct": -65.0,
+      "day_category": "LD",
+      "period_actual_mm": 706.7,
+      "period_normal_mm": 571.7,
+      "period_departure_pct": 24.0,
+      "period_category": "E",
+      "scraped_at": "2026-08-06T08:37:24"
     }
   ]
 }

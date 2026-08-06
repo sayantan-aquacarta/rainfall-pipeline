@@ -1,7 +1,7 @@
 {
   "state": "ANDHRA PRADESH",
   "district": "PRAKASAM",
-  "row_count": 92,
+  "row_count": 93,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1658,6 +1658,24 @@
       "period_departure_pct": -47.0,
       "period_category": "D",
       "scraped_at": "2026-08-05T08:37:13"
+    },
+    {
+      "date": "2026-08-05",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-05",
+      "level": "district",
+      "subdivision": "ANDHRA PRADESH",
+      "state": "ANDHRA PRADESH",
+      "district": "PRAKASAM",
+      "day_actual_mm": 0.5,
+      "day_normal_mm": 3.0,
+      "day_departure_pct": -82.0,
+      "day_category": "LD",
+      "period_actual_mm": 90.0,
+      "period_normal_mm": 172.0,
+      "period_departure_pct": -48.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-06T08:37:24"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "CHHINDWARA",
-  "row_count": 92,
+  "row_count": 93,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1658,6 +1658,24 @@
       "period_departure_pct": -13.0,
       "period_category": "N",
       "scraped_at": "2026-08-05T08:37:13"
+    },
+    {
+      "date": "2026-08-05",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-05",
+      "level": "district",
+      "subdivision": "EAST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "CHHINDWARA",
+      "day_actual_mm": 0.1,
+      "day_normal_mm": 11.8,
+      "day_departure_pct": -99.0,
+      "day_category": "LD",
+      "period_actual_mm": 483.4,
+      "period_normal_mm": 566.0,
+      "period_departure_pct": -15.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-06T08:37:24"
     }
   ]
 }

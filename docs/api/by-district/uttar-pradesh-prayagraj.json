@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "PRAYAGRAJ",
-  "row_count": 92,
+  "row_count": 93,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1658,6 +1658,24 @@
       "period_departure_pct": -35.0,
       "period_category": "D",
       "scraped_at": "2026-08-05T08:37:13"
+    },
+    {
+      "date": "2026-08-05",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-05",
+      "level": "district",
+      "subdivision": "EAST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "PRAYAGRAJ",
+      "day_actual_mm": 32.4,
+      "day_normal_mm": 5.8,
+      "day_departure_pct": 459.0,
+      "day_category": "LE",
+      "period_actual_mm": 265.5,
+      "period_normal_mm": 365.1,
+      "period_departure_pct": -27.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-06T08:37:24"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "MEGHALAYA",
   "district": "EAST KHASI HILLS",
-  "row_count": 92,
+  "row_count": 93,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1658,6 +1658,24 @@
       "period_departure_pct": -49.0,
       "period_category": "D",
       "scraped_at": "2026-08-05T08:37:13"
+    },
+    {
+      "date": "2026-08-05",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-05",
+      "level": "district",
+      "subdivision": "MEGHALAYA",
+      "state": "MEGHALAYA",
+      "district": "EAST KHASI HILLS",
+      "day_actual_mm": 36.7,
+      "day_normal_mm": 27.7,
+      "day_departure_pct": 32.0,
+      "day_category": "E",
+      "period_actual_mm": 1523.6,
+      "period_normal_mm": 2958.4,
+      "period_departure_pct": -49.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-06T08:37:24"
     }
   ]
 }
