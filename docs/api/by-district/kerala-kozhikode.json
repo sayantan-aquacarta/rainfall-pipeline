@@ -1,7 +1,7 @@
 {
   "state": "KERALA",
   "district": "KOZHIKODE",
-  "row_count": 93,
+  "row_count": 94,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1676,6 +1676,24 @@
       "period_departure_pct": -9.0,
       "period_category": "N",
       "scraped_at": "2026-08-06T08:37:24"
+    },
+    {
+      "date": "2026-08-06",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-06",
+      "level": "district",
+      "subdivision": "KERALA",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 11.6,
+      "day_normal_mm": 18.4,
+      "day_departure_pct": -37.0,
+      "day_category": "D",
+      "period_actual_mm": 1691.2,
+      "period_normal_mm": 1873.1,
+      "period_departure_pct": -10.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-07T07:16:54"
     }
   ]
 }

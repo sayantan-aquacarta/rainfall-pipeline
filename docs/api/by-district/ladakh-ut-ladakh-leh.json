@@ -1,7 +1,7 @@
 {
   "state": "LADAKH (UT)",
   "district": "LADAKH (LEH)",
-  "row_count": 92,
+  "row_count": 93,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1658,6 +1658,24 @@
       "period_departure_pct": 181.0,
       "period_category": "LE",
       "scraped_at": "2026-08-06T08:37:24"
+    },
+    {
+      "date": "2026-08-06",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-06",
+      "level": "district",
+      "subdivision": "LADAKH (UT)",
+      "state": "LADAKH (UT)",
+      "district": "LADAKH (LEH)",
+      "day_actual_mm": 0.2,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": 1900.0,
+      "day_category": "LE",
+      "period_actual_mm": 44.8,
+      "period_normal_mm": 15.7,
+      "period_departure_pct": 182.0,
+      "period_category": "LE",
+      "scraped_at": "2026-08-07T07:16:54"
     }
   ]
 }

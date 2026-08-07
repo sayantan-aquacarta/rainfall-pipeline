@@ -1,7 +1,7 @@
 {
   "state": "TAMILNADU",
   "district": "COIMBATORE",
-  "row_count": 93,
+  "row_count": 94,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1676,6 +1676,24 @@
       "period_departure_pct": 9.0,
       "period_category": "N",
       "scraped_at": "2026-08-06T08:37:24"
+    },
+    {
+      "date": "2026-08-06",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-06",
+      "level": "district",
+      "subdivision": "TAMILNADU",
+      "state": "TAMILNADU",
+      "district": "COIMBATORE",
+      "day_actual_mm": 2.8,
+      "day_normal_mm": 5.4,
+      "day_departure_pct": -49.0,
+      "day_category": "D",
+      "period_actual_mm": 464.4,
+      "period_normal_mm": 430.3,
+      "period_departure_pct": 8.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-07T07:16:54"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "MAHARAJGANJ",
-  "row_count": 93,
+  "row_count": 94,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1676,6 +1676,24 @@
       "period_departure_pct": -8.0,
       "period_category": "N",
       "scraped_at": "2026-08-06T08:37:24"
+    },
+    {
+      "date": "2026-08-06",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-06",
+      "level": "district",
+      "subdivision": "EAST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "MAHARAJGANJ",
+      "day_actual_mm": 22.1,
+      "day_normal_mm": 8.8,
+      "day_departure_pct": 151.0,
+      "day_category": "LE",
+      "period_actual_mm": 524.9,
+      "period_normal_mm": 556.8,
+      "period_departure_pct": -6.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-07T07:16:54"
     }
   ]
 }

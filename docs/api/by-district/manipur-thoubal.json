@@ -1,7 +1,7 @@
 {
   "state": "MANIPUR",
   "district": "THOUBAL",
-  "row_count": 91,
+  "row_count": 92,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1640,6 +1640,24 @@
       "period_departure_pct": -56.0,
       "period_category": "D",
       "scraped_at": "2026-08-06T08:37:24"
+    },
+    {
+      "date": "2026-08-06",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-06",
+      "level": "district",
+      "subdivision": "MANIPUR",
+      "state": "MANIPUR",
+      "district": "THOUBAL",
+      "day_actual_mm": 4.8,
+      "day_normal_mm": 8.5,
+      "day_departure_pct": -44.0,
+      "day_category": "D",
+      "period_actual_mm": 201.7,
+      "period_normal_mm": 456.3,
+      "period_departure_pct": -56.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-07T07:16:54"
     }
   ]
 }
