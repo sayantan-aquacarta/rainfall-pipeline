@@ -1,7 +1,7 @@
 {
   "state": "TAMILNADU",
   "district": "KANYAKUMARI",
-  "row_count": 94,
+  "row_count": 95,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1694,6 +1694,24 @@
       "period_departure_pct": 15.0,
       "period_category": "N",
       "scraped_at": "2026-08-07T07:16:54"
+    },
+    {
+      "date": "2026-08-07",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-07",
+      "level": "district",
+      "subdivision": "TAMILNADU",
+      "state": "TAMILNADU",
+      "district": "KANYAKUMARI",
+      "day_actual_mm": 4.5,
+      "day_normal_mm": 3.4,
+      "day_departure_pct": 32.0,
+      "day_category": "E",
+      "period_actual_mm": 350.7,
+      "period_normal_mm": 303.5,
+      "period_departure_pct": 16.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-08T06:54:35"
     }
   ]
 }

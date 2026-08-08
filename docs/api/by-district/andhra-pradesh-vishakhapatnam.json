@@ -1,7 +1,7 @@
 {
   "state": "ANDHRA PRADESH",
   "district": "VISHAKHAPATNAM",
-  "row_count": 94,
+  "row_count": 95,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1694,6 +1694,24 @@
       "period_departure_pct": -43.0,
       "period_category": "D",
       "scraped_at": "2026-08-07T07:16:54"
+    },
+    {
+      "date": "2026-08-07",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-07",
+      "level": "district",
+      "subdivision": "ANDHRA PRADESH",
+      "state": "ANDHRA PRADESH",
+      "district": "VISHAKHAPATNAM",
+      "day_actual_mm": 53.4,
+      "day_normal_mm": 3.1,
+      "day_departure_pct": 1623.0,
+      "day_category": "LE",
+      "period_actual_mm": 207.6,
+      "period_normal_mm": 274.1,
+      "period_departure_pct": -24.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-08T06:54:35"
     }
   ]
 }

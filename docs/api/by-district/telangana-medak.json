@@ -1,7 +1,7 @@
 {
   "state": "TELANGANA",
   "district": "MEDAK",
-  "row_count": 94,
+  "row_count": 95,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1694,6 +1694,24 @@
       "period_departure_pct": 7.0,
       "period_category": "N",
       "scraped_at": "2026-08-07T07:16:54"
+    },
+    {
+      "date": "2026-08-07",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-07",
+      "level": "district",
+      "subdivision": "TELANGANA",
+      "state": "TELANGANA",
+      "district": "MEDAK",
+      "day_actual_mm": 6.6,
+      "day_normal_mm": 7.1,
+      "day_departure_pct": -7.0,
+      "day_category": "N",
+      "period_actual_mm": 461.7,
+      "period_normal_mm": 430.4,
+      "period_departure_pct": 7.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-08T06:54:35"
     }
   ]
 }

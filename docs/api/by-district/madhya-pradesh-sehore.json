@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "SEHORE",
-  "row_count": 94,
+  "row_count": 95,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1694,6 +1694,24 @@
       "period_departure_pct": -8.0,
       "period_category": "N",
       "scraped_at": "2026-08-07T07:16:54"
+    },
+    {
+      "date": "2026-08-07",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-07",
+      "level": "district",
+      "subdivision": "WEST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "SEHORE",
+      "day_actual_mm": 1.8,
+      "day_normal_mm": 15.5,
+      "day_departure_pct": -88.0,
+      "day_category": "LD",
+      "period_actual_mm": 533.0,
+      "period_normal_mm": 594.4,
+      "period_departure_pct": -10.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-08T06:54:35"
     }
   ]
 }

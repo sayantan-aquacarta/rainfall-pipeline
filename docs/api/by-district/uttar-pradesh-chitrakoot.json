@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "CHITRAKOOT",
-  "row_count": 93,
+  "row_count": 94,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1676,6 +1676,24 @@
       "period_departure_pct": 1.0,
       "period_category": "N",
       "scraped_at": "2026-08-07T07:16:54"
+    },
+    {
+      "date": "2026-08-07",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-07",
+      "level": "district",
+      "subdivision": "EAST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "CHITRAKOOT",
+      "day_actual_mm": 32.5,
+      "day_normal_mm": 10.2,
+      "day_departure_pct": 219.0,
+      "day_category": "LE",
+      "period_actual_mm": 447.8,
+      "period_normal_mm": 421.9,
+      "period_departure_pct": 6.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-08T06:54:35"
     }
   ]
 }

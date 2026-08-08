@@ -1,7 +1,7 @@
 {
   "state": "PUDUCHERRY (UT)",
   "district": "PUDUCHERRY",
-  "row_count": 94,
+  "row_count": 95,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1694,6 +1694,24 @@
       "period_departure_pct": -73.0,
       "period_category": "LD",
       "scraped_at": "2026-08-07T07:16:54"
+    },
+    {
+      "date": "2026-08-07",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-07",
+      "level": "district",
+      "subdivision": "PUDUCHERRY (UT)",
+      "state": "PUDUCHERRY (UT)",
+      "district": "PUDUCHERRY",
+      "day_actual_mm": 14.5,
+      "day_normal_mm": 3.6,
+      "day_departure_pct": 301.0,
+      "day_category": "LE",
+      "period_actual_mm": 54.3,
+      "period_normal_mm": 150.9,
+      "period_departure_pct": -64.0,
+      "period_category": "LD",
+      "scraped_at": "2026-08-08T06:54:35"
     }
   ]
 }
