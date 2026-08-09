@@ -1,7 +1,7 @@
 {
   "state": "PUNJAB",
   "district": "PATIALA",
-  "row_count": 95,
+  "row_count": 96,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1712,6 +1712,24 @@
       "period_departure_pct": -41.0,
       "period_category": "D",
       "scraped_at": "2026-08-08T06:54:35"
+    },
+    {
+      "date": "2026-08-08",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-08",
+      "level": "district",
+      "subdivision": "PUNJAB",
+      "state": "PUNJAB",
+      "district": "PATIALA",
+      "day_actual_mm": 2.7,
+      "day_normal_mm": 4.3,
+      "day_departure_pct": -38.0,
+      "day_category": "D",
+      "period_actual_mm": 189.6,
+      "period_normal_mm": 321.1,
+      "period_departure_pct": -41.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T06:57:46"
     }
   ]
 }

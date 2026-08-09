@@ -1,7 +1,7 @@
 {
   "state": "CHHATTISGARH",
   "district": "BALOD",
-  "row_count": 95,
+  "row_count": 96,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1712,6 +1712,24 @@
       "period_departure_pct": 18.0,
       "period_category": "N",
       "scraped_at": "2026-08-08T06:54:35"
+    },
+    {
+      "date": "2026-08-08",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-08",
+      "level": "district",
+      "subdivision": "CHHATTISGARH",
+      "state": "CHHATTISGARH",
+      "district": "BALOD",
+      "day_actual_mm": 3.4,
+      "day_normal_mm": 8.6,
+      "day_departure_pct": -60.0,
+      "day_category": "LD",
+      "period_actual_mm": 691.0,
+      "period_normal_mm": 591.7,
+      "period_departure_pct": 17.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-09T06:57:46"
     }
   ]
 }

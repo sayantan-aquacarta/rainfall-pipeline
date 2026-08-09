@@ -1,7 +1,7 @@
 {
   "state": "BIHAR",
   "district": "SIWAN",
-  "row_count": 95,
+  "row_count": 96,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1712,6 +1712,24 @@
       "period_departure_pct": -7.0,
       "period_category": "N",
       "scraped_at": "2026-08-08T06:54:35"
+    },
+    {
+      "date": "2026-08-08",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-08",
+      "level": "district",
+      "subdivision": "BIHAR",
+      "state": "BIHAR",
+      "district": "SIWAN",
+      "day_actual_mm": 14.1,
+      "day_normal_mm": 6.1,
+      "day_departure_pct": 131.0,
+      "day_category": "LE",
+      "period_actual_mm": 471.0,
+      "period_normal_mm": 496.7,
+      "period_departure_pct": -5.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-09T06:57:46"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "PUNJAB",
   "district": "MANSA",
-  "row_count": 90,
+  "row_count": 91,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1622,6 +1622,24 @@
       "period_departure_pct": -74.0,
       "period_category": "LD",
       "scraped_at": "2026-08-08T06:54:35"
+    },
+    {
+      "date": "2026-08-08",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-08",
+      "level": "district",
+      "subdivision": "PUNJAB",
+      "state": "PUNJAB",
+      "district": "MANSA",
+      "day_actual_mm": 5.2,
+      "day_normal_mm": 3.7,
+      "day_departure_pct": 41.0,
+      "day_category": "E",
+      "period_actual_mm": 48.0,
+      "period_normal_mm": 169.0,
+      "period_departure_pct": -72.0,
+      "period_category": "LD",
+      "scraped_at": "2026-08-09T06:57:46"
     }
   ]
 }
