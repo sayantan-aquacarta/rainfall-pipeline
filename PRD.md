@@ -99,9 +99,15 @@ future module (temperature, heatwave, reservoirs) is expected to satisfy before 
 ### P2 — New modules
 See `MARKET_ANALYSIS.md §3 and §6` for verified feasibility findings and recommended order —
 summary:
-1. **Reservoir Storage** (build first) — confirmed feasible: CWC's weekly bulletin PDF is
-   cleanly table-structured and directly extractable with `pdfplumber`, same difficulty class as
-   the existing rainfall parser. Different publisher (CWC, not IMD), weekly not daily cadence.
+1. **Reservoir Storage** — **not yet buildable, one research step remaining.** CWC's old weekly
+   PDF bulletin (originally identified as the source) is confirmed stale — hasn't published since
+   May 2025. CWC has moved to a live Angular dashboard (RSMS, `rsms.cwc.gov.in`) with a real JSON
+   API; one endpoint is confirmed working (`dashboard-reservoir-list` — names only), but the
+   endpoint returning actual per-reservoir storage values wasn't found in this session's research
+   (see `MARKET_ANALYSIS.md §3` for exactly what was tried). Needs one more focused session with
+   live DevTools access (a human clicking the dashboard's filters while Network tab is open is
+   more reliable than scripted event dispatch against an unfamiliar Angular UI library) before any
+   scraper code is written.
 2. **Rainfall↔reservoir correlation view** (build immediately after #1) — the actual
    differentiation opportunity; uses data both pipelines will already own.
 3. **Temperature Extremes** and **Heat/Cold Wave Alerts** — do *not* default to PDF/GIS scraping

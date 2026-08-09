@@ -66,7 +66,55 @@ with 5-day warnings per district, including explicit warning codes for Heat Wave
 needs, natively in JSON, no PDF or image parsing required at all. If access is confirmed workable
 (§4), this module is arguably **easier** to build than rainfall was.
 
-### Reservoirs — confirmed buildable, PDF-based, same difficulty class as rainfall
+### Reservoirs — the PDF source is stale; CWC has moved to a live JSON dashboard (RSMS)
+**Update 2026-08-10 (second research pass):** the PDF bulletin listing described below is
+confirmed **stale** — `cwc.gov.in/reservoirs-storage-bulletin` has not published a new bulletin
+since 08.05.2025 (verified via the page's own pagination: page 1 of 21, sorted newest-first,
+still shows May 2025 as the latest entry, 15 months behind the actual current date). Building
+against it now would mean shipping a module that's frozen from day one — exactly the "looks live,
+isn't" failure mode this session already fixed twice for the drought module. **Do not build
+against the PDF bulletin path described in the paragraph below without re-verifying it first.**
+
+CWC has migrated reservoir monitoring to a new system: **RSMS** (`rsms.cwc.gov.in`), an Angular
+SPA at `/frameWork/web/public-dashboard`. This is confirmed genuinely live and more current than
+the old PDF ever was — the page shows "Latest Storage Status... as on 06-08-2026" with
+"Last updated: 10-08-2026 03:22 AM" (within a day of the actual current date), covering the same
+166 reservoirs, all-India aggregate totals (live capacity at FRL, current storage, last year,
+normal), and per-state/per-basin filtering. Network inspection (Chrome DevTools via
+`read_network_requests`, not guessing) found a real backend API at `rsms.cwc.gov.in/admin/*`:
+- `POST /admin/dashboard-reservoir-list` — **confirmed working**, no auth, empty JSON body
+  (`{}`) returns all 166 reservoirs as `{id, name, reservoir_state_id}`. This is a filter-dropdown
+  feed, not the storage data itself.
+- `POST /admin/dashboard-state-list`, `POST /admin/dashboard-basin-list` — return `{message,
+  total, result, count_data, total_reservoirs, status}` on the real page load (200 OK observed in
+  the network log) but returned 500 on every parameter guess tried (`state_id`, `reservoir_state_id`,
+  `type`, empty body). **The actual request body Angular sends was not captured** — the app uses
+  a UI library (not a plain `<select>` with native change events; a dispatched `change` event did
+  not trigger a new fetch) that a monkey-patched `window.fetch` running across a full page
+  `navigate()` couldn't observe (the patch is lost on hard navigation; the SPA's own router
+  wasn't exercised through an actual UI click in this session).
+- The endpoint carrying the actual per-reservoir storage table (FRL, current level, % of FRL,
+  etc. — visible in the rendered page) was **not identified**. Eight plausible names were tried
+  (`dashboard-reservoir-storage`, `dashboard-storage-list`, `reservoir-storage-detail`, etc.) —
+  all 404 "Route not found," confirming the API framework is real but the correct route is not a
+  simple name-pattern guess.
+
+**Recommended next step, not yet done:** revisit with either (a) a live interactive browser
+session where a human or agent actually clicks the state/reservoir dropdown and reads the
+resulting request from DevTools' Network tab directly (more reliable than scripted event
+dispatch against an unfamiliar UI framework), or (b) contact CWC/NWIC for API documentation —
+government portals moving to Angular SPAs sometimes publish Swagger/OpenAPI docs even without
+linking them prominently. **Do not extrapolate a working scraper from the one confirmed endpoint
+alone** — `dashboard-reservoir-list` provides names only, not storage values, so a module built
+on it alone would ship with an empty data table.
+
+Once the correct endpoint is found, this becomes an *easier* build than rainfall: JSON in, no PDF
+parsing, no font-weight tricks, and — if RSMS updates as frequently as the "10-08-2026 03:22 AM"
+timestamp suggests — potentially higher-cadence data than the old weekly PDF ever offered.
+
+<details>
+<summary>Original (now superseded) PDF-based finding, kept for reference</summary>
+
 Verified directly: CWC's weekly bulletin (`cwc.gov.in/sites/default/files/bulletin-DD-MM-YYYY.pdf`,
 stable "View" URL pattern — the separate token-gated "Download" link should be avoided) is a
 26-page, cleanly-structured, text-extractable PDF (confirmed via this project's own `pdfplumber`).
@@ -74,11 +122,12 @@ The core data table ("REGION/STATE WISE WEEKLY REPORT OF 161 IMPORTANT RESERVOIR
 columns — reservoir name, FRL, current level, live capacity, current storage, % of FRL (current
 year / last year / normal), irrigation CCA, hydel MW — grouped by Region → State section headers,
 extractable with `pdfplumber.extract_tables()` without needing a font-weight trick (CWC's PDF has
-actual grid lines, unlike IMD's rainfall PDF). Filename patterns have varied historically
-(`bulletin-DD-MM-YYYY.pdf` vs. `fb-DDMMYYYY.pdf`), so the scraper must parse the bulletin listing
-page each week to find the current link rather than guessing a URL — same pattern the rainfall
-scraper already uses. **This is the most tractable of the three modules and should be built
-first.**
+actual grid lines, unlike IMD's rainfall PDF). This remains a viable **fallback** if RSMS's API
+can't be pinned down, but it means building against a source that's 15 months stale as of this
+writing and hoping CWC resumes publishing to it — the live RSMS dashboard should be exhausted as
+an option first.
+
+</details>
 
 ## 4. Critical caveat before building against `api.imd.gov.in`
 
@@ -132,11 +181,20 @@ and could ship before any new government-data integration at all.
 
 ## 6. Recommended sequencing
 
-1. Ship the P0 freshness tripwire (`PRD.md §5`) — cheap, prevents a repeat of the drought-freeze
-   bug class regardless of what's built next.
-2. Build **Reservoirs** (confirmed feasible, PDF-based, same difficulty class as existing code).
-3. Ship the **rainfall↔reservoir correlation view** (§5.1) immediately after — this is where the
-   real differentiation shows up, not in the reservoir dashboard alone.
+1. ~~Ship the P0 freshness tripwire~~ — **done 2026-08-10.** `drought.py` now flags
+   `is_stale`/`staleness_days` in `drought-latest.json`, `drought.html` shows a red "Stale" pill
+   in place of the green "Live" one when triggered. Also fixed in the same session: the drought
+   freeze itself (parser bug, backfilled June 14 – Aug 8) and a Delhi/Delhi(UT) state-name split
+   discovered via live-site verification after deploy — same bug class, different symptom.
+2. **Reservoirs — blocked on one more research step, not a build step.** The PDF path is
+   confirmed stale (15 months, see §3). The replacement RSMS live dashboard is confirmed to exist
+   and work, but the specific API call that returns per-reservoir storage values (not just the
+   name list) wasn't identified in this session's research pass — see §3 for exactly what's
+   confirmed vs. still needed. Resolve that one endpoint before writing any scraper code; don't
+   build against a guess.
+3. Once #2's endpoint is confirmed: ship the **rainfall↔reservoir correlation view** (§5.1)
+   immediately after the reservoir module itself — this is where the real differentiation shows
+   up, not in the reservoir dashboard alone.
 4. Verify `api.imd.gov.in` access concretely (§4) before committing to Temperature/Heat-Wave
    Alerts. If it's genuinely open (no IP allow-listing), both modules become significantly easier
    than originally scoped in `PRD.md §5 P2` and should be re-estimated downward. If it's blocked,
