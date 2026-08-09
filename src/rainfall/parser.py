@@ -121,6 +121,57 @@ def _normalise_state(state: str | None) -> str | None:
     return _STATE_NORMALISE.get(state, state)
 
 
+# ---------------------------------------------------------------------------
+# Canonical met-subdivision master list (36 entries, pre-monsoon spelling).
+#
+# IMD's monsoon-format PDF (June+) renders every aggregate row bold, so the
+# subdivision/state distinction can no longer be read from font weight alone.
+# Instead we recognise genuine subdivision boundaries by name: a bold,
+# no-serial line is a *subdivision* header iff its (canonicalised) name is in
+# this set. Any other bold, no-serial line is a nested *state* line within
+# whatever subdivision is currently open (e.g. "ASSAM" nested inside
+# "ASSAM & MEGHALAYA", or a purely cosmetic state-wrapper IMD now prints
+# above a group of subdivisions, e.g. "RAJASTHAN" above "EAST/WEST RAJASTHAN"
+# — harmless to treat as a state-context update either way, since nothing
+# downstream keys off level="state" rows).
+#
+# A handful of subdivisions changed spelling in the monsoon format; map them
+# back to the pre-monsoon spelling so subdivision-keyed time series (notably
+# the drought/SPI module) stay continuous across the seasonal format switch.
+# ---------------------------------------------------------------------------
+_SUBDIVISIONS: frozenset[str] = frozenset({
+    "A & N ISLAND", "ARUNACHAL PRADESH", "ASSAM & MEGHALAYA", "BIHAR",
+    "CHHATTISGARH", "COASTAL A. P. & YANAM", "COASTAL KARNATAKA",
+    "EAST MADHYA PRADESH", "EAST RAJASTHAN", "EAST UTTAR PRADESH",
+    "GANGETIC WEST BENGAL", "GUJARAT REGION", "HAR. CHD & DELHI",
+    "HIMACHAL PRADESH", "J & K AND LADAKH", "JHARKHAND", "KERALA & MAHE",
+    "KONKAN & GOA", "LAKSHADWEEP", "MADHYA MAHARASHTRA", "MARATHWADA",
+    "N. I. KARNATAKA", "NMMT", "ODISHA", "PUNJAB", "RAYALASEEMA",
+    "S. I. KARNATAKA", "SAURASHTRA & KUTCH", "SHWB & SIKKIM",
+    "TAMIL. PUDU.& KARAIKAL", "TELANGANA", "UTTARAKHAND", "VIDARBHA",
+    "WEST MADHYA PRADESH", "WEST RAJASTHAN", "WEST UTTAR PRADESH",
+})
+
+_SUBDIVISION_NORMALISE: dict[str, str] = {
+    "ANDAMAN & NICOBAR ISLANDS":       "A & N ISLAND",
+    "COASTAL ANDHRA PRADESH & YANAM":  "COASTAL A. P. & YANAM",
+    "DELHI AND HARYANA AND CHANDIGARH": "HAR. CHD & DELHI",
+    "JAMMU & KASHMIR AND LADAKH":      "J & K AND LADAKH",
+    "NORTHERN INTERIOR KARNATAKA":     "N. I. KARNATAKA",
+    "SOUTHERN INTERIOR KARNATAKA":     "S. I. KARNATAKA",
+    "TAMILNADU & PUDUCHERRY & KARAIKAL": "TAMIL. PUDU.& KARAIKAL",
+}
+
+
+def _normalise_subdivision(name: str) -> str:
+    """Canonicalise a monsoon-format subdivision name to its pre-monsoon spelling."""
+    return _SUBDIVISION_NORMALISE.get(name, name)
+
+
+def _is_subdivision(name: str) -> bool:
+    return _normalise_subdivision(name) in _SUBDIVISIONS
+
+
 _DAY_RE = re.compile(
     r"DAY\s*:\s*(\d{2}\.\d{2}\.\d{4})\s*TO\s*(\d{2}\.\d{2}\.\d{4})", re.IGNORECASE
 )
@@ -332,24 +383,41 @@ def parse_pdf(pdf_bytes: bytes) -> ParsedDocument:
 
         if is_monsoon_format:
             if serial is None:
-                # Aggregate row (state or composite group): update context for districts below.
-                current_subdivision = name
-                current_state = _normalise_state(name)
-                rows.append(_row(
-                    level="state",
-                    subdivision=current_subdivision,
-                    state=current_state,
-                    district=None,
-                    day=(day_actual_s, day_normal_s, day_pct_s, day_cat_s),
-                    period=(per_actual_s, per_normal_s, per_pct_s, per_cat_s),
-                ))
+                if _is_subdivision(name):
+                    # Genuine subdivision boundary: open a new subdivision context.
+                    # Default state = self-mapping (correct for single-state
+                    # subdivisions); composite subdivisions overwrite this via
+                    # a nested state line before any district row consumes it.
+                    current_subdivision = _normalise_subdivision(name)
+                    current_state = _normalise_state(current_subdivision)
+                    rows.append(_row(
+                        level="subdivision",
+                        subdivision=current_subdivision,
+                        state=None,
+                        district=None,
+                        day=(day_actual_s, day_normal_s, day_pct_s, day_cat_s),
+                        period=(per_actual_s, per_normal_s, per_pct_s, per_cat_s),
+                    ))
+                else:
+                    # Nested state line within the open subdivision (e.g. "ASSAM"
+                    # inside "ASSAM & MEGHALAYA"), or a cosmetic state-wrapper
+                    # IMD prints above a group of subdivisions — either way this
+                    # only updates state context, never the subdivision context.
+                    current_state = _normalise_state(name)
+                    rows.append(_row(
+                        level="state",
+                        subdivision=current_subdivision,
+                        state=current_state,
+                        district=None,
+                        day=(day_actual_s, day_normal_s, day_pct_s, day_cat_s),
+                        period=(per_actual_s, per_normal_s, per_pct_s, per_cat_s),
+                    ))
             else:
                 # District row: serial number present; all numbered rows are districts.
-                raw_state = current_state if current_state is not None else current_subdivision
                 rows.append(_row(
                     level="district",
                     subdivision=current_subdivision,
-                    state=_normalise_state(raw_state),
+                    state=current_state,
                     district=name,
                     day=(day_actual_s, day_normal_s, day_pct_s, day_cat_s),
                     period=(per_actual_s, per_normal_s, per_pct_s, per_cat_s),

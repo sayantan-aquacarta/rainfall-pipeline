@@ -1,7 +1,7 @@
 {
   "state": "KERALA",
   "district": "KOZHIKODE",
-  "row_count": 96,
+  "row_count": 142,
   "rows": [
     {
       "date": "2026-04-13",
@@ -922,6 +922,24 @@
       "scraped_at": "2026-06-14T09:36:57"
     },
     {
+      "date": "2026-06-14",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-14",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 7.6,
+      "day_normal_mm": 38.4,
+      "day_departure_pct": -80.0,
+      "day_category": "LD",
+      "period_actual_mm": 446.3,
+      "period_normal_mm": 389.2,
+      "period_departure_pct": 15.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-09T20:58:04"
+    },
+    {
       "date": "2026-06-15",
       "period_start": "2026-06-01",
       "period_end": "2026-06-15",
@@ -938,6 +956,24 @@
       "period_departure_pct": 6.0,
       "period_category": "N",
       "scraped_at": "2026-06-15T12:17:43"
+    },
+    {
+      "date": "2026-06-15",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-15",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 1.2,
+      "day_normal_mm": 32.8,
+      "day_departure_pct": -96.0,
+      "day_category": "LD",
+      "period_actual_mm": 447.4,
+      "period_normal_mm": 422.0,
+      "period_departure_pct": 6.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-09T20:58:07"
     },
     {
       "date": "2026-06-16",
@@ -958,6 +994,24 @@
       "scraped_at": "2026-06-16T11:12:48"
     },
     {
+      "date": "2026-06-16",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-16",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 2.0,
+      "day_normal_mm": 26.4,
+      "day_departure_pct": -92.0,
+      "day_category": "LD",
+      "period_actual_mm": 449.8,
+      "period_normal_mm": 448.4,
+      "period_departure_pct": 0.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-09T20:58:10"
+    },
+    {
       "date": "2026-06-17",
       "period_start": "2026-06-01",
       "period_end": "2026-06-17",
@@ -974,6 +1028,24 @@
       "period_departure_pct": -4.0,
       "period_category": "N",
       "scraped_at": "2026-06-17T10:58:53"
+    },
+    {
+      "date": "2026-06-17",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-17",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 14.9,
+      "day_normal_mm": 34.1,
+      "day_departure_pct": -56.0,
+      "day_category": "D",
+      "period_actual_mm": 464.5,
+      "period_normal_mm": 482.5,
+      "period_departure_pct": -4.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-09T20:58:13"
     },
     {
       "date": "2026-06-18",
@@ -994,6 +1066,24 @@
       "scraped_at": "2026-06-20T09:16:57"
     },
     {
+      "date": "2026-06-18",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-18",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 39.4,
+      "day_normal_mm": 33.3,
+      "day_departure_pct": 18.0,
+      "day_category": "N",
+      "period_actual_mm": 503.9,
+      "period_normal_mm": 515.8,
+      "period_departure_pct": -2.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-09T20:58:22"
+    },
+    {
       "date": "2026-06-21",
       "period_start": "2026-06-01",
       "period_end": "2026-06-21",
@@ -1010,6 +1100,24 @@
       "period_departure_pct": -15.0,
       "period_category": "N",
       "scraped_at": "2026-06-21T09:52:08"
+    },
+    {
+      "date": "2026-06-21",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-21",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 0.8,
+      "day_normal_mm": 29.0,
+      "day_departure_pct": -97.0,
+      "day_category": "LD",
+      "period_actual_mm": 514.7,
+      "period_normal_mm": 607.1,
+      "period_departure_pct": -15.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-09T20:58:25"
     },
     {
       "date": "2026-06-22",
@@ -1030,6 +1138,24 @@
       "scraped_at": "2026-06-22T11:57:38"
     },
     {
+      "date": "2026-06-22",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-22",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 12.5,
+      "day_normal_mm": 30.5,
+      "day_departure_pct": -59.0,
+      "day_category": "D",
+      "period_actual_mm": 526.9,
+      "period_normal_mm": 637.6,
+      "period_departure_pct": -17.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-09T20:58:28"
+    },
+    {
       "date": "2026-06-23",
       "period_start": "2026-06-01",
       "period_end": "2026-06-23",
@@ -1046,6 +1172,24 @@
       "period_departure_pct": -18.0,
       "period_category": "N",
       "scraped_at": "2026-06-23T09:41:48"
+    },
+    {
+      "date": "2026-06-23",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-23",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 19.1,
+      "day_normal_mm": 31.4,
+      "day_departure_pct": -39.0,
+      "day_category": "D",
+      "period_actual_mm": 546.0,
+      "period_normal_mm": 669.0,
+      "period_departure_pct": -18.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-09T20:58:32"
     },
     {
       "date": "2026-06-24",
@@ -1066,6 +1210,24 @@
       "scraped_at": "2026-06-25T09:24:16"
     },
     {
+      "date": "2026-06-24",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-24",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 5.9,
+      "day_normal_mm": 31.1,
+      "day_departure_pct": -81.0,
+      "day_category": "LD",
+      "period_actual_mm": 551.9,
+      "period_normal_mm": 700.1,
+      "period_departure_pct": -21.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:58:38"
+    },
+    {
       "date": "2026-06-26",
       "period_start": "2026-06-01",
       "period_end": "2026-06-26",
@@ -1082,6 +1244,24 @@
       "period_departure_pct": -25.0,
       "period_category": "D",
       "scraped_at": "2026-06-26T09:29:52"
+    },
+    {
+      "date": "2026-06-26",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-26",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 13.3,
+      "day_normal_mm": 30.0,
+      "day_departure_pct": -56.0,
+      "day_category": "D",
+      "period_actual_mm": 570.1,
+      "period_normal_mm": 758.6,
+      "period_departure_pct": -25.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:58:41"
     },
     {
       "date": "2026-06-27",
@@ -1102,6 +1282,24 @@
       "scraped_at": "2026-06-27T08:37:21"
     },
     {
+      "date": "2026-06-27",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-27",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 4.6,
+      "day_normal_mm": 29.8,
+      "day_departure_pct": -85.0,
+      "day_category": "LD",
+      "period_actual_mm": 574.6,
+      "period_normal_mm": 788.4,
+      "period_departure_pct": -27.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:58:44"
+    },
+    {
       "date": "2026-06-28",
       "period_start": "2026-06-01",
       "period_end": "2026-06-28",
@@ -1118,6 +1316,24 @@
       "period_departure_pct": -27.0,
       "period_category": "D",
       "scraped_at": "2026-06-28T08:53:54"
+    },
+    {
+      "date": "2026-06-28",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-28",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 19.4,
+      "day_normal_mm": 28.5,
+      "day_departure_pct": -32.0,
+      "day_category": "D",
+      "period_actual_mm": 593.8,
+      "period_normal_mm": 816.9,
+      "period_departure_pct": -27.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:58:47"
     },
     {
       "date": "2026-06-29",
@@ -1138,6 +1354,24 @@
       "scraped_at": "2026-06-30T09:38:10"
     },
     {
+      "date": "2026-06-29",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-29",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 41.8,
+      "day_normal_mm": 30.2,
+      "day_departure_pct": 38.0,
+      "day_category": "E",
+      "period_actual_mm": 635.6,
+      "period_normal_mm": 847.1,
+      "period_departure_pct": -25.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:58:53"
+    },
+    {
       "date": "2026-07-01",
       "period_start": "2026-06-01",
       "period_end": "2026-07-01",
@@ -1154,6 +1388,24 @@
       "period_departure_pct": -22.0,
       "period_category": "D",
       "scraped_at": "2026-07-02T08:58:09"
+    },
+    {
+      "date": "2026-07-01",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-01",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 41.9,
+      "day_normal_mm": 32.6,
+      "day_departure_pct": 29.0,
+      "day_category": "E",
+      "period_actual_mm": 716.2,
+      "period_normal_mm": 916.2,
+      "period_departure_pct": -22.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:58:59"
     },
     {
       "date": "2026-07-02",
@@ -1174,6 +1426,24 @@
       "scraped_at": "2026-07-03T09:19:54"
     },
     {
+      "date": "2026-07-02",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-02",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 36.6,
+      "day_normal_mm": 29.1,
+      "day_departure_pct": 26.0,
+      "day_category": "E",
+      "period_actual_mm": 752.5,
+      "period_normal_mm": 945.3,
+      "period_departure_pct": -20.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:59:02"
+    },
+    {
       "date": "2026-07-03",
       "period_start": "2026-06-01",
       "period_end": "2026-07-03",
@@ -1190,6 +1460,24 @@
       "period_departure_pct": -20.0,
       "period_category": "D",
       "scraped_at": "2026-07-04T08:38:29"
+    },
+    {
+      "date": "2026-07-03",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-03",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 29.1,
+      "day_normal_mm": 30.8,
+      "day_departure_pct": -6.0,
+      "day_category": "N",
+      "period_actual_mm": 781.6,
+      "period_normal_mm": 976.1,
+      "period_departure_pct": -20.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:59:05"
     },
     {
       "date": "2026-07-04",
@@ -1210,6 +1498,24 @@
       "scraped_at": "2026-07-05T08:54:15"
     },
     {
+      "date": "2026-07-04",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-04",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 69.0,
+      "day_normal_mm": 31.4,
+      "day_departure_pct": 120.0,
+      "day_category": "LE",
+      "period_actual_mm": 850.6,
+      "period_normal_mm": 1007.5,
+      "period_departure_pct": -16.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-09T20:59:08"
+    },
+    {
       "date": "2026-07-06",
       "period_start": "2026-06-01",
       "period_end": "2026-07-06",
@@ -1226,6 +1532,24 @@
       "period_departure_pct": -18.0,
       "period_category": "N",
       "scraped_at": "2026-07-06T10:24:34"
+    },
+    {
+      "date": "2026-07-06",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-06",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 2.3,
+      "day_normal_mm": 25.5,
+      "day_departure_pct": -91.0,
+      "day_category": "LD",
+      "period_actual_mm": 866.3,
+      "period_normal_mm": 1058.6,
+      "period_departure_pct": -18.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-09T20:59:12"
     },
     {
       "date": "2026-07-07",
@@ -1246,6 +1570,24 @@
       "scraped_at": "2026-07-08T08:30:26"
     },
     {
+      "date": "2026-07-07",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-07",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 57.0,
+      "day_normal_mm": 27.9,
+      "day_departure_pct": 104.0,
+      "day_category": "LE",
+      "period_actual_mm": 923.3,
+      "period_normal_mm": 1086.5,
+      "period_departure_pct": -15.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-09T20:59:18"
+    },
+    {
       "date": "2026-07-09",
       "period_start": "2026-06-01",
       "period_end": "2026-07-09",
@@ -1262,6 +1604,24 @@
       "period_departure_pct": -11.0,
       "period_category": "N",
       "scraped_at": "2026-07-09T09:41:04"
+    },
+    {
+      "date": "2026-07-09",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-09",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 50.6,
+      "day_normal_mm": 26.0,
+      "day_departure_pct": 95.0,
+      "day_category": "LE",
+      "period_actual_mm": 1012.7,
+      "period_normal_mm": 1141.6,
+      "period_departure_pct": -11.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-09T20:59:21"
     },
     {
       "date": "2026-07-10",
@@ -1282,6 +1642,24 @@
       "scraped_at": "2026-07-11T07:57:55"
     },
     {
+      "date": "2026-07-10",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-10",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 16.3,
+      "day_normal_mm": 29.2,
+      "day_departure_pct": -44.0,
+      "day_category": "D",
+      "period_actual_mm": 1029.0,
+      "period_normal_mm": 1170.8,
+      "period_departure_pct": -12.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-09T20:59:27"
+    },
+    {
       "date": "2026-07-11",
       "period_start": "2026-06-01",
       "period_end": "2026-07-11",
@@ -1298,6 +1676,24 @@
       "period_departure_pct": -14.0,
       "period_category": "N",
       "scraped_at": "2026-07-12T08:20:04"
+    },
+    {
+      "date": "2026-07-11",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-11",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 10.1,
+      "day_normal_mm": 40.6,
+      "day_departure_pct": -75.0,
+      "day_category": "LD",
+      "period_actual_mm": 1039.1,
+      "period_normal_mm": 1211.4,
+      "period_departure_pct": -14.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-09T20:59:30"
     },
     {
       "date": "2026-07-12",
@@ -1318,6 +1714,24 @@
       "scraped_at": "2026-07-13T09:29:06"
     },
     {
+      "date": "2026-07-12",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-12",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 0.6,
+      "day_normal_mm": 31.8,
+      "day_departure_pct": -98.0,
+      "day_category": "LD",
+      "period_actual_mm": 1039.7,
+      "period_normal_mm": 1243.2,
+      "period_departure_pct": -16.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-09T20:59:33"
+    },
+    {
       "date": "2026-07-13",
       "period_start": "2026-06-01",
       "period_end": "2026-07-13",
@@ -1334,6 +1748,24 @@
       "period_departure_pct": -18.0,
       "period_category": "N",
       "scraped_at": "2026-07-14T08:06:59"
+    },
+    {
+      "date": "2026-07-13",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-13",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 2.9,
+      "day_normal_mm": 25.1,
+      "day_departure_pct": -88.0,
+      "day_category": "LD",
+      "period_actual_mm": 1042.6,
+      "period_normal_mm": 1268.3,
+      "period_departure_pct": -18.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-09T20:59:36"
     },
     {
       "date": "2026-07-14",
@@ -1354,6 +1786,24 @@
       "scraped_at": "2026-07-15T08:12:12"
     },
     {
+      "date": "2026-07-14",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-14",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 0.4,
+      "day_normal_mm": 28.0,
+      "day_departure_pct": -99.0,
+      "day_category": "LD",
+      "period_actual_mm": 1042.9,
+      "period_normal_mm": 1296.3,
+      "period_departure_pct": -20.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:59:39"
+    },
+    {
       "date": "2026-07-15",
       "period_start": "2026-06-01",
       "period_end": "2026-07-15",
@@ -1370,6 +1820,24 @@
       "period_departure_pct": -21.0,
       "period_category": "D",
       "scraped_at": "2026-07-16T08:15:19"
+    },
+    {
+      "date": "2026-07-15",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-15",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 24.1,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 1042.9,
+      "period_normal_mm": 1320.4,
+      "period_departure_pct": -21.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:59:42"
     },
     {
       "date": "2026-07-16",
@@ -1390,6 +1858,24 @@
       "scraped_at": "2026-07-17T08:11:12"
     },
     {
+      "date": "2026-07-16",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-16",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 23.4,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 1042.9,
+      "period_normal_mm": 1343.8,
+      "period_departure_pct": -22.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:59:46"
+    },
+    {
       "date": "2026-07-17",
       "period_start": "2026-06-01",
       "period_end": "2026-07-17",
@@ -1406,6 +1892,24 @@
       "period_departure_pct": -22.0,
       "period_category": "D",
       "scraped_at": "2026-07-18T07:52:21"
+    },
+    {
+      "date": "2026-07-17",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-17",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 34.0,
+      "day_normal_mm": 36.8,
+      "day_departure_pct": -8.0,
+      "day_category": "N",
+      "period_actual_mm": 1076.9,
+      "period_normal_mm": 1380.6,
+      "period_departure_pct": -22.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:59:48"
     },
     {
       "date": "2026-07-18",
@@ -1426,6 +1930,24 @@
       "scraped_at": "2026-07-19T08:20:58"
     },
     {
+      "date": "2026-07-18",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-18",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 14.2,
+      "day_normal_mm": 33.7,
+      "day_departure_pct": -58.0,
+      "day_category": "D",
+      "period_actual_mm": 1091.1,
+      "period_normal_mm": 1414.3,
+      "period_departure_pct": -23.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:59:52"
+    },
+    {
       "date": "2026-07-19",
       "period_start": "2026-06-01",
       "period_end": "2026-07-19",
@@ -1442,6 +1964,24 @@
       "period_departure_pct": -23.0,
       "period_category": "D",
       "scraped_at": "2026-07-20T09:15:34"
+    },
+    {
+      "date": "2026-07-19",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-19",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 15.2,
+      "day_normal_mm": 27.7,
+      "day_departure_pct": -45.0,
+      "day_category": "D",
+      "period_actual_mm": 1106.3,
+      "period_normal_mm": 1442.0,
+      "period_departure_pct": -23.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:59:55"
     },
     {
       "date": "2026-07-20",
@@ -1462,6 +2002,24 @@
       "scraped_at": "2026-07-21T08:30:33"
     },
     {
+      "date": "2026-07-20",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-20",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 24.6,
+      "day_normal_mm": 29.7,
+      "day_departure_pct": -17.0,
+      "day_category": "N",
+      "period_actual_mm": 1130.9,
+      "period_normal_mm": 1471.7,
+      "period_departure_pct": -23.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:59:58"
+    },
+    {
       "date": "2026-07-22",
       "period_start": "2026-06-01",
       "period_end": "2026-07-22",
@@ -1478,6 +2036,24 @@
       "period_departure_pct": -24.0,
       "period_category": "D",
       "scraped_at": "2026-07-23T08:31:58"
+    },
+    {
+      "date": "2026-07-22",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-22",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 14.0,
+      "day_normal_mm": 23.7,
+      "day_departure_pct": -41.0,
+      "day_category": "D",
+      "period_actual_mm": 1156.0,
+      "period_normal_mm": 1523.4,
+      "period_departure_pct": -24.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T21:00:01"
     },
     {
       "date": "2026-07-23",
@@ -1498,6 +2074,24 @@
       "scraped_at": "2026-07-24T08:28:44"
     },
     {
+      "date": "2026-07-23",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-23",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 21.0,
+      "day_normal_mm": 24.3,
+      "day_departure_pct": -14.0,
+      "day_category": "N",
+      "period_actual_mm": 1177.0,
+      "period_normal_mm": 1547.7,
+      "period_departure_pct": -24.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T21:00:04"
+    },
+    {
       "date": "2026-07-24",
       "period_start": "2026-06-01",
       "period_end": "2026-07-24",
@@ -1514,6 +2108,24 @@
       "period_departure_pct": -23.0,
       "period_category": "D",
       "scraped_at": "2026-07-25T08:07:46"
+    },
+    {
+      "date": "2026-07-24",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-24",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 34.0,
+      "day_normal_mm": 27.1,
+      "day_departure_pct": 25.0,
+      "day_category": "E",
+      "period_actual_mm": 1211.0,
+      "period_normal_mm": 1574.8,
+      "period_departure_pct": -23.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T21:00:07"
     },
     {
       "date": "2026-07-25",
@@ -1534,6 +2146,24 @@
       "scraped_at": "2026-07-26T08:27:41"
     },
     {
+      "date": "2026-07-25",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-25",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 19.0,
+      "day_normal_mm": 28.5,
+      "day_departure_pct": -33.0,
+      "day_category": "D",
+      "period_actual_mm": 1229.9,
+      "period_normal_mm": 1603.3,
+      "period_departure_pct": -23.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T21:00:10"
+    },
+    {
       "date": "2026-07-27",
       "period_start": "2026-06-01",
       "period_end": "2026-07-27",
@@ -1550,6 +2180,24 @@
       "period_departure_pct": -24.0,
       "period_category": "D",
       "scraped_at": "2026-07-27T09:53:42"
+    },
+    {
+      "date": "2026-07-27",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-27",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 9.4,
+      "day_normal_mm": 24.5,
+      "day_departure_pct": -61.0,
+      "day_category": "LD",
+      "period_actual_mm": 1254.4,
+      "period_normal_mm": 1659.1,
+      "period_departure_pct": -24.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T21:00:13"
     },
     {
       "date": "2026-07-28",
@@ -1570,6 +2218,24 @@
       "scraped_at": "2026-07-29T08:41:55"
     },
     {
+      "date": "2026-07-28",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-28",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 23.7,
+      "day_normal_mm": 25.5,
+      "day_departure_pct": -7.0,
+      "day_category": "N",
+      "period_actual_mm": 1278.1,
+      "period_normal_mm": 1684.6,
+      "period_departure_pct": -24.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T21:00:20"
+    },
+    {
       "date": "2026-07-29",
       "period_start": "2026-06-01",
       "period_end": "2026-07-29",
@@ -1586,6 +2252,24 @@
       "period_departure_pct": -23.0,
       "period_category": "D",
       "scraped_at": "2026-07-30T08:27:55"
+    },
+    {
+      "date": "2026-07-29",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-29",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 35.6,
+      "day_normal_mm": 21.9,
+      "day_departure_pct": 62.0,
+      "day_category": "LE",
+      "period_actual_mm": 1313.7,
+      "period_normal_mm": 1706.5,
+      "period_departure_pct": -23.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T21:00:23"
     },
     {
       "date": "2026-07-31",
@@ -1606,6 +2290,24 @@
       "scraped_at": "2026-07-31T08:51:04"
     },
     {
+      "date": "2026-07-31",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-31",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 31.9,
+      "day_normal_mm": 24.1,
+      "day_departure_pct": 33.0,
+      "day_category": "E",
+      "period_actual_mm": 1364.7,
+      "period_normal_mm": 1757.2,
+      "period_departure_pct": -22.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T21:00:26"
+    },
+    {
       "date": "2026-08-01",
       "period_start": "2026-06-01",
       "period_end": "2026-08-01",
@@ -1622,6 +2324,24 @@
       "period_departure_pct": -19.0,
       "period_category": "N",
       "scraped_at": "2026-08-02T08:25:41"
+    },
+    {
+      "date": "2026-08-01",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-01",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 76.1,
+      "day_normal_mm": 21.0,
+      "day_departure_pct": 262.0,
+      "day_category": "LE",
+      "period_actual_mm": 1440.8,
+      "period_normal_mm": 1778.2,
+      "period_departure_pct": -19.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-09T21:00:32"
     },
     {
       "date": "2026-08-03",
@@ -1642,6 +2362,24 @@
       "scraped_at": "2026-08-04T08:37:41"
     },
     {
+      "date": "2026-08-03",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-03",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 41.5,
+      "day_normal_mm": 19.3,
+      "day_departure_pct": 115.0,
+      "day_category": "LE",
+      "period_actual_mm": 1622.1,
+      "period_normal_mm": 1817.6,
+      "period_departure_pct": -11.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-09T21:00:38"
+    },
+    {
       "date": "2026-08-04",
       "period_start": "2026-06-01",
       "period_end": "2026-08-04",
@@ -1658,6 +2396,24 @@
       "period_departure_pct": -10.0,
       "period_category": "N",
       "scraped_at": "2026-08-05T08:37:13"
+    },
+    {
+      "date": "2026-08-04",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-04",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 32.7,
+      "day_normal_mm": 17.2,
+      "day_departure_pct": 90.0,
+      "day_category": "LE",
+      "period_actual_mm": 1654.9,
+      "period_normal_mm": 1834.8,
+      "period_departure_pct": -10.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-09T21:00:41"
     },
     {
       "date": "2026-08-05",
@@ -1678,6 +2434,24 @@
       "scraped_at": "2026-08-06T08:37:24"
     },
     {
+      "date": "2026-08-05",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-05",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 24.8,
+      "day_normal_mm": 19.9,
+      "day_departure_pct": 25.0,
+      "day_category": "E",
+      "period_actual_mm": 1679.7,
+      "period_normal_mm": 1854.7,
+      "period_departure_pct": -9.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-09T21:00:44"
+    },
+    {
       "date": "2026-08-06",
       "period_start": "2026-06-01",
       "period_end": "2026-08-06",
@@ -1694,6 +2468,24 @@
       "period_departure_pct": -10.0,
       "period_category": "N",
       "scraped_at": "2026-08-07T07:16:54"
+    },
+    {
+      "date": "2026-08-06",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-06",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 11.6,
+      "day_normal_mm": 18.4,
+      "day_departure_pct": -37.0,
+      "day_category": "D",
+      "period_actual_mm": 1691.2,
+      "period_normal_mm": 1873.1,
+      "period_departure_pct": -10.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-09T21:00:47"
     },
     {
       "date": "2026-08-07",
@@ -1714,6 +2506,24 @@
       "scraped_at": "2026-08-08T06:54:35"
     },
     {
+      "date": "2026-08-07",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-07",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 36.5,
+      "day_normal_mm": 23.3,
+      "day_departure_pct": 57.0,
+      "day_category": "E",
+      "period_actual_mm": 1727.8,
+      "period_normal_mm": 1896.4,
+      "period_departure_pct": -9.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-09T21:00:51"
+    },
+    {
       "date": "2026-08-08",
       "period_start": "2026-06-01",
       "period_end": "2026-08-08",
@@ -1730,6 +2540,24 @@
       "period_departure_pct": -8.0,
       "period_category": "N",
       "scraped_at": "2026-08-09T06:57:46"
+    },
+    {
+      "date": "2026-08-08",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-08",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOZHIKODE",
+      "day_actual_mm": 32.9,
+      "day_normal_mm": 20.4,
+      "day_departure_pct": 61.0,
+      "day_category": "LE",
+      "period_actual_mm": 1760.7,
+      "period_normal_mm": 1916.8,
+      "period_departure_pct": -8.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-09T21:00:54"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "ANDHRA PRADESH",
   "district": "ANNAMAYYA DISTRICT",
-  "row_count": 96,
+  "row_count": 112,
   "rows": [
     {
       "date": "2026-04-13",
@@ -908,6 +908,24 @@
       "period_start": "2026-06-01",
       "period_end": "2026-06-14",
       "level": "district",
+      "subdivision": "COASTAL A. P. & YANAM",
+      "state": "ANDHRA PRADESH",
+      "district": "ANNAMAYYA DISTRICT",
+      "day_actual_mm": 13.1,
+      "day_normal_mm": 4.0,
+      "day_departure_pct": 228.0,
+      "day_category": "LE",
+      "period_actual_mm": 31.8,
+      "period_normal_mm": 35.5,
+      "period_departure_pct": -10.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-09T20:58:04"
+    },
+    {
+      "date": "2026-06-14",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-14",
+      "level": "district",
       "subdivision": "RAYALSEEMA",
       "state": "ANDHRA PRADESH",
       "district": "ANNAMAYYA DISTRICT",
@@ -920,6 +938,24 @@
       "period_departure_pct": -10.0,
       "period_category": "N",
       "scraped_at": "2026-06-14T09:36:57"
+    },
+    {
+      "date": "2026-06-15",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-15",
+      "level": "district",
+      "subdivision": "COASTAL A. P. & YANAM",
+      "state": "ANDHRA PRADESH",
+      "district": "ANNAMAYYA DISTRICT",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 3.1,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 31.8,
+      "period_normal_mm": 38.6,
+      "period_departure_pct": -18.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-09T20:58:07"
     },
     {
       "date": "2026-06-15",
@@ -944,6 +980,24 @@
       "period_start": "2026-06-01",
       "period_end": "2026-06-16",
       "level": "district",
+      "subdivision": "COASTAL A. P. & YANAM",
+      "state": "ANDHRA PRADESH",
+      "district": "ANNAMAYYA DISTRICT",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 2.1,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 31.8,
+      "period_normal_mm": 40.7,
+      "period_departure_pct": -22.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:58:10"
+    },
+    {
+      "date": "2026-06-16",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-16",
+      "level": "district",
       "subdivision": "RAYALSEEMA",
       "state": "ANDHRA PRADESH",
       "district": "ANNAMAYYA DISTRICT",
@@ -956,6 +1010,24 @@
       "period_departure_pct": -22.0,
       "period_category": "D",
       "scraped_at": "2026-06-16T11:12:48"
+    },
+    {
+      "date": "2026-06-17",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-17",
+      "level": "district",
+      "subdivision": "COASTAL A. P. & YANAM",
+      "state": "ANDHRA PRADESH",
+      "district": "ANNAMAYYA DISTRICT",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 1.4,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 31.8,
+      "period_normal_mm": 42.1,
+      "period_departure_pct": -24.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:58:13"
     },
     {
       "date": "2026-06-17",
@@ -980,6 +1052,24 @@
       "period_start": "2026-06-01",
       "period_end": "2026-06-18",
       "level": "district",
+      "subdivision": "COASTAL A. P. & YANAM",
+      "state": "ANDHRA PRADESH",
+      "district": "ANNAMAYYA DISTRICT",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.9,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 31.8,
+      "period_normal_mm": 43.0,
+      "period_departure_pct": -26.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:58:22"
+    },
+    {
+      "date": "2026-06-18",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-18",
+      "level": "district",
       "subdivision": "RAYALSEEMA",
       "state": "ANDHRA PRADESH",
       "district": "ANNAMAYYA DISTRICT",
@@ -992,6 +1082,24 @@
       "period_departure_pct": -26.0,
       "period_category": "D",
       "scraped_at": "2026-06-20T09:16:57"
+    },
+    {
+      "date": "2026-06-21",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-21",
+      "level": "district",
+      "subdivision": "COASTAL A. P. & YANAM",
+      "state": "ANDHRA PRADESH",
+      "district": "ANNAMAYYA DISTRICT",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 2.5,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 33.3,
+      "period_normal_mm": 49.2,
+      "period_departure_pct": -32.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:58:25"
     },
     {
       "date": "2026-06-21",
@@ -1016,6 +1124,24 @@
       "period_start": "2026-06-01",
       "period_end": "2026-06-22",
       "level": "district",
+      "subdivision": "COASTAL A. P. & YANAM",
+      "state": "ANDHRA PRADESH",
+      "district": "ANNAMAYYA DISTRICT",
+      "day_actual_mm": 1.6,
+      "day_normal_mm": 2.1,
+      "day_departure_pct": -22.0,
+      "day_category": "D",
+      "period_actual_mm": 35.0,
+      "period_normal_mm": 51.3,
+      "period_departure_pct": -32.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:58:28"
+    },
+    {
+      "date": "2026-06-22",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-22",
+      "level": "district",
       "subdivision": "RAYALSEEMA",
       "state": "ANDHRA PRADESH",
       "district": "ANNAMAYYA DISTRICT",
@@ -1028,6 +1154,24 @@
       "period_departure_pct": -32.0,
       "period_category": "D",
       "scraped_at": "2026-06-22T11:57:38"
+    },
+    {
+      "date": "2026-06-23",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-23",
+      "level": "district",
+      "subdivision": "COASTAL A. P. & YANAM",
+      "state": "ANDHRA PRADESH",
+      "district": "ANNAMAYYA DISTRICT",
+      "day_actual_mm": 3.6,
+      "day_normal_mm": 2.8,
+      "day_departure_pct": 27.0,
+      "day_category": "E",
+      "period_actual_mm": 38.5,
+      "period_normal_mm": 54.1,
+      "period_departure_pct": -29.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:58:32"
     },
     {
       "date": "2026-06-23",
@@ -1052,6 +1196,24 @@
       "period_start": "2026-06-01",
       "period_end": "2026-06-24",
       "level": "district",
+      "subdivision": "COASTAL A. P. & YANAM",
+      "state": "ANDHRA PRADESH",
+      "district": "ANNAMAYYA DISTRICT",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 1.3,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 38.5,
+      "period_normal_mm": 55.4,
+      "period_departure_pct": -30.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:58:38"
+    },
+    {
+      "date": "2026-06-24",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-24",
+      "level": "district",
       "subdivision": "RAYALSEEMA",
       "state": "ANDHRA PRADESH",
       "district": "ANNAMAYYA DISTRICT",
@@ -1064,6 +1226,24 @@
       "period_departure_pct": -30.0,
       "period_category": "D",
       "scraped_at": "2026-06-25T09:24:16"
+    },
+    {
+      "date": "2026-06-26",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-26",
+      "level": "district",
+      "subdivision": "COASTAL A. P. & YANAM",
+      "state": "ANDHRA PRADESH",
+      "district": "ANNAMAYYA DISTRICT",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 1.6,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 38.5,
+      "period_normal_mm": 58.6,
+      "period_departure_pct": -34.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:58:41"
     },
     {
       "date": "2026-06-26",
@@ -1088,6 +1268,24 @@
       "period_start": "2026-06-01",
       "period_end": "2026-06-27",
       "level": "district",
+      "subdivision": "COASTAL A. P. & YANAM",
+      "state": "ANDHRA PRADESH",
+      "district": "ANNAMAYYA DISTRICT",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 1.3,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 38.5,
+      "period_normal_mm": 59.9,
+      "period_departure_pct": -36.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:58:44"
+    },
+    {
+      "date": "2026-06-27",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-27",
+      "level": "district",
       "subdivision": "RAYALSEEMA",
       "state": "ANDHRA PRADESH",
       "district": "ANNAMAYYA DISTRICT",
@@ -1100,6 +1298,24 @@
       "period_departure_pct": -36.0,
       "period_category": "D",
       "scraped_at": "2026-06-27T08:37:21"
+    },
+    {
+      "date": "2026-06-28",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-28",
+      "level": "district",
+      "subdivision": "COASTAL A. P. & YANAM",
+      "state": "ANDHRA PRADESH",
+      "district": "ANNAMAYYA DISTRICT",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 1.9,
+      "day_departure_pct": -98.0,
+      "day_category": "LD",
+      "period_actual_mm": 38.6,
+      "period_normal_mm": 61.8,
+      "period_departure_pct": -38.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:58:47"
     },
     {
       "date": "2026-06-28",
@@ -1124,6 +1340,24 @@
       "period_start": "2026-06-01",
       "period_end": "2026-06-29",
       "level": "district",
+      "subdivision": "COASTAL A. P. & YANAM",
+      "state": "ANDHRA PRADESH",
+      "district": "ANNAMAYYA DISTRICT",
+      "day_actual_mm": 1.3,
+      "day_normal_mm": 1.8,
+      "day_departure_pct": -30.0,
+      "day_category": "D",
+      "period_actual_mm": 39.8,
+      "period_normal_mm": 63.6,
+      "period_departure_pct": -37.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:58:53"
+    },
+    {
+      "date": "2026-06-29",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-29",
+      "level": "district",
       "subdivision": "RAYALSEEMA",
       "state": "ANDHRA PRADESH",
       "district": "ANNAMAYYA DISTRICT",
@@ -1136,6 +1370,24 @@
       "period_departure_pct": -37.0,
       "period_category": "D",
       "scraped_at": "2026-06-30T09:38:10"
+    },
+    {
+      "date": "2026-07-01",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-01",
+      "level": "district",
+      "subdivision": "COASTAL A. P. & YANAM",
+      "state": "ANDHRA PRADESH",
+      "district": "ANNAMAYYA DISTRICT",
+      "day_actual_mm": 0.2,
+      "day_normal_mm": 2.6,
+      "day_departure_pct": -93.0,
+      "day_category": "LD",
+      "period_actual_mm": 41.3,
+      "period_normal_mm": 68.3,
+      "period_departure_pct": -40.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:58:59"
     },
     {
       "date": "2026-07-01",
@@ -1160,6 +1412,24 @@
       "period_start": "2026-06-01",
       "period_end": "2026-07-02",
       "level": "district",
+      "subdivision": "COASTAL A. P. & YANAM",
+      "state": "ANDHRA PRADESH",
+      "district": "ANNAMAYYA DISTRICT",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 1.8,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 41.3,
+      "period_normal_mm": 70.1,
+      "period_departure_pct": -41.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:59:02"
+    },
+    {
+      "date": "2026-07-02",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-02",
+      "level": "district",
       "subdivision": "RAYALSEEMA",
       "state": "ANDHRA PRADESH",
       "district": "ANNAMAYYA DISTRICT",
@@ -1172,6 +1442,24 @@
       "period_departure_pct": -41.0,
       "period_category": "D",
       "scraped_at": "2026-07-03T09:19:54"
+    },
+    {
+      "date": "2026-07-03",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-03",
+      "level": "district",
+      "subdivision": "COASTAL A. P. & YANAM",
+      "state": "ANDHRA PRADESH",
+      "district": "ANNAMAYYA DISTRICT",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 2.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 41.3,
+      "period_normal_mm": 72.1,
+      "period_departure_pct": -43.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:59:05"
     },
     {
       "date": "2026-07-03",
@@ -1207,7 +1495,7 @@
       "period_normal_mm": 73.4,
       "period_departure_pct": -44.0,
       "period_category": "D",
-      "scraped_at": "2026-07-05T08:54:15"
+      "scraped_at": "2026-08-09T20:59:08"
     },
     {
       "date": "2026-07-06",
@@ -1225,7 +1513,7 @@
       "period_normal_mm": 78.7,
       "period_departure_pct": -47.0,
       "period_category": "D",
-      "scraped_at": "2026-07-06T10:24:34"
+      "scraped_at": "2026-08-09T20:59:12"
     },
     {
       "date": "2026-07-07",
@@ -1243,7 +1531,7 @@
       "period_normal_mm": 83.2,
       "period_departure_pct": -50.0,
       "period_category": "D",
-      "scraped_at": "2026-07-08T08:30:26"
+      "scraped_at": "2026-08-09T20:59:18"
     },
     {
       "date": "2026-07-09",
@@ -1261,7 +1549,7 @@
       "period_normal_mm": 87.9,
       "period_departure_pct": -52.0,
       "period_category": "D",
-      "scraped_at": "2026-07-09T09:41:04"
+      "scraped_at": "2026-08-09T20:59:21"
     },
     {
       "date": "2026-07-10",
@@ -1279,7 +1567,7 @@
       "period_normal_mm": 89.8,
       "period_departure_pct": -53.0,
       "period_category": "D",
-      "scraped_at": "2026-07-11T07:57:55"
+      "scraped_at": "2026-08-09T20:59:27"
     },
     {
       "date": "2026-07-11",
@@ -1297,7 +1585,7 @@
       "period_normal_mm": 93.2,
       "period_departure_pct": -55.0,
       "period_category": "D",
-      "scraped_at": "2026-07-12T08:20:04"
+      "scraped_at": "2026-08-09T20:59:30"
     },
     {
       "date": "2026-07-12",
@@ -1315,7 +1603,7 @@
       "period_normal_mm": 96.5,
       "period_departure_pct": -56.0,
       "period_category": "D",
-      "scraped_at": "2026-07-13T09:29:06"
+      "scraped_at": "2026-08-09T20:59:33"
     },
     {
       "date": "2026-07-13",
@@ -1333,7 +1621,7 @@
       "period_normal_mm": 98.8,
       "period_departure_pct": -57.0,
       "period_category": "D",
-      "scraped_at": "2026-07-14T08:06:59"
+      "scraped_at": "2026-08-09T20:59:36"
     },
     {
       "date": "2026-07-14",
@@ -1351,7 +1639,7 @@
       "period_normal_mm": 102.1,
       "period_departure_pct": -59.0,
       "period_category": "D",
-      "scraped_at": "2026-07-15T08:12:12"
+      "scraped_at": "2026-08-09T20:59:39"
     },
     {
       "date": "2026-07-15",
@@ -1369,7 +1657,7 @@
       "period_normal_mm": 104.9,
       "period_departure_pct": -60.0,
       "period_category": "LD",
-      "scraped_at": "2026-07-16T08:15:19"
+      "scraped_at": "2026-08-09T20:59:42"
     },
     {
       "date": "2026-07-16",
@@ -1387,7 +1675,7 @@
       "period_normal_mm": 108.7,
       "period_departure_pct": -61.0,
       "period_category": "LD",
-      "scraped_at": "2026-07-17T08:11:12"
+      "scraped_at": "2026-08-09T20:59:46"
     },
     {
       "date": "2026-07-17",
@@ -1405,7 +1693,7 @@
       "period_normal_mm": 112.6,
       "period_departure_pct": -63.0,
       "period_category": "LD",
-      "scraped_at": "2026-07-18T07:52:21"
+      "scraped_at": "2026-08-09T20:59:48"
     },
     {
       "date": "2026-07-18",
@@ -1423,7 +1711,7 @@
       "period_normal_mm": 115.2,
       "period_departure_pct": -60.0,
       "period_category": "LD",
-      "scraped_at": "2026-07-19T08:20:58"
+      "scraped_at": "2026-08-09T20:59:52"
     },
     {
       "date": "2026-07-19",
@@ -1441,7 +1729,7 @@
       "period_normal_mm": 118.0,
       "period_departure_pct": -59.0,
       "period_category": "D",
-      "scraped_at": "2026-07-20T09:15:34"
+      "scraped_at": "2026-08-09T20:59:55"
     },
     {
       "date": "2026-07-20",
@@ -1459,7 +1747,7 @@
       "period_normal_mm": 121.5,
       "period_departure_pct": -58.0,
       "period_category": "D",
-      "scraped_at": "2026-07-21T08:30:33"
+      "scraped_at": "2026-08-09T20:59:58"
     },
     {
       "date": "2026-07-22",
@@ -1477,7 +1765,7 @@
       "period_normal_mm": 127.4,
       "period_departure_pct": -59.0,
       "period_category": "D",
-      "scraped_at": "2026-07-23T08:31:58"
+      "scraped_at": "2026-08-09T21:00:01"
     },
     {
       "date": "2026-07-23",
@@ -1495,7 +1783,7 @@
       "period_normal_mm": 130.7,
       "period_departure_pct": -59.0,
       "period_category": "D",
-      "scraped_at": "2026-07-24T08:28:44"
+      "scraped_at": "2026-08-09T21:00:04"
     },
     {
       "date": "2026-07-24",
@@ -1513,7 +1801,7 @@
       "period_normal_mm": 133.9,
       "period_departure_pct": -60.0,
       "period_category": "LD",
-      "scraped_at": "2026-07-25T08:07:46"
+      "scraped_at": "2026-08-09T21:00:07"
     },
     {
       "date": "2026-07-25",
@@ -1531,7 +1819,7 @@
       "period_normal_mm": 136.8,
       "period_departure_pct": -61.0,
       "period_category": "LD",
-      "scraped_at": "2026-07-26T08:27:41"
+      "scraped_at": "2026-08-09T21:00:10"
     },
     {
       "date": "2026-07-27",
@@ -1549,7 +1837,7 @@
       "period_normal_mm": 142.5,
       "period_departure_pct": -62.0,
       "period_category": "LD",
-      "scraped_at": "2026-07-27T09:53:42"
+      "scraped_at": "2026-08-09T21:00:13"
     },
     {
       "date": "2026-07-28",
@@ -1567,7 +1855,7 @@
       "period_normal_mm": 146.2,
       "period_departure_pct": -63.0,
       "period_category": "LD",
-      "scraped_at": "2026-07-29T08:41:55"
+      "scraped_at": "2026-08-09T21:00:20"
     },
     {
       "date": "2026-07-29",
@@ -1585,7 +1873,7 @@
       "period_normal_mm": 148.3,
       "period_departure_pct": -64.0,
       "period_category": "LD",
-      "scraped_at": "2026-07-30T08:27:55"
+      "scraped_at": "2026-08-09T21:00:23"
     },
     {
       "date": "2026-07-31",
@@ -1603,7 +1891,7 @@
       "period_normal_mm": 155.5,
       "period_departure_pct": -65.0,
       "period_category": "LD",
-      "scraped_at": "2026-07-31T08:51:04"
+      "scraped_at": "2026-08-09T21:00:26"
     },
     {
       "date": "2026-08-01",
@@ -1621,7 +1909,7 @@
       "period_normal_mm": 158.8,
       "period_departure_pct": -65.0,
       "period_category": "LD",
-      "scraped_at": "2026-08-02T08:25:41"
+      "scraped_at": "2026-08-09T21:00:32"
     },
     {
       "date": "2026-08-03",
@@ -1639,7 +1927,7 @@
       "period_normal_mm": 164.6,
       "period_departure_pct": -66.0,
       "period_category": "LD",
-      "scraped_at": "2026-08-04T08:37:41"
+      "scraped_at": "2026-08-09T21:00:38"
     },
     {
       "date": "2026-08-04",
@@ -1657,7 +1945,7 @@
       "period_normal_mm": 166.8,
       "period_departure_pct": -61.0,
       "period_category": "LD",
-      "scraped_at": "2026-08-05T08:37:13"
+      "scraped_at": "2026-08-09T21:00:41"
     },
     {
       "date": "2026-08-05",
@@ -1675,7 +1963,7 @@
       "period_normal_mm": 169.4,
       "period_departure_pct": -59.0,
       "period_category": "D",
-      "scraped_at": "2026-08-06T08:37:24"
+      "scraped_at": "2026-08-09T21:00:44"
     },
     {
       "date": "2026-08-06",
@@ -1693,7 +1981,7 @@
       "period_normal_mm": 172.7,
       "period_departure_pct": -59.0,
       "period_category": "D",
-      "scraped_at": "2026-08-07T07:16:54"
+      "scraped_at": "2026-08-09T21:00:47"
     },
     {
       "date": "2026-08-07",
@@ -1711,7 +1999,7 @@
       "period_normal_mm": 176.4,
       "period_departure_pct": -59.0,
       "period_category": "D",
-      "scraped_at": "2026-08-08T06:54:35"
+      "scraped_at": "2026-08-09T21:00:51"
     },
     {
       "date": "2026-08-08",
@@ -1729,7 +2017,7 @@
       "period_normal_mm": 178.3,
       "period_departure_pct": -58.0,
       "period_category": "D",
-      "scraped_at": "2026-08-09T06:57:46"
+      "scraped_at": "2026-08-09T21:00:54"
     }
   ]
 }

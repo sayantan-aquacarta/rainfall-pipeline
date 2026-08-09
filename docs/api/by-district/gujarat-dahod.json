@@ -1,7 +1,7 @@
 {
   "state": "GUJARAT",
   "district": "DAHOD",
-  "row_count": 96,
+  "row_count": 142,
   "rows": [
     {
       "date": "2026-04-13",
@@ -922,6 +922,24 @@
       "scraped_at": "2026-06-14T09:36:57"
     },
     {
+      "date": "2026-06-14",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-14",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 3.3,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 2.5,
+      "period_normal_mm": 23.3,
+      "period_departure_pct": -89.0,
+      "period_category": "LD",
+      "scraped_at": "2026-08-09T20:58:04"
+    },
+    {
       "date": "2026-06-15",
       "period_start": "2026-06-01",
       "period_end": "2026-06-15",
@@ -938,6 +956,24 @@
       "period_departure_pct": -91.0,
       "period_category": "LD",
       "scraped_at": "2026-06-15T12:17:43"
+    },
+    {
+      "date": "2026-06-15",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-15",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 5.4,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 2.5,
+      "period_normal_mm": 28.7,
+      "period_departure_pct": -91.0,
+      "period_category": "LD",
+      "scraped_at": "2026-08-09T20:58:07"
     },
     {
       "date": "2026-06-16",
@@ -958,6 +994,24 @@
       "scraped_at": "2026-06-16T11:12:48"
     },
     {
+      "date": "2026-06-16",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-16",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 5.2,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 2.5,
+      "period_normal_mm": 33.9,
+      "period_departure_pct": -93.0,
+      "period_category": "LD",
+      "scraped_at": "2026-08-09T20:58:10"
+    },
+    {
       "date": "2026-06-17",
       "period_start": "2026-06-01",
       "period_end": "2026-06-17",
@@ -974,6 +1028,24 @@
       "period_departure_pct": -93.0,
       "period_category": "LD",
       "scraped_at": "2026-06-17T10:58:53"
+    },
+    {
+      "date": "2026-06-17",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-17",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 2.7,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 2.5,
+      "period_normal_mm": 36.6,
+      "period_departure_pct": -93.0,
+      "period_category": "LD",
+      "scraped_at": "2026-08-09T20:58:13"
     },
     {
       "date": "2026-06-18",
@@ -994,6 +1066,24 @@
       "scraped_at": "2026-06-20T09:16:57"
     },
     {
+      "date": "2026-06-18",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-18",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 2.6,
+      "day_normal_mm": 4.2,
+      "day_departure_pct": -39.0,
+      "day_category": "D",
+      "period_actual_mm": 5.1,
+      "period_normal_mm": 40.8,
+      "period_departure_pct": -88.0,
+      "period_category": "LD",
+      "scraped_at": "2026-08-09T20:58:22"
+    },
+    {
       "date": "2026-06-21",
       "period_start": "2026-06-01",
       "period_end": "2026-06-21",
@@ -1010,6 +1100,24 @@
       "period_departure_pct": -53.0,
       "period_category": "D",
       "scraped_at": "2026-06-21T09:52:08"
+    },
+    {
+      "date": "2026-06-21",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-21",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 3.9,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 23.2,
+      "period_normal_mm": 49.7,
+      "period_departure_pct": -53.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:58:25"
     },
     {
       "date": "2026-06-22",
@@ -1030,6 +1138,24 @@
       "scraped_at": "2026-06-22T11:57:38"
     },
     {
+      "date": "2026-06-22",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-22",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 3.9,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 23.2,
+      "period_normal_mm": 53.6,
+      "period_departure_pct": -57.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:58:28"
+    },
+    {
       "date": "2026-06-23",
       "period_start": "2026-06-01",
       "period_end": "2026-06-23",
@@ -1046,6 +1172,24 @@
       "period_departure_pct": -59.0,
       "period_category": "D",
       "scraped_at": "2026-06-23T09:41:48"
+    },
+    {
+      "date": "2026-06-23",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-23",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 3.7,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 23.2,
+      "period_normal_mm": 57.3,
+      "period_departure_pct": -59.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:58:32"
     },
     {
       "date": "2026-06-24",
@@ -1066,6 +1210,24 @@
       "scraped_at": "2026-06-25T09:24:16"
     },
     {
+      "date": "2026-06-24",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-24",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 6.8,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 23.2,
+      "period_normal_mm": 64.1,
+      "period_departure_pct": -64.0,
+      "period_category": "LD",
+      "scraped_at": "2026-08-09T20:58:38"
+    },
+    {
       "date": "2026-06-26",
       "period_start": "2026-06-01",
       "period_end": "2026-06-26",
@@ -1082,6 +1244,24 @@
       "period_departure_pct": -70.0,
       "period_category": "LD",
       "scraped_at": "2026-06-26T09:29:52"
+    },
+    {
+      "date": "2026-06-26",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-26",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 5.6,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 23.2,
+      "period_normal_mm": 77.4,
+      "period_departure_pct": -70.0,
+      "period_category": "LD",
+      "scraped_at": "2026-08-09T20:58:41"
     },
     {
       "date": "2026-06-27",
@@ -1102,6 +1282,24 @@
       "scraped_at": "2026-06-27T08:37:21"
     },
     {
+      "date": "2026-06-27",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-27",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 4.5,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 23.2,
+      "period_normal_mm": 81.9,
+      "period_departure_pct": -72.0,
+      "period_category": "LD",
+      "scraped_at": "2026-08-09T20:58:44"
+    },
+    {
       "date": "2026-06-28",
       "period_start": "2026-06-01",
       "period_end": "2026-06-28",
@@ -1118,6 +1316,24 @@
       "period_departure_pct": -73.0,
       "period_category": "LD",
       "scraped_at": "2026-06-28T08:53:54"
+    },
+    {
+      "date": "2026-06-28",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-28",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 0.1,
+      "day_normal_mm": 5.8,
+      "day_departure_pct": -98.0,
+      "day_category": "LD",
+      "period_actual_mm": 23.3,
+      "period_normal_mm": 87.7,
+      "period_departure_pct": -73.0,
+      "period_category": "LD",
+      "scraped_at": "2026-08-09T20:58:47"
     },
     {
       "date": "2026-06-29",
@@ -1138,6 +1354,24 @@
       "scraped_at": "2026-06-30T09:38:10"
     },
     {
+      "date": "2026-06-29",
+      "period_start": "2026-06-01",
+      "period_end": "2026-06-29",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 0.1,
+      "day_normal_mm": 5.7,
+      "day_departure_pct": -98.0,
+      "day_category": "LD",
+      "period_actual_mm": 23.4,
+      "period_normal_mm": 93.4,
+      "period_departure_pct": -75.0,
+      "period_category": "LD",
+      "scraped_at": "2026-08-09T20:58:53"
+    },
+    {
       "date": "2026-07-01",
       "period_start": "2026-06-01",
       "period_end": "2026-07-01",
@@ -1154,6 +1388,24 @@
       "period_departure_pct": -78.0,
       "period_category": "LD",
       "scraped_at": "2026-07-02T08:58:09"
+    },
+    {
+      "date": "2026-07-01",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-01",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 7.3,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 23.4,
+      "period_normal_mm": 105.4,
+      "period_departure_pct": -78.0,
+      "period_category": "LD",
+      "scraped_at": "2026-08-09T20:58:59"
     },
     {
       "date": "2026-07-02",
@@ -1174,6 +1426,24 @@
       "scraped_at": "2026-07-03T09:19:54"
     },
     {
+      "date": "2026-07-02",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-02",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 2.3,
+      "day_normal_mm": 5.5,
+      "day_departure_pct": -58.0,
+      "day_category": "D",
+      "period_actual_mm": 25.8,
+      "period_normal_mm": 110.9,
+      "period_departure_pct": -77.0,
+      "period_category": "LD",
+      "scraped_at": "2026-08-09T20:59:02"
+    },
+    {
       "date": "2026-07-03",
       "period_start": "2026-06-01",
       "period_end": "2026-07-03",
@@ -1190,6 +1460,24 @@
       "period_departure_pct": -60.0,
       "period_category": "LD",
       "scraped_at": "2026-07-04T08:38:29"
+    },
+    {
+      "date": "2026-07-03",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-03",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 21.2,
+      "day_normal_mm": 6.1,
+      "day_departure_pct": 248.0,
+      "day_category": "LE",
+      "period_actual_mm": 47.0,
+      "period_normal_mm": 117.0,
+      "period_departure_pct": -60.0,
+      "period_category": "LD",
+      "scraped_at": "2026-08-09T20:59:05"
     },
     {
       "date": "2026-07-04",
@@ -1210,6 +1498,24 @@
       "scraped_at": "2026-07-05T08:54:15"
     },
     {
+      "date": "2026-07-04",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-04",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 9.7,
+      "day_normal_mm": 9.5,
+      "day_departure_pct": 2.0,
+      "day_category": "N",
+      "period_actual_mm": 56.7,
+      "period_normal_mm": 126.5,
+      "period_departure_pct": -55.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:59:08"
+    },
+    {
       "date": "2026-07-06",
       "period_start": "2026-06-01",
       "period_end": "2026-07-06",
@@ -1226,6 +1532,24 @@
       "period_departure_pct": -57.0,
       "period_category": "D",
       "scraped_at": "2026-07-06T10:24:34"
+    },
+    {
+      "date": "2026-07-06",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-06",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 5.9,
+      "day_normal_mm": 11.3,
+      "day_departure_pct": -48.0,
+      "day_category": "D",
+      "period_actual_mm": 62.7,
+      "period_normal_mm": 147.2,
+      "period_departure_pct": -57.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:59:12"
     },
     {
       "date": "2026-07-07",
@@ -1246,6 +1570,24 @@
       "scraped_at": "2026-07-08T08:30:26"
     },
     {
+      "date": "2026-07-07",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-07",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 13.0,
+      "day_normal_mm": 7.3,
+      "day_departure_pct": 78.0,
+      "day_category": "LE",
+      "period_actual_mm": 75.7,
+      "period_normal_mm": 154.5,
+      "period_departure_pct": -51.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:59:18"
+    },
+    {
       "date": "2026-07-09",
       "period_start": "2026-06-01",
       "period_end": "2026-07-09",
@@ -1262,6 +1604,24 @@
       "period_departure_pct": -44.0,
       "period_category": "D",
       "scraped_at": "2026-07-09T09:41:04"
+    },
+    {
+      "date": "2026-07-09",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-09",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 0.1,
+      "day_normal_mm": 8.0,
+      "day_departure_pct": -99.0,
+      "day_category": "LD",
+      "period_actual_mm": 94.7,
+      "period_normal_mm": 169.1,
+      "period_departure_pct": -44.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:59:21"
     },
     {
       "date": "2026-07-10",
@@ -1282,6 +1642,24 @@
       "scraped_at": "2026-07-11T07:57:55"
     },
     {
+      "date": "2026-07-10",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-10",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 9.9,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 94.7,
+      "period_normal_mm": 179.0,
+      "period_departure_pct": -47.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:59:27"
+    },
+    {
       "date": "2026-07-11",
       "period_start": "2026-06-01",
       "period_end": "2026-07-11",
@@ -1298,6 +1676,24 @@
       "period_departure_pct": -50.0,
       "period_category": "D",
       "scraped_at": "2026-07-12T08:20:04"
+    },
+    {
+      "date": "2026-07-11",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-11",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 12.2,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 94.7,
+      "period_normal_mm": 191.2,
+      "period_departure_pct": -50.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:59:30"
     },
     {
       "date": "2026-07-12",
@@ -1318,6 +1714,24 @@
       "scraped_at": "2026-07-13T09:29:06"
     },
     {
+      "date": "2026-07-12",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-12",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 5.6,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 94.7,
+      "period_normal_mm": 196.8,
+      "period_departure_pct": -52.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:59:33"
+    },
+    {
       "date": "2026-07-13",
       "period_start": "2026-06-01",
       "period_end": "2026-07-13",
@@ -1334,6 +1748,24 @@
       "period_departure_pct": -53.0,
       "period_category": "D",
       "scraped_at": "2026-07-14T08:06:59"
+    },
+    {
+      "date": "2026-07-13",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-13",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 4.9,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 94.7,
+      "period_normal_mm": 201.7,
+      "period_departure_pct": -53.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:59:36"
     },
     {
       "date": "2026-07-14",
@@ -1354,6 +1786,24 @@
       "scraped_at": "2026-07-15T08:12:12"
     },
     {
+      "date": "2026-07-14",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-14",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 7.9,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 94.7,
+      "period_normal_mm": 209.6,
+      "period_departure_pct": -55.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:59:39"
+    },
+    {
       "date": "2026-07-15",
       "period_start": "2026-06-01",
       "period_end": "2026-07-15",
@@ -1370,6 +1820,24 @@
       "period_departure_pct": -56.0,
       "period_category": "D",
       "scraped_at": "2026-07-16T08:15:19"
+    },
+    {
+      "date": "2026-07-15",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-15",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 5.8,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 94.7,
+      "period_normal_mm": 215.4,
+      "period_departure_pct": -56.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:59:42"
     },
     {
       "date": "2026-07-16",
@@ -1390,6 +1858,24 @@
       "scraped_at": "2026-07-17T08:11:12"
     },
     {
+      "date": "2026-07-16",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-16",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 0.1,
+      "day_normal_mm": 6.5,
+      "day_departure_pct": -98.0,
+      "day_category": "LD",
+      "period_actual_mm": 94.8,
+      "period_normal_mm": 221.9,
+      "period_departure_pct": -57.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:59:46"
+    },
+    {
       "date": "2026-07-17",
       "period_start": "2026-06-01",
       "period_end": "2026-07-17",
@@ -1406,6 +1892,24 @@
       "period_departure_pct": -59.0,
       "period_category": "D",
       "scraped_at": "2026-07-18T07:52:21"
+    },
+    {
+      "date": "2026-07-17",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-17",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 0.8,
+      "day_normal_mm": 11.7,
+      "day_departure_pct": -93.0,
+      "day_category": "LD",
+      "period_actual_mm": 95.5,
+      "period_normal_mm": 233.6,
+      "period_departure_pct": -59.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T20:59:48"
     },
     {
       "date": "2026-07-18",
@@ -1426,6 +1930,24 @@
       "scraped_at": "2026-07-19T08:20:58"
     },
     {
+      "date": "2026-07-18",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-18",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 0.6,
+      "day_normal_mm": 4.9,
+      "day_departure_pct": -89.0,
+      "day_category": "LD",
+      "period_actual_mm": 96.1,
+      "period_normal_mm": 238.5,
+      "period_departure_pct": -60.0,
+      "period_category": "LD",
+      "scraped_at": "2026-08-09T20:59:52"
+    },
+    {
       "date": "2026-07-19",
       "period_start": "2026-06-01",
       "period_end": "2026-07-19",
@@ -1442,6 +1964,24 @@
       "period_departure_pct": -61.0,
       "period_category": "LD",
       "scraped_at": "2026-07-20T09:15:34"
+    },
+    {
+      "date": "2026-07-19",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-19",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 0.4,
+      "day_normal_mm": 9.3,
+      "day_departure_pct": -95.0,
+      "day_category": "LD",
+      "period_actual_mm": 96.5,
+      "period_normal_mm": 247.8,
+      "period_departure_pct": -61.0,
+      "period_category": "LD",
+      "scraped_at": "2026-08-09T20:59:55"
     },
     {
       "date": "2026-07-20",
@@ -1462,6 +2002,24 @@
       "scraped_at": "2026-07-21T08:30:33"
     },
     {
+      "date": "2026-07-20",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-20",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 7.6,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 96.5,
+      "period_normal_mm": 255.4,
+      "period_departure_pct": -62.0,
+      "period_category": "LD",
+      "scraped_at": "2026-08-09T20:59:58"
+    },
+    {
       "date": "2026-07-22",
       "period_start": "2026-06-01",
       "period_end": "2026-07-22",
@@ -1478,6 +2036,24 @@
       "period_departure_pct": -62.0,
       "period_category": "LD",
       "scraped_at": "2026-07-23T08:31:58"
+    },
+    {
+      "date": "2026-07-22",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-22",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 1.7,
+      "day_normal_mm": 5.8,
+      "day_departure_pct": -71.0,
+      "day_category": "LD",
+      "period_actual_mm": 101.9,
+      "period_normal_mm": 268.6,
+      "period_departure_pct": -62.0,
+      "period_category": "LD",
+      "scraped_at": "2026-08-09T21:00:01"
     },
     {
       "date": "2026-07-23",
@@ -1498,6 +2074,24 @@
       "scraped_at": "2026-07-24T08:28:44"
     },
     {
+      "date": "2026-07-23",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-23",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 14.3,
+      "day_normal_mm": 6.3,
+      "day_departure_pct": 128.0,
+      "day_category": "LE",
+      "period_actual_mm": 116.2,
+      "period_normal_mm": 274.9,
+      "period_departure_pct": -58.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T21:00:04"
+    },
+    {
       "date": "2026-07-24",
       "period_start": "2026-06-01",
       "period_end": "2026-07-24",
@@ -1514,6 +2108,24 @@
       "period_departure_pct": -50.0,
       "period_category": "D",
       "scraped_at": "2026-07-25T08:07:46"
+    },
+    {
+      "date": "2026-07-24",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-24",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 25.1,
+      "day_normal_mm": 8.1,
+      "day_departure_pct": 210.0,
+      "day_category": "LE",
+      "period_actual_mm": 141.3,
+      "period_normal_mm": 283.0,
+      "period_departure_pct": -50.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T21:00:07"
     },
     {
       "date": "2026-07-25",
@@ -1534,6 +2146,24 @@
       "scraped_at": "2026-07-26T08:27:41"
     },
     {
+      "date": "2026-07-25",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-25",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 23.9,
+      "day_normal_mm": 12.9,
+      "day_departure_pct": 85.0,
+      "day_category": "LE",
+      "period_actual_mm": 165.2,
+      "period_normal_mm": 295.9,
+      "period_departure_pct": -44.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T21:00:10"
+    },
+    {
       "date": "2026-07-27",
       "period_start": "2026-06-01",
       "period_end": "2026-07-27",
@@ -1550,6 +2180,24 @@
       "period_departure_pct": -45.0,
       "period_category": "D",
       "scraped_at": "2026-07-27T09:53:42"
+    },
+    {
+      "date": "2026-07-27",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-27",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 3.8,
+      "day_normal_mm": 13.4,
+      "day_departure_pct": -72.0,
+      "day_category": "LD",
+      "period_actual_mm": 174.8,
+      "period_normal_mm": 319.0,
+      "period_departure_pct": -45.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T21:00:13"
     },
     {
       "date": "2026-07-28",
@@ -1570,6 +2218,24 @@
       "scraped_at": "2026-07-29T08:41:55"
     },
     {
+      "date": "2026-07-28",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-28",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 24.0,
+      "day_normal_mm": 12.7,
+      "day_departure_pct": 89.0,
+      "day_category": "LE",
+      "period_actual_mm": 198.8,
+      "period_normal_mm": 331.7,
+      "period_departure_pct": -40.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T21:00:20"
+    },
+    {
       "date": "2026-07-29",
       "period_start": "2026-06-01",
       "period_end": "2026-07-29",
@@ -1586,6 +2252,24 @@
       "period_departure_pct": -40.0,
       "period_category": "D",
       "scraped_at": "2026-07-30T08:27:55"
+    },
+    {
+      "date": "2026-07-29",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-29",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 4.2,
+      "day_normal_mm": 9.0,
+      "day_departure_pct": -53.0,
+      "day_category": "D",
+      "period_actual_mm": 203.0,
+      "period_normal_mm": 340.7,
+      "period_departure_pct": -40.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T21:00:23"
     },
     {
       "date": "2026-07-31",
@@ -1606,6 +2290,24 @@
       "scraped_at": "2026-07-31T08:51:04"
     },
     {
+      "date": "2026-07-31",
+      "period_start": "2026-06-01",
+      "period_end": "2026-07-31",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 16.3,
+      "day_normal_mm": 5.6,
+      "day_departure_pct": 192.0,
+      "day_category": "LE",
+      "period_actual_mm": 224.5,
+      "period_normal_mm": 355.7,
+      "period_departure_pct": -37.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T21:00:26"
+    },
+    {
       "date": "2026-08-01",
       "period_start": "2026-06-01",
       "period_end": "2026-08-01",
@@ -1622,6 +2324,24 @@
       "period_departure_pct": -29.0,
       "period_category": "D",
       "scraped_at": "2026-08-02T08:25:41"
+    },
+    {
+      "date": "2026-08-01",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-01",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 38.4,
+      "day_normal_mm": 12.6,
+      "day_departure_pct": 205.0,
+      "day_category": "LE",
+      "period_actual_mm": 263.0,
+      "period_normal_mm": 368.3,
+      "period_departure_pct": -29.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T21:00:32"
     },
     {
       "date": "2026-08-03",
@@ -1642,6 +2362,24 @@
       "scraped_at": "2026-08-04T08:37:41"
     },
     {
+      "date": "2026-08-03",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-03",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 5.1,
+      "day_normal_mm": 6.4,
+      "day_departure_pct": -20.0,
+      "day_category": "D",
+      "period_actual_mm": 290.6,
+      "period_normal_mm": 388.7,
+      "period_departure_pct": -25.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T21:00:38"
+    },
+    {
       "date": "2026-08-04",
       "period_start": "2026-06-01",
       "period_end": "2026-08-04",
@@ -1658,6 +2396,24 @@
       "period_departure_pct": -26.0,
       "period_category": "D",
       "scraped_at": "2026-08-05T08:37:13"
+    },
+    {
+      "date": "2026-08-04",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-04",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 4.6,
+      "day_normal_mm": 8.9,
+      "day_departure_pct": -49.0,
+      "day_category": "D",
+      "period_actual_mm": 295.2,
+      "period_normal_mm": 397.6,
+      "period_departure_pct": -26.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T21:00:41"
     },
     {
       "date": "2026-08-05",
@@ -1678,6 +2434,24 @@
       "scraped_at": "2026-08-06T08:37:24"
     },
     {
+      "date": "2026-08-05",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-05",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 4.9,
+      "day_normal_mm": 15.0,
+      "day_departure_pct": -67.0,
+      "day_category": "LD",
+      "period_actual_mm": 300.1,
+      "period_normal_mm": 412.6,
+      "period_departure_pct": -27.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T21:00:44"
+    },
+    {
       "date": "2026-08-06",
       "period_start": "2026-06-01",
       "period_end": "2026-08-06",
@@ -1694,6 +2468,24 @@
       "period_departure_pct": -29.0,
       "period_category": "D",
       "scraped_at": "2026-08-07T07:16:54"
+    },
+    {
+      "date": "2026-08-06",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-06",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 2.0,
+      "day_normal_mm": 12.8,
+      "day_departure_pct": -84.0,
+      "day_category": "LD",
+      "period_actual_mm": 302.1,
+      "period_normal_mm": 425.4,
+      "period_departure_pct": -29.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T21:00:47"
     },
     {
       "date": "2026-08-07",
@@ -1714,6 +2506,24 @@
       "scraped_at": "2026-08-08T06:54:35"
     },
     {
+      "date": "2026-08-07",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-07",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 0.1,
+      "day_normal_mm": 12.1,
+      "day_departure_pct": -99.0,
+      "day_category": "LD",
+      "period_actual_mm": 302.2,
+      "period_normal_mm": 437.5,
+      "period_departure_pct": -31.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T21:00:51"
+    },
+    {
       "date": "2026-08-08",
       "period_start": "2026-06-01",
       "period_end": "2026-08-08",
@@ -1730,6 +2540,24 @@
       "period_departure_pct": -33.0,
       "period_category": "D",
       "scraped_at": "2026-08-09T06:57:46"
+    },
+    {
+      "date": "2026-08-08",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-08",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "DAHOD",
+      "day_actual_mm": 0.2,
+      "day_normal_mm": 13.4,
+      "day_departure_pct": -98.0,
+      "day_category": "LD",
+      "period_actual_mm": 302.4,
+      "period_normal_mm": 450.9,
+      "period_departure_pct": -33.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-09T21:00:54"
     }
   ]
 }
