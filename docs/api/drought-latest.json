@@ -1,6 +1,9 @@
 {
-  "generated_at": "2026-08-09T21:01:38.958531+00:00",
+  "generated_at": "2026-08-09T21:46:06.446546+00:00",
   "reference_date": "2026-08-08",
+  "is_stale": false,
+  "staleness_days": 0,
+  "latest_available_date": "2026-08-08",
   "method": "Parameterised gamma (CV=0.32); upgrades to fitted when ≥10 obs",
   "reference": "McKee et al. (1993); WMO-No. 1090 (2012)",
   "cat_colors": {

@@ -19,7 +19,7 @@ from __future__ import annotations
 import json
 import math
 import sqlite3
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -110,6 +110,20 @@ def _query(db_path: Path, sql: str) -> pd.DataFrame:
         return pd.read_sql_query(sql, conn)
     finally:
         conn.close()
+
+
+# Days of lag beyond which subdivision-level data (drought's input) falling behind
+# the overall latest scraped date is treated as a pipeline problem, not normal
+# publication lag. Catches the failure mode where level='subdivision' rows silently
+# stop being produced while level='district'/'state' rows keep flowing normally —
+# exactly what happened for ~10 weeks starting 2026-06-14 (see PRD.md §6.1).
+_STALE_THRESHOLD_DAYS = 3
+
+
+def _latest_overall_date(db_path: Path) -> str | None:
+    df = _query(db_path, "SELECT MAX(date) AS d FROM rainfall")
+    val = df["d"].iloc[0] if not df.empty else None
+    return None if val is None else str(val)
 
 
 def compute_drought_status(db_path: Path | None = None) -> pd.DataFrame:
@@ -206,15 +220,31 @@ def build_drought_api(
     current_df: pd.DataFrame,
     history_df: pd.DataFrame,
     docs_path: Path | None = None,
+    db_path: Path | None = None,
 ) -> dict:
     """Write docs/api/drought-latest.json and docs/api/drought-history.json."""
     docs_path = docs_path or CONFIG.docs_dir
+    db_path = db_path or CONFIG.sqlite_path
     api_dir = docs_path / "api"
     api_dir.mkdir(parents=True, exist_ok=True)
     now = datetime.now(timezone.utc).isoformat()
 
     # ── drought-latest.json ──────────────────────────────────────────────────
     ref_date = current_df["date"].max() if not current_df.empty else None
+
+    latest_overall = _latest_overall_date(db_path)
+    staleness_days: int | None = None
+    is_stale = False
+    if ref_date and latest_overall:
+        staleness_days = (date.fromisoformat(latest_overall) - date.fromisoformat(ref_date)).days
+        is_stale = staleness_days > _STALE_THRESHOLD_DAYS
+    if is_stale:
+        log.error(
+            "drought_data_stale",
+            reference_date=ref_date,
+            latest_available_date=latest_overall,
+            staleness_days=staleness_days,
+        )
     subdiv_rows: list[dict] = []
     for _, row in current_df.iterrows():
         subdiv_rows.append({
@@ -234,6 +264,9 @@ def build_drought_api(
     latest_payload = {
         "generated_at":  now,
         "reference_date": ref_date,
+        "is_stale":      is_stale,
+        "staleness_days": staleness_days,
+        "latest_available_date": latest_overall,
         "method":        f"Parameterised gamma (CV={_CV}); upgrades to fitted when ≥10 obs",
         "reference":     "McKee et al. (1993); WMO-No. 1090 (2012)",
         "cat_colors":    CAT_COLORS,
@@ -262,6 +295,8 @@ def build_drought_api(
         "subdivisions":  len(subdiv_rows),
         "history_rows":  len(hist_rows),
         "reference_date": ref_date,
+        "is_stale":      is_stale,
+        "staleness_days": staleness_days,
     }
     log.info("drought_api_built", **stats)
     return stats
@@ -272,6 +307,7 @@ def compute_and_build(
     docs_path: Path | None = None,
 ) -> dict:
     """Convenience: compute current + history, write API, return stats."""
+    db_path = db_path or CONFIG.sqlite_path
     current  = compute_drought_status(db_path)
     history  = compute_drought_history(db_path)
-    return build_drought_api(current, history, docs_path)
+    return build_drought_api(current, history, docs_path, db_path)

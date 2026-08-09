@@ -85,6 +85,9 @@ _STATE_NORMALISE: dict[str, str] = {
     # Jammu & Kashmir / Ladakh — monsoon format (different spellings)
     "JAMMU & KASHMIR AND LADAKH":            "JAMMU & KASHMIR(UT)",
     "JAMMU & KASHMIR (UT)":                  "JAMMU & KASHMIR(UT)",
+    # Delhi — monsoon format nests "DELHI (UT)" under the Delhi/Haryana/Chandigarh composite;
+    # pre-monsoon data used plain "DELHI". Normalise to the pre-monsoon spelling for continuity.
+    "DELHI (UT)":                            "DELHI",
     # HAR. CHD & DELHI composite — pre-monsoon
     "HAR. CHD & DELHI":                      "HARYANA",
     # NMMT composite (Nagaland + Manipur + Mizoram + Tripura)

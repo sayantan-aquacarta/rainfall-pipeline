@@ -76,6 +76,13 @@ def scrape(rebuild_api: bool, snapshot: bool, spi: bool) -> None:
             try:
                 spi_stats = _drought_build()
                 log.info("spi_computed", **spi_stats)
+                if spi_stats.get("is_stale"):
+                    click.echo(
+                        f"WARNING  drought data is stale: reference_date="
+                        f"{spi_stats['reference_date']}  "
+                        f"({spi_stats['staleness_days']} days behind latest rainfall data)",
+                        err=True,
+                    )
             except Exception as spi_exc:
                 log.warning("spi_compute_failed", error=str(spi_exc))
 
@@ -120,6 +127,7 @@ def compute_spi_cmd() -> None:
         f"Drought API updated: subdivisions={result['subdivisions']}"
         f"  history_rows={result['history_rows']}"
         f"  date={result['reference_date']}"
+        f"  stale={result['is_stale']}"
     )
 
 
