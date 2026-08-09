@@ -1,8 +1,9 @@
 # Product Requirements Document — India Climate Monitor (rainfall-pipeline)
 
-> Companion to `ARCHITECTURE.md` (system design) and `PROJECT_CONTEXT.md` (session-handoff
-> operational notes). This file owns *what the product should do and for whom*; architecture
-> owns *how it's built*. Keep both in sync when scope changes.
+> Companion to `ARCHITECTURE.md` (system design), `PROJECT_CONTEXT.md` (session-handoff
+> operational notes), and `MARKET_ANALYSIS.md` (competitive landscape + differentiation ideas —
+> read before scoping any new module). This file owns *what the product should do and for whom*;
+> architecture owns *how it's built*. Keep all three in sync when scope changes.
 >
 > **Last audited:** 2026-08-10. Status column below reflects a live code/data audit on that
 > date, not aspirational state — verify against `git log` and the live site before trusting it
@@ -95,14 +96,20 @@ future module (temperature, heatwave, reservoirs) is expected to satisfy before 
   `rtk-x86_64-pc-windows-msvc.zip`, `graphify-out/`, `.github/copilot-instructions.md`) —
   unrelated tool artifacts currently sitting in the working tree.
 
-### P2 — New modules (build in this order; each must satisfy FR-1..FR-8 pattern before going Live)
-1. **Temperature Extremes** — same IMD source family as rainfall (per `temperature.html`'s own
-   roadmap panel, parser work is already flagged "in progress" there — verify against actual
-   code before trusting that label; as of this audit no `temperature.py` module exists).
-2. **Heat/Cold Wave Alerts** — depends on Temperature module for correlation per its own hero
-   copy; separate IMD warning PDF.
-3. **Reservoir Storage** — different publisher (CWC, not IMD), weekly not daily cadence, HTML
-   table primary format with PDF fallback per its own "Data Source" panel.
+### P2 — New modules
+See `MARKET_ANALYSIS.md §3 and §6` for verified feasibility findings and recommended order —
+summary:
+1. **Reservoir Storage** (build first) — confirmed feasible: CWC's weekly bulletin PDF is
+   cleanly table-structured and directly extractable with `pdfplumber`, same difficulty class as
+   the existing rainfall parser. Different publisher (CWC, not IMD), weekly not daily cadence.
+2. **Rainfall↔reservoir correlation view** (build immediately after #1) — the actual
+   differentiation opportunity; uses data both pipelines will already own.
+3. **Temperature Extremes** and **Heat/Cold Wave Alerts** — do *not* default to PDF/GIS scraping
+   for these (no clean national district-wise temperature PDF exists, and the heat-wave warning
+   page is GIS/icon-based, not tabular). First verify real access to IMD's public REST API
+   (`api.imd.gov.in`) — it has a `/api/v1/districtwarning` endpoint returning exactly the
+   heat/cold-wave data this module needs as JSON, but registration requirements and possible IP
+   allow-listing need confirming before committing engineering time (see `MARKET_ANALYSIS.md §4`).
 
 Each new module should get its own `src/rainfall/<module>.py`, its own Pandera-style validation,
 its own `docs/api/<module>-*.json` outputs, and a dashboard page that only claims "Live" once
