@@ -1,7 +1,7 @@
 {
   "state": "HARYANA",
   "district": "KAITHAL",
-  "row_count": 142,
+  "row_count": 143,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2558,6 +2558,24 @@
       "period_departure_pct": -49.0,
       "period_category": "D",
       "scraped_at": "2026-08-09T06:57:46"
+    },
+    {
+      "date": "2026-08-09",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-09",
+      "level": "district",
+      "subdivision": "HAR. CHD & DELHI",
+      "state": "HARYANA",
+      "district": "KAITHAL",
+      "day_actual_mm": 8.4,
+      "day_normal_mm": 5.0,
+      "day_departure_pct": 69.0,
+      "day_category": "LE",
+      "period_actual_mm": 120.7,
+      "period_normal_mm": 223.8,
+      "period_departure_pct": -46.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-10T07:43:01"
     }
   ]
 }

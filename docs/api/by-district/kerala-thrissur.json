@@ -1,7 +1,7 @@
 {
   "state": "KERALA",
   "district": "THRISSUR",
-  "row_count": 142,
+  "row_count": 143,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2558,6 +2558,24 @@
       "period_departure_pct": -24.0,
       "period_category": "D",
       "scraped_at": "2026-08-09T21:00:54"
+    },
+    {
+      "date": "2026-08-09",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-09",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "THRISSUR",
+      "day_actual_mm": 10.8,
+      "day_normal_mm": 19.0,
+      "day_departure_pct": -43.0,
+      "day_category": "D",
+      "period_actual_mm": 1166.6,
+      "period_normal_mm": 1549.2,
+      "period_departure_pct": -25.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-10T07:43:01"
     }
   ]
 }

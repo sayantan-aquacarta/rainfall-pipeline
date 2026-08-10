@@ -1,7 +1,7 @@
 {
   "state": "ODISHA",
   "district": "SONEPUR",
-  "row_count": 96,
+  "row_count": 97,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1730,6 +1730,24 @@
       "period_departure_pct": 108.0,
       "period_category": "LE",
       "scraped_at": "2026-08-09T21:00:54"
+    },
+    {
+      "date": "2026-08-09",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-09",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "SONEPUR",
+      "day_actual_mm": 17.8,
+      "day_normal_mm": 9.3,
+      "day_departure_pct": 91.0,
+      "day_category": "LE",
+      "period_actual_mm": 1434.9,
+      "period_normal_mm": 690.5,
+      "period_departure_pct": 108.0,
+      "period_category": "LE",
+      "scraped_at": "2026-08-10T07:43:01"
     }
   ]
 }
