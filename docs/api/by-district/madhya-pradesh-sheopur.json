@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "SHEOPUR",
-  "row_count": 97,
+  "row_count": 98,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1748,6 +1748,24 @@
       "period_departure_pct": -17.0,
       "period_category": "N",
       "scraped_at": "2026-08-10T07:43:01"
+    },
+    {
+      "date": "2026-08-10",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-10",
+      "level": "district",
+      "subdivision": "WEST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "SHEOPUR",
+      "day_actual_mm": 10.5,
+      "day_normal_mm": 8.6,
+      "day_departure_pct": 22.0,
+      "day_category": "E",
+      "period_actual_mm": 346.2,
+      "period_normal_mm": 414.8,
+      "period_departure_pct": -17.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-11T07:08:55"
     }
   ]
 }

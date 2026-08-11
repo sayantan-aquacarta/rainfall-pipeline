@@ -1,7 +1,7 @@
 {
   "state": "WEST BENGAL",
   "district": "DARJEELING",
-  "row_count": 143,
+  "row_count": 144,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2576,6 +2576,24 @@
       "period_departure_pct": -7.0,
       "period_category": "N",
       "scraped_at": "2026-08-10T07:43:01"
+    },
+    {
+      "date": "2026-08-10",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-10",
+      "level": "district",
+      "subdivision": "SHWB & SIKKIM",
+      "state": "WEST BENGAL",
+      "district": "DARJEELING",
+      "day_actual_mm": 4.7,
+      "day_normal_mm": 19.7,
+      "day_departure_pct": -76.0,
+      "day_category": "LD",
+      "period_actual_mm": 1601.7,
+      "period_normal_mm": 1739.2,
+      "period_departure_pct": -8.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-11T07:08:55"
     }
   ]
 }

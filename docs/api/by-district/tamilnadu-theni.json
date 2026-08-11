@@ -1,7 +1,7 @@
 {
   "state": "TAMILNADU",
   "district": "THENI",
-  "row_count": 143,
+  "row_count": 144,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2576,6 +2576,24 @@
       "period_departure_pct": 38.0,
       "period_category": "E",
       "scraped_at": "2026-08-10T07:43:01"
+    },
+    {
+      "date": "2026-08-10",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-10",
+      "level": "district",
+      "subdivision": "TAMIL. PUDU.& KARAIKAL",
+      "state": "TAMILNADU",
+      "district": "THENI",
+      "day_actual_mm": 4.8,
+      "day_normal_mm": 1.6,
+      "day_departure_pct": 200.0,
+      "day_category": "LE",
+      "period_actual_mm": 140.1,
+      "period_normal_mm": 99.6,
+      "period_departure_pct": 41.0,
+      "period_category": "E",
+      "scraped_at": "2026-08-11T07:08:55"
     }
   ]
 }

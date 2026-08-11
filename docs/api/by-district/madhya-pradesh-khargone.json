@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "KHARGONE",
-  "row_count": 97,
+  "row_count": 98,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1748,6 +1748,24 @@
       "period_departure_pct": 9.0,
       "period_category": "N",
       "scraped_at": "2026-08-10T07:43:01"
+    },
+    {
+      "date": "2026-08-10",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-10",
+      "level": "district",
+      "subdivision": "WEST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "KHARGONE",
+      "day_actual_mm": 0.7,
+      "day_normal_mm": 10.2,
+      "day_departure_pct": -93.0,
+      "day_category": "LD",
+      "period_actual_mm": 465.0,
+      "period_normal_mm": 437.7,
+      "period_departure_pct": 6.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-11T07:08:55"
     }
   ]
 }

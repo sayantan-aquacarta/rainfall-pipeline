@@ -1,7 +1,7 @@
 {
   "state": "ODISHA",
   "district": "KEONJHARGARH",
-  "row_count": 97,
+  "row_count": 98,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1748,6 +1748,24 @@
       "period_departure_pct": 49.0,
       "period_category": "E",
       "scraped_at": "2026-08-10T07:43:01"
+    },
+    {
+      "date": "2026-08-10",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-10",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "KEONJHARGARH",
+      "day_actual_mm": 8.5,
+      "day_normal_mm": 8.5,
+      "day_departure_pct": 0.0,
+      "day_category": "N",
+      "period_actual_mm": 995.1,
+      "period_normal_mm": 671.9,
+      "period_departure_pct": 48.0,
+      "period_category": "E",
+      "scraped_at": "2026-08-11T07:08:55"
     }
   ]
 }
