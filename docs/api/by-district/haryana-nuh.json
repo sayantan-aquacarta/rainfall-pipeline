@@ -1,7 +1,7 @@
 {
   "state": "HARYANA",
   "district": "NUH",
-  "row_count": 144,
+  "row_count": 145,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2594,6 +2594,24 @@
       "period_departure_pct": 19.0,
       "period_category": "N",
       "scraped_at": "2026-08-11T07:08:55"
+    },
+    {
+      "date": "2026-08-11",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-11",
+      "level": "district",
+      "subdivision": "HAR. CHD & DELHI",
+      "state": "HARYANA",
+      "district": "NUH",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 4.3,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 317.7,
+      "period_normal_mm": 271.3,
+      "period_departure_pct": 17.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-12T07:26:02"
     }
   ]
 }

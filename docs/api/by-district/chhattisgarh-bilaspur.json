@@ -1,7 +1,7 @@
 {
   "state": "CHHATTISGARH",
   "district": "BILASPUR",
-  "row_count": 98,
+  "row_count": 99,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1766,6 +1766,24 @@
       "period_departure_pct": 13.0,
       "period_category": "N",
       "scraped_at": "2026-08-11T07:08:55"
+    },
+    {
+      "date": "2026-08-11",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-11",
+      "level": "district",
+      "subdivision": "CHHATTISGARH",
+      "state": "CHHATTISGARH",
+      "district": "BILASPUR",
+      "day_actual_mm": 25.1,
+      "day_normal_mm": 19.7,
+      "day_departure_pct": 27.0,
+      "day_category": "E",
+      "period_actual_mm": 721.9,
+      "period_normal_mm": 635.6,
+      "period_departure_pct": 14.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-12T07:26:02"
     }
   ]
 }

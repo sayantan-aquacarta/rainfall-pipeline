@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "AMROHA",
-  "row_count": 97,
+  "row_count": 98,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1748,6 +1748,24 @@
       "period_departure_pct": -57.0,
       "period_category": "D",
       "scraped_at": "2026-08-11T07:08:55"
+    },
+    {
+      "date": "2026-08-11",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-11",
+      "level": "district",
+      "subdivision": "WEST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "AMROHA",
+      "day_actual_mm": 17.3,
+      "day_normal_mm": 3.7,
+      "day_departure_pct": 368.0,
+      "day_category": "LE",
+      "period_actual_mm": 221.3,
+      "period_normal_mm": 482.5,
+      "period_departure_pct": -54.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-12T07:26:02"
     }
   ]
 }
