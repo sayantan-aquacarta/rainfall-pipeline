@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "SHIVPURI",
-  "row_count": 99,
+  "row_count": 100,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1784,6 +1784,24 @@
       "period_departure_pct": -16.0,
       "period_category": "N",
       "scraped_at": "2026-08-13T07:27:51"
+    },
+    {
+      "date": "2026-08-13",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-13",
+      "level": "district",
+      "subdivision": "WEST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "SHIVPURI",
+      "day_actual_mm": 18.4,
+      "day_normal_mm": 6.3,
+      "day_departure_pct": 193.0,
+      "day_category": "LE",
+      "period_actual_mm": 463.6,
+      "period_normal_mm": 514.7,
+      "period_departure_pct": -10.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-14T07:25:39"
     }
   ]
 }

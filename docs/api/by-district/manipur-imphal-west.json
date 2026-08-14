@@ -1,7 +1,7 @@
 {
   "state": "MANIPUR",
   "district": "IMPHAL WEST",
-  "row_count": 99,
+  "row_count": 100,
   "rows": [
     {
       "date": "2026-06-09",
@@ -1784,6 +1784,24 @@
       "period_departure_pct": -52.0,
       "period_category": "D",
       "scraped_at": "2026-08-13T07:27:51"
+    },
+    {
+      "date": "2026-08-13",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-13",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "MANIPUR",
+      "district": "IMPHAL WEST",
+      "day_actual_mm": 0.5,
+      "day_normal_mm": 14.9,
+      "day_departure_pct": -97.0,
+      "day_category": "LD",
+      "period_actual_mm": 531.1,
+      "period_normal_mm": 1148.6,
+      "period_departure_pct": -54.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-14T07:25:39"
     }
   ]
 }
