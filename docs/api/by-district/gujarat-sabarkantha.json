@@ -1,7 +1,7 @@
 {
   "state": "GUJARAT",
   "district": "SABARKANTHA",
-  "row_count": 146,
+  "row_count": 147,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2630,6 +2630,24 @@
       "period_departure_pct": -30.0,
       "period_category": "D",
       "scraped_at": "2026-08-14T07:25:39"
+    },
+    {
+      "date": "2026-08-14",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-14",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "SABARKANTHA",
+      "day_actual_mm": 7.4,
+      "day_normal_mm": 7.8,
+      "day_departure_pct": -5.0,
+      "day_category": "N",
+      "period_actual_mm": 404.2,
+      "period_normal_mm": 574.1,
+      "period_departure_pct": -30.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-15T06:39:01"
     }
   ]
 }

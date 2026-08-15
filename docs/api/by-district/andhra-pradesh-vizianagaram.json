@@ -1,7 +1,7 @@
 {
   "state": "ANDHRA PRADESH",
   "district": "VIZIANAGARAM",
-  "row_count": 146,
+  "row_count": 147,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2630,6 +2630,24 @@
       "period_departure_pct": -25.0,
       "period_category": "D",
       "scraped_at": "2026-08-14T07:25:39"
+    },
+    {
+      "date": "2026-08-14",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-14",
+      "level": "district",
+      "subdivision": "COASTAL A. P. & YANAM",
+      "state": "ANDHRA PRADESH",
+      "district": "VIZIANAGARAM",
+      "day_actual_mm": 0.5,
+      "day_normal_mm": 5.0,
+      "day_departure_pct": -90.0,
+      "day_category": "LD",
+      "period_actual_mm": 287.8,
+      "period_normal_mm": 389.7,
+      "period_departure_pct": -26.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-15T06:39:01"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "BURHANPUR",
-  "row_count": 100,
+  "row_count": 101,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1802,6 +1802,24 @@
       "period_departure_pct": 49.0,
       "period_category": "E",
       "scraped_at": "2026-08-14T07:25:39"
+    },
+    {
+      "date": "2026-08-14",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-14",
+      "level": "district",
+      "subdivision": "WEST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "BURHANPUR",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 5.5,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 678.6,
+      "period_normal_mm": 461.3,
+      "period_departure_pct": 47.0,
+      "period_category": "E",
+      "scraped_at": "2026-08-15T06:39:01"
     }
   ]
 }

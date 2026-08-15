@@ -1,7 +1,7 @@
 {
   "state": "HIMACHAL PRADESH",
   "district": "BILASPUR",
-  "row_count": 100,
+  "row_count": 101,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1802,6 +1802,24 @@
       "period_departure_pct": -8.0,
       "period_category": "N",
       "scraped_at": "2026-08-14T07:25:39"
+    },
+    {
+      "date": "2026-08-14",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-14",
+      "level": "district",
+      "subdivision": "HIMACHAL PRADESH",
+      "state": "HIMACHAL PRADESH",
+      "district": "BILASPUR",
+      "day_actual_mm": 20.3,
+      "day_normal_mm": 13.1,
+      "day_departure_pct": 55.0,
+      "day_category": "E",
+      "period_actual_mm": 515.9,
+      "period_normal_mm": 549.8,
+      "period_departure_pct": -6.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-15T06:39:01"
     }
   ]
 }
