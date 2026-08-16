@@ -1,7 +1,7 @@
 {
   "state": "ANDHRA PRADESH",
   "district": "PARVATHIPURAM MANYAM",
-  "row_count": 147,
+  "row_count": 148,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2648,6 +2648,24 @@
       "period_departure_pct": -40.0,
       "period_category": "D",
       "scraped_at": "2026-08-15T06:39:01"
+    },
+    {
+      "date": "2026-08-15",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-15",
+      "level": "district",
+      "subdivision": "COASTAL A. P. & YANAM",
+      "state": "ANDHRA PRADESH",
+      "district": "PARVATHIPURAM MANYAM",
+      "day_actual_mm": 0.4,
+      "day_normal_mm": 10.9,
+      "day_departure_pct": -96.0,
+      "day_category": "LD",
+      "period_actual_mm": 275.0,
+      "period_normal_mm": 470.3,
+      "period_departure_pct": -42.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-16T06:40:13"
     }
   ]
 }

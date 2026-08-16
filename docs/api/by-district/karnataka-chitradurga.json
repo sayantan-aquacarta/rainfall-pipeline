@@ -1,7 +1,7 @@
 {
   "state": "KARNATAKA",
   "district": "CHITRADURGA",
-  "row_count": 146,
+  "row_count": 147,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2630,6 +2630,24 @@
       "period_departure_pct": -16.0,
       "period_category": "N",
       "scraped_at": "2026-08-15T06:39:01"
+    },
+    {
+      "date": "2026-08-15",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-15",
+      "level": "district",
+      "subdivision": "S. I. KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "CHITRADURGA",
+      "day_actual_mm": 1.4,
+      "day_normal_mm": 1.5,
+      "day_departure_pct": -7.0,
+      "day_category": "N",
+      "period_actual_mm": 121.7,
+      "period_normal_mm": 144.0,
+      "period_departure_pct": -15.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-16T06:40:13"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "ODISHA",
   "district": "SUNDARGARH",
-  "row_count": 101,
+  "row_count": 102,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1820,6 +1820,24 @@
       "period_departure_pct": 21.0,
       "period_category": "E",
       "scraped_at": "2026-08-15T06:39:01"
+    },
+    {
+      "date": "2026-08-15",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-15",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "SUNDARGARH",
+      "day_actual_mm": 19.8,
+      "day_normal_mm": 12.5,
+      "day_departure_pct": 59.0,
+      "day_category": "E",
+      "period_actual_mm": 961.4,
+      "period_normal_mm": 791.6,
+      "period_departure_pct": 21.0,
+      "period_category": "E",
+      "scraped_at": "2026-08-16T06:40:13"
     }
   ]
 }

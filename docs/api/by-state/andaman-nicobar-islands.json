@@ -1,6 +1,6 @@
 {
   "state": "ANDAMAN & NICOBAR ISLANDS",
-  "row_count": 441,
+  "row_count": 444,
   "districts": [
     "NICOBAR",
     "NORTH & MIDDLE ANDAMAN",
@@ -7944,6 +7944,60 @@
       "period_departure_pct": -13.0,
       "period_category": "N",
       "scraped_at": "2026-08-15T06:39:01"
+    },
+    {
+      "date": "2026-08-15",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-15",
+      "level": "district",
+      "subdivision": "A & N ISLAND",
+      "state": "ANDAMAN & NICOBAR ISLANDS",
+      "district": "NICOBAR",
+      "day_actual_mm": 2.1,
+      "day_normal_mm": 7.2,
+      "day_departure_pct": -71.0,
+      "day_category": "LD",
+      "period_actual_mm": 416.3,
+      "period_normal_mm": 661.1,
+      "period_departure_pct": -37.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-16T06:40:13"
+    },
+    {
+      "date": "2026-08-15",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-15",
+      "level": "district",
+      "subdivision": "A & N ISLAND",
+      "state": "ANDAMAN & NICOBAR ISLANDS",
+      "district": "NORTH & MIDDLE ANDAMAN",
+      "day_actual_mm": 17.5,
+      "day_normal_mm": 8.3,
+      "day_departure_pct": 111.0,
+      "day_category": "LE",
+      "period_actual_mm": 1551.6,
+      "period_normal_mm": 1173.0,
+      "period_departure_pct": 32.0,
+      "period_category": "E",
+      "scraped_at": "2026-08-16T06:40:13"
+    },
+    {
+      "date": "2026-08-15",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-15",
+      "level": "district",
+      "subdivision": "A & N ISLAND",
+      "state": "ANDAMAN & NICOBAR ISLANDS",
+      "district": "SOUTH ANDAMAN",
+      "day_actual_mm": 7.7,
+      "day_normal_mm": 16.3,
+      "day_departure_pct": -53.0,
+      "day_category": "D",
+      "period_actual_mm": 864.7,
+      "period_normal_mm": 1006.1,
+      "period_departure_pct": -14.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-16T06:40:13"
     }
   ]
 }

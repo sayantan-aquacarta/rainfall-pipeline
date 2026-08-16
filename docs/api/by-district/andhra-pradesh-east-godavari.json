@@ -1,7 +1,7 @@
 {
   "state": "ANDHRA PRADESH",
   "district": "EAST GODAVARI",
-  "row_count": 99,
+  "row_count": 100,
   "rows": [
     {
       "date": "2026-06-09",
@@ -1784,6 +1784,24 @@
       "period_departure_pct": -36.0,
       "period_category": "D",
       "scraped_at": "2026-08-15T06:39:01"
+    },
+    {
+      "date": "2026-08-15",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-15",
+      "level": "district",
+      "subdivision": "COASTAL A. P. & YANAM",
+      "state": "ANDHRA PRADESH",
+      "district": "EAST GODAVARI",
+      "day_actual_mm": 9.5,
+      "day_normal_mm": 5.9,
+      "day_departure_pct": 61.0,
+      "day_category": "LE",
+      "period_actual_mm": 300.1,
+      "period_normal_mm": 456.8,
+      "period_departure_pct": -34.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-16T06:40:13"
     }
   ]
 }

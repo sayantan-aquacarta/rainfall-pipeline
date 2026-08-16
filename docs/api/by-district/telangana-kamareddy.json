@@ -1,7 +1,7 @@
 {
   "state": "TELANGANA",
   "district": "KAMAREDDY",
-  "row_count": 101,
+  "row_count": 102,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1820,6 +1820,24 @@
       "period_departure_pct": 29.0,
       "period_category": "E",
       "scraped_at": "2026-08-15T06:39:01"
+    },
+    {
+      "date": "2026-08-15",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-15",
+      "level": "district",
+      "subdivision": "TELANGANA",
+      "state": "TELANGANA",
+      "district": "KAMAREDDY",
+      "day_actual_mm": 8.3,
+      "day_normal_mm": 4.9,
+      "day_departure_pct": 70.0,
+      "day_category": "LE",
+      "period_actual_mm": 644.5,
+      "period_normal_mm": 495.1,
+      "period_departure_pct": 30.0,
+      "period_category": "E",
+      "scraped_at": "2026-08-16T06:40:13"
     }
   ]
 }

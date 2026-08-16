@@ -1,7 +1,7 @@
 {
   "state": "GUJARAT",
   "district": "ARAVALLI",
-  "row_count": 147,
+  "row_count": 148,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2648,6 +2648,24 @@
       "period_departure_pct": -33.0,
       "period_category": "D",
       "scraped_at": "2026-08-15T06:39:01"
+    },
+    {
+      "date": "2026-08-15",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-15",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "ARAVALLI",
+      "day_actual_mm": 6.1,
+      "day_normal_mm": 6.4,
+      "day_departure_pct": -5.0,
+      "day_category": "N",
+      "period_actual_mm": 380.9,
+      "period_normal_mm": 568.8,
+      "period_departure_pct": -33.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-16T06:40:13"
     }
   ]
 }

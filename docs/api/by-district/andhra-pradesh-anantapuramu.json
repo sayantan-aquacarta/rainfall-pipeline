@@ -1,7 +1,7 @@
 {
   "state": "ANDHRA PRADESH",
   "district": "ANANTAPURAMU",
-  "row_count": 117,
+  "row_count": 118,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2108,6 +2108,24 @@
       "period_departure_pct": -13.0,
       "period_category": "N",
       "scraped_at": "2026-08-15T06:39:01"
+    },
+    {
+      "date": "2026-08-15",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-15",
+      "level": "district",
+      "subdivision": "RAYALASEEMA",
+      "state": "ANDHRA PRADESH",
+      "district": "ANANTAPURAMU",
+      "day_actual_mm": 0.4,
+      "day_normal_mm": 1.5,
+      "day_departure_pct": -71.0,
+      "day_category": "LD",
+      "period_actual_mm": 135.4,
+      "period_normal_mm": 155.7,
+      "period_departure_pct": -13.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-16T06:40:13"
     }
   ]
 }
