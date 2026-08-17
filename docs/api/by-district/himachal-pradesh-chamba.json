@@ -1,7 +1,7 @@
 {
   "state": "HIMACHAL PRADESH",
   "district": "CHAMBA",
-  "row_count": 101,
+  "row_count": 102,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1820,6 +1820,24 @@
       "period_departure_pct": -5.0,
       "period_category": "N",
       "scraped_at": "2026-08-16T06:40:13"
+    },
+    {
+      "date": "2026-08-16",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-16",
+      "level": "district",
+      "subdivision": "HIMACHAL PRADESH",
+      "state": "HIMACHAL PRADESH",
+      "district": "CHAMBA",
+      "day_actual_mm": 5.5,
+      "day_normal_mm": 6.0,
+      "day_departure_pct": -9.0,
+      "day_category": "N",
+      "period_actual_mm": 588.9,
+      "period_normal_mm": 618.2,
+      "period_departure_pct": -5.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-17T06:56:12"
     }
   ]
 }

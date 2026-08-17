@@ -1,7 +1,7 @@
 {
   "state": "ASSAM",
   "district": "CHARAIDEO",
-  "row_count": 146,
+  "row_count": 147,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2630,6 +2630,24 @@
       "period_departure_pct": 28.0,
       "period_category": "E",
       "scraped_at": "2026-08-16T06:40:13"
+    },
+    {
+      "date": "2026-08-16",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-16",
+      "level": "district",
+      "subdivision": "ASSAM & MEGHALAYA",
+      "state": "ASSAM",
+      "district": "CHARAIDEO",
+      "day_actual_mm": 81.0,
+      "day_normal_mm": 16.8,
+      "day_departure_pct": 382.0,
+      "day_category": "LE",
+      "period_actual_mm": 956.0,
+      "period_normal_mm": 698.6,
+      "period_departure_pct": 37.0,
+      "period_category": "E",
+      "scraped_at": "2026-08-17T06:56:12"
     }
   ]
 }

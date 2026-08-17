@@ -1,7 +1,7 @@
 {
   "state": "RAJASTHAN",
   "district": "JHALAWAR",
-  "row_count": 102,
+  "row_count": 103,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1838,6 +1838,24 @@
       "period_departure_pct": -13.0,
       "period_category": "N",
       "scraped_at": "2026-08-16T06:40:13"
+    },
+    {
+      "date": "2026-08-16",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-16",
+      "level": "district",
+      "subdivision": "EAST RAJASTHAN",
+      "state": "RAJASTHAN",
+      "district": "JHALAWAR",
+      "day_actual_mm": 24.2,
+      "day_normal_mm": 13.7,
+      "day_departure_pct": 77.0,
+      "day_category": "LE",
+      "period_actual_mm": 528.5,
+      "period_normal_mm": 596.3,
+      "period_departure_pct": -11.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-17T06:56:12"
     }
   ]
 }

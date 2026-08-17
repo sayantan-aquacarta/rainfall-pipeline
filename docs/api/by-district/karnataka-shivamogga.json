@@ -1,7 +1,7 @@
 {
   "state": "KARNATAKA",
   "district": "SHIVAMOGGA",
-  "row_count": 148,
+  "row_count": 149,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2666,6 +2666,24 @@
       "period_departure_pct": -1.0,
       "period_category": "N",
       "scraped_at": "2026-08-16T06:40:13"
+    },
+    {
+      "date": "2026-08-16",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-16",
+      "level": "district",
+      "subdivision": "S. I. KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "SHIVAMOGGA",
+      "day_actual_mm": 9.8,
+      "day_normal_mm": 14.2,
+      "day_departure_pct": -31.0,
+      "day_category": "D",
+      "period_actual_mm": 1268.5,
+      "period_normal_mm": 1291.9,
+      "period_departure_pct": -2.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-17T06:56:12"
     }
   ]
 }

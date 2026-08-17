@@ -1,7 +1,7 @@
 {
   "state": "MAHARASHTRA",
   "district": "KOLHAPUR",
-  "row_count": 102,
+  "row_count": 103,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1838,6 +1838,24 @@
       "period_departure_pct": -5.0,
       "period_category": "N",
       "scraped_at": "2026-08-16T06:40:13"
+    },
+    {
+      "date": "2026-08-16",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-16",
+      "level": "district",
+      "subdivision": "MADHYA MAHARASHTRA",
+      "state": "MAHARASHTRA",
+      "district": "KOLHAPUR",
+      "day_actual_mm": 15.7,
+      "day_normal_mm": 14.8,
+      "day_departure_pct": 6.0,
+      "day_category": "N",
+      "period_actual_mm": 1279.7,
+      "period_normal_mm": 1343.3,
+      "period_departure_pct": -5.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-17T06:56:12"
     }
   ]
 }

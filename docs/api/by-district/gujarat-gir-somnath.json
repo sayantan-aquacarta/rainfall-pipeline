@@ -1,7 +1,7 @@
 {
   "state": "GUJARAT",
   "district": "GIR SOMNATH",
-  "row_count": 148,
+  "row_count": 149,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2666,6 +2666,24 @@
       "period_departure_pct": -31.0,
       "period_category": "D",
       "scraped_at": "2026-08-16T06:40:13"
+    },
+    {
+      "date": "2026-08-16",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-16",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "GUJARAT",
+      "district": "GIR SOMNATH",
+      "day_actual_mm": 2.6,
+      "day_normal_mm": 3.4,
+      "day_departure_pct": -24.0,
+      "day_category": "D",
+      "period_actual_mm": 464.1,
+      "period_normal_mm": 675.9,
+      "period_departure_pct": -31.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-17T06:56:12"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "ODISHA",
   "district": "KALAHANDI",
-  "row_count": 102,
+  "row_count": 103,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1838,6 +1838,24 @@
       "period_departure_pct": -21.0,
       "period_category": "D",
       "scraped_at": "2026-08-16T06:40:13"
+    },
+    {
+      "date": "2026-08-16",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-16",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "KALAHANDI",
+      "day_actual_mm": 2.1,
+      "day_normal_mm": 10.6,
+      "day_departure_pct": -80.0,
+      "day_category": "LD",
+      "period_actual_mm": 728.3,
+      "period_normal_mm": 932.4,
+      "period_departure_pct": -22.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-17T06:56:12"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "GUJARAT",
   "district": "AHMEDABAD",
-  "row_count": 148,
+  "row_count": 149,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2666,6 +2666,24 @@
       "period_departure_pct": 16.0,
       "period_category": "N",
       "scraped_at": "2026-08-16T06:40:13"
+    },
+    {
+      "date": "2026-08-16",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-16",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "AHMEDABAD",
+      "day_actual_mm": 0.8,
+      "day_normal_mm": 4.9,
+      "day_departure_pct": -84.0,
+      "day_category": "LD",
+      "period_actual_mm": 537.9,
+      "period_normal_mm": 468.0,
+      "period_departure_pct": 15.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-17T06:56:12"
     }
   ]
 }

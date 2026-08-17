@@ -1,6 +1,6 @@
 {
   "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
-  "row_count": 324,
+  "row_count": 327,
   "districts": [
     "DADARA & NAGAR HAVELI",
     "DAMAN",
@@ -5838,6 +5838,60 @@
       "period_departure_pct": 7.0,
       "period_category": "N",
       "scraped_at": "2026-08-16T06:40:13"
+    },
+    {
+      "date": "2026-08-16",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-16",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
+      "district": "DADARA & NAGAR HAVELI",
+      "day_actual_mm": 12.2,
+      "day_normal_mm": 11.4,
+      "day_departure_pct": 7.0,
+      "day_category": "N",
+      "period_actual_mm": 2812.7,
+      "period_normal_mm": 1713.1,
+      "period_departure_pct": 64.0,
+      "period_category": "LE",
+      "scraped_at": "2026-08-17T06:56:12"
+    },
+    {
+      "date": "2026-08-16",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-16",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
+      "district": "DAMAN",
+      "day_actual_mm": 2.0,
+      "day_normal_mm": 11.4,
+      "day_departure_pct": -82.0,
+      "day_category": "LD",
+      "period_actual_mm": 2614.5,
+      "period_normal_mm": 1713.1,
+      "period_departure_pct": 53.0,
+      "period_category": "E",
+      "scraped_at": "2026-08-17T06:56:12"
+    },
+    {
+      "date": "2026-08-16",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-16",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
+      "district": "DIU",
+      "day_actual_mm": 0.2,
+      "day_normal_mm": 2.3,
+      "day_departure_pct": -91.0,
+      "day_category": "LD",
+      "period_actual_mm": 622.2,
+      "period_normal_mm": 581.1,
+      "period_departure_pct": 7.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-17T06:56:12"
     }
   ]
 }

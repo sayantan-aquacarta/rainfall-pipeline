@@ -1,7 +1,7 @@
 {
   "state": "CHHATTISGARH",
   "district": "BALRAMPUR",
-  "row_count": 102,
+  "row_count": 103,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1838,6 +1838,24 @@
       "period_departure_pct": 28.0,
       "period_category": "E",
       "scraped_at": "2026-08-16T06:40:13"
+    },
+    {
+      "date": "2026-08-16",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-16",
+      "level": "district",
+      "subdivision": "CHHATTISGARH",
+      "state": "CHHATTISGARH",
+      "district": "BALRAMPUR",
+      "day_actual_mm": 5.5,
+      "day_normal_mm": 9.3,
+      "day_departure_pct": -41.0,
+      "day_category": "D",
+      "period_actual_mm": 818.4,
+      "period_normal_mm": 645.5,
+      "period_departure_pct": 27.0,
+      "period_category": "E",
+      "scraped_at": "2026-08-17T06:56:12"
     }
   ]
 }
