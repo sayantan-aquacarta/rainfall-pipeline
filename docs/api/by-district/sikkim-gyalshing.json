@@ -1,7 +1,7 @@
 {
   "state": "SIKKIM",
   "district": "GYALSHING",
-  "row_count": 149,
+  "row_count": 150,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2684,6 +2684,24 @@
       "period_departure_pct": 32.0,
       "period_category": "E",
       "scraped_at": "2026-08-17T06:56:12"
+    },
+    {
+      "date": "2026-08-17",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-17",
+      "level": "district",
+      "subdivision": "SHWB & SIKKIM",
+      "state": "SIKKIM",
+      "district": "GYALSHING",
+      "day_actual_mm": 14.2,
+      "day_normal_mm": 16.3,
+      "day_departure_pct": -13.0,
+      "day_category": "N",
+      "period_actual_mm": 1587.0,
+      "period_normal_mm": 1209.7,
+      "period_departure_pct": 31.0,
+      "period_category": "E",
+      "scraped_at": "2026-08-18T06:43:06"
     }
   ]
 }

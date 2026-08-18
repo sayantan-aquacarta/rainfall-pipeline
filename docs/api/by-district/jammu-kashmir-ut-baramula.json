@@ -1,7 +1,7 @@
 {
   "state": "JAMMU & KASHMIR(UT)",
   "district": "BARAMULA",
-  "row_count": 149,
+  "row_count": 150,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2684,6 +2684,24 @@
       "period_departure_pct": 61.0,
       "period_category": "LE",
       "scraped_at": "2026-08-17T06:56:12"
+    },
+    {
+      "date": "2026-08-17",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-17",
+      "level": "district",
+      "subdivision": "J & K AND LADAKH",
+      "state": "JAMMU & KASHMIR(UT)",
+      "district": "BARAMULA",
+      "day_actual_mm": 0.5,
+      "day_normal_mm": 2.0,
+      "day_departure_pct": -75.0,
+      "day_category": "LD",
+      "period_actual_mm": 241.3,
+      "period_normal_mm": 151.6,
+      "period_departure_pct": 59.0,
+      "period_category": "E",
+      "scraped_at": "2026-08-18T06:43:06"
     }
   ]
 }

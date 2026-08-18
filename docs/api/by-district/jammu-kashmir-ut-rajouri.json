@@ -1,7 +1,7 @@
 {
   "state": "JAMMU & KASHMIR(UT)",
   "district": "RAJOURI",
-  "row_count": 149,
+  "row_count": 150,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2684,6 +2684,24 @@
       "period_departure_pct": 21.0,
       "period_category": "E",
       "scraped_at": "2026-08-17T06:56:12"
+    },
+    {
+      "date": "2026-08-17",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-17",
+      "level": "district",
+      "subdivision": "J & K AND LADAKH",
+      "state": "JAMMU & KASHMIR(UT)",
+      "district": "RAJOURI",
+      "day_actual_mm": 10.1,
+      "day_normal_mm": 12.1,
+      "day_departure_pct": -17.0,
+      "day_category": "N",
+      "period_actual_mm": 569.6,
+      "period_normal_mm": 474.2,
+      "period_departure_pct": 20.0,
+      "period_category": "E",
+      "scraped_at": "2026-08-18T06:43:06"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "SHAHDOL",
-  "row_count": 103,
+  "row_count": 104,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1856,6 +1856,24 @@
       "period_departure_pct": 0.0,
       "period_category": "N",
       "scraped_at": "2026-08-17T06:56:12"
+    },
+    {
+      "date": "2026-08-17",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-17",
+      "level": "district",
+      "subdivision": "EAST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "SHAHDOL",
+      "day_actual_mm": 19.9,
+      "day_normal_mm": 10.7,
+      "day_departure_pct": 86.0,
+      "day_category": "LE",
+      "period_actual_mm": 662.1,
+      "period_normal_mm": 654.2,
+      "period_departure_pct": 1.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-18T06:43:06"
     }
   ]
 }

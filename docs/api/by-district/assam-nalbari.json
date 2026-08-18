@@ -1,7 +1,7 @@
 {
   "state": "ASSAM",
   "district": "NALBARI",
-  "row_count": 149,
+  "row_count": 150,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2684,6 +2684,24 @@
       "period_departure_pct": -64.0,
       "period_category": "LD",
       "scraped_at": "2026-08-17T06:56:12"
+    },
+    {
+      "date": "2026-08-17",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-17",
+      "level": "district",
+      "subdivision": "ASSAM & MEGHALAYA",
+      "state": "ASSAM",
+      "district": "NALBARI",
+      "day_actual_mm": 22.5,
+      "day_normal_mm": 12.1,
+      "day_departure_pct": 86.0,
+      "day_category": "LE",
+      "period_actual_mm": 427.5,
+      "period_normal_mm": 1147.3,
+      "period_departure_pct": -63.0,
+      "period_category": "LD",
+      "scraped_at": "2026-08-18T06:43:06"
     }
   ]
 }

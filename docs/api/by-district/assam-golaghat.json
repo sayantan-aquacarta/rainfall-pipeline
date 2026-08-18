@@ -1,7 +1,7 @@
 {
   "state": "ASSAM",
   "district": "GOLAGHAT",
-  "row_count": 149,
+  "row_count": 150,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2684,6 +2684,24 @@
       "period_departure_pct": -14.0,
       "period_category": "N",
       "scraped_at": "2026-08-17T06:56:12"
+    },
+    {
+      "date": "2026-08-17",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-17",
+      "level": "district",
+      "subdivision": "ASSAM & MEGHALAYA",
+      "state": "ASSAM",
+      "district": "GOLAGHAT",
+      "day_actual_mm": 42.8,
+      "day_normal_mm": 6.9,
+      "day_departure_pct": 520.0,
+      "day_category": "LE",
+      "period_actual_mm": 655.8,
+      "period_normal_mm": 722.0,
+      "period_departure_pct": -9.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-18T06:43:06"
     }
   ]
 }

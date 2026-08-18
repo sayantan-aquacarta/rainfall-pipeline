@@ -1,7 +1,7 @@
 {
   "state": "MIZORAM",
   "district": "LUNGLEI",
-  "row_count": 100,
+  "row_count": 101,
   "rows": [
     {
       "date": "2026-06-13",
@@ -1802,6 +1802,24 @@
       "period_departure_pct": -21.0,
       "period_category": "D",
       "scraped_at": "2026-08-17T06:56:12"
+    },
+    {
+      "date": "2026-08-17",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-17",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "MIZORAM",
+      "district": "LUNGLEI",
+      "day_actual_mm": 6.5,
+      "day_normal_mm": 15.4,
+      "day_departure_pct": -58.0,
+      "day_category": "D",
+      "period_actual_mm": 920.9,
+      "period_normal_mm": 1174.7,
+      "period_departure_pct": -22.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-18T06:43:06"
     }
   ]
 }
