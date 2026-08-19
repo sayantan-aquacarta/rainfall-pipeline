@@ -1,7 +1,7 @@
 {
   "state": "TELANGANA",
   "district": "VIKARABAD",
-  "row_count": 104,
+  "row_count": 105,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1874,6 +1874,24 @@
       "period_departure_pct": -13.0,
       "period_category": "N",
       "scraped_at": "2026-08-18T06:43:06"
+    },
+    {
+      "date": "2026-08-18",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-18",
+      "level": "district",
+      "subdivision": "TELANGANA",
+      "state": "TELANGANA",
+      "district": "VIKARABAD",
+      "day_actual_mm": 0.4,
+      "day_normal_mm": 5.3,
+      "day_departure_pct": -92.0,
+      "day_category": "LD",
+      "period_actual_mm": 353.3,
+      "period_normal_mm": 411.0,
+      "period_departure_pct": -14.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-19T06:43:37"
     }
   ]
 }

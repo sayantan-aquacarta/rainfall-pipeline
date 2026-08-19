@@ -1,7 +1,7 @@
 {
   "state": "CHHATTISGARH",
   "district": "MAHASAMUND",
-  "row_count": 104,
+  "row_count": 105,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1874,6 +1874,24 @@
       "period_departure_pct": 21.0,
       "period_category": "E",
       "scraped_at": "2026-08-18T06:43:06"
+    },
+    {
+      "date": "2026-08-18",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-18",
+      "level": "district",
+      "subdivision": "CHHATTISGARH",
+      "state": "CHHATTISGARH",
+      "district": "MAHASAMUND",
+      "day_actual_mm": 74.2,
+      "day_normal_mm": 10.8,
+      "day_departure_pct": 587.0,
+      "day_category": "LE",
+      "period_actual_mm": 926.2,
+      "period_normal_mm": 717.2,
+      "period_departure_pct": 29.0,
+      "period_category": "E",
+      "scraped_at": "2026-08-19T06:43:37"
     }
   ]
 }

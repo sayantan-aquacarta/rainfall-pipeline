@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "BAREILLY",
-  "row_count": 104,
+  "row_count": 105,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1874,6 +1874,24 @@
       "period_departure_pct": -16.0,
       "period_category": "N",
       "scraped_at": "2026-08-18T06:43:06"
+    },
+    {
+      "date": "2026-08-18",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-18",
+      "level": "district",
+      "subdivision": "WEST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "BAREILLY",
+      "day_actual_mm": 25.0,
+      "day_normal_mm": 10.8,
+      "day_departure_pct": 131.0,
+      "day_category": "LE",
+      "period_actual_mm": 481.7,
+      "period_normal_mm": 552.0,
+      "period_departure_pct": -13.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-19T06:43:37"
     }
   ]
 }
