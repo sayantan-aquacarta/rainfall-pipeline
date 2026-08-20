@@ -1,7 +1,7 @@
 {
   "state": "MAHARASHTRA",
   "district": "PARBHANI",
-  "row_count": 105,
+  "row_count": 106,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1892,6 +1892,24 @@
       "period_departure_pct": -22.0,
       "period_category": "D",
       "scraped_at": "2026-08-19T06:43:37"
+    },
+    {
+      "date": "2026-08-19",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-19",
+      "level": "district",
+      "subdivision": "MARATHWADA",
+      "state": "MAHARASHTRA",
+      "district": "PARBHANI",
+      "day_actual_mm": 0.7,
+      "day_normal_mm": 4.1,
+      "day_departure_pct": -84.0,
+      "day_category": "LD",
+      "period_actual_mm": 342.3,
+      "period_normal_mm": 442.5,
+      "period_departure_pct": -23.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-20T06:46:36"
     }
   ]
 }

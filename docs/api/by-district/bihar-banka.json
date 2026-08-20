@@ -1,7 +1,7 @@
 {
   "state": "BIHAR",
   "district": "BANKA",
-  "row_count": 105,
+  "row_count": 106,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1892,6 +1892,24 @@
       "period_departure_pct": -48.0,
       "period_category": "D",
       "scraped_at": "2026-08-19T06:43:37"
+    },
+    {
+      "date": "2026-08-19",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-19",
+      "level": "district",
+      "subdivision": "BIHAR",
+      "state": "BIHAR",
+      "district": "BANKA",
+      "day_actual_mm": 2.5,
+      "day_normal_mm": 10.7,
+      "day_departure_pct": -77.0,
+      "day_category": "LD",
+      "period_actual_mm": 306.8,
+      "period_normal_mm": 597.3,
+      "period_departure_pct": -49.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-20T06:46:36"
     }
   ]
 }

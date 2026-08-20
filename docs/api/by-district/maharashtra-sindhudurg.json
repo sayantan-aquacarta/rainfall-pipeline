@@ -1,7 +1,7 @@
 {
   "state": "MAHARASHTRA",
   "district": "SINDHUDURG",
-  "row_count": 151,
+  "row_count": 152,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2720,6 +2720,24 @@
       "period_departure_pct": -34.0,
       "period_category": "D",
       "scraped_at": "2026-08-19T06:43:37"
+    },
+    {
+      "date": "2026-08-19",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-19",
+      "level": "district",
+      "subdivision": "KONKAN & GOA",
+      "state": "MAHARASHTRA",
+      "district": "SINDHUDURG",
+      "day_actual_mm": 14.3,
+      "day_normal_mm": 17.5,
+      "day_departure_pct": -18.0,
+      "day_category": "N",
+      "period_actual_mm": 1588.8,
+      "period_normal_mm": 2395.7,
+      "period_departure_pct": -34.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-20T06:46:36"
     }
   ]
 }

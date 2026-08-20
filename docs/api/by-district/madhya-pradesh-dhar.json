@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "DHAR",
-  "row_count": 105,
+  "row_count": 106,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1892,6 +1892,24 @@
       "period_departure_pct": -29.0,
       "period_category": "D",
       "scraped_at": "2026-08-19T06:43:37"
+    },
+    {
+      "date": "2026-08-19",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-19",
+      "level": "district",
+      "subdivision": "WEST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "DHAR",
+      "day_actual_mm": 0.2,
+      "day_normal_mm": 6.7,
+      "day_departure_pct": -96.0,
+      "day_category": "LD",
+      "period_actual_mm": 385.9,
+      "period_normal_mm": 550.8,
+      "period_departure_pct": -30.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-20T06:46:36"
     }
   ]
 }

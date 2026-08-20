@@ -1,7 +1,7 @@
 {
   "state": "MIZORAM",
   "district": "SERCHHIP",
-  "row_count": 146,
+  "row_count": 147,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2630,6 +2630,24 @@
       "period_departure_pct": -7.0,
       "period_category": "N",
       "scraped_at": "2026-08-19T06:43:37"
+    },
+    {
+      "date": "2026-08-19",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-19",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "MIZORAM",
+      "district": "SERCHHIP",
+      "day_actual_mm": 5.3,
+      "day_normal_mm": 11.0,
+      "day_departure_pct": -51.0,
+      "day_category": "D",
+      "period_actual_mm": 969.8,
+      "period_normal_mm": 1053.1,
+      "period_departure_pct": -8.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-20T06:46:36"
     }
   ]
 }

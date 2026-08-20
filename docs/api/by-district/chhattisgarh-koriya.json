@@ -1,7 +1,7 @@
 {
   "state": "CHHATTISGARH",
   "district": "KORIYA",
-  "row_count": 65,
+  "row_count": 66,
   "rows": [
     {
       "date": "2026-06-01",
@@ -1172,6 +1172,24 @@
       "period_departure_pct": -17.0,
       "period_category": "N",
       "scraped_at": "2026-08-19T06:43:37"
+    },
+    {
+      "date": "2026-08-19",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-19",
+      "level": "district",
+      "subdivision": "CHHATTISGARH",
+      "state": "CHHATTISGARH",
+      "district": "KORIYA",
+      "day_actual_mm": 22.1,
+      "day_normal_mm": 9.3,
+      "day_departure_pct": 137.0,
+      "day_category": "LE",
+      "period_actual_mm": 657.8,
+      "period_normal_mm": 779.8,
+      "period_departure_pct": -16.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-20T06:46:36"
     }
   ]
 }

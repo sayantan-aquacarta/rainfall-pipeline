@@ -1,7 +1,7 @@
 {
   "state": "HARYANA",
   "district": "GURGAON",
-  "row_count": 149,
+  "row_count": 150,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2684,6 +2684,24 @@
       "period_departure_pct": 0.0,
       "period_category": "N",
       "scraped_at": "2026-08-19T06:43:37"
+    },
+    {
+      "date": "2026-08-19",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-19",
+      "level": "district",
+      "subdivision": "HAR. CHD & DELHI",
+      "state": "HARYANA",
+      "district": "GURGAON",
+      "day_actual_mm": 0.5,
+      "day_normal_mm": 5.6,
+      "day_departure_pct": -91.0,
+      "day_category": "LD",
+      "period_actual_mm": 338.9,
+      "period_normal_mm": 343.5,
+      "period_departure_pct": -1.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-20T06:46:36"
     }
   ]
 }

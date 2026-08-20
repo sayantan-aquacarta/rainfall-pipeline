@@ -1,7 +1,7 @@
 {
   "state": "MAHARASHTRA",
   "district": "DHULE",
-  "row_count": 105,
+  "row_count": 106,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1892,6 +1892,24 @@
       "period_departure_pct": 2.0,
       "period_category": "N",
       "scraped_at": "2026-08-19T06:43:37"
+    },
+    {
+      "date": "2026-08-19",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-19",
+      "level": "district",
+      "subdivision": "MADHYA MAHARASHTRA",
+      "state": "MAHARASHTRA",
+      "district": "DHULE",
+      "day_actual_mm": 1.9,
+      "day_normal_mm": 3.3,
+      "day_departure_pct": -41.0,
+      "day_category": "D",
+      "period_actual_mm": 381.7,
+      "period_normal_mm": 376.7,
+      "period_departure_pct": 1.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-20T06:46:36"
     }
   ]
 }

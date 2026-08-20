@@ -1,7 +1,7 @@
 {
   "state": "HIMACHAL PRADESH",
   "district": "MANDI",
-  "row_count": 105,
+  "row_count": 106,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1892,6 +1892,24 @@
       "period_departure_pct": -15.0,
       "period_category": "N",
       "scraped_at": "2026-08-19T06:43:37"
+    },
+    {
+      "date": "2026-08-19",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-19",
+      "level": "district",
+      "subdivision": "HIMACHAL PRADESH",
+      "state": "HIMACHAL PRADESH",
+      "district": "MANDI",
+      "day_actual_mm": 16.5,
+      "day_normal_mm": 12.7,
+      "day_departure_pct": 30.0,
+      "day_category": "E",
+      "period_actual_mm": 718.5,
+      "period_normal_mm": 837.1,
+      "period_departure_pct": -14.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-20T06:46:36"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "HARYANA",
   "district": "SONEPAT",
-  "row_count": 151,
+  "row_count": 152,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2720,6 +2720,24 @@
       "period_departure_pct": -28.0,
       "period_category": "D",
       "scraped_at": "2026-08-19T06:43:37"
+    },
+    {
+      "date": "2026-08-19",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-19",
+      "level": "district",
+      "subdivision": "HAR. CHD & DELHI",
+      "state": "HARYANA",
+      "district": "SONEPAT",
+      "day_actual_mm": 8.1,
+      "day_normal_mm": 4.2,
+      "day_departure_pct": 93.0,
+      "day_category": "LE",
+      "period_actual_mm": 238.8,
+      "period_normal_mm": 326.0,
+      "period_departure_pct": -27.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-20T06:46:36"
     }
   ]
 }
