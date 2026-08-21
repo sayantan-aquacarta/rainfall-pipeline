@@ -1,7 +1,7 @@
 {
   "state": "ODISHA",
   "district": "KORAPUT",
-  "row_count": 106,
+  "row_count": 107,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1910,6 +1910,24 @@
       "period_departure_pct": -12.0,
       "period_category": "N",
       "scraped_at": "2026-08-20T06:46:36"
+    },
+    {
+      "date": "2026-08-20",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-20",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "KORAPUT",
+      "day_actual_mm": 7.7,
+      "day_normal_mm": 14.6,
+      "day_departure_pct": -47.0,
+      "day_category": "D",
+      "period_actual_mm": 761.9,
+      "period_normal_mm": 870.0,
+      "period_departure_pct": -12.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-21T06:48:34"
     }
   ]
 }

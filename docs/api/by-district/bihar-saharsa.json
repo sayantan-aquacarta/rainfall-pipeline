@@ -1,7 +1,7 @@
 {
   "state": "BIHAR",
   "district": "SAHARSA",
-  "row_count": 106,
+  "row_count": 107,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1910,6 +1910,24 @@
       "period_departure_pct": -47.0,
       "period_category": "D",
       "scraped_at": "2026-08-20T06:46:36"
+    },
+    {
+      "date": "2026-08-20",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-20",
+      "level": "district",
+      "subdivision": "BIHAR",
+      "state": "BIHAR",
+      "district": "SAHARSA",
+      "day_actual_mm": 2.3,
+      "day_normal_mm": 8.2,
+      "day_departure_pct": -72.0,
+      "day_category": "LD",
+      "period_actual_mm": 393.7,
+      "period_normal_mm": 746.2,
+      "period_departure_pct": -47.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-21T06:48:34"
     }
   ]
 }

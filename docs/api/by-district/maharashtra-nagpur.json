@@ -1,7 +1,7 @@
 {
   "state": "MAHARASHTRA",
   "district": "NAGPUR",
-  "row_count": 106,
+  "row_count": 107,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1910,6 +1910,24 @@
       "period_departure_pct": -32.0,
       "period_category": "D",
       "scraped_at": "2026-08-20T06:46:36"
+    },
+    {
+      "date": "2026-08-20",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-20",
+      "level": "district",
+      "subdivision": "VIDARBHA",
+      "state": "MAHARASHTRA",
+      "district": "NAGPUR",
+      "day_actual_mm": 0.2,
+      "day_normal_mm": 9.2,
+      "day_departure_pct": -98.0,
+      "day_category": "LD",
+      "period_actual_mm": 453.6,
+      "period_normal_mm": 678.5,
+      "period_departure_pct": -33.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-21T06:48:34"
     }
   ]
 }

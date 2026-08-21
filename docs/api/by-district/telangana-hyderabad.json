@@ -1,7 +1,7 @@
 {
   "state": "TELANGANA",
   "district": "HYDERABAD",
-  "row_count": 106,
+  "row_count": 107,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1910,6 +1910,24 @@
       "period_departure_pct": -31.0,
       "period_category": "D",
       "scraped_at": "2026-08-20T06:46:36"
+    },
+    {
+      "date": "2026-08-20",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-20",
+      "level": "district",
+      "subdivision": "TELANGANA",
+      "state": "TELANGANA",
+      "district": "HYDERABAD",
+      "day_actual_mm": 2.4,
+      "day_normal_mm": 7.3,
+      "day_departure_pct": -67.0,
+      "day_category": "LD",
+      "period_actual_mm": 276.5,
+      "period_normal_mm": 404.7,
+      "period_departure_pct": -32.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-21T06:48:34"
     }
   ]
 }
