@@ -1,7 +1,7 @@
 {
   "state": "SIKKIM",
   "district": "Pakyong",
-  "row_count": 113,
+  "row_count": 114,
   "rows": [
     {
       "date": "2026-06-01",
@@ -2036,6 +2036,24 @@
       "period_departure_pct": 3.0,
       "period_category": "N",
       "scraped_at": "2026-08-21T06:48:34"
+    },
+    {
+      "date": "2026-08-21",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-21",
+      "level": "district",
+      "subdivision": "SHWB & SIKKIM",
+      "state": "SIKKIM",
+      "district": "Pakyong",
+      "day_actual_mm": 19.8,
+      "day_normal_mm": 16.0,
+      "day_departure_pct": 23.0,
+      "day_category": "E",
+      "period_actual_mm": 1213.6,
+      "period_normal_mm": 1175.8,
+      "period_departure_pct": 3.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-22T06:40:55"
     }
   ]
 }

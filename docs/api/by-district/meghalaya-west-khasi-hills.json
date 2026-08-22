@@ -1,7 +1,7 @@
 {
   "state": "MEGHALAYA",
   "district": "WEST KHASI HILLS",
-  "row_count": 153,
+  "row_count": 154,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2756,6 +2756,24 @@
       "period_departure_pct": -71.0,
       "period_category": "LD",
       "scraped_at": "2026-08-21T06:48:34"
+    },
+    {
+      "date": "2026-08-21",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-21",
+      "level": "district",
+      "subdivision": "ASSAM & MEGHALAYA",
+      "state": "MEGHALAYA",
+      "district": "WEST KHASI HILLS",
+      "day_actual_mm": 14.4,
+      "day_normal_mm": 31.9,
+      "day_departure_pct": -55.0,
+      "day_category": "D",
+      "period_actual_mm": 598.8,
+      "period_normal_mm": 2016.6,
+      "period_departure_pct": -70.0,
+      "period_category": "LD",
+      "scraped_at": "2026-08-22T06:40:55"
     }
   ]
 }

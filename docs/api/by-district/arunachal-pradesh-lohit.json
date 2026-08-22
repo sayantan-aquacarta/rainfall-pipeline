@@ -1,7 +1,7 @@
 {
   "state": "ARUNACHAL PRADESH",
   "district": "LOHIT",
-  "row_count": 101,
+  "row_count": 102,
   "rows": [
     {
       "date": "2026-04-17",
@@ -1820,6 +1820,24 @@
       "period_departure_pct": -36.0,
       "period_category": "D",
       "scraped_at": "2026-08-21T06:48:34"
+    },
+    {
+      "date": "2026-08-21",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-21",
+      "level": "district",
+      "subdivision": "ARUNACHAL PRADESH",
+      "state": "ARUNACHAL PRADESH",
+      "district": "LOHIT",
+      "day_actual_mm": 0.1,
+      "day_normal_mm": 11.4,
+      "day_departure_pct": -99.0,
+      "day_category": "LD",
+      "period_actual_mm": 738.2,
+      "period_normal_mm": 1164.4,
+      "period_departure_pct": -37.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-22T06:40:55"
     }
   ]
 }
