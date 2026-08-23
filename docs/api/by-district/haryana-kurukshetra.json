@@ -1,7 +1,7 @@
 {
   "state": "HARYANA",
   "district": "KURUKSHETRA",
-  "row_count": 154,
+  "row_count": 155,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2774,6 +2774,24 @@
       "period_departure_pct": 18.0,
       "period_category": "N",
       "scraped_at": "2026-08-22T06:40:55"
+    },
+    {
+      "date": "2026-08-22",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-22",
+      "level": "district",
+      "subdivision": "HAR. CHD & DELHI",
+      "state": "HARYANA",
+      "district": "KURUKSHETRA",
+      "day_actual_mm": 0.6,
+      "day_normal_mm": 4.3,
+      "day_departure_pct": -87.0,
+      "day_category": "LD",
+      "period_actual_mm": 344.4,
+      "period_normal_mm": 294.8,
+      "period_departure_pct": 17.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-23T06:41:59"
     }
   ]
 }

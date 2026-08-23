@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "ETAH",
-  "row_count": 108,
+  "row_count": 109,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1946,6 +1946,24 @@
       "period_departure_pct": 44.0,
       "period_category": "E",
       "scraped_at": "2026-08-22T06:40:55"
+    },
+    {
+      "date": "2026-08-22",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-22",
+      "level": "district",
+      "subdivision": "WEST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "ETAH",
+      "day_actual_mm": 2.7,
+      "day_normal_mm": 4.6,
+      "day_departure_pct": -42.0,
+      "day_category": "D",
+      "period_actual_mm": 510.5,
+      "period_normal_mm": 357.4,
+      "period_departure_pct": 43.0,
+      "period_category": "E",
+      "scraped_at": "2026-08-23T06:41:59"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "ODISHA",
   "district": "CUTTACK",
-  "row_count": 108,
+  "row_count": 109,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1946,6 +1946,24 @@
       "period_departure_pct": 44.0,
       "period_category": "E",
       "scraped_at": "2026-08-22T06:40:55"
+    },
+    {
+      "date": "2026-08-22",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-22",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "CUTTACK",
+      "day_actual_mm": 3.2,
+      "day_normal_mm": 9.8,
+      "day_departure_pct": -68.0,
+      "day_category": "LD",
+      "period_actual_mm": 1150.3,
+      "period_normal_mm": 806.0,
+      "period_departure_pct": 43.0,
+      "period_category": "E",
+      "scraped_at": "2026-08-23T06:41:59"
     }
   ]
 }

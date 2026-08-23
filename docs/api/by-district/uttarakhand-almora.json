@@ -1,7 +1,7 @@
 {
   "state": "UTTARAKHAND",
   "district": "ALMORA",
-  "row_count": 108,
+  "row_count": 109,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1946,6 +1946,24 @@
       "period_departure_pct": 9.0,
       "period_category": "N",
       "scraped_at": "2026-08-22T06:40:55"
+    },
+    {
+      "date": "2026-08-22",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-22",
+      "level": "district",
+      "subdivision": "UTTARAKHAND",
+      "state": "UTTARAKHAND",
+      "district": "ALMORA",
+      "day_actual_mm": 0.7,
+      "day_normal_mm": 5.4,
+      "day_departure_pct": -86.0,
+      "day_category": "LD",
+      "period_actual_mm": 660.2,
+      "period_normal_mm": 610.7,
+      "period_departure_pct": 8.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-23T06:41:59"
     }
   ]
 }

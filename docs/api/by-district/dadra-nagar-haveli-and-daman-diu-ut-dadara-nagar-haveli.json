@@ -1,7 +1,7 @@
 {
   "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
   "district": "DADARA & NAGAR HAVELI",
-  "row_count": 114,
+  "row_count": 115,
   "rows": [
     {
       "date": "2026-06-01",
@@ -2054,6 +2054,24 @@
       "period_departure_pct": 62.0,
       "period_category": "LE",
       "scraped_at": "2026-08-22T06:40:55"
+    },
+    {
+      "date": "2026-08-22",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-22",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
+      "district": "DADARA & NAGAR HAVELI",
+      "day_actual_mm": 15.5,
+      "day_normal_mm": 11.3,
+      "day_departure_pct": 37.0,
+      "day_category": "E",
+      "period_actual_mm": 2865.3,
+      "period_normal_mm": 1774.8,
+      "period_departure_pct": 61.0,
+      "period_category": "LE",
+      "scraped_at": "2026-08-23T06:41:59"
     }
   ]
 }
