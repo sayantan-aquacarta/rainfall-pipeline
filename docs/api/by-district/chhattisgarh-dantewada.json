@@ -1,7 +1,7 @@
 {
   "state": "CHHATTISGARH",
   "district": "DANTEWADA",
-  "row_count": 109,
+  "row_count": 110,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1964,6 +1964,24 @@
       "period_departure_pct": -21.0,
       "period_category": "D",
       "scraped_at": "2026-08-23T06:41:59"
+    },
+    {
+      "date": "2026-08-23",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-23",
+      "level": "district",
+      "subdivision": "CHHATTISGARH",
+      "state": "CHHATTISGARH",
+      "district": "DANTEWADA",
+      "day_actual_mm": 25.3,
+      "day_normal_mm": 17.5,
+      "day_departure_pct": 45.0,
+      "day_category": "E",
+      "period_actual_mm": 772.1,
+      "period_normal_mm": 965.0,
+      "period_departure_pct": -20.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-24T06:59:36"
     }
   ]
 }

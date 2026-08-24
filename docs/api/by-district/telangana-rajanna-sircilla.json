@@ -1,7 +1,7 @@
 {
   "state": "TELANGANA",
   "district": "RAJANNA SIRCILLA",
-  "row_count": 108,
+  "row_count": 109,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1946,6 +1946,24 @@
       "period_departure_pct": 2.0,
       "period_category": "N",
       "scraped_at": "2026-08-23T06:41:59"
+    },
+    {
+      "date": "2026-08-23",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-23",
+      "level": "district",
+      "subdivision": "TELANGANA",
+      "state": "TELANGANA",
+      "district": "RAJANNA SIRCILLA",
+      "day_actual_mm": 19.8,
+      "day_normal_mm": 7.7,
+      "day_departure_pct": 158.0,
+      "day_category": "LE",
+      "period_actual_mm": 518.5,
+      "period_normal_mm": 496.0,
+      "period_departure_pct": 5.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-24T06:59:36"
     }
   ]
 }

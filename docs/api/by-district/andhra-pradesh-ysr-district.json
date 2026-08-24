@@ -1,7 +1,7 @@
 {
   "state": "ANDHRA PRADESH",
   "district": "YSR DISTRICT",
-  "row_count": 125,
+  "row_count": 126,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2252,6 +2252,24 @@
       "period_departure_pct": -44.0,
       "period_category": "D",
       "scraped_at": "2026-08-23T06:41:59"
+    },
+    {
+      "date": "2026-08-23",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-23",
+      "level": "district",
+      "subdivision": "RAYALASEEMA",
+      "state": "ANDHRA PRADESH",
+      "district": "YSR DISTRICT",
+      "day_actual_mm": 3.1,
+      "day_normal_mm": 5.4,
+      "day_departure_pct": -44.0,
+      "day_category": "D",
+      "period_actual_mm": 135.4,
+      "period_normal_mm": 242.8,
+      "period_departure_pct": -44.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-24T06:59:36"
     }
   ]
 }

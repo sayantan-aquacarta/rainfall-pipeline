@@ -1,7 +1,7 @@
 {
   "state": "JHARKHAND",
   "district": "EAST SINGHBHUM",
-  "row_count": 69,
+  "row_count": 70,
   "rows": [
     {
       "date": "2026-06-01",
@@ -1244,6 +1244,24 @@
       "period_departure_pct": -7.0,
       "period_category": "N",
       "scraped_at": "2026-08-23T06:41:59"
+    },
+    {
+      "date": "2026-08-23",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-23",
+      "level": "district",
+      "subdivision": "JHARKHAND",
+      "state": "JHARKHAND",
+      "district": "EAST SINGHBHUM",
+      "day_actual_mm": 0.1,
+      "day_normal_mm": 7.4,
+      "day_departure_pct": -99.0,
+      "day_category": "LD",
+      "period_actual_mm": 731.6,
+      "period_normal_mm": 792.5,
+      "period_departure_pct": -8.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-24T06:59:36"
     }
   ]
 }
