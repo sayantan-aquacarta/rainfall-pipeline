@@ -1,7 +1,7 @@
 {
   "state": "GUJARAT",
   "district": "TAPI",
-  "row_count": 156,
+  "row_count": 157,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2810,6 +2810,24 @@
       "period_departure_pct": 20.0,
       "period_category": "E",
       "scraped_at": "2026-08-24T06:59:36"
+    },
+    {
+      "date": "2026-08-24",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-24",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "TAPI",
+      "day_actual_mm": 1.3,
+      "day_normal_mm": 14.2,
+      "day_departure_pct": -91.0,
+      "day_category": "LD",
+      "period_actual_mm": 1297.1,
+      "period_normal_mm": 1096.7,
+      "period_departure_pct": 18.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-25T06:49:41"
     }
   ]
 }

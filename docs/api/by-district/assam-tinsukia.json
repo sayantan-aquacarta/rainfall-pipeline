@@ -1,7 +1,7 @@
 {
   "state": "ASSAM",
   "district": "TINSUKIA",
-  "row_count": 151,
+  "row_count": 152,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2720,6 +2720,24 @@
       "period_departure_pct": -1.0,
       "period_category": "N",
       "scraped_at": "2026-08-24T06:59:36"
+    },
+    {
+      "date": "2026-08-24",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-24",
+      "level": "district",
+      "subdivision": "ASSAM & MEGHALAYA",
+      "state": "ASSAM",
+      "district": "TINSUKIA",
+      "day_actual_mm": 49.1,
+      "day_normal_mm": 12.3,
+      "day_departure_pct": 299.0,
+      "day_category": "LE",
+      "period_actual_mm": 1113.6,
+      "period_normal_mm": 1089.7,
+      "period_departure_pct": 2.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-25T06:49:41"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "PUDUCHERRY (UT)",
   "district": "MAHE",
-  "row_count": 141,
+  "row_count": 142,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2540,6 +2540,24 @@
       "period_departure_pct": -21.0,
       "period_category": "D",
       "scraped_at": "2026-08-22T06:40:55"
+    },
+    {
+      "date": "2026-08-24",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-24",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "PUDUCHERRY (UT)",
+      "district": "MAHE",
+      "day_actual_mm": 19.6,
+      "day_normal_mm": 10.9,
+      "day_departure_pct": 80.0,
+      "day_category": "LE",
+      "period_actual_mm": 1619.4,
+      "period_normal_mm": 2052.0,
+      "period_departure_pct": -21.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-25T06:49:41"
     }
   ]
 }

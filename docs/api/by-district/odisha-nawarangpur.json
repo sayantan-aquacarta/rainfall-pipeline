@@ -1,7 +1,7 @@
 {
   "state": "ODISHA",
   "district": "NAWARANGPUR",
-  "row_count": 110,
+  "row_count": 111,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1982,6 +1982,24 @@
       "period_departure_pct": -22.0,
       "period_category": "D",
       "scraped_at": "2026-08-24T06:59:36"
+    },
+    {
+      "date": "2026-08-24",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-24",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "NAWARANGPUR",
+      "day_actual_mm": 72.4,
+      "day_normal_mm": 7.4,
+      "day_departure_pct": 879.0,
+      "day_category": "LE",
+      "period_actual_mm": 852.6,
+      "period_normal_mm": 1002.2,
+      "period_departure_pct": -15.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-25T06:49:41"
     }
   ]
 }

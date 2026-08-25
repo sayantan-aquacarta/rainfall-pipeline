@@ -1,7 +1,7 @@
 {
   "state": "MAHARASHTRA",
   "district": "THANE",
-  "row_count": 156,
+  "row_count": 157,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2810,6 +2810,24 @@
       "period_departure_pct": 1.0,
       "period_category": "N",
       "scraped_at": "2026-08-24T06:59:36"
+    },
+    {
+      "date": "2026-08-24",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-24",
+      "level": "district",
+      "subdivision": "KONKAN & GOA",
+      "state": "MAHARASHTRA",
+      "district": "THANE",
+      "day_actual_mm": 2.2,
+      "day_normal_mm": 17.3,
+      "day_departure_pct": -88.0,
+      "day_category": "LD",
+      "period_actual_mm": 1967.6,
+      "period_normal_mm": 1958.7,
+      "period_departure_pct": 0.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-25T06:49:41"
     }
   ]
 }

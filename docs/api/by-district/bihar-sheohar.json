@@ -1,7 +1,7 @@
 {
   "state": "BIHAR",
   "district": "SHEOHAR",
-  "row_count": 110,
+  "row_count": 111,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1982,6 +1982,24 @@
       "period_departure_pct": -57.0,
       "period_category": "D",
       "scraped_at": "2026-08-24T06:59:36"
+    },
+    {
+      "date": "2026-08-24",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-24",
+      "level": "district",
+      "subdivision": "BIHAR",
+      "state": "BIHAR",
+      "district": "SHEOHAR",
+      "day_actual_mm": 1.5,
+      "day_normal_mm": 14.1,
+      "day_departure_pct": -89.0,
+      "day_category": "LD",
+      "period_actual_mm": 309.8,
+      "period_normal_mm": 729.9,
+      "period_departure_pct": -58.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-25T06:49:41"
     }
   ]
 }

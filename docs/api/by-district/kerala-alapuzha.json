@@ -1,7 +1,7 @@
 {
   "state": "KERALA",
   "district": "ALAPUZHA",
-  "row_count": 156,
+  "row_count": 157,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2810,6 +2810,24 @@
       "period_departure_pct": -26.0,
       "period_category": "D",
       "scraped_at": "2026-08-24T06:59:36"
+    },
+    {
+      "date": "2026-08-24",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-24",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "ALAPUZHA",
+      "day_actual_mm": 12.1,
+      "day_normal_mm": 8.5,
+      "day_departure_pct": 43.0,
+      "day_category": "E",
+      "period_actual_mm": 972.4,
+      "period_normal_mm": 1306.1,
+      "period_departure_pct": -26.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-25T06:49:41"
     }
   ]
 }

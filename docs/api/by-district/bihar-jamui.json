@@ -1,7 +1,7 @@
 {
   "state": "BIHAR",
   "district": "JAMUI",
-  "row_count": 110,
+  "row_count": 111,
   "rows": [
     {
       "date": "2026-04-13",
@@ -1982,6 +1982,24 @@
       "period_departure_pct": -55.0,
       "period_category": "D",
       "scraped_at": "2026-08-24T06:59:36"
+    },
+    {
+      "date": "2026-08-24",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-24",
+      "level": "district",
+      "subdivision": "BIHAR",
+      "state": "BIHAR",
+      "district": "JAMUI",
+      "day_actual_mm": 14.7,
+      "day_normal_mm": 7.9,
+      "day_departure_pct": 86.0,
+      "day_category": "LE",
+      "period_actual_mm": 309.2,
+      "period_normal_mm": 660.9,
+      "period_departure_pct": -53.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-25T06:49:41"
     }
   ]
 }

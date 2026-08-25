@@ -1,7 +1,7 @@
 {
   "state": "CHHATTISGARH",
   "district": "KHAIRAGARH CHH GANDAI",
-  "row_count": 70,
+  "row_count": 71,
   "rows": [
     {
       "date": "2026-06-01",
@@ -1262,6 +1262,24 @@
       "period_departure_pct": 1.0,
       "period_category": "N",
       "scraped_at": "2026-08-24T06:59:36"
+    },
+    {
+      "date": "2026-08-24",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-24",
+      "level": "district",
+      "subdivision": "CHHATTISGARH",
+      "state": "CHHATTISGARH",
+      "district": "KHAIRAGARH CHH GANDAI",
+      "day_actual_mm": 16.7,
+      "day_normal_mm": 6.1,
+      "day_departure_pct": 173.0,
+      "day_category": "LE",
+      "period_actual_mm": 567.7,
+      "period_normal_mm": 549.5,
+      "period_departure_pct": 3.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-25T06:49:41"
     }
   ]
 }

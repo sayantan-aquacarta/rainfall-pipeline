@@ -1,7 +1,7 @@
 {
   "state": "WEST BENGAL",
   "district": "KALIMPONG",
-  "row_count": 156,
+  "row_count": 157,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2810,6 +2810,24 @@
       "period_departure_pct": -20.0,
       "period_category": "D",
       "scraped_at": "2026-08-24T06:59:36"
+    },
+    {
+      "date": "2026-08-24",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-24",
+      "level": "district",
+      "subdivision": "SHWB & SIKKIM",
+      "state": "WEST BENGAL",
+      "district": "KALIMPONG",
+      "day_actual_mm": 6.1,
+      "day_normal_mm": 21.5,
+      "day_departure_pct": -71.0,
+      "day_category": "LD",
+      "period_actual_mm": 1447.8,
+      "period_normal_mm": 1826.5,
+      "period_departure_pct": -21.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-25T06:49:41"
     }
   ]
 }

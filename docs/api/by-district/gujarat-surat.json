@@ -1,7 +1,7 @@
 {
   "state": "GUJARAT",
   "district": "SURAT",
-  "row_count": 156,
+  "row_count": 157,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2810,6 +2810,24 @@
       "period_departure_pct": 46.0,
       "period_category": "E",
       "scraped_at": "2026-08-24T06:59:36"
+    },
+    {
+      "date": "2026-08-24",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-24",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "SURAT",
+      "day_actual_mm": 0.4,
+      "day_normal_mm": 9.8,
+      "day_departure_pct": -96.0,
+      "day_category": "LD",
+      "period_actual_mm": 1460.0,
+      "period_normal_mm": 1011.9,
+      "period_departure_pct": 44.0,
+      "period_category": "E",
+      "scraped_at": "2026-08-25T06:49:41"
     }
   ]
 }
