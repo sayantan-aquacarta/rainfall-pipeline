@@ -1,7 +1,7 @@
 {
   "state": "MAHARASHTRA",
   "district": "MUMBAI SUBURBAN",
-  "row_count": 157,
+  "row_count": 158,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2828,6 +2828,24 @@
       "period_departure_pct": 21.0,
       "period_category": "E",
       "scraped_at": "2026-08-25T06:49:41"
+    },
+    {
+      "date": "2026-08-25",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-25",
+      "level": "district",
+      "subdivision": "KONKAN & GOA",
+      "state": "MAHARASHTRA",
+      "district": "MUMBAI SUBURBAN",
+      "day_actual_mm": 1.9,
+      "day_normal_mm": 13.3,
+      "day_departure_pct": -86.0,
+      "day_category": "LD",
+      "period_actual_mm": 2216.1,
+      "period_normal_mm": 1848.1,
+      "period_departure_pct": 20.0,
+      "period_category": "E",
+      "scraped_at": "2026-08-26T06:51:02"
     }
   ]
 }

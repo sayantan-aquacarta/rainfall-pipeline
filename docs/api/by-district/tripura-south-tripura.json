@@ -1,7 +1,7 @@
 {
   "state": "TRIPURA",
   "district": "SOUTH TRIPURA",
-  "row_count": 157,
+  "row_count": 158,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2828,6 +2828,24 @@
       "period_departure_pct": -33.0,
       "period_category": "D",
       "scraped_at": "2026-08-25T06:49:41"
+    },
+    {
+      "date": "2026-08-25",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-25",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "TRIPURA",
+      "district": "SOUTH TRIPURA",
+      "day_actual_mm": 14.3,
+      "day_normal_mm": 10.6,
+      "day_departure_pct": 35.0,
+      "day_category": "E",
+      "period_actual_mm": 906.5,
+      "period_normal_mm": 1339.1,
+      "period_departure_pct": -32.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-26T06:51:02"
     }
   ]
 }

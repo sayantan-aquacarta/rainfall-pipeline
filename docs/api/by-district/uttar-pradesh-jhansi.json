@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "JHANSI",
-  "row_count": 111,
+  "row_count": 112,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2000,6 +2000,24 @@
       "period_departure_pct": -37.0,
       "period_category": "D",
       "scraped_at": "2026-08-25T06:49:41"
+    },
+    {
+      "date": "2026-08-25",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-25",
+      "level": "district",
+      "subdivision": "WEST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "JHANSI",
+      "day_actual_mm": 7.4,
+      "day_normal_mm": 6.2,
+      "day_departure_pct": 19.0,
+      "day_category": "N",
+      "period_actual_mm": 344.8,
+      "period_normal_mm": 540.8,
+      "period_departure_pct": -36.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-26T06:51:02"
     }
   ]
 }

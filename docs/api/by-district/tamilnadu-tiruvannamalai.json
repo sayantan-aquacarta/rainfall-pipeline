@@ -1,7 +1,7 @@
 {
   "state": "TAMILNADU",
   "district": "TIRUVANNAMALAI",
-  "row_count": 157,
+  "row_count": 158,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2828,6 +2828,24 @@
       "period_departure_pct": -46.0,
       "period_category": "D",
       "scraped_at": "2026-08-25T06:49:41"
+    },
+    {
+      "date": "2026-08-25",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-25",
+      "level": "district",
+      "subdivision": "TAMIL. PUDU.& KARAIKAL",
+      "state": "TAMILNADU",
+      "district": "TIRUVANNAMALAI",
+      "day_actual_mm": 5.7,
+      "day_normal_mm": 4.0,
+      "day_departure_pct": 42.0,
+      "day_category": "E",
+      "period_actual_mm": 147.8,
+      "period_normal_mm": 266.1,
+      "period_departure_pct": -44.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-26T06:51:02"
     }
   ]
 }

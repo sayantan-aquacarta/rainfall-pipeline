@@ -1,7 +1,7 @@
 {
   "state": "CHHATTISGARH",
   "district": "BALODA BAZAR",
-  "row_count": 111,
+  "row_count": 112,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2000,6 +2000,24 @@
       "period_departure_pct": 23.0,
       "period_category": "E",
       "scraped_at": "2026-08-25T06:49:41"
+    },
+    {
+      "date": "2026-08-25",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-25",
+      "level": "district",
+      "subdivision": "CHHATTISGARH",
+      "state": "CHHATTISGARH",
+      "district": "BALODA BAZAR",
+      "day_actual_mm": 26.7,
+      "day_normal_mm": 4.3,
+      "day_departure_pct": 521.0,
+      "day_category": "LE",
+      "period_actual_mm": 891.0,
+      "period_normal_mm": 709.0,
+      "period_departure_pct": 26.0,
+      "period_category": "E",
+      "scraped_at": "2026-08-26T06:51:02"
     }
   ]
 }

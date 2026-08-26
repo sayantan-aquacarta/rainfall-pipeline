@@ -1,7 +1,7 @@
 {
   "state": "HARYANA",
   "district": "YAMUNA NAGAR",
-  "row_count": 156,
+  "row_count": 157,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2810,6 +2810,24 @@
       "period_departure_pct": -7.0,
       "period_category": "N",
       "scraped_at": "2026-08-25T06:49:41"
+    },
+    {
+      "date": "2026-08-25",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-25",
+      "level": "district",
+      "subdivision": "HAR. CHD & DELHI",
+      "state": "HARYANA",
+      "district": "YAMUNA NAGAR",
+      "day_actual_mm": 11.3,
+      "day_normal_mm": 7.1,
+      "day_departure_pct": 60.0,
+      "day_category": "LE",
+      "period_actual_mm": 663.0,
+      "period_normal_mm": 709.6,
+      "period_departure_pct": -7.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-26T06:51:02"
     }
   ]
 }
