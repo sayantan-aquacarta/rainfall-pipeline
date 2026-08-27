@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "PRATAPGARH",
-  "row_count": 112,
+  "row_count": 113,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2018,6 +2018,24 @@
       "period_departure_pct": 5.0,
       "period_category": "N",
       "scraped_at": "2026-08-26T06:51:02"
+    },
+    {
+      "date": "2026-08-27",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-27",
+      "level": "district",
+      "subdivision": "EAST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "PRATAPGARH",
+      "day_actual_mm": 1.0,
+      "day_normal_mm": 4.2,
+      "day_departure_pct": -76.0,
+      "day_category": "LD",
+      "period_actual_mm": 628.8,
+      "period_normal_mm": 576.4,
+      "period_departure_pct": 9.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-27T17:24:45"
     }
   ]
 }

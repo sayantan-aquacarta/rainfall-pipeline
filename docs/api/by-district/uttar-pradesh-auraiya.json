@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "AURAIYA",
-  "row_count": 112,
+  "row_count": 113,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2018,6 +2018,24 @@
       "period_departure_pct": 6.0,
       "period_category": "N",
       "scraped_at": "2026-08-26T06:51:02"
+    },
+    {
+      "date": "2026-08-27",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-27",
+      "level": "district",
+      "subdivision": "WEST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "AURAIYA",
+      "day_actual_mm": 28.3,
+      "day_normal_mm": 4.4,
+      "day_departure_pct": 543.0,
+      "day_category": "LE",
+      "period_actual_mm": 458.7,
+      "period_normal_mm": 392.1,
+      "period_departure_pct": 17.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-27T17:24:45"
     }
   ]
 }

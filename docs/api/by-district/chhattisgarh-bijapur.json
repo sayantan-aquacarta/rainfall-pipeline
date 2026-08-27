@@ -1,7 +1,7 @@
 {
   "state": "CHHATTISGARH",
   "district": "BIJAPUR",
-  "row_count": 112,
+  "row_count": 113,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2018,6 +2018,24 @@
       "period_departure_pct": 8.0,
       "period_category": "N",
       "scraped_at": "2026-08-26T06:51:02"
+    },
+    {
+      "date": "2026-08-27",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-27",
+      "level": "district",
+      "subdivision": "CHHATTISGARH",
+      "state": "CHHATTISGARH",
+      "district": "BIJAPUR",
+      "day_actual_mm": 45.8,
+      "day_normal_mm": 11.8,
+      "day_departure_pct": 288.0,
+      "day_category": "LE",
+      "period_actual_mm": 1209.8,
+      "period_normal_mm": 1087.1,
+      "period_departure_pct": 11.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-27T17:24:45"
     }
   ]
 }

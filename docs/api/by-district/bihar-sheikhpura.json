@@ -1,7 +1,7 @@
 {
   "state": "BIHAR",
   "district": "SHEIKHPURA",
-  "row_count": 112,
+  "row_count": 113,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2018,6 +2018,24 @@
       "period_departure_pct": -43.0,
       "period_category": "D",
       "scraped_at": "2026-08-26T06:51:02"
+    },
+    {
+      "date": "2026-08-27",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-27",
+      "level": "district",
+      "subdivision": "BIHAR",
+      "state": "BIHAR",
+      "district": "SHEIKHPURA",
+      "day_actual_mm": 13.3,
+      "day_normal_mm": 7.8,
+      "day_departure_pct": 71.0,
+      "day_category": "LE",
+      "period_actual_mm": 361.5,
+      "period_normal_mm": 614.4,
+      "period_departure_pct": -41.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-27T17:24:45"
     }
   ]
 }

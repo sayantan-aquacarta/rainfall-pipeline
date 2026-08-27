@@ -1,7 +1,7 @@
 {
   "state": "HARYANA",
   "district": "AMBALA",
-  "row_count": 158,
+  "row_count": 159,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2846,6 +2846,24 @@
       "period_departure_pct": -49.0,
       "period_category": "D",
       "scraped_at": "2026-08-26T06:51:02"
+    },
+    {
+      "date": "2026-08-27",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-27",
+      "level": "district",
+      "subdivision": "HAR. CHD & DELHI",
+      "state": "HARYANA",
+      "district": "AMBALA",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 6.4,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 327.2,
+      "period_normal_mm": 648.2,
+      "period_departure_pct": -50.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-27T17:24:45"
     }
   ]
 }

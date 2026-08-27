@@ -1,7 +1,7 @@
 {
   "state": "TELANGANA",
   "district": "NIZAMABAD",
-  "row_count": 112,
+  "row_count": 113,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2018,6 +2018,24 @@
       "period_departure_pct": -5.0,
       "period_category": "N",
       "scraped_at": "2026-08-26T06:51:02"
+    },
+    {
+      "date": "2026-08-27",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-27",
+      "level": "district",
+      "subdivision": "TELANGANA",
+      "state": "TELANGANA",
+      "district": "NIZAMABAD",
+      "day_actual_mm": 0.6,
+      "day_normal_mm": 8.6,
+      "day_departure_pct": -93.0,
+      "day_category": "LD",
+      "period_actual_mm": 601.8,
+      "period_normal_mm": 640.4,
+      "period_departure_pct": -6.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-27T17:24:45"
     }
   ]
 }

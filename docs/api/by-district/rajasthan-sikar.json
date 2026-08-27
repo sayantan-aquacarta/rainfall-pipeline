@@ -1,7 +1,7 @@
 {
   "state": "RAJASTHAN",
   "district": "SIKAR",
-  "row_count": 112,
+  "row_count": 113,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2018,6 +2018,24 @@
       "period_departure_pct": -5.0,
       "period_category": "N",
       "scraped_at": "2026-08-26T06:51:02"
+    },
+    {
+      "date": "2026-08-27",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-27",
+      "level": "district",
+      "subdivision": "EAST RAJASTHAN",
+      "state": "RAJASTHAN",
+      "district": "SIKAR",
+      "day_actual_mm": 2.9,
+      "day_normal_mm": 3.2,
+      "day_departure_pct": -10.0,
+      "day_category": "N",
+      "period_actual_mm": 330.7,
+      "period_normal_mm": 348.3,
+      "period_departure_pct": -5.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-27T17:24:45"
     }
   ]
 }

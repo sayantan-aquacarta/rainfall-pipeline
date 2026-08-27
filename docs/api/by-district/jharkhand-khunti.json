@@ -1,7 +1,7 @@
 {
   "state": "JHARKHAND",
   "district": "KHUNTI",
-  "row_count": 112,
+  "row_count": 113,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2018,6 +2018,24 @@
       "period_departure_pct": 3.0,
       "period_category": "N",
       "scraped_at": "2026-08-26T06:51:02"
+    },
+    {
+      "date": "2026-08-27",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-27",
+      "level": "district",
+      "subdivision": "JHARKHAND",
+      "state": "JHARKHAND",
+      "district": "KHUNTI",
+      "day_actual_mm": 3.2,
+      "day_normal_mm": 12.4,
+      "day_departure_pct": -74.0,
+      "day_category": "LD",
+      "period_actual_mm": 843.4,
+      "period_normal_mm": 837.4,
+      "period_departure_pct": 1.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-27T17:24:45"
     }
   ]
 }
