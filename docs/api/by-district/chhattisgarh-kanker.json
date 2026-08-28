@@ -1,7 +1,7 @@
 {
   "state": "CHHATTISGARH",
   "district": "KANKER",
-  "row_count": 113,
+  "row_count": 114,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2036,6 +2036,24 @@
       "period_departure_pct": -37.0,
       "period_category": "D",
       "scraped_at": "2026-08-27T17:24:45"
+    },
+    {
+      "date": "2026-08-28",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-28",
+      "level": "district",
+      "subdivision": "CHHATTISGARH",
+      "state": "CHHATTISGARH",
+      "district": "KANKER",
+      "day_actual_mm": 6.2,
+      "day_normal_mm": 17.2,
+      "day_departure_pct": -64.0,
+      "day_category": "LD",
+      "period_actual_mm": 661.0,
+      "period_normal_mm": 1063.9,
+      "period_departure_pct": -38.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-28T18:18:01"
     }
   ]
 }

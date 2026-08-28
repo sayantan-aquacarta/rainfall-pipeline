@@ -1,7 +1,7 @@
 {
   "state": "WEST BENGAL",
   "district": "COOCH BEHAR",
-  "row_count": 159,
+  "row_count": 160,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2864,6 +2864,24 @@
       "period_departure_pct": -8.0,
       "period_category": "N",
       "scraped_at": "2026-08-27T17:24:45"
+    },
+    {
+      "date": "2026-08-28",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-28",
+      "level": "district",
+      "subdivision": "SHWB & SIKKIM",
+      "state": "WEST BENGAL",
+      "district": "COOCH BEHAR",
+      "day_actual_mm": 1.6,
+      "day_normal_mm": 13.7,
+      "day_departure_pct": -89.0,
+      "day_category": "LD",
+      "period_actual_mm": 1685.0,
+      "period_normal_mm": 1839.4,
+      "period_departure_pct": -8.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-28T18:18:01"
     }
   ]
 }

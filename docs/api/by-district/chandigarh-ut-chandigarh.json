@@ -1,7 +1,7 @@
 {
   "state": "CHANDIGARH (UT)",
   "district": "CHANDIGARH",
-  "row_count": 118,
+  "row_count": 119,
   "rows": [
     {
       "date": "2026-06-01",
@@ -2126,6 +2126,24 @@
       "period_departure_pct": -14.0,
       "period_category": "N",
       "scraped_at": "2026-08-27T17:24:45"
+    },
+    {
+      "date": "2026-08-28",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-28",
+      "level": "district",
+      "subdivision": "HAR. CHD & DELHI",
+      "state": "CHANDIGARH (UT)",
+      "district": "CHANDIGARH",
+      "day_actual_mm": 0.1,
+      "day_normal_mm": 9.7,
+      "day_departure_pct": -99.0,
+      "day_category": "LD",
+      "period_actual_mm": 596.3,
+      "period_normal_mm": 699.2,
+      "period_departure_pct": -15.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-28T18:18:01"
     }
   ]
 }

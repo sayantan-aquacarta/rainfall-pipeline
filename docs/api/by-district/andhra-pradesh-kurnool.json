@@ -1,7 +1,7 @@
 {
   "state": "ANDHRA PRADESH",
   "district": "KURNOOL",
-  "row_count": 129,
+  "row_count": 130,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2324,6 +2324,24 @@
       "period_departure_pct": -29.0,
       "period_category": "D",
       "scraped_at": "2026-08-27T17:24:45"
+    },
+    {
+      "date": "2026-08-28",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-28",
+      "level": "district",
+      "subdivision": "RAYALASEEMA",
+      "state": "ANDHRA PRADESH",
+      "district": "KURNOOL",
+      "day_actual_mm": 0.3,
+      "day_normal_mm": 3.9,
+      "day_departure_pct": -92.0,
+      "day_category": "LD",
+      "period_actual_mm": 202.0,
+      "period_normal_mm": 286.0,
+      "period_departure_pct": -29.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-28T18:18:01"
     }
   ]
 }

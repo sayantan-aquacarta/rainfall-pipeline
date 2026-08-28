@@ -1,7 +1,7 @@
 {
   "state": "PUNJAB",
   "district": "SBS NAGAR",
-  "row_count": 113,
+  "row_count": 114,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2036,6 +2036,24 @@
       "period_departure_pct": -48.0,
       "period_category": "D",
       "scraped_at": "2026-08-27T17:24:45"
+    },
+    {
+      "date": "2026-08-28",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-28",
+      "level": "district",
+      "subdivision": "PUNJAB",
+      "state": "PUNJAB",
+      "district": "SBS NAGAR",
+      "day_actual_mm": 0.3,
+      "day_normal_mm": 6.8,
+      "day_departure_pct": -96.0,
+      "day_category": "LD",
+      "period_actual_mm": 314.0,
+      "period_normal_mm": 604.5,
+      "period_departure_pct": -48.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-28T18:18:01"
     }
   ]
 }

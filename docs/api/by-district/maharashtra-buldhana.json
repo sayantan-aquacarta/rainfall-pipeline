@@ -1,7 +1,7 @@
 {
   "state": "MAHARASHTRA",
   "district": "BULDHANA",
-  "row_count": 113,
+  "row_count": 114,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2036,6 +2036,24 @@
       "period_departure_pct": -9.0,
       "period_category": "N",
       "scraped_at": "2026-08-27T17:24:45"
+    },
+    {
+      "date": "2026-08-28",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-28",
+      "level": "district",
+      "subdivision": "VIDARBHA",
+      "state": "MAHARASHTRA",
+      "district": "BULDHANA",
+      "day_actual_mm": 0.2,
+      "day_normal_mm": 4.1,
+      "day_departure_pct": -94.0,
+      "day_category": "LD",
+      "period_actual_mm": 454.9,
+      "period_normal_mm": 506.1,
+      "period_departure_pct": -10.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-28T18:18:01"
     }
   ]
 }
