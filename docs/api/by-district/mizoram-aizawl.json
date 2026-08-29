@@ -1,7 +1,7 @@
 {
   "state": "MIZORAM",
   "district": "AIZAWL",
-  "row_count": 118,
+  "row_count": 119,
   "rows": [
     {
       "date": "2026-06-01",
@@ -2126,6 +2126,24 @@
       "period_departure_pct": -17.0,
       "period_category": "N",
       "scraped_at": "2026-08-28T18:18:01"
+    },
+    {
+      "date": "2026-08-29",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-29",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "MIZORAM",
+      "district": "AIZAWL",
+      "day_actual_mm": 18.0,
+      "day_normal_mm": 10.8,
+      "day_departure_pct": 67.0,
+      "day_category": "LE",
+      "period_actual_mm": 1025.2,
+      "period_normal_mm": 1223.0,
+      "period_departure_pct": -16.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-29T12:26:22"
     }
   ]
 }

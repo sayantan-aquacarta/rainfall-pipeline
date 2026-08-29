@@ -1,7 +1,7 @@
 {
   "state": "GUJARAT",
   "district": "BHARUCH",
-  "row_count": 160,
+  "row_count": 161,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2882,6 +2882,24 @@
       "period_departure_pct": 29.0,
       "period_category": "E",
       "scraped_at": "2026-08-28T18:18:01"
+    },
+    {
+      "date": "2026-08-29",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-29",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "BHARUCH",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 9.2,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 747.1,
+      "period_normal_mm": 589.1,
+      "period_departure_pct": 27.0,
+      "period_category": "E",
+      "scraped_at": "2026-08-29T12:26:22"
     }
   ]
 }

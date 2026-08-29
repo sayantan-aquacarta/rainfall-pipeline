@@ -1,7 +1,7 @@
 {
   "state": "WEST BENGAL",
   "district": "BIRBHUM",
-  "row_count": 114,
+  "row_count": 115,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2054,6 +2054,24 @@
       "period_departure_pct": -21.0,
       "period_category": "D",
       "scraped_at": "2026-08-28T18:18:01"
+    },
+    {
+      "date": "2026-08-29",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-29",
+      "level": "district",
+      "subdivision": "GANGETIC WEST BENGAL",
+      "state": "WEST BENGAL",
+      "district": "BIRBHUM",
+      "day_actual_mm": 0.8,
+      "day_normal_mm": 7.7,
+      "day_departure_pct": -90.0,
+      "day_category": "LD",
+      "period_actual_mm": 670.5,
+      "period_normal_mm": 851.8,
+      "period_departure_pct": -21.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-29T12:26:22"
     }
   ]
 }

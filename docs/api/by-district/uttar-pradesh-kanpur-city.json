@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "KANPUR CITY",
-  "row_count": 114,
+  "row_count": 115,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2054,6 +2054,24 @@
       "period_departure_pct": 39.0,
       "period_category": "E",
       "scraped_at": "2026-08-28T18:18:01"
+    },
+    {
+      "date": "2026-08-29",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-29",
+      "level": "district",
+      "subdivision": "EAST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "KANPUR CITY",
+      "day_actual_mm": 15.8,
+      "day_normal_mm": 3.4,
+      "day_departure_pct": 364.0,
+      "day_category": "LE",
+      "period_actual_mm": 688.7,
+      "period_normal_mm": 486.7,
+      "period_departure_pct": 42.0,
+      "period_category": "E",
+      "scraped_at": "2026-08-29T12:26:22"
     }
   ]
 }

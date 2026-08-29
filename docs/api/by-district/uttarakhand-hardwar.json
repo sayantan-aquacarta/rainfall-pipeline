@@ -1,7 +1,7 @@
 {
   "state": "UTTARAKHAND",
   "district": "HARDWAR",
-  "row_count": 113,
+  "row_count": 114,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2036,6 +2036,24 @@
       "period_departure_pct": 17.0,
       "period_category": "N",
       "scraped_at": "2026-08-28T18:18:01"
+    },
+    {
+      "date": "2026-08-29",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-29",
+      "level": "district",
+      "subdivision": "UTTARAKHAND",
+      "state": "UTTARAKHAND",
+      "district": "HARDWAR",
+      "day_actual_mm": 4.6,
+      "day_normal_mm": 7.4,
+      "day_departure_pct": -38.0,
+      "day_category": "D",
+      "period_actual_mm": 944.9,
+      "period_normal_mm": 808.4,
+      "period_departure_pct": 17.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-29T12:26:22"
     }
   ]
 }
