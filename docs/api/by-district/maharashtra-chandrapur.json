@@ -1,7 +1,7 @@
 {
   "state": "MAHARASHTRA",
   "district": "CHANDRAPUR",
-  "row_count": 115,
+  "row_count": 116,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2072,6 +2072,24 @@
       "period_departure_pct": -34.0,
       "period_category": "D",
       "scraped_at": "2026-08-29T12:26:22"
+    },
+    {
+      "date": "2026-08-30",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-30",
+      "level": "district",
+      "subdivision": "VIDARBHA",
+      "state": "MAHARASHTRA",
+      "district": "CHANDRAPUR",
+      "day_actual_mm": 13.7,
+      "day_normal_mm": 8.3,
+      "day_departure_pct": 65.0,
+      "day_category": "LE",
+      "period_actual_mm": 597.3,
+      "period_normal_mm": 894.2,
+      "period_departure_pct": -33.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-30T11:25:54"
     }
   ]
 }

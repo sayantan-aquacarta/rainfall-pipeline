@@ -1,7 +1,7 @@
 {
   "state": "TAMILNADU",
   "district": "PUDUKKOTTAI",
-  "row_count": 161,
+  "row_count": 162,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2900,6 +2900,24 @@
       "period_departure_pct": -13.0,
       "period_category": "N",
       "scraped_at": "2026-08-29T12:26:22"
+    },
+    {
+      "date": "2026-08-30",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-30",
+      "level": "district",
+      "subdivision": "TAMIL. PUDU.& KARAIKAL",
+      "state": "TAMILNADU",
+      "district": "PUDUKKOTTAI",
+      "day_actual_mm": 0.1,
+      "day_normal_mm": 3.4,
+      "day_departure_pct": -98.0,
+      "day_category": "LD",
+      "period_actual_mm": 156.7,
+      "period_normal_mm": 183.4,
+      "period_departure_pct": -15.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-30T11:25:54"
     }
   ]
 }

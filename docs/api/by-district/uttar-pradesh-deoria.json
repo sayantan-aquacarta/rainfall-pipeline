@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "DEORIA",
-  "row_count": 113,
+  "row_count": 114,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2036,6 +2036,24 @@
       "period_departure_pct": -74.0,
       "period_category": "LD",
       "scraped_at": "2026-08-29T12:26:22"
+    },
+    {
+      "date": "2026-08-30",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-30",
+      "level": "district",
+      "subdivision": "EAST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "DEORIA",
+      "day_actual_mm": 4.5,
+      "day_normal_mm": 1.9,
+      "day_departure_pct": 137.0,
+      "day_category": "LE",
+      "period_actual_mm": 168.0,
+      "period_normal_mm": 620.6,
+      "period_departure_pct": -73.0,
+      "period_category": "LD",
+      "scraped_at": "2026-08-30T11:25:54"
     }
   ]
 }

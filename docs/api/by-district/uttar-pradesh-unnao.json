@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "UNNAO",
-  "row_count": 115,
+  "row_count": 116,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2072,6 +2072,24 @@
       "period_departure_pct": -28.0,
       "period_category": "D",
       "scraped_at": "2026-08-29T12:26:22"
+    },
+    {
+      "date": "2026-08-30",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-30",
+      "level": "district",
+      "subdivision": "EAST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "UNNAO",
+      "day_actual_mm": 3.2,
+      "day_normal_mm": 3.9,
+      "day_departure_pct": -19.0,
+      "day_category": "N",
+      "period_actual_mm": 355.4,
+      "period_normal_mm": 494.2,
+      "period_departure_pct": -28.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-30T11:25:54"
     }
   ]
 }

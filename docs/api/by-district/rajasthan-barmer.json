@@ -1,7 +1,7 @@
 {
   "state": "RAJASTHAN",
   "district": "BARMER",
-  "row_count": 115,
+  "row_count": 116,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2072,6 +2072,24 @@
       "period_departure_pct": -17.0,
       "period_category": "N",
       "scraped_at": "2026-08-29T12:26:22"
+    },
+    {
+      "date": "2026-08-30",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-30",
+      "level": "district",
+      "subdivision": "WEST RAJASTHAN",
+      "state": "RAJASTHAN",
+      "district": "BARMER",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 1.7,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 188.0,
+      "period_normal_mm": 229.2,
+      "period_departure_pct": -18.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-30T11:25:54"
     }
   ]
 }

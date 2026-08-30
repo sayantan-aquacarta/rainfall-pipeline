@@ -1,7 +1,7 @@
 {
   "state": "BIHAR",
   "district": "KHAGARIA",
-  "row_count": 115,
+  "row_count": 116,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2072,6 +2072,24 @@
       "period_departure_pct": -11.0,
       "period_category": "N",
       "scraped_at": "2026-08-29T12:26:22"
+    },
+    {
+      "date": "2026-08-30",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-30",
+      "level": "district",
+      "subdivision": "BIHAR",
+      "state": "BIHAR",
+      "district": "KHAGARIA",
+      "day_actual_mm": 30.9,
+      "day_normal_mm": 6.4,
+      "day_departure_pct": 382.0,
+      "day_category": "LE",
+      "period_actual_mm": 686.2,
+      "period_normal_mm": 738.8,
+      "period_departure_pct": -7.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-30T11:25:54"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "BIHAR",
   "district": "DARBHANGA",
-  "row_count": 115,
+  "row_count": 116,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2072,6 +2072,24 @@
       "period_departure_pct": -54.0,
       "period_category": "D",
       "scraped_at": "2026-08-29T12:26:22"
+    },
+    {
+      "date": "2026-08-30",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-30",
+      "level": "district",
+      "subdivision": "BIHAR",
+      "state": "BIHAR",
+      "district": "DARBHANGA",
+      "day_actual_mm": 12.5,
+      "day_normal_mm": 4.9,
+      "day_departure_pct": 156.0,
+      "day_category": "LE",
+      "period_actual_mm": 336.9,
+      "period_normal_mm": 706.7,
+      "period_departure_pct": -52.0,
+      "period_category": "D",
+      "scraped_at": "2026-08-30T11:25:54"
     }
   ]
 }

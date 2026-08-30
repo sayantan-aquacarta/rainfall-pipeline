@@ -1,7 +1,7 @@
 {
   "state": "TRIPURA",
   "district": "DHALAI",
-  "row_count": 161,
+  "row_count": 162,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2900,6 +2900,24 @@
       "period_departure_pct": -5.0,
       "period_category": "N",
       "scraped_at": "2026-08-29T12:26:22"
+    },
+    {
+      "date": "2026-08-30",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-30",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "TRIPURA",
+      "district": "DHALAI",
+      "day_actual_mm": 4.7,
+      "day_normal_mm": 6.8,
+      "day_departure_pct": -31.0,
+      "day_category": "D",
+      "period_actual_mm": 1018.0,
+      "period_normal_mm": 1068.4,
+      "period_departure_pct": -5.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-30T11:25:54"
     }
   ]
 }

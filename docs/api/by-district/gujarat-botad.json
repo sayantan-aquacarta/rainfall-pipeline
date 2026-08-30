@@ -1,7 +1,7 @@
 {
   "state": "GUJARAT",
   "district": "BOTAD",
-  "row_count": 161,
+  "row_count": 162,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2900,6 +2900,24 @@
       "period_departure_pct": 2.0,
       "period_category": "N",
       "scraped_at": "2026-08-29T12:26:22"
+    },
+    {
+      "date": "2026-08-30",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-30",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "GUJARAT",
+      "district": "BOTAD",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 9.6,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 445.8,
+      "period_normal_mm": 446.0,
+      "period_departure_pct": 0.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-30T11:25:54"
     }
   ]
 }
