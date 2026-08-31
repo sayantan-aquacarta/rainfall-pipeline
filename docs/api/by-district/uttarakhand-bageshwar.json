@@ -1,7 +1,7 @@
 {
   "state": "UTTARAKHAND",
   "district": "BAGESHWAR",
-  "row_count": 116,
+  "row_count": 117,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2090,6 +2090,24 @@
       "period_departure_pct": 152.0,
       "period_category": "LE",
       "scraped_at": "2026-08-30T11:25:54"
+    },
+    {
+      "date": "2026-08-31",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-31",
+      "level": "district",
+      "subdivision": "UTTARAKHAND",
+      "state": "UTTARAKHAND",
+      "district": "BAGESHWAR",
+      "day_actual_mm": 45.4,
+      "day_normal_mm": 3.0,
+      "day_departure_pct": 1413.0,
+      "day_category": "LE",
+      "period_actual_mm": 1706.8,
+      "period_normal_mm": 662.3,
+      "period_departure_pct": 158.0,
+      "period_category": "LE",
+      "scraped_at": "2026-08-31T12:56:08"
     }
   ]
 }

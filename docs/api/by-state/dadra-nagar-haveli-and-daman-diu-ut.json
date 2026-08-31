@@ -1,6 +1,6 @@
 {
   "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
-  "row_count": 366,
+  "row_count": 369,
   "districts": [
     "DADARA & NAGAR HAVELI",
     "DAMAN",
@@ -6594,6 +6594,60 @@
       "period_departure_pct": -1.0,
       "period_category": "N",
       "scraped_at": "2026-08-30T11:25:54"
+    },
+    {
+      "date": "2026-08-31",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-31",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
+      "district": "DADARA & NAGAR HAVELI",
+      "day_actual_mm": 4.0,
+      "day_normal_mm": 19.5,
+      "day_departure_pct": -79.0,
+      "day_category": "LD",
+      "period_actual_mm": 2918.1,
+      "period_normal_mm": 1968.6,
+      "period_departure_pct": 48.0,
+      "period_category": "E",
+      "scraped_at": "2026-08-31T12:56:08"
+    },
+    {
+      "date": "2026-08-31",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-31",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
+      "district": "DAMAN",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 19.5,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 2659.7,
+      "period_normal_mm": 1968.6,
+      "period_departure_pct": 35.0,
+      "period_category": "E",
+      "scraped_at": "2026-08-31T12:56:08"
+    },
+    {
+      "date": "2026-08-31",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-31",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
+      "district": "DIU",
+      "day_actual_mm": 1.0,
+      "day_normal_mm": 13.8,
+      "day_departure_pct": -93.0,
+      "day_category": "LD",
+      "period_actual_mm": 626.6,
+      "period_normal_mm": 643.2,
+      "period_departure_pct": -3.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-31T12:56:08"
     }
   ]
 }

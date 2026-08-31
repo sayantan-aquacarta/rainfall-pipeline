@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "MAUGANJ",
-  "row_count": 75,
+  "row_count": 76,
   "rows": [
     {
       "date": "2026-06-03",
@@ -1352,6 +1352,24 @@
       "period_departure_pct": 50.0,
       "period_category": "E",
       "scraped_at": "2026-08-30T11:25:54"
+    },
+    {
+      "date": "2026-08-31",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-31",
+      "level": "district",
+      "subdivision": "EAST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "MAUGANJ",
+      "day_actual_mm": 42.4,
+      "day_normal_mm": 10.3,
+      "day_departure_pct": 312.0,
+      "day_category": "LE",
+      "period_actual_mm": 1146.0,
+      "period_normal_mm": 747.7,
+      "period_departure_pct": 53.0,
+      "period_category": "E",
+      "scraped_at": "2026-08-31T12:56:08"
     }
   ]
 }

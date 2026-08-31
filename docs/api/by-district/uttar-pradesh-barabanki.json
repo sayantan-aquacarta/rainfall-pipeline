@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "BARABANKI",
-  "row_count": 116,
+  "row_count": 117,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2090,6 +2090,24 @@
       "period_departure_pct": 1.0,
       "period_category": "N",
       "scraped_at": "2026-08-30T11:25:54"
+    },
+    {
+      "date": "2026-08-31",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-31",
+      "level": "district",
+      "subdivision": "EAST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "BARABANKI",
+      "day_actual_mm": 0.6,
+      "day_normal_mm": 5.5,
+      "day_departure_pct": -90.0,
+      "day_category": "LD",
+      "period_actual_mm": 632.8,
+      "period_normal_mm": 628.7,
+      "period_departure_pct": 1.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-31T12:56:08"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "BANDA",
-  "row_count": 116,
+  "row_count": 117,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2090,6 +2090,24 @@
       "period_departure_pct": 47.0,
       "period_category": "E",
       "scraped_at": "2026-08-30T11:25:54"
+    },
+    {
+      "date": "2026-08-31",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-31",
+      "level": "district",
+      "subdivision": "EAST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "BANDA",
+      "day_actual_mm": 29.1,
+      "day_normal_mm": 3.3,
+      "day_departure_pct": 783.0,
+      "day_category": "LE",
+      "period_actual_mm": 923.0,
+      "period_normal_mm": 613.0,
+      "period_departure_pct": 51.0,
+      "period_category": "E",
+      "scraped_at": "2026-08-31T12:56:08"
     }
   ]
 }

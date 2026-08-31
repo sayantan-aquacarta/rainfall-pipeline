@@ -1,7 +1,7 @@
 {
   "state": "CHHATTISGARH",
   "district": "JANJGIR",
-  "row_count": 76,
+  "row_count": 77,
   "rows": [
     {
       "date": "2026-06-01",
@@ -1370,6 +1370,24 @@
       "period_departure_pct": 18.0,
       "period_category": "N",
       "scraped_at": "2026-08-30T11:25:54"
+    },
+    {
+      "date": "2026-08-31",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-31",
+      "level": "district",
+      "subdivision": "CHHATTISGARH",
+      "state": "CHHATTISGARH",
+      "district": "JANJGIR",
+      "day_actual_mm": 4.6,
+      "day_normal_mm": 8.9,
+      "day_departure_pct": -48.0,
+      "day_category": "D",
+      "period_actual_mm": 1045.1,
+      "period_normal_mm": 889.7,
+      "period_departure_pct": 17.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-31T12:56:08"
     }
   ]
 }

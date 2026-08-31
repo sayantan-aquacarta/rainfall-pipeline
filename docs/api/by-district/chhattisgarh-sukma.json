@@ -1,7 +1,7 @@
 {
   "state": "CHHATTISGARH",
   "district": "SUKMA",
-  "row_count": 116,
+  "row_count": 117,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2090,6 +2090,24 @@
       "period_departure_pct": -11.0,
       "period_category": "N",
       "scraped_at": "2026-08-30T11:25:54"
+    },
+    {
+      "date": "2026-08-31",
+      "period_start": "2026-06-01",
+      "period_end": "2026-08-31",
+      "level": "district",
+      "subdivision": "CHHATTISGARH",
+      "state": "CHHATTISGARH",
+      "district": "SUKMA",
+      "day_actual_mm": 1.1,
+      "day_normal_mm": 9.2,
+      "day_departure_pct": -88.0,
+      "day_category": "LD",
+      "period_actual_mm": 852.5,
+      "period_normal_mm": 962.6,
+      "period_departure_pct": -11.0,
+      "period_category": "N",
+      "scraped_at": "2026-08-31T12:56:08"
     }
   ]
 }
