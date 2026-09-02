@@ -1,7 +1,7 @@
 {
   "state": "CHHATTISGARH",
   "district": "JASHPUR",
-  "row_count": 118,
+  "row_count": 119,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2126,6 +2126,24 @@
       "period_departure_pct": -32.0,
       "period_category": "D",
       "scraped_at": "2026-09-01T11:14:58"
+    },
+    {
+      "date": "2026-09-02",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-02",
+      "level": "district",
+      "subdivision": "CHHATTISGARH",
+      "state": "CHHATTISGARH",
+      "district": "JASHPUR",
+      "day_actual_mm": 4.3,
+      "day_normal_mm": 10.1,
+      "day_departure_pct": -57.0,
+      "day_category": "D",
+      "period_actual_mm": 758.0,
+      "period_normal_mm": 1118.6,
+      "period_departure_pct": -32.0,
+      "period_category": "D",
+      "scraped_at": "2026-09-02T10:48:24"
     }
   ]
 }

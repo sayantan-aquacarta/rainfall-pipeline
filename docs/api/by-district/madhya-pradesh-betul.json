@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "BETUL",
-  "row_count": 118,
+  "row_count": 119,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2126,6 +2126,24 @@
       "period_departure_pct": -31.0,
       "period_category": "D",
       "scraped_at": "2026-09-01T11:14:58"
+    },
+    {
+      "date": "2026-09-02",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-02",
+      "level": "district",
+      "subdivision": "WEST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "BETUL",
+      "day_actual_mm": 1.2,
+      "day_normal_mm": 9.8,
+      "day_departure_pct": -88.0,
+      "day_category": "LD",
+      "period_actual_mm": 596.9,
+      "period_normal_mm": 870.4,
+      "period_departure_pct": -31.0,
+      "period_category": "D",
+      "scraped_at": "2026-09-02T10:48:24"
     }
   ]
 }
