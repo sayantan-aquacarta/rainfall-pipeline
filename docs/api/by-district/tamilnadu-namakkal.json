@@ -1,7 +1,7 @@
 {
   "state": "TAMILNADU",
   "district": "NAMAKKAL",
-  "row_count": 165,
+  "row_count": 166,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2972,6 +2972,24 @@
       "period_departure_pct": -59.0,
       "period_category": "D",
       "scraped_at": "2026-09-02T10:48:24"
+    },
+    {
+      "date": "2026-09-03",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-03",
+      "level": "district",
+      "subdivision": "TAMIL. PUDU.& KARAIKAL",
+      "state": "TAMILNADU",
+      "district": "NAMAKKAL",
+      "day_actual_mm": 0.9,
+      "day_normal_mm": 3.5,
+      "day_departure_pct": -74.0,
+      "day_category": "LD",
+      "period_actual_mm": 85.4,
+      "period_normal_mm": 207.8,
+      "period_departure_pct": -59.0,
+      "period_category": "D",
+      "scraped_at": "2026-09-03T10:48:25"
     }
   ]
 }

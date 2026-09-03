@@ -1,7 +1,7 @@
 {
   "state": "ASSAM",
   "district": "SRIBHUMI",
-  "row_count": 164,
+  "row_count": 165,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2954,6 +2954,24 @@
       "period_departure_pct": -22.0,
       "period_category": "D",
       "scraped_at": "2026-09-02T10:48:24"
+    },
+    {
+      "date": "2026-09-03",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-03",
+      "level": "district",
+      "subdivision": "ASSAM & MEGHALAYA",
+      "state": "ASSAM",
+      "district": "SRIBHUMI",
+      "day_actual_mm": 15.3,
+      "day_normal_mm": 12.4,
+      "day_departure_pct": 23.0,
+      "day_category": "E",
+      "period_actual_mm": 1421.4,
+      "period_normal_mm": 1812.0,
+      "period_departure_pct": -22.0,
+      "period_category": "D",
+      "scraped_at": "2026-09-03T10:48:25"
     }
   ]
 }

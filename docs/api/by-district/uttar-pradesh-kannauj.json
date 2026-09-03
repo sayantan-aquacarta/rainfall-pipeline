@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "KANNAUJ",
-  "row_count": 119,
+  "row_count": 120,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2144,6 +2144,24 @@
       "period_departure_pct": 39.0,
       "period_category": "E",
       "scraped_at": "2026-09-02T10:48:24"
+    },
+    {
+      "date": "2026-09-03",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-03",
+      "level": "district",
+      "subdivision": "EAST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "KANNAUJ",
+      "day_actual_mm": 18.2,
+      "day_normal_mm": 6.2,
+      "day_departure_pct": 194.0,
+      "day_category": "LE",
+      "period_actual_mm": 764.9,
+      "period_normal_mm": 544.7,
+      "period_departure_pct": 40.0,
+      "period_category": "E",
+      "scraped_at": "2026-09-03T10:48:25"
     }
   ]
 }

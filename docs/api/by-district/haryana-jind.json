@@ -1,7 +1,7 @@
 {
   "state": "HARYANA",
   "district": "JIND",
-  "row_count": 165,
+  "row_count": 166,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2972,6 +2972,24 @@
       "period_departure_pct": -58.0,
       "period_category": "D",
       "scraped_at": "2026-09-02T10:48:24"
+    },
+    {
+      "date": "2026-09-03",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-03",
+      "level": "district",
+      "subdivision": "HAR. CHD & DELHI",
+      "state": "HARYANA",
+      "district": "JIND",
+      "day_actual_mm": 8.2,
+      "day_normal_mm": 2.7,
+      "day_departure_pct": 205.0,
+      "day_category": "LE",
+      "period_actual_mm": 142.1,
+      "period_normal_mm": 321.8,
+      "period_departure_pct": -56.0,
+      "period_category": "D",
+      "scraped_at": "2026-09-03T10:48:25"
     }
   ]
 }

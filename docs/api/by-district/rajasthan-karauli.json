@@ -1,7 +1,7 @@
 {
   "state": "RAJASTHAN",
   "district": "KARAULI",
-  "row_count": 119,
+  "row_count": 120,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2144,6 +2144,24 @@
       "period_departure_pct": -22.0,
       "period_category": "D",
       "scraped_at": "2026-09-02T10:48:24"
+    },
+    {
+      "date": "2026-09-03",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-03",
+      "level": "district",
+      "subdivision": "EAST RAJASTHAN",
+      "state": "RAJASTHAN",
+      "district": "KARAULI",
+      "day_actual_mm": 1.0,
+      "day_normal_mm": 5.6,
+      "day_departure_pct": -82.0,
+      "day_category": "LD",
+      "period_actual_mm": 408.2,
+      "period_normal_mm": 530.1,
+      "period_departure_pct": -23.0,
+      "period_category": "D",
+      "scraped_at": "2026-09-03T10:48:25"
     }
   ]
 }

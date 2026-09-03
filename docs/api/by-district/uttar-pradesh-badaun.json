@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "BADAUN",
-  "row_count": 118,
+  "row_count": 119,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2126,6 +2126,24 @@
       "period_departure_pct": 2.0,
       "period_category": "N",
       "scraped_at": "2026-09-02T10:48:24"
+    },
+    {
+      "date": "2026-09-03",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-03",
+      "level": "district",
+      "subdivision": "WEST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "BADAUN",
+      "day_actual_mm": 0.8,
+      "day_normal_mm": 4.1,
+      "day_departure_pct": -82.0,
+      "day_category": "LD",
+      "period_actual_mm": 572.3,
+      "period_normal_mm": 564.0,
+      "period_departure_pct": 1.0,
+      "period_category": "N",
+      "scraped_at": "2026-09-03T10:48:25"
     }
   ]
 }

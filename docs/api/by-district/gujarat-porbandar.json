@@ -1,7 +1,7 @@
 {
   "state": "GUJARAT",
   "district": "PORBANDAR",
-  "row_count": 165,
+  "row_count": 166,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2972,6 +2972,24 @@
       "period_departure_pct": -73.0,
       "period_category": "LD",
       "scraped_at": "2026-09-02T10:48:24"
+    },
+    {
+      "date": "2026-09-03",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-03",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "GUJARAT",
+      "district": "PORBANDAR",
+      "day_actual_mm": 0.2,
+      "day_normal_mm": 7.9,
+      "day_departure_pct": -97.0,
+      "day_category": "LD",
+      "period_actual_mm": 161.3,
+      "period_normal_mm": 595.7,
+      "period_departure_pct": -73.0,
+      "period_category": "LD",
+      "scraped_at": "2026-09-03T10:48:25"
     }
   ]
 }
