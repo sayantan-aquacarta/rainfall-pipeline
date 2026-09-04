@@ -1,7 +1,7 @@
 {
   "state": "MAHARASHTRA",
   "district": "PALGHAR",
-  "row_count": 166,
+  "row_count": 167,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2990,6 +2990,24 @@
       "period_departure_pct": 25.0,
       "period_category": "E",
       "scraped_at": "2026-09-03T10:48:25"
+    },
+    {
+      "date": "2026-09-04",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-04",
+      "level": "district",
+      "subdivision": "KONKAN & GOA",
+      "state": "MAHARASHTRA",
+      "district": "PALGHAR",
+      "day_actual_mm": 6.2,
+      "day_normal_mm": 17.5,
+      "day_departure_pct": -65.0,
+      "day_category": "LD",
+      "period_actual_mm": 2495.2,
+      "period_normal_mm": 2003.2,
+      "period_departure_pct": 25.0,
+      "period_category": "E",
+      "scraped_at": "2026-09-04T10:47:27"
     }
   ]
 }

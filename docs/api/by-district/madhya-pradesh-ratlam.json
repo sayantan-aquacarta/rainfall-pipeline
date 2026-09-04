@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "RATLAM",
-  "row_count": 120,
+  "row_count": 121,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2162,6 +2162,24 @@
       "period_departure_pct": -38.0,
       "period_category": "D",
       "scraped_at": "2026-09-03T10:48:25"
+    },
+    {
+      "date": "2026-09-04",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-04",
+      "level": "district",
+      "subdivision": "WEST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "RATLAM",
+      "day_actual_mm": 5.6,
+      "day_normal_mm": 5.9,
+      "day_departure_pct": -5.0,
+      "day_category": "N",
+      "period_actual_mm": 502.2,
+      "period_normal_mm": 801.2,
+      "period_departure_pct": -37.0,
+      "period_category": "D",
+      "scraped_at": "2026-09-04T10:47:27"
     }
   ]
 }

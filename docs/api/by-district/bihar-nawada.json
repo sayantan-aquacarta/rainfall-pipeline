@@ -1,7 +1,7 @@
 {
   "state": "BIHAR",
   "district": "NAWADA",
-  "row_count": 120,
+  "row_count": 121,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2162,6 +2162,24 @@
       "period_departure_pct": -24.0,
       "period_category": "D",
       "scraped_at": "2026-09-03T10:48:25"
+    },
+    {
+      "date": "2026-09-04",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-04",
+      "level": "district",
+      "subdivision": "BIHAR",
+      "state": "BIHAR",
+      "district": "NAWADA",
+      "day_actual_mm": 0.8,
+      "day_normal_mm": 5.9,
+      "day_departure_pct": -86.0,
+      "day_category": "LD",
+      "period_actual_mm": 505.5,
+      "period_normal_mm": 671.0,
+      "period_departure_pct": -25.0,
+      "period_category": "D",
+      "scraped_at": "2026-09-04T10:47:27"
     }
   ]
 }

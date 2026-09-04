@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "MEERUT",
-  "row_count": 120,
+  "row_count": 121,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2162,6 +2162,24 @@
       "period_departure_pct": 63.0,
       "period_category": "LE",
       "scraped_at": "2026-09-03T10:48:25"
+    },
+    {
+      "date": "2026-09-04",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-04",
+      "level": "district",
+      "subdivision": "WEST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "MEERUT",
+      "day_actual_mm": 0.1,
+      "day_normal_mm": 6.3,
+      "day_departure_pct": -98.0,
+      "day_category": "LD",
+      "period_actual_mm": 895.6,
+      "period_normal_mm": 556.1,
+      "period_departure_pct": 61.0,
+      "period_category": "LE",
+      "scraped_at": "2026-09-04T10:47:27"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "BHIND",
-  "row_count": 120,
+  "row_count": 121,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2162,6 +2162,24 @@
       "period_departure_pct": 31.0,
       "period_category": "E",
       "scraped_at": "2026-09-03T10:48:25"
+    },
+    {
+      "date": "2026-09-04",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-04",
+      "level": "district",
+      "subdivision": "WEST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "BHIND",
+      "day_actual_mm": 37.2,
+      "day_normal_mm": 6.5,
+      "day_departure_pct": 473.0,
+      "day_category": "LE",
+      "period_actual_mm": 703.6,
+      "period_normal_mm": 516.7,
+      "period_departure_pct": 36.0,
+      "period_category": "E",
+      "scraped_at": "2026-09-04T10:47:27"
     }
   ]
 }

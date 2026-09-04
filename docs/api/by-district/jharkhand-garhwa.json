@@ -1,7 +1,7 @@
 {
   "state": "JHARKHAND",
   "district": "GARHWA",
-  "row_count": 111,
+  "row_count": 112,
   "rows": [
     {
       "date": "2026-04-14",
@@ -2000,6 +2000,24 @@
       "period_departure_pct": -16.0,
       "period_category": "N",
       "scraped_at": "2026-09-03T10:48:25"
+    },
+    {
+      "date": "2026-09-04",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-04",
+      "level": "district",
+      "subdivision": "JHARKHAND",
+      "state": "JHARKHAND",
+      "district": "GARHWA",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 7.1,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 626.6,
+      "period_normal_mm": 756.4,
+      "period_departure_pct": -17.0,
+      "period_category": "N",
+      "scraped_at": "2026-09-04T10:47:27"
     }
   ]
 }
