@@ -1,7 +1,7 @@
 {
   "state": "BIHAR",
   "district": "BHABUA",
-  "row_count": 121,
+  "row_count": 122,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2180,6 +2180,24 @@
       "period_departure_pct": -35.0,
       "period_category": "D",
       "scraped_at": "2026-09-04T10:47:27"
+    },
+    {
+      "date": "2026-09-05",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-05",
+      "level": "district",
+      "subdivision": "BIHAR",
+      "state": "BIHAR",
+      "district": "BHABUA",
+      "day_actual_mm": 2.9,
+      "day_normal_mm": 12.3,
+      "day_departure_pct": -76.0,
+      "day_category": "LD",
+      "period_actual_mm": 461.6,
+      "period_normal_mm": 718.5,
+      "period_departure_pct": -36.0,
+      "period_category": "D",
+      "scraped_at": "2026-09-05T10:05:10"
     }
   ]
 }

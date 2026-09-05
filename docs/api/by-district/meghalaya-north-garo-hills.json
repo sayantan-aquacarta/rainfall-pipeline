@@ -1,7 +1,7 @@
 {
   "state": "MEGHALAYA",
   "district": "NORTH GARO HILLS",
-  "row_count": 167,
+  "row_count": 168,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3008,6 +3008,24 @@
       "period_departure_pct": -63.0,
       "period_category": "LD",
       "scraped_at": "2026-09-04T10:47:27"
+    },
+    {
+      "date": "2026-09-05",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-05",
+      "level": "district",
+      "subdivision": "ASSAM & MEGHALAYA",
+      "state": "MEGHALAYA",
+      "district": "NORTH GARO HILLS",
+      "day_actual_mm": 2.1,
+      "day_normal_mm": 13.3,
+      "day_departure_pct": -84.0,
+      "day_category": "LD",
+      "period_actual_mm": 560.2,
+      "period_normal_mm": 1524.2,
+      "period_departure_pct": -63.0,
+      "period_category": "LD",
+      "scraped_at": "2026-09-05T10:05:10"
     }
   ]
 }

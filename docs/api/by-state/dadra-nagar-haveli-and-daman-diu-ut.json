@@ -1,6 +1,6 @@
 {
   "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
-  "row_count": 381,
+  "row_count": 384,
   "districts": [
     "DADARA & NAGAR HAVELI",
     "DAMAN",
@@ -6864,6 +6864,60 @@
       "period_departure_pct": -4.0,
       "period_category": "N",
       "scraped_at": "2026-09-04T10:47:27"
+    },
+    {
+      "date": "2026-09-05",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-05",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
+      "district": "DADARA & NAGAR HAVELI",
+      "day_actual_mm": 3.1,
+      "day_normal_mm": 7.0,
+      "day_departure_pct": -55.0,
+      "day_category": "D",
+      "period_actual_mm": 2939.8,
+      "period_normal_mm": 2051.2,
+      "period_departure_pct": 43.0,
+      "period_category": "E",
+      "scraped_at": "2026-09-05T10:05:10"
+    },
+    {
+      "date": "2026-09-05",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-05",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
+      "district": "DAMAN",
+      "day_actual_mm": 4.0,
+      "day_normal_mm": 7.0,
+      "day_departure_pct": -43.0,
+      "day_category": "D",
+      "period_actual_mm": 2672.9,
+      "period_normal_mm": 2051.2,
+      "period_departure_pct": 30.0,
+      "period_category": "E",
+      "scraped_at": "2026-09-05T10:05:10"
+    },
+    {
+      "date": "2026-09-05",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-05",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
+      "district": "DIU",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 7.3,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 632.8,
+      "period_normal_mm": 665.9,
+      "period_departure_pct": -5.0,
+      "period_category": "N",
+      "scraped_at": "2026-09-05T10:05:10"
     }
   ]
 }

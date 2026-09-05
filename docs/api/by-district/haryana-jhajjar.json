@@ -1,7 +1,7 @@
 {
   "state": "HARYANA",
   "district": "JHAJJAR",
-  "row_count": 167,
+  "row_count": 168,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3008,6 +3008,24 @@
       "period_departure_pct": -11.0,
       "period_category": "N",
       "scraped_at": "2026-09-04T10:47:27"
+    },
+    {
+      "date": "2026-09-05",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-05",
+      "level": "district",
+      "subdivision": "HAR. CHD & DELHI",
+      "state": "HARYANA",
+      "district": "JHAJJAR",
+      "day_actual_mm": 3.8,
+      "day_normal_mm": 4.8,
+      "day_departure_pct": -20.0,
+      "day_category": "D",
+      "period_actual_mm": 291.1,
+      "period_normal_mm": 328.4,
+      "period_departure_pct": -11.0,
+      "period_category": "N",
+      "scraped_at": "2026-09-05T10:05:10"
     }
   ]
 }

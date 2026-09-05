@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "PILIBHIT",
-  "row_count": 121,
+  "row_count": 122,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2180,6 +2180,24 @@
       "period_departure_pct": -55.0,
       "period_category": "D",
       "scraped_at": "2026-09-04T10:47:27"
+    },
+    {
+      "date": "2026-09-05",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-05",
+      "level": "district",
+      "subdivision": "WEST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "PILIBHIT",
+      "day_actual_mm": 21.5,
+      "day_normal_mm": 6.2,
+      "day_departure_pct": 246.0,
+      "day_category": "LE",
+      "period_actual_mm": 336.6,
+      "period_normal_mm": 706.7,
+      "period_departure_pct": -52.0,
+      "period_category": "D",
+      "scraped_at": "2026-09-05T10:05:10"
     }
   ]
 }
