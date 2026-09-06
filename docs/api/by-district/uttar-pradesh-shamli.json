@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "SHAMLI",
-  "row_count": 122,
+  "row_count": 123,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2198,6 +2198,24 @@
       "period_departure_pct": -65.0,
       "period_category": "LD",
       "scraped_at": "2026-09-05T10:05:10"
+    },
+    {
+      "date": "2026-09-06",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-06",
+      "level": "district",
+      "subdivision": "WEST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "SHAMLI",
+      "day_actual_mm": 0.5,
+      "day_normal_mm": 5.1,
+      "day_departure_pct": -90.0,
+      "day_category": "LD",
+      "period_actual_mm": 164.3,
+      "period_normal_mm": 473.6,
+      "period_departure_pct": -65.0,
+      "period_category": "LD",
+      "scraped_at": "2026-09-06T10:25:57"
     }
   ]
 }

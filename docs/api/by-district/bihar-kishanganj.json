@@ -1,7 +1,7 @@
 {
   "state": "BIHAR",
   "district": "KISHANGANJ",
-  "row_count": 122,
+  "row_count": 123,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2198,6 +2198,24 @@
       "period_departure_pct": -33.0,
       "period_category": "D",
       "scraped_at": "2026-09-05T10:05:10"
+    },
+    {
+      "date": "2026-09-06",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-06",
+      "level": "district",
+      "subdivision": "BIHAR",
+      "state": "BIHAR",
+      "district": "KISHANGANJ",
+      "day_actual_mm": 3.9,
+      "day_normal_mm": 11.5,
+      "day_departure_pct": -66.0,
+      "day_category": "LD",
+      "period_actual_mm": 972.1,
+      "period_normal_mm": 1465.0,
+      "period_departure_pct": -34.0,
+      "period_category": "D",
+      "scraped_at": "2026-09-06T10:25:57"
     }
   ]
 }

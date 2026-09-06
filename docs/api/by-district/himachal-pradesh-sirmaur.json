@@ -1,7 +1,7 @@
 {
   "state": "HIMACHAL PRADESH",
   "district": "SIRMAUR",
-  "row_count": 122,
+  "row_count": 123,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2198,6 +2198,24 @@
       "period_departure_pct": 12.0,
       "period_category": "N",
       "scraped_at": "2026-09-05T10:05:10"
+    },
+    {
+      "date": "2026-09-06",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-06",
+      "level": "district",
+      "subdivision": "HIMACHAL PRADESH",
+      "state": "HIMACHAL PRADESH",
+      "district": "SIRMAUR",
+      "day_actual_mm": 20.7,
+      "day_normal_mm": 7.4,
+      "day_departure_pct": 179.0,
+      "day_category": "LE",
+      "period_actual_mm": 1194.5,
+      "period_normal_mm": 1057.5,
+      "period_departure_pct": 13.0,
+      "period_category": "N",
+      "scraped_at": "2026-09-06T10:25:57"
     }
   ]
 }

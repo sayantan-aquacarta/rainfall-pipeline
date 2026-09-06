@@ -1,7 +1,7 @@
 {
   "state": "HARYANA",
   "district": "REWARI",
-  "row_count": 168,
+  "row_count": 169,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3026,6 +3026,24 @@
       "period_departure_pct": -8.0,
       "period_category": "N",
       "scraped_at": "2026-09-05T10:05:10"
+    },
+    {
+      "date": "2026-09-06",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-06",
+      "level": "district",
+      "subdivision": "HAR. CHD & DELHI",
+      "state": "HARYANA",
+      "district": "REWARI",
+      "day_actual_mm": 10.3,
+      "day_normal_mm": 4.0,
+      "day_departure_pct": 158.0,
+      "day_category": "LE",
+      "period_actual_mm": 357.1,
+      "period_normal_mm": 381.3,
+      "period_departure_pct": -6.0,
+      "period_category": "N",
+      "scraped_at": "2026-09-06T10:25:57"
     }
   ]
 }

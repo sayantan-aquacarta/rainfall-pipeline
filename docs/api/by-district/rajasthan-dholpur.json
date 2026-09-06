@@ -1,7 +1,7 @@
 {
   "state": "RAJASTHAN",
   "district": "DHOLPUR",
-  "row_count": 122,
+  "row_count": 123,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2198,6 +2198,24 @@
       "period_departure_pct": 21.0,
       "period_category": "E",
       "scraped_at": "2026-09-05T10:05:10"
+    },
+    {
+      "date": "2026-09-06",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-06",
+      "level": "district",
+      "subdivision": "EAST RAJASTHAN",
+      "state": "RAJASTHAN",
+      "district": "DHOLPUR",
+      "day_actual_mm": 43.5,
+      "day_normal_mm": 7.7,
+      "day_departure_pct": 465.0,
+      "day_category": "LE",
+      "period_actual_mm": 662.3,
+      "period_normal_mm": 518.6,
+      "period_departure_pct": 28.0,
+      "period_category": "E",
+      "scraped_at": "2026-09-06T10:25:57"
     }
   ]
 }

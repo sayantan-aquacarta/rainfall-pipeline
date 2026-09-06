@@ -1,7 +1,7 @@
 {
   "state": "TAMILNADU",
   "district": "CUDDALORE",
-  "row_count": 168,
+  "row_count": 169,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3026,6 +3026,24 @@
       "period_departure_pct": -10.0,
       "period_category": "N",
       "scraped_at": "2026-09-05T10:05:10"
+    },
+    {
+      "date": "2026-09-06",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-06",
+      "level": "district",
+      "subdivision": "TAMIL. PUDU.& KARAIKAL",
+      "state": "TAMILNADU",
+      "district": "CUDDALORE",
+      "day_actual_mm": 4.9,
+      "day_normal_mm": 3.9,
+      "day_departure_pct": 26.0,
+      "day_category": "E",
+      "period_actual_mm": 223.5,
+      "period_normal_mm": 246.9,
+      "period_departure_pct": -9.0,
+      "period_category": "N",
+      "scraped_at": "2026-09-06T10:25:57"
     }
   ]
 }

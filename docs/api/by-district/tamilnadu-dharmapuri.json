@@ -1,7 +1,7 @@
 {
   "state": "TAMILNADU",
   "district": "DHARMAPURI",
-  "row_count": 168,
+  "row_count": 169,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3026,6 +3026,24 @@
       "period_departure_pct": -37.0,
       "period_category": "D",
       "scraped_at": "2026-09-05T10:05:10"
+    },
+    {
+      "date": "2026-09-06",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-06",
+      "level": "district",
+      "subdivision": "TAMIL. PUDU.& KARAIKAL",
+      "state": "TAMILNADU",
+      "district": "DHARMAPURI",
+      "day_actual_mm": 1.6,
+      "day_normal_mm": 5.4,
+      "day_departure_pct": -70.0,
+      "day_category": "LD",
+      "period_actual_mm": 154.6,
+      "period_normal_mm": 249.6,
+      "period_departure_pct": -38.0,
+      "period_category": "D",
+      "scraped_at": "2026-09-06T10:25:57"
     }
   ]
 }

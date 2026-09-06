@@ -1,7 +1,7 @@
 {
   "state": "PUDUCHERRY (UT)",
   "district": "YANAM",
-  "row_count": 168,
+  "row_count": 169,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3026,6 +3026,24 @@
       "period_departure_pct": -47.0,
       "period_category": "D",
       "scraped_at": "2026-09-05T10:05:10"
+    },
+    {
+      "date": "2026-09-06",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-06",
+      "level": "district",
+      "subdivision": "COASTAL A. P. & YANAM",
+      "state": "PUDUCHERRY (UT)",
+      "district": "YANAM",
+      "day_actual_mm": 13.2,
+      "day_normal_mm": 5.2,
+      "day_departure_pct": 154.0,
+      "day_category": "LE",
+      "period_actual_mm": 319.6,
+      "period_normal_mm": 587.1,
+      "period_departure_pct": -46.0,
+      "period_category": "D",
+      "scraped_at": "2026-09-06T10:25:57"
     }
   ]
 }

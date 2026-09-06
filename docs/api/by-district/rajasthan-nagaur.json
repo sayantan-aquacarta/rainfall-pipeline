@@ -1,7 +1,7 @@
 {
   "state": "RAJASTHAN",
   "district": "NAGAUR",
-  "row_count": 122,
+  "row_count": 123,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2198,6 +2198,24 @@
       "period_departure_pct": -13.0,
       "period_category": "N",
       "scraped_at": "2026-09-05T10:05:10"
+    },
+    {
+      "date": "2026-09-06",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-06",
+      "level": "district",
+      "subdivision": "WEST RAJASTHAN",
+      "state": "RAJASTHAN",
+      "district": "NAGAUR",
+      "day_actual_mm": 3.6,
+      "day_normal_mm": 1.9,
+      "day_departure_pct": 89.0,
+      "day_category": "LE",
+      "period_actual_mm": 297.6,
+      "period_normal_mm": 340.4,
+      "period_departure_pct": -13.0,
+      "period_category": "N",
+      "scraped_at": "2026-09-06T10:25:57"
     }
   ]
 }
