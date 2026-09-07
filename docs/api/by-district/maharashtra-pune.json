@@ -1,7 +1,7 @@
 {
   "state": "MAHARASHTRA",
   "district": "PUNE",
-  "row_count": 123,
+  "row_count": 124,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2216,6 +2216,24 @@
       "period_departure_pct": 26.0,
       "period_category": "E",
       "scraped_at": "2026-09-06T10:25:57"
+    },
+    {
+      "date": "2026-09-07",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-07",
+      "level": "district",
+      "subdivision": "MADHYA MAHARASHTRA",
+      "state": "MAHARASHTRA",
+      "district": "PUNE",
+      "day_actual_mm": 2.1,
+      "day_normal_mm": 4.3,
+      "day_departure_pct": -51.0,
+      "day_category": "D",
+      "period_actual_mm": 1014.6,
+      "period_normal_mm": 806.1,
+      "period_departure_pct": 26.0,
+      "period_category": "E",
+      "scraped_at": "2026-09-07T11:47:30"
     }
   ]
 }

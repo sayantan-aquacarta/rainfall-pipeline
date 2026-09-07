@@ -1,7 +1,7 @@
 {
   "state": "BIHAR",
   "district": "MUZAFFARPUR",
-  "row_count": 123,
+  "row_count": 124,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2216,6 +2216,24 @@
       "period_departure_pct": -52.0,
       "period_category": "D",
       "scraped_at": "2026-09-06T10:25:57"
+    },
+    {
+      "date": "2026-09-07",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-07",
+      "level": "district",
+      "subdivision": "BIHAR",
+      "state": "BIHAR",
+      "district": "MUZAFFARPUR",
+      "day_actual_mm": 6.5,
+      "day_normal_mm": 5.1,
+      "day_departure_pct": 27.0,
+      "day_category": "E",
+      "period_actual_mm": 385.9,
+      "period_normal_mm": 800.0,
+      "period_departure_pct": -52.0,
+      "period_category": "D",
+      "scraped_at": "2026-09-07T11:47:30"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "MIZORAM",
   "district": "MAMIT",
-  "row_count": 123,
+  "row_count": 124,
   "rows": [
     {
       "date": "2026-06-09",
@@ -2216,6 +2216,24 @@
       "period_departure_pct": -36.0,
       "period_category": "D",
       "scraped_at": "2026-09-06T10:25:57"
+    },
+    {
+      "date": "2026-09-07",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-07",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "MIZORAM",
+      "district": "MAMIT",
+      "day_actual_mm": 18.6,
+      "day_normal_mm": 12.9,
+      "day_departure_pct": 44.0,
+      "day_category": "E",
+      "period_actual_mm": 854.1,
+      "period_normal_mm": 1311.8,
+      "period_departure_pct": -35.0,
+      "period_category": "D",
+      "scraped_at": "2026-09-07T11:47:30"
     }
   ]
 }

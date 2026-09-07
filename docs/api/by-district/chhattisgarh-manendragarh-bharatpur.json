@@ -1,7 +1,7 @@
 {
   "state": "CHHATTISGARH",
   "district": "MANENDRAGARH BHARATPUR",
-  "row_count": 83,
+  "row_count": 84,
   "rows": [
     {
       "date": "2026-06-01",
@@ -1496,6 +1496,24 @@
       "period_departure_pct": 14.0,
       "period_category": "N",
       "scraped_at": "2026-09-06T10:25:57"
+    },
+    {
+      "date": "2026-09-07",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-07",
+      "level": "district",
+      "subdivision": "CHHATTISGARH",
+      "state": "CHHATTISGARH",
+      "district": "MANENDRAGARH BHARATPUR",
+      "day_actual_mm": 0.1,
+      "day_normal_mm": 7.2,
+      "day_departure_pct": -99.0,
+      "day_category": "LD",
+      "period_actual_mm": 1094.1,
+      "period_normal_mm": 965.4,
+      "period_departure_pct": 13.0,
+      "period_category": "N",
+      "scraped_at": "2026-09-07T11:47:30"
     }
   ]
 }

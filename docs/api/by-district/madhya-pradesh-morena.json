@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "MORENA",
-  "row_count": 123,
+  "row_count": 124,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2216,6 +2216,24 @@
       "period_departure_pct": -10.0,
       "period_category": "N",
       "scraped_at": "2026-09-06T10:25:57"
+    },
+    {
+      "date": "2026-09-07",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-07",
+      "level": "district",
+      "subdivision": "WEST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "MORENA",
+      "day_actual_mm": 23.4,
+      "day_normal_mm": 4.9,
+      "day_departure_pct": 377.0,
+      "day_category": "LE",
+      "period_actual_mm": 536.3,
+      "period_normal_mm": 573.8,
+      "period_departure_pct": -7.0,
+      "period_category": "N",
+      "scraped_at": "2026-09-07T11:47:30"
     }
   ]
 }

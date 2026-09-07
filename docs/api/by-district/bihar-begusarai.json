@@ -1,7 +1,7 @@
 {
   "state": "BIHAR",
   "district": "BEGUSARAI",
-  "row_count": 123,
+  "row_count": 124,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2216,6 +2216,24 @@
       "period_departure_pct": -37.0,
       "period_category": "D",
       "scraped_at": "2026-09-06T10:25:57"
+    },
+    {
+      "date": "2026-09-07",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-07",
+      "level": "district",
+      "subdivision": "BIHAR",
+      "state": "BIHAR",
+      "district": "BEGUSARAI",
+      "day_actual_mm": 5.3,
+      "day_normal_mm": 8.0,
+      "day_departure_pct": -33.0,
+      "day_category": "D",
+      "period_actual_mm": 524.2,
+      "period_normal_mm": 832.2,
+      "period_departure_pct": -37.0,
+      "period_category": "D",
+      "scraped_at": "2026-09-07T11:47:30"
     }
   ]
 }
