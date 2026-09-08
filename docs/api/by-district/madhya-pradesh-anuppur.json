@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "ANUPPUR",
-  "row_count": 124,
+  "row_count": 125,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2234,6 +2234,24 @@
       "period_departure_pct": 13.0,
       "period_category": "N",
       "scraped_at": "2026-09-07T11:47:30"
+    },
+    {
+      "date": "2026-09-08",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-08",
+      "level": "district",
+      "subdivision": "EAST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "ANUPPUR",
+      "day_actual_mm": 0.5,
+      "day_normal_mm": 10.7,
+      "day_departure_pct": -96.0,
+      "day_category": "LD",
+      "period_actual_mm": 983.4,
+      "period_normal_mm": 878.2,
+      "period_departure_pct": 12.0,
+      "period_category": "N",
+      "scraped_at": "2026-09-08T10:45:45"
     }
   ]
 }

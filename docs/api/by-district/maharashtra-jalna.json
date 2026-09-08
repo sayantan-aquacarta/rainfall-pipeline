@@ -1,7 +1,7 @@
 {
   "state": "MAHARASHTRA",
   "district": "JALNA",
-  "row_count": 124,
+  "row_count": 125,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2234,6 +2234,24 @@
       "period_departure_pct": -43.0,
       "period_category": "D",
       "scraped_at": "2026-09-07T11:47:30"
+    },
+    {
+      "date": "2026-09-08",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-08",
+      "level": "district",
+      "subdivision": "MARATHWADA",
+      "state": "MAHARASHTRA",
+      "district": "JALNA",
+      "day_actual_mm": 1.1,
+      "day_normal_mm": 4.9,
+      "day_departure_pct": -77.0,
+      "day_category": "LD",
+      "period_actual_mm": 277.6,
+      "period_normal_mm": 492.4,
+      "period_departure_pct": -44.0,
+      "period_category": "D",
+      "scraped_at": "2026-09-08T10:45:45"
     }
   ]
 }
