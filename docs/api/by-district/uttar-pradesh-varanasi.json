@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "VARANASI",
-  "row_count": 125,
+  "row_count": 126,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2252,6 +2252,24 @@
       "period_departure_pct": 16.0,
       "period_category": "N",
       "scraped_at": "2026-09-08T10:45:45"
+    },
+    {
+      "date": "2026-09-09",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-09",
+      "level": "district",
+      "subdivision": "EAST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "VARANASI",
+      "day_actual_mm": 1.2,
+      "day_normal_mm": 5.7,
+      "day_departure_pct": -79.0,
+      "day_category": "LD",
+      "period_actual_mm": 794.2,
+      "period_normal_mm": 691.8,
+      "period_departure_pct": 15.0,
+      "period_category": "N",
+      "scraped_at": "2026-09-09T10:53:41"
     }
   ]
 }
