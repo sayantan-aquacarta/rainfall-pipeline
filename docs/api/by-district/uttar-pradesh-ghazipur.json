@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "GHAZIPUR",
-  "row_count": 127,
+  "row_count": 128,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2288,6 +2288,24 @@
       "period_departure_pct": -18.0,
       "period_category": "N",
       "scraped_at": "2026-09-10T10:48:56"
+    },
+    {
+      "date": "2026-09-11",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-11",
+      "level": "district",
+      "subdivision": "EAST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "GHAZIPUR",
+      "day_actual_mm": 12.6,
+      "day_normal_mm": 8.2,
+      "day_departure_pct": 53.0,
+      "day_category": "E",
+      "period_actual_mm": 563.1,
+      "period_normal_mm": 682.6,
+      "period_departure_pct": -18.0,
+      "period_category": "N",
+      "scraped_at": "2026-09-11T10:45:29"
     }
   ]
 }

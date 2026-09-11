@@ -1,7 +1,7 @@
 {
   "state": "WEST BENGAL",
   "district": "KOLKATA",
-  "row_count": 126,
+  "row_count": 127,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2270,6 +2270,24 @@
       "period_departure_pct": 25.0,
       "period_category": "E",
       "scraped_at": "2026-09-10T10:48:56"
+    },
+    {
+      "date": "2026-09-11",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-11",
+      "level": "district",
+      "subdivision": "GANGETIC WEST BENGAL",
+      "state": "WEST BENGAL",
+      "district": "KOLKATA",
+      "day_actual_mm": 40.7,
+      "day_normal_mm": 9.2,
+      "day_departure_pct": 342.0,
+      "day_category": "LE",
+      "period_actual_mm": 1468.6,
+      "period_normal_mm": 1147.8,
+      "period_departure_pct": 28.0,
+      "period_category": "E",
+      "scraped_at": "2026-09-11T10:45:29"
     }
   ]
 }

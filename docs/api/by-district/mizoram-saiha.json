@@ -1,7 +1,7 @@
 {
   "state": "MIZORAM",
   "district": "SAIHA",
-  "row_count": 172,
+  "row_count": 173,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3098,6 +3098,24 @@
       "period_departure_pct": -6.0,
       "period_category": "N",
       "scraped_at": "2026-09-10T10:48:56"
+    },
+    {
+      "date": "2026-09-11",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-11",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "MIZORAM",
+      "district": "SAIHA",
+      "day_actual_mm": 3.9,
+      "day_normal_mm": 10.6,
+      "day_departure_pct": -63.0,
+      "day_category": "LD",
+      "period_actual_mm": 1410.3,
+      "period_normal_mm": 1499.8,
+      "period_departure_pct": -6.0,
+      "period_category": "N",
+      "scraped_at": "2026-09-11T10:45:29"
     }
   ]
 }

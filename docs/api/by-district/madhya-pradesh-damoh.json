@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "DAMOH",
-  "row_count": 127,
+  "row_count": 128,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2288,6 +2288,24 @@
       "period_departure_pct": -15.0,
       "period_category": "N",
       "scraped_at": "2026-09-10T10:48:56"
+    },
+    {
+      "date": "2026-09-11",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-11",
+      "level": "district",
+      "subdivision": "EAST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "DAMOH",
+      "day_actual_mm": 59.7,
+      "day_normal_mm": 8.7,
+      "day_departure_pct": 587.0,
+      "day_category": "LE",
+      "period_actual_mm": 904.7,
+      "period_normal_mm": 999.9,
+      "period_departure_pct": -10.0,
+      "period_category": "N",
+      "scraped_at": "2026-09-11T10:45:29"
     }
   ]
 }

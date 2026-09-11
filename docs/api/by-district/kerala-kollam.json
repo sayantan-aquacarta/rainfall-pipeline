@@ -1,7 +1,7 @@
 {
   "state": "KERALA",
   "district": "KOLLAM",
-  "row_count": 173,
+  "row_count": 174,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3116,6 +3116,24 @@
       "period_departure_pct": -34.0,
       "period_category": "D",
       "scraped_at": "2026-09-10T10:48:56"
+    },
+    {
+      "date": "2026-09-11",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-11",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KOLLAM",
+      "day_actual_mm": 1.6,
+      "day_normal_mm": 5.3,
+      "day_departure_pct": -70.0,
+      "day_category": "LD",
+      "period_actual_mm": 730.3,
+      "period_normal_mm": 1106.8,
+      "period_departure_pct": -34.0,
+      "period_category": "D",
+      "scraped_at": "2026-09-11T10:45:29"
     }
   ]
 }
