@@ -1,7 +1,7 @@
 {
   "state": "JHARKHAND",
   "district": "DUMKA",
-  "row_count": 127,
+  "row_count": 128,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2288,6 +2288,24 @@
       "period_departure_pct": -5.0,
       "period_category": "N",
       "scraped_at": "2026-09-11T10:45:29"
+    },
+    {
+      "date": "2026-09-12",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-12",
+      "level": "district",
+      "subdivision": "JHARKHAND",
+      "state": "JHARKHAND",
+      "district": "DUMKA",
+      "day_actual_mm": 10.1,
+      "day_normal_mm": 7.8,
+      "day_departure_pct": 29.0,
+      "day_category": "E",
+      "period_actual_mm": 846.4,
+      "period_normal_mm": 887.7,
+      "period_departure_pct": -5.0,
+      "period_category": "N",
+      "scraped_at": "2026-09-12T10:15:16"
     }
   ]
 }

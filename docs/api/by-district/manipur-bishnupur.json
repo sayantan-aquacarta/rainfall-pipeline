@@ -1,7 +1,7 @@
 {
   "state": "MANIPUR",
   "district": "BISHNUPUR",
-  "row_count": 171,
+  "row_count": 172,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3080,6 +3080,24 @@
       "period_departure_pct": -59.0,
       "period_category": "D",
       "scraped_at": "2026-09-11T10:45:29"
+    },
+    {
+      "date": "2026-09-12",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-12",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "MANIPUR",
+      "district": "BISHNUPUR",
+      "day_actual_mm": 6.0,
+      "day_normal_mm": 9.1,
+      "day_departure_pct": -34.0,
+      "day_category": "D",
+      "period_actual_mm": 421.9,
+      "period_normal_mm": 1024.6,
+      "period_departure_pct": -59.0,
+      "period_category": "D",
+      "scraped_at": "2026-09-12T10:15:16"
     }
   ]
 }

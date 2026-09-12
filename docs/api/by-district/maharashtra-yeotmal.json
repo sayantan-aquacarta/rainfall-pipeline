@@ -1,7 +1,7 @@
 {
   "state": "MAHARASHTRA",
   "district": "YEOTMAL",
-  "row_count": 128,
+  "row_count": 129,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2306,6 +2306,24 @@
       "period_departure_pct": -27.0,
       "period_category": "D",
       "scraped_at": "2026-09-11T10:45:29"
+    },
+    {
+      "date": "2026-09-12",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-12",
+      "level": "district",
+      "subdivision": "VIDARBHA",
+      "state": "MAHARASHTRA",
+      "district": "YEOTMAL",
+      "day_actual_mm": 16.5,
+      "day_normal_mm": 2.5,
+      "day_departure_pct": 560.0,
+      "day_category": "LE",
+      "period_actual_mm": 559.4,
+      "period_normal_mm": 742.1,
+      "period_departure_pct": -25.0,
+      "period_category": "D",
+      "scraped_at": "2026-09-12T10:15:16"
     }
   ]
 }
