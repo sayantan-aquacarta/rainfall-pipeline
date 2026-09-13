@@ -1,7 +1,7 @@
 {
   "state": "NAGALAND",
   "district": "ZUNHEBOTO",
-  "row_count": 113,
+  "row_count": 114,
   "rows": [
     {
       "date": "2026-04-17",
@@ -2036,6 +2036,24 @@
       "period_departure_pct": 60.0,
       "period_category": "LE",
       "scraped_at": "2026-09-12T10:15:16"
+    },
+    {
+      "date": "2026-09-13",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-13",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "NAGALAND",
+      "district": "ZUNHEBOTO",
+      "day_actual_mm": 9.6,
+      "day_normal_mm": 5.9,
+      "day_departure_pct": 63.0,
+      "day_category": "LE",
+      "period_actual_mm": 1513.0,
+      "period_normal_mm": 946.9,
+      "period_departure_pct": 60.0,
+      "period_category": "LE",
+      "scraped_at": "2026-09-13T11:14:45"
     }
   ]
 }

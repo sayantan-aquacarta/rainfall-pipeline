@@ -1,7 +1,7 @@
 {
   "state": "TELANGANA",
   "district": "KUMARAM BHEEM",
-  "row_count": 129,
+  "row_count": 130,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2324,6 +2324,24 @@
       "period_departure_pct": 8.0,
       "period_category": "N",
       "scraped_at": "2026-09-12T10:15:16"
+    },
+    {
+      "date": "2026-09-13",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-13",
+      "level": "district",
+      "subdivision": "TELANGANA",
+      "state": "TELANGANA",
+      "district": "KUMARAM BHEEM",
+      "day_actual_mm": 42.6,
+      "day_normal_mm": 5.1,
+      "day_departure_pct": 735.0,
+      "day_category": "LE",
+      "period_actual_mm": 1000.5,
+      "period_normal_mm": 886.0,
+      "period_departure_pct": 13.0,
+      "period_category": "N",
+      "scraped_at": "2026-09-13T11:14:45"
     }
   ]
 }

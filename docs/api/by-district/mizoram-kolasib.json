@@ -1,7 +1,7 @@
 {
   "state": "MIZORAM",
   "district": "KOLASIB",
-  "row_count": 167,
+  "row_count": 168,
   "rows": [
     {
       "date": "2026-04-15",
@@ -3008,6 +3008,24 @@
       "period_departure_pct": 4.0,
       "period_category": "N",
       "scraped_at": "2026-09-12T10:15:16"
+    },
+    {
+      "date": "2026-09-13",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-13",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "MIZORAM",
+      "district": "KOLASIB",
+      "day_actual_mm": 11.1,
+      "day_normal_mm": 10.9,
+      "day_departure_pct": 2.0,
+      "day_category": "N",
+      "period_actual_mm": 1613.7,
+      "period_normal_mm": 1544.9,
+      "period_departure_pct": 4.0,
+      "period_category": "N",
+      "scraped_at": "2026-09-13T11:14:45"
     }
   ]
 }

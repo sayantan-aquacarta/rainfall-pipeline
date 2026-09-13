@@ -1,7 +1,7 @@
 {
   "state": "KARNATAKA",
   "district": "UDUPI",
-  "row_count": 129,
+  "row_count": 130,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2324,6 +2324,24 @@
       "period_departure_pct": -28.0,
       "period_category": "D",
       "scraped_at": "2026-09-12T10:15:16"
+    },
+    {
+      "date": "2026-09-13",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-13",
+      "level": "district",
+      "subdivision": "COASTAL KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "UDUPI",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 13.2,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 2555.1,
+      "period_normal_mm": 3572.2,
+      "period_departure_pct": -28.0,
+      "period_category": "D",
+      "scraped_at": "2026-09-13T11:14:45"
     }
   ]
 }
