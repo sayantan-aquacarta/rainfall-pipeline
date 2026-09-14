@@ -1,7 +1,7 @@
 {
   "state": "TELANGANA",
   "district": "NIRMAL",
-  "row_count": 130,
+  "row_count": 131,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2342,6 +2342,24 @@
       "period_departure_pct": -49.0,
       "period_category": "D",
       "scraped_at": "2026-09-13T11:14:45"
+    },
+    {
+      "date": "2026-09-14",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-14",
+      "level": "district",
+      "subdivision": "TELANGANA",
+      "state": "TELANGANA",
+      "district": "NIRMAL",
+      "day_actual_mm": 4.8,
+      "day_normal_mm": 2.1,
+      "day_departure_pct": 127.0,
+      "day_category": "LE",
+      "period_actual_mm": 412.3,
+      "period_normal_mm": 807.0,
+      "period_departure_pct": -49.0,
+      "period_category": "D",
+      "scraped_at": "2026-09-14T12:02:35"
     }
   ]
 }
