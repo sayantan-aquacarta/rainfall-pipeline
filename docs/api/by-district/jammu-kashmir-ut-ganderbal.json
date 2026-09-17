@@ -1,7 +1,7 @@
 {
   "state": "JAMMU & KASHMIR(UT)",
   "district": "GANDERBAL",
-  "row_count": 179,
+  "row_count": 180,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3224,6 +3224,24 @@
       "period_departure_pct": 30.0,
       "period_category": "E",
       "scraped_at": "2026-09-16T10:58:47"
+    },
+    {
+      "date": "2026-09-17",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-17",
+      "level": "district",
+      "subdivision": "J & K AND LADAKH",
+      "state": "JAMMU & KASHMIR(UT)",
+      "district": "GANDERBAL",
+      "day_actual_mm": 6.8,
+      "day_normal_mm": 3.9,
+      "day_departure_pct": 74.0,
+      "day_category": "LE",
+      "period_actual_mm": 338.4,
+      "period_normal_mm": 258.6,
+      "period_departure_pct": 31.0,
+      "period_category": "E",
+      "scraped_at": "2026-09-17T11:09:00"
     }
   ]
 }

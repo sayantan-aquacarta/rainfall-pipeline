@@ -1,7 +1,7 @@
 {
   "state": "HARYANA",
   "district": "PALWAL",
-  "row_count": 177,
+  "row_count": 178,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3188,6 +3188,24 @@
       "period_departure_pct": 24.0,
       "period_category": "E",
       "scraped_at": "2026-09-16T10:58:47"
+    },
+    {
+      "date": "2026-09-17",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-17",
+      "level": "district",
+      "subdivision": "HAR. CHD & DELHI",
+      "state": "HARYANA",
+      "district": "PALWAL",
+      "day_actual_mm": 3.2,
+      "day_normal_mm": 0.7,
+      "day_departure_pct": 357.0,
+      "day_category": "LE",
+      "period_actual_mm": 476.6,
+      "period_normal_mm": 382.5,
+      "period_departure_pct": 25.0,
+      "period_category": "E",
+      "scraped_at": "2026-09-17T11:09:00"
     }
   ]
 }

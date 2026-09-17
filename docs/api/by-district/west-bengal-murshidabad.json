@@ -1,7 +1,7 @@
 {
   "state": "WEST BENGAL",
   "district": "MURSHIDABAD",
-  "row_count": 133,
+  "row_count": 134,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2396,6 +2396,24 @@
       "period_departure_pct": -15.0,
       "period_category": "N",
       "scraped_at": "2026-09-16T10:58:47"
+    },
+    {
+      "date": "2026-09-17",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-17",
+      "level": "district",
+      "subdivision": "GANGETIC WEST BENGAL",
+      "state": "WEST BENGAL",
+      "district": "MURSHIDABAD",
+      "day_actual_mm": 4.6,
+      "day_normal_mm": 7.5,
+      "day_departure_pct": -39.0,
+      "day_category": "D",
+      "period_actual_mm": 757.3,
+      "period_normal_mm": 888.6,
+      "period_departure_pct": -15.0,
+      "period_category": "N",
+      "scraped_at": "2026-09-17T11:09:00"
     }
   ]
 }

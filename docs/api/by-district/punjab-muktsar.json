@@ -1,7 +1,7 @@
 {
   "state": "PUNJAB",
   "district": "MUKTSAR",
-  "row_count": 131,
+  "row_count": 132,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2360,6 +2360,24 @@
       "period_departure_pct": -68.0,
       "period_category": "LD",
       "scraped_at": "2026-09-16T10:58:47"
+    },
+    {
+      "date": "2026-09-17",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-17",
+      "level": "district",
+      "subdivision": "PUNJAB",
+      "state": "PUNJAB",
+      "district": "MUKTSAR",
+      "day_actual_mm": 1.4,
+      "day_normal_mm": 0.1,
+      "day_departure_pct": 1300.0,
+      "day_category": "LE",
+      "period_actual_mm": 99.5,
+      "period_normal_mm": 302.4,
+      "period_departure_pct": -67.0,
+      "period_category": "LD",
+      "scraped_at": "2026-09-17T11:09:00"
     }
   ]
 }

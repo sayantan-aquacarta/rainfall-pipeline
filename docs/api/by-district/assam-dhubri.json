@@ -1,7 +1,7 @@
 {
   "state": "ASSAM",
   "district": "DHUBRI",
-  "row_count": 179,
+  "row_count": 180,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3224,6 +3224,24 @@
       "period_departure_pct": -37.0,
       "period_category": "D",
       "scraped_at": "2026-09-16T10:58:47"
+    },
+    {
+      "date": "2026-09-17",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-17",
+      "level": "district",
+      "subdivision": "ASSAM & MEGHALAYA",
+      "state": "ASSAM",
+      "district": "DHUBRI",
+      "day_actual_mm": 58.2,
+      "day_normal_mm": 17.4,
+      "day_departure_pct": 235.0,
+      "day_category": "LE",
+      "period_actual_mm": 1253.8,
+      "period_normal_mm": 1919.9,
+      "period_departure_pct": -35.0,
+      "period_category": "D",
+      "scraped_at": "2026-09-17T11:09:00"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "NAGALAND",
   "district": "KIPHIRE",
-  "row_count": 179,
+  "row_count": 180,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3224,6 +3224,24 @@
       "period_departure_pct": 32.0,
       "period_category": "E",
       "scraped_at": "2026-09-16T10:58:47"
+    },
+    {
+      "date": "2026-09-17",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-17",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "NAGALAND",
+      "district": "KIPHIRE",
+      "day_actual_mm": 2.5,
+      "day_normal_mm": 4.2,
+      "day_departure_pct": -40.0,
+      "day_category": "D",
+      "period_actual_mm": 735.9,
+      "period_normal_mm": 560.1,
+      "period_departure_pct": 31.0,
+      "period_category": "E",
+      "scraped_at": "2026-09-17T11:09:00"
     }
   ]
 }

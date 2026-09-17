@@ -1,7 +1,7 @@
 {
   "state": "PUNJAB",
   "district": "TARN TARAN",
-  "row_count": 132,
+  "row_count": 133,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2378,6 +2378,24 @@
       "period_departure_pct": -52.0,
       "period_category": "D",
       "scraped_at": "2026-09-16T10:58:47"
+    },
+    {
+      "date": "2026-09-17",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-17",
+      "level": "district",
+      "subdivision": "PUNJAB",
+      "state": "PUNJAB",
+      "district": "TARN TARAN",
+      "day_actual_mm": 3.1,
+      "day_normal_mm": 0.2,
+      "day_departure_pct": 1471.0,
+      "day_category": "LE",
+      "period_actual_mm": 123.8,
+      "period_normal_mm": 253.2,
+      "period_departure_pct": -51.0,
+      "period_category": "D",
+      "scraped_at": "2026-09-17T11:09:00"
     }
   ]
 }

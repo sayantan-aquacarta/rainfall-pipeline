@@ -1,7 +1,7 @@
 {
   "state": "RAJASTHAN",
   "district": "BARAN",
-  "row_count": 133,
+  "row_count": 134,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2396,6 +2396,24 @@
       "period_departure_pct": -20.0,
       "period_category": "D",
       "scraped_at": "2026-09-16T10:58:47"
+    },
+    {
+      "date": "2026-09-17",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-17",
+      "level": "district",
+      "subdivision": "EAST RAJASTHAN",
+      "state": "RAJASTHAN",
+      "district": "BARAN",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 3.1,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 644.8,
+      "period_normal_mm": 808.2,
+      "period_departure_pct": -20.0,
+      "period_category": "D",
+      "scraped_at": "2026-09-17T11:09:00"
     }
   ]
 }

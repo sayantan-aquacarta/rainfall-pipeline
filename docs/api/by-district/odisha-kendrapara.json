@@ -1,7 +1,7 @@
 {
   "state": "ODISHA",
   "district": "KENDRAPARA",
-  "row_count": 133,
+  "row_count": 134,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2396,6 +2396,24 @@
       "period_departure_pct": 39.0,
       "period_category": "E",
       "scraped_at": "2026-09-16T10:58:47"
+    },
+    {
+      "date": "2026-09-17",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-17",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "KENDRAPARA",
+      "day_actual_mm": 7.3,
+      "day_normal_mm": 11.3,
+      "day_departure_pct": -35.0,
+      "day_category": "D",
+      "period_actual_mm": 1397.3,
+      "period_normal_mm": 1013.0,
+      "period_departure_pct": 38.0,
+      "period_category": "E",
+      "scraped_at": "2026-09-17T11:09:00"
     }
   ]
 }
