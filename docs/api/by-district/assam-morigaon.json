@@ -1,7 +1,7 @@
 {
   "state": "ASSAM",
   "district": "MORIGAON",
-  "row_count": 179,
+  "row_count": 180,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3224,6 +3224,24 @@
       "period_departure_pct": -40.0,
       "period_category": "D",
       "scraped_at": "2026-09-17T11:09:00"
+    },
+    {
+      "date": "2026-09-18",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-18",
+      "level": "district",
+      "subdivision": "ASSAM & MEGHALAYA",
+      "state": "ASSAM",
+      "district": "MORIGAON",
+      "day_actual_mm": 0.7,
+      "day_normal_mm": 9.5,
+      "day_departure_pct": -92.0,
+      "day_category": "LD",
+      "period_actual_mm": 619.1,
+      "period_normal_mm": 1048.3,
+      "period_departure_pct": -41.0,
+      "period_category": "D",
+      "scraped_at": "2026-09-18T10:43:11"
     }
   ]
 }

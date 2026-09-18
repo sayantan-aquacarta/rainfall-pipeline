@@ -1,6 +1,6 @@
 {
   "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
-  "row_count": 420,
+  "row_count": 423,
   "districts": [
     "DADARA & NAGAR HAVELI",
     "DAMAN",
@@ -7566,6 +7566,60 @@
       "period_departure_pct": 13.0,
       "period_category": "N",
       "scraped_at": "2026-09-17T11:09:00"
+    },
+    {
+      "date": "2026-09-18",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-18",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
+      "district": "DADARA & NAGAR HAVELI",
+      "day_actual_mm": 8.7,
+      "day_normal_mm": 7.7,
+      "day_departure_pct": 13.0,
+      "day_category": "N",
+      "period_actual_mm": 3132.9,
+      "period_normal_mm": 2177.7,
+      "period_departure_pct": 44.0,
+      "period_category": "E",
+      "scraped_at": "2026-09-18T10:43:11"
+    },
+    {
+      "date": "2026-09-18",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-18",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
+      "district": "DAMAN",
+      "day_actual_mm": 9.6,
+      "day_normal_mm": 7.7,
+      "day_departure_pct": 25.0,
+      "day_category": "E",
+      "period_actual_mm": 2788.7,
+      "period_normal_mm": 2177.7,
+      "period_departure_pct": 28.0,
+      "period_category": "E",
+      "scraped_at": "2026-09-18T10:43:11"
+    },
+    {
+      "date": "2026-09-18",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-18",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
+      "district": "DIU",
+      "day_actual_mm": 3.8,
+      "day_normal_mm": 2.1,
+      "day_departure_pct": 81.0,
+      "day_category": "LE",
+      "period_actual_mm": 803.2,
+      "period_normal_mm": 712.2,
+      "period_departure_pct": 13.0,
+      "period_category": "N",
+      "scraped_at": "2026-09-18T10:43:11"
     }
   ]
 }

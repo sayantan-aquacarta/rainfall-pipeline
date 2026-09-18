@@ -1,7 +1,7 @@
 {
   "state": "JHARKHAND",
   "district": "DHANBAD",
-  "row_count": 134,
+  "row_count": 135,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2414,6 +2414,24 @@
       "period_departure_pct": -5.0,
       "period_category": "N",
       "scraped_at": "2026-09-17T11:09:00"
+    },
+    {
+      "date": "2026-09-18",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-18",
+      "level": "district",
+      "subdivision": "JHARKHAND",
+      "state": "JHARKHAND",
+      "district": "DHANBAD",
+      "day_actual_mm": 13.4,
+      "day_normal_mm": 9.5,
+      "day_departure_pct": 42.0,
+      "day_category": "E",
+      "period_actual_mm": 929.3,
+      "period_normal_mm": 978.1,
+      "period_departure_pct": -5.0,
+      "period_category": "N",
+      "scraped_at": "2026-09-18T10:43:11"
     }
   ]
 }

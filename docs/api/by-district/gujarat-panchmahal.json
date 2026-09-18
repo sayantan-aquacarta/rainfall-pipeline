@@ -1,7 +1,7 @@
 {
   "state": "GUJARAT",
   "district": "PANCHMAHAL",
-  "row_count": 180,
+  "row_count": 181,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3242,6 +3242,24 @@
       "period_departure_pct": -12.0,
       "period_category": "N",
       "scraped_at": "2026-09-17T11:09:00"
+    },
+    {
+      "date": "2026-09-18",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-18",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "PANCHMAHAL",
+      "day_actual_mm": 4.7,
+      "day_normal_mm": 4.1,
+      "day_departure_pct": 15.0,
+      "day_category": "N",
+      "period_actual_mm": 788.7,
+      "period_normal_mm": 894.1,
+      "period_departure_pct": -12.0,
+      "period_category": "N",
+      "scraped_at": "2026-09-18T10:43:11"
     }
   ]
 }
