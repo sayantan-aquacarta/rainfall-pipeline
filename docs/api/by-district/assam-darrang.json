@@ -1,7 +1,7 @@
 {
   "state": "ASSAM",
   "district": "DARRANG",
-  "row_count": 179,
+  "row_count": 180,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3224,6 +3224,24 @@
       "period_departure_pct": -44.0,
       "period_category": "D",
       "scraped_at": "2026-09-18T10:43:11"
+    },
+    {
+      "date": "2026-09-19",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-19",
+      "level": "district",
+      "subdivision": "ASSAM & MEGHALAYA",
+      "state": "ASSAM",
+      "district": "DARRANG",
+      "day_actual_mm": 5.8,
+      "day_normal_mm": 7.2,
+      "day_departure_pct": -20.0,
+      "day_category": "D",
+      "period_actual_mm": 689.9,
+      "period_normal_mm": 1220.4,
+      "period_departure_pct": -43.0,
+      "period_category": "D",
+      "scraped_at": "2026-09-19T10:27:25"
     }
   ]
 }

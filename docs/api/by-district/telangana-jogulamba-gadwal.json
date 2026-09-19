@@ -1,7 +1,7 @@
 {
   "state": "TELANGANA",
   "district": "JOGULAMBA GADWAL",
-  "row_count": 134,
+  "row_count": 135,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2414,6 +2414,24 @@
       "period_departure_pct": -50.0,
       "period_category": "D",
       "scraped_at": "2026-09-18T10:43:11"
+    },
+    {
+      "date": "2026-09-19",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-19",
+      "level": "district",
+      "subdivision": "TELANGANA",
+      "state": "TELANGANA",
+      "district": "JOGULAMBA GADWAL",
+      "day_actual_mm": 0.2,
+      "day_normal_mm": 4.7,
+      "day_departure_pct": -95.0,
+      "day_category": "LD",
+      "period_actual_mm": 196.9,
+      "period_normal_mm": 397.7,
+      "period_departure_pct": -50.0,
+      "period_category": "D",
+      "scraped_at": "2026-09-19T10:27:25"
     }
   ]
 }

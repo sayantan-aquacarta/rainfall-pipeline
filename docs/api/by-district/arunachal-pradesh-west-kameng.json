@@ -1,7 +1,7 @@
 {
   "state": "ARUNACHAL PRADESH",
   "district": "WEST KAMENG",
-  "row_count": 135,
+  "row_count": 136,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2432,6 +2432,24 @@
       "period_departure_pct": -67.0,
       "period_category": "LD",
       "scraped_at": "2026-09-18T10:43:11"
+    },
+    {
+      "date": "2026-09-19",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-19",
+      "level": "district",
+      "subdivision": "ARUNACHAL PRADESH",
+      "state": "ARUNACHAL PRADESH",
+      "district": "WEST KAMENG",
+      "day_actual_mm": 0.6,
+      "day_normal_mm": 9.1,
+      "day_departure_pct": -93.0,
+      "day_category": "LD",
+      "period_actual_mm": 520.9,
+      "period_normal_mm": 1593.7,
+      "period_departure_pct": -67.0,
+      "period_category": "LD",
+      "scraped_at": "2026-09-19T10:27:25"
     }
   ]
 }

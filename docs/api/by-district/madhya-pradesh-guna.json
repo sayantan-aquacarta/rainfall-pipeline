@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "GUNA",
-  "row_count": 135,
+  "row_count": 136,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2432,6 +2432,24 @@
       "period_departure_pct": 7.0,
       "period_category": "N",
       "scraped_at": "2026-09-18T10:43:11"
+    },
+    {
+      "date": "2026-09-19",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-19",
+      "level": "district",
+      "subdivision": "WEST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "GUNA",
+      "day_actual_mm": 51.6,
+      "day_normal_mm": 4.4,
+      "day_departure_pct": 1072.0,
+      "day_category": "LE",
+      "period_actual_mm": 1024.9,
+      "period_normal_mm": 910.5,
+      "period_departure_pct": 13.0,
+      "period_category": "N",
+      "scraped_at": "2026-09-19T10:27:25"
     }
   ]
 }
