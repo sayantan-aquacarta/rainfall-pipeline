@@ -1,7 +1,7 @@
 {
   "state": "CHHATTISGARH",
   "district": "DHAMTARI",
-  "row_count": 136,
+  "row_count": 137,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2450,6 +2450,24 @@
       "period_departure_pct": 5.0,
       "period_category": "N",
       "scraped_at": "2026-09-19T10:27:25"
+    },
+    {
+      "date": "2026-09-20",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-20",
+      "level": "district",
+      "subdivision": "CHHATTISGARH",
+      "state": "CHHATTISGARH",
+      "district": "DHAMTARI",
+      "day_actual_mm": 7.5,
+      "day_normal_mm": 6.8,
+      "day_departure_pct": 11.0,
+      "day_category": "N",
+      "period_actual_mm": 1064.6,
+      "period_normal_mm": 1018.0,
+      "period_departure_pct": 5.0,
+      "period_category": "N",
+      "scraped_at": "2026-09-20T10:48:10"
     }
   ]
 }
