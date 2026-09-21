@@ -1,7 +1,7 @@
 {
   "state": "ANDHRA PRADESH",
   "district": "KRISHNA",
-  "row_count": 183,
+  "row_count": 184,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3296,6 +3296,24 @@
       "period_departure_pct": -37.0,
       "period_category": "D",
       "scraped_at": "2026-09-20T10:48:10"
+    },
+    {
+      "date": "2026-09-21",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-21",
+      "level": "district",
+      "subdivision": "COASTAL A. P. & YANAM",
+      "state": "ANDHRA PRADESH",
+      "district": "KRISHNA",
+      "day_actual_mm": 19.1,
+      "day_normal_mm": 8.8,
+      "day_departure_pct": 117.0,
+      "day_category": "LE",
+      "period_actual_mm": 404.7,
+      "period_normal_mm": 618.1,
+      "period_departure_pct": -35.0,
+      "period_category": "D",
+      "scraped_at": "2026-09-21T12:12:36"
     }
   ]
 }

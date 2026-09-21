@@ -1,6 +1,6 @@
 {
   "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
-  "row_count": 429,
+  "row_count": 432,
   "districts": [
     "DADARA & NAGAR HAVELI",
     "DAMAN",
@@ -7728,6 +7728,60 @@
       "period_departure_pct": 15.0,
       "period_category": "N",
       "scraped_at": "2026-09-20T10:48:10"
+    },
+    {
+      "date": "2026-09-21",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-21",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
+      "district": "DADARA & NAGAR HAVELI",
+      "day_actual_mm": 0.5,
+      "day_normal_mm": 8.1,
+      "day_departure_pct": -93.0,
+      "day_category": "LD",
+      "period_actual_mm": 3138.8,
+      "period_normal_mm": 2211.2,
+      "period_departure_pct": 42.0,
+      "period_category": "E",
+      "scraped_at": "2026-09-21T12:12:36"
+    },
+    {
+      "date": "2026-09-21",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-21",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
+      "district": "DAMAN",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 8.1,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 2845.7,
+      "period_normal_mm": 2211.2,
+      "period_departure_pct": 29.0,
+      "period_category": "E",
+      "scraped_at": "2026-09-21T12:12:36"
+    },
+    {
+      "date": "2026-09-21",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-21",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
+      "district": "DIU",
+      "day_actual_mm": 78.4,
+      "day_normal_mm": 4.3,
+      "day_departure_pct": 1723.0,
+      "day_category": "LE",
+      "period_actual_mm": 906.6,
+      "period_normal_mm": 725.3,
+      "period_departure_pct": 25.0,
+      "period_category": "E",
+      "scraped_at": "2026-09-21T12:12:36"
     }
   ]
 }

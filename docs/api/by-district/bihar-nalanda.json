@@ -1,7 +1,7 @@
 {
   "state": "BIHAR",
   "district": "NALANDA",
-  "row_count": 137,
+  "row_count": 138,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2468,6 +2468,24 @@
       "period_departure_pct": -40.0,
       "period_category": "D",
       "scraped_at": "2026-09-20T10:48:10"
+    },
+    {
+      "date": "2026-09-21",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-21",
+      "level": "district",
+      "subdivision": "BIHAR",
+      "state": "BIHAR",
+      "district": "NALANDA",
+      "day_actual_mm": 6.2,
+      "day_normal_mm": 5.8,
+      "day_departure_pct": 6.0,
+      "day_category": "N",
+      "period_actual_mm": 487.7,
+      "period_normal_mm": 805.0,
+      "period_departure_pct": -39.0,
+      "period_category": "D",
+      "scraped_at": "2026-09-21T12:12:36"
     }
   ]
 }
