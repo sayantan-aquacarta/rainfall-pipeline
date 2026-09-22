@@ -1,7 +1,7 @@
 {
   "state": "KARNATAKA",
   "district": "KALABURAGI",
-  "row_count": 144,
+  "row_count": 145,
   "rows": [
     {
       "date": "2026-06-01",
@@ -2594,6 +2594,24 @@
       "period_departure_pct": -59.0,
       "period_category": "D",
       "scraped_at": "2026-09-21T12:12:36"
+    },
+    {
+      "date": "2026-09-22",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-22",
+      "level": "district",
+      "subdivision": "N. I. KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "KALABURAGI",
+      "day_actual_mm": 10.7,
+      "day_normal_mm": 6.3,
+      "day_departure_pct": 70.0,
+      "day_category": "LE",
+      "period_actual_mm": 225.5,
+      "period_normal_mm": 529.6,
+      "period_departure_pct": -57.0,
+      "period_category": "D",
+      "scraped_at": "2026-09-22T11:06:53"
     }
   ]
 }

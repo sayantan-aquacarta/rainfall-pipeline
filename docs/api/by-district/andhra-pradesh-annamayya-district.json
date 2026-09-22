@@ -1,7 +1,7 @@
 {
   "state": "ANDHRA PRADESH",
   "district": "ANNAMAYYA DISTRICT",
-  "row_count": 154,
+  "row_count": 155,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2774,6 +2774,24 @@
       "period_departure_pct": -60.0,
       "period_category": "LD",
       "scraped_at": "2026-09-21T12:12:36"
+    },
+    {
+      "date": "2026-09-22",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-22",
+      "level": "district",
+      "subdivision": "RAYALASEEMA",
+      "state": "ANDHRA PRADESH",
+      "district": "ANNAMAYYA DISTRICT",
+      "day_actual_mm": 1.6,
+      "day_normal_mm": 2.9,
+      "day_departure_pct": -46.0,
+      "day_category": "D",
+      "period_actual_mm": 141.6,
+      "period_normal_mm": 351.6,
+      "period_departure_pct": -60.0,
+      "period_category": "LD",
+      "scraped_at": "2026-09-22T11:06:53"
     }
   ]
 }
