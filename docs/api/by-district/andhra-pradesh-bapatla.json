@@ -1,7 +1,7 @@
 {
   "state": "ANDHRA PRADESH",
   "district": "BAPATLA",
-  "row_count": 185,
+  "row_count": 186,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3332,6 +3332,24 @@
       "period_departure_pct": -44.0,
       "period_category": "D",
       "scraped_at": "2026-09-22T11:06:53"
+    },
+    {
+      "date": "2026-09-23",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-23",
+      "level": "district",
+      "subdivision": "COASTAL A. P. & YANAM",
+      "state": "ANDHRA PRADESH",
+      "district": "BAPATLA",
+      "day_actual_mm": 7.7,
+      "day_normal_mm": 6.0,
+      "day_departure_pct": 28.0,
+      "day_category": "E",
+      "period_actual_mm": 294.6,
+      "period_normal_mm": 520.2,
+      "period_departure_pct": -43.0,
+      "period_category": "D",
+      "scraped_at": "2026-09-23T10:56:43"
     }
   ]
 }
