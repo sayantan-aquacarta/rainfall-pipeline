@@ -1,7 +1,7 @@
 {
   "state": "SIKKIM",
   "district": "NAMCHI",
-  "row_count": 182,
+  "row_count": 183,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3278,6 +3278,24 @@
       "period_departure_pct": 12.0,
       "period_category": "N",
       "scraped_at": "2026-09-23T10:56:43"
+    },
+    {
+      "date": "2026-09-24",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-24",
+      "level": "district",
+      "subdivision": "SHWB & SIKKIM",
+      "state": "SIKKIM",
+      "district": "NAMCHI",
+      "day_actual_mm": 57.9,
+      "day_normal_mm": 16.5,
+      "day_departure_pct": 251.0,
+      "day_category": "LE",
+      "period_actual_mm": 1844.0,
+      "period_normal_mm": 1617.8,
+      "period_departure_pct": 14.0,
+      "period_category": "N",
+      "scraped_at": "2026-09-24T11:16:14"
     }
   ]
 }

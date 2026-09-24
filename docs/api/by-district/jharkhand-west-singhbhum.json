@@ -1,7 +1,7 @@
 {
   "state": "JHARKHAND",
   "district": "WEST SINGHBHUM",
-  "row_count": 100,
+  "row_count": 101,
   "rows": [
     {
       "date": "2026-06-01",
@@ -1802,6 +1802,24 @@
       "period_departure_pct": 32.0,
       "period_category": "E",
       "scraped_at": "2026-09-23T10:56:43"
+    },
+    {
+      "date": "2026-09-24",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-24",
+      "level": "district",
+      "subdivision": "JHARKHAND",
+      "state": "JHARKHAND",
+      "district": "WEST SINGHBHUM",
+      "day_actual_mm": 24.6,
+      "day_normal_mm": 5.4,
+      "day_departure_pct": 356.0,
+      "day_category": "LE",
+      "period_actual_mm": 1307.4,
+      "period_normal_mm": 974.0,
+      "period_departure_pct": 34.0,
+      "period_category": "E",
+      "scraped_at": "2026-09-24T11:16:14"
     }
   ]
 }

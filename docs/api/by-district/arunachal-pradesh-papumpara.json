@@ -1,7 +1,7 @@
 {
   "state": "ARUNACHAL PRADESH",
   "district": "PAPUMPARA",
-  "row_count": 138,
+  "row_count": 139,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2486,6 +2486,24 @@
       "period_departure_pct": -18.0,
       "period_category": "N",
       "scraped_at": "2026-09-23T10:56:43"
+    },
+    {
+      "date": "2026-09-24",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-24",
+      "level": "district",
+      "subdivision": "ARUNACHAL PRADESH",
+      "state": "ARUNACHAL PRADESH",
+      "district": "PAPUMPARA",
+      "day_actual_mm": 1.7,
+      "day_normal_mm": 26.1,
+      "day_departure_pct": -93.0,
+      "day_category": "LD",
+      "period_actual_mm": 1729.2,
+      "period_normal_mm": 2134.5,
+      "period_departure_pct": -19.0,
+      "period_category": "N",
+      "scraped_at": "2026-09-24T11:16:14"
     }
   ]
 }
