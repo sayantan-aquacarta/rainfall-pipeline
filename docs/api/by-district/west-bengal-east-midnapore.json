@@ -1,7 +1,7 @@
 {
   "state": "WEST BENGAL",
   "district": "EAST MIDNAPORE",
-  "row_count": 141,
+  "row_count": 142,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2540,6 +2540,24 @@
       "period_departure_pct": 50.0,
       "period_category": "E",
       "scraped_at": "2026-09-24T11:16:14"
+    },
+    {
+      "date": "2026-09-25",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-25",
+      "level": "district",
+      "subdivision": "GANGETIC WEST BENGAL",
+      "state": "WEST BENGAL",
+      "district": "EAST MIDNAPORE",
+      "day_actual_mm": 42.8,
+      "day_normal_mm": 19.7,
+      "day_departure_pct": 117.0,
+      "day_category": "LE",
+      "period_actual_mm": 1895.0,
+      "period_normal_mm": 1254.3,
+      "period_departure_pct": 51.0,
+      "period_category": "E",
+      "scraped_at": "2026-09-25T11:20:48"
     }
   ]
 }

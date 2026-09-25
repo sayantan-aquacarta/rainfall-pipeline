@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "REWA",
-  "row_count": 141,
+  "row_count": 142,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2540,6 +2540,24 @@
       "period_departure_pct": -17.0,
       "period_category": "N",
       "scraped_at": "2026-09-24T11:16:14"
+    },
+    {
+      "date": "2026-09-25",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-25",
+      "level": "district",
+      "subdivision": "EAST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "REWA",
+      "day_actual_mm": 24.7,
+      "day_normal_mm": 4.4,
+      "day_departure_pct": 460.0,
+      "day_category": "LE",
+      "period_actual_mm": 832.5,
+      "period_normal_mm": 980.5,
+      "period_departure_pct": -15.0,
+      "period_category": "N",
+      "scraped_at": "2026-09-25T11:20:48"
     }
   ]
 }

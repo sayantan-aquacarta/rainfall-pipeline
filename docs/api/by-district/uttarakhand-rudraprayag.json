@@ -1,7 +1,7 @@
 {
   "state": "UTTARAKHAND",
   "district": "RUDRAPRAYAG",
-  "row_count": 141,
+  "row_count": 142,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2540,6 +2540,24 @@
       "period_departure_pct": -9.0,
       "period_category": "N",
       "scraped_at": "2026-09-24T11:16:14"
+    },
+    {
+      "date": "2026-09-25",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-25",
+      "level": "district",
+      "subdivision": "UTTARAKHAND",
+      "state": "UTTARAKHAND",
+      "district": "RUDRAPRAYAG",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 4.4,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 1395.2,
+      "period_normal_mm": 1540.1,
+      "period_departure_pct": -9.0,
+      "period_category": "N",
+      "scraped_at": "2026-09-25T11:20:48"
     }
   ]
 }

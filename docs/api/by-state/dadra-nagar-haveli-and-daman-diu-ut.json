@@ -1,6 +1,6 @@
 {
   "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
-  "row_count": 441,
+  "row_count": 444,
   "districts": [
     "DADARA & NAGAR HAVELI",
     "DAMAN",
@@ -7944,6 +7944,60 @@
       "period_departure_pct": 23.0,
       "period_category": "E",
       "scraped_at": "2026-09-24T11:16:14"
+    },
+    {
+      "date": "2026-09-25",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-25",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
+      "district": "DADARA & NAGAR HAVELI",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 16.9,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 3182.5,
+      "period_normal_mm": 2269.7,
+      "period_departure_pct": 40.0,
+      "period_category": "E",
+      "scraped_at": "2026-09-25T11:20:48"
+    },
+    {
+      "date": "2026-09-25",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-25",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
+      "district": "DAMAN",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 16.9,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 2847.0,
+      "period_normal_mm": 2269.7,
+      "period_departure_pct": 25.0,
+      "period_category": "E",
+      "scraped_at": "2026-09-25T11:20:48"
+    },
+    {
+      "date": "2026-09-25",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-25",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
+      "district": "DIU",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 11.3,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 906.6,
+      "period_normal_mm": 747.6,
+      "period_departure_pct": 21.0,
+      "period_category": "E",
+      "scraped_at": "2026-09-25T11:20:48"
     }
   ]
 }

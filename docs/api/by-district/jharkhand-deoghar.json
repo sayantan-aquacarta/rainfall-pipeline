@@ -1,7 +1,7 @@
 {
   "state": "JHARKHAND",
   "district": "DEOGHAR",
-  "row_count": 141,
+  "row_count": 142,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2540,6 +2540,24 @@
       "period_departure_pct": -31.0,
       "period_category": "D",
       "scraped_at": "2026-09-24T11:16:14"
+    },
+    {
+      "date": "2026-09-25",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-25",
+      "level": "district",
+      "subdivision": "JHARKHAND",
+      "state": "JHARKHAND",
+      "district": "DEOGHAR",
+      "day_actual_mm": 14.5,
+      "day_normal_mm": 10.3,
+      "day_departure_pct": 41.0,
+      "day_category": "E",
+      "period_actual_mm": 667.8,
+      "period_normal_mm": 952.1,
+      "period_departure_pct": -30.0,
+      "period_category": "D",
+      "scraped_at": "2026-09-25T11:20:48"
     }
   ]
 }
