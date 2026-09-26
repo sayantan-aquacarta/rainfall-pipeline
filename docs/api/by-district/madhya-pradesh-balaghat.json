@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "BALAGHAT",
-  "row_count": 142,
+  "row_count": 143,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2558,6 +2558,24 @@
       "period_departure_pct": -10.0,
       "period_category": "N",
       "scraped_at": "2026-09-25T11:20:48"
+    },
+    {
+      "date": "2026-09-26",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-26",
+      "level": "district",
+      "subdivision": "EAST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "BALAGHAT",
+      "day_actual_mm": 64.4,
+      "day_normal_mm": 3.4,
+      "day_departure_pct": 1794.0,
+      "day_category": "LE",
+      "period_actual_mm": 1162.3,
+      "period_normal_mm": 1224.4,
+      "period_departure_pct": -5.0,
+      "period_category": "N",
+      "scraped_at": "2026-09-26T10:57:41"
     }
   ]
 }
