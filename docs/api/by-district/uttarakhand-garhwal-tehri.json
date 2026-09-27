@@ -1,7 +1,7 @@
 {
   "state": "UTTARAKHAND",
   "district": "GARHWAL TEHRI",
-  "row_count": 143,
+  "row_count": 144,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2576,6 +2576,24 @@
       "period_departure_pct": 25.0,
       "period_category": "E",
       "scraped_at": "2026-09-26T10:57:41"
+    },
+    {
+      "date": "2026-09-27",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-27",
+      "level": "district",
+      "subdivision": "UTTARAKHAND",
+      "state": "UTTARAKHAND",
+      "district": "GARHWAL TEHRI",
+      "day_actual_mm": 49.8,
+      "day_normal_mm": 1.9,
+      "day_departure_pct": 2523.0,
+      "day_category": "LE",
+      "period_actual_mm": 1223.4,
+      "period_normal_mm": 943.2,
+      "period_departure_pct": 30.0,
+      "period_category": "E",
+      "scraped_at": "2026-09-27T11:34:03"
     }
   ]
 }
