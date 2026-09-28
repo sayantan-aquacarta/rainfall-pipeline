@@ -1,7 +1,7 @@
 {
   "state": "TELANGANA",
   "district": "J. BHUPALPALLY",
-  "row_count": 143,
+  "row_count": 144,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2576,6 +2576,24 @@
       "period_departure_pct": -10.0,
       "period_category": "N",
       "scraped_at": "2026-09-27T11:34:03"
+    },
+    {
+      "date": "2026-09-28",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-28",
+      "level": "district",
+      "subdivision": "TELANGANA",
+      "state": "TELANGANA",
+      "district": "J. BHUPALPALLY",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 2.6,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 869.0,
+      "period_normal_mm": 968.4,
+      "period_departure_pct": -10.0,
+      "period_category": "N",
+      "scraped_at": "2026-09-28T13:08:08"
     }
   ]
 }
