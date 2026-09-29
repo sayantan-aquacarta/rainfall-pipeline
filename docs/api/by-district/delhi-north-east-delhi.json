@@ -1,7 +1,7 @@
 {
   "state": "DELHI",
   "district": "NORTH EAST DELHI",
-  "row_count": 179,
+  "row_count": 180,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3224,6 +3224,24 @@
       "period_departure_pct": -12.0,
       "period_category": "N",
       "scraped_at": "2026-09-28T13:08:08"
+    },
+    {
+      "date": "2026-09-29",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-29",
+      "level": "district",
+      "subdivision": "HAR. CHD & DELHI",
+      "state": "DELHI",
+      "district": "NORTH EAST DELHI",
+      "day_actual_mm": 3.2,
+      "day_normal_mm": 0.1,
+      "day_departure_pct": 3100.0,
+      "day_category": "LE",
+      "period_actual_mm": 587.7,
+      "period_normal_mm": 666.4,
+      "period_departure_pct": -12.0,
+      "period_category": "N",
+      "scraped_at": "2026-09-29T12:17:47"
     }
   ]
 }

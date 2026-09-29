@@ -1,7 +1,7 @@
 {
   "state": "TAMILNADU",
   "district": "TIRUPATTUR",
-  "row_count": 191,
+  "row_count": 192,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3440,6 +3440,24 @@
       "period_departure_pct": -42.0,
       "period_category": "D",
       "scraped_at": "2026-09-28T13:08:08"
+    },
+    {
+      "date": "2026-09-29",
+      "period_start": "2026-06-01",
+      "period_end": "2026-09-29",
+      "level": "district",
+      "subdivision": "TAMIL. PUDU.& KARAIKAL",
+      "state": "TAMILNADU",
+      "district": "TIRUPATTUR",
+      "day_actual_mm": 7.2,
+      "day_normal_mm": 6.0,
+      "day_departure_pct": 21.0,
+      "day_category": "E",
+      "period_actual_mm": 246.0,
+      "period_normal_mm": 419.8,
+      "period_departure_pct": -41.0,
+      "period_category": "D",
+      "scraped_at": "2026-09-29T12:17:47"
     }
   ]
 }
