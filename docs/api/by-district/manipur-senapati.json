@@ -1,7 +1,7 @@
 {
   "state": "MANIPUR",
   "district": "SENAPATI",
-  "row_count": 191,
+  "row_count": 192,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3440,6 +3440,24 @@
       "period_departure_pct": -17.0,
       "period_category": "N",
       "scraped_at": "2026-09-30T12:03:19"
+    },
+    {
+      "date": "2026-10-01",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-01",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "MANIPUR",
+      "district": "SENAPATI",
+      "day_actual_mm": 32.4,
+      "day_normal_mm": 4.8,
+      "day_departure_pct": 575.0,
+      "day_category": "LE",
+      "period_actual_mm": 32.4,
+      "period_normal_mm": 4.8,
+      "period_departure_pct": 575.0,
+      "period_category": "LE",
+      "scraped_at": "2026-10-01T12:36:36"
     }
   ]
 }

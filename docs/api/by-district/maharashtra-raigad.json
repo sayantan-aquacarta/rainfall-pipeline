@@ -1,7 +1,7 @@
 {
   "state": "MAHARASHTRA",
   "district": "RAIGAD",
-  "row_count": 192,
+  "row_count": 193,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3458,6 +3458,24 @@
       "period_departure_pct": -6.0,
       "period_category": "N",
       "scraped_at": "2026-09-30T12:03:19"
+    },
+    {
+      "date": "2026-10-01",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-01",
+      "level": "district",
+      "subdivision": "KONKAN & GOA",
+      "state": "MAHARASHTRA",
+      "district": "RAIGAD",
+      "day_actual_mm": 3.9,
+      "day_normal_mm": 5.4,
+      "day_departure_pct": -27.0,
+      "day_category": "D",
+      "period_actual_mm": 3.9,
+      "period_normal_mm": 5.4,
+      "period_departure_pct": -27.0,
+      "period_category": "D",
+      "scraped_at": "2026-10-01T12:36:36"
     }
   ]
 }
