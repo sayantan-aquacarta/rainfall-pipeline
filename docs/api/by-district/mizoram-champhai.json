@@ -1,7 +1,7 @@
 {
   "state": "MIZORAM",
   "district": "CHAMPHAI",
-  "row_count": 149,
+  "row_count": 150,
   "rows": [
     {
       "date": "2026-06-09",
@@ -2684,6 +2684,24 @@
       "period_departure_pct": 143.0,
       "period_category": "LE",
       "scraped_at": "2026-10-03T11:14:14"
+    },
+    {
+      "date": "2026-10-04",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-04",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "MIZORAM",
+      "district": "CHAMPHAI",
+      "day_actual_mm": 5.6,
+      "day_normal_mm": 8.3,
+      "day_departure_pct": -33.0,
+      "day_category": "D",
+      "period_actual_mm": 56.7,
+      "period_normal_mm": 29.3,
+      "period_departure_pct": 93.0,
+      "period_category": "LE",
+      "scraped_at": "2026-10-04T11:54:08"
     }
   ]
 }

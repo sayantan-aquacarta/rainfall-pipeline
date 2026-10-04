@@ -1,7 +1,7 @@
 {
   "state": "ASSAM",
   "district": "BAKSA",
-  "row_count": 193,
+  "row_count": 194,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3476,6 +3476,24 @@
       "period_departure_pct": -47.0,
       "period_category": "D",
       "scraped_at": "2026-10-03T11:14:14"
+    },
+    {
+      "date": "2026-10-04",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-04",
+      "level": "district",
+      "subdivision": "ASSAM & MEGHALAYA",
+      "state": "ASSAM",
+      "district": "BAKSA",
+      "day_actual_mm": 33.9,
+      "day_normal_mm": 4.7,
+      "day_departure_pct": 621.0,
+      "day_category": "LE",
+      "period_actual_mm": 40.8,
+      "period_normal_mm": 17.7,
+      "period_departure_pct": 130.0,
+      "period_category": "LE",
+      "scraped_at": "2026-10-04T11:54:08"
     }
   ]
 }
