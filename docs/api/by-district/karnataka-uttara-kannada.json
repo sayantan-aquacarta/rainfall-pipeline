@@ -1,7 +1,7 @@
 {
   "state": "KARNATAKA",
   "district": "UTTARA KANNADA",
-  "row_count": 150,
+  "row_count": 151,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2702,6 +2702,24 @@
       "period_departure_pct": -90.0,
       "period_category": "LD",
       "scraped_at": "2026-10-04T11:54:08"
+    },
+    {
+      "date": "2026-10-05",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-05",
+      "level": "district",
+      "subdivision": "COASTAL KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "UTTARA KANNADA",
+      "day_actual_mm": 1.8,
+      "day_normal_mm": 7.1,
+      "day_departure_pct": -75.0,
+      "day_category": "LD",
+      "period_actual_mm": 5.7,
+      "period_normal_mm": 45.0,
+      "period_departure_pct": -87.0,
+      "period_category": "LD",
+      "scraped_at": "2026-10-05T13:50:48"
     }
   ]
 }

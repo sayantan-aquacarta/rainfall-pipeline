@@ -1,7 +1,7 @@
 {
   "state": "KERALA",
   "district": "PATHANAMTHITTA",
-  "row_count": 196,
+  "row_count": 197,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3530,6 +3530,24 @@
       "period_departure_pct": 14.0,
       "period_category": "N",
       "scraped_at": "2026-10-04T11:54:08"
+    },
+    {
+      "date": "2026-10-05",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-05",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "PATHANAMTHITTA",
+      "day_actual_mm": 31.9,
+      "day_normal_mm": 9.3,
+      "day_departure_pct": 242.0,
+      "day_category": "LE",
+      "period_actual_mm": 83.3,
+      "period_normal_mm": 54.4,
+      "period_departure_pct": 53.0,
+      "period_category": "E",
+      "scraped_at": "2026-10-05T13:50:48"
     }
   ]
 }

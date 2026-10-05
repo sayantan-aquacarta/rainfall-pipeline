@@ -1,7 +1,7 @@
 {
   "state": "ASSAM",
   "district": "BONGAIGAON",
-  "row_count": 184,
+  "row_count": 185,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3314,6 +3314,24 @@
       "period_departure_pct": -14.0,
       "period_category": "N",
       "scraped_at": "2026-10-04T11:54:08"
+    },
+    {
+      "date": "2026-10-05",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-05",
+      "level": "district",
+      "subdivision": "ASSAM & MEGHALAYA",
+      "state": "ASSAM",
+      "district": "BONGAIGAON",
+      "day_actual_mm": 12.6,
+      "day_normal_mm": 14.1,
+      "day_departure_pct": -11.0,
+      "day_category": "N",
+      "period_actual_mm": 44.1,
+      "period_normal_mm": 50.7,
+      "period_departure_pct": -13.0,
+      "period_category": "N",
+      "scraped_at": "2026-10-05T13:50:48"
     }
   ]
 }
