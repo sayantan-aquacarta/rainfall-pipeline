@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "JAUNPUR",
-  "row_count": 151,
+  "row_count": 152,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2720,6 +2720,24 @@
       "period_departure_pct": -100.0,
       "period_category": "NR",
       "scraped_at": "2026-10-05T13:50:48"
+    },
+    {
+      "date": "2026-10-06",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-06",
+      "level": "district",
+      "subdivision": "EAST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "JAUNPUR",
+      "day_actual_mm": 16.9,
+      "day_normal_mm": 1.7,
+      "day_departure_pct": 893.0,
+      "day_category": "LE",
+      "period_actual_mm": 16.9,
+      "period_normal_mm": 14.5,
+      "period_departure_pct": 16.0,
+      "period_category": "N",
+      "scraped_at": "2026-10-06T12:54:43"
     }
   ]
 }

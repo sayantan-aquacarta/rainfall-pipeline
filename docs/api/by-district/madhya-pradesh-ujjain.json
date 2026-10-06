@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "UJJAIN",
-  "row_count": 151,
+  "row_count": 152,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2720,6 +2720,24 @@
       "period_departure_pct": -100.0,
       "period_category": "NR",
       "scraped_at": "2026-10-05T13:50:48"
+    },
+    {
+      "date": "2026-10-06",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-06",
+      "level": "district",
+      "subdivision": "WEST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "UJJAIN",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 1.2,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 0.0,
+      "period_normal_mm": 9.7,
+      "period_departure_pct": -100.0,
+      "period_category": "NR",
+      "scraped_at": "2026-10-06T12:54:43"
     }
   ]
 }
