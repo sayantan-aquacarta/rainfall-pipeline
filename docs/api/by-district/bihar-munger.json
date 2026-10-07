@@ -1,7 +1,7 @@
 {
   "state": "BIHAR",
   "district": "MUNGER",
-  "row_count": 112,
+  "row_count": 113,
   "rows": [
     {
       "date": "2026-06-01",
@@ -2018,6 +2018,24 @@
       "period_departure_pct": -100.0,
       "period_category": "NR",
       "scraped_at": "2026-10-06T12:54:43"
+    },
+    {
+      "date": "2026-10-07",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-07",
+      "level": "district",
+      "subdivision": "BIHAR",
+      "state": "BIHAR",
+      "district": "MUNGER",
+      "day_actual_mm": 2.4,
+      "day_normal_mm": 4.9,
+      "day_departure_pct": -51.0,
+      "day_category": "D",
+      "period_actual_mm": 2.4,
+      "period_normal_mm": 30.5,
+      "period_departure_pct": -92.0,
+      "period_category": "LD",
+      "scraped_at": "2026-10-07T12:48:39"
     }
   ]
 }
