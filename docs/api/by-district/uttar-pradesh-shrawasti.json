@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "SHRAWASTI",
-  "row_count": 113,
+  "row_count": 114,
   "rows": [
     {
       "date": "2026-06-01",
@@ -2036,6 +2036,24 @@
       "period_departure_pct": 16.0,
       "period_category": "N",
       "scraped_at": "2026-10-07T12:48:39"
+    },
+    {
+      "date": "2026-10-08",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-08",
+      "level": "district",
+      "subdivision": "EAST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "SHRAWASTI",
+      "day_actual_mm": 41.5,
+      "day_normal_mm": 3.4,
+      "day_departure_pct": 1122.0,
+      "day_category": "LE",
+      "period_actual_mm": 60.4,
+      "period_normal_mm": 19.7,
+      "period_departure_pct": 207.0,
+      "period_category": "LE",
+      "scraped_at": "2026-10-08T12:57:39"
     }
   ]
 }
