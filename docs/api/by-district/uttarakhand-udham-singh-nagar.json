@@ -1,7 +1,7 @@
 {
   "state": "UTTARAKHAND",
   "district": "UDHAM SINGH NAGAR",
-  "row_count": 154,
+  "row_count": 155,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2774,6 +2774,24 @@
       "period_departure_pct": 83.0,
       "period_category": "LE",
       "scraped_at": "2026-10-08T12:57:39"
+    },
+    {
+      "date": "2026-10-09",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-09",
+      "level": "district",
+      "subdivision": "UTTARAKHAND",
+      "state": "UTTARAKHAND",
+      "district": "UDHAM SINGH NAGAR",
+      "day_actual_mm": 0.4,
+      "day_normal_mm": 1.0,
+      "day_departure_pct": -60.0,
+      "day_category": "LD",
+      "period_actual_mm": 18.5,
+      "period_normal_mm": 10.9,
+      "period_departure_pct": 69.0,
+      "period_category": "LE",
+      "scraped_at": "2026-10-09T12:43:43"
     }
   ]
 }

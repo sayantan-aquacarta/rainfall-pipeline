@@ -1,7 +1,7 @@
 {
   "state": "PUNJAB",
   "district": "AMRITSAR",
-  "row_count": 154,
+  "row_count": 155,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2774,6 +2774,24 @@
       "period_departure_pct": -85.0,
       "period_category": "LD",
       "scraped_at": "2026-10-08T12:57:39"
+    },
+    {
+      "date": "2026-10-09",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-09",
+      "level": "district",
+      "subdivision": "PUNJAB",
+      "state": "PUNJAB",
+      "district": "AMRITSAR",
+      "day_actual_mm": 2.4,
+      "day_normal_mm": 1.9,
+      "day_departure_pct": 29.0,
+      "day_category": "E",
+      "period_actual_mm": 2.9,
+      "period_normal_mm": 4.7,
+      "period_departure_pct": -39.0,
+      "period_category": "D",
+      "scraped_at": "2026-10-09T12:43:43"
     }
   ]
 }

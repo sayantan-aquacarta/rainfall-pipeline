@@ -1,6 +1,6 @@
 {
   "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
-  "row_count": 480,
+  "row_count": 483,
   "districts": [
     "DADARA & NAGAR HAVELI",
     "DAMAN",
@@ -8646,6 +8646,60 @@
       "period_departure_pct": -100.0,
       "period_category": "NR",
       "scraped_at": "2026-10-08T12:57:39"
+    },
+    {
+      "date": "2026-10-09",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-09",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
+      "district": "DADARA & NAGAR HAVELI",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 1.4,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 0.0,
+      "period_normal_mm": 19.5,
+      "period_departure_pct": -100.0,
+      "period_category": "NR",
+      "scraped_at": "2026-10-09T12:43:43"
+    },
+    {
+      "date": "2026-10-09",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-09",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
+      "district": "DAMAN",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 1.4,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 0.0,
+      "period_normal_mm": 19.5,
+      "period_departure_pct": -100.0,
+      "period_category": "NR",
+      "scraped_at": "2026-10-09T12:43:43"
+    },
+    {
+      "date": "2026-10-09",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-09",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
+      "district": "DIU",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.1,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 0.0,
+      "period_normal_mm": 7.6,
+      "period_departure_pct": -100.0,
+      "period_category": "NR",
+      "scraped_at": "2026-10-09T12:43:43"
     }
   ]
 }
