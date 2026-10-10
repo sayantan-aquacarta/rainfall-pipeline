@@ -1,7 +1,7 @@
 {
   "state": "BIHAR",
   "district": "SITAMARHI",
-  "row_count": 155,
+  "row_count": 156,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2792,6 +2792,24 @@
       "period_departure_pct": -76.0,
       "period_category": "LD",
       "scraped_at": "2026-10-09T12:43:43"
+    },
+    {
+      "date": "2026-10-10",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-10",
+      "level": "district",
+      "subdivision": "BIHAR",
+      "state": "BIHAR",
+      "district": "SITAMARHI",
+      "day_actual_mm": 44.9,
+      "day_normal_mm": 1.4,
+      "day_departure_pct": 3108.0,
+      "day_category": "LE",
+      "period_actual_mm": 52.0,
+      "period_normal_mm": 31.5,
+      "period_departure_pct": 65.0,
+      "period_category": "LE",
+      "scraped_at": "2026-10-10T12:02:28"
     }
   ]
 }

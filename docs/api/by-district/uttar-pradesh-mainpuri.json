@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "MAINPURI",
-  "row_count": 155,
+  "row_count": 156,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2792,6 +2792,24 @@
       "period_departure_pct": -100.0,
       "period_category": "NR",
       "scraped_at": "2026-10-09T12:43:43"
+    },
+    {
+      "date": "2026-10-10",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-10",
+      "level": "district",
+      "subdivision": "WEST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "MAINPURI",
+      "day_actual_mm": 1.7,
+      "day_normal_mm": 1.4,
+      "day_departure_pct": 19.0,
+      "day_category": "N",
+      "period_actual_mm": 1.7,
+      "period_normal_mm": 13.1,
+      "period_departure_pct": -87.0,
+      "period_category": "LD",
+      "scraped_at": "2026-10-10T12:02:28"
     }
   ]
 }

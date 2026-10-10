@@ -1,7 +1,7 @@
 {
   "state": "BIHAR",
   "district": "VAISHALI",
-  "row_count": 155,
+  "row_count": 156,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2792,6 +2792,24 @@
       "period_departure_pct": 8.0,
       "period_category": "N",
       "scraped_at": "2026-10-09T12:43:43"
+    },
+    {
+      "date": "2026-10-10",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-10",
+      "level": "district",
+      "subdivision": "BIHAR",
+      "state": "BIHAR",
+      "district": "VAISHALI",
+      "day_actual_mm": 6.7,
+      "day_normal_mm": 1.9,
+      "day_departure_pct": 254.0,
+      "day_category": "LE",
+      "period_actual_mm": 40.5,
+      "period_normal_mm": 33.2,
+      "period_departure_pct": 22.0,
+      "period_category": "E",
+      "scraped_at": "2026-10-10T12:02:28"
     }
   ]
 }

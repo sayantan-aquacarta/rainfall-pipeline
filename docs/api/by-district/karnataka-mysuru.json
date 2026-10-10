@@ -1,7 +1,7 @@
 {
   "state": "KARNATAKA",
   "district": "MYSURU",
-  "row_count": 201,
+  "row_count": 202,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3620,6 +3620,24 @@
       "period_departure_pct": -49.0,
       "period_category": "D",
       "scraped_at": "2026-10-09T12:43:43"
+    },
+    {
+      "date": "2026-10-10",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-10",
+      "level": "district",
+      "subdivision": "S. I. KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "MYSURU",
+      "day_actual_mm": 2.6,
+      "day_normal_mm": 4.4,
+      "day_departure_pct": -41.0,
+      "day_category": "D",
+      "period_actual_mm": 22.9,
+      "period_normal_mm": 44.0,
+      "period_departure_pct": -48.0,
+      "period_category": "D",
+      "scraped_at": "2026-10-10T12:02:28"
     }
   ]
 }
