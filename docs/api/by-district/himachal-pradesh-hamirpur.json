@@ -1,7 +1,7 @@
 {
   "state": "HIMACHAL PRADESH",
   "district": "HAMIRPUR",
-  "row_count": 157,
+  "row_count": 158,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2828,6 +2828,24 @@
       "period_departure_pct": -81.0,
       "period_category": "LD",
       "scraped_at": "2026-10-11T12:15:18"
+    },
+    {
+      "date": "2026-10-12",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-12",
+      "level": "district",
+      "subdivision": "HIMACHAL PRADESH",
+      "state": "HIMACHAL PRADESH",
+      "district": "HAMIRPUR",
+      "day_actual_mm": 18.8,
+      "day_normal_mm": 0.7,
+      "day_departure_pct": 2593.0,
+      "day_category": "LE",
+      "period_actual_mm": 21.4,
+      "period_normal_mm": 13.9,
+      "period_departure_pct": 54.0,
+      "period_category": "E",
+      "scraped_at": "2026-10-12T14:39:12"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "PUNJAB",
   "district": "GURDASPUR",
-  "row_count": 157,
+  "row_count": 158,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2828,6 +2828,24 @@
       "period_departure_pct": -74.0,
       "period_category": "LD",
       "scraped_at": "2026-10-11T12:15:18"
+    },
+    {
+      "date": "2026-10-12",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-12",
+      "level": "district",
+      "subdivision": "PUNJAB",
+      "state": "PUNJAB",
+      "district": "GURDASPUR",
+      "day_actual_mm": 27.5,
+      "day_normal_mm": 0.4,
+      "day_departure_pct": 6771.0,
+      "day_category": "LE",
+      "period_actual_mm": 30.0,
+      "period_normal_mm": 10.0,
+      "period_departure_pct": 200.0,
+      "period_category": "LE",
+      "scraped_at": "2026-10-12T14:39:12"
     }
   ]
 }
