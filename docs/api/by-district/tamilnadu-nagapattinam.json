@@ -1,7 +1,7 @@
 {
   "state": "TAMILNADU",
   "district": "NAGAPATTINAM",
-  "row_count": 205,
+  "row_count": 206,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3692,6 +3692,24 @@
       "period_departure_pct": -50.0,
       "period_category": "D",
       "scraped_at": "2026-10-13T13:43:23"
+    },
+    {
+      "date": "2026-10-14",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-14",
+      "level": "district",
+      "subdivision": "TAMIL. PUDU.& KARAIKAL",
+      "state": "TAMILNADU",
+      "district": "NAGAPATTINAM",
+      "day_actual_mm": 20.5,
+      "day_normal_mm": 4.5,
+      "day_departure_pct": 356.0,
+      "day_category": "LE",
+      "period_actual_mm": 44.3,
+      "period_normal_mm": 52.4,
+      "period_departure_pct": -15.0,
+      "period_category": "N",
+      "scraped_at": "2026-10-14T11:21:47"
     }
   ]
 }
