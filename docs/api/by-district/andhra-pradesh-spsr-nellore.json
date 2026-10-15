@@ -1,7 +1,7 @@
 {
   "state": "ANDHRA PRADESH",
   "district": "SPSR NELLORE",
-  "row_count": 206,
+  "row_count": 207,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3710,6 +3710,24 @@
       "period_departure_pct": -91.0,
       "period_category": "LD",
       "scraped_at": "2026-10-14T11:21:47"
+    },
+    {
+      "date": "2026-10-15",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-15",
+      "level": "district",
+      "subdivision": "COASTAL A. P. & YANAM",
+      "state": "ANDHRA PRADESH",
+      "district": "SPSR NELLORE",
+      "day_actual_mm": 2.1,
+      "day_normal_mm": 2.9,
+      "day_departure_pct": -28.0,
+      "day_category": "D",
+      "period_actual_mm": 8.3,
+      "period_normal_mm": 73.4,
+      "period_departure_pct": -89.0,
+      "period_category": "LD",
+      "scraped_at": "2026-10-15T10:59:03"
     }
   ]
 }

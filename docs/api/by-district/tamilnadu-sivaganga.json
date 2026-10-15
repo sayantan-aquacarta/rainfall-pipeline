@@ -1,7 +1,7 @@
 {
   "state": "TAMILNADU",
   "district": "SIVAGANGA",
-  "row_count": 206,
+  "row_count": 207,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3710,6 +3710,24 @@
       "period_departure_pct": -63.0,
       "period_category": "LD",
       "scraped_at": "2026-10-14T11:21:47"
+    },
+    {
+      "date": "2026-10-15",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-15",
+      "level": "district",
+      "subdivision": "TAMIL. PUDU.& KARAIKAL",
+      "state": "TAMILNADU",
+      "district": "SIVAGANGA",
+      "day_actual_mm": 10.6,
+      "day_normal_mm": 6.4,
+      "day_departure_pct": 65.0,
+      "day_category": "LE",
+      "period_actual_mm": 35.3,
+      "period_normal_mm": 74.1,
+      "period_departure_pct": -52.0,
+      "period_category": "D",
+      "scraped_at": "2026-10-15T10:59:03"
     }
   ]
 }
