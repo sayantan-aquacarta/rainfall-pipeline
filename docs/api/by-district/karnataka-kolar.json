@@ -1,7 +1,7 @@
 {
   "state": "KARNATAKA",
   "district": "KOLAR",
-  "row_count": 200,
+  "row_count": 201,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3602,6 +3602,24 @@
       "period_departure_pct": -86.0,
       "period_category": "LD",
       "scraped_at": "2026-10-15T10:59:03"
+    },
+    {
+      "date": "2026-10-16",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-16",
+      "level": "district",
+      "subdivision": "S. I. KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "KOLAR",
+      "day_actual_mm": 0.2,
+      "day_normal_mm": 3.9,
+      "day_departure_pct": -95.0,
+      "day_category": "LD",
+      "period_actual_mm": 12.1,
+      "period_normal_mm": 86.9,
+      "period_departure_pct": -86.0,
+      "period_category": "LD",
+      "scraped_at": "2026-10-16T10:52:58"
     }
   ]
 }

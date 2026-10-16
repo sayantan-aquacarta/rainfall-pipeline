@@ -1,7 +1,7 @@
 {
   "state": "MANIPUR",
   "district": "TAMENGLONG",
-  "row_count": 204,
+  "row_count": 205,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3674,6 +3674,24 @@
       "period_departure_pct": -62.0,
       "period_category": "LD",
       "scraped_at": "2026-10-15T10:59:03"
+    },
+    {
+      "date": "2026-10-16",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-16",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "MANIPUR",
+      "district": "TAMENGLONG",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 3.1,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 71.4,
+      "period_normal_mm": 191.2,
+      "period_departure_pct": -63.0,
+      "period_category": "LD",
+      "scraped_at": "2026-10-16T10:52:58"
     }
   ]
 }
