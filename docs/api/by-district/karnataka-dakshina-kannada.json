@@ -1,7 +1,7 @@
 {
   "state": "KARNATAKA",
   "district": "DAKSHINA KANNADA",
-  "row_count": 162,
+  "row_count": 163,
   "rows": [
     {
       "date": "2026-04-13",
@@ -2918,6 +2918,24 @@
       "period_departure_pct": -15.0,
       "period_category": "N",
       "scraped_at": "2026-10-16T10:52:58"
+    },
+    {
+      "date": "2026-10-17",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-17",
+      "level": "district",
+      "subdivision": "COASTAL KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "DAKSHINA KANNADA",
+      "day_actual_mm": 31.7,
+      "day_normal_mm": 7.2,
+      "day_departure_pct": 341.0,
+      "day_category": "LE",
+      "period_actual_mm": 171.2,
+      "period_normal_mm": 170.5,
+      "period_departure_pct": 0.0,
+      "period_category": "N",
+      "scraped_at": "2026-10-17T10:16:27"
     }
   ]
 }

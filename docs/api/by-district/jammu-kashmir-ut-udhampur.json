@@ -1,7 +1,7 @@
 {
   "state": "JAMMU & KASHMIR(UT)",
   "district": "UDHAMPUR",
-  "row_count": 195,
+  "row_count": 196,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3512,6 +3512,24 @@
       "period_departure_pct": 118.0,
       "period_category": "LE",
       "scraped_at": "2026-10-16T10:52:58"
+    },
+    {
+      "date": "2026-10-17",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-17",
+      "level": "district",
+      "subdivision": "J & K AND LADAKH",
+      "state": "JAMMU & KASHMIR(UT)",
+      "district": "UDHAMPUR",
+      "day_actual_mm": 0.3,
+      "day_normal_mm": 3.3,
+      "day_departure_pct": -92.0,
+      "day_category": "LD",
+      "period_actual_mm": 79.9,
+      "period_normal_mm": 39.8,
+      "period_departure_pct": 101.0,
+      "period_category": "LE",
+      "scraped_at": "2026-10-17T10:16:27"
     }
   ]
 }
