@@ -1,7 +1,7 @@
 {
   "state": "KERALA",
   "district": "PALAKKAD",
-  "row_count": 209,
+  "row_count": 210,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3764,6 +3764,24 @@
       "period_departure_pct": -8.0,
       "period_category": "N",
       "scraped_at": "2026-10-17T10:16:27"
+    },
+    {
+      "date": "2026-10-18",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-18",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "PALAKKAD",
+      "day_actual_mm": 0.3,
+      "day_normal_mm": 7.2,
+      "day_departure_pct": -96.0,
+      "day_category": "LD",
+      "period_actual_mm": 116.8,
+      "period_normal_mm": 134.4,
+      "period_departure_pct": -13.0,
+      "period_category": "N",
+      "scraped_at": "2026-10-18T10:31:57"
     }
   ]
 }

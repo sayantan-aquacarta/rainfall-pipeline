@@ -1,7 +1,7 @@
 {
   "state": "TAMILNADU",
   "district": "ERODE",
-  "row_count": 209,
+  "row_count": 210,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3764,6 +3764,24 @@
       "period_departure_pct": 14.0,
       "period_category": "N",
       "scraped_at": "2026-10-17T10:16:27"
+    },
+    {
+      "date": "2026-10-18",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-18",
+      "level": "district",
+      "subdivision": "TAMIL. PUDU.& KARAIKAL",
+      "state": "TAMILNADU",
+      "district": "ERODE",
+      "day_actual_mm": 24.0,
+      "day_normal_mm": 4.2,
+      "day_departure_pct": 472.0,
+      "day_category": "LE",
+      "period_actual_mm": 109.3,
+      "period_normal_mm": 78.8,
+      "period_departure_pct": 39.0,
+      "period_category": "E",
+      "scraped_at": "2026-10-18T10:31:57"
     }
   ]
 }

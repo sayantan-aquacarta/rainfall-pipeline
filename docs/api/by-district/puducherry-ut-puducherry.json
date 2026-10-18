@@ -1,7 +1,7 @@
 {
   "state": "PUDUCHERRY (UT)",
   "district": "PUDUCHERRY",
-  "row_count": 209,
+  "row_count": 210,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3764,6 +3764,24 @@
       "period_departure_pct": -43.0,
       "period_category": "D",
       "scraped_at": "2026-10-17T10:16:27"
+    },
+    {
+      "date": "2026-10-18",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-18",
+      "level": "district",
+      "subdivision": "TAMIL. PUDU.& KARAIKAL",
+      "state": "PUDUCHERRY (UT)",
+      "district": "PUDUCHERRY",
+      "day_actual_mm": 3.2,
+      "day_normal_mm": 9.6,
+      "day_departure_pct": -67.0,
+      "day_category": "LD",
+      "period_actual_mm": 59.6,
+      "period_normal_mm": 107.8,
+      "period_departure_pct": -45.0,
+      "period_category": "D",
+      "scraped_at": "2026-10-18T10:31:57"
     }
   ]
 }
