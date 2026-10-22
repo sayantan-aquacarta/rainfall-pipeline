@@ -1,7 +1,7 @@
 {
   "state": "TAMILNADU",
   "district": "PERAMBALUR",
-  "row_count": 212,
+  "row_count": 213,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3818,6 +3818,24 @@
       "period_departure_pct": 21.0,
       "period_category": "E",
       "scraped_at": "2026-10-21T11:19:07"
+    },
+    {
+      "date": "2026-10-22",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-22",
+      "level": "district",
+      "subdivision": "TAMIL. PUDU.& KARAIKAL",
+      "state": "TAMILNADU",
+      "district": "PERAMBALUR",
+      "day_actual_mm": 3.8,
+      "day_normal_mm": 5.1,
+      "day_departure_pct": -25.0,
+      "day_category": "D",
+      "period_actual_mm": 119.1,
+      "period_normal_mm": 100.5,
+      "period_departure_pct": 18.0,
+      "period_category": "N",
+      "scraped_at": "2026-10-22T11:18:27"
     }
   ]
 }

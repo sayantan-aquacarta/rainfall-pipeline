@@ -1,7 +1,7 @@
 {
   "state": "TAMILNADU",
   "district": "VELLORE",
-  "row_count": 212,
+  "row_count": 213,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3818,6 +3818,24 @@
       "period_departure_pct": 19.0,
       "period_category": "N",
       "scraped_at": "2026-10-21T11:19:07"
+    },
+    {
+      "date": "2026-10-22",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-22",
+      "level": "district",
+      "subdivision": "TAMIL. PUDU.& KARAIKAL",
+      "state": "TAMILNADU",
+      "district": "VELLORE",
+      "day_actual_mm": 13.2,
+      "day_normal_mm": 5.5,
+      "day_departure_pct": 139.0,
+      "day_category": "LE",
+      "period_actual_mm": 131.2,
+      "period_normal_mm": 104.4,
+      "period_departure_pct": 26.0,
+      "period_category": "E",
+      "scraped_at": "2026-10-22T11:18:27"
     }
   ]
 }

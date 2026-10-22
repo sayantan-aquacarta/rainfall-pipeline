@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-21T11:19:24.126724+00:00",
-  "reference_date": "2026-10-21",
+  "generated_at": "2026-10-22T11:18:43.857531+00:00",
+  "reference_date": "2026-10-22",
   "is_stale": false,
   "staleness_days": 0,
-  "latest_available_date": "2026-10-21",
+  "latest_available_date": "2026-10-22",
   "method": "Parameterised gamma (CV=0.32); upgrades to fitted when ≥10 obs",
   "reference": "McKee et al. (1993); WMO-No. 1090 (2012)",
   "cat_colors": {
@@ -21,8 +21,8 @@
     {
       "subdivision": "CHHATTISGARH",
       "period_actual_mm": 3.9,
-      "period_normal_mm": 49.4,
-      "pct_normal": 7.9,
+      "period_normal_mm": 51.0,
+      "pct_normal": 7.6,
       "spi": -4.753,
       "spi_category": "D4",
       "spi_category_name": "Exceptional Drought",
@@ -30,9 +30,9 @@
     },
     {
       "subdivision": "EAST MADHYA PRADESH",
-      "period_actual_mm": 1.0,
-      "period_normal_mm": 32.6,
-      "pct_normal": 3.1,
+      "period_actual_mm": 1.2,
+      "period_normal_mm": 32.9,
+      "pct_normal": 3.6,
       "spi": -4.753,
       "spi_category": "D4",
       "spi_category_name": "Exceptional Drought",
@@ -41,7 +41,7 @@
     {
       "subdivision": "GUJARAT REGION",
       "period_actual_mm": 0.0,
-      "period_normal_mm": 19.4,
+      "period_normal_mm": 19.7,
       "pct_normal": 0.0,
       "spi": -4.753,
       "spi_category": "D4",
@@ -51,8 +51,8 @@
     {
       "subdivision": "MADHYA MAHARASHTRA",
       "period_actual_mm": 2.8,
-      "period_normal_mm": 64.8,
-      "pct_normal": 4.3,
+      "period_normal_mm": 66.2,
+      "pct_normal": 4.2,
       "spi": -4.753,
       "spi_category": "D4",
       "spi_category_name": "Exceptional Drought",
@@ -61,7 +61,7 @@
     {
       "subdivision": "MARATHWADA",
       "period_actual_mm": 0.0,
-      "period_normal_mm": 61.1,
+      "period_normal_mm": 63.1,
       "pct_normal": 0.0,
       "spi": -4.753,
       "spi_category": "D4",
@@ -70,9 +70,9 @@
     },
     {
       "subdivision": "N. I. KARNATAKA",
-      "period_actual_mm": 10.2,
-      "period_normal_mm": 84.5,
-      "pct_normal": 12.1,
+      "period_actual_mm": 10.3,
+      "period_normal_mm": 86.7,
+      "pct_normal": 11.9,
       "spi": -4.753,
       "spi_category": "D4",
       "spi_category_name": "Exceptional Drought",
@@ -81,8 +81,8 @@
     {
       "subdivision": "SAURASHTRA & KUTCH",
       "period_actual_mm": 0.6,
-      "period_normal_mm": 14.7,
-      "pct_normal": 4.1,
+      "period_normal_mm": 15.4,
+      "pct_normal": 3.9,
       "spi": -4.753,
       "spi_category": "D4",
       "spi_category_name": "Exceptional Drought",
@@ -90,8 +90,8 @@
     },
     {
       "subdivision": "TELANGANA",
-      "period_actual_mm": 4.8,
-      "period_normal_mm": 75.6,
+      "period_actual_mm": 4.9,
+      "period_normal_mm": 77.9,
       "pct_normal": 6.3,
       "spi": -4.753,
       "spi_category": "D4",
@@ -101,7 +101,7 @@
     {
       "subdivision": "VIDARBHA",
       "period_actual_mm": 0.2,
-      "period_normal_mm": 47.5,
+      "period_normal_mm": 48.8,
       "pct_normal": 0.4,
       "spi": -4.753,
       "spi_category": "D4",
@@ -111,19 +111,19 @@
     {
       "subdivision": "KONKAN & GOA",
       "period_actual_mm": 12.8,
-      "period_normal_mm": 100.2,
-      "pct_normal": 12.8,
-      "spi": -4.694,
+      "period_normal_mm": 102.1,
+      "pct_normal": 12.5,
+      "spi": -4.727,
       "spi_category": "D4",
       "spi_category_name": "Exceptional Drought",
       "imd_category": "LD"
     },
     {
       "subdivision": "WEST MADHYA PRADESH",
-      "period_actual_mm": 3.5,
-      "period_normal_mm": 26.5,
-      "pct_normal": 13.2,
-      "spi": -4.635,
+      "period_actual_mm": 4.1,
+      "period_normal_mm": 26.7,
+      "pct_normal": 15.4,
+      "spi": -4.362,
       "spi_category": "D4",
       "spi_category_name": "Exceptional Drought",
       "imd_category": "LD"
@@ -131,9 +131,9 @@
     {
       "subdivision": "ODISHA",
       "period_actual_mm": 15.3,
-      "period_normal_mm": 89.9,
-      "pct_normal": 17.0,
-      "spi": -4.17,
+      "period_normal_mm": 92.0,
+      "pct_normal": 16.6,
+      "spi": -4.213,
       "spi_category": "D4",
       "spi_category_name": "Exceptional Drought",
       "imd_category": "LD"
@@ -141,9 +141,9 @@
     {
       "subdivision": "GANGETIC WEST BENGAL",
       "period_actual_mm": 22.6,
-      "period_normal_mm": 109.5,
-      "pct_normal": 20.6,
-      "spi": -3.797,
+      "period_normal_mm": 113.1,
+      "pct_normal": 20.0,
+      "spi": -3.861,
       "spi_category": "D4",
       "spi_category_name": "Exceptional Drought",
       "imd_category": "LD"
@@ -151,19 +151,9 @@
     {
       "subdivision": "ASSAM & MEGHALAYA",
       "period_actual_mm": 34.6,
-      "period_normal_mm": 128.9,
-      "pct_normal": 26.8,
-      "spi": -3.261,
-      "spi_category": "D4",
-      "spi_category_name": "Exceptional Drought",
-      "imd_category": "LD"
-    },
-    {
-      "subdivision": "COASTAL A. P. & YANAM",
-      "period_actual_mm": 34.5,
-      "period_normal_mm": 125.8,
-      "pct_normal": 27.4,
-      "spi": -3.215,
+      "period_normal_mm": 132.0,
+      "pct_normal": 26.2,
+      "spi": -3.311,
       "spi_category": "D4",
       "spi_category_name": "Exceptional Drought",
       "imd_category": "LD"
@@ -171,9 +161,19 @@
     {
       "subdivision": "ARUNACHAL PRADESH",
       "period_actual_mm": 41.8,
-      "period_normal_mm": 142.2,
-      "pct_normal": 29.4,
-      "spi": -3.067,
+      "period_normal_mm": 148.8,
+      "pct_normal": 28.1,
+      "spi": -3.164,
+      "spi_category": "D4",
+      "spi_category_name": "Exceptional Drought",
+      "imd_category": "LD"
+    },
+    {
+      "subdivision": "COASTAL A. P. & YANAM",
+      "period_actual_mm": 38.1,
+      "period_normal_mm": 131.0,
+      "pct_normal": 29.1,
+      "spi": -3.089,
       "spi_category": "D4",
       "spi_category_name": "Exceptional Drought",
       "imd_category": "LD"
@@ -181,9 +181,9 @@
     {
       "subdivision": "SHWB & SIKKIM",
       "period_actual_mm": 43.1,
-      "period_normal_mm": 126.0,
-      "pct_normal": 34.2,
-      "spi": -2.732,
+      "period_normal_mm": 130.0,
+      "pct_normal": 33.2,
+      "spi": -2.802,
       "spi_category": "D4",
       "spi_category_name": "Exceptional Drought",
       "imd_category": "LD"
@@ -191,9 +191,9 @@
     {
       "subdivision": "JHARKHAND",
       "period_actual_mm": 23.7,
-      "period_normal_mm": 63.0,
-      "pct_normal": 37.6,
-      "spi": -2.515,
+      "period_normal_mm": 64.6,
+      "pct_normal": 36.7,
+      "spi": -2.573,
       "spi_category": "D4",
       "spi_category_name": "Exceptional Drought",
       "imd_category": "LD"
@@ -201,9 +201,9 @@
     {
       "subdivision": "WEST RAJASTHAN",
       "period_actual_mm": 2.6,
-      "period_normal_mm": 6.7,
-      "pct_normal": 38.8,
-      "spi": -2.443,
+      "period_normal_mm": 6.8,
+      "pct_normal": 38.2,
+      "spi": -2.477,
       "spi_category": "D4",
       "spi_category_name": "Exceptional Drought",
       "imd_category": "LD"
@@ -211,9 +211,9 @@
     {
       "subdivision": "EAST UTTAR PRADESH",
       "period_actual_mm": 14.4,
-      "period_normal_mm": 32.6,
-      "pct_normal": 44.2,
-      "spi": -2.135,
+      "period_normal_mm": 32.8,
+      "pct_normal": 43.9,
+      "spi": -2.15,
       "spi_category": "D4",
       "spi_category_name": "Exceptional Drought",
       "imd_category": "D"
@@ -221,9 +221,9 @@
     {
       "subdivision": "BIHAR",
       "period_actual_mm": 25.4,
-      "period_normal_mm": 53.6,
-      "pct_normal": 47.4,
-      "spi": -1.964,
+      "period_normal_mm": 54.2,
+      "pct_normal": 46.9,
+      "spi": -1.991,
       "spi_category": "D3",
       "spi_category_name": "Extreme Drought",
       "imd_category": "D"
@@ -231,59 +231,49 @@
     {
       "subdivision": "EAST RAJASTHAN",
       "period_actual_mm": 6.9,
-      "period_normal_mm": 13.6,
-      "pct_normal": 50.7,
-      "spi": -1.793,
-      "spi_category": "D3",
-      "spi_category_name": "Extreme Drought",
-      "imd_category": "D"
-    },
-    {
-      "subdivision": "LAKSHADWEEP",
-      "period_actual_mm": 49.8,
-      "period_normal_mm": 95.9,
-      "pct_normal": 51.9,
-      "spi": -1.735,
+      "period_normal_mm": 13.8,
+      "pct_normal": 50.0,
+      "spi": -1.83,
       "spi_category": "D3",
       "spi_category_name": "Extreme Drought",
       "imd_category": "D"
     },
     {
       "subdivision": "NMMT",
-      "period_actual_mm": 62.7,
-      "period_normal_mm": 120.6,
-      "pct_normal": 52.0,
-      "spi": -1.732,
+      "period_actual_mm": 62.8,
+      "period_normal_mm": 124.9,
+      "pct_normal": 50.3,
+      "spi": -1.816,
       "spi_category": "D3",
       "spi_category_name": "Extreme Drought",
       "imd_category": "D"
     },
     {
       "subdivision": "A & N ISLAND",
-      "period_actual_mm": 110.9,
-      "period_normal_mm": 212.8,
-      "pct_normal": 52.1,
-      "spi": -1.726,
-      "spi_category": "D3",
-      "spi_category_name": "Extreme Drought",
+      "period_actual_mm": 131.9,
+      "period_normal_mm": 218.6,
+      "pct_normal": 60.3,
+      "spi": -1.345,
+      "spi_category": "D2",
+      "spi_category_name": "Severe Drought",
       "imd_category": "D"
     },
     {
       "subdivision": "S. I. KARNATAKA",
-      "period_actual_mm": 63.1,
-      "period_normal_mm": 100.1,
-      "pct_normal": 63.0,
-      "spi": -1.229,
-      "spi_category": "D1",
-      "spi_category_name": "Moderate Drought",
+      "period_actual_mm": 63.2,
+      "period_normal_mm": 103.9,
+      "pct_normal": 60.8,
+      "spi": -1.324,
+      "spi_category": "D2",
+      "spi_category_name": "Severe Drought",
       "imd_category": "D"
     },
     {
       "subdivision": "RAYALASEEMA",
-      "period_actual_mm": 58.4,
-      "period_normal_mm": 91.8,
-      "pct_normal": 63.6,
-      "spi": -1.204,
+      "period_actual_mm": 62.8,
+      "period_normal_mm": 96.3,
+      "pct_normal": 65.2,
+      "spi": -1.137,
       "spi_category": "D1",
       "spi_category_name": "Moderate Drought",
       "imd_category": "D"
@@ -291,21 +281,31 @@
     {
       "subdivision": "COASTAL KARNATAKA",
       "period_actual_mm": 102.0,
-      "period_normal_mm": 146.9,
-      "pct_normal": 69.4,
-      "spi": -0.965,
+      "period_normal_mm": 152.2,
+      "pct_normal": 67.0,
+      "spi": -1.062,
+      "spi_category": "D1",
+      "spi_category_name": "Moderate Drought",
+      "imd_category": "D"
+    },
+    {
+      "subdivision": "LAKSHADWEEP",
+      "period_actual_mm": 71.1,
+      "period_normal_mm": 103.5,
+      "pct_normal": 68.7,
+      "spi": -0.994,
       "spi_category": "D1",
       "spi_category_name": "Moderate Drought",
       "imd_category": "D"
     },
     {
       "subdivision": "KERALA & MAHE",
-      "period_actual_mm": 153.0,
-      "period_normal_mm": 216.0,
-      "pct_normal": 70.8,
-      "spi": -0.909,
-      "spi_category": "D1",
-      "spi_category_name": "Moderate Drought",
+      "period_actual_mm": 181.9,
+      "period_normal_mm": 226.6,
+      "pct_normal": 80.3,
+      "spi": -0.554,
+      "spi_category": "D0",
+      "spi_category_name": "Abnormally Dry",
       "imd_category": "D"
     },
     {
@@ -321,29 +321,29 @@
     {
       "subdivision": "UTTARAKHAND",
       "period_actual_mm": 31.1,
-      "period_normal_mm": 28.8,
-      "pct_normal": 108.0,
-      "spi": 0.349,
+      "period_normal_mm": 28.9,
+      "pct_normal": 107.6,
+      "spi": 0.338,
       "spi_category": "NN",
       "spi_category_name": "Near Normal",
       "imd_category": "N"
     },
     {
       "subdivision": "TAMIL. PUDU.& KARAIKAL",
-      "period_actual_mm": 114.5,
-      "period_normal_mm": 101.9,
-      "pct_normal": 112.4,
-      "spi": 0.477,
-      "spi_category": "NN",
-      "spi_category_name": "Near Normal",
-      "imd_category": "N"
+      "period_actual_mm": 133.4,
+      "period_normal_mm": 108.6,
+      "pct_normal": 122.8,
+      "spi": 0.771,
+      "spi_category": "W0",
+      "spi_category_name": "Abnormally Wet",
+      "imd_category": "E"
     },
     {
       "subdivision": "HIMACHAL PRADESH",
       "period_actual_mm": 29.7,
-      "period_normal_mm": 21.2,
-      "pct_normal": 140.1,
-      "spi": 1.22,
+      "period_normal_mm": 21.5,
+      "pct_normal": 138.1,
+      "spi": 1.171,
       "spi_category": "W1",
       "spi_category_name": "Moderately Wet",
       "imd_category": "E"
@@ -351,12 +351,12 @@
     {
       "subdivision": "J & K AND LADAKH",
       "period_actual_mm": 42.0,
-      "period_normal_mm": 25.5,
-      "pct_normal": 164.7,
-      "spi": 1.803,
+      "period_normal_mm": 26.7,
+      "pct_normal": 157.3,
+      "spi": 1.634,
       "spi_category": "W2",
       "spi_category_name": "Severely Wet",
-      "imd_category": "LE"
+      "imd_category": "E"
     },
     {
       "subdivision": "HAR. CHD & DELHI",
