@@ -1,7 +1,7 @@
 {
   "state": "TELANGANA",
   "district": "NAGARKURNOOL",
-  "row_count": 167,
+  "row_count": 168,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3008,6 +3008,24 @@
       "period_departure_pct": -90.0,
       "period_category": "LD",
       "scraped_at": "2026-10-22T11:18:27"
+    },
+    {
+      "date": "2026-10-23",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-23",
+      "level": "district",
+      "subdivision": "TELANGANA",
+      "state": "TELANGANA",
+      "district": "NAGARKURNOOL",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 2.8,
+      "day_departure_pct": -99.0,
+      "day_category": "LD",
+      "period_actual_mm": 8.5,
+      "period_normal_mm": 84.5,
+      "period_departure_pct": -90.0,
+      "period_category": "LD",
+      "scraped_at": "2026-10-23T11:09:30"
     }
   ]
 }

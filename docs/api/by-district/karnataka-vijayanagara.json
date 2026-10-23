@@ -1,7 +1,7 @@
 {
   "state": "KARNATAKA",
   "district": "VIJAYANAGARA",
-  "row_count": 209,
+  "row_count": 210,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3764,6 +3764,24 @@
       "period_departure_pct": -62.0,
       "period_category": "LD",
       "scraped_at": "2026-10-22T11:18:27"
+    },
+    {
+      "date": "2026-10-23",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-23",
+      "level": "district",
+      "subdivision": "S. I. KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "VIJAYANAGARA",
+      "day_actual_mm": 1.1,
+      "day_normal_mm": 2.7,
+      "day_departure_pct": -59.0,
+      "day_category": "D",
+      "period_actual_mm": 33.6,
+      "period_normal_mm": 88.6,
+      "period_departure_pct": -62.0,
+      "period_category": "LD",
+      "scraped_at": "2026-10-23T11:09:30"
     }
   ]
 }
