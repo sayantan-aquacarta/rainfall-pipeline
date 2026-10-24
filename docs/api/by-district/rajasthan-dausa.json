@@ -1,7 +1,7 @@
 {
   "state": "RAJASTHAN",
   "district": "DAUSA",
-  "row_count": 168,
+  "row_count": 169,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3026,6 +3026,24 @@
       "period_departure_pct": -49.0,
       "period_category": "D",
       "scraped_at": "2026-10-23T11:09:30"
+    },
+    {
+      "date": "2026-10-24",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-24",
+      "level": "district",
+      "subdivision": "EAST RAJASTHAN",
+      "state": "RAJASTHAN",
+      "district": "DAUSA",
+      "day_actual_mm": 2.6,
+      "day_normal_mm": 0.1,
+      "day_departure_pct": 2500.0,
+      "day_category": "LE",
+      "period_actual_mm": 9.2,
+      "period_normal_mm": 13.0,
+      "period_departure_pct": -29.0,
+      "period_category": "D",
+      "scraped_at": "2026-10-24T10:26:34"
     }
   ]
 }

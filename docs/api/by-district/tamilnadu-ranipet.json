@@ -1,7 +1,7 @@
 {
   "state": "TAMILNADU",
   "district": "RANIPET",
-  "row_count": 214,
+  "row_count": 215,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3854,6 +3854,24 @@
       "period_departure_pct": 58.0,
       "period_category": "E",
       "scraped_at": "2026-10-23T11:09:30"
+    },
+    {
+      "date": "2026-10-24",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-24",
+      "level": "district",
+      "subdivision": "TAMIL. PUDU.& KARAIKAL",
+      "state": "TAMILNADU",
+      "district": "RANIPET",
+      "day_actual_mm": 13.6,
+      "day_normal_mm": 7.0,
+      "day_departure_pct": 94.0,
+      "day_category": "LE",
+      "period_actual_mm": 176.2,
+      "period_normal_mm": 110.2,
+      "period_departure_pct": 60.0,
+      "period_category": "LE",
+      "scraped_at": "2026-10-24T10:26:34"
     }
   ]
 }

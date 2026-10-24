@@ -1,7 +1,7 @@
 {
   "state": "JAMMU & KASHMIR(UT)",
   "district": "BANDIPORA",
-  "row_count": 174,
+  "row_count": 175,
   "rows": [
     {
       "date": "2026-06-01",
@@ -3134,6 +3134,24 @@
       "period_departure_pct": 86.0,
       "period_category": "LE",
       "scraped_at": "2026-10-23T11:09:30"
+    },
+    {
+      "date": "2026-10-24",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-24",
+      "level": "district",
+      "subdivision": "J & K AND LADAKH",
+      "state": "JAMMU & KASHMIR(UT)",
+      "district": "BANDIPORA",
+      "day_actual_mm": 0.5,
+      "day_normal_mm": 1.0,
+      "day_departure_pct": -50.0,
+      "day_category": "D",
+      "period_actual_mm": 37.6,
+      "period_normal_mm": 20.9,
+      "period_departure_pct": 80.0,
+      "period_category": "LE",
+      "scraped_at": "2026-10-24T10:26:34"
     }
   ]
 }
