@@ -1,7 +1,7 @@
 {
   "state": "TAMILNADU",
   "district": "THOOTHUKUDI",
-  "row_count": 175,
+  "row_count": 176,
   "rows": [
     {
       "date": "2026-06-01",
@@ -3152,6 +3152,24 @@
       "period_departure_pct": 20.0,
       "period_category": "E",
       "scraped_at": "2026-10-24T10:26:34"
+    },
+    {
+      "date": "2026-10-25",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-25",
+      "level": "district",
+      "subdivision": "TAMIL. PUDU.& KARAIKAL",
+      "state": "TAMILNADU",
+      "district": "THOOTHUKUDI",
+      "day_actual_mm": 5.2,
+      "day_normal_mm": 8.6,
+      "day_departure_pct": -39.0,
+      "day_category": "D",
+      "period_actual_mm": 127.5,
+      "period_normal_mm": 110.1,
+      "period_departure_pct": 16.0,
+      "period_category": "N",
+      "scraped_at": "2026-10-25T10:54:04"
     }
   ]
 }

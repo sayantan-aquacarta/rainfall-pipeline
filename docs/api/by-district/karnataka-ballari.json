@@ -1,7 +1,7 @@
 {
   "state": "KARNATAKA",
   "district": "BALLARI",
-  "row_count": 213,
+  "row_count": 214,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3836,6 +3836,24 @@
       "period_departure_pct": -86.0,
       "period_category": "LD",
       "scraped_at": "2026-10-24T10:26:34"
+    },
+    {
+      "date": "2026-10-25",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-25",
+      "level": "district",
+      "subdivision": "S. I. KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "BALLARI",
+      "day_actual_mm": 1.7,
+      "day_normal_mm": 3.3,
+      "day_departure_pct": -49.0,
+      "day_category": "D",
+      "period_actual_mm": 14.8,
+      "period_normal_mm": 96.0,
+      "period_departure_pct": -85.0,
+      "period_category": "LD",
+      "scraped_at": "2026-10-25T10:54:04"
     }
   ]
 }
