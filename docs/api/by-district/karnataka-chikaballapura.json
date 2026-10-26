@@ -1,7 +1,7 @@
 {
   "state": "KARNATAKA",
   "district": "CHIKABALLAPURA",
-  "row_count": 212,
+  "row_count": 213,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3818,6 +3818,24 @@
       "period_departure_pct": -3.0,
       "period_category": "N",
       "scraped_at": "2026-10-25T10:54:04"
+    },
+    {
+      "date": "2026-10-26",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-26",
+      "level": "district",
+      "subdivision": "S. I. KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "CHIKABALLAPURA",
+      "day_actual_mm": 4.8,
+      "day_normal_mm": 4.0,
+      "day_departure_pct": 19.0,
+      "day_category": "N",
+      "period_actual_mm": 116.1,
+      "period_normal_mm": 118.9,
+      "period_departure_pct": -2.0,
+      "period_category": "N",
+      "scraped_at": "2026-10-26T12:24:52"
     }
   ]
 }

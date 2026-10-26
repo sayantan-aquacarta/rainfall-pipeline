@@ -1,7 +1,7 @@
 {
   "state": "KERALA",
   "district": "IDUKKI",
-  "row_count": 216,
+  "row_count": 217,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3890,6 +3890,24 @@
       "period_departure_pct": -21.0,
       "period_category": "D",
       "scraped_at": "2026-10-25T10:54:04"
+    },
+    {
+      "date": "2026-10-26",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-26",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "IDUKKI",
+      "day_actual_mm": 14.3,
+      "day_normal_mm": 9.7,
+      "day_departure_pct": 47.0,
+      "day_category": "E",
+      "period_actual_mm": 259.7,
+      "period_normal_mm": 321.1,
+      "period_departure_pct": -19.0,
+      "period_category": "N",
+      "scraped_at": "2026-10-26T12:24:52"
     }
   ]
 }

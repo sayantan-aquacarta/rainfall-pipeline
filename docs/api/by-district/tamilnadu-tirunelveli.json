@@ -1,7 +1,7 @@
 {
   "state": "TAMILNADU",
   "district": "TIRUNELVELI",
-  "row_count": 216,
+  "row_count": 217,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3890,6 +3890,24 @@
       "period_departure_pct": 116.0,
       "period_category": "LE",
       "scraped_at": "2026-10-25T10:54:04"
+    },
+    {
+      "date": "2026-10-26",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-26",
+      "level": "district",
+      "subdivision": "TAMIL. PUDU.& KARAIKAL",
+      "state": "TAMILNADU",
+      "district": "TIRUNELVELI",
+      "day_actual_mm": 23.8,
+      "day_normal_mm": 6.9,
+      "day_departure_pct": 244.0,
+      "day_category": "LE",
+      "period_actual_mm": 254.8,
+      "period_normal_mm": 114.0,
+      "period_departure_pct": 123.0,
+      "period_category": "LE",
+      "scraped_at": "2026-10-26T12:24:52"
     }
   ]
 }
