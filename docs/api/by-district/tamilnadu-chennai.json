@@ -1,7 +1,7 @@
 {
   "state": "TAMILNADU",
   "district": "CHENNAI",
-  "row_count": 217,
+  "row_count": 218,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3908,6 +3908,24 @@
       "period_departure_pct": 37.0,
       "period_category": "E",
       "scraped_at": "2026-10-26T12:24:52"
+    },
+    {
+      "date": "2026-10-27",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-27",
+      "level": "district",
+      "subdivision": "TAMIL. PUDU.& KARAIKAL",
+      "state": "TAMILNADU",
+      "district": "CHENNAI",
+      "day_actual_mm": 0.1,
+      "day_normal_mm": 21.0,
+      "day_departure_pct": -99.0,
+      "day_category": "LD",
+      "period_actual_mm": 269.8,
+      "period_normal_mm": 217.3,
+      "period_departure_pct": 24.0,
+      "period_category": "E",
+      "scraped_at": "2026-10-27T11:43:44"
     }
   ]
 }

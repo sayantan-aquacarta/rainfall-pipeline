@@ -1,7 +1,7 @@
 {
   "state": "KERALA",
   "district": "THIRUVANANTHAPURAM",
-  "row_count": 217,
+  "row_count": 218,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3908,6 +3908,24 @@
       "period_departure_pct": 25.0,
       "period_category": "E",
       "scraped_at": "2026-10-26T12:24:52"
+    },
+    {
+      "date": "2026-10-27",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-27",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "THIRUVANANTHAPURAM",
+      "day_actual_mm": 14.1,
+      "day_normal_mm": 8.3,
+      "day_departure_pct": 70.0,
+      "day_category": "LE",
+      "period_actual_mm": 295.7,
+      "period_normal_mm": 232.8,
+      "period_departure_pct": 27.0,
+      "period_category": "E",
+      "scraped_at": "2026-10-27T11:43:44"
     }
   ]
 }

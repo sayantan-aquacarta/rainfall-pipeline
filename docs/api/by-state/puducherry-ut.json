@@ -1,6 +1,6 @@
 {
   "state": "PUDUCHERRY (UT)",
-  "row_count": 800,
+  "row_count": 803,
   "districts": [
     "KARAIKAL",
     "MAHE",
@@ -14407,6 +14407,60 @@
       "period_departure_pct": -8.0,
       "period_category": "N",
       "scraped_at": "2026-10-26T12:24:52"
+    },
+    {
+      "date": "2026-10-27",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-27",
+      "level": "district",
+      "subdivision": "COASTAL A. P. & YANAM",
+      "state": "PUDUCHERRY (UT)",
+      "district": "YANAM",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 5.5,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 142.4,
+      "period_normal_mm": 242.4,
+      "period_departure_pct": -41.0,
+      "period_category": "D",
+      "scraped_at": "2026-10-27T11:43:44"
+    },
+    {
+      "date": "2026-10-27",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-27",
+      "level": "district",
+      "subdivision": "TAMIL. PUDU.& KARAIKAL",
+      "state": "PUDUCHERRY (UT)",
+      "district": "KARAIKAL",
+      "day_actual_mm": 33.2,
+      "day_normal_mm": 19.3,
+      "day_departure_pct": 72.0,
+      "day_category": "LE",
+      "period_actual_mm": 434.9,
+      "period_normal_mm": 202.9,
+      "period_departure_pct": 114.0,
+      "period_category": "LE",
+      "scraped_at": "2026-10-27T11:43:44"
+    },
+    {
+      "date": "2026-10-27",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-27",
+      "level": "district",
+      "subdivision": "TAMIL. PUDU.& KARAIKAL",
+      "state": "PUDUCHERRY (UT)",
+      "district": "PUDUCHERRY",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 16.4,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 185.2,
+      "period_normal_mm": 218.6,
+      "period_departure_pct": -15.0,
+      "period_category": "N",
+      "scraped_at": "2026-10-27T11:43:44"
     }
   ]
 }
