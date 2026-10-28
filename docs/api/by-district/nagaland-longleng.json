@@ -1,7 +1,7 @@
 {
   "state": "NAGALAND",
   "district": "LONGLENG",
-  "row_count": 22,
+  "row_count": 23,
   "rows": [
     {
       "date": "2026-06-12",
@@ -398,6 +398,24 @@
       "period_departure_pct": -95.0,
       "period_category": "LD",
       "scraped_at": "2026-10-27T11:43:44"
+    },
+    {
+      "date": "2026-10-28",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-28",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "NAGALAND",
+      "district": "LONGLENG",
+      "day_actual_mm": 0.2,
+      "day_normal_mm": 0.6,
+      "day_departure_pct": -67.0,
+      "day_category": "LD",
+      "period_actual_mm": 5.6,
+      "period_normal_mm": 106.9,
+      "period_departure_pct": -95.0,
+      "period_category": "LD",
+      "scraped_at": "2026-10-28T12:16:43"
     }
   ]
 }
