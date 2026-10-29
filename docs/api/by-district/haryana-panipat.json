@@ -1,7 +1,7 @@
 {
   "state": "HARYANA",
   "district": "PANIPAT",
-  "row_count": 219,
+  "row_count": 220,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3944,6 +3944,24 @@
       "period_departure_pct": 578.0,
       "period_category": "LE",
       "scraped_at": "2026-10-28T12:16:43"
+    },
+    {
+      "date": "2026-10-29",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-29",
+      "level": "district",
+      "subdivision": "HAR. CHD & DELHI",
+      "state": "HARYANA",
+      "district": "PANIPAT",
+      "day_actual_mm": 1.1,
+      "day_normal_mm": 0.2,
+      "day_departure_pct": 442.0,
+      "day_category": "LE",
+      "period_actual_mm": 57.9,
+      "period_normal_mm": 8.5,
+      "period_departure_pct": 575.0,
+      "period_category": "LE",
+      "scraped_at": "2026-10-29T12:26:15"
     }
   ]
 }

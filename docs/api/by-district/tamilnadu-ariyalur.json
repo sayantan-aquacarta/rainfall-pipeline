@@ -1,7 +1,7 @@
 {
   "state": "TAMILNADU",
   "district": "ARIYALUR",
-  "row_count": 219,
+  "row_count": 220,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3944,6 +3944,24 @@
       "period_departure_pct": 24.0,
       "period_category": "E",
       "scraped_at": "2026-10-28T12:16:43"
+    },
+    {
+      "date": "2026-10-29",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-29",
+      "level": "district",
+      "subdivision": "TAMIL. PUDU.& KARAIKAL",
+      "state": "TAMILNADU",
+      "district": "ARIYALUR",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 8.6,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 168.1,
+      "period_normal_mm": 144.4,
+      "period_departure_pct": 16.0,
+      "period_category": "N",
+      "scraped_at": "2026-10-29T12:26:15"
     }
   ]
 }

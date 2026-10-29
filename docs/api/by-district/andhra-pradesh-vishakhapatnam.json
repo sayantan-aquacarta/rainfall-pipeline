@@ -1,7 +1,7 @@
 {
   "state": "ANDHRA PRADESH",
   "district": "VISHAKHAPATNAM",
-  "row_count": 219,
+  "row_count": 220,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3944,6 +3944,24 @@
       "period_departure_pct": 31.0,
       "period_category": "E",
       "scraped_at": "2026-10-28T12:16:43"
+    },
+    {
+      "date": "2026-10-29",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-29",
+      "level": "district",
+      "subdivision": "COASTAL A. P. & YANAM",
+      "state": "ANDHRA PRADESH",
+      "district": "VISHAKHAPATNAM",
+      "day_actual_mm": 42.9,
+      "day_normal_mm": 5.1,
+      "day_departure_pct": 741.0,
+      "day_category": "LE",
+      "period_actual_mm": 314.3,
+      "period_normal_mm": 212.7,
+      "period_departure_pct": 48.0,
+      "period_category": "E",
+      "scraped_at": "2026-10-29T12:26:15"
     }
   ]
 }

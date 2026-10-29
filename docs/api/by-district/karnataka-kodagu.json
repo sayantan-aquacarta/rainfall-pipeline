@@ -1,7 +1,7 @@
 {
   "state": "KARNATAKA",
   "district": "KODAGU",
-  "row_count": 219,
+  "row_count": 220,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3944,6 +3944,24 @@
       "period_departure_pct": 26.0,
       "period_category": "E",
       "scraped_at": "2026-10-28T12:16:43"
+    },
+    {
+      "date": "2026-10-29",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-29",
+      "level": "district",
+      "subdivision": "S. I. KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "KODAGU",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 5.4,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 236.4,
+      "period_normal_mm": 192.7,
+      "period_departure_pct": 23.0,
+      "period_category": "E",
+      "scraped_at": "2026-10-29T12:26:15"
     }
   ]
 }
