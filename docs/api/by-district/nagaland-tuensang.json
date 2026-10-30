@@ -1,7 +1,7 @@
 {
   "state": "NAGALAND",
   "district": "TUENSANG",
-  "row_count": 31,
+  "row_count": 32,
   "rows": [
     {
       "date": "2026-06-12",
@@ -560,6 +560,24 @@
       "period_departure_pct": -95.0,
       "period_category": "LD",
       "scraped_at": "2026-10-29T12:26:15"
+    },
+    {
+      "date": "2026-10-30",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-30",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "NAGALAND",
+      "district": "TUENSANG",
+      "day_actual_mm": 4.4,
+      "day_normal_mm": 1.8,
+      "day_departure_pct": 144.0,
+      "day_category": "LE",
+      "period_actual_mm": 10.2,
+      "period_normal_mm": 108.9,
+      "period_departure_pct": -91.0,
+      "period_category": "LD",
+      "scraped_at": "2026-10-30T12:17:22"
     }
   ]
 }

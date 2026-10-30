@@ -1,7 +1,7 @@
 {
   "state": "UTTAR PRADESH",
   "district": "BAGHPAT",
-  "row_count": 174,
+  "row_count": 175,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3134,6 +3134,24 @@
       "period_departure_pct": 517.0,
       "period_category": "LE",
       "scraped_at": "2026-10-29T12:26:15"
+    },
+    {
+      "date": "2026-10-30",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-30",
+      "level": "district",
+      "subdivision": "WEST UTTAR PRADESH",
+      "state": "UTTAR PRADESH",
+      "district": "BAGHPAT",
+      "day_actual_mm": 56.7,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": 566567.0,
+      "day_category": "LE",
+      "period_actual_mm": 111.7,
+      "period_normal_mm": 8.8,
+      "period_departure_pct": 1150.0,
+      "period_category": "LE",
+      "scraped_at": "2026-10-30T12:17:22"
     }
   ]
 }

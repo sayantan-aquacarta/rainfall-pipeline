@@ -1,7 +1,7 @@
 {
   "state": "BIHAR",
   "district": "BHAGALPUR",
-  "row_count": 174,
+  "row_count": 175,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3134,6 +3134,24 @@
       "period_departure_pct": -92.0,
       "period_category": "LD",
       "scraped_at": "2026-10-29T12:26:15"
+    },
+    {
+      "date": "2026-10-30",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-30",
+      "level": "district",
+      "subdivision": "BIHAR",
+      "state": "BIHAR",
+      "district": "BHAGALPUR",
+      "day_actual_mm": 10.4,
+      "day_normal_mm": 0.3,
+      "day_departure_pct": 3381.0,
+      "day_category": "LE",
+      "period_actual_mm": 17.3,
+      "period_normal_mm": 90.6,
+      "period_departure_pct": -81.0,
+      "period_category": "LD",
+      "scraped_at": "2026-10-30T12:17:22"
     }
   ]
 }
