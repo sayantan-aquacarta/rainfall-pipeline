@@ -7942,7 +7942,7 @@
       "period_normal_mm": 162.1,
       "period_departure_pct": -71.0,
       "period_category": "LD",
-      "scraped_at": "2026-10-30T12:17:22"
+      "scraped_at": "2026-10-31T11:48:52"
     },
     {
       "date": "2026-10-30",
@@ -7960,7 +7960,7 @@
       "period_normal_mm": 164.6,
       "period_departure_pct": -61.0,
       "period_category": "LD",
-      "scraped_at": "2026-10-30T12:17:22"
+      "scraped_at": "2026-10-31T11:48:52"
     }
   ]
 }
