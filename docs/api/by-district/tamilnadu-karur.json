@@ -1,7 +1,7 @@
 {
   "state": "TAMILNADU",
   "district": "KARUR",
-  "row_count": 221,
+  "row_count": 222,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3980,6 +3980,24 @@
       "period_departure_pct": 57.0,
       "period_category": "E",
       "scraped_at": "2026-10-31T11:48:52"
+    },
+    {
+      "date": "2026-11-01",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-01",
+      "level": "district",
+      "subdivision": "TAMIL. PUDU.& KARAIKAL",
+      "state": "TAMILNADU",
+      "district": "KARUR",
+      "day_actual_mm": 0.4,
+      "day_normal_mm": 5.2,
+      "day_departure_pct": -93.0,
+      "day_category": "LD",
+      "period_actual_mm": 199.3,
+      "period_normal_mm": 134.7,
+      "period_departure_pct": 48.0,
+      "period_category": "E",
+      "scraped_at": "2026-11-01T12:48:12"
     }
   ]
 }

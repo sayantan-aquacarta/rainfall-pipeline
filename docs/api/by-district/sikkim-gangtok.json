@@ -1,7 +1,7 @@
 {
   "state": "SIKKIM",
   "district": "GANGTOK",
-  "row_count": 221,
+  "row_count": 222,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3980,6 +3980,24 @@
       "period_departure_pct": -61.0,
       "period_category": "LD",
       "scraped_at": "2026-10-31T11:48:52"
+    },
+    {
+      "date": "2026-11-01",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-01",
+      "level": "district",
+      "subdivision": "SHWB & SIKKIM",
+      "state": "SIKKIM",
+      "district": "GANGTOK",
+      "day_actual_mm": 1.1,
+      "day_normal_mm": 1.0,
+      "day_departure_pct": 5.0,
+      "day_category": "N",
+      "period_actual_mm": 88.2,
+      "period_normal_mm": 162.7,
+      "period_departure_pct": -46.0,
+      "period_category": "D",
+      "scraped_at": "2026-11-01T12:48:12"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "MADHYA PRADESH",
   "district": "SINGRAULI",
-  "row_count": 175,
+  "row_count": 176,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3152,6 +3152,24 @@
       "period_departure_pct": 7.0,
       "period_category": "N",
       "scraped_at": "2026-10-31T11:48:52"
+    },
+    {
+      "date": "2026-11-01",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-01",
+      "level": "district",
+      "subdivision": "EAST MADHYA PRADESH",
+      "state": "MADHYA PRADESH",
+      "district": "SINGRAULI",
+      "day_actual_mm": 1.4,
+      "day_normal_mm": 0.4,
+      "day_departure_pct": 255.0,
+      "day_category": "LE",
+      "period_actual_mm": 49.4,
+      "period_normal_mm": 44.1,
+      "period_departure_pct": 12.0,
+      "period_category": "N",
+      "scraped_at": "2026-11-01T12:48:12"
     }
   ]
 }
