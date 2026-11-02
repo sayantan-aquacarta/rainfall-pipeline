@@ -1,7 +1,7 @@
 {
   "state": "TAMILNADU",
   "district": "NILGIRIS",
-  "row_count": 222,
+  "row_count": 223,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3998,6 +3998,24 @@
       "period_departure_pct": 43.0,
       "period_category": "E",
       "scraped_at": "2026-11-01T12:48:12"
+    },
+    {
+      "date": "2026-11-02",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-02",
+      "level": "district",
+      "subdivision": "TAMIL. PUDU.& KARAIKAL",
+      "state": "TAMILNADU",
+      "district": "NILGIRIS",
+      "day_actual_mm": 2.3,
+      "day_normal_mm": 9.9,
+      "day_departure_pct": -76.0,
+      "day_category": "LD",
+      "period_actual_mm": 337.8,
+      "period_normal_mm": 244.5,
+      "period_departure_pct": 38.0,
+      "period_category": "E",
+      "scraped_at": "2026-11-02T14:57:21"
     }
   ]
 }

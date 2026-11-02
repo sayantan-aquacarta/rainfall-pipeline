@@ -1,7 +1,7 @@
 {
   "state": "ANDHRA PRADESH",
   "district": "SRI SATHYASAI DISTRICT",
-  "row_count": 192,
+  "row_count": 193,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3458,6 +3458,24 @@
       "period_departure_pct": -45.0,
       "period_category": "D",
       "scraped_at": "2026-11-01T12:48:12"
+    },
+    {
+      "date": "2026-11-02",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-02",
+      "level": "district",
+      "subdivision": "RAYALASEEMA",
+      "state": "ANDHRA PRADESH",
+      "district": "SRI SATHYASAI DISTRICT",
+      "day_actual_mm": 0.1,
+      "day_normal_mm": 4.4,
+      "day_departure_pct": -98.0,
+      "day_category": "LD",
+      "period_actual_mm": 65.6,
+      "period_normal_mm": 123.7,
+      "period_departure_pct": -47.0,
+      "period_category": "D",
+      "scraped_at": "2026-11-02T14:57:21"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "ANDHRA PRADESH",
   "district": "KAKINADA",
-  "row_count": 222,
+  "row_count": 223,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3998,6 +3998,24 @@
       "period_departure_pct": 34.0,
       "period_category": "E",
       "scraped_at": "2026-11-01T12:48:12"
+    },
+    {
+      "date": "2026-11-02",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-02",
+      "level": "district",
+      "subdivision": "COASTAL A. P. & YANAM",
+      "state": "ANDHRA PRADESH",
+      "district": "KAKINADA",
+      "day_actual_mm": 24.5,
+      "day_normal_mm": 8.0,
+      "day_departure_pct": 206.0,
+      "day_category": "LE",
+      "period_actual_mm": 299.1,
+      "period_normal_mm": 212.2,
+      "period_departure_pct": 41.0,
+      "period_category": "E",
+      "scraped_at": "2026-11-02T14:57:21"
     }
   ]
 }

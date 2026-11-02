@@ -1,6 +1,6 @@
 {
   "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
-  "row_count": 544,
+  "row_count": 546,
   "districts": [
     "DADARA & NAGAR HAVELI",
     "DAMAN",
@@ -9798,6 +9798,42 @@
       "period_departure_pct": -100.0,
       "period_category": "NR",
       "scraped_at": "2026-11-01T12:48:12"
+    },
+    {
+      "date": "2026-11-02",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-02",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
+      "district": "DAMAN",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.1,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 0.2,
+      "period_normal_mm": 47.2,
+      "period_departure_pct": -99.0,
+      "period_category": "LD",
+      "scraped_at": "2026-11-02T14:57:21"
+    },
+    {
+      "date": "2026-11-02",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-02",
+      "level": "district",
+      "subdivision": "SAURASHTRA & KUTCH",
+      "state": "DADRA & NAGAR HAVELI AND DAMAN & DIU (UT)",
+      "district": "DIU",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 1.8,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 0.0,
+      "period_normal_mm": 23.7,
+      "period_departure_pct": -100.0,
+      "period_category": "NR",
+      "scraped_at": "2026-11-02T14:57:21"
     }
   ]
 }

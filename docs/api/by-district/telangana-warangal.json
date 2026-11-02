@@ -1,7 +1,7 @@
 {
   "state": "TELANGANA",
   "district": "WARANGAL",
-  "row_count": 176,
+  "row_count": 177,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3170,6 +3170,24 @@
       "period_departure_pct": -78.0,
       "period_category": "LD",
       "scraped_at": "2026-11-01T12:48:12"
+    },
+    {
+      "date": "2026-11-02",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-02",
+      "level": "district",
+      "subdivision": "TELANGANA",
+      "state": "TELANGANA",
+      "district": "WARANGAL",
+      "day_actual_mm": 8.8,
+      "day_normal_mm": 3.0,
+      "day_departure_pct": 192.0,
+      "day_category": "LE",
+      "period_actual_mm": 28.1,
+      "period_normal_mm": 91.3,
+      "period_departure_pct": -69.0,
+      "period_category": "LD",
+      "scraped_at": "2026-11-02T14:57:21"
     }
   ]
 }
