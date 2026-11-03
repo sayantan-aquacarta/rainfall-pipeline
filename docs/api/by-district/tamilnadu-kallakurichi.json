@@ -1,7 +1,7 @@
 {
   "state": "TAMILNADU",
   "district": "KALLAKURICHI",
-  "row_count": 223,
+  "row_count": 224,
   "rows": [
     {
       "date": "2026-04-13",
@@ -4016,6 +4016,24 @@
       "period_departure_pct": 50.0,
       "period_category": "E",
       "scraped_at": "2026-11-02T14:57:21"
+    },
+    {
+      "date": "2026-11-03",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-03",
+      "level": "district",
+      "subdivision": "TAMIL. PUDU.& KARAIKAL",
+      "state": "TAMILNADU",
+      "district": "KALLAKURICHI",
+      "day_actual_mm": 0.6,
+      "day_normal_mm": 6.8,
+      "day_departure_pct": -92.0,
+      "day_category": "LD",
+      "period_actual_mm": 262.1,
+      "period_normal_mm": 181.0,
+      "period_departure_pct": 45.0,
+      "period_category": "E",
+      "scraped_at": "2026-11-03T13:45:34"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "ANDHRA PRADESH",
   "district": "PRAKASAM",
-  "row_count": 223,
+  "row_count": 224,
   "rows": [
     {
       "date": "2026-04-13",
@@ -4016,6 +4016,24 @@
       "period_departure_pct": -73.0,
       "period_category": "LD",
       "scraped_at": "2026-11-02T14:57:21"
+    },
+    {
+      "date": "2026-11-03",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-03",
+      "level": "district",
+      "subdivision": "COASTAL A. P. & YANAM",
+      "state": "ANDHRA PRADESH",
+      "district": "PRAKASAM",
+      "day_actual_mm": 28.6,
+      "day_normal_mm": 4.5,
+      "day_departure_pct": 536.0,
+      "day_category": "LE",
+      "period_actual_mm": 74.9,
+      "period_normal_mm": 178.8,
+      "period_departure_pct": -58.0,
+      "period_category": "D",
+      "scraped_at": "2026-11-03T13:45:34"
     }
   ]
 }

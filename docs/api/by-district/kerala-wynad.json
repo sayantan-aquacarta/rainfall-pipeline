@@ -1,7 +1,7 @@
 {
   "state": "KERALA",
   "district": "WYNAD",
-  "row_count": 223,
+  "row_count": 224,
   "rows": [
     {
       "date": "2026-04-13",
@@ -4016,6 +4016,24 @@
       "period_departure_pct": 20.0,
       "period_category": "E",
       "scraped_at": "2026-11-02T14:57:21"
+    },
+    {
+      "date": "2026-11-03",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-03",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "WYNAD",
+      "day_actual_mm": 3.8,
+      "day_normal_mm": 3.2,
+      "day_departure_pct": 18.0,
+      "day_category": "N",
+      "period_actual_mm": 271.5,
+      "period_normal_mm": 226.9,
+      "period_departure_pct": 20.0,
+      "period_category": "E",
+      "scraped_at": "2026-11-03T13:45:34"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "NAGALAND",
   "district": "DIMAPUR",
-  "row_count": 222,
+  "row_count": 223,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3998,6 +3998,24 @@
       "period_departure_pct": -56.0,
       "period_category": "D",
       "scraped_at": "2026-11-02T14:57:21"
+    },
+    {
+      "date": "2026-11-03",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-03",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "NAGALAND",
+      "district": "DIMAPUR",
+      "day_actual_mm": 9.3,
+      "day_normal_mm": 1.0,
+      "day_departure_pct": 827.0,
+      "day_category": "LE",
+      "period_actual_mm": 60.4,
+      "period_normal_mm": 115.9,
+      "period_departure_pct": -48.0,
+      "period_category": "D",
+      "scraped_at": "2026-11-03T13:45:34"
     }
   ]
 }
