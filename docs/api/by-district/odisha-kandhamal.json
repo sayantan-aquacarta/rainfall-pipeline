@@ -1,7 +1,7 @@
 {
   "state": "ODISHA",
   "district": "KANDHAMAL",
-  "row_count": 179,
+  "row_count": 180,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3224,6 +3224,24 @@
       "period_departure_pct": 102.0,
       "period_category": "LE",
       "scraped_at": "2026-11-05T14:08:52"
+    },
+    {
+      "date": "2026-11-06",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-06",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "KANDHAMAL",
+      "day_actual_mm": 0.8,
+      "day_normal_mm": 0.7,
+      "day_departure_pct": 17.0,
+      "day_category": "N",
+      "period_actual_mm": 295.5,
+      "period_normal_mm": 146.9,
+      "period_departure_pct": 101.0,
+      "period_category": "LE",
+      "scraped_at": "2026-11-06T13:51:57"
     }
   ]
 }

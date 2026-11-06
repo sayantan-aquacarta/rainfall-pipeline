@@ -1,7 +1,7 @@
 {
   "state": "CHHATTISGARH",
   "district": "NARAYANPUR",
-  "row_count": 179,
+  "row_count": 180,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3224,6 +3224,24 @@
       "period_departure_pct": -73.0,
       "period_category": "LD",
       "scraped_at": "2026-11-05T14:08:52"
+    },
+    {
+      "date": "2026-11-06",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-06",
+      "level": "district",
+      "subdivision": "CHHATTISGARH",
+      "state": "CHHATTISGARH",
+      "district": "NARAYANPUR",
+      "day_actual_mm": 10.9,
+      "day_normal_mm": 0.1,
+      "day_departure_pct": 10750.0,
+      "day_category": "LE",
+      "period_actual_mm": 32.0,
+      "period_normal_mm": 77.7,
+      "period_departure_pct": -59.0,
+      "period_category": "D",
+      "scraped_at": "2026-11-06T13:51:57"
     }
   ]
 }

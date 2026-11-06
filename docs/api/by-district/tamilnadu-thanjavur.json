@@ -1,7 +1,7 @@
 {
   "state": "TAMILNADU",
   "district": "THANJAVUR",
-  "row_count": 225,
+  "row_count": 226,
   "rows": [
     {
       "date": "2026-04-13",
@@ -4052,6 +4052,24 @@
       "period_departure_pct": -44.0,
       "period_category": "D",
       "scraped_at": "2026-11-05T14:08:52"
+    },
+    {
+      "date": "2026-11-06",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-06",
+      "level": "district",
+      "subdivision": "TAMIL. PUDU.& KARAIKAL",
+      "state": "TAMILNADU",
+      "district": "THANJAVUR",
+      "day_actual_mm": 6.3,
+      "day_normal_mm": 14.0,
+      "day_departure_pct": -55.0,
+      "day_category": "D",
+      "period_actual_mm": 129.9,
+      "period_normal_mm": 235.5,
+      "period_departure_pct": -45.0,
+      "period_category": "D",
+      "scraped_at": "2026-11-06T13:51:57"
     }
   ]
 }
