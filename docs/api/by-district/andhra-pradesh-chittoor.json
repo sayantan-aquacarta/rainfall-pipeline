@@ -1,7 +1,7 @@
 {
   "state": "ANDHRA PRADESH",
   "district": "CHITTOOR",
-  "row_count": 196,
+  "row_count": 197,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3530,6 +3530,24 @@
       "period_departure_pct": 15.0,
       "period_category": "N",
       "scraped_at": "2026-11-06T13:51:57"
+    },
+    {
+      "date": "2026-11-07",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-07",
+      "level": "district",
+      "subdivision": "RAYALASEEMA",
+      "state": "ANDHRA PRADESH",
+      "district": "CHITTOOR",
+      "day_actual_mm": 4.9,
+      "day_normal_mm": 5.5,
+      "day_departure_pct": -11.0,
+      "day_category": "N",
+      "period_actual_mm": 227.3,
+      "period_normal_mm": 198.6,
+      "period_departure_pct": 14.0,
+      "period_category": "N",
+      "scraped_at": "2026-11-07T12:36:01"
     }
   ]
 }

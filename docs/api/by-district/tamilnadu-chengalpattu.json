@@ -1,7 +1,7 @@
 {
   "state": "TAMILNADU",
   "district": "CHENGALPATTU",
-  "row_count": 226,
+  "row_count": 227,
   "rows": [
     {
       "date": "2026-04-13",
@@ -4070,6 +4070,24 @@
       "period_departure_pct": -31.0,
       "period_category": "D",
       "scraped_at": "2026-11-06T13:51:57"
+    },
+    {
+      "date": "2026-11-07",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-07",
+      "level": "district",
+      "subdivision": "TAMIL. PUDU.& KARAIKAL",
+      "state": "TAMILNADU",
+      "district": "CHENGALPATTU",
+      "day_actual_mm": 4.3,
+      "day_normal_mm": 14.7,
+      "day_departure_pct": -71.0,
+      "day_category": "LD",
+      "period_actual_mm": 215.9,
+      "period_normal_mm": 323.2,
+      "period_departure_pct": -33.0,
+      "period_category": "D",
+      "scraped_at": "2026-11-07T12:36:01"
     }
   ]
 }
