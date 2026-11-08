@@ -1,7 +1,7 @@
 {
   "state": "TELANGANA",
   "district": "MANCHERIAL",
-  "row_count": 180,
+  "row_count": 181,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3242,6 +3242,24 @@
       "period_departure_pct": -84.0,
       "period_category": "LD",
       "scraped_at": "2026-11-07T12:36:01"
+    },
+    {
+      "date": "2026-11-08",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-08",
+      "level": "district",
+      "subdivision": "TELANGANA",
+      "state": "TELANGANA",
+      "district": "MANCHERIAL",
+      "day_actual_mm": 0.2,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": 2333.0,
+      "day_category": "LE",
+      "period_actual_mm": 16.3,
+      "period_normal_mm": 99.3,
+      "period_departure_pct": -84.0,
+      "period_category": "LD",
+      "scraped_at": "2026-11-08T12:53:32"
     }
   ]
 }

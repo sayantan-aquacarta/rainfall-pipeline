@@ -1,7 +1,7 @@
 {
   "state": "TAMILNADU",
   "district": "KRISHNAGIRI",
-  "row_count": 227,
+  "row_count": 228,
   "rows": [
     {
       "date": "2026-04-13",
@@ -4088,6 +4088,24 @@
       "period_departure_pct": -2.0,
       "period_category": "N",
       "scraped_at": "2026-11-07T12:36:01"
+    },
+    {
+      "date": "2026-11-08",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-08",
+      "level": "district",
+      "subdivision": "TAMIL. PUDU.& KARAIKAL",
+      "state": "TAMILNADU",
+      "district": "KRISHNAGIRI",
+      "day_actual_mm": 4.1,
+      "day_normal_mm": 4.3,
+      "day_departure_pct": -4.0,
+      "day_category": "N",
+      "period_actual_mm": 193.0,
+      "period_normal_mm": 196.1,
+      "period_departure_pct": -2.0,
+      "period_category": "N",
+      "scraped_at": "2026-11-08T12:53:32"
     }
   ]
 }
