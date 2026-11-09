@@ -1,7 +1,7 @@
 {
   "state": "TAMILNADU",
   "district": "TENKASI",
-  "row_count": 228,
+  "row_count": 229,
   "rows": [
     {
       "date": "2026-04-13",
@@ -4106,6 +4106,24 @@
       "period_departure_pct": 2.0,
       "period_category": "N",
       "scraped_at": "2026-11-08T12:53:32"
+    },
+    {
+      "date": "2026-11-09",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-09",
+      "level": "district",
+      "subdivision": "TAMIL. PUDU.& KARAIKAL",
+      "state": "TAMILNADU",
+      "district": "TENKASI",
+      "day_actual_mm": 3.3,
+      "day_normal_mm": 10.5,
+      "day_departure_pct": -68.0,
+      "day_category": "LD",
+      "period_actual_mm": 264.7,
+      "period_normal_mm": 265.7,
+      "period_departure_pct": 0.0,
+      "period_category": "N",
+      "scraped_at": "2026-11-09T15:27:03"
     }
   ]
 }

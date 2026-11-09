@@ -1,7 +1,7 @@
 {
   "state": "TELANGANA",
   "district": "M. MALKAJGIRI",
-  "row_count": 182,
+  "row_count": 183,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3278,6 +3278,24 @@
       "period_departure_pct": -66.0,
       "period_category": "LD",
       "scraped_at": "2026-11-08T12:53:32"
+    },
+    {
+      "date": "2026-11-09",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-09",
+      "level": "district",
+      "subdivision": "TELANGANA",
+      "state": "TELANGANA",
+      "district": "M. MALKAJGIRI",
+      "day_actual_mm": 0.2,
+      "day_normal_mm": 0.9,
+      "day_departure_pct": -75.0,
+      "day_category": "LD",
+      "period_actual_mm": 38.1,
+      "period_normal_mm": 111.0,
+      "period_departure_pct": -66.0,
+      "period_category": "LD",
+      "scraped_at": "2026-11-09T15:27:03"
     }
   ]
 }
