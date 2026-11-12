@@ -1,7 +1,7 @@
 {
   "state": "ANDAMAN & NICOBAR ISLANDS",
   "district": "SOUTH ANDAMAN",
-  "row_count": 231,
+  "row_count": 232,
   "rows": [
     {
       "date": "2026-04-13",
@@ -4160,6 +4160,24 @@
       "period_departure_pct": 3.0,
       "period_category": "N",
       "scraped_at": "2026-11-11T13:42:21"
+    },
+    {
+      "date": "2026-11-12",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-12",
+      "level": "district",
+      "subdivision": "A & N ISLAND",
+      "state": "ANDAMAN & NICOBAR ISLANDS",
+      "district": "SOUTH ANDAMAN",
+      "day_actual_mm": 33.3,
+      "day_normal_mm": 8.1,
+      "day_departure_pct": 312.0,
+      "day_category": "LE",
+      "period_actual_mm": 432.5,
+      "period_normal_mm": 396.9,
+      "period_departure_pct": 9.0,
+      "period_category": "N",
+      "scraped_at": "2026-11-12T14:45:46"
     }
   ]
 }
