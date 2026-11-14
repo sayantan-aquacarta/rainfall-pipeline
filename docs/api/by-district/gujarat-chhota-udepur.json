@@ -1,7 +1,7 @@
 {
   "state": "GUJARAT",
   "district": "CHHOTA UDEPUR",
-  "row_count": 233,
+  "row_count": 234,
   "rows": [
     {
       "date": "2026-04-13",
@@ -4196,6 +4196,24 @@
       "period_departure_pct": -99.0,
       "period_category": "LD",
       "scraped_at": "2026-11-13T14:03:48"
+    },
+    {
+      "date": "2026-11-14",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-14",
+      "level": "district",
+      "subdivision": "GUJARAT REGION",
+      "state": "GUJARAT",
+      "district": "CHHOTA UDEPUR",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.0,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 0.2,
+      "period_normal_mm": 27.2,
+      "period_departure_pct": -99.0,
+      "period_category": "LD",
+      "scraped_at": "2026-11-14T13:05:37"
     }
   ]
 }
