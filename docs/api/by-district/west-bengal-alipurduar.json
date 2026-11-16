@@ -1,7 +1,7 @@
 {
   "state": "WEST BENGAL",
   "district": "ALIPURDUAR",
-  "row_count": 235,
+  "row_count": 236,
   "rows": [
     {
       "date": "2026-04-13",
@@ -4232,6 +4232,24 @@
       "period_departure_pct": -64.0,
       "period_category": "LD",
       "scraped_at": "2026-11-15T13:33:56"
+    },
+    {
+      "date": "2026-11-16",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-16",
+      "level": "district",
+      "subdivision": "SHWB & SIKKIM",
+      "state": "WEST BENGAL",
+      "district": "ALIPURDUAR",
+      "day_actual_mm": 4.9,
+      "day_normal_mm": 0.4,
+      "day_departure_pct": 1133.0,
+      "day_category": "LE",
+      "period_actual_mm": 64.6,
+      "period_normal_mm": 167.2,
+      "period_departure_pct": -61.0,
+      "period_category": "LD",
+      "scraped_at": "2026-11-16T15:01:58"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "PUNJAB",
   "district": "BARNALA",
-  "row_count": 188,
+  "row_count": 189,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3386,6 +3386,24 @@
       "period_departure_pct": 198.0,
       "period_category": "LE",
       "scraped_at": "2026-11-15T13:33:56"
+    },
+    {
+      "date": "2026-11-16",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-16",
+      "level": "district",
+      "subdivision": "PUNJAB",
+      "state": "PUNJAB",
+      "district": "BARNALA",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 0.2,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 26.1,
+      "period_normal_mm": 8.7,
+      "period_departure_pct": 191.0,
+      "period_category": "LE",
+      "scraped_at": "2026-11-16T15:01:58"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "ASSAM",
   "district": "BARPETA",
-  "row_count": 233,
+  "row_count": 234,
   "rows": [
     {
       "date": "2026-04-13",
@@ -4196,6 +4196,24 @@
       "period_departure_pct": -76.0,
       "period_category": "LD",
       "scraped_at": "2026-11-15T13:33:56"
+    },
+    {
+      "date": "2026-11-16",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-16",
+      "level": "district",
+      "subdivision": "ASSAM & MEGHALAYA",
+      "state": "ASSAM",
+      "district": "BARPETA",
+      "day_actual_mm": 6.4,
+      "day_normal_mm": 1.1,
+      "day_departure_pct": 482.0,
+      "day_category": "LE",
+      "period_actual_mm": 35.8,
+      "period_normal_mm": 123.7,
+      "period_departure_pct": -71.0,
+      "period_category": "LD",
+      "scraped_at": "2026-11-16T15:01:58"
     }
   ]
 }
