@@ -1,7 +1,7 @@
 {
   "state": "ASSAM",
   "district": "JORHAT",
-  "row_count": 235,
+  "row_count": 236,
   "rows": [
     {
       "date": "2026-04-13",
@@ -4232,6 +4232,24 @@
       "period_departure_pct": -34.0,
       "period_category": "D",
       "scraped_at": "2026-11-16T15:01:58"
+    },
+    {
+      "date": "2026-11-17",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-17",
+      "level": "district",
+      "subdivision": "ASSAM & MEGHALAYA",
+      "state": "ASSAM",
+      "district": "JORHAT",
+      "day_actual_mm": 0.6,
+      "day_normal_mm": 0.5,
+      "day_departure_pct": 20.0,
+      "day_category": "E",
+      "period_actual_mm": 74.3,
+      "period_normal_mm": 113.0,
+      "period_departure_pct": -34.0,
+      "period_category": "D",
+      "scraped_at": "2026-11-17T15:37:55"
     }
   ]
 }
