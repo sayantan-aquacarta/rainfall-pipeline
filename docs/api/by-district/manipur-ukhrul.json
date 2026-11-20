@@ -1,7 +1,7 @@
 {
   "state": "MANIPUR",
   "district": "UKHRUL",
-  "row_count": 238,
+  "row_count": 239,
   "rows": [
     {
       "date": "2026-04-13",
@@ -4286,6 +4286,24 @@
       "period_departure_pct": -55.0,
       "period_category": "D",
       "scraped_at": "2026-11-19T15:22:18"
+    },
+    {
+      "date": "2026-11-20",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-20",
+      "level": "district",
+      "subdivision": "NMMT",
+      "state": "MANIPUR",
+      "district": "UKHRUL",
+      "day_actual_mm": 27.2,
+      "day_normal_mm": 0.6,
+      "day_departure_pct": 4433.0,
+      "day_category": "LE",
+      "period_actual_mm": 108.3,
+      "period_normal_mm": 181.4,
+      "period_departure_pct": -40.0,
+      "period_category": "D",
+      "scraped_at": "2026-11-20T14:59:38"
     }
   ]
 }
