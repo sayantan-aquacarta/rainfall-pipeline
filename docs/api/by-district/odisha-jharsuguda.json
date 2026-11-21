@@ -1,7 +1,7 @@
 {
   "state": "ODISHA",
   "district": "JHARSUGUDA",
-  "row_count": 194,
+  "row_count": 195,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3494,6 +3494,24 @@
       "period_departure_pct": 33.0,
       "period_category": "E",
       "scraped_at": "2026-11-20T14:59:38"
+    },
+    {
+      "date": "2026-11-21",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-21",
+      "level": "district",
+      "subdivision": "ODISHA",
+      "state": "ODISHA",
+      "district": "JHARSUGUDA",
+      "day_actual_mm": 16.3,
+      "day_normal_mm": 0.3,
+      "day_departure_pct": 5339.0,
+      "day_category": "LE",
+      "period_actual_mm": 105.6,
+      "period_normal_mm": 67.4,
+      "period_departure_pct": 57.0,
+      "period_category": "E",
+      "scraped_at": "2026-11-21T14:20:49"
     }
   ]
 }
