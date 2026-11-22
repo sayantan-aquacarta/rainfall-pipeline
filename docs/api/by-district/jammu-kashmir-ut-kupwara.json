@@ -1,7 +1,7 @@
 {
   "state": "JAMMU & KASHMIR(UT)",
   "district": "KUPWARA",
-  "row_count": 241,
+  "row_count": 242,
   "rows": [
     {
       "date": "2026-04-13",
@@ -4340,6 +4340,24 @@
       "period_departure_pct": 45.0,
       "period_category": "E",
       "scraped_at": "2026-11-21T14:20:49"
+    },
+    {
+      "date": "2026-11-22",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-22",
+      "level": "district",
+      "subdivision": "J & K AND LADAKH",
+      "state": "JAMMU & KASHMIR(UT)",
+      "district": "KUPWARA",
+      "day_actual_mm": 0.0,
+      "day_normal_mm": 2.4,
+      "day_departure_pct": -100.0,
+      "day_category": "NR",
+      "period_actual_mm": 117.1,
+      "period_normal_mm": 82.9,
+      "period_departure_pct": 41.0,
+      "period_category": "E",
+      "scraped_at": "2026-11-22T14:12:23"
     }
   ]
 }
