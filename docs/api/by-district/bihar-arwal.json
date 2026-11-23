@@ -1,7 +1,7 @@
 {
   "state": "BIHAR",
   "district": "ARWAL",
-  "row_count": 196,
+  "row_count": 197,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3530,6 +3530,24 @@
       "period_departure_pct": 112.0,
       "period_category": "LE",
       "scraped_at": "2026-11-22T14:12:23"
+    },
+    {
+      "date": "2026-11-23",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-23",
+      "level": "district",
+      "subdivision": "BIHAR",
+      "state": "BIHAR",
+      "district": "ARWAL",
+      "day_actual_mm": 0.7,
+      "day_normal_mm": 0.5,
+      "day_departure_pct": 47.0,
+      "day_category": "E",
+      "period_actual_mm": 73.2,
+      "period_normal_mm": 34.5,
+      "period_departure_pct": 111.0,
+      "period_category": "LE",
+      "scraped_at": "2026-11-23T17:33:54"
     }
   ]
 }
