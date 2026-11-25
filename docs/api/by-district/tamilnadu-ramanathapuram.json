@@ -1,7 +1,7 @@
 {
   "state": "TAMILNADU",
   "district": "RAMANATHAPURAM",
-  "row_count": 244,
+  "row_count": 245,
   "rows": [
     {
       "date": "2026-04-13",
@@ -4394,6 +4394,24 @@
       "period_departure_pct": -13.0,
       "period_category": "N",
       "scraped_at": "2026-11-24T17:04:43"
+    },
+    {
+      "date": "2026-11-25",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-25",
+      "level": "district",
+      "subdivision": "TAMIL. PUDU.& KARAIKAL",
+      "state": "TAMILNADU",
+      "district": "RAMANATHAPURAM",
+      "day_actual_mm": 7.5,
+      "day_normal_mm": 9.9,
+      "day_departure_pct": -24.0,
+      "day_category": "D",
+      "period_actual_mm": 320.2,
+      "period_normal_mm": 369.7,
+      "period_departure_pct": -13.0,
+      "period_category": "N",
+      "scraped_at": "2026-11-25T16:54:13"
     }
   ]
 }
