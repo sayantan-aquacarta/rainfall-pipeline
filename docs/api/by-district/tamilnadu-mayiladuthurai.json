@@ -1,7 +1,7 @@
 {
   "state": "TAMILNADU",
   "district": "MAYILADUTHURAI",
-  "row_count": 245,
+  "row_count": 246,
   "rows": [
     {
       "date": "2026-04-13",
@@ -4412,6 +4412,24 @@
       "period_departure_pct": -44.0,
       "period_category": "D",
       "scraped_at": "2026-11-25T16:54:13"
+    },
+    {
+      "date": "2026-11-26",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-26",
+      "level": "district",
+      "subdivision": "TAMIL. PUDU.& KARAIKAL",
+      "state": "TAMILNADU",
+      "district": "MAYILADUTHURAI",
+      "day_actual_mm": 22.7,
+      "day_normal_mm": 17.8,
+      "day_departure_pct": 27.0,
+      "day_category": "E",
+      "period_actual_mm": 349.2,
+      "period_normal_mm": 600.0,
+      "period_departure_pct": -42.0,
+      "period_category": "D",
+      "scraped_at": "2026-11-26T16:31:40"
     }
   ]
 }

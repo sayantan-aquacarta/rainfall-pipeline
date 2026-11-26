@@ -1,7 +1,7 @@
 {
   "state": "ANDHRA PRADESH",
   "district": "TIRUPATI",
-  "row_count": 215,
+  "row_count": 216,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3872,6 +3872,24 @@
       "period_departure_pct": -26.0,
       "period_category": "D",
       "scraped_at": "2026-11-25T16:54:13"
+    },
+    {
+      "date": "2026-11-26",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-26",
+      "level": "district",
+      "subdivision": "RAYALASEEMA",
+      "state": "ANDHRA PRADESH",
+      "district": "TIRUPATI",
+      "day_actual_mm": 9.8,
+      "day_normal_mm": 11.5,
+      "day_departure_pct": -14.0,
+      "day_category": "N",
+      "period_actual_mm": 364.0,
+      "period_normal_mm": 490.6,
+      "period_departure_pct": -26.0,
+      "period_category": "D",
+      "scraped_at": "2026-11-26T16:31:40"
     }
   ]
 }

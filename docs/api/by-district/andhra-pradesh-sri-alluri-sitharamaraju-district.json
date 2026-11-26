@@ -1,7 +1,7 @@
 {
   "state": "ANDHRA PRADESH",
   "district": "SRI ALLURI SITHARAMARAJU DISTRICT",
-  "row_count": 245,
+  "row_count": 246,
   "rows": [
     {
       "date": "2026-04-13",
@@ -4412,6 +4412,24 @@
       "period_departure_pct": 39.0,
       "period_category": "E",
       "scraped_at": "2026-11-25T16:54:13"
+    },
+    {
+      "date": "2026-11-26",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-26",
+      "level": "district",
+      "subdivision": "COASTAL A. P. & YANAM",
+      "state": "ANDHRA PRADESH",
+      "district": "SRI ALLURI SITHARAMARAJU DISTRICT",
+      "day_actual_mm": 3.6,
+      "day_normal_mm": 0.8,
+      "day_departure_pct": 346.0,
+      "day_category": "LE",
+      "period_actual_mm": 256.3,
+      "period_normal_mm": 182.6,
+      "period_departure_pct": 40.0,
+      "period_category": "E",
+      "scraped_at": "2026-11-26T16:31:40"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "KARNATAKA",
   "district": "BENGALURU URBAN",
-  "row_count": 245,
+  "row_count": 246,
   "rows": [
     {
       "date": "2026-04-13",
@@ -4412,6 +4412,24 @@
       "period_departure_pct": -36.0,
       "period_category": "D",
       "scraped_at": "2026-11-25T16:54:13"
+    },
+    {
+      "date": "2026-11-26",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-26",
+      "level": "district",
+      "subdivision": "S. I. KARNATAKA",
+      "state": "KARNATAKA",
+      "district": "BENGALURU URBAN",
+      "day_actual_mm": 1.1,
+      "day_normal_mm": 1.4,
+      "day_departure_pct": -18.0,
+      "day_category": "N",
+      "period_actual_mm": 124.8,
+      "period_normal_mm": 194.7,
+      "period_departure_pct": -36.0,
+      "period_category": "D",
+      "scraped_at": "2026-11-26T16:31:40"
     }
   ]
 }

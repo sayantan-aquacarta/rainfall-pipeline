@@ -1,7 +1,7 @@
 {
   "state": "KERALA",
   "district": "MALAPPURAM",
-  "row_count": 245,
+  "row_count": 246,
   "rows": [
     {
       "date": "2026-04-13",
@@ -4412,6 +4412,24 @@
       "period_departure_pct": -43.0,
       "period_category": "D",
       "scraped_at": "2026-11-25T16:54:13"
+    },
+    {
+      "date": "2026-11-26",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-26",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "MALAPPURAM",
+      "day_actual_mm": 26.2,
+      "day_normal_mm": 0.9,
+      "day_departure_pct": 2810.0,
+      "day_category": "LE",
+      "period_actual_mm": 277.7,
+      "period_normal_mm": 438.5,
+      "period_departure_pct": -37.0,
+      "period_category": "D",
+      "scraped_at": "2026-11-26T16:31:40"
     }
   ]
 }

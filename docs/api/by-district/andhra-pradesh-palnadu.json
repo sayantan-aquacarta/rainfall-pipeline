@@ -1,7 +1,7 @@
 {
   "state": "ANDHRA PRADESH",
   "district": "PALNADU",
-  "row_count": 245,
+  "row_count": 246,
   "rows": [
     {
       "date": "2026-04-13",
@@ -4412,6 +4412,24 @@
       "period_departure_pct": -30.0,
       "period_category": "D",
       "scraped_at": "2026-11-25T16:54:13"
+    },
+    {
+      "date": "2026-11-26",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-26",
+      "level": "district",
+      "subdivision": "COASTAL A. P. & YANAM",
+      "state": "ANDHRA PRADESH",
+      "district": "PALNADU",
+      "day_actual_mm": 2.2,
+      "day_normal_mm": 1.5,
+      "day_departure_pct": 49.0,
+      "day_category": "E",
+      "period_actual_mm": 121.0,
+      "period_normal_mm": 171.9,
+      "period_departure_pct": -30.0,
+      "period_category": "D",
+      "scraped_at": "2026-11-26T16:31:40"
     }
   ]
 }
