@@ -1,7 +1,7 @@
 {
   "state": "TAMILNADU",
   "district": "KANCHEEPURAM",
-  "row_count": 246,
+  "row_count": 247,
   "rows": [
     {
       "date": "2026-04-13",
@@ -4430,6 +4430,24 @@
       "period_departure_pct": -43.0,
       "period_category": "D",
       "scraped_at": "2026-11-26T16:31:40"
+    },
+    {
+      "date": "2026-11-27",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-27",
+      "level": "district",
+      "subdivision": "TAMIL. PUDU.& KARAIKAL",
+      "state": "TAMILNADU",
+      "district": "KANCHEEPURAM",
+      "day_actual_mm": 0.3,
+      "day_normal_mm": 9.1,
+      "day_departure_pct": -97.0,
+      "day_category": "LD",
+      "period_actual_mm": 244.3,
+      "period_normal_mm": 439.4,
+      "period_departure_pct": -44.0,
+      "period_category": "D",
+      "scraped_at": "2026-11-27T16:17:22"
     }
   ]
 }

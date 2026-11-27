@@ -1,7 +1,7 @@
 {
   "state": "KERALA",
   "district": "KANNUR",
-  "row_count": 206,
+  "row_count": 207,
   "rows": [
     {
       "date": "2026-06-01",
@@ -3710,6 +3710,24 @@
       "period_departure_pct": -22.0,
       "period_category": "D",
       "scraped_at": "2026-11-26T16:31:40"
+    },
+    {
+      "date": "2026-11-27",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-27",
+      "level": "district",
+      "subdivision": "KERALA & MAHE",
+      "state": "KERALA",
+      "district": "KANNUR",
+      "day_actual_mm": 6.1,
+      "day_normal_mm": 1.5,
+      "day_departure_pct": 309.0,
+      "day_category": "LE",
+      "period_actual_mm": 289.5,
+      "period_normal_mm": 366.7,
+      "period_departure_pct": -21.0,
+      "period_category": "D",
+      "scraped_at": "2026-11-27T16:17:22"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "state": "ANDHRA PRADESH",
   "district": "ELURU",
-  "row_count": 246,
+  "row_count": 247,
   "rows": [
     {
       "date": "2026-04-13",
@@ -4430,6 +4430,24 @@
       "period_departure_pct": 100.0,
       "period_category": "LE",
       "scraped_at": "2026-11-26T16:31:40"
+    },
+    {
+      "date": "2026-11-27",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-27",
+      "level": "district",
+      "subdivision": "COASTAL A. P. & YANAM",
+      "state": "ANDHRA PRADESH",
+      "district": "ELURU",
+      "day_actual_mm": 0.2,
+      "day_normal_mm": 2.6,
+      "day_departure_pct": -94.0,
+      "day_category": "LD",
+      "period_actual_mm": 336.6,
+      "period_normal_mm": 171.0,
+      "period_departure_pct": 97.0,
+      "period_category": "LE",
+      "scraped_at": "2026-11-27T16:17:22"
     }
   ]
 }

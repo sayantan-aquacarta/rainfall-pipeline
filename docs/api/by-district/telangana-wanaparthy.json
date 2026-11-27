@@ -1,7 +1,7 @@
 {
   "state": "TELANGANA",
   "district": "WANAPARTHY",
-  "row_count": 200,
+  "row_count": 201,
   "rows": [
     {
       "date": "2026-04-13",
@@ -3602,6 +3602,24 @@
       "period_departure_pct": -83.0,
       "period_category": "LD",
       "scraped_at": "2026-11-26T16:31:40"
+    },
+    {
+      "date": "2026-11-27",
+      "period_start": "2026-10-01",
+      "period_end": "2026-11-27",
+      "level": "district",
+      "subdivision": "TELANGANA",
+      "state": "TELANGANA",
+      "district": "WANAPARTHY",
+      "day_actual_mm": 1.4,
+      "day_normal_mm": 0.2,
+      "day_departure_pct": 614.0,
+      "day_category": "LE",
+      "period_actual_mm": 21.5,
+      "period_normal_mm": 120.8,
+      "period_departure_pct": -82.0,
+      "period_category": "LD",
+      "scraped_at": "2026-11-27T16:17:22"
     }
   ]
 }
